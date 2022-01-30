@@ -148,6 +148,7 @@ class FuncNoteBook(Notebook):
 
     def chek_menu(self, name):
         """Обязательный ввод значения"""
+        name = name.strip()
         if name == "":
             print("Пустая строка !!!! Введите информацию")
             while True:
