@@ -148,17 +148,17 @@ class FuncNoteBook(Notebook):
 
     def chek_menu(self, name):
         """Обязательный ввод значения"""
-        name = len(name.split())
-        if not name:
+        if name == "":
             print("Пустая строка !!!! Введите информацию")
             while True:
                 say = input()
-                say = len(say.split())
-                if not say:
+                say = say.strip()
+                if say == "":
                     print("Пустая строка !!!! Введите информацию")
                 else:
                     print("Информация принята все хорошо")
                     return say
+        return name
 
     def func_note(self):
         """Метод позволяющий обрабатывать метод экранного меню, в дальгейшем
@@ -204,8 +204,6 @@ def start_book():
     st = FuncNoteBook()
     print(st.func_note())
 
-
-__all__ = ["start_book"]
 
 if __name__ == "__main__":
     start_book()
