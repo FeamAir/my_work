@@ -205,6 +205,8 @@ def start_book():
     st = FuncNoteBook()
     print(st.func_note())
 
+   
+__all__ = ["start_book"]
 
 if __name__ == "__main__":
     start_book()
