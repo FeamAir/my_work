@@ -27,6 +27,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** boy of 11 (S1–S4: 11–13), skinny, quick, all knees; after the skip a young man of 19 — tall, rangy, taller than Pell.
+- **Silhouette, body and bearing:** S1–S4: **skinny, small, quick**, olive-brown skin, scabbed knees; S5+: **very tall and gangly**, taller than Pell, loose-jointed walk. Proposal: after the beating on the Night of a Thousand Voices (S5) he is **deaf in the LEFT ear** and turns his head to the right to listen. Silhouette: the cap.
 - **Hair:** **mouse-brown mop with one tuft at the RIGHT temple that always sticks up** (it survives the soldier's crop in S5).
 - **Eyes:** sea-grey like Pell's — big, curious.
 - **Distinctive mark:** gap in the front teeth (S1–S4 only; adult teeth by S5).

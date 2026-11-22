@@ -27,6 +27,7 @@ first_episode: S01E03
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 40; slender, soft-shouldered, a stillness that looks like calm and is grief.
+- **Silhouette, body and bearing:** **medium height, soft and plump, round-faced**; fair pink-pale skin; hands folded at the waist; walks quietly, close to walls (twenty years in a house where everything is overheard). Silhouette: a rounded figure in lavender-grey, later hooded.
 - **Hair:** S1–S3: **pale ash-gold hair in a braided crown**. From **S4E1**: cut short in mourning and covered by a **pale-violet mourning hood** (the hood is her hair anchor from then on).
 - **Eyes:** grey, red-rimmed easily.
 - **Distinctive mark:** none.

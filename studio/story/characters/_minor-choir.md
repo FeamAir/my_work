@@ -5,6 +5,8 @@ Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world p
 Production note: Choir robes and hoods make this whole group easy to show from behind, hooded or veiled.
 Proposed Choir prop (for the art team and composer): **the Gleaner's bell** — a small silver handbell rung beside a child's ear; a child who hums its note back "has the ear". Gives SEC-029 a visual (Patch remembers "a robe and a bell").
 
+Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
+
 ---
 
 ```canon

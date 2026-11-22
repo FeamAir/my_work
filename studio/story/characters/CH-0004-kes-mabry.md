@@ -26,6 +26,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 34; broad-shouldered, compact, heavy forearms; weathered upland skin.
+- **Silhouette, body and bearing:** **medium height, broad and compact**; ruddy, weathered upland skin; **stiff RIGHT knee** from a pike-thrust at twenty-two (proposal) — a slight rolling limp she ignores; stands with feet planted like a pike square. Silhouette: square shoulders, helm under the arm, uneven stride.
 - **Hair:** **jet-black, short, both sides shaved**, the top swept back.
 - **Eyes:** dark grey.
 - **Distinctive mark:** **burn scar along the RIGHT jaw**, from ear to chin (a powder flash at nineteen).

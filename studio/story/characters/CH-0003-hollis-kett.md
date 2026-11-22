@@ -28,6 +28,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** man of 26; tall, narrow-shouldered, slightly stooped from the desk; long fingers.
+- **Silhouette, body and bearing:** **very tall and thin, stooped** from the desk; light skin that rarely sees sun; walks fast with short, nervous steps, head forward; short-sighted squint without spectacles. Silhouette: a long grey coat on a bent tall frame.
 - **Hair:** **straw-blond**, flat, parted on the left, with **one cowlick at the crown** that never lies down.
 - **Eyes:** pale blue, short-sighted.
 - **Distinctive mark:** **ink stains on the RIGHT fingers** (index and middle), permanent.

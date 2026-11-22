@@ -6,6 +6,8 @@ Coordination: `writer-houses` writes Ossari power (clans, council, war-host, sal
 Production note: Ossari in the field wear wind-hoods and goggles of smoked horn — easy to show masked or at distance; kites and gliders carry most of their screen presence.
 Ottar (CH-0062), Kes's Ossari-born corporal, is filed in `_minor-mids.md` (he serves Rusk).
 
+Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
+
 ---
 
 ```canon
@@ -54,4 +56,4 @@ secrets: []
 status_track: []
 first_episode:
 ```
-**Itsek** (47; NEW — proposal) — Ossari envoy; leads the embassy to Highwater in S2 ("why the Ossari sent envoys"); in S3 he is the envoy who throws the motif line at a Concord lord: *"Who pays for the dry?"* *Secret (proposal, linked to Brenna's secret):* his clan has bought Rusk saltpeter back from Brenna's quartermasters for ten years; he knows the Stair's powder stores better than the Stair does. *Link:* the S3 Battle of the Stair — Ossari guns firing Rusk powder — runs through his ledgers. *Look:* elderly-lean, **shaved sides with a grey crest**, a **long envoy's scarf of knotted signal-cord** (every knot a treaty), smoked-horn goggles pushed up. *Voice:* courteous, dry, perfect Concord with an Ossari "k". *"Your Spires answer you. Our wells do not answer us. Explain the difference, and I will go home."*
+**Itsek** (47; NEW — proposal) — Ossari envoy; leads the embassy to Highwater in S2 ("why the Ossari sent envoys"); in S3 he is the envoy who throws the motif line at a Concord lord: *"Who pays for the dry?"* *Secret (proposal, linked to Brenna's secret):* his clan has bought Rusk saltpeter back from Brenna's quartermasters for ten years; he knows the Stair's powder stores better than the Stair does. *Link:* the S3 Battle of the Stair — Ossari guns firing Rusk powder — runs through his ledgers. *Look:* elderly-lean; **LEFT leg in a leather-and-spar brace** from a glider crash in his youth, walks with a cane; **shaved sides with a grey crest**, a **long envoy's scarf of knotted signal-cord** (every knot a treaty), smoked-horn goggles pushed up. *Voice:* courteous, dry, perfect Concord with an Ossari "k". *"Your Spires answer you. Our wells do not answer us. Explain the difference, and I will go home."*

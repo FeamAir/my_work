@@ -26,6 +26,7 @@ first_episode: S01E03
 
 ## Look (story-level, for the art team)
 - **Age band and build:** man of 22; slight, neat, soft-faced, younger-looking than his age.
+- **Silhouette, body and bearing:** **short and slight**; olive delta skin (Lows-born, unremarked in the Choir); light, silent walk; head always slightly bowed and turned toward Vesna's hands. Silhouette: a small hooded figure half a step behind a veil.
 - **Hair:** **ash-brown, close-cropped, with the Voice's tonsure — a shaved band from ear to ear over the crown**.
 - **Eyes:** light brown, watchful; he watches hands, not faces.
 - **Distinctive mark:** none.

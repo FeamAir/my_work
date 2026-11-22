@@ -27,6 +27,7 @@ first_episode: S01E03
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 73; small, very straight; moves slowly, never hesitates.
+- **Silhouette, body and bearing:** **small and straight**; only her hands are ever seen — pale, age-spotted, long fingers heavy with rings; she moves slowly and never hesitates; stands perfectly still while the Voice speaks. Silhouette: a small veiled figure, one ringed hand raised.
 - **Hair:** **white**, long, almost never seen — under the veil.
 - **Face:** **always veiled** — a **violet veil** from crown to collarbone; the face is never shown (no face reference — production gift).
 - **Distinctive mark / signature item:** **silver rings on every finger of the signing hand (the RIGHT)**; when moved, those fingers **tap five beats** on whatever is under them (S1E12 on the Ring's rail).

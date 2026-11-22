@@ -19,7 +19,7 @@ cadet_of:
 founded: ~OS 400
 founder:
 heads: [CH-0243@~OS 690, CH-0240@CY 259, CH-0242@CY 289, CH-0019@CY 303]
-alliances: [HS-001:sworn@CY 40, HS-037:enemy@CY 9, HS-007:partner@CY 321, HS-027:clan@~OS 400, HS-028:clan@~OS 400, HS-029:clan@~OS 400, HS-030:clan@~OS 400, HS-031:clan@~OS 400]
+alliances: [HS-001:sworn@CY 40, HS-037:enemy@CY 9, HS-007:partner@CY 321, HS-027:clan@~OS 400, HS-028:clan@~OS 400, HS-029:clan@~OS 400, HS-030:clan@~OS 400, HS-031:clan@CY 96]
 secrets: [SEC-016]
 leitmotif: a swinging 6/8 sea-shanty figure on the home tone B, whistled (never sung), with a bowed saw and hull-knocks
 ```
@@ -28,7 +28,7 @@ leitmotif: a swinging 6/8 sea-shanty figure on the home tone B, whistled (never 
 
 ## Public history
 
-**The wreck-singers.** Before Lirenne fell, the barrier islands were the city's outer wall: salt-rakers, fishers, pilots and the **wreck-singers** of Brackwater, who sang the Storm Spire for ships in distress. At the Crowning of the Keepers (~OS 400) the five clans were sworn together as one warden family under a captain they chose themselves; the Keepers called them by the name of their Spire's gift — *quell*, the stilling of the sea.
+**The wreck-singers.** Before Lirenne fell, the barrier islands were the city's outer wall: salt-rakers, fishers, pilots and the **wreck-singers** of Brackwater, who sang the Storm Spire for ships in distress. At the Crowning of the Keepers (~OS 400) the four clans of the inner islands (Rhee, Jutt, Skarra, Tarrow) were sworn together as one warden family under a captain they chose themselves — the outer-isle Varra joined in CY 96, making five; the Keepers called them by the name of their Spire's gift — *quell*, the stilling of the sea.
 
 **The Breaking.** The Chronicle says Quell boats "worked the Sunk for a week after the drowning". Quell signed the Charter in CY 1 and was granted, in CY 3, the **Sunk Charter** (EV-0251): the right of salvage over the whole drowned city of Lirenne and the shallows around it "until the city be raised or the sea give it back". Nobody thought the clause would ever matter.
 
@@ -51,7 +51,7 @@ leitmotif: a swinging 6/8 sea-shanty figure on the home tone B, whistled (never 
 | 12 – 33 | Jettan (Jutt) | |
 | 33 – 41 | Skarn (Skarra) | deposed after the Salt War |
 | 41 – 70 | Raddock (Tarrow) | the Pilots' Peace kept |
-| 70 – 96 | Jusso (Varra) | brought the outer isles in |
+| 70 – 96 | Jusso (Tarrow) | brought the outer-isle Varra into the moot (CY 96) |
 | 96 – 130 | Rilla (Jutt) | |
 | 130 – 155 | Murro (Tarrow) | |
 | 155 – 198 | Jolle (Rhee) | **Helm** CY 171–198, "the Pirate Helm" |

@@ -26,6 +26,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** man of 55; soft, round-shouldered, small hands; looks harmless on purpose.
+- **Silhouette, body and bearing:** **short and slight, almost frail**; pale scalp and skin; moves softly, shuffling in felt slippers, hands hidden in his sleeves; never hurries, never stands in the middle of a room. Silhouette: a small grey shape at the edge of the frame.
 - **Hair:** **shaved head**, pale scalp; no beard; thin dark eyebrows.
 - **Eyes:** pale grey, heavy-lidded, always half-closed — listening.
 - **Distinctive mark:** a slight tremor in the LEFT hand (from S4 on; he hides it in his sleeve).

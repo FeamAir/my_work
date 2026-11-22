@@ -26,6 +26,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 62; small, upright, still; hands folded.
+- **Silhouette, body and bearing:** **small and very upright**; light-brown skin, fine wrinkles; an arthritic left hip — the stick is needed, not decorative; slow, exact steps, the stick set down first. Silhouette: a small black column with a stick.
 - **Hair:** **iron-grey, pinned in a tight coil at the nape with copper pins**.
 - **Eyes:** dark, amused, unblinking behind the glass.
 - **Distinctive mark:** none; a widow's ring of plain copper on the RIGHT hand.

@@ -27,6 +27,7 @@ first_episode: S01E04
 
 ## Look (story-level, for the art team)
 - **Age band and build:** man of 36; lean, loose-limbed, sailor's tan; grins with one side of his mouth.
+- **Silhouette, body and bearing:** **tall and lanky**, loose swaying walk as if the floor were a deck; deep brown island skin; **missing the last two fingers of the LEFT hand** (a wrecking rope, at sixteen) — he gestures with that hand on purpose. Silhouette: long coat, long limbs, a lounging lean.
 - **Hair:** **shoulder-length dark hair with the ends dyed sea-green**, a **single bone ring braided in on the RIGHT side**.
 - **Eyes:** green-brown, laughing.
 - **Distinctive mark:** three small tattooed dots under the RIGHT eye (one per wreck he survived — proposal).

@@ -26,6 +26,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** man of 48; big-chested, sailor's shoulders, beginning to thicken.
+- **Silhouette, body and bearing:** **big and heavy-chested, thickening at the middle** (a man who eats well and rows hard); deep sea-weathered tan; rolling sailor's gait on land; fills a doorway. Silhouette: the widest figure in the S1 cast, long coat flaring.
 - **Hair:** **salt-and-pepper (dark, grey-streaked) hair in a short sailor's queue**, and a **grey-streaked dark beard**, trimmed square.
 - **Eyes:** warm hazel, laugh-lines.
 - **Distinctive mark:** a white rope-scar across the back of the right hand.

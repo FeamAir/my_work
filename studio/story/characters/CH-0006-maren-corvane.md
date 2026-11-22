@@ -27,6 +27,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** young woman of 19; tall, lean, sailor-strong; sun on her cheekbones.
+- **Silhouette, body and bearing:** **tall, lean, long-legged**; warm brown skin, darker than her father's (her mother's side — writer-houses); quick upright stride, hands behind her back like a captain on deck. Silhouette: tall, short coat, high curly tail.
 - **Hair:** **dark umber-brown curls tied high at the crown with a silver cord** — a short, bouncing tail.
 - **Eyes:** grey-blue, steady.
 - **Distinctive mark:** none in S1; from S2E11 a thin powder-burn scar through the LEFT eyebrow (proposal — the Sluice Gates).

@@ -27,6 +27,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 70; small, bent at the shoulders from fifty years of net-work, quick hands.
+- **Silhouette, body and bearing:** **tiny and bent at the shoulders** from fifty years over nets; deep brown skin, deep wrinkles; quick little steps, never still; hands always working. Silhouette: a small hunched figure with an indigo headscarf.
 - **Hair:** hidden under an **indigo headscarf** knotted at the nape; a few white wisps at the temples.
 - **Eyes:** black, sharp, wet at the rims.
 - **Distinctive mark:** net-cord calluses; a crooked RIGHT little finger.

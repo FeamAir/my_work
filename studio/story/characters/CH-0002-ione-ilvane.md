@@ -29,6 +29,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** young woman of 18 (20 at death); tall, straight-backed, a singer's chest and long neck; pale, indoor skin.
+- **Silhouette, body and bearing:** **tall and slender**, very upright (a singer's posture, trained since childhood); pale indoor skin — paler than any Lows face; walks slowly and evenly, as in a procession. From S1E10 her right hand rises to her throat when she is moved (habit, not a sign). Silhouette: tall, straight, long silver fall of hair.
 - **Hair:** **long, straight, pale-silver hair** to the waist, worn loose with two thin side-plaits joined at the back. The silver is the weekly "Cantor's rinse" (SEC-004): **dark roots must be visible in S3 (Pale Crag confinement) and S4**, growing to a hand's width by S4E1; from S4E1 she lets them show.
 - **Eyes:** dark brown (note for art: the rinse makes this contrast striking; nobody in House Ilvane comments on it).
 - **Distinctive mark:** a faint red line across the throat after S1E10 (the Great Song), hidden by the band.

@@ -4,6 +4,8 @@ Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world p
 Coordination: `writer-houses` owns family trees (spouses, parents, cadet lines) of Dask, Ilvane, Fennick, Corvane, Lantry, Ashare. Where a parent is needed and not given, the field is empty.
 **Teen:** Zev Fennick (14) — no romance or sexual content.
 
+Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
+
 ---
 
 ```canon

@@ -26,6 +26,7 @@ first_episode: S01E05
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 54; heavy, slow, seated more than standing; powerful arms.
+- **Silhouette, body and bearing:** **heavy and broad**, sits more than she stands — her **knees were ruined on the treadmill** in childhood and she walks with **two sticks** (short distances only); weathered dark-olive skin; clouded eyes. Her weight and her lameness are her history, not her character: she is the quickest mind on the water. Silhouette: a wide seated shape under a hook-ringed hat.
 - **Hair:** **salt-white stubble**, cropped to the skull, under a **wide black oilskin hat whose brim is ringed with old fish-hooks**.
 - **Eyes:** **both clouded milk-white** (cataracts) — she sees shapes and light; she listens and smells.
 - **Distinctive mark:** a debt-walker's brand — a small ring burned on the back of the LEFT hand (from childhood; proposal).

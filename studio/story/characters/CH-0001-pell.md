@@ -27,6 +27,7 @@ first_episode: S01E01
 
 ## Look (story-level, for the art team)
 - **Age band and build:** girl of 15 (S1–S4); small, wiry, all elbows and calves; sun- and wind-darkened skin with freckles across the nose. After the skip (S5, 23): same build, harder face, shoulders of someone who rows.
+- **Silhouette, body and bearing:** **short and wiry** (shortest of the S1 heroes); olive-brown delta skin, freckles; leans forward when she walks — a mudlark's wading gait, knees slightly bent, quick small steps; shins criss-crossed with old shell-cuts (work); nails broken short. Silhouette: small figure, one long braid swinging on the left.
 - **Hair:** cropped **rust-brown** (red-brown, never auburn-bright) hair, ragged at the nape; **one long thin braid on the LEFT side**, bound at the end by a **blue tin sluice-tag** stamped "IX" (her father Dov's tag). The braid never moves to the right, never gets cut.
 - **Eyes:** sea-grey, narrow when she is calculating.
 - **Distinctive mark:** none on the face (keeps the prompt light). Hands always mud-dark to the wrist.

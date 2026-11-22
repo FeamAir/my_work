@@ -27,6 +27,7 @@ first_episode: S01E04
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 57; tall, rawboned, a soldier's back; big hands.
+- **Silhouette, body and bearing:** **very tall, rawboned, heavy-handed**; ruddy upland skin, broken veins on the cheeks; heavy armoured stride, takes stairs two at a time even at fifty-seven. Silhouette: the tallest woman in the cast, black and square.
 - **Hair:** **steel-grey, cut straight at the jaw**, with a single **black-iron ring** clasping a lock at the RIGHT temple.
 - **Eyes:** pale grey-green.
 - **Distinctive mark:** a notch missing from the top of the LEFT ear.

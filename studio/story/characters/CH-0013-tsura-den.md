@@ -27,6 +27,7 @@ first_episode: S01E12
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 42; long-limbed, lean from thin years, a climber's hands.
+- **Silhouette, body and bearing:** **tall and long-limbed, lean from the dry years**; deep brown upland skin, wind-creased; wide-stanced, walks with the staff set ahead of her like a third leg on a slope; climber's scarred knuckles. Silhouette: a tall figure with a staff and a kite above it.
 - **Hair:** **shaved head**, sun-dark scalp, with **a thin blue kite-line tattoo running from the LEFT temple back over the crown** (proposal — keeps her from reading as "the other shaved head" beside Odo in S3–S5).
 - **Eyes:** amber-brown, wind-creased.
 - **Distinctive mark:** **one copper ring in the LEFT ear**.

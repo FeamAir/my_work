@@ -5,6 +5,8 @@ Format: one machine block + short dossier (function · secret · link to the pas
 **New-character proposals** in this file (need keeper IDs/approval): CH-0070 Sal Tern, CH-0073 Gant, CH-0074 Nim. Teens (Mags 15, Lio 17, Patch 12, Tibb): no romance or sexual content.
 Lowfolk naming: one-syllable given name + "of the <sluice>"; a few families keep an old private surname (Oshra, Tern).
 
+Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
+
 ---
 
 ```canon
@@ -55,7 +57,7 @@ secrets: [SEC-028]
 status_track: [S01E01:alive]
 first_episode: S01E01
 ```
-**Corr the Reedmaster** (50) — reedmaster (gang boss) of the Ninth Sluice treadmill walkers. *Function:* S1E5 *"They always break the week before the Still. Funny, that."*; in the E10 flood pockets the **clean-sawn axle-pin** (SEC-028); runs the walkers' secret union (proposal: needs its own SEC id); blackmails the Pumpwrights in S5E8 so their barges hold the district on the Night of a Thousand Voices; the treadmill strike prices the S6 election; brings the walkers into the chorus (S11). Main from S11. *Link to the past:* walked the wheel himself on the Night of Still Water; the pumps "broke" that night too (proposal — the Guild's racket is older than Dorran). *Look:* bald, sun-black scalp, **iron-grey beard plaited into one rope**, a reed whistle on a thong (the walkers keep step by it — Hush-Law culture); thighs like pilings. *Voice:* bass, slow, every sentence a step. *"A wheel doesn't care who walks it. Neither do the men who own it. So we'll care for ourselves."*
+**Corr the Reedmaster** (50) — reedmaster (gang boss) of the Ninth Sluice treadmill walkers. *Function:* S1E5 *"They always break the week before the Still. Funny, that."*; in the E10 flood pockets the **clean-sawn axle-pin** (SEC-028); runs the walkers' secret union (proposal: needs its own SEC id); blackmails the Pumpwrights in S5E8 so their barges hold the district on the Night of a Thousand Voices; the treadmill strike prices the S6 election; brings the walkers into the chorus (S11). Main from S11. *Link to the past:* walked the wheel himself on the Night of Still Water; the pumps "broke" that night too (proposal — the Guild's racket is older than Dorran). *Look:* barrel-bodied, huge thighs; **LEFT hand lost in a pump-gear** at thirty (he still walks the wheel); bald, sun-black scalp, **iron-grey beard plaited into one rope**, a reed whistle on a thong (the walkers keep step by it — Hush-Law culture); thighs like pilings. *Voice:* bass, slow, every sentence a step. *"A wheel doesn't care who walks it. Neither do the men who own it. So we'll care for ourselves."*
 
 ```canon
 id: CH-0064

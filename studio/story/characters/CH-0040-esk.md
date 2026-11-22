@@ -29,6 +29,7 @@ first_episode: S01E04
 
 ## Look (story-level, for the art team)
 - **Age band and build:** boy of 13 (S1–S4), thin, light, made for climbing; after the skip a young man of 21 — wiry, long-armed.
+- **Silhouette, body and bearing:** S1–S4: **small for thirteen, thin, light**; brown upland skin; climbs everything; S5+: **wiry, long-armed**, still light-footed. Silhouette: a boy on a roof-edge with a kite-line.
 - **Hair:** **tight black curls dusted with orange clay** (Ossari custom; the clay fades in captivity S1–S2 and is back from S3).
 - **Eyes:** amber-brown — his mother's (nobody comments; a fair clue for SEC-019).
 - **Distinctive mark:** kite-cord scars across both palms.

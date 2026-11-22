@@ -3,6 +3,8 @@
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **New-character proposals** in this file: CH-0075 Ansel Fray, CH-0076 Orm Hask.
 
+Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
+
 ---
 
 ```canon
@@ -19,7 +21,7 @@ secrets: [SEC-001, SEC-013]
 status_track: [S01E02:alive]
 first_episode: S01E02
 ```
-**Bede Lark** (40) — keeper of the Ninth relay-stone house. *Function:* logs the stone that "rang wrong" during the death-tone (S1E2); sells Hollis a codebook (E7) and the keepers' lore: *"Old stones ring low. We throw them back."* *Secret:* **sold one message twice** — the new Tithe Map would let the Ninth flood — to Ruel and to Ursel (root of both S1 murders; SEC-001/013; proven S2E6). *Link:* his stone-log for the Night of Still Water is still in his chest (proposal — a document for later seasons). *Look:* **a grey wool muff over the RIGHT ear only** (the left is kept for the stone), ink-dark nails, keeper's brass tone-fork on his belt (a working tool, not Ione's). *Voice:* fussy, quick, giggles at his own cleverness. *"News is like fish, clerk. Sell it fresh, sell it twice, and never eat it yourself."* Relation to Hollis lives in CH-0003.
+**Bede Lark** (40) — keeper of the Ninth relay-stone house. *Function:* logs the stone that "rang wrong" during the death-tone (S1E2); sells Hollis a codebook (E7) and the keepers' lore: *"Old stones ring low. We throw them back."* *Secret:* **sold one message twice** — the new Tithe Map would let the Ninth flood — to Ruel and to Ursel (root of both S1 murders; SEC-001/013; proven S2E6). *Link:* his stone-log for the Night of Still Water is still in his chest (proposal — a document for later seasons). *Look:* short, round-shouldered; **half-deaf in the RIGHT ear** after twenty years beside ringing stones — **a grey wool muff over that ear**, ink-dark nails, keeper's brass tone-fork on his belt (a working tool, not Ione's). *Voice:* fussy, quick, giggles at his own cleverness. *"News is like fish, clerk. Sell it fresh, sell it twice, and never eat it yourself."* Relation to Hollis lives in CH-0003.
 
 ```canon
 id: CH-0053
@@ -99,7 +101,7 @@ secrets: [SEC-028]
 status_track: [S01E09:alive]
 first_episode: S01E09
 ```
-**Dorran Strand** (45) — Guildmaster of the Pumpwrights. Main from S5. *Function:* the "pumps vs. songs" voice of the rising middle class; his river gauges are one of the three records that prove SEC-008 (S7E10); Zev opens the Relay's logs to him (S7). *Secret (SEC-028):* the Guild's yearly "breakage" stopped the Ninth Sluice pumps on the flood night; Corr kept the sawn axle-pin; Dorran's faith in machines is built on that guilt (revealed S5E8). *Link:* proposal — a cameo in S1E9, telling the Ring the pumps are "in repair". *Look:* big, **ginger-grey hair cropped short and brass-rimmed goggles pushed up on the brow**, a leather apron over a good brown coat. *Voice:* booming, practical, numbers. *"A song needs a singer. A pump needs grease. Which one do you think the poor can afford?"*
+**Dorran Strand** (45) — Guildmaster of the Pumpwrights. Main from S5. *Function:* the "pumps vs. songs" voice of the rising middle class; his river gauges are one of the three records that prove SEC-008 (S7E10); Zev opens the Relay's logs to him (S7). *Secret (SEC-028):* the Guild's yearly "breakage" stopped the Ninth Sluice pumps on the flood night; Corr kept the sawn axle-pin; Dorran's faith in machines is built on that guilt (revealed S5E8). *Link:* proposal — a cameo in S1E9, telling the Ring the pumps are "in repair". *Look:* very large and heavy; **powder-burn scars on both forearms** from the Guild's powder-mills; **ginger-grey hair cropped short and brass-rimmed goggles pushed up on the brow**, a leather apron over a good brown coat. *Voice:* booming, practical, numbers. *"A song needs a singer. A pump needs grease. Which one do you think the poor can afford?"*
 
 ```canon
 id: CH-0025
