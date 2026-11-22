@@ -36,6 +36,7 @@ Write at the top of the review: material, version, canon version checked against
 ## 4. Who knows what
 
 - [ ] No character acts on, hints at, or reacts to a secret before their `known_by` episode in `secrets.md`.
+- [ ] Restricted secrets (`sealed/`): checked by the keeper only; findings about them go to the lead screenwriter, never into a helper-facing review.
 - [ ] When a character learns something on screen, the proposal adds `CH-…@SxxEyy` to the secret.
 - [ ] Rumours vs knowledge: a character may *suspect* (note it), but not *know* without a source.
 - [ ] Letters, messengers, ravens etc.: the information could physically have arrived by then.

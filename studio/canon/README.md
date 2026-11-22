@@ -1,6 +1,6 @@
 # Canon — how it works
 
-Canon version: **v0.1** (structure only, no world yet) · Keeper: `lore-keeper` · Language of canon content: English.
+Canon version: **v0.2** (foundation of THE LOW NOTE r2, approved) · Keeper: `lore-keeper` · Language of canon content: English.
 
 The canon is the single source of truth for the saga: world laws, chronology, houses, characters, bloodlines, secrets and names. Scripts, art, sound and marketing must follow it. If a script and the canon disagree, the canon wins until the keeper records a change.
 
@@ -18,6 +18,7 @@ The canon is the single source of truth for the saga: world laws, chronology, ho
 | `genealogy/README.md` | How bloodlines are recorded and drawn | (generated, no records) |
 | `secrets.md` | Registry of secrets and mysteries: truth, who knows, hints, reveal | `secret` |
 | `glossary.md` | Spelling and pronunciation of every name for voice synthesis | `term` |
+| `sealed/sealed.md` | **Restricted** part of the canon: answers of restricted secrets, sealed characters, overlays, true versions of events, sealed rules and names (§8a) | any type; `overlay: true` |
 | `checklist.md` | Checklist for reviewing script materials against the canon | — |
 | `tools/validate.py` | Automatic consistency checker | — |
 | `*/_template.md`, examples | Empty templates + one EXAMPLE each (`example: true`) | ignored by the normal run |
@@ -37,6 +38,8 @@ Every fact is written **once**, in its owning record. Everything else links to i
 | Who knows a secret and since which episode | `secrets.md` `known_by` | character file (it only lists secret IDs) |
 | When an event happened | `timeline.md` event | character biography (it links `EV-…`) |
 | Pronunciation | `glossary.md` | character file |
+| Custody of saga objects (shard, ring, clip…) | `world.md` §6 (pre-saga custody of restricted objects: `sealed/`) | character file |
+| A restricted truth (answer, hidden parent, hidden knower) | `sealed/sealed.md` (§8a) | anywhere else |
 | Exact prompt ID-block, reference images | `studio/direction/refs/<ID>/card.md` (director) | canon holds only the story-level look: what must never change |
 | `voice_id`, TTS settings | `studio/sound/` (sound director) | canon holds only the voice character |
 
@@ -52,11 +55,13 @@ IDs are permanent. A renamed character keeps the ID; a deleted record leaves its
 | House | `HS-NNN` | `HS-007` |
 | Place | `PL-NNNN` | `PL-0103` |
 | Event | `EV-NNNN` | `EV-0350` |
-| Secret | `SEC-NNN` | `SEC-014` |
+| Secret | `SEC-NNN`, a split secret `SEC-NNNa`/`b` | `SEC-014`, `SEC-011b` |
 | Glossary term | `TERM-NNNN` | `TERM-0200` |
 | World rule | `RULE-NNN` | `RULE-005` |
 | Era | `ERA-ABBR` | `ERA-AE` |
 | Episode | `SxxEyy` | `S03E07` |
+
+Allocation (v0.2): great and fallen houses HS-001…012; minor houses from HS-013 (writer-houses); **non-house powers HS-090…099** (Choir, Ossari, Guild, Undertow, Quiet, free companies). Events: EV-0001…0249 by prequel period (`franchise.md` §3), EV-0250…0299 other pre-saga history, EV-0300+ the saga. Characters: the lead's CH-0001…0065, keeper's additions from CH-0066.
 
 EXAMPLE records use an `EX-` infix (`CH-EX-0001`) and `example: true`; the normal validator run ignores them. They are deleted or kept as reference once real canon exists; they never mix with real canon.
 
@@ -116,6 +121,8 @@ Conventions inside values:
 - **ID with a moment:** `CH-0042@S03E07` or `CH-0042@AE 990`.
 - **ID with a kind:** `CH-0043:rival`, `S02E09:dead`.
 - Blank templates use the fence tag `canon-template` so the validator skips them.
+- No inline comments inside a real block: a `#` comment must be on its own line.
+- `overlay: true` - only in `sealed/`: the block adds or replaces fields of the record with the same `id` (§8a).
 
 ## 7. Tools
 
@@ -132,3 +139,16 @@ The validator is run after every change and before every script review. Errors b
 ## 8. Spoilers
 
 The canon contains the full truth, including what will be revealed seasons later. Agents producing public material (marketer, opening/ending, previews) must check `secrets.md` and never use anything whose `reveal` episode has not aired.
+
+## 8a. Sealed (restricted) facts
+
+Some truths are kept even from the writer-helpers (the lead screenwriter's `sealed/` file; readers: lead screenwriter, keeper, studio director). In the canon they live in **one place, `sealed/sealed.md`**, in the normal machine format, so the validator still checks them:
+
+1. **A restricted secret** is recorded only in `sealed/sealed.md` (full record: truth, known_by, hints, reveal). `secrets.md` lists it in the overview as "(restricted)" with tier, first hint, reveal and the production constraints that may be shared - never the truth or the knowers.
+2. **A restricted character** (one whose very existence gives away an answer) is a full record in `sealed/`.
+3. **A restricted fact about a public record** is an **overlay**: a block with the same `id` and `overlay: true`, holding only the restricted fields (e.g. `true_mother`, `parentage_secret`, the late part of `status_track`, sealed secret IDs in `secrets`, hidden knowers in `known_by`). The validator merges overlay fields into the base record (overlay wins); the base record stays what helpers may read. An overlay without a base record is an error.
+4. **Restricted IDs may appear** in public records only as bare IDs (`secrets: [SEC-024]`, `related`), never with an explanation; their names and answers do not.
+5. **True versions** of public events whose truth is restricted are written in `sealed/` §D; the public event says "Truth: SEC-… (sealed)".
+6. Tool output can contain restricted truths: `--knows` and `--mermaid --spoilers` are for the keeper and the lead only. Excerpts for others (composer, director, sound) are made by the keeper on the director's decision.
+7. When a restricted secret's reveal airs, its record moves from `sealed/` to `secrets.md` (CHANGELOG line).
+

@@ -32,7 +32,7 @@ ID_PATTERNS = {
     "house": r"HS-(EX-)?\d{3}",
     "place": r"PL-(EX-)?\d{4}",
     "event": r"EV-(EX-)?\d{4}",
-    "secret": r"SEC-(EX-)?\d{3}",
+    "secret": r"SEC-(EX-)?\d{3}[a-z]?",
     "term": r"TERM-(EX-)?\d{4}",
     "era": r"ERA-(EX-)?[A-Z]{1,6}",
     "calendar": r"CAL-(EX-)?[A-Z0-9]{1,8}",
@@ -40,7 +40,7 @@ ID_PATTERNS = {
     "world_rule": r"RULE-(EX-)?\d{3}",
 }
 ID_RE = {k: re.compile("^" + v + "$") for k, v in ID_PATTERNS.items()}
-ANY_REF = re.compile(r"^(CH|HS|PL|EV|SEC|TERM|ERA|RULE)-(EX-)?[A-Z0-9]+$")
+ANY_REF = re.compile(r"^(CH|HS|PL|EV|SEC|TERM|ERA|RULE)-(EX-)?[A-Z0-9]+[a-z]?$")
 EP_RE = re.compile(r"^S(\d{2})E(\d{2})$")
 CANON_STATES = {"draft", "approved", "locked", "retconned"}
 LIFE_STATES = {"alive", "dead", "missing", "presumed_dead", "captive", "revealed", "unborn"}
@@ -179,10 +179,33 @@ def split_colon(item):
 class Validator:
     def __init__(self, records, examples):
         self.errors, self.warnings = [], []
-        self.recs = [r for r in records if (str(r.get("example", "")).lower() == "true") == examples]
+        recs = [r for r in records if (str(r.get("example", "")).lower() == "true") == examples]
+        self.recs = self.merge_overlays(recs)
         self.by_id = {}
         self.by_type = defaultdict(list)
         self.cal = None
+
+    def merge_overlays(self, recs):
+        """Records with 'overlay: true' (kept in sealed/) add or replace fields of the
+        base record with the same id. The base record holds what may be shown to helpers;
+        the overlay holds the sealed truth. See README section 8a."""
+        base, overlays = {}, []
+        for r in recs:
+            if str(r.get("overlay", "")).lower() == "true":
+                overlays.append(r)
+            elif r.get("id") and r["id"] not in base:
+                base[r["id"]] = r
+        for o in overlays:
+            b = base.get(o.get("id"))
+            if b is None:
+                self.err(o, "overlay for unknown id (no base record outside the overlay)")
+                continue
+            for k, v in o.items():
+                if k in ("id", "overlay", "type", "canon"):
+                    continue
+                b[k] = v
+            b.overlaid_from = o.where()
+        return [r for r in recs if str(r.get("overlay", "")).lower() != "true"]
 
     def err(self, rec, msg):
         self.errors.append("ERROR   %s [%s] %s" % (rec.where() if rec is not None else "-", rec.get("id", "?") if rec is not None else "-", msg))
@@ -360,6 +383,7 @@ class Validator:
             names[c.get("name", "").lower()].append(c)
             self.ref(c, "house", c.get("house"), ("house",))
             self.ref(c, "born_at", c.get("born_at"), ("place",))
+            self.ref(c, "serves", c.get("serves"), ("house",))
             self.ref(c, "died_at", c.get("died_at"), ("place",))
             for f in ("father", "mother", "true_father", "true_mother"):
                 self.ref(c, f, c.get(f), ("character",))
@@ -496,6 +520,10 @@ class Validator:
                 self.err(s, "missing truth")
             reveal = s.get("reveal")
             rk = None
+            for st in s.get("reveal_steps", []) or []:
+                self.episode(s, "reveal_steps", st)
+                if reveal and ep_key(st) and ep_key(reveal) and ep_key(st) > ep_key(reveal):
+                    self.err(s, "reveal step %s is after the final reveal %s" % (st, reveal))
             if reveal:
                 if self.episode(s, "reveal", reveal):
                     rk = ep_key(reveal)
@@ -570,6 +598,8 @@ class Validator:
         for r in self.by_type["world_rule"]:
             if not r.get("rule"):
                 self.err(r, "missing rule text")
+            for s in r.get("secrets", []) or []:
+                self.ref(r, "secrets", s, ("secret",))
 
     # ---- graph helpers
     def no_cycles(self, typ, field, label, multi=False):

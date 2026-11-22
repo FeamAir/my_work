@@ -1,75 +1,1765 @@
 # Timeline
 
-Canon: v0.1 · Status: **empty**.
+Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-The timeline holds three kinds of records:
+Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
-1. **Eras** — how years are counted (needed to compare any two dates).
-2. **Events** — anything with a date: wars, coronations, foundings, conquests, murders, births that matter to the plot (normal births/deaths stay in character records).
-3. **Episodes** — the in-world dates each episode covers.
+Eras, events (before and during the saga) and the in-world dates of episodes.
 
 ## Date format
 
-`ERA YYYY[-MM[-DD]]` — e.g. `AE 981`, `AE 981-04`, `AE 981-04-12`.
-- `~AE 981` = about (±1 year). `?` = unknown.
-- Months and their lengths come from the calendar in `world.md`.
-- Every era counts **forward** from year 1. For the comparison tool each era has `abs_start` = absolute year number of its year 1 (an arbitrary common scale). Example: era OLD starts at abs 0, era NEW at abs 1200 → `NEW 1` comes after `OLD 1200`.
-- Characters in dialogue may use other dating ("the third winter after the Burning"); the canon always stores the formal date.
+`ERA YYYY[-MM[-DD]]` - e.g. `CY 312`, `CY 312-10`, `CY 312-10-06` (= Longdark 6, CY 312). `~` = about (±1 year). `?` = unknown. Months: `world.md` §4 (month 11 = the Still Days, 5 days).
+Public dating of anything before OS 1 stays `?` in-world ("in the Builders' Age"); the canon stores the scholars' date.
 
 ## 1. Eras
 
-```canon-template
-id: ERA-ABBR
+```canon
+id: ERA-BA
 type: era
-canon: draft
-abbr:           # 1-6 capital letters, used in dates
-name:
-abs_start:      # integer
-ended_by:       # EV-… that ended the era (optional)
+canon: approved
+abbr: BA
+name: Builders' Age
+abs_start: 0
 ```
 
-## 2. Before the saga (history)
+```canon
+id: ERA-OS
+type: era
+canon: approved
+abbr: OS
+name: Old Song
+abs_start: 400
+ended_by: EV-0100
+```
 
-Ordered by date. Each important event is one record; prose under it can tell the story (as it really happened — and, separately, as people *believe* it happened, linking the secret).
+```canon
+id: ERA-CY
+type: era
+canon: approved
+abbr: CY
+name: Concord Year
+abs_start: 1100
+ended_by: EV-0332
+```
 
-```canon-template
-id: EV-NNNN
+```canon
+id: ERA-SY
+type: era
+canon: approved
+abbr: SY
+name: Sovereign Years
+abs_start: 1425
+```
+
+- **BA** - scholars' reckoning, counted from the first known Spire; reserved for prequels (abs 0-399).
+- **OS** - reckoning of the Tide-Kings; OS 1 = first Keeper; ended by the Breaking (EV-0100), OS 700.
+- **CY** - Concord Year; CY 1 = first year of the Concord; the saga opens in **CY 312**; ended by Maren's coronation (EV-0332) on the Still Days of CY 325.
+- **SY** - Sovereign Years, SY 1 = CY 326 (SEC-022; announced on screen S09E12).
+- A fifth era ("the Year of Many Voices") begins in the S12 epilogue, decades later; its `abs_start` waits for the epilogue date (open question in the keeper's report).
+
+## 2. Events
+
+ID ranges (from `franchise.md` §3): EV-0001-0049 Builders' Age (P1) · EV-0050-0099 OS 380-420 (P2) · EV-0100-0149 OS 690-CY 1 (P3) · EV-0150-0199 CY 136-141 (P4) · EV-0200-0249 CY 295-296 (P5) · **EV-0250-0299 other pre-saga history (keeper)** · EV-0300+ the saga. Prequel events are recorded as ordinary events; their prequel is named in the prose.
+
+Each event's prose gives the public version first and then the truth, naming the secret. Restricted truths are only referenced (`sealed/`).
+
+```canon
+id: EV-0001
 type: event
-canon: draft
-name:
-date:           # ERA YYYY[-MM[-DD]] or ?
-date_end:       # optional, for wars, sieges, reigns
-place:          # PL-…
-houses: []      # HS-… involved
-participants: []# CH-… present
-killed: []      # CH-… who die here (must match their died date)
-secrets: []     # SEC-… if the public version is false
-episode:        # SxxEyy if shown on screen; add flashback: true if shown out of order
+canon: approved
+name: The first Spire grows at Lirenne
+date: BA 1
+date_end: BA 60
+place: PL-0062
+secrets: [SEC-014]
 ```
 
-Prose: what happened / what people believe happened / consequences.
+Public: "The Builders raised the Spires and vanished" (dated `?` in-world). Truth: SEC-014 (sealed). Prequel slot P1.
 
-## 3. During the saga (by episode)
+```canon
+id: EV-0002
+type: event
+canon: approved
+name: The nine Spires raised
+date: BA 1
+date_end: ~BA 390
+place: PL-0003
+secrets: [SEC-014]
+```
 
-One episode record per episode, filled when the episode outline is approved. Dates are in-world dates covered by the episode's present-day story (flashbacks are events with `flashback: true`).
+Public: "the Builders' Age - unknown". Origin of the Still Days. Prequel P1.
 
-```canon-template
-id: SxxEyy
+```canon
+id: EV-0050
+type: event
+canon: approved
+name: The first Keeper of Lirenne
+date: OS 1
+place: PL-0061
+houses: [HS-008]
+```
+
+The Chronicle calls every Keeper a "Tide-King" from this date.
+
+```canon
+id: EV-0051
+type: event
+canon: approved
+name: The Crowning of the Keepers
+date: ~OS 380
+date_end: ~OS 420
+place: PL-0061
+houses: [HS-008]
+```
+
+The Keepership becomes hereditary in House Ashare (Keeper Isembar); nine Spire-warden families are sworn to it. Prequel P2.
+
+```canon
+id: EV-0052
+type: event
+canon: approved
+name: The founding of the Cantor schools
+date: OS 600
+date_end: OS 699
+houses: [HS-003]
+secrets: [SEC-005]
+```
+
+Public: a holy reform. Truth: the warden families train solo Cantors to sing Spires without crowds ("the solo heresy").
+
+```canon
+id: EV-0100
+type: event
+canon: approved
+name: The Breaking
+date: OS 700-11
+place: PL-0061
+houses: [HS-008, HS-003, HS-001]
+participants: [CH-0031]
+killed: [CH-0030]
+secrets: [SEC-003, SEC-025, SEC-027]
+```
+
+Public: Queen Neveh went mad and sang Lirenne into the sea; nine Spire-warden families rose, killed her and founded the Concord. Truth (SEC-003): the Nine, led by Ilvane with Corvane ships at sea, massacred the people's chorus on the steps of the Lirenne Spire during the Still Days; ~40,000 dead; Oshra escaped by reed boat carrying the last verse and a spiral shell. The last hour: sealed. Ends the Old Song era. Prequel P3.
+
+```canon
+id: EV-0101
+type: event
+canon: approved
+name: The founding of the Concord
+date: CY 1
+houses: [HS-001, HS-002, HS-003, HS-004, HS-005, HS-009, HS-010, HS-011, HS-012, HS-090]
+secrets: [SEC-005]
+```
+
+Nine founding houses; the Hush Law (RULE-006); the Choir founded as a solo order; the songblood doctrine; the Gleaners begin. Spires: Crown to the Helm's office, Choir to the Choir; Rusk, Moll, Ostry are "sword houses" without a Spire.
+
+```canon
+id: EV-0102
+type: event
+canon: approved
+name: The founding of the Quiet
+date: CY 1
+place: PL-0007
+houses: [HS-094]
+participants: [CH-0031]
+secrets: [SEC-003, SEC-025]
+```
+
+Oshra founds the Quiet in the Highwater reed-slums. Details: sealed.
+
+```canon
+id: EV-0150
+type: event
+canon: approved
+name: The Vanth Treason
+date: CY 138
+date_end: CY 141
+place: PL-0046
+houses: [HS-012, HS-091]
+secrets: [SEC-008]
+```
+
+Public: "Vanth was attainted for selling the Stair." Truth (SEC-008): Vanth sang the Falls Spire less to let the Aun reach the uplands and traded with the Ossari. Vanth "river book" kept by Kadu's family. Prequel P4.
+
+```canon
+id: EV-0151
+type: event
+canon: approved
+name: The First Upland War
+date: CY 141
+place: PL-0046
+houses: [HS-004, HS-012, HS-003, HS-091]
+secrets: [SEC-008]
+```
+
+Rusk, with Ilvane backing, destroys Vanth and takes the Stair and the Falls Spire.
+
+```canon
+id: EV-0200
+type: event
+canon: approved
+name: The Night of Still Water
+date: CY 295-11
+place: PL-0008
+houses: [HS-007, HS-006, HS-004, HS-092, HS-090]
+participants: [CH-0004, CH-0005, CH-0023, CH-0056, CH-0002]
+secrets: [SEC-004, SEC-009]
+```
+
+Public: "The Sluice Spire faltered, and the sea came" - an act of the sea; ~6,000 dead. Truth: Lantry ("Account Five", precursor of Account Nine) paid for the Sluice Spire's retuning to be delayed; the Pumpwrights' yearly breakage had stopped the pumps that week (precedent of SEC-028); Kes (17) shut the evacuation gate on her captain's order (SEC-009); young Captain Ruel Corvane rescued hundreds by boat. Prequel P5.
+
+```canon
+id: EV-0201
+type: event
+canon: approved
+name: The gleaning of Ama
+date: CY 295-11
+place: PL-0008
+houses: [HS-090]
+participants: [CH-0056, CH-0002, CH-0023]
+secrets: [SEC-004]
+```
+
+In a rescue boat Sister Venn hears baby Ama sing back Liss's lullaby, takes her "to a physician" and tells Liss she died; Ama is installed as Cressa's daughter Ione. Who arranged it: sealed.
+
+```canon
+id: EV-0203
+type: event
+canon: approved
+name: The Dry Charter
+date: CY 295
+date_end: CY 296
+place: PL-0011
+houses: [HS-007]
+participants: [CH-0025, CH-0011]
+secrets: [SEC-006]
+```
+
+Clerk Teodor Kett forges the charter transferring the deeds of drowned Ninth Sluice to Lantry.
+
+```canon
+id: EV-0204
+type: event
+canon: approved
+name: Death of Teodor Kett
+date: CY 296
+houses: [HS-007]
+killed: [CH-0025]
+secrets: [SEC-006]
+```
+
+Public: "drowned" (cause not given; believed drunk). Truth: drowned on Ursel's order "on a dry night"; she takes Hollis (10) as charity apprentice.
+
+```canon
+id: EV-0205
+type: event
+canon: approved
+name: Elm gleaned
+date: CY 296
+houses: [HS-094, HS-090]
+participants: [CH-0022]
+secrets: [SEC-012]
+```
+
+The Quiet put six-year-old Elm, taught the lullaby as a baby, in a Gleaner's path - a plant inside the Choir.
+
+```canon
+id: EV-0250
+type: event
+canon: approved
+name: Dask conquer Moll
+date: CY 88
+place: PL-0038
+houses: [HS-002, HS-010]
+```
+
+```canon
+id: EV-0251
+type: event
+canon: approved
+name: Ostry absorbed by Corvane
+date: ~CY 120
+place: PL-0032
+houses: [HS-001, HS-011]
+```
+
+By marriage.
+
+```canon
+id: EV-0252
+type: event
+canon: approved
+name: The Lantry Counting House founded
+date: CY 220
+place: PL-0011
+houses: [HS-007]
+```
+
+```canon
+id: EV-0253
+type: event
+canon: approved
+name: House Harrow dies out; Fennick raised
+date: CY 251
+houses: [HS-009, HS-006]
+```
+
+Sluice Spire to Fennick; Fennick raised to great house.
+
+```canon
+id: EV-0254
+type: event
+canon: approved
+name: The Purchased Seat
+date: CY 252
+place: PL-0010
+houses: [HS-007, HS-009]
+```
+
+Lantry buys Harrow's Conclave vote.
+
+```canon
+id: EV-0256
+type: event
+canon: approved
+name: Vesna's Great Song
+date: CY 272-09
+participants: [CH-0012]
+houses: [HS-090]
+```
+
+Against the Mistcall storm; Vesna goes mute (forty years before the saga). What followed for her: sealed.
+
+```canon
+id: EV-0257
+type: event
+canon: approved
+name: Death of Ilse Ilvane
+date: CY 294-04
+place: PL-0040
+houses: [HS-003]
+killed: [CH-0068]
+secrets: [SEC-004]
+```
+
+Cressa's daughter dies at two months; buried secretly at Pale Crag. Not known publicly.
+
+```canon
+id: EV-0260
+type: event
+canon: approved
+name: Death of Dov
+date: CY 302
+place: PL-0008
+killed: [CH-0024]
+```
+
+A true treadmill accident.
+
+```canon
+id: EV-0261
+type: event
+canon: approved
+name: The drowning of Liss
+date: CY 305
+place: PL-0020
+houses: [HS-090]
+killed: [CH-0023]
+secrets: [SEC-012, SEC-027]
+```
+
+Public: "drowned" - in a year with no flood. Truth (SEC-012): after she found Sister Venn and demanded her daughter back, Choir men drowned her on the First Cantor's order. Nan takes Pell (8) and Wick (4). Further: sealed.
+
+```canon
+id: EV-0262
+type: event
+canon: approved
+name: The leak sold twice
+date: CY 312
+houses: [HS-006, HS-007, HS-001]
+participants: [CH-0052, CH-0005, CH-0011]
+secrets: [SEC-001, SEC-013]
+```
+
+Relay-keeper Bede Lark sells the news that Helm Lucan will sign a Tithe Map letting Ninth Sluice go - first to Ruel, then to Ursel. Ursel orders every Corvane draft filed in Account Nine's file.
+
+```canon
+id: EV-0263
+type: event
+canon: approved
+name: Ruel's sight-draft to Sister Marl
+date: CY 312-10-04
+houses: [HS-001, HS-007]
+participants: [CH-0005, CH-0050]
+secrets: [SEC-001]
+```
+
+Forty marks on the Corvane refit credit, "by the Lord Admiral's own hand" - the proof of S01E11.
+
+```canon
+id: EV-0300
+type: event
+canon: approved
+name: Death of Helm Lucan Dask
+date: CY 312-10-06
+episode: S01E01
+place: PL-0009
+houses: [HS-002]
+participants: [CH-0005, CH-0002, CH-0063]
+killed: [CH-0016]
+secrets: [SEC-001]
+```
+
+Collapses reading the Tithe Map on the words "...and the Ninth Sluice-". Public: natural death; then "Fennick did it".
+
+```canon
+id: EV-0301
+type: event
+canon: approved
+name: Death of Sister Marl
+date: CY 312-10
+episode: S01E07
+houses: [HS-090]
+killed: [CH-0050]
+secrets: [SEC-023]
+```
+
+Found dead with a Corvane silver mark in her fist.
+
+```canon
+id: EV-0302
+type: event
+canon: approved
+name: Ruel stabbed on the Steps
+date: CY 312-11-01
+episode: S01E08
+place: PL-0005
+houses: [HS-001]
+participants: [CH-0005, CH-0004]
+secrets: [SEC-013]
+```
+
+Night procession; Kes kills the masked assassin; a Quell token falls from his hand (red herring).
+
+```canon
+id: EV-0303
+type: event
+canon: approved
+name: Death of Ruel Corvane
+date: CY 312-11-02
+episode: S01E09
+place: PL-0018
+houses: [HS-001]
+participants: [CH-0006, CH-0002, CH-0058]
+killed: [CH-0005]
+```
+
+Aboard the *Patient Gull*. Last words: "Forgive what I did for them."
+
+```canon
+id: EV-0304
+type: event
+canon: approved
+name: The skipped retuning
+date: CY 312-11-03
+episode: S01E09
+place: PL-0016
+houses: [HS-006, HS-007, HS-090]
+participants: [CH-0057]
+secrets: [SEC-015]
+```
+
+On the third Still Day the Sluice Spire is not retuned. Public: an old Spire failing.
+
+```canon
+id: EV-0305
+type: event
+canon: approved
+name: The Still Days flood of Ninth Sluice
+date: CY 312-11-03
+episode: S01E10
+place: PL-0008
+houses: [HS-092, HS-004, HS-090]
+participants: [CH-0001, CH-0007, CH-0015, CH-0002, CH-0004, CH-0048, CH-0046]
+killed: [CH-0049, CH-0057]
+secrets: [SEC-002, SEC-009, SEC-017, SEC-028]
+```
+
+~2,000 dead. Pumps jammed (SEC-028); Kes opens the gate; Pell saves baby Tibb; Ione's Great Song with Pell's hum holds the Spire - Ione loses her voice.
+
+```canon
+id: EV-0306
+type: event
+canon: approved
+name: Odo Fennick elected Helm by the Sunken Vote
+date: CY 312-11-05
+episode: S01E12
+place: PL-0010
+houses: [HS-001, HS-002, HS-003, HS-004, HS-005, HS-006, HS-007, HS-090]
+participants: [CH-0010, CH-0006, CH-0012, CH-0020, CH-0017, CH-0018, CH-0019, CH-0011]
+```
+
+4-4 (Corvane, Quell, Ilvane, Rusk vs Fennick, Lantry, the Choir, Dask); the First Cantor casts the Sunken Vote. Ninth Sluice declared reclaimed land. Maren refuses to swear and sails; Kes demoted and sent to the Stair.
+
+```canon
+id: EV-0307
+type: event
+canon: approved
+name: Death of Nan Oshra
+date: CY 313
+episode: S02E08
+houses: [HS-006]
+killed: [CH-0015]
+```
+
+Killed by Fennick's Listeners. Last words: "It's not in the blood. It's in the mouth."
+
+```canon
+id: EV-0308
+type: event
+canon: approved
+name: The Battle of the Sluice Gates
+date: CY 313
+episode: S02E11
+place: PL-0026
+houses: [HS-001, HS-005, HS-006, HS-002, HS-007]
+participants: [CH-0006, CH-0019, CH-0058]
+```
+
+Maren loses three ways: Ysa opens Gullmouth to Fennick, Dask barges block the canal, her guns fall silent early (padded powder accounts).
+
+```canon
+id: EV-0310
+type: event
+canon: approved
+name: The Sunken Spire stirs
+date: CY 313-09
+episode: S03E10
+place: PL-0062
+houses: [HS-094]
+participants: [CH-0001]
+secrets: [SEC-002, SEC-025]
+```
+
+Pell sings the lullaby from the Sunken Spire's crown at low tide; the dead Spire stirs; the Quiet elders cover her mouth.
+
+```canon
+id: EV-0311
+type: event
+canon: approved
+name: The Battle of the Stair
+date: CY 313-09
+episode: S03E10
+place: PL-0046
+houses: [HS-004, HS-091]
+participants: [CH-0004, CH-0013, CH-0040, CH-0047, CH-0062]
+killed: [CH-0018]
+```
+
+S03E10-E11. Pike squares, cannon in the rain, kites and gliders; the Ossari fire Rusk's own powder. Brenna dies holding the gate; the Stair and the Falls Spire fall.
+
+```canon
+id: EV-0313
+type: event
+canon: approved
+name: The weir at the falls
+date: CY 314
+place: PL-0049
+houses: [HS-091]
+```
+
+The Ossari silence the captured Falls Spire and build a weir; upland wells rise, the Aun drops, the Dask polders crack.
+
+```canon
+id: EV-0315
+type: event
+canon: approved
+name: The breach of the weir
+date: CY 314-11-03
+episode: S04E11
+place: PL-0049
+houses: [HS-091, HS-002]
+secrets: [SEC-024]
+```
+
+On the third Still Day, while Highwater's Spires are silent for retuning, the weir goes and a flood wave runs down the Aun. Public: "The weir at the falls was breached, and the Dry Queen did not deny it." Truth: SEC-024 (sealed).
+
+```canon
+id: EV-0316
+type: event
+canon: approved
+name: The duet at the Crown Spire
+date: CY 314-11-03
+date_end: CY 314-11-05
+episode: S04E11
+place: PL-0014
+participants: [CH-0001]
+killed: [CH-0002]
+secrets: [SEC-021]
+```
+
+Mute Ione sings the Crown Spire on breath alone with Pell (high part + low note) and sings out; the duet holds the wave.
+
+```canon
+id: EV-0317
+type: event
+canon: approved
+name: The Weir Terms
+date: CY 314-11
+episode: S04E12
+houses: [HS-091, HS-006]
+participants: [CH-0013]
+```
+
+The Ossari keep the rim; the Falls Spire is sung only half the year. Held until Maren breaks them in S7.
+
+```canon
+id: EV-0318
+type: event
+canon: approved
+name: Publication of the Gleaner rolls
+date: CY 320
+episode: S05E06
+houses: [HS-003, HS-090]
+participants: [CH-0021]
+secrets: [SEC-005]
+```
+
+Cressa publishes Ione's journal, the Gleaner rolls and Silt's ledger.
+
+```canon
+id: EV-0319
+type: event
+canon: approved
+name: The Night of a Thousand Voices
+date: CY 320
+episode: S05E11
+place: PL-0008
+houses: [HS-092, HS-006]
+participants: [CH-0001, CH-0003, CH-0048, CH-0041, CH-0053, CH-0007]
+killed: [CH-0010]
+secrets: [SEC-028, SEC-021]
+```
+
+Begins at the tide-post; thousands sing the Sluice Spire in a storm; the Listeners fire; Hollis kills Odo; the Pumpwrights' barges hold the water (Corr's price). Hundreds of singers dead.
+
+```canon
+id: EV-0320
+type: event
+canon: approved
+name: The Counting House fire
+date: CY 321
+episode: S06E09
+place: PL-0011
+houses: [HS-007]
+participants: [CH-0003, CH-0042]
+```
+
+Bank run and fire; Hollis presumed dead; Zev is the last man seen going in.
+
+```canon
+id: EV-0321
+type: event
+canon: approved
+name: Death of Ursel Lantry
+date: CY 321
+episode: S06E10
+houses: [HS-007]
+killed: [CH-0011]
+```
+
+Dies when the bank falls.
+
+```canon
+id: EV-0322
+type: event
+canon: approved
+name: The Battle of the Shoals
+date: CY 321
+episode: S06E11
+place: PL-0055
+houses: [HS-005, HS-095]
+participants: [CH-0019, CH-0059]
+```
+
+A mercenary fleet changes sides mid-battle when its notes become worthless.
+
+```canon
+id: EV-0323
+type: event
+canon: approved
+name: Maren elected Helm
+date: CY 321-11
+episode: S06E12
+place: PL-0010
+houses: [HS-001]
+participants: [CH-0006, CH-0001]
+```
+
+With the votes Pell bought by a promise - repeal of the Hush Law ("in Highwater"). She puts on her father's ring.
+
+```canon
+id: EV-0324
+type: event
+canon: approved
+name: Murder of Cressa Ilvane
+date: CY 321
+episode: S06E12
+houses: [HS-090, HS-003]
+killed: [CH-0021]
+```
+
+Murdered by the Choir.
+
+```canon
+id: EV-0325
+type: event
+canon: approved
+name: The half-repeal of the Hush Law
+date: CY 322
+episode: S07E01
+place: PL-0022
+houses: [HS-001]
+participants: [CH-0006]
+```
+
+Repealed only in Highwater, "within sight of the Crown Spire".
+
+```canon
+id: EV-0326
+type: event
+canon: approved
+name: The Battle of the Hundred Locks
+date: CY 322
+episode: S07E11
+place: PL-0028
+houses: [HS-001, HS-091, HS-002]
+killed: [CH-0004]
+```
+
+The largest land battle of the saga.
+
+```canon
+id: EV-0327
+type: event
+canon: approved
+name: Death of Lio
+date: CY 323
+episode: S08E06
+killed: [CH-0043]
+secrets: [SEC-016]
+```
+
+Dying, he asks the crowd to raise Lirenne anyway.
+
+```canon
+id: EV-0328
+type: event
+canon: approved
+name: Execution of Brother Elm
+date: CY 323
+episode: S08E09
+houses: [HS-090]
+killed: [CH-0022]
+```
+
+```canon
+id: EV-0329
+type: event
+canon: approved
+name: The Siege of Highwater
+date: CY 323
+episode: S08E10
+place: PL-0004
+houses: [HS-091, HS-001]
+participants: [CH-0006, CH-0013]
+```
+
+S08E10-E11; ended by Maren singing two Spires against the Ossari camps - thousands drowned.
+
+```canon
+id: EV-0330
+type: event
+canon: approved
+name: The First Raising
+date: ~CY 324
+episode: S09E05
+place: PL-0055
+houses: [HS-094, HS-093]
+killed: [CH-0014]
+secrets: [SEC-025, SEC-010]
+```
+
+At the lowest tide the chorus sings everything the Quiet have kept; the Sunken Spire does not rise; the Storm Spire falls dumb for an hour; the surge takes the staging camp. Maren watches from her flagship.
+
+```canon
+id: EV-0331
+type: event
+canon: approved
+name: The Battle of the Ninth Bridge
+date: ~CY 325
+episode: S09E10
+place: PL-0027
+houses: [HS-002]
+participants: [CH-0006]
+killed: [CH-0007]
+secrets: [SEC-010]
+```
+
+The chorus columns are cut off by the spring tide and slaughtered by Dask levies. Maren finds her old cadet cap on a dead boy.
+
+```canon
+id: EV-0332
+type: event
+canon: approved
+name: Maren crowned Sovereign
+date: CY 325-11
+episode: S09E12
+place: PL-0010
+houses: [HS-001]
+participants: [CH-0006]
+secrets: [SEC-022]
+```
+
+She dissolves the Conclave and is crowned on the Still Days; the Chronicler announces a new count of years (SY 1 = CY 326). Ends the Concord Year era.
+
+```canon
+id: EV-0333
+type: event
+canon: approved
+name: Death of Vesna Ilvane
+date: SY 1
+episode: S10E09
+houses: [HS-090]
+participants: [CH-0001, CH-0045]
+killed: [CH-0012]
+```
+
+```canon
+id: EV-0334
+type: event
+canon: approved
+name: The Battle of the Polders
+date: SY 1
+episode: S10E11
+place: PL-0035
+houses: [HS-001, HS-002, HS-091]
+killed: [CH-0017]
+```
+
+Maren floods the Dask polders to starve the alliance; Garrick drowns in his own fields.
+
+```canon
+id: EV-0335
+type: event
+canon: approved
+name: Death of Jaro Quell
+date: SY 2
+episode: S11E08
+houses: [HS-005]
+killed: [CH-0019]
+```
+
+```canon
+id: EV-0336
+type: event
+canon: approved
+name: Death of Tsura Den
+date: SY 2
+episode: S11E10
+houses: [HS-091]
+killed: [CH-0013]
+```
+
+```canon
+id: EV-0337
+type: event
+canon: approved
+name: The Battle of Lirenne
+date: SY 2
+episode: S11E11
+place: PL-0061
+houses: [HS-001, HS-005, HS-091]
+participants: [CH-0001]
+secrets: [SEC-018]
+```
+
+S11E11-E12. The greatest naval battle while thousands sing on boats; the Sunken Spire rises.
+
+```canon
+id: EV-0338
+type: event
+canon: approved
+name: Death of Maren Corvane
+date: ~SY 3
+episode: S12E11
+killed: [CH-0006]
+```
+
+Exact circumstances fixed with the S12 outline (lead's open question; constraint: not by Pell's hand).
+
+```canon
+id: EV-0339
+type: event
+canon: approved
+name: The Great Chorus
+date: ~SY 3
+episode: S12E12
+place: PL-0003
+participants: [CH-0001, CH-0042]
+```
+
+Ten thousand voices across the delta; the cost of the song shared. Pell's voice is the price.
+
+## 3. Episodes
+
+Season 1 has exact dates (outline r2). For seasons 2-12 an episode record exists only where the canon already points to it; its dates are the **season span** from `saga_arc.md` until the season outline is approved.
+
+```canon
+id: S01E01
 type: episode
-canon: draft
-title:
-date_start:
-date_end:
-pov: []         # CH-… main point-of-view characters
+canon: approved
+title: The Ninth Sluice
+date_start: CY 312-10-06
+date_end: CY 312-10-07
+pov: [CH-0001, CH-0002, CH-0003]
 ```
+
+pilot ~30 min
+
+```canon
+id: S01E02
+type: episode
+canon: approved
+title: Candidates
+date_start: CY 312-10-08
+date_end: CY 312-10-10
+pov: [CH-0001, CH-0005, CH-0010]
+```
+
+```canon
+id: S01E03
+type: episode
+canon: approved
+title: The Hush Law
+date_start: CY 312-10-11
+date_end: CY 312-10-14
+pov: [CH-0001, CH-0002, CH-0003]
+```
+
+```canon
+id: S01E04
+type: episode
+canon: approved
+title: Ledger and Lantern
+date_start: CY 312-10-15
+date_end: CY 312-10-18
+pov: [CH-0005, CH-0004, CH-0003]
+```
+
+```canon
+id: S01E05
+type: episode
+canon: approved
+title: Mudlark
+date_start: CY 312-10-19
+date_end: CY 312-10-21
+pov: [CH-0001, CH-0002]
+```
+
+```canon
+id: S01E06
+type: episode
+canon: approved
+title: Skin, Not Mouth
+date_start: CY 312-10-22
+date_end: CY 312-10-24
+pov: [CH-0010, CH-0003, CH-0005]
+```
+
+```canon
+id: S01E07
+type: episode
+canon: approved
+title: Echo
+date_start: CY 312-10-25
+date_end: CY 312-10-30
+pov: [CH-0003, CH-0001, CH-0006]
+```
+
+```canon
+id: S01E08
+type: episode
+canon: approved
+title: Still Day One
+date_start: CY 312-10-31
+date_end: CY 312-11-01
+pov: [CH-0004, CH-0002, CH-0001]
+```
+
+```canon
+id: S01E09
+type: episode
+canon: approved
+title: The Steps
+date_start: CY 312-11-02
+date_end: CY 312-11-03
+pov: [CH-0005, CH-0006, CH-0010]
+```
+
+outline dates it Still 2; its cliffhanger falls on Still 3
+
+```canon
+id: S01E10
+type: episode
+canon: approved
+title: Still Water
+date_start: CY 312-11-03
+date_end: CY 312-11-03
+pov: [CH-0001, CH-0002, CH-0004]
+```
+
+[LONG-24]
+
+```canon
+id: S01E11
+type: episode
+canon: approved
+title: Ink
+date_start: CY 312-11-04
+date_end: CY 312-11-04
+pov: [CH-0003, CH-0006, CH-0002]
+```
+
+```canon
+id: S01E12
+type: episode
+canon: approved
+title: The Sunken Vote
+date_start: CY 312-11-05
+date_end: CY 313-01-06
+pov: [CH-0010, CH-0006, CH-0001]
+```
+
+[LONG-28]; tag scene at the Stair, Firstwater 6, CY 313
+
+```canon
+id: S02E01
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E02
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E03
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E04
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E05
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E06
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E07
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E08
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E09
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E10
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S02E11
+type: episode
+canon: approved
+date_start: CY 313-01-01
+date_end: CY 313-06-36
+```
+
+```canon
+id: S03E03
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E04
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E05
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E06
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E07
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E08
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E09
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E10
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E11
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S03E12
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
+```
+
+```canon
+id: S04E02
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E03
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E04
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E06
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E07
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E08
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E09
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E10
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E11
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S04E12
+type: episode
+canon: approved
+date_start: CY 314-03-01
+date_end: CY 314-11-05
+```
+
+```canon
+id: S05E02
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E03
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E04
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E06
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E08
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E10
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E11
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S05E12
+type: episode
+canon: approved
+date_start: CY 320-05-01
+date_end: CY 320-11-05
+```
+
+```canon
+id: S06E01
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E03
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E04
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E05
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E07
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E08
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E09
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E10
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E11
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S06E12
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+```canon
+id: S07E01
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E02
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E03
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E05
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E06
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E07
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E08
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E10
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E11
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S07E12
+type: episode
+canon: approved
+date_start: CY 322-01-01
+date_end: CY 322-11-05
+```
+
+```canon
+id: S08E02
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E03
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E04
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E06
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E08
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E09
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E10
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S08E11
+type: episode
+canon: approved
+date_start: CY 323-01-01
+date_end: CY 323-11-05
+```
+
+```canon
+id: S09E04
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E05
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E06
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E07
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E08
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E10
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E11
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S09E12
+type: episode
+canon: approved
+date_start: CY 324-01-01
+date_end: CY 325-11-05
+```
+
+```canon
+id: S10E05
+type: episode
+canon: approved
+date_start: SY 1-01-01
+date_end: SY 1-11-05
+```
+
+```canon
+id: S10E09
+type: episode
+canon: approved
+date_start: SY 1-01-01
+date_end: SY 1-11-05
+```
+
+```canon
+id: S10E10
+type: episode
+canon: approved
+date_start: SY 1-01-01
+date_end: SY 1-11-05
+```
+
+```canon
+id: S10E11
+type: episode
+canon: approved
+date_start: SY 1-01-01
+date_end: SY 1-11-05
+```
+
+```canon
+id: S11E06
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 2-11-05
+```
+
+```canon
+id: S11E08
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 2-11-05
+```
+
+```canon
+id: S11E10
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 2-11-05
+```
+
+```canon
+id: S11E11
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 2-11-05
+```
+
+```canon
+id: S11E12
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 2-11-05
+```
+
+```canon
+id: S12E11
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 3-11-05
+```
+
+```canon
+id: S12E12
+type: episode
+canon: approved
+date_start: SY 2-01-01
+date_end: SY 3-11-05
+```
+
+```canon
+id: S12E13
+type: episode
+canon: approved
+date_start: ?
+```
+
+S12E13 (epilogue): decades after S12; date sealed / not fixed.
 
 ## 4. Season overview
 
-| Season | In-world dates | Main arc | Key events (EV-…) | Secrets revealed (SEC-…) |
-|---|---|---|---|---|
-| S01 | | | | |
+| Season | Title | In-world dates | Main arc | Key events | Secrets revealed |
+|---|---|---|---|---|---|
+| S1 | Dry Tithe | CY 312-10-06 → CY 312-11-05 (+ tag CY 313-01-06) | election | EV-0300…0306 | SEC-001 |
+| S2 | The Purchased Seat | CY 313-01 → 313-06 | the Helm's War | EV-0307, EV-0308 | SEC-013, SEC-015, SEC-023 |
+| S3 | The Stair | CY 313-07 → 314-02 | Ossari invasion | EV-0310, EV-0311 | SEC-002, SEC-009 |
+| S4 | Still Days | CY 314-03 → 314-11-05 | occupation; the weir | EV-0313…0317 | SEC-004, SEC-029 |
+| skip | — | CY 315 → CY 320 | five years | — | — |
+| S5 | A Thousand Voices | CY 320-05 → 320-11 | the Hum | EV-0318, EV-0319 | SEC-003, SEC-005, SEC-028 |
+| S6 | Ledger of the Drowned | CY 321 | bank crash; election | EV-0320…0324 | SEC-006, SEC-007 (+SEC-001 public) |
+| S7 | Thirst | CY 322 | the water war | EV-0325, EV-0326 | SEC-008, SEC-019, SEC-024 (audience) |
+| S8 | The Spiral | CY 323 | siege; the archive | EV-0327…0329 | SEC-012, SEC-014, SEC-016 |
+| S9 | The Ninth Vote | CY 324 → CY 325-11-05 | the Raising; the crown | EV-0330…0332 | SEC-010, SEC-017, SEC-022 |
+| S10 | Sovereign | SY 1 | tyranny | EV-0333, EV-0334 | SEC-020, SEC-021, SEC-025, SEC-026 |
+| S11 | Lirenne | SY 2 | the Long Ebb | EV-0335…0337 | SEC-011, SEC-018 |
+| S12 | The Low Note | SY 2 → SY 3 (13 episodes; epilogue decades later) | the Great Chorus | EV-0338, EV-0339 | SEC-027 (last step), SEC-011b |
 
----
+Twelve seasons, 145 episodes (S12: 13). Running times: `studio/story/series_bible.md` §11. One time skip: S4→S5.
 
 ## EXAMPLE (placeholder, not canon)
 

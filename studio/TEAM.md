@@ -1,4 +1,4 @@
-# Команда студии (14 агентов + директор)
+# Команда студии (16 агентов + директор)
 
 Должностные инструкции — `.claude/agents/<имя>.md`. Бриф — `studio/BRIEF.md`.
 
@@ -13,6 +13,8 @@
 | | Хранитель канона | `lore-keeper` | `studio/canon/` |
 | Изображение | Художник-концептер | `concept-artist` | `studio/art/` |
 | | Режиссёр-постановщик | `anime-director` | `studio/direction/` |
+| | Раскадровщик | `storyboard-artist` | `studio/storyboard/` |
+| | Постановщик битв и спецэффектов | `vfx-action-director` | `studio/vfx/` |
 | Звук | Звукорежиссёр | `sound-director` | `studio/sound/` |
 | | Композитор | `composer` | `studio/music/` |
 | Сборка | Монтажёр | `editor` | `studio/edit/` |
