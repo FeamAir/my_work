@@ -1,13 +1,32 @@
-# Команда студии
+# Команда студии (14 агентов + директор)
 
-| Роль | Агент | Папка | Должностная инструкция |
+Должностные инструкции — `.claude/agents/<имя>.md`. Бриф — `studio/BRIEF.md`.
+
+| Блок | Роль | Агент | Папка |
 |---|---|---|---|
-| Директор студии (ведущий) | основная сессия Claude | `studio/reports/`, `studio/status.md` | — |
-| Сценарист | `screenwriter` | `studio/story/` | `.claude/agents/screenwriter.md` |
-| Режиссёр-постановщик | `anime-director` | `studio/direction/` | `.claude/agents/anime-director.md` |
-| IT-специалист | `it-engineer` | `pipeline/` | `.claude/agents/it-engineer.md` |
-| Звукорежиссёр | `sound-director` | `studio/sound/` | `.claude/agents/sound-director.md` |
+| Управление | Директор студии (ведущий) | основная сессия | `studio/status.md`, `studio/reports/` |
+| | Продюсер-бухгалтер | `producer` | `studio/finance/` |
+| История | Аналитик | `analyst` | `studio/research/` |
+| | Главный сценарист | `lead-screenwriter` | `studio/story/` |
+| | Помощник: дома и власть | `writer-houses` | `studio/story/houses/` |
+| | Помощник: персонажи и простые люди | `writer-characters` | `studio/story/characters/` |
+| | Хранитель канона | `lore-keeper` | `studio/canon/` |
+| Изображение | Художник-концептер | `concept-artist` | `studio/art/` |
+| | Режиссёр-постановщик | `anime-director` | `studio/direction/` |
+| Звук | Звукорежиссёр | `sound-director` | `studio/sound/` |
+| | Композитор | `composer` | `studio/music/` |
+| Сборка | Монтажёр | `editor` | `studio/edit/` |
+| | Контролёр качества | `qa-controller` | `studio/qa/` |
+| Техника | IT-специалист | `it-engineer` | `pipeline/` |
+| Выход | Маркетолог | `marketer` | `studio/marketing/` |
 
-Порядок работы: директор ставит задачу → агент работает в своей папке → пишет отчёт в `studio/reports/` → директор принимает, коммитит и обновляет `studio/status.md`.
+## Сценарная цепочка (без противоречий)
 
-Инвестор читает `studio/status.md` и отчёты. В управлении не участвует.
+1. **Аналитик** — исследование: что цепляет зрителей.
+2. **Главный сценарист** — мир, главная тайна, арка саги, структура сезонов.
+3. **Хранитель канона** — фиксирует основу в `studio/canon/`.
+4. **Помощники** — дома/власть и персонажи/простые люди, в рамках основы.
+5. **Хранитель канона** — проверка на противоречия.
+6. **Главный сценарист** — финальная сборка и утверждение.
+
+Дальше: художник-концептер и режиссёр → звукорежиссёр и композитор → монтажёр → контролёр качества. IT, продюсер и маркетолог — сквозные.
