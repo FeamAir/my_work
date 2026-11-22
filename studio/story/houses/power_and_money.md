@@ -35,7 +35,7 @@ The Charter of the Ring (CY 1, EV-0250) gave the realm **eight voices** and set 
 ### 1.3 Calling a Helm vote
 1. **Death or removal** of a Helm is announced by the Relay's **death-tone** (S1E1).
 2. The **Master of the Hearings** (Fennick since the Clerks' Ordinance, CY 160) keeps the Ring's roll and proclaims the vacancy.
-3. **Date:** by law a Helm is chosen on the **Still Days** — the first Still Days at least thirty days after the death. (Lucan dies Longdark 6, CY 312 → the Still Days of CY 312, "thirty days". Odo dies on the Night of a Thousand Voices, CY 320 → the Still Days of CY 321.)
+3. **Date:** by law a Helm is chosen on the **Still Days** — the first Still Days at least thirty days after the death. (Lucan dies Longdark 6, CY 312 → the Still Days of CY 312, "thirty days". Odo dies on the Night of a Thousand Voices, CY 320 → the Still Days of CY 321 — *this needs S5E11 to fall less than thirty days before the Still Days of CY 320 (Longdark or the Still Days themselves); flag for the lead*.)
 4. **Interregnum:** the Ring governs by simple majority of seats present; the Crown Spire is sung by the Choir; the Tithe Map in force is the last one signed.
 5. **Candidates:** any head of a voting house, or anyone sponsored by two seats.
 
@@ -227,7 +227,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 1 | **Account Nine** — notes against land to be let go (SEC-007) | Ursel, the Table | clerks (Hollis, Fossett), Merriden notaries, Undertow pledge-sellers | Ninth Sluice (S1); Mids savers (S6) | Hollis (S1E3–E6), Pell, Merriden auction (S6) | S1 → S6E7 | Odo's first act declares Ninth "reclaimed" (S1E12); the crash makes Maren Helm (**S6**) |
 | 2 | **† A relay-keeper sells one message twice** | Bede Lark | Bede, on a Tennant tower | Ruel, Lucan (dead) | Hollis (S1E7), Zev (Relay logs) | S1E7 → S2E6 | Ruel poisons the Helm; Ursel has Ruel killed (**S1**) |
 | 3 | **Tithe Map drafts sold** (SEC-C04) | Tolland clerks | Map Office copyists | Lows households (dry-pledges priced to fail) | Hollis (S2E6, Lucan's chest), Silt | S1E1 → S2E6 | the bank knows the map before the Helm signs it → Account Nine timed to Still 3 (**S1**) |
-| 4 | **Bribed retuning** (SEC-015) | Ursel | Fennick's steward, Cantor Sabin | Ninth Sluice | Hollis (S2E6) | S1E9 → S2E6 | Odo's election is stained by a crime he didn't commit; Fennick's steward hanged (**S2**) |
+| 4 | **Bribed retuning** (SEC-015) | Ursel | Fennick's steward, Cantor Sabin | Ninth Sluice | Hollis (S2E6) | S1E9 → S2E6 | Odo's election is stained by a crime he didn't commit; he must give up his own steward to the Hearings (proposal) (**S2**) |
 | 5 | **Under-sung Sluice Spire** (Cantor-rent skim) | Odo's treasury | Choir rent clerks | Ninth Sluice | Ione (S1E3, E8) | S1 | one bribed retuning is enough to drown a district; Ione's Great Song (**S1E10**) |
 | 6 | **Priority songs** | Choir chapter | Cantors on the crown | districts that can't pay | Ione (S1), Elm | S1E7–E8 | the Choir's bank debt → **the Choir votes Fennick** (**S1E12**) |
 | 7 | **† Ear-money** (SEC-029) | Gleaner novices | an Undertow under-boss | Lows children (Patch) | Silt (S4E6), Ione | S1E5 → S4E6 | Silt's ledger → the songblood doctrine falls (**S5E6**) |
@@ -245,7 +245,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 19 | **Dry-pledges sold to the bank** | Undertow | collectors | the Lows (their insurance becomes the bank's collateral) | Silt, Hollis | S1E6 → S2 | Silt hides Hollis because the bank broke her pledges (**S2**) |
 | 20 | **† The walkers' secret union** | Corr | wheel-cells | — | Dorran | S1E5 → S6 | the treadmill strike prices the S6 election (**S6**) |
 | 21 | **† The Hum hires out singers** | Pell | Hum circles | — | the Choir, Maren | S6 | houses with failing Spires buy Lows voices → **Maren elected** (**S6**) |
-| 22 | **† Lirenne salvage bonds + a pretender** (SEC-016) | Tarrow brokers, Piers Lantry | barge-sellers, Lio | ruined savers | Hollis? (sealed), Pell, Jaro | S6E5 → S8E6 | splits the Lows' vote (**S6**); pays for the Raising (**S9**) |
+| 22 | **† Lirenne salvage bonds + a pretender** (SEC-016) | Tarrow brokers, Piers Lantry | barge-sellers, Lio | ruined savers | Pell, Jaro (who exposes it in S8E6 is the lead's) | S6E5 → S8E6 | splits the Lows' vote (**S6**); pays for the Raising (**S9**) |
 | 23 | **Notes for swords** — free companies paid in dry-notes | the bank, Helm Odo | company captains (Rook Danner) | the companies' men | Maren, Jaro | S6E11 | the mercenary fleet changes sides mid-battle → the Battle of the Shoals (**S6**) |
 | 24 | **The Purchased Seat's deathbed will** (SEC-C03) | Lantry clerks (CY 251), Fennick witness | — | Harrow's natural line (Kilbride) | Zev (Hearings, S7), Piers | S6–S7 (proposal) | who votes the Hill Voice after the bank falls (**S7**) — needs the lead's decision |
 
