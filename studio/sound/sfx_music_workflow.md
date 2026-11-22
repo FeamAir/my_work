@@ -1,7 +1,7 @@
 # SFX и музыка: от сценария к списку генерации
 
 Версия 0.1 от 2026-11-22. Автор: звукорежиссёр.
-Входные данные: сценарий серии (`studio/story/`) и шот-лист режиссёра-постановщика (`studio/direction/`). Выход: таблица звуков серии `studio/sound/episodes/epNN_sound_list.md`, по которой IT-конвейер вызывает ElevenLabs.
+Входные данные: сценарий серии (`studio/story/`) и шот-лист режиссёра-постановщика (`studio/direction/`). Выход: таблица звуков серии `studio/sound/epNN_sound_table.md`, по которой IT-конвейер вызывает ElevenLabs.
 
 ## 1. Процесс («споттинг»)
 
@@ -28,7 +28,7 @@
 
 ## 2. Шаблон таблицы звуков серии
 
-Файл `studio/sound/episodes/epNN_sound_list.md`:
+Файл `studio/sound/epNN_sound_table.md`:
 
 ```markdown
 # Звуки серии EP<NN>

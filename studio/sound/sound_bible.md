@@ -52,14 +52,14 @@
 - Оркестровка (базовая): фортепиано ведёт мелодию, струнные держат гармонию, под ними тёплый пэд, лёгкая перкуссия во второй половине.
 - Где звучит: заставка серии (5–8 с), финальная подводка (стинг 3–5 с), ключевые моменты победы/решения героя.
 
-**Слоты лейтмотивов** (привязать к персонажам после библии сценариста):
+**Слоты лейтмотивов.** С 2026-11-22 слоты привязаны к героям «Бумажного кита» в `leitmotifs.md`: там добавлены L7 «Мама · письмо», L6 заменён на «Ветер», ядра промптов уточнены. Источник правды — `leitmotifs.md`; ниже исходные слоты v0.1.
 
 | Слот | Рабочее назначение | Описание словами | Тональность / темп | Тембр |
 |---|---|---|---|---|
 | L1 «Героиня» | главный подростковый персонаж | живой, чуть порывистый мотив с синкопой; задорный в мажоре, но в конце фразы вопросительная интонация (не разрешается в тонику) | ре мажор / 112 BPM | флейта + пиццикато, лёгкая гитара |
 | L2 «Наставник» | старший мудрый персонаж | медленный, «тяжёлый» нисходящий мотив, широкие длинные ноты, ощущение прожитых лет и тепла | си минор (параллельная к теме) / 72 BPM | виолончель, низкое фортепиано, тихий хор «ах» без слов |
 | L3 «Угроза» | антагонист / опасность | два низких тона на полутон друг от друга, пульсирующие; без мелодии, только давление | ре минор / 80 BPM, пульс | низкие струнные, синт-бас, металлические текстуры |
-| L4 «Тайна» | загадка, магия, открытие | мерцающие арпеджио, неустойчивые гармонии, много реверберации | ми лидийский / свободный темп | челеста/музыкальная шкатулка, флажолеты, пэд |
+| L4 «Тайна» | загадка, магия, открытие | мерцающие арпеджио, неустойчивые гармонии, много реверберации | ре лидийский (исправлено, см. `leitmotifs.md`) / свободный темп | челеста/музыкальная шкатулка, флажолеты, пэд |
 | L5 «Быт и юмор» | лёгкие бытовые сцены | пружинистый, суховатый, короткие фразы | соль мажор / 120 BPM | пиццикато, кларнет, ксилофон |
 | L6 «Экшен» | погони, бои | ритмичное остинато, нарастание, большие барабаны | ре минор / 140 BPM | барабаны, остинато струнных, электроника |
 
@@ -80,7 +80,7 @@ THEME   : Hopeful, slightly bittersweet instrumental anime-style main theme in D
 L1      : Lively, curious instrumental cue in D major, 112 BPM. Playful syncopated flute melody over string pizzicato and light nylon guitar, phrases end on an unresolved, questioning note. Bright, youthful, energetic but not loud.
 L2      : Slow, warm, wise instrumental cue in B minor, 72 BPM. Solo cello plays long descending phrases over low soft piano chords, distant wordless choir pad. Calm, nostalgic, reassuring.
 L3      : Dark, tense instrumental underscore in D minor, 80 BPM pulse. Two low notes a semitone apart pulsing in low strings and synth bass, metallic textures, no clear melody. Ominous, restrained, building pressure.
-L4      : Mysterious, shimmering instrumental cue in E lydian, free tempo. Celesta and music-box arpeggios, string harmonics, wide reverb pad. Wonder, discovery, slightly unsettling.
+L4      : Mysterious, shimmering instrumental cue in D lydian, free tempo. Celesta and music-box arpeggios, string harmonics, wide reverb pad. Wonder, discovery, slightly unsettling.
 L5      : Light comedic instrumental cue in G major, 120 BPM. Bouncy pizzicato strings, staccato clarinet, xylophone accents. Dry, playful, short phrases.
 L6      : Driving action instrumental cue in D minor, 140 BPM. Big taiko-like drums, fast low string ostinato, pulsing synth, rising tension and hits. Energetic, cinematic.
 STING   : Short 4-second instrumental sting in D major: soft piano rising motif resolving on a warm string chord with a gentle cymbal swell. Clean ending.
