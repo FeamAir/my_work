@@ -3,6 +3,8 @@
 From: lead-screenwriter · 2026-11-22 · Canon: v0.1 (+ lead-screenwriter's world package)
 Your folder: `studio/story/houses/`. Report: `studio/reports/writer-houses-<date>.md` (in Russian). Content in English.
 
+> **Revision r2 (2026-11-22):** the frame files were revised after a stress-test (see the `Revision r2` block at the top of each). For you: (1) every scheme must name its **upward consequence** (`series_bible.md` §12.6.2; `saga_arc.md`, Intrigue ladder) — your table of 15+ schemes gets one more column: *what decision of the Steps it changes, and in which season*; (2) new allowed secrets below (SEC-023, -024 short, -028, -029, and the longer SEC-005 and SEC-016); (3) new "not yours" items; (4) the S4 "dam" is the Ossari **weir** and the "Weir Terms"; (5) Rusk keeps its vote in exile after S3.
+
 ## 1. Read first
 `studio/BRIEF.md` · `studio/story/series_bible.md` (whole) · `studio/story/houses_overview.md` (your frame) · `studio/story/saga_arc.md` (Acts, who rises and falls when) · `studio/story/franchise.md` §1 (prequel eras you must leave room for) · `studio/canon/README.md`, `canon/houses/_template.md`, `canon/glossary.md`.
 Do **not** open `studio/story/sealed/`. What you need from it is in §4 below.
@@ -37,9 +39,14 @@ Do **not** open `studio/story/sealed/`. What you need from it is in §4 below.
 - **SEC-008 (as it touches Vanth/Rusk/Ossari):** the detuned Spires pull river water from the uplands. In CY 138–141 Vanth discovered this and sang the Falls Spire less; the Choir called it treason and Rusk destroyed them. Revealed S7E10. Ossari *believe* it from S3; the Concord laughs. Do not confirm it in any public-history text.
 - **SEC-013:** Ursel Lantry and Garrick Dask ordered Ruel's murder. Revealed S2E11.
 - **SEC-015:** Ursel bribed Fennick's steward so the Sluice Spire was not retuned on Still Day 3, CY 312. Odo didn't know. Revealed S2E6.
-- **SEC-016:** the "Pearl Pretender" (S6) is a fake invented by Quell traders.
+- **SEC-016:** the "Pearl Pretender" (S6) is a fake invented by Quell salvage-brokers together with Piers Lantry, to sell "Lirenne salvage bonds" after the dry-note crash. Work out the bond mechanics in `power_and_money.md` (who buys, what they are "backed" by, why bondholders later pay for boats). Revealed S8E6.
+- **SEC-005 (r2 addition):** only the forbidden Lows lullaby, hummed to a child before ~7, gives the ear; so the Choir cannot train its own and is running short of Cantors (numbers per decade welcome: how many Cantors per Spire in CY 250, 290, 312, 320).
+- **SEC-023 (r2):** Lady Ysa Corvane had Sister Marl killed to bury Ruel's crime; this is why she later opens Gullmouth to Fennick. Revealed S2E10.
+- **SEC-024 (r2, short):** the breach of the Ossari weir in CY 314 was **not** ordered by the Dry Queen; it was done from the Concord side with powder from the Rusk quartermasters' double trade. Who ordered it is sealed — write Dask's desperation in the dry summer of CY 314 and the quartermasters' trade in detail, but name no culprit. Publicly: "the Dry Queen did not deny it."
+- **SEC-028 (r2):** the Pumpwrights' Guild saws pump axle-pins before every Still Days to sell replacements; in CY 312 this stopped the Ninth Sluice pumps on the flood night. Revealed S5E8.
+- **SEC-029 (r2):** "ear-money" — Gleaners are paid by the head, pad the count with children who have no ear, and sell those as debt-walkers through an Undertow under-boss. Revealed S4E6.
 
-**Not yours** (sealed; do not speculate in writing): where the Spires came from, the Chronicler, Maren's late arc, Vesna's motive. If a house history needs an answer about the Builders, use the official belief ("the Builders, a vanished race") in public history and write `[SEALED — ask lead]` in true history.
+**Not yours** (sealed; do not speculate in writing): where the Spires came from, the Chronicler, Maren's late arc, Vesna's motive; (r2) Vesna's birth and childhood — give the Ilvane tree only her official entry ("daughter of Ilvane of the Crag, b. CY 239") and nothing about her parents; the origin of the Corvane ring beyond "won at Lirenne"; what exactly happened in the last hour of Lirenne beyond SEC-003 as given; what the Quiet keep besides "the old lullabies". If a house history needs an answer about the Builders, use the official belief ("the Builders, a vanished race") in public history and write `[SEALED — ask lead]` in true history.
 
 ## 5. Process
 Write drafts; list every new name for the glossary; list proposed canon records (HS-, EV-, PL-, SEC- candidates) in your report as `Canon change request` blocks (`canon/README.md` §5). Questions and conflicts → your report; I answer before the keeper's review.

@@ -1,6 +1,8 @@
 # Series Bible — THE LOW NOTE
 
-Version 1.0 · 2026-11-22 · author: lead-screenwriter · status: **draft for canon** (Canon: v0.1 → to be recorded by lore-keeper)
+Version 1.1 · 2026-11-22 · author: lead-screenwriter · status: **draft for canon** (Canon: v0.1 → to be recorded by lore-keeper)
+
+> **Revision r2 (2026-11-22, stress-test pass):** RULE-001 gains the *breath-tone* clarification (how a voiceless singer "sings out") and RULE-004 the keeper's lore about stones that "ring low"; geography gains the **Shelf lakes** on the plateau rim; the Chronicler is now defined as *never stating a false fact* (§9, §10, §12.4); the mystery balance for S7–S9 is loosened (§12.2); the motif table is corrected against the outlines (§12.3); new §12.6 — the `Pays:` line, the upward-consequence rule, the coincidence rule and the half-right rule. No world law is removed or reversed.
 Spoiler level: **public-safe** (no sealed truths here; sealed answers live in `sealed/master_mystery.md`). Where this file states something the world *believes*, it is marked **(belief)**.
 
 ---
@@ -49,10 +51,10 @@ Each rule has a cost and a limit. Proposed canon IDs in brackets; the keeper may
 
 | ID | Area | Rule | Cost | Limit | Public? |
 |---|---|---|---|---|---|
-| RULE-001 | magic | A person with **the ear**, singing a sustained true tone into a Spire, makes it *answer*: water within the Spire's sight-line is held back, turned or calmed. | **The singer's voice.** Every song roughens it; a long song leaves a Cantor hoarse for days; a **Great Song** (hours, against a storm or breach) can take the voice forever. Old Cantors are mute. **A singer with no voice left who keeps singing pays with breath: the stone takes their life** ("singing out"; first shown in S1E10). | Moves and holds water only — never creates, destroys, heats or poisons it. Works only within sight of the Spire's crown (~30 km on a clear day; less in fog/rain). One voice can hold a Great Song for at most a few hours. | yes |
+| RULE-001 | magic | A person with **the ear**, singing a sustained true tone into a Spire, makes it *answer*: water within the Spire's sight-line is held back, turned or calmed. | **The singer's voice.** Every song roughens it; a long song leaves a Cantor hoarse for days; a **Great Song** (hours, against a storm or breach) can take the voice forever. Old Cantors are mute. **A singer with no voice left who keeps singing pays with breath: the stone takes their life** ("singing out"; first shown in S1E10). *r2 clarification:* a mute Cantor cannot speak or sing a melody, but can still force a single unvoiced **breath-tone** through the throat; the Spire answers it weakly — and takes the breath itself. | Moves and holds water only — never creates, destroys, heats or poisons it. Works only within sight of the Spire's crown (~30 km on a clear day; less in fog/rain). One voice can hold a Great Song for at most a few hours. | yes |
 | RULE-002 | biology | **The ear** — the ability to make a Spire answer — is rare. **(belief: it is inherited in the "songblood" of the great houses, above all House Ilvane.)** | Children found with the ear are taken into the Choir. | Without the ear, singing into a Spire does nothing. | yes (the belief) — truth sealed |
 | RULE-003 | magic | A Spire not sung each day, or sung badly, **detunes**: its answer weakens. A fully silent Spire lets the sea in within days. Over 312 years every Spire has lost some tone **(belief: because the stone is old)**. | Districts in the sight of a weak Spire flood more often. | Detuning is slow (years), except when a Spire is damaged or deliberately left unsung. | yes — cause sealed |
-| RULE-004 | technology | **Echo-stones**: chips of Spire stone ring in sympathy with a Spire's tone. The **Relay** sends coded tones from Spire to Spire across the delta in minutes. | Relay fees; stones crack after heavy use; possession of an echo-shard without licence is a crime. | Only simple tone-codes (no speech). Anyone with a stone and the codebook can read the message → ciphers, forgeries, false alarms. Line of sight only. | yes |
+| RULE-004 | technology | **Echo-stones**: chips of Spire stone ring in sympathy with a Spire's tone. The **Relay** sends coded tones from Spire to Spire across the delta in minutes. | Relay fees; stones crack after heavy use; possession of an echo-shard without licence is a crime. | Only simple tone-codes (no speech). Anyone with a stone and the codebook can read the message → ciphers, forgeries, false alarms. Line of sight only. Stones ring only on the Spires' known home-tones; relay-keepers hold that very old stones "ring low" and throw them back in the water as unlucky (r2). | yes |
 | RULE-005 | magic/tech | **Hollowstone cannot be carved, cast or made (belief).** No new Spire has been raised in recorded history. | — | — | yes — truth sealed |
 | RULE-006 | law | **The Hush Law** (since CY 1): no commoner may sing within sight of a Spire. Work-chants, clapping, whistling and wordless drumming are allowed. Punishment: the tide-post (a night tied to a post at low tide in the Lows). | Lows culture is percussive and whistled — a deliberate sonic identity for the composer. | Applies to commoners; Cantors and nobles are exempt. | yes |
 | RULE-007 | technology | **Pumps**: wind-pumps and treadmill pumps (walked by paid or indebted labourers) lift water one dike-step. | Huge labour; treadmill debt-workers are the poorest of the poor. | Cannot replace a Spire: a district needs ~400 treadmill walkers working for a day to undo one hour of a Spire's silence. | yes |
@@ -92,7 +94,7 @@ Each rule has a cost and a limit. Proposed canon IDs in brackets; the keeper may
 - **The Stair** — Rusk fortress-town cut into the escarpment beside the great falls; guards the only easy road from the uplands.
 - **The Shoals** — Quell barrier islands, salt pans, wreckers' lights, smugglers.
 - **The Sunk** — shallow sea over drowned Lirenne; at very low tide the Sunken Spire's crown shows.
-- **Ossari Uplands** — dry, windy plateau of terraced towns; kites, gliders, saltpeter.
+- **Ossari Uplands** — dry, windy plateau of terraced towns; kites, gliders, saltpeter. Along its rim, in sight of the Stair, lie the **Shelf lakes** — the headwaters of the Aun and the plateau's last standing water (r2).
 
 Travel (for the keeper's table): Highwater↔Gullmouth 1 day by canal barge / 6 h by fast boat; Highwater↔the Stair 6 days by river upstream, 4 downstream; Highwater↔Pale Crag 1 day; Highwater↔Brackwater 2 days by sail; Highwater↔Lirenne shallows 3 days by sail. Relay message across the delta: minutes.
 
@@ -167,13 +169,13 @@ The abs scale leaves 400 years for the Builders' Age before OS 1 — room for pr
 
 1. **Who pays for dry land?** Every scheme, war and miracle asks this — from the treadmill walker to the uplands.
 2. **Voice:** who is allowed to speak, sing, testify, vote. The cost of the song is literally one's voice.
-3. **History is written by the dry.** The in-world **Chronicle** that narrates the series is partly false; viewers learn to doubt the narrator.
+3. **History is written by the dry.** The in-world **Chronicle** that narrates the series misleads; viewers learn to doubt the narrator — and, much later, to reread him: he never states a false fact, only true records with the cause left out (r2).
 4. **Debt** — money, blood, guilt. Every inheritance in this saga is also a bill.
 5. **The many and the one:** solo heroism vs. collective action. The saga's final answer is musical.
 
 ## 10. Storytelling devices (fixed for all seasons)
 
-- **The Chronicler** — an old, dry voice reading from *The Chronicle of the Dry Years* over maps, tapestries and documents in cold opens and season intros. His version is the official one. Treat every Chronicler line as *possibly wrong*. (Voice character: old, precise, faintly hoarse.)
+- **The Chronicler** — an old, dry voice reading from *The Chronicle of the Dry Years* over maps, tapestries and documents in cold opens and season intros. His version is the official one. Treat every Chronicler line as *possibly misleading* — but write each one so that it stays **literally true** after every reveal (r2; wording table in the sealed file §6). (Voice character: old, precise, faintly hoarse.)
 - **Episode puzzle** — most episodes contain one small solvable puzzle (a forged note, a stolen tithe chest, a false relay tone) closed inside the episode.
 - **Mystery leitmotif** — Nan's lullaby (a five-note phrase). It appears ONLY in clue scenes. Composer: see `studio/music/` once created.
 - **House leitmotifs** — each Spire has a "home tone"; each house theme is built on its Spire's tone.
@@ -208,7 +210,7 @@ The saga must feel like one woven cloth. Every writer, director and editor follo
 ### 12.2 Season → season
 1. **Every season finale ends on an image that the next season's E1 cold open answers** (the same place/object seen from another side).
 2. **Season-opening "map" sequence:** E1 of every season begins with the Chronicler over the updated map of the Spires and houses (who holds what now). This is also the fan "board update".
-3. **Each season closes at least one old mystery and opens new ones** (S1–S6: close 1, open 2; S7–S12: close 2, open 1). The closed mystery must have been opened in an earlier season.
+3. **Each season closes at least one old mystery and opens new ones** (S1–S6: close ≥1, open ≥2; S7–S9: close ≥2, open ≤2, each answered within two seasons; S10–S12: close ≥2, open ≤1 — r2). The closed mystery must have been opened in an earlier season.
 4. **Time skips (only one: S4→S5, five years)** are bridged by the Chronicler and by a montage of objects that changed hands.
 5. **A dead character keeps acting** through letters, debts, children, oaths, objects (`research/what_hooks.md` §2). Each major death names in the outline *what of theirs keeps moving the plot*.
 
@@ -217,11 +219,13 @@ The saga must feel like one woven cloth. Every writer, director and editor follo
 |---|---|---|---|
 | **Nan's lullaby** (5-note phrase) | S1E1 | every season, only in clue scenes | the main mystery; the final chorus is built from it |
 | **The spiral** (shell, Spire grooves, chalk sign) | S1E1 (tapestry) | every season | the Quiet, the Lady Below, Ashare; the truth about the Builders |
-| **Pell's echo-shard** (cracked, on a cord) | S1E1 | changes owners: Pell → Ione (S4) → Pell → … | proof the song answers; a "relic" of the protagonists |
-| **Ruel's black pearl ring** | S1E1 | Maren wears it from S6 | the first crime of the saga, inherited guilt |
-| **Hollis's brass ledger-clip** | S1E1 | found in the bank fire S6; seen again S10–S12 | the narrator mystery |
-| **The tide-post** (punishment post in the Lows) | S1E3 | S5, S9, S12 | the Hush Law; where the people finally sing |
-| **"Calm is bought."** / **"Who pays for the dry?"** | S1E2 / S1E4 | spoken in every season by a different class | the theme in one line |
+| **Pell's echo-shard** (cracked, no bigger than a thumbnail, on a cord) | S1E1 | changes owners: Pell → Ione (S4) → Pell → … | proof the song answers; a "relic" of the protagonists |
+| **Ruel's black pearl ring** | S1E1 | Maren takes and hides it S1E11; wears it openly from S6E12 | the first crime of the saga, inherited guilt |
+| **Hollis's brass ledger-clip** | S1E1 (Ursel's gift) | found in the bank fire S6; seen again S10–S12 | the narrator mystery |
+| **Ione's tuning fork** (r2) | S1E1 | S4E12 → Pell; S5E1; S12E12 | the pitch handed from the one to the many |
+| **Nan's spiral-shell earring** (r2) | S1E2 | Pell wears it from S2E8 | family; pays S10 |
+| **The tide-post** (punishment post in the Lows) | S1E3 | S4, S5, S7, S9, S12 | the Hush Law; where the people finally sing |
+| **"Calm is bought."** / **"Who pays for the dry?"** | S1E2 (the Lows), S1E4 (a lord) / S1E4 | spoken in every season by a different class | the theme in one line |
 | **The Tithe Map** (document) | S1E1 | redrawn each season | who is sacrificed this year |
 | **The Still Days** | S1E8–12 | several finales | the yearly danger window; recurring deadline |
 | **The Chronicler's sign-off** "…and the water kept its counsel." | S1E1 | end of every season | changes once — in the last episode |
@@ -229,10 +233,17 @@ The saga must feel like one woven cloth. Every writer, director and editor follo
 ### 12.4 How clues return across seasons
 - Every clue is logged in `sealed/master_mystery.md` with: episode planted → episode(s) it is *echoed* → reveal episode. **A clue is echoed at least once before its reveal** (a second angle, a line that reframes it, or the leitmotif on it).
 - After every reveal, the reveal episode **shows a 3–6-shot "recall" montage of the earlier clues** (fair-play proof; reuses existing shots → cheap for AI production).
-- The **Chronicler's errors** are consistent: he always errs in favour of the dry (the Steps). When he is wrong, he is wrong the same way each time — so attentive fans can map his bias.
+- The **Chronicler's bias** is consistent: he always leans toward the dry (the Steps), and always the same way — by leaving out the cause. He never states a false fact (r2), so attentive fans can map what he omits, and a rewatch after any reveal finds his sentences still exact. Where each motif and thread actually lands: `saga_arc.md` (Motif matrix, Thread ledger).
 - No reveal uses a rule, object or person not established at least one season earlier.
 
 ### 12.5 Dialogue continuity
 - Each main character has a **speech fingerprint** (catch-phrase, register, what they never say) in their dossier; the keeper checks it.
 - Names, titles and forms of address follow `canon/glossary.md`; a title change (Lady → Helm) changes how everyone addresses them from that episode on.
 - Lines that will gain a second meaning later are tagged in scripts `[ECHO: SEC-xxx]` so the editor never cuts them.
+
+### 12.6 Stress-test rules (r2 — apply to every outline before approval)
+1. **`Pays:` line.** Every episode outline begins with what it pays from the previous cliffhanger; every season outline names its hand-off image. An outline without them is not reviewed.
+2. **Upward consequence.** Every season contains at least one scheme of the Lows or the Mids that changes a decision of the Steps (ledger: `saga_arc.md`, Intrigue ladder). Small crimes are never mere colour.
+3. **No free coincidences.** A hero may *find* a thing or *meet* a person by chance only if the sealed file can say why it was there to be found.
+4. **Half-right is welcome.** A reveal the audience can guess must hide a second turn the guess does not cover; a reveal nobody could guess is a cheat. Each saga-tier secret needs one clue visible in its planting season under a louder, wrong reading.
+5. **Every named character carries weight.** A second-circle character who has not changed a main character's situation within three seasons of their first scene is merged or cut.
