@@ -1,0 +1,16 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Результаты пайплайна
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
