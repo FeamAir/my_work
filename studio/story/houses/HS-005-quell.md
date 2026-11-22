@@ -1,7 +1,7 @@
 # HS-005 House Quell — "the Shoals"
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
-Frame: `houses_overview.md` §1. The five island clans are minor houses HS-027…HS-031 in `minor_houses.md`.
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
+Frame: `houses_overview.md` §1. The five island clans are minor houses HS-020…HS-024 in `minor_houses.md`.
 
 ```canon
 id: HS-005
@@ -12,25 +12,25 @@ rank: great
 words: "Calm is bought."
 sigil: a green eel coiled through a ring, on bone
 colors: [sea-green, bone]
-seat: PL-0120
-lands: [PL-0120, PL-0121, PL-0122, PL-0123, PL-0136]
+seat: PL-0056
+lands: [PL-0056, PL-0057, PL-0055, PL-0060, PL-0074]
 liege:
 cadet_of:
 founded: ~OS 400
 founder:
 heads: [CH-0243@~OS 690, CH-0240@CY 259, CH-0242@CY 289, CH-0019@CY 303]
-alliances: [HS-001:sworn@CY 40, HS-037:enemy@CY 9, HS-007:partner@CY 321, HS-027:clan@~OS 400, HS-028:clan@~OS 400, HS-029:clan@~OS 400, HS-030:clan@~OS 400, HS-031:clan@CY 96]
+alliances: [HS-001:sworn@CY 40, HS-030:enemy@CY 9, HS-007:partner@CY 321, HS-020:clan@~OS 400, HS-021:clan@~OS 400, HS-022:clan@~OS 400, HS-023:clan@~OS 400, HS-024:clan@CY 96]
 secrets: [SEC-016]
 leitmotif: a swinging 6/8 sea-shanty figure on the home tone B, whistled (never sung), with a bowed saw and hull-knocks
 ```
 
-> Note for the keeper: Quell is not a bloodline. It is a **house of five clans**; the clan-moot (the **Hull Moot**) elects a **Captain-Lord**, who takes the name *Quell* for life or until deposed. "Jaro Quell" was born Jaro of Clan Rhee. Members of the house are the clans' people; `house: HS-005` should be used only for a sitting or former Captain-Lord, clan members get their clan (HS-027…031). `heads` = Captain-Lords with IDs.
+> Note for the keeper: Quell is not a bloodline. It is a **house of five clans**; the clan-moot (the **Hull Moot**) elects a **Captain-Lord**, who takes the name *Quell* for life or until deposed. "Jaro Quell" was born Jaro of Clan Rhee. Members of the house are the clans' people; `house: HS-005` should be used only for a sitting or former Captain-Lord, clan members get their clan (HS-020…031). `heads` = Captain-Lords with IDs.
 
 ## Public history
 
 **The wreck-singers.** Before Lirenne fell, the barrier islands were the city's outer wall: salt-rakers, fishers, pilots and the **wreck-singers** of Brackwater, who sang the Storm Spire for ships in distress. At the Crowning of the Keepers (~OS 400) the four clans of the inner islands (Rhee, Jutt, Skarra, Tarrow) were sworn together as one warden family under a captain they chose themselves — the outer-isle Varra joined in CY 96, making five; the Keepers called them by the name of their Spire's gift — *quell*, the stilling of the sea.
 
-**The Breaking.** The Chronicle says Quell boats "worked the Sunk for a week after the drowning". Quell signed the Charter in CY 1 and was granted, in CY 3, the **Sunk Charter** (EV-0251): the right of salvage over the whole drowned city of Lirenne and the shallows around it "until the city be raised or the sea give it back". Nobody thought the clause would ever matter.
+**The Breaking.** The Chronicle says Quell boats "worked the Sunk for a week after the drowning". Quell signed the Charter in CY 1 and was granted, in CY 3, the **Sunk Charter** (EV-0264): the right of salvage over the whole drowned city of Lirenne and the shallows around it "until the city be raised or the sea give it back". Nobody thought the clause would ever matter.
 
 **Rise and conquest.**
 | When | What Quell took | How |
@@ -38,9 +38,9 @@ leitmotif: a swinging 6/8 sea-shanty figure on the home tone B, whistled (never 
 | CY 1 | the Storm Spire and a voice | founding |
 | CY 3 | the **salvage of the Sunk** | the Sunk Charter |
 | CY 9 → | refused the Relay its towers on the islands — "the Shoals don't ring" | the Shoals live on unrecorded trade; feud with the Relay-Masters (Fennick) from the start |
-| CY 37–40 | lost **the Salt War** to Corvane (EV-0254) | the **Pilots' Peace**: Quell flies the Concord flag in war and supplies Gullmouth's pilots (Clan Skarra) — but keeps the **calm-fee** (ships pay to be sung through the Storm Spire's water) |
+| CY 37–40 | lost **the Salt War** to Corvane (EV-0267) | the **Pilots' Peace**: Quell flies the Concord flag in war and supplies Gullmouth's pilots (Clan Skarra) — but keeps the **calm-fee** (ships pay to be sung through the Storm Spire's water) |
 | CY 34 | lost its own wreck-singers to the Unison Decree — from then on rents Cantors from Pale Crag | the clans never forgave Ilvane |
-| CY 90s–170s | absorbed Brackwater's merchant guild, the salt pans of the inner islands (PL-0136), the outer-isle smugglers (Clan Varra joins the moot, CY 96) | by debt, marriage and drowning |
+| CY 90s–170s | absorbed Brackwater's merchant guild, the salt pans of the inner islands (PL-0074), the outer-isle smugglers (Clan Varra joins the moot, CY 96) | by debt, marriage and drowning |
 | CY 171–198 | **the Pirate Helm**: Jolle Quell elected Helm by a coalition bought with salvage silver | the only Quell Helm; the Ring never trusted the islands again |
 | CY 303 | Jaro of Rhee elected Captain-Lord at 27 | the youngest in a century |
 

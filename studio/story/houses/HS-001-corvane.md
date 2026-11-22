@@ -1,6 +1,6 @@
 # HS-001 House Corvane — "the Sentinel"
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1 (colours, sigil, words, scheme, heirloom are fixed there and repeated here unchanged).
 
 ```canon
@@ -12,14 +12,14 @@ rank: great
 words: "We go under and come up."
 sigil: a black cormorant diving into a silver wave, on deep blue
 colors: [deep blue, silver]
-seat: PL-0101
-lands: [PL-0101, PL-0102, PL-0103, PL-0137]
+seat: PL-0030
+lands: [PL-0030, PL-0031, PL-0032, PL-0075]
 liege:
 cadet_of:
 founded: ~OS 400
 founder:
 heads: [CH-0203@~OS 684, CH-0200@CY 266, CH-0005@CY 290-09, CH-0006@CY 312-11-02]
-alliances: [HS-011:marriage@CY 120, HS-005:sworn@CY 40, HS-006:enemy@CY 251, HS-007:debtor@CY 308, HS-034:sworn@CY 1]
+alliances: [HS-011:marriage@CY 120, HS-005:sworn@CY 40, HS-006:enemy@CY 251, HS-007:debtor@CY 308, HS-027:cadet@CY 131]
 secrets: [SEC-001, SEC-003, SEC-023, SEC-027]
 leitmotif: low brass on the home tone D, a "dive" figure (falling fourth then rising sixth) under a rolling sea-drum
 ```
@@ -28,19 +28,19 @@ leitmotif: low brass on the home tone D, a "dive" figure (falling fourth then ri
 
 ## Public history
 
-**Wardens of the river mouth.** The Corvanes enter history as one of the nine warden families sworn to the Keepers of Lirenne in the Crowning of the Keepers (~OS 400, EV-0050): sea-captains given the Sentinel Spire at Gullmouth and the duty to keep the mouth of the Aun open for Lirenne's ships. For three centuries they are the Keepers' fleet.
+**Wardens of the river mouth.** The Corvanes enter history as one of the nine warden families sworn to the Keepers of Lirenne in the Crowning of the Keepers (~OS 400, EV-0051): sea-captains given the Sentinel Spire at Gullmouth and the duty to keep the mouth of the Aun open for Lirenne's ships. For three centuries they are the Keepers' fleet.
 
-**The Breaking (OS 700, EV-0100) — the Chronicle's version.** When Queen Neveh "went mad and sang her city into the sea", Admiral **Tolvar Corvane** held the fleet off Lirenne's harbour and, says the Chronicle, "took from the water all that could be taken". He came home with the house's heirloom, the **Admiral's Pearl** — a black pearl ring, "won at Lirenne". He was the first to put his seal on the Charter of the Ring (CY 1, EV-0250).
+**The Breaking (OS 700, EV-0100) — the Chronicle's version.** When Queen Neveh "went mad and sang her city into the sea", Admiral **Tolvar Corvane** held the fleet off Lirenne's harbour and, says the Chronicle, "took from the water all that could be taken". He came home with the house's heirloom, the **Admiral's Pearl** — a black pearl ring, "won at Lirenne". He was the first to put his seal on the Charter of the Ring (CY 1, EV-0101).
 
 **Rise and conquest.**
 | When | What Corvane took | How |
 |---|---|---|
 | CY 1 | the Sentinel Spire and a Conclave voice; command of the Concord fleet "under the Helm's flag" | founding settlement — the Helm owns the flag, Corvane owns the ships |
-| CY 37–40 | the sea-lanes of the Shoals (EV-0254, **the Salt War**) | Admiral Brannic Corvane burned the clan fleets at the Brackwater bar; the **Pilots' Peace** (CY 40): Quell keeps its Spire, its salt and its "calm-fee", but every Quell hull flies the Concord flag in war and every Gullmouth pilot comes from Quell's Skarra clan — the root of the "uneasy friendship" |
-| CY 44–71 | Gullmouth itself becomes a port-city | Lady Admiral Edda builds the **Long Mole** (PL-0137) and the river-mouth customs (the "mouth-toll") |
-| CY 119–120 | **House Ostry** (HS-011) — the harbour forts of the Ostry Roads, the pilots' guild, Ostry's (sword-house) levies | the last Lord Ostry and his heir are lost at sea in fog (EV-0256); his sister **Elowen Ostry** marries Wystan Corvane; the Ostry Roads pass to Corvane "by marriage"; the cadet line *Corvane of the Roads* (HS-034) keeps the forts |
+| CY 37–40 | the sea-lanes of the Shoals (EV-0267, **the Salt War**) | Admiral Brannic Corvane burned the clan fleets at the Brackwater bar; the **Pilots' Peace** (CY 40): Quell keeps its Spire, its salt and its "calm-fee", but every Quell hull flies the Concord flag in war and every Gullmouth pilot comes from Quell's Skarra clan — the root of the "uneasy friendship" |
+| CY 44–71 | Gullmouth itself becomes a port-city | Lady Admiral Edda builds the **Long Mole** (PL-0075) and the river-mouth customs (the "mouth-toll") |
+| CY 119–120 | **House Ostry** (HS-011) — the harbour forts of the Ostry Roads, the pilots' guild, Ostry's (sword-house) levies | the last Lord Ostry and his heir are lost at sea in fog (EV-0251); his sister **Elowen Ostry** marries Wystan Corvane; the Ostry Roads pass to Corvane "by marriage"; the cadet line *Corvane of the Roads* (HS-027) keeps the forts |
 | CY 198–224 | the river-mouth customs made perpetual | Helm Hallam Corvane signs them to his own house |
-| CY 268 | the end of a rival: the **Gullmouth Exchange** (Corvane's own bank) is ruined in the Exchange Panic (EV-0265) | Corvane is left owing money to Lantry — a defeat the house calls a betrayal |
+| CY 268 | the end of a rival: the **Gullmouth Exchange** (Corvane's own bank) is ruined in the Exchange Panic (EV-0272) | Corvane is left owing money to Lantry — a defeat the house calls a betrayal |
 
 **Heads of house** (Lord or Lady Admiral; "of Gullmouth")
 | Years (CY) | Head | Note |
@@ -77,7 +77,7 @@ Three Corvane Helms in 312 years — the most of any house; the Lows remember St
 - **Faith:** Choir on land, the Lady Below at sea (sailors throw salt over the stern; officers pretend not to see). Every Corvane ship carries a "drowned bell" that is never rung.
 - **Dress:** deep-blue long coats, high collars, silver cormorant clasps; officers wear a silver cord in the hair or on the sleeve. Sailors: blue-and-white striped smocks, tarred hats. Marines: blue helmets with a black crest ridge (good crowd consistency).
 - **Architecture:** Gullmouth is stone quays and slate roofs climbing a headland around the Sentinel Spire; the Long Mole runs a mile into the sea with lantern posts every hundred paces. Flagship at Highwater: the *Patient Gull*.
-- **Household:** pursers and flag-captains are hereditary families (Whitlow, HS-035); pilots are Quell's Skarra clan; the Lows of Highwater are the recruiting ground — "a Lows boy on a Corvane deck is dry for life".
+- **Household:** pursers and flag-captains are hereditary families (Whitlow, HS-028); pilots are Quell's Skarra clan; the Lows of Highwater are the recruiting ground — "a Lows boy on a Corvane deck is dry for life".
 
 ## Power and money
 
@@ -92,7 +92,7 @@ Three Corvane Helms in 312 years — the most of any house; the Lows remember St
 ### The house scheme on three floors — "storm-berths" and padded powder
 | Floor | Who | What |
 |---|---|---|
-| **Steps — invents** | the flag-captains and the purser family Whitlow (HS-035), with the Lord Admiral's office looking away | In storms, the Sentinel Spire's calm reaches only so far: berths inside the Long Mole are "storm-berths". Captains sell them to merchant ships for silver (a storm-berth ~5 marks a night). The fleet's powder accounts are padded: each ship books 20–30% more powder than it loads; the difference is sold to merchantmen and Quell privateers. |
+| **Steps — invents** | the flag-captains and the purser family Whitlow (HS-028), with the Lord Admiral's office looking away | In storms, the Sentinel Spire's calm reaches only so far: berths inside the Long Mole are "storm-berths". Captains sell them to merchant ships for silver (a storm-berth ~5 marks a night). The fleet's powder accounts are padded: each ship books 20–30% more powder than it loads; the difference is sold to merchantmen and Quell privateers. |
 | **Mids — executes** | pursers, harbour clerks, gunners' mates, the Arsenal's tally-men | Pursers write two powder books (the "wet book" and the "dry book"); harbour clerks keep the berth list; gunners sign for full lockers they never see. |
 | **Lows — pays** | crews of ships without berths; the Lows boys on Corvane decks | Ships that cannot pay ride out storms in the open roads and are lost; at the Battle of the Sluice Gates the gunners on the lower decks — Lows-born — fire their last shot early and die beside empty lockers. |
 

@@ -1,6 +1,6 @@
 # HS-006 House Fennick — "the Listeners"
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1.
 
 ```canon
@@ -12,32 +12,32 @@ rank: great
 words: "Nothing unheard."
 sigil: a grey hare with raised ears, on sulphur yellow
 colors: [slate grey, sulphur yellow]
-seat: PL-0109
-lands: [PL-0109, PL-0108, PL-0131]
+seat: PL-0012
+lands: [PL-0012, PL-0016, PL-0008]
 liege:
 cadet_of:
 founded: CY 9
 founder:
-heads: [CH-0250@CY 251-11, CH-0251@CY 262, CH-0010@CY 291]
-alliances: [HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-005:enemy@CY 9, HS-020:sworn@CY 251, HS-021:sworn@CY 251, HS-037:sworn@CY 9, HS-002:ally@CY 312-11]
+heads: [CH-0250@CY 251-11, CH-0251@CY 262, CH-0010@CY 291, CH-0042@CY 320]
+alliances: [HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-005:enemy@CY 9, HS-013:sworn@CY 251, HS-014:sworn@CY 251, HS-030:sworn@CY 9, HS-002:ally@CY 312-11]
 secrets: [SEC-015]
 leitmotif: a ticking figure of muted pizzicato and tuned relay-stones on the home tone of the Sluice Spire (C sharp, drifting flat), a single held note that "listens" under it
 ```
 
-> Note: `founded` = CY 9, when the family became hereditary Relay-Masters. **Raised to great house** CY 251-11 (EV-0263). Heads before CY 251 were Relay-Masters, not lords; they are listed in prose.
+> Note: `founded` = CY 9, when the family became hereditary Relay-Masters. **Raised to great house** CY 251-11 (EV-0253). Heads before CY 251 were Relay-Masters, not lords; they are listed in prose.
 
 ## Public history
 
-**Clerks of the Relay.** In CY 9 Helm Aldous Harrow chartered **the Relay** (EV-0252): echo-stone stations from Spire to Spire, so that a flood at Gullmouth could be known at Highwater in minutes. He gave the codebooks to his own steward's family, the Fennicks — clerks who could keep a secret. The Fennicks served House Harrow and the Helm's office as **Relay-Masters** for 240 years.
+**Clerks of the Relay.** In CY 9 Helm Aldous Harrow chartered **the Relay** (EV-0265): echo-stone stations from Spire to Spire, so that a flood at Gullmouth could be known at Highwater in minutes. He gave the codebooks to his own steward's family, the Fennicks — clerks who could keep a secret. The Fennicks served House Harrow and the Helm's office as **Relay-Masters** for 240 years.
 
 **Rise and "conquest" — by paper.**
 | When | What Fennick took | How |
 |---|---|---|
 | CY 9 | the Relay's codebooks and stations | Helm's charter |
-| CY 9 → | every Highwater relay tower; the Relay-Wardens' family Tennant (HS-037) as their sworn men | the Relay grows with the delta |
-| CY 160 | **the Hearings** — the Concord's courts — from the Helm's office (EV-0258, the **Clerks' Ordinance**) | the Hearings needed fast messages and good records; Fennick had both |
+| CY 9 → | every Highwater relay tower; the Relay-Wardens' family Tennant (HS-030) as their sworn men | the Relay grows with the delta |
+| CY 160 | **the Hearings** — the Concord's courts — from the Helm's office (EV-0269, the **Clerks' Ordinance**) | the Hearings needed fast messages and good records; Fennick had both |
 | CY 160 → | the Listeners: informers in every district "so that the Hearings may hear" | |
-| CY 249–251 | as House Harrow died of the Grey Cough (EV-0262), Fennick ran Harrow's estates, its Sluice Spire, its sluice-warden vassals (Dunmore, Cobbet) | stewards of the dying |
+| CY 249–251 | as House Harrow died of the Grey Cough (EV-0253), Fennick ran Harrow's estates, its Sluice Spire, its sluice-warden vassals (Dunmore, Cobbet) | stewards of the dying |
 | CY 251-11 | **raised to great house**; the **Sluice Spire** and Harrow's **Sluice Voice** pass to Fennick by a Conclave vote of 5–3 (Corvane, Quell, Ilvane against) | the "upstarts"; Lantry's money bought the two swing votes (Dask for a grain monopoly on the Highwater Lows, the Choir for a stipend) |
 | CY 251 → | the dry-tithe of the Highwater Lows (the twelve sluices) | it came with the Spire |
 | CY 312 | **Odo Fennick, Helm** — the first Fennick Helm | the Sunken Vote (S1E12) |
@@ -46,7 +46,7 @@ leitmotif: a ticking figure of muted pizzicato and tuned relay-stones on the hom
 | Years (CY) | Head | Office |
 |---|---|---|
 | 9 – 40 | Ivo | first Relay-Master |
-| 40 – 77 | Dunnet | Relay-Master |
+| 40 – 77 | Percival | Relay-Master |
 | 77 – 110 | Gideon | Relay-Master |
 | 110 – 150 | Clement | Relay-Master |
 | 150 – 189 | Hamon | Relay-Master; Master of the Hearings from CY 160 |
@@ -61,7 +61,7 @@ leitmotif: a ticking figure of muted pizzicato and tuned relay-stones on the hom
 ## True history
 
 - **The elevation was bought (no new secret — mechanics only).** Lantry paid the two swing votes of CY 251 and, in return, Fennick's Relay-Master witnessed the last will of Lord Osbert Harrow that left Harrow's *other* voice, the Hill Voice, to "the holder of his debts" — Lantry (see `HS-009-harrow.md`, secret candidate SEC-C03). Fennick and Lantry were born as great powers in the same week, from the same deathbed.
-- **The Sluice Spire is under-sung.** Fennick pays its Sluice Spire's Cantors the lowest rent in the realm and books more Cantor-hours than it buys. By CY 312 the Sluice Spire has three Cantors, one of them mute (Sabin) — `HS-013-choir.md`, census.
+- **The Sluice Spire is under-sung.** Fennick pays its Sluice Spire's Cantors the lowest rent in the realm and books more Cantor-hours than it buys. By CY 312 the Sluice Spire has three Cantors, one of them mute (Sabin) — `HS-090-choir.md`, census.
 - **SEC-015.** Ursel Lantry bribed Fennick's steward so that the Sluice Spire was not retuned on Still Day 3, CY 312; Cantor Sabin took the purse. **Odo did not know.** Revealed S2E6 (Hollis matches the purse).
 - **Odo did not poison the Helm** — everyone thinks he did (SEC-001 is Ruel's).
 - **The relay-keepers' private trade.** Below the lord's sight, keepers sell messages early on their own account. In CY 312 Bede Lark (CH-0052) sold the news of the Tithe Map "to an admiral and a bank, the same news, twice" — which set off both murders of S1.

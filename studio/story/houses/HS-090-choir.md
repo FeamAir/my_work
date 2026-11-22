@@ -1,10 +1,10 @@
-# HS-013 The Choir — the order of Cantors (a voting power)
+# HS-090 The Choir — the order of Cantors (a voting power)
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `series_bible.md` §7.4, `houses_overview.md` §3. People of the Choir (Vesna, Elm, Venn, Ferro, Sabin, Marl, Daro) are `writer-characters`'. This file is the Choir as an institution: vote, money, numbers.
 
 ```canon
-id: HS-013
+id: HS-090
 type: house
 canon: draft
 name: The Choir
@@ -12,14 +12,14 @@ rank: order
 words: "One voice, kept true."
 sigil: nine short black strokes in an arc above one level line, on undyed linen
 colors: [undyed linen, black]
-seat: PL-0107
-lands: [PL-0107, PL-0115]
+seat: PL-0013
+lands: [PL-0013, PL-0015, PL-0040]
 liege:
 cadet_of:
 founded: CY 1
 founder: CH-0224
 heads: [CH-0224@CY 1, CH-0012@CY 281]
-alliances: [HS-003:patron@CY 1, HS-036:stewards@CY 1, HS-007:debtor@CY 300, HS-006:ally@CY 312-10]
+alliances: [HS-003:patron@CY 1, HS-029:stewards@CY 1, HS-007:debtor@CY 300, HS-006:ally@CY 312-10]
 secrets: [SEC-003, SEC-005, SEC-029]
 leitmotif: the Still Days retuning chorus — unison on G (the Choir Spire's home tone) passed from voice to voice so that the line never breaks; thinner every season as the Choir shrinks
 ```
@@ -38,12 +38,12 @@ The Choir is a voting power because in CY 1 Ilvane gave it the **Bell Spire** of
 | 1 – 14 | Sereth Ilvane (CH-0224) | also Matriarch of Ilvane |
 | 14 – 43 | Sorrel Ilvane | the Unison Decree (CY 34) |
 | 43 – 70 | Thandry of Brackwater | the last wreck-singer to rise in the Choir |
-| 70 – 98 | Calla Ilvane | |
+| 70 – 98 | Saskia Ilvane | |
 | 98 – 131 | Ommen Ilvane | |
 | 131 – 160 | Quiller Ilvane | declared Vanth's under-singing treason (CY 140) |
 | 160 – 192 | Beryl Ilvane | |
 | 192 – 221 | Idony Dask | the only Dask-born First Cantor |
-| 221 – 252 | Tamsel Ilvane | voted to raise Fennick for a stipend (CY 251) |
+| 221 – 252 | Nolwen Ilvane | voted to raise Fennick for a stipend (CY 251) |
 | 252 – 281 | Orla Corvane | |
 | 281 – | Vesna Ilvane (CH-0012) | mute; speaks through her Voice; dies S10E9 |
 
@@ -58,7 +58,7 @@ The Choir is a voting power because in CY 1 Ilvane gave it the **Bell Spire** of
 
 ## The Gleaners
 
-Choir officers and novices who walk the Lows to find children "blessed by the Lady" — children who make an echo-stone hum. Found children go to Pale Crag "for testing" before about seven; those who "take the ear" are entered as foundling novices (the **White Roll**); the stewards (Pallis, HS-036) keep the real record (the **Ash Roll**).
+Choir officers and novices who walk the Lows to find children "blessed by the Lady" — children who make an echo-stone hum. Found children go to Pale Crag "for testing" before about seven; those who "take the ear" are entered as foundling novices (the **White Roll**); the stewards (Pallis, HS-029) keep the real record (the **Ash Roll**).
 
 - **Ear-money (SEC-029, revealed S4E6):** a Gleaner is paid **3 marks a head** for each child brought for testing and **10 more** if the child takes the ear. Novices pad the count with children who have no ear; those are "returned to the Lady" — in fact sold for **2 marks** each as debt-walkers through an Undertow under-boss. Patch (CH-0064) is one.
 - **The songblood (SEC-005, revealed S5E6):** some gleaned children are passed off as Ilvane-born. The ear is taught, not inherited, and only by the forbidden Lows lullaby hummed before about seven — so the Choir **cannot make its own singers**.

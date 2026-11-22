@@ -1,6 +1,6 @@
 # HS-008 House Ashare — "the Tide-Kings" (extinct OS 700)
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §2; `franchise.md` P2 (OS 380–420) and P3 (OS 690–700) — those windows are only **named** here, not filled.
 **Sealed limits:** where the Spires came from, what happened in the last hour of Lirenne beyond SEC-003, the origin of the Corvane ring beyond "won at Lirenne", what the Quiet keep besides "the old lullabies" — `[SEALED — ask lead]`.
 
@@ -13,8 +13,8 @@ rank: extinct
 words: "Many mouths, one water."
 sigil: a silver spiral shell, on deep teal
 colors: [pearl, deep teal]
-seat: PL-0124
-lands: [PL-0124, PL-0125, PL-0123]
+seat: PL-0061
+lands: [PL-0061, PL-0062, PL-0060]
 liege:
 cadet_of:
 founded: OS 1
@@ -23,7 +23,7 @@ extinct: OS 700-11
 heads: [CH-0287@~OS 398, CH-0285@OS 600, CH-0286@OS 628, CH-0030@OS 671]
 alliances: [HS-001:sworn@~OS 400, HS-002:sworn@~OS 400, HS-003:sworn@~OS 400, HS-004:sworn@~OS 400, HS-005:sworn@~OS 400, HS-009:sworn@~OS 400, HS-010:sworn@~OS 400, HS-011:sworn@~OS 400, HS-012:sworn@~OS 400]
 secrets: [SEC-003]
-leitmotif: none of its own on screen until S5 — the teal timbre (a low female choir humming with closed mouths, bowed glass) with no fixed tonic; see art sheet
+leitmotif: theme on the Sunken Spire's tone (canon); composer note - only fragments in the teal timbre (closed-mouth humming, bowed glass) before S5E10; see art sheet
 ```
 
 > Note for the keeper: `extinct: OS 700-11` = the Still Days of OS 700 (the Breaking, EV-0100). The Chronicle's reckoning ("Old Song") counts from the first Keeper (OS 1). The Sunken Vote (RULE-009) is the legal ghost of this house.
@@ -43,7 +43,7 @@ leitmotif: none of its own on screen until S5 — the teal timbre (a low female 
 | 431 – 468 | Aleneh | |
 | 468 – 505 | Ravenne | |
 | 505 – 533 | Obeh | |
-| 533 – 571 | Emmera | |
+| 533 – 571 | Rinneh | |
 | 571 – 600 | Yareh | |
 | 600 – 628 | Taleh (CH-0285) | Neveh's grandmother |
 | 628 – 671 | Ulenne (CH-0286) | Neveh's father |

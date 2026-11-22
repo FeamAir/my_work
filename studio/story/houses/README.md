@@ -1,85 +1,61 @@
 # Houses, Power and Money — index
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 (+ lead-screenwriter's world package) · status: **draft for canon**
-Spoiler level: **internal**. Every file here has a public part and a `True history` / `[SEALED-REF]` part. Public-facing teams (marketing, OP/ED, previews) use only the *Public history* sections and the art sheet.
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: **v0.2** (the keeper published the foundation while this package was being written; all IDs below are aligned to v0.2) · status: **draft for canon**
+Spoiler level: **internal**. Every dossier has a public part and a `True history` part. Public-facing teams (marketing, OP/ED, previews) use only *Public history* sections and `art_and_music_sheet.md`.
 
 ## Files
 
 | File | What |
 |---|---|
-| `HS-001-corvane.md` … `HS-007-lantry.md` | the seven great powers with a Conclave seat (dossiers in the canon house template) |
+| `HS-001-corvane.md` … `HS-007-lantry.md` | the seven great houses (canon house template; full dossiers to be merged into the keeper's foundation records) |
 | `HS-008-ashare.md` | the Tide-Kings (extinct OS 700), full dossier |
-| `HS-009-harrow.md`, `HS-010-moll.md`, `HS-011-ostry.md`, `HS-012-vanth.md` | lost founders (short dossiers) |
-| `HS-013-choir.md` | the Choir as a voting power (order); Cantor census CY 250–320 |
-| `other_powers.md` | HS-014 Pumpwrights' Guild, HS-015 the Undertow, free companies, the Listeners, the Quiet (only what is allowed) |
-| `ossari.md` | HS-016 the Ossari Uplands as a power |
-| `minor_houses.md` | HS-020 … HS-040: 21 minor houses and clans |
-| `power_and_money.md` | Conclave procedure, Helms list, Tithe Map, money, dry-notes and Account Nine in numbers, Lirenne salvage bonds, the Hearings, the Still Days schedule, **the scheme table (24 rows)** |
-| `lineages.md` | machine stubs for the last three generations of each great house (+ Ashare), public vs true genealogy notes |
-| `art_and_music_sheet.md` | sigils, colours, five on-screen recognisers, home tones and leitmotif ideas |
+| `HS-009-harrow.md` … `HS-012-vanth.md` | lost founders (short dossiers) |
+| `HS-090-choir.md` | the Choir as a voting power; First Cantors; **Cantor census CY 250 / 290 / 312 / 320** |
+| `other_powers.md` | HS-092 Pumpwrights' Guild, HS-093 the Undertow, free companies (HS-095 Lantern Company + others), the Listeners, HS-094 the Quiet (only what is allowed) |
+| `ossari.md` | HS-091 the Ossari as a power: clans, the Dry Queen's office, kites, gliders, saltpeter, hostages, the Weir Terms (draft text) |
+| `minor_houses.md` | **21 minor houses and clans, HS-013…HS-033** (12 usable in S1–S3) |
+| `power_and_money.md` | Conclave procedure and the Sunken Vote clause, the Helms CY 1–320, the Tithe Map, prices, dry-notes and Account Nine in numbers, Lirenne salvage bonds, the Hearings, the Still Days schedule, **the scheme table (24 rows, with upward consequences)** |
+| `lineages.md` | trees and machine stubs (CH-0200…0287) for the last three generations; link requests for `writer-characters`' records; public vs true genealogy |
+| `art_and_music_sheet.md` | sigils, colours, five recognisers, home tones and leitmotif ideas |
 
-## ID plan used in these files (proposals — the keeper may renumber)
+## IDs (aligned to canon v0.2, `canon/README.md` "Allocation (v0.2)")
 
-The canon is empty (v0.1), so the IDs below are **proposals** chosen so they do not collide with IDs already used in `cast_overview.md` (CH-0001…0065) or reserved in `franchise.md` §3 (EV-0001…0249 prequels, EV-0300+ saga).
-
-| Kind | Range used here | Notes |
+| Kind | Used here | Status |
 |---|---|---|
-| Houses / powers | HS-001 … HS-016, HS-020 … HS-040 | HS-017…019 left free |
-| Characters (house members, historic heads) | CH-0200 … CH-0299 | only members of the last three generations and founders get IDs; older heads are names + years in prose |
-| Places | PL-0101 … PL-0140 | table below |
-| Events (pre-saga house history outside the prequel windows) | EV-0250 … EV-0299 | events inside prequel windows use the first free number of that window's reserved block and are marked `(prequel window)` |
+| Great / fallen houses | HS-001…012 | exist in canon (foundation); dossiers add fields |
+| Non-house powers | HS-090 Choir, HS-091 Ossari, HS-092 Guild, HS-093 Undertow, HS-094 Quiet, HS-095 Lantern Company | exist in canon |
+| Minor houses | **HS-013…HS-033** (new) | proposals |
+| Characters | **CH-0200…CH-0287** (new; house members and historic heads) | proposals — `writer-characters` uses CH-0070…0077, the keeper CH-0066…0068 |
+| Places | canon PL-0001…0065 + **new PL-0070…PL-0078** | proposals (table below) |
+| Events | canon EV-0050…0263, EV-0300+ + **new EV-0264…EV-0273** | proposals (table below) |
 
-### Place IDs referenced in machine blocks
+### New places
+| ID | Place | Parent |
+|---|---|---|
+| PL-0070 | the Rim (escarpment rim and terrace forts) | PL-0050 |
+| PL-0071 | Harrow Hall, now the Lantry **Table House** | PL-0005 |
+| PL-0072 | Rimgate (Hadden seat, the one terrace fort Rusk kept) | PL-0045 |
+| PL-0073 | the Goat Stair (smugglers' path up the escarpment) | PL-0045 |
+| PL-0074 | Brackwater salt pans | PL-0055 |
+| PL-0075 | the Long Mole, Gullmouth | PL-0030 |
+| PL-0076 | the Concord Arsenal and powder mills | PL-0006 |
+| PL-0077 | the Rusk House-in-Exile (from CY 313) | PL-0006 |
+| PL-0078 | the Map Office | PL-0009 |
 
-| ID | Place | | ID | Place |
-|---|---|---|---|---|
-| PL-0101 | Gullmouth | | PL-0121 | Storm Spire |
-| PL-0102 | Sentinel Spire | | PL-0122 | the Shoals |
-| PL-0103 | the Ostry Roads (harbour forts at the river mouth) | | PL-0123 | the Sunk |
-| PL-0104 | Highwater | | PL-0124 | Lirenne (drowned) |
-| PL-0105 | the Dry Palace | | PL-0125 | Sunken Spire |
-| PL-0106 | Crown Spire | | PL-0126 | Ossari Uplands |
-| PL-0107 | Choir Spire | | PL-0127 | the Shelf lakes |
-| PL-0108 | Sluice Spire | | PL-0128 | the Rim (escarpment rim, terrace forts) |
-| PL-0109 | the Listening House | | PL-0129 | Harrow Hall (Highwater; now the Lantry Table House) |
-| PL-0110 | the Counting House | | PL-0130 | the Ring (Conclave chamber) |
-| PL-0111 | Dask Barrows | | PL-0131 | Ninth Sluice |
-| PL-0112 | Sheaf Spire | | PL-0132 | the Ossari weir (CY 314) |
-| PL-0113 | the Polders | | PL-0133 | Rimgate (Hadden seat) |
-| PL-0114 | the Moll Reach (eastern polders) | | PL-0134 | Ilvane townhouse, Highwater |
-| PL-0115 | Pale Crag | | PL-0135 | the Goat Stair (smugglers' path up the escarpment) |
-| PL-0116 | Pale Spire | | PL-0136 | Brackwater salt pans |
-| PL-0117 | the Stair | | PL-0137 | Gullmouth Long Mole |
-| PL-0118 | Falls Spire | | PL-0138 | Concord Arsenal and powder mills (Highwater Mids) |
-| PL-0119 | the Red Escarpment | | PL-0139 | Rusk House-in-Exile (Highwater, from CY 314) |
-| PL-0120 | Brackwater | | PL-0140 | the Map Office (Dry Palace) |
-
-### Event IDs referenced (proposals)
-
+### New events (pre-saga, outside the prequel windows)
 | ID | Date | Event |
 |---|---|---|
-| EV-0050 | ~OS 400 | the Crowning of the Keepers; nine warden families sworn (prequel window, name only) |
-| EV-0100 | OS 700, Still | the Breaking (prequel window; public version only in public text) |
-| EV-0250 | CY 1 | the Charter of the Ring: Concord founded, eight voices + the Sunken Vote, Hush Law |
-| EV-0251 | CY 3 | the Sunk Charter: salvage of the Sunk granted to Quell |
-| EV-0252 | CY 9 | the Relay chartered; Fennick family named Relay-Masters |
-| EV-0253 | CY 34 | the Unison Decree: one Choir trains all Cantors (Ilvane monopoly) |
-| EV-0254 | CY 37–40 | the Salt War (Corvane against the Shoals clans) → the Pilots' Peace |
-| EV-0255 | CY 87–88 | the Broken Dike and the Furrow War: Dask conquers Moll |
-| EV-0256 | CY 119–120 | Ostry's last lord lost at sea; Elowen Ostry marries Wystan Corvane |
-| EV-0150 | CY 141 | fall of Vanth, end of the First Upland War (prequel window, name only) |
-| EV-0257 | CY 142 | the Stair Treaty: hostage custom ("Exchange of Sleeves"), saltpeter licence |
-| EV-0258 | CY 160 | the Clerks' Ordinance: the Hearings pass to the Fennick family |
-| EV-0259 | CY 203–206 | the Kite War (Second Upland War) |
-| EV-0260 | CY 220 | Lantry Counting House founded |
-| EV-0261 | CY 224 | the Paper Ordinance: first dry-notes |
-| EV-0262 | CY 249–251 | the Grey Cough; House Harrow dies out |
-| EV-0263 | CY 251-11 | Fennick raised to great house; Sluice Spire and the Sluice Voice to Fennick |
-| EV-0264 | CY 252 | the Purchased Seat: the Hill Voice passes to Lantry |
-| EV-0265 | CY 268 | the Exchange Panic: the Gullmouth Exchange ruined |
-| EV-0200 | CY 295, Still | the Night of Still Water (prequel window) |
-| EV-0266 | CY 295 | the Dry Charter (reclamation law) |
-| EV-0267 | CY 309 | the Rim Skirmish; Ardo Rusk killed; truce and the giving of Esk |
-| EV-0268 | CY 314 | the Weir Terms |
+| EV-0264 | CY 3 | the Sunk Charter — salvage of the Sunk to Quell "until the city be raised" |
+| EV-0265 | CY 9 | the Relay chartered; the Fennicks named Relay-Masters |
+| EV-0266 | CY 34 | the Unison Decree — one Choir trains all Cantors |
+| EV-0267 | CY 37–40 | the Salt War → the Pilots' Peace |
+| EV-0268 | CY 142 | the Stair Treaty — saltpeter licence, the Exchange of Sleeves |
+| EV-0269 | CY 160 | the Clerks' Ordinance — the Hearings to the Fennicks |
+| EV-0270 | CY 203–206 | the Kite War (Second Upland War) |
+| EV-0271 | CY 224 | the Paper Ordinance — first dry-notes |
+| EV-0272 | CY 268 | the Exchange Panic |
+| EV-0273 | CY 309 | the Rim Skirmish; Ardo Rusk killed; Esk given as hostage |
 
-All of these are listed again as `Canon change request` blocks in the report `studio/reports/writer-houses-2026-11-22.md`.
+Existing canon events used and extended in prose: EV-0051 (Crowning), EV-0052 (Cantor schools), EV-0100 (Breaking), EV-0101 (founding of the Concord), EV-0150/0151 (Vanth Treason, First Upland War), EV-0200 (Night of Still Water), EV-0203 (Dry Charter), EV-0250 (Dask conquer Moll — the Broken Dike, CY 87–88), EV-0251 (Ostry absorbed), EV-0252 (Counting House founded), EV-0253 (Harrow dies out — the Grey Cough CY 249–251; Fennick raised), EV-0254 (Purchased Seat), EV-0257 (Ilse), EV-0262 (leak sold twice), EV-0317 (Weir Terms).
+
+Everything is listed again as `Canon change request` blocks in `studio/reports/writer-houses-2026-11-22.md`.

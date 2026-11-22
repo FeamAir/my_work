@@ -1,6 +1,6 @@
 # Power and Money — the machinery of the Concord
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Spoiler level: **internal**. §1–4 and §7–8 are public-safe mechanics (in-world law and prices); §5, §6 and §9 contain secrets (SEC-007, SEC-016 and others) and are for the writers' room only.
 Frame: `series_bible.md` §7, RULE-006…010; `houses_overview.md` §0; `saga_arc.md` (Intrigue ladder).
 
@@ -10,7 +10,7 @@ Frame: `series_bible.md` §7, RULE-006…010; `houses_overview.md` §0; `saga_ar
 
 ### 1.1 Eight voices and the ninth — how the seats came to be
 
-The Charter of the Ring (CY 1, EV-0250) gave the realm **eight voices** and set the ninth aside for drowned Lirenne. A voice was given to each Spire-warden house — and, uniquely, a second voice to House Harrow as the price of surrendering its Hill Spire to the Helm's office (the Crown Spire). The sword houses (Rusk, Moll, Ostry) got none.
+The Charter of the Ring (CY 1, EV-0101) gave the realm **eight voices** and set the ninth aside for drowned Lirenne. A voice was given to each Spire-warden house — and, uniquely, a second voice to House Harrow as the price of surrendering its Hill Spire to the Helm's office (the Crown Spire). The sword houses (Rusk, Moll, Ostry) got none.
 
 | Voice | CY 1 | CY 141 | CY 251–252 | CY 312 |
 |---|---|---|---|---|
@@ -87,21 +87,21 @@ Rusk has never had a Helm; neither has Lantry.
 
 **What:** the yearly plan of which districts are sung first in a storm (and, by consequence, which districts pay which dry-tithe). Read aloud at the **tithe-reading** in the Dry Palace before the Still Days (S1E1), signed by the Helm.
 
-**Who draws it:** the **Map Office** in the Dry Palace (hereditary cartographers, House Tolland, HS-022) from (a) the Choir's **song-reckoning** — how many Cantor-hours each Spire can give in a storm (the shortage shrinks this every year, `HS-013-choir.md`), (b) the sluice-wardens' and dike-reeves' reports, (c) the Helm's instructions.
+**Who draws it:** the **Map Office** in the Dry Palace (hereditary cartographers, House Inchley, HS-015) from (a) the Choir's **song-reckoning** — how many Cantor-hours each Spire can give in a storm (the shortage shrinks this every year, `HS-090-choir.md`), (b) the sluice-wardens' and dike-reeves' reports, (c) the Helm's instructions.
 
 **Tiers of song**
-| Tier | Meaning | Dry-tithe per household per year |
+| Tier | Meaning | Dry-tithe per household (paid monthly to the collector) |
 |---|---|---|
-| **First Song** | always sung first; never let go | 2 marks |
-| **Second Song** | sung in a storm if voices allow | 1 mark |
-| **Last Song** | sung only if voices remain | 12 coppers (half a mark) |
-| **Let Go** | not sung; "pumps only"; tithe forgiven | none — and, under the Dry Charter, drowned title reverts to the Helm |
+| **First Song** | always sung first; never let go | 12 coppers a month (2 marks a year) |
+| **Second Song** | sung in a storm if voices allow | 6 coppers a month (1 mark a year) |
+| **Last Song** | sung only if voices remain | 3 coppers a month (half a mark a year) |
+| **Let Go** | not sung; "pumps only"; tithe forgiven | none — and, after a flood, the drowned deeds go "for reclamation" (the Dry Charter model) |
 
 Ninth Sluice: Second Song until CY 295 · Last Song after the Night of Still Water · **Let Go** in the CY 312 draft (the line Lucan dies reading: *"…and the Ninth Sluice—"*).
 
 **How it is bought (all floors):**
 - **Steps:** seats trade map favours for votes (the S1 bread vote); the Choir sells **priority songs** that override the map on the crown; the bank asks for districts to be *Let Go* where it holds Account titles.
-- **Mids:** Tolland clerks sell drafts (SEC-C04); relay-keepers sell the map's tone-codes early (Bede Lark, CY 312); sluice-wardens (Cobbet) buy their own districts up a tier.
+- **Mids:** Inchley clerks sell drafts (SEC-C04); relay-keepers sell the map's tone-codes early (Bede Lark, CY 312); sluice-wardens (Cobbet) buy their own districts up a tier.
 - **Lows:** a district can buy a **lift** (~500 marks a year to the Spire's holder) — the Undertow's dry-pledges are, in effect, a Lows savings club for lifts that never come.
 
 ---
@@ -110,22 +110,22 @@ Ninth Sluice: Second Song until CY 295 · Last Song after the Night of Still Wat
 
 | Unit | Value |
 |---|---|
-| **mark** (silver coin) | 24 **coppers** — scarce |
+| **mark** (silver coin) | 60 **coppers** (as `writer-characters`' `lows_and_mids_life.md` proposes) — scarce |
 | **dry-note** | paper of the Counting House, 1, 5, 10, 50, 100 marks; at par in CY 312 |
 
 | Thing | Price | | Wage | Pay |
 |---|---|---|---|---|
-| a loaf in the Lows | 1 copper (2 in S1E5; relief loaf 3) | | treadmill walker | 4 coppers a day (debt-walkers: 0, against debt) |
-| a sack of grain (50 kg) | 1 mark (3 in a famine) | | mudlark's best day | 6–10 coppers |
+| a loaf of silt-bread in the Lows | 2 coppers (4 after the S1E5 barges; relief loaf 6) | | treadmill walker | 10 coppers a 6-hour walk (debt-walkers: a mark off the debt) |
+| a sack of grain (50 kg) | 1 mark (3 in a famine) | | mudlark's best day | 10–20 coppers |
 | a stilt-house in the Lows | ~10 marks | | junior clerk (Hollis) | 3 marks a month |
 | a Mids room | ~2 marks a month | | Rusk pikeman | 2 marks a month + bread |
 | a gate pass in a flood | 5 marks a family | | Cantor's stipend | 100 marks a year (the house pays the Choir ~600) |
-| a dry-pledge | 1 copper a week a household | | relay-keeper | 4 marks a month |
+| a dry-pledge | 1 copper a week a household | | relay-keeper | 4 marks a month + fees |
 | a storm-berth at Gullmouth | ~5 marks a night | | sergeant (Kes) | 4 marks a month |
 | a barrel of powder (50 kg) | ~30 marks in Highwater | | Gleaner (ear-money) | 3 marks a head + 10 if the child takes the ear |
 | saltpeter | 1 mark / 10 kg at the Rim, 4 at the Arsenal | | free-company sword | 3 marks a month in notes |
 
-**Relay fees:** within Highwater 2 coppers a tone-group; across the delta 1 mark per 10 groups; **first-tone** subscription (messages an hour before the public) 50 marks a year; the death-tone and flood-tones are free and cannot be delayed — by law (they are delayed anyway).
+**Relay fees:** within Highwater 5 coppers a tone-group; across the delta 1 mark per 10 groups; **first-tone** subscription (messages an hour before the public) 50 marks a year; the death-tone and flood-tones are free and cannot be delayed — by law (they are delayed anyway).
 
 **Hearings fees:** filing 1 mark; **speed fee** 5–50 marks (a verdict this week instead of next year); a commoner's testimony against a noble needs a **Mids sponsor** (guildmaster, sealed clerk, Cantor) — Lows rate for a sponsor ~2 marks.
 
@@ -142,14 +142,14 @@ Ninth Sluice: Second Song until CY 295 · Last Song after the Night of Still Wat
 - "Above the waterline" is not a survey. It means **on the Tithe Map above Let Go**. So the value of the realm's money is decided, every year, by the map.
 
 ### 5.2 The Dry Charter (CY 295)
-After the Night of Still Water: the deeds of drowned Lows land **revert to the Helm**, who grants them to whoever **pumps the land dry** ("reclaimed land"). The bank finances the pumps and takes the grants. (Its forgery is SEC-006, not this file's business.)
+After the Night of Still Water the Charter (EV-0203) passed the deeds of drowned Ninth Sluice to the Counting House **"for reclamation"**: the bank pumps the land and owns what comes up dry ("reclaimed land"). Later reclamations copy it: the Helm declares a drowned district "reclaimed land" (Odo, S1E12) and its deeds go to whoever finances the pumps — always the bank. (Its forgery is SEC-006, not this file's business.)
 
 ### 5.3 A reclamation account, in simple numbers — Account Nine (Ninth Sluice, CY 312)
 | Step | | Marks |
 |---|---|---|
 | 1 | Ninth Sluice: ~4,000 household plots, 20,000 people. Wet value of the plots (as Lows land) | ~40,000 |
 | 2 | The bank buys deeds, mortgages and the **Undertow's dry-pledges** for the district at a discount (the pledges are worthless if the district is let go — the Undertow sells them gladly) | pays ~15,000 |
-| 3 | Value of the same land **after** a flood, reversion and pumping, sold as dry Mids building land (~60 a plot) | ~240,000 |
+| 3 | Value of the same land **after** a flood, reclamation and pumping, sold as dry Mids building land (~60 a plot) | ~240,000 |
 | 4 | **Pre-sale:** the bank sells "reclaimed plots, to be delivered" at 40 a plot to the Steps (houses, the Choir's chapter, partners) — closing on **the third Still Day** | brings in ~160,000 now |
 | 5 | **Note issue:** the bank books the *future* reclaimed land in the Dry Book as "reclamation title" at 240,000 and prints notes against it | ~200,000 new notes |
 | 6 | Cost: pumps and dike works over two years | ~25,000 |
@@ -157,7 +157,7 @@ After the Night of Still Water: the deeds of drowned Lows land **revert to the H
 If the district floods on time and is pumped dry, the bank turns 15,000 into ~360,000 (pre-sales + notes), and 20,000 people pay with their homes or lives. **Why the third Still Day:** the pre-sale contracts allow buyers their money back if the land is not "let go" by then — so the water must come by Still 3 (SEC-015: the bribed retuning).
 
 ### 5.4 The numbered accounts
-Reclamation accounts are numbered as opened. One–Four (CY 231–290): small districts in the Highwater Lows and the Moll Reach, each after a "natural" flood. **Five** (CY 295): the first half of Ninth Sluice, after the Night of Still Water (what, if anything, the bank did to cause that night: `[SEALED — ask lead]`). Six–Eight (CY 298–309): Third, Eleventh, Twelfth sluices. **Nine** (CY 312): the rest of Ninth Sluice.
+Reclamation accounts are numbered as opened. One–Four (CY 231–290): small districts in the Highwater Lows and the Moll polders, each after a "natural" flood. **Five** (CY 295): the first half of Ninth Sluice — canon EV-0200: Lantry paid for the Sluice Spire's retuning to be delayed, and the Night of Still Water followed. Account Nine is the same operation, seventeen years later. Six–Eight (CY 298–309): Third, Eleventh, Twelfth sluices. **Nine** (CY 312): the rest of Ninth Sluice.
 
 ### 5.5 Why the paper rots — backing by year
 | Year | Notes in circulation | Silver reserve | Real dry deeds | "Reclamation title" (under water or never dried) | **Real backing** |
@@ -176,7 +176,7 @@ Market sign: a 10-mark note buys 10 marks of silver in CY 312, 9 in CY 320, **2*
 
 ## 6. Lirenne salvage bonds (SEC-016 — writers' room only)
 
-**Who invents:** Clan Tarrow's salvage-brokers (HS-030) with **Piers Lantry** (CH-0061), after the dry-note crash (S6E9). They need a face: the **Pearl Pretender** (Lio, CH-0043 — who believes it).
+**Who invents:** Clan Tarrow's salvage-brokers (HS-023) with **Piers Lantry** (CH-0061), after the dry-note crash (S6E9). They need a face: the **Pearl Pretender** (Lio, CH-0043 — who believes it).
 
 **The paper:** a **Lirenne Salvage Bond**, face 10 marks, printed in teal with a spiral shell. Sold from barges in the Lows and the Mids (S6E5).
 
@@ -226,7 +226,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 |---|---|---|---|---|---|---|---|
 | 1 | **Account Nine** — notes against land to be let go (SEC-007) | Ursel, the Table | clerks (Hollis, Fossett), Merriden notaries, Undertow pledge-sellers | Ninth Sluice (S1); Mids savers (S6) | Hollis (S1E3–E6), Pell, Merriden auction (S6) | S1 → S6E7 | Odo's first act declares Ninth "reclaimed" (S1E12); the crash makes Maren Helm (**S6**) |
 | 2 | **† A relay-keeper sells one message twice** | Bede Lark | Bede, on a Tennant tower | Ruel, Lucan (dead) | Hollis (S1E7), Zev (Relay logs) | S1E7 → S2E6 | Ruel poisons the Helm; Ursel has Ruel killed (**S1**) |
-| 3 | **Tithe Map drafts sold** (SEC-C04) | Tolland clerks | Map Office copyists | Lows households (dry-pledges priced to fail) | Hollis (S2E6, Lucan's chest), Silt | S1E1 → S2E6 | the bank knows the map before the Helm signs it → Account Nine timed to Still 3 (**S1**) |
+| 3 | **Tithe Map drafts sold** (SEC-C04) | Inchley clerks | Map Office copyists | Lows households (dry-pledges priced to fail) | Hollis (S2E6, Lucan's chest), Silt | S1E1 → S2E6 | the bank knows the map before the Helm signs it → Account Nine timed to Still 3 (**S1**) |
 | 4 | **Bribed retuning** (SEC-015) | Ursel | Fennick's steward, Cantor Sabin | Ninth Sluice | Hollis (S2E6) | S1E9 → S2E6 | Odo's election is stained by a crime he didn't commit; he must give up his own steward to the Hearings (proposal) (**S2**) |
 | 5 | **Under-sung Sluice Spire** (Cantor-rent skim) | Odo's treasury | Choir rent clerks | Ninth Sluice | Ione (S1E3, E8) | S1 | one bribed retuning is enough to drown a district; Ione's Great Song (**S1E10**) |
 | 6 | **Priority songs** | Choir chapter | Cantors on the crown | districts that can't pay | Ione (S1), Elm | S1E7–E8 | the Choir's bank debt → **the Choir votes Fennick** (**S1E12**) |

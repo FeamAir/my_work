@@ -1,26 +1,26 @@
-# HS-016 The Ossari Uplands — the kite-clans as a power
+# HS-091 The Ossari Uplands — the kite-clans as a power
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §3, `series_bible.md` §6. **Tsura Den, Esk, Kadu, Ottar are `writer-characters`'** — this file writes the power, not the people; coordination items are in the report.
 Secrets: the Ossari **believe** SEC-008 from S3 ("your stones drink our rivers"); this file never confirms it in public text. SEC-024: the Dry Queen "did not deny" the wave — `[SEALED — ask lead]` for who breached the weir.
 
 ```canon
-id: HS-016
+id: HS-091
 type: house
 canon: draft
-name: The Ossari Uplands
+name: the Ossari
 rank: federation
 words: "The wind keeps the names."
 sigil: a sand-orange diamond kite with three tail-knots, on dusty white
 colors: [sand-orange, dusty white, copper]
-seat: PL-0126
-lands: [PL-0126, PL-0127, PL-0128]
+seat: PL-0050
+lands: [PL-0050, PL-0051, PL-0070]
 liege:
 cadet_of:
 founded: ?
 founder:
 heads: [CH-0013@CY 308]
-alliances: [HS-004:enemy@CY 141, HS-004:hostage_exchange@CY 142, HS-012:refuge@CY 141, HS-032:kin@CY 206, HS-031:smuggling@CY 250]
+alliances: [HS-004:enemy@CY 141, HS-004:hostage_exchange@CY 142, HS-012:refuge@CY 141, HS-025:kin@CY 206, HS-024:smuggling@CY 250]
 secrets: [SEC-008, SEC-019, SEC-024]
 leitmotif: wind through kite-strings (aeolian drone), frame drums, a wide open-fifth horn call — no Spire home tone (they have no Spire until CY 313)
 ```
@@ -35,12 +35,12 @@ The Concord calls them "the uplanders" or "the kite-clans" and pictures raiders.
 
 | Clan | Country | Trade / power | Note for plots |
 |---|---|---|---|
-| **Den** | the Rim above the Stair | kite-masters, signal-towers, the Rim forts | Tsura's clan; most Ossari hostages at the Stair have been Den children |
-| **Tekka** | the nitre country of the inner plateau | **saltpeter** yards, terrace-building | married into the Rusk border family Hadden (CY 206); the saltpeter trade lives here |
+| **Den** | the Rim above the Stair | kite-masters, signal-towers, the Rim forts | Tsura's clan, and her sister **Dakka Den** (CH-0071, `writer-characters`), Esk's official mother; most Ossari hostages at the Stair have been Den children |
+| **Tekka** | the nitre country of the inner plateau | **saltpeter** yards, terrace-building | married into the Rusk border family Hadden (CY 206); the saltpeter trade lives here — the envoy **Itsek** (CH-0072, `writer-characters`) is Tekka, and his clan has bought Rusk powder back for ten years |
 | **Kitsa** | the high mesas | **gliders**, scouts, fire-pot droppers | the glider-riders of the Battle of the Stair |
 | **Udra** | the well-country | well-keepers, cistern-priests, the **knot-reckoners** (they keep the wells' depth in knotted cords) | they decide when a drought is a drought |
 | **Saktu** | the southern plateau | herders (goats, dry cattle), wool, hardy infantry | the poorest and most numerous; the bulk of the host |
-| **Edakka** | the **Shelf lakes** (PL-0127), headwaters of the Aun | lake-fishers, reed-cane, boats | took in **Vanth survivors** in CY 141; keepers of the Vanth "river book" (Kadu's family) |
+| **Edakka** | the **Shelf lakes** (PL-0051), headwaters of the Aun | lake-fishers, reed-cane, boats | took in **Vanth survivors** in CY 141; keepers of the Vanth "river book" (Kadu's family) |
 
 Sound palette: ts/k/d + open vowels (Tsura, Esk, Kadu, Den, Tekka, Kitsa, Udra, Saktu, Edakka).
 
@@ -61,12 +61,12 @@ Sound palette: ts/k/d + open vowels (Tsura, Esk, Kadu, Den, Tekka, Kitsa, Udra, 
 ## 5. Saltpeter
 
 - The upland is the delta's main source: dug from nitre-yards (aged dung-and-earth beds, Tekka's terraces) and guano caves; leached, boiled, dried in cakes. ~400 tonnes a year in good times.
-- Trade route: down the Stair under the **saltpeter licence** of CY 142 (Rusk takes a tenth). The unlicensed route: the **Goat Stair** (PL-0135) with Hadden guides, and the **back-trade** of finished powder up the same path (`HS-004-rusk.md`).
+- Trade route: down the Stair under the **saltpeter licence** of CY 142 (Rusk takes a tenth). The unlicensed route: the **Goat Stair** (PL-0073) with Hadden guides, and the **back-trade** of finished powder up the same path (`HS-004-rusk.md`).
 - Price (CY 312): 1 mark per 10 kg at the Rim; 4 marks at the Highwater Arsenal; a barrel of powder (50 kg) ~30 marks in Highwater, ~60 back on the Rim.
 
 ## 6. Hostage custom — the Exchange of Sleeves
 
-Since the **Stair Treaty** (CY 142): each generation the clans send a child of a ruling family to live at the Stair, and Rusk sends one of its own to the Rim; each wears the other's sleeve (a sewn-on sleeve of the host's colour) as a sign of guest-right. **Rusk stopped sending its children after the Kite War (CY 206)**; the Ossari kept sending theirs — the uplands count this as the oldest unpaid debt. Children raised at the Stair become translators and go-betweens (Ottar, CH-0062). In CY 309, after the **Rim Skirmish** (EV-0267), the clans gave **Esk** "the Dry Queen's nephew" (SEC-019: her son — revealed S7E6).
+Since the **Stair Treaty** (CY 142): each generation the clans send a child of a ruling family to live at the Stair, and Rusk sends one of its own to the Rim; each wears the other's sleeve (a sewn-on sleeve of the host's colour) as a sign of guest-right. **Rusk stopped sending its children after the Kite War (CY 206)**; the Ossari kept sending theirs — the uplands count this as the oldest unpaid debt. Children raised at the Stair become translators and go-betweens (Ottar, CH-0062). In CY 309, after the **Rim Skirmish** (EV-0273), the clans gave **Esk** "the Dry Queen's nephew", officially Dakka Den's son (SEC-019: Tsura's son — revealed S7E6). *Esk's father (asked for by `writer-characters`) — proposal:* **Akko of Kitsa**, a glider-captain and Tsura's consort, killed in the same Rim Skirmish that killed Ardo Rusk; officially Dakka's husband is named as the father. Lead to confirm (it touches SEC-019).
 
 ## 7. Faith and look
 
@@ -81,11 +81,11 @@ Since the **Stair Treaty** (CY 142): each generation the clans send a child of a
 |---|---|
 | CY 313 (S2→S3) | Tsura's ultimatum to Lady Brenna Rusk: **let the Falls Spire fall silent for one season** so the Shelf lakes and wells can refill. Refused; invasion. |
 | Mistcall CY 313 | Battle of the Stair; the Stair falls; the Ossari hold the Rim and the Falls Spire. |
-| Silting CY 314 | they silence the captured Falls Spire and begin a **weir** at the lip of the falls (PL-0132) — not a dam: a low stone-and-timber wall that backs the river into the Shelf lakes. |
+| Silting CY 314 | they silence the captured Falls Spire and begin a **weir** at the lip of the falls (PL-0049) — not a dam: a low stone-and-timber wall that backs the river into the Shelf lakes. |
 | Reedmonth–Fallow | upland wells rise above the red knot for the first time since CY 307; the Aun drops; the Polders crack (`HS-002-dask.md`). |
 | Mistcall | Tsura threatens in council to breach the weir (S4E9) — a threat, as leverage for terms. |
 | Still 3 | the weir goes. Publicly: **"the Dry Queen did not deny it."** Who did it: `[SEALED — ask lead]` (SEC-024). |
-| Still 5 | **the Weir Terms** (EV-0268). |
+| Still 5 | **the Weir Terms** (EV-0317). |
 
 ### The Weir Terms (CY 314) — proposed text, for the lead to confirm
 1. The Ossari keep the Rim and the Stair's upper town; the Falls Spire stays in their hands.

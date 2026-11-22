@@ -1,6 +1,6 @@
 # Lineages — the last three generations, and where the official trees lie
 
-Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.1 · status: draft
+Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Spoiler level: **internal**.
 
 How to use (canon rule "one fact — one place", `canon/genealogy/README.md`): parentage lives in **character** records, so the trees below are given as **minimal character stubs** (CH-0200…0287) that the keeper can move into `canon/characters/_minor-houses.md` without rewriting. Characters already owned by `writer-characters` (CH-0001…0065) are **not** written here; for them this file lists **link requests** (which `father`/`mother`/`relations` fields their records need). Older heads (before the last three generations) are names and years only, in each house dossier.
@@ -22,15 +22,15 @@ Stellan (232–290) ═ Wenna (238–305)       Bertil (214–280) ═ Rosamund 
 ILVANE                                    RUSK
 Emeric (236–301) ═ Vesna (b. 239,         Bodvar (220–279) ═ Gisla (228–290)
    "daughter of Ilvane of the Crag")         ├─ Brenna (255–313) ═ Wilmot (250–300)
-Tamlyn (240–298) ═ Imre (246–309)            │     └─ Ardo (278–309) ═ Dagny Hadden* (281)
-   Aurin (268) ═ Cressa (272)                 │           └─ Edric (302)  ← heir after S3 (proposal)
-      ├─ Ilse (294–294)                      └─ Haskel (262)  ← castellan of the voice (proposal)
+Tamlyn Pallis (240–298) ═ Imre (246–309)     │     └─ Ardo (278–309) ═ Dagny Hadden* (281)
+   Aurin (268) ═ Cressa Pallis* (272)         │           └─ Sindre (302)  ← heir after S3 (proposal)
+      ├─ Ilse (294–294)                      └─ Eirik (262)  ← castellan of the voice (proposal)
       └─ Ione (official b. 294) ◆ SEC-004
 
 QUELL (Captain-Lords are elected)         FENNICK
 Rourke of Rhee (236–289) ═ Jessamy (248–310)   Barnet (205–262)
    └─ Jaro (276)                              └─ Sefton (228–291) ═ Maud (234–280)
-Jinna of Jutt (250) — deposed CY 303                └─ Odo (257) ═ Gwenna (270–299)
+Jinna of Jutt (250) — deposed CY 303                └─ Odo (257) ═ Yolande (270–299)
                                                          └─ Zev (298)
 LANTRY (head elected by the Table)
 Hendrik (180–241) → Mattias (205–266) → Bastian (230–291)
@@ -98,7 +98,7 @@ born: CY 270
 died: CY 300
 first_episode: origin
 ```
-> Wenna was born a Corvane of the Roads (HS-034); Alys a Whitlow (HS-035) — proposals, see §4.
+> Wenna was born a Corvane of the Roads (HS-027); Alys a Whitlow (HS-028) — proposals, see §4. The Whitlows are an old Gullmouth family of Shoals descent, warm brown-skinned — which fits Maren's dossier ("darker than her father's, her mother's side").
 
 ### Dask
 ```canon
@@ -202,7 +202,7 @@ father: CH-0017
 mother: CH-0214
 first_episode:
 ```
-> Hilde was born into Dask of the Reach (HS-025, Moll blood) — public. Thyra was born an Orsley (HS-038) — proposal. Ylva (11 in CY 312) is a possible Dask heir after Garrick drowns (S10E11); no plot is assigned to her here.
+> Hilde was born into Dask of the Reach (HS-018, Moll blood) — public. Thyra was born an Orsley (HS-031) — proposal. Ylva (11 in CY 312) is a possible Dask heir after Garrick drowns (S10E11); no plot is assigned to her here.
 
 ### Ilvane
 ```canon
@@ -234,8 +234,8 @@ first_episode: origin
 id: CH-0221
 type: character
 canon: draft
-name: Tamlyn Ilvane
-house: HS-003
+name: Tamlyn Pallis
+house: HS-029
 class: noble
 role: minor
 born: CY 240
@@ -247,29 +247,15 @@ first_episode: origin
 id: CH-0222
 type: character
 canon: draft
-name: Imre Ilvane
-house: HS-003
+name: Imre Pallis
+house: HS-029
 class: noble
 role: minor
 born: CY 246
 died: CY 309
 first_episode: origin
 ```
-```canon
-id: CH-0223
-type: character
-canon: draft
-name: Ilse Ilvane
-house: HS-003
-class: noble
-role: minor
-born: CY 294
-died: CY 294-04
-father: CH-0020
-mother: CH-0021
-first_episode: S02E05
-```
-> Ilse's grave at Pale Crag is dated Reedmonth CY 294 — "five months before Ione's birthday" (S2 clue). `first_episode` = the episode in which the grave is first seen (the lead to fix; S2E5 is a guess from the Thread ledger's S2E5 echo).
+> Ilse is already in canon as **CH-0068** (keeper's record, EV-0257) — no stub here. Tamlyn and Imre are **Pallis** (HS-029), the cloister stewards: Cressa's birth-house, proposal.
 
 ### Rusk
 ```canon
@@ -325,7 +311,7 @@ first_episode: origin
 id: CH-0232
 type: character
 canon: draft
-name: Haskel Rusk
+name: Eirik Rusk
 house: HS-004
 class: soldier
 role: supporting
@@ -364,7 +350,7 @@ first_episode:
 id: CH-0235
 type: character
 canon: draft
-name: Edric Rusk
+name: Sindre Rusk
 house: HS-004
 class: noble
 role: supporting
@@ -373,8 +359,8 @@ father: CH-0233
 mother: CH-0234
 first_episode:
 ```
-> `first_episode` left empty for living stubs (Thyra, Ylva, Haskel, Dagny, Edric, Jinna): the lead places them.
-> Dagny was born a Hadden of Rimgate (HS-032; a Tekka great-grandmother) — proposal. Edric and Haskel are **proposals** for who carries the Rusk voice in exile (S4–S12); both are designed to be shown helmeted/at a distance. Question to the lead (report Q-04).
+> `first_episode` left empty for living stubs (Thyra, Ylva, Eirik, Dagny, Sindre, Jinna): the lead places them.
+> Dagny was born a Hadden of Rimgate (HS-025; a Tekka great-grandmother) — proposal. Sindre and Eirik are **proposals** for who carries the Rusk voice in exile (S4–S12); both are designed to be shown helmeted/at a distance. Question to the lead (report Q-04).
 
 ### Quell
 ```canon
@@ -408,7 +394,7 @@ id: CH-0241
 type: character
 canon: draft
 name: Jessamy of Rhee
-house: HS-027
+house: HS-020
 class: noble
 role: minor
 born: CY 248
@@ -471,7 +457,7 @@ first_episode: origin
 id: CH-0252
 type: character
 canon: draft
-name: Gwenna Fennick
+name: Yolande Fennick
 house: HS-006
 class: noble
 role: minor
@@ -602,7 +588,7 @@ id: CH-0276
 type: character
 canon: draft
 name: Thessa Moll
-house: HS-025
+house: HS-018
 class: noble
 role: minor
 born: CY 70
@@ -699,16 +685,16 @@ first_episode: origin
 | CH-0017 Garrick Dask | `father: CH-0212`, `mother: CH-0213`, `relations: [CH-0214:spouse]` |
 | CH-0012 Vesna Ilvane | **no parents** (official entry only: "daughter of Ilvane of the Crag", b. CY 239 — brief r2); `relations: [CH-0220:spouse]` |
 | CH-0020 Aurin Ilvane | `father: CH-0220`, `mother: CH-0012`, `relations: [CH-0021:spouse]` |
-| CH-0021 Cressa Ilvane | `father: CH-0221`, `mother: CH-0222` |
+| CH-0021 Cressa Ilvane | `father: CH-0221`, `mother: CH-0222` (born a Pallis, HS-029 — proposal; she keeps `house: HS-003`) |
 | CH-0002 Ione Ilvane | `father: CH-0020`, `mother: CH-0021` (official); `true_father: CH-0024`, `true_mother: CH-0023`, `parentage_secret: SEC-004` |
 | CH-0018 Brenna Rusk | `father: CH-0230`, `mother: CH-0237`, `relations: [CH-0231:spouse]` |
-| CH-0019 Jaro Quell | `house: HS-005` (Captain-Lord, born of Clan Rhee HS-027), `father: CH-0240`, `mother: CH-0241` |
+| CH-0019 Jaro Quell | `house: HS-005` (Captain-Lord, born of Clan Rhee HS-020), `father: CH-0240`, `mother: CH-0241` |
 | CH-0010 Odo Fennick | `father: CH-0251`, `mother: CH-0253`, `relations: [CH-0252:spouse]` |
 | CH-0042 Zev Fennick | `father: CH-0010`, `mother: CH-0252` |
-| CH-0011 Ursel Lantry | `relations: [CH-0262:spouse]`; born a Merriden (HS-023) — proposal |
+| CH-0011 Ursel Lantry | `relations: [CH-0262:spouse]`; born a Merriden (HS-016) — proposal |
 | CH-0061 Piers Lantry | `father: CH-0264`, `mother: CH-0265`; Ursel is his step-grandmother |
 | CH-0030 Neveh Ashare | `father: CH-0286` |
-| CH-0279 Elowen Ostry (mine) | needs `relations: [CH-…:spouse]` → Wystan Corvane has no ID (older generation); keeper may add one or leave the marriage as event EV-0256 only |
+| CH-0279 Elowen Ostry (mine) | needs `relations: [CH-…:spouse]` → Wystan Corvane has no ID (older generation); keeper may add one or leave the marriage as event EV-0251 only |
 
 ---
 
