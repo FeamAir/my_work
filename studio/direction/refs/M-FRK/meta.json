@@ -1,0 +1,36 @@
+{
+ "d1": {
+  "prompt": "Prop reference sheet: a small slender silver tuning fork about ten centimetres long with two parallel tines and a short round stem ending in a tiny loop, hanging on a fine silver chain as a pendant; a faint engraved line pattern on the stem. Exactly four views in a row: 1) front; 2) side; 3) on its fine chain; 4) held between two slender fingers being struck lightly on a knuckle. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gold, gems, spiral ornaments, large size, musical notes, glow.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 668263,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Prop reference sheet: a small slender silver tuning fork about ten centimetres long with two parallel tines and a short round stem ending in a tiny loop, hanging on a fine silver chain as a pendant; a faint engraved line pattern on the stem. Exactly four views in a row: 1) front; 2) side; 3) on its fine chain; 4) held between two slender fingers being struck lightly on a knuckle. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gold, gems, spiral ornaments, large size, musical notes, glow.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 612017,
+  "status": "ok"
+ },
+ "d3": {
+  "prompt": "Prop reference sheet: a small slender silver tuning fork about ten centimetres long with two parallel tines and a short round stem ending in a tiny loop, hanging on a fine silver chain as a pendant; a faint engraved line pattern on the stem. Exactly four views in a row: 1) front; 2) side; 3) on its fine chain; 4) held between two slender fingers being struck lightly on a knuckle. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gold, gems, spiral ornaments, large size, musical notes, glow.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 37641,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved layout draft. Redraw it as the final reference sheet at production quality, keeping the layout, number and order of views. Fix: no motion lines, no sound-wave marks, no lines around the fork; the hands in view 4 are slender pale young woman's hands with a faint warm olive undertone, the fork held by its stem between thumb and index finger and its tines tapped against the knuckle of the other hand; the chain is very fine silver; the stem ends in a tiny round loop. Prop reference sheet: a small slender silver tuning fork about ten centimetres long with two parallel tines and a short round stem ending in a tiny loop, hanging on a fine silver chain as a pendant; a faint engraved line pattern on the stem. Exactly four views in a row: 1) front; 2) side; 3) on its fine chain; 4) held between two slender fingers being struck lightly on a knuckle. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gold, gems, spiral ornaments, large size, musical notes, glow. Avoid also: vibration lines, sound waves, motion marks.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-FRK/d1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 149502,
+  "status": "ok"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "d1": {
+  "prompt": "Prop reference sheet: a small woven-reed and wood baby cradle with a rounded hood, simple and poor, a folded worn blanket inside, empty, no rope, no ties, no knots, no ribbons. Exactly four views: 1) front three-quarter; 2) side; 3) from above; 4) the same cradle floating on still black water at night lit by one warm lantern. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: knots, rope, ribbons, strings, baby, toys, ornaments.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 23080,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Prop reference sheet: a small woven-reed and wood baby cradle with a rounded hood, simple and poor, a folded worn blanket inside, empty, no rope, no ties, no knots, no ribbons. Exactly four views: 1) front three-quarter; 2) side; 3) from above; 4) the same cradle floating on still black water at night lit by one warm lantern. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: knots, rope, ribbons, strings, baby, toys, ornaments.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 235037,
+  "status": "ok"
+ },
+ "d3": {
+  "prompt": "Prop reference sheet: a small woven-reed and wood baby cradle with a rounded hood, simple and poor, a folded worn blanket inside, empty, no rope, no ties, no knots, no ribbons. Exactly four views: 1) front three-quarter; 2) side; 3) from above; 4) the same cradle floating on still black water at night lit by one warm lantern. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: knots, rope, ribbons, strings, baby, toys, ornaments.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 106360,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved layout draft. Redraw it as the final reference sheet at production quality, keeping the layout, number and order of views. Fix: exactly the same cradle design in all four views (woven reed basket body on a simple flat wooden base, rounded woven hood, a folded worn grey-blue blanket inside); views 1–3 on the plain light-grey background with no lantern beside them; view 4 is a small night inset where the cradle floats on still black water lit by one warm lantern hanging above; no rope, no strings, no ties, no knots anywhere on the cradle. Prop reference sheet: a small woven-reed and wood baby cradle with a rounded hood, simple and poor, a folded worn blanket inside, empty, no rope, no ties, no knots, no ribbons. Exactly four views: 1) front three-quarter; 2) side; 3) from above; 4) the same cradle floating on still black water at night lit by one warm lantern. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: knots, rope, ribbons, strings, baby, toys, ornaments.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-CRD/d1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 91417,
+  "status": "ok"
+ }
+}

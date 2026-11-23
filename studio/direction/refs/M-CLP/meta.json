@@ -1,0 +1,67 @@
+{
+ "d1": {
+  "prompt": "Prop reference sheet: a small brass ledger-clip about nine centimetres long, a spring clip with a flat head plate shaped like an asymmetric shield with one corner cut off diagonally at the lower right; embossed on the plate a perfectly level balance beam above three wavy lines, a small wedge-shaped notch on the left end of the beam, and the small stamped number 117 near the lower right; warm yellow brass slightly worn at the edges. Exactly five views in a row: 1) front; 2) side; 3) back with the spring tongue; 4) clipped in the breast pocket of a light ash-grey coat; 5) its impression pressed into a blob of red sealing wax. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 614679,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Prop reference sheet: a small brass ledger-clip about nine centimetres long, a spring clip with a flat head plate shaped like an asymmetric shield with one corner cut off diagonally at the lower right; embossed on the plate a perfectly level balance beam above three wavy lines, a small wedge-shaped notch on the left end of the beam, and the small stamped number 117 near the lower right; warm yellow brass slightly worn at the edges. Exactly five views in a row: 1) front; 2) side; 3) back with the spring tongue; 4) clipped in the breast pocket of a light ash-grey coat; 5) its impression pressed into a blob of red sealing wax. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 829837,
+  "status": "ok"
+ },
+ "d3": {
+  "prompt": "Prop reference sheet: a small brass ledger-clip about nine centimetres long, a spring clip with a flat head plate shaped like an asymmetric shield with one corner cut off diagonally at the lower right; embossed on the plate a perfectly level balance beam above three wavy lines, a small wedge-shaped notch on the left end of the beam, and the small stamped number 117 near the lower right; warm yellow brass slightly worn at the edges. Exactly five views in a row: 1) front; 2) side; 3) back with the spring tongue; 4) clipped in the breast pocket of a light ash-grey coat; 5) its impression pressed into a blob of red sealing wax. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 546083,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved layout draft. Redraw it as the final reference sheet at production quality, keeping the layout, number and order of views. Fix the shape: the head plate outline is NOT symmetric — its left and top edges follow a normal shield curve, but the lower RIGHT corner is cut off by one straight diagonal line, clearly visible in every view; the small wedge notch sits on the LEFT end of the level balance beam; the number 117 is small, near the lower right, next to the diagonal cut. In the red sealing-wax impression everything is reversed like a stamp: the diagonal cut is at the lower LEFT and the number reads backwards. Prop reference sheet: a small brass ledger-clip about nine centimetres long, a spring clip with a flat head plate shaped like an asymmetric shield with one corner cut off diagonally at the lower right; embossed on the plate a perfectly level balance beam above three wavy lines, a small wedge-shaped notch on the left end of the beam, and the small stamped number 117 near the lower right; warm yellow brass slightly worn at the edges. Exactly five views in a row: 1) front; 2) side; 3) back with the spring tongue; 4) clipped in the breast pocket of a light ash-grey coat; 5) its impression pressed into a blob of red sealing wax. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-CLP/d3.png"
+  ],
+  "aspect": "16:9",
+  "seed": 162030,
+  "status": "ok"
+ },
+ "f2": {
+  "prompt": "Use image 1 exactly — same layout, same five views, same style and colours. Change only the clip design, consistently in every view: 1) the plate carries EXACTLY THREE parallel wavy lines under the beam (not two); 2) the lower RIGHT corner of the shield plate is cut off by a clearly visible straight diagonal edge, a bold chamfer about one quarter of the plate width, so the outline is obviously asymmetric; 3) the level beam is a simple balance beam: a horizontal bar on a short central post with a small wedge-shaped notch at its LEFT end; 4) the number 117 stays small near the lower right, beside the diagonal cut. In the red wax impression the same design appears reversed like a stamp (diagonal cut at the lower LEFT). 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117. Avoid also: two wavy lines, four wavy lines, symmetrical outline, sword or cross shape.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-CLP/f1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 15497,
+  "status": "ok"
+ },
+ "f3": {
+  "prompt": "Image 1 is the approved layout of the prop sheet; image 2 is the exact flat design of the clip's head plate. Redraw image 1 at production quality, keeping its five views, layout and style, but make the head plate match image 2 exactly in every view: the same outline with the straight diagonal cut at the lower RIGHT corner, the level balance beam on a short post with the small notch at its LEFT end, EXACTLY THREE wavy lines, and the small number 117 near the lower right. Render it as worn warm yellow brass with embossed relief and ink outlines, not flat. In the red wax impression (view 5) the design is reversed like a stamp: diagonal cut at the lower LEFT. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117. Avoid also: two wavy lines, symmetrical outline.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-CLP/f2.png",
+   "output/refs_stage/_/clip_plate_design.png"
+  ],
+  "aspect": "16:9",
+  "seed": 853549,
+  "status": "ok"
+ },
+ "f4": {
+  "prompt": "Image 1 is the exact flat design of the head plate of a small brass ledger-clip. Create a prop reference sheet of this clip: the head plate keeps exactly the outline and markings of image 1 (asymmetric shield with a straight diagonal cut at the lower RIGHT corner, a level balance beam on a short post with a small notch at its LEFT end, EXACTLY THREE wavy lines below it, the small number 117 near the lower right), rendered as worn warm yellow brass with embossed relief, a spring clip behind the plate. Exactly five views in a row: 1) front, large and clear; 2) side; 3) back with the spring tongue; 4) clipped in the breast pocket of a light ash-grey coat; 5) its impression pressed into a blob of red sealing wax, reversed like a stamp (diagonal cut at the lower LEFT). 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: copper colour, gold shine, gems, symmetrical shield, tilted balance beam, extra text or letters other than 117. Avoid also: two wavy lines, symmetrical outline, flat vector look.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/_/clip_plate_design.png"
+  ],
+  "aspect": "16:9",
+  "seed": 485807,
+  "status": "ok"
+ }
+}

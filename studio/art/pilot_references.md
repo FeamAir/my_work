@@ -1,6 +1,6 @@
 # HOLLOWSTONE — референсы пилота S1E01 «The Ninth Sluice»
 
-Версия 0.1 · 2026-11-22 · автор: художник-концептер · статус: **промпты готовы к стилевому тесту; генерация не запускалась**
+Версия 0.2 · 2026-11-23 · автор: художник-концептер · статус: **стилевой тест пройден; `{STYLE}` = STYLE_BASE v2; идёт генерация эталонов (этап 2)**
 Источник списка: `story/episodes/S01E01/production_notes.md` §5 (51 референс + 2 необязательных). Опора: `_anchors_matrix.md`, досье `story/characters/`, `art_and_music_sheet.md`, `canon/world.md`, `beat_sheet.md` v1.1, закрытая выдержка для режиссёра и художника (правила без причин).
 Связанные файлы: `art/peoples_and_costume.md` (народы, классы, материалы), `art/heraldry.md` (гербы), `art/generation_plan.md` (порядок и смета), `art/sealed/` (закрытые материалы — только художник и режиссёр).
 
@@ -14,15 +14,22 @@
 `[ID-блок(и)] + [вид / ракурс / задача листа] + {STYLE} + {SHEET или LOC} + [специфический Avoid] + {AVOID}`
 
 - **ID-блок копируется дословно и в том же порядке** (`direction/consistency.md` §2). Режиссёр переносит утверждённые блоки в `direction/refs/<ID>/card.md`.
-- `{STYLE}` — стилевой блок. Ниже — **временный** блок художника (предложение под сагу). Когда режиссёр утвердит визуальную библию v2, её базовый промпт заменяет `{STYLE}` **в одном месте**, все промпты этого файла остаются валидными.
+- `{STYLE}` — стилевой блок = STYLE_BASE визуальной библии v2 (заменён 2026-11-23 в одном месте, §0.2); все промпты этого файла остаются валидными.
 - У Nano Banana нет поля negative — `Avoid:` идёт последней фразой промпта (`visual_bible.md` §12).
 
 ### 0.2 Общие блоки (временные)
 
-`{STYLE}` *(предложение художника до визуальной библии v2)*:
+`{STYLE}` — **STYLE_BASE визуальной библии v2 («Tidemark», `direction/visual_bible.md` §10.1), утверждён по стилевому тесту 2026-11-23** (прежний блок художника — стиль A — отклонён, см. `direction/refs/CH-0001/card.md`). Два среза одного блока:
+- для листов персонажей, предметов и групп (`{SHEET}`):
 ```
-hand-drawn 2D TV anime illustration for a mature epic fantasy drama, clean cel shading with one hard shadow step and soft lavender-grey shadows, crisp dark umber ink linework with slight brush taper, grounded realistic proportions, restrained muted palette of silt browns, sea greys and slate blues with one saturated accent, painterly gouache background texture, atmospheric haze, cinematic composition
+2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy
 ```
+- для локаций (`{LOC}`) — полный STYLE_BASE:
+```
+2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition
+```
+Правила промптов по итогам теста (обязательны): стороны — **по картинке** для каждого вида («hangs on the RIGHT side of the picture»), в профиль — к какому краю картинки смотрит лицо и видна ли деталь; негатив «… on the left side of the picture»; портреты — «cropped at the waist, legs and feet not visible», без предметов ниже пояса и без слов о позе («leans forward»); сетки — «exactly N cells»; эмоции — физическими признаками; производные листы — edit от финального мастера (+ черновик как раскладка).
+
 `{SHEET}` (листы персонажей и предметов):
 ```
 character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames
