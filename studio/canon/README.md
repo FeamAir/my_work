@@ -1,6 +1,6 @@
 # Canon — how it works
 
-Canon version: **v0.4** (saga **HOLLOWSTONE**; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
+Canon version: **v0.5** (saga **HOLLOWSTONE**; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
 
 The canon is the single source of truth for the saga: world laws, chronology, houses, characters, bloodlines, secrets and names. Scripts, art, sound and marketing must follow it. If a script and the canon disagree, the canon wins until the keeper records a change.
 
@@ -20,7 +20,7 @@ The canon is the single source of truth for the saga: world laws, chronology, ho
 | `glossary.md` | Spelling and pronunciation of every name for voice synthesis | `term` |
 | `sealed/sealed.md` | **Restricted** part of the canon: answers of restricted secrets, sealed characters, overlays, true versions of events, sealed rules and names (§8a) | any type; `overlay: true` |
 | `checklist.md` | Checklist for reviewing script materials against the canon | — |
-| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): all 64 ruled in r3 (`studio/story/decisions_resolved.md`); kept as history and as the address of the remaining TODO stubs (§6a) | — |
+| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 open (v0.5, questions of the roles after r3) | — |
 | `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
 | `tools/validate.py` | Automatic consistency checker | — |
 | `*/_template.md`, examples | Empty templates + one EXAMPLE each (`example: true`) | ignored by the normal run |
@@ -72,11 +72,11 @@ Allocation (v0.3):
 | | CH-0100…0199 | reserved for future cast (S2-S12 outlines) |
 | | CH-0200…0299 | house lineages (writer-houses: founders, last heads, the last three generations) |
 | Houses | HS-001…012 great and fallen · HS-013…089 minor houses and clans (writer-houses: HS-013…033) · HS-090…099 non-house powers | |
-| Places | PL-0001…0065 foundation · PL-0070…0079 writer-houses / keeper · PL-0080+ keeper (sluices and the like) | |
+| Places | PL-0001…0065 foundation · PL-0070…0079 writer-houses / keeper · PL-0080+ keeper (sluices and the like; v0.5: PL-0084 the Ninth Sluice treadmill pump; next free: PL-0085) | |
 | Events | EV-0001…0249 by prequel period (`franchise.md` §3) · EV-0250…0299 other pre-saga history (keeper; v0.3 up to EV-0275) · EV-0300+ the saga | |
 | Secrets | SEC-001…029 foundation (+ SEC-011b; SEC-017 split into SEC-017a/b in v0.4, SEC-017 retconned) · SEC-030+ keeper's numbering of new secrets; numbers proposed by writers are temporary until the keeper confirms them (writer-houses' SEC-C01…C07 = SEC-034…040; SEC-032 not issued) | |
 | World rules | RULE-001…014 foundation (013-014 sealed) · RULE-015+ new (v0.3: law, custom, economy) | |
-| Terms | TERM-0001…0213 foundation · TERM-0214+ v0.3 · TERM-0494 v0.4 (next free: TERM-0495) |
+| Terms | TERM-0001…0213 foundation · TERM-0214+ v0.3 · TERM-0494 v0.4 · TERM-0495…0496 v0.5 (next free: TERM-0497) |
 | Eras | ERA-BA, ERA-OS, ERA-CY, ERA-SY in `timeline.md`; ERA-MV (fifth era) restricted, in `sealed/` (DEC-13) | | |
 
 EXAMPLE records use an `EX-` infix (`CH-EX-0001`) and `example: true`; the normal validator run ignores them. They are deleted or kept as reference once real canon exists; they never mix with real canon.

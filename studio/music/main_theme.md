@@ -108,7 +108,7 @@ C c3 | B/2A/2 G A2 |]
 
 ## 7. Промпт ElevenLabs (английский, `music_v2_5`, composition_plan)
 
-`POST /v1/music` с `model_id: "music_v2_5"`, `composition_plan` (схема v2: `chunks`), `seed` — фиксировать и записывать. `force_instrumental` с планом не работает: инструментальность держим через `negative_styles` и текст без строк вокала. Каждый чанк — 3–120 с; все длительности кратны 3 000 мс (такт при 80 BPM).
+`POST /v1/music` с `model_id: "music_v2_5"`, `composition_plan` (схема v2: `chunks`), `seed` — фиксировать и записывать. **Все генерации темы (эскиз и мастер) — с `store_for_inpainting: true`** (решение директора 2026-11-22): `song_id` мастера нужен для `conditioning_ref` песни-опенинга (`opening_song.md` §5) и вариаций тем; записывать `song_id` в журнал генераций. `force_instrumental` с планом не работает: инструментальность держим через `negative_styles` и текст без строк вокала. Каждый чанк — 3–120 с; все длительности кратны 3 000 мс (такт при 80 BPM).
 
 ```json
 {

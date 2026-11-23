@@ -1,6 +1,6 @@
 # Timeline
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.5 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
