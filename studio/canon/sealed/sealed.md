@@ -454,3 +454,111 @@ meaning: Vesna's birth name
 | Keeper's pitch-stone (Pell's shard) | Lirenne crown (first Spire) → in the hollow of the Keeper's ring → Neveh → Oshra (OS 700) → the Oshra women → Liss → back-canal silt with Liss (CY 305) → Pell (S01E01) |
 | Keeper's ring (Ruel's pearl) | made for Keeper Isembar (~OS 380-420, prequel P2) → Neveh → Corvane admiral (OS 700) → heads of House Corvane → Ruel |
 | Nan's earring and its mate | Hesh splits the pair CY 244: Ves (Vesna) keeps the right one; Nan the left |
+
+## H. v0.3 additions (draft overlays and keeper notes)
+
+Restricted tags found in the writer dossiers (v0.3). Helpers wrote some of these IDs into their own files; in the canon they live only here (README §8a). Overlay lists are added to the base lists.
+
+```canon
+id: CH-0013
+type: character
+canon: draft
+overlay: true
+secrets: [SEC-024]
+```
+
+Tsura: the world believes she broke the weir (cover of SEC-024); her knowledge is in SEC-024 `known_by`.
+
+```canon
+id: CH-0014
+type: character
+canon: draft
+overlay: true
+secrets: [SEC-024]
+```
+
+Silt: she sold the six men (SEC-024); her book of sold men.
+
+```canon
+id: CH-0044
+type: character
+canon: draft
+overlay: true
+secrets: [SEC-010]
+```
+
+Nell: her testimony ends SEC-010 (S09E11).
+
+```canon
+id: HS-001
+type: house
+canon: draft
+overlay: true
+secrets: [SEC-027]
+```
+
+The Admiral's Pearl.
+
+```canon
+id: HS-004
+type: house
+canon: draft
+overlay: true
+secrets: [SEC-024]
+```
+
+The quartermasters' second sale (CY 314).
+
+```canon
+id: HS-026
+type: house
+canon: draft
+overlay: true
+secrets: [SEC-024]
+```
+
+Grell: the 60 + 40 Concord-stamped barrels written off in CY 314 (dossier HS-004).
+
+```canon
+id: HS-093
+type: house
+canon: draft
+overlay: true
+secrets: [SEC-024]
+```
+
+The Undertow hired out the men.
+
+```canon
+id: HS-091
+type: house
+canon: draft
+overlay: true
+secrets: [SEC-024]
+```
+
+Public cover: the Dry Queen "did not deny it".
+
+### Keeper's check of the dossiers against this file (v0.3)
+
+- **Consistent:** Vesna "entered as a cadet-branch daughter and later married to the heir" = writer-houses' Emeric Ilvane (CH-0220), Aurin's father (DEC-28). Liss is Nan's daughter (approved CH-0023) = SEC-026 "her niece Liss". Ione's official birthday CY 294-09 (EV-0201 above) = the S2E5 grave clue "five months before her official birthday": entered in CH-0002 as a draft `born_official` (DEC-19); it reveals nothing beyond SEC-004. The Corvane admiral of OS 700 is now named (Tolvar Corvane, CH-0203); writer-houses keeps him "holding the fleet off the harbour" - the contradiction with the ring taken from the Queen's hand is DEC-14 (SEC-027). Writer-houses' "Book of the Blood, of the Crag" device (DEC-42) is exactly the SEC-026 mechanism; not used in helper files.
+- **Pointer risk, SEC-024 (DEC-46):** without knowing the answer, writer-houses built every element of it in helper-readable files: the Still Days schedule with the Sheaf Spire retuned on Still 2 and Highwater silent on Still 3 (world.md RULE-019), Dask's desperation and the vote-lien (HS-002), 60 + 40 Concord-stamped barrels "lost" from the Rusk exile stores (HS-004/HS-026), the Undertow's hiring. Two sentences that point straight at the answer ("Dask had the deepest [reason]"; "the Barrows' own dikes hold - the Sheaf Spire was retuned on Still 2") were **not** merged into the canon. The schedule itself is needed for S7E8 and the S6E4 clue.
+- **Nan's death:** the SEC-026 clue "S02E09 - the night Nan dies" vs Nan dead at S02E08 (approved CH-0015, EV-0307, saga_arc) - DEC-21.
+
+### DEC → restricted secrets (for `decisions_for_lead.md`, which helpers may read)
+
+| DEC | Restricted secrets | Keeper's note (restricted) |
+|---|---|---|
+| DEC-01 | SEC-014, SEC-025 | The six-plus-three model does not touch who grew the Spires or the Tenth Verse. |
+| DEC-04 | SEC-024 | The public schedule is the arithmetic of the S7E8 POV (Sheaf retuned Still 2, Highwater silent Still 3) and of the S6E4 draft "Still 2". Approve it, but keep helpers from drawing the conclusion (DEC-46). |
+| DEC-08, DEC-09 | SEC-024 | The Terms and the office are what Tsura's silence buys. |
+| DEC-14 | SEC-027 | EV-0100 true version: the admiral takes the emptied ring from the dead Queen's hand on the Spire - he must come ashore (S5E10 flashback "an admiral's hand closes on the ring"). |
+| DEC-17 | SEC-024, SEC-021 | The duet must hold while Highwater's Spires are silent. |
+| DEC-19, DEC-21, DEC-28, DEC-34, DEC-42, DEC-63 | SEC-026 | Consistent: Emeric is the heir Ves/Vesna married; the "of the Crag" entry is her own device (keep it out of helper files); Nan's S02E09 clue; Hesh's dates; Nan's line about Ves. |
+| DEC-23, DEC-53 | SEC-010 | Ninth Bridge after the First Raising; Maren orders, she does not sing. |
+| DEC-32 | SEC-024 | Garrick's heir after S10E11. |
+| DEC-35 | SEC-010, SEC-020 | Vesna's captivity. |
+| DEC-38 | SEC-024 | If Garrick reads the Broken Dike in S7, put it in the same POV as S7E8 (the rhyme of two lettings-go). |
+| DEC-45 | SEC-027 | Mags sells the lane of a "singing stone", not its origin; no conflict as long as nobody links stone and ring before S12E11. |
+| DEC-46 | SEC-024 | See §H above: two pointer sentences not merged. |
+| DEC-48, DEC-51, DEC-52, DEC-56, DEC-57 | SEC-011, SEC-011b | Hollis in Odo's treasury (DEC-52) fits SEC-011b ("forged the record for Odo, S5"). Quire/Quiller clash. |

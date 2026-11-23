@@ -47,6 +47,13 @@ LIFE_STATES = {"alive", "dead", "missing", "presumed_dead", "captive", "revealed
 SECRET_STATES = {"sealed", "seeded", "revealed"}
 
 
+TODO_RE = re.compile(r"^TODO\((DEC-\d{2,3})\)$")
+
+
+def is_todo(v):
+    return isinstance(v, str) and v.strip().startswith("TODO")
+
+
 class Record(dict):
     file = ""
     line = 0
@@ -178,23 +185,76 @@ def split_colon(item):
 
 class Validator:
     def __init__(self, records, examples):
-        self.errors, self.warnings = [], []
+        self.errors, self.warnings, self.todos = [], [], []
+        self.todo_seen = set()
+        self.decisions = None
         recs = [r for r in records if (str(r.get("example", "")).lower() == "true") == examples]
         self.recs = self.merge_overlays(recs)
         self.by_id = {}
         self.by_type = defaultdict(list)
         self.cal = None
 
+    LIST_FIELDS = None  # any value that parsed as a list is merged as a list
+
     def merge_overlays(self, recs):
-        """Records with 'overlay: true' (kept in sealed/) add or replace fields of the
-        base record with the same id. The base record holds what may be shown to helpers;
-        the overlay holds the sealed truth. See README section 8a."""
-        base, overlays = {}, []
+        """Two kinds of partial blocks are merged into the base record with the same id
+        (README sections 6 and 8a):
+        - 'amend: true' (canon: draft) - draft additions from a writer's dossier to an
+          approved base: fills fields the base lacks (or holds as '?'), narrows a date to a
+          more exact date inside the base interval, extends list fields; it may never
+          contradict an approved value (that is an error: it must go to the lead instead);
+        - 'overlay: true' (only in sealed/) - restricted fields; scalars replace the base value,
+          lists are added to the base list.
+        Order: base, then amends, then overlays."""
+        base, amends, overlays = {}, [], []
         for r in recs:
             if str(r.get("overlay", "")).lower() == "true":
                 overlays.append(r)
+            elif str(r.get("amend", "")).lower() == "true":
+                amends.append(r)
             elif r.get("id") and r["id"] not in base:
                 base[r["id"]] = r
+        for a in amends:
+            b = base.get(a.get("id"))
+            if b is None:
+                self.err(a, "amend for unknown id (no base record)")
+                continue
+            if a.get("canon") != "draft":
+                self.err(a, "an amend block must be canon: draft")
+            for k, v in a.items():
+                if k in ("id", "amend", "type", "canon"):
+                    continue
+                bv = b.get(k)
+                if isinstance(v, list):
+                    cur = list(bv) if isinstance(bv, list) else ([] if not bv else [bv])
+                    if k == "heads":
+                        keys = [split_at(x)[0] for x in v]
+                        for x in cur:
+                            kx, wx = split_at(x)
+                            if kx not in keys:
+                                continue
+                            wa = split_at(v[keys.index(kx)])[1]
+                            if wx and wa and wx != wa:
+                                self.err(a, "amend heads: %s@%s contradicts the base %s" % (kx, wa, x))
+                        if all(split_at(x)[0] in keys for x in cur):
+                            cur = list(v)
+                        else:
+                            cur += [x for x in v if split_at(x)[0] not in [split_at(y)[0] for y in cur]]
+                    else:
+                        cur += [x for x in v if x not in cur]
+                    b[k] = cur
+                    continue
+                if bv in (None, "", "?"):
+                    b[k] = v
+                    continue
+                if bv == v:
+                    continue
+                if k in ("born", "died", "date", "date_end", "founded", "extinct") and self.narrower(bv, v):
+                    b[k] = v
+                    continue
+                self.err(a, "amend %s: %r contradicts the base value %r (send it to the lead, decisions_for_lead.md)" % (k, v, bv))
+            b.amended_from = getattr(b, "amended_from", []) + [a.where()]
+            b.amended_fields = getattr(b, "amended_fields", set()) | (set(a) - {"id", "amend", "type", "canon"})
         for o in overlays:
             b = base.get(o.get("id"))
             if b is None:
@@ -203,9 +263,46 @@ class Validator:
             for k, v in o.items():
                 if k in ("id", "overlay", "type", "canon"):
                     continue
-                b[k] = v
+                if isinstance(v, list) and isinstance(b.get(k), list):
+                    b[k] = list(b[k]) + [x for x in v if x not in b[k]]
+                else:
+                    b[k] = v
             b.overlaid_from = o.where()
-        return [r for r in recs if str(r.get("overlay", "")).lower() != "true"]
+        self.n_amends = len(amends)
+        return [r for r in recs if str(r.get("overlay", "")).lower() != "true" and str(r.get("amend", "")).lower() != "true"]
+
+    def narrower(self, wide, exact):
+        """True if date 'exact' lies inside the interval of date 'wide' (calendar not known yet:
+        textual check on era and year, '~' allows one year either side)."""
+        m1 = Calendar.DATE_RE.match(wide.strip())
+        m2 = Calendar.DATE_RE.match(exact.strip())
+        if not m1 or not m2 or m1.group(2) != m2.group(2):
+            return False
+        y1, y2 = int(m1.group(3)), int(m2.group(3))
+        if m2.group(1):
+            return False
+        if m1.group(1):
+            return abs(y1 - y2) <= 1 and not m1.group(4)
+        if y1 != y2:
+            return False
+        if m1.group(4) is None:
+            return True
+        if m1.group(4) != m2.group(4):
+            return False
+        return m1.group(5) is None and m2.group(5) is not None
+
+    def todo(self, rec, field, value):
+        m = TODO_RE.match(value.strip())
+        key = (rec.get("id", "?"), field, value)
+        if key in self.todo_seen:
+            return
+        self.todo_seen.add(key)
+        if not m:
+            self.err(rec, "%s: bad TODO stub %r (use TODO(DEC-NN), README section 6a)" % (field, value))
+            return
+        if self.decisions is not None and m.group(1) not in self.decisions:
+            self.err(rec, "%s: %s is not in decisions_for_lead.md" % (field, m.group(1)))
+        self.todos.append("TODO    %s [%s] %s -> %s" % (rec.where(), rec.get("id", "?"), field, m.group(1)))
 
     def err(self, rec, msg):
         self.errors.append("ERROR   %s [%s] %s" % (rec.where() if rec is not None else "-", rec.get("id", "?") if rec is not None else "-", msg))
@@ -218,6 +315,9 @@ class Validator:
         """Check that value is an existing id of one of the kinds."""
         if not value:
             return None
+        if is_todo(value):
+            self.todo(rec, field, value)
+            return None
         target = self.by_id.get(value)
         if target is None:
             self.err(rec, "%s -> unknown id %r" % (field, value))
@@ -225,13 +325,19 @@ class Validator:
         if target.get("type") not in kinds:
             self.err(rec, "%s -> %r is a %s, expected %s" % (field, value, target.get("type"), "/".join(kinds)))
             return None
-        if rec.get("canon") in ("approved", "locked") and target.get("canon") == "draft":
+        fields = set(field.split("/"))
+        if fields & set(getattr(rec, "amended_fields", ())):
+            pass
+        elif rec.get("canon") in ("approved", "locked") and target.get("canon") == "draft":
             self.warn(rec, "%s record references draft %s" % (rec.get("canon"), value))
         return target
 
     def date(self, rec, field):
         v = rec.get(field)
         if not v or v == "?":
+            return None
+        if is_todo(v):
+            self.todo(rec, field, v)
             return None
         if self.cal is None:
             return None
@@ -244,6 +350,9 @@ class Validator:
     def episode(self, rec, field, ep, allow_origin=False):
         if allow_origin and ep in ("origin", ""):
             return True
+        if is_todo(ep):
+            self.todo(rec, field, ep)
+            return False
         if ep_key(ep) is None:
             self.err(rec, "%s: bad episode code %r (expected SxxEyy%s)" % (field, ep, " or 'origin'" if allow_origin else ""))
             return False
@@ -274,6 +383,17 @@ class Validator:
         self.check_secrets()
         self.check_terms()
         self.check_rules()
+        self.scan_todos()
+
+    def scan_todos(self):
+        """Every TODO stub anywhere in a record is registered (README section 6a)."""
+        for r in self.recs:
+            for k, v in r.items():
+                for item in (v if isinstance(v, list) else [v]):
+                    if not isinstance(item, str) or "TODO" not in item:
+                        continue
+                    m = re.search(r"TODO(\([^)]*\))?", item)
+                    self.todo(r, k, m.group(0))
 
     def index(self):
         for r in self.recs:
@@ -355,6 +475,8 @@ class Validator:
             for item in h.get("heads", []) or []:
                 cid, when = split_at(item)
                 c = self.ref(h, "heads", cid, ("character",))
+                if is_todo(cid):
+                    continue
                 if c and when and self.cal:
                     try:
                         w = self.cal.interval(when)
@@ -380,6 +502,8 @@ class Validator:
         for c in self.by_type["character"]:
             if not c.get("name"):
                 self.err(c, "missing name")
+            elif is_todo(c.get("name")):
+                self.todo(c, "name", c["name"])
             names[c.get("name", "").lower()].append(c)
             self.ref(c, "house", c.get("house"), ("house",))
             self.ref(c, "born_at", c.get("born_at"), ("place",))
@@ -397,6 +521,9 @@ class Validator:
             if b and d and d[1] < b[0]:
                 self.err(c, "died before born")
             for item in c.get("relations", []) or []:
+                if is_todo(item):
+                    self.todo(c, "relations", item.split(":")[0])
+                    continue
                 tid, kind = split_colon(item)
                 if not kind:
                     self.err(c, "relations: %r has no kind (use ID:kind)" % item)
@@ -524,7 +651,9 @@ class Validator:
                 self.episode(s, "reveal_steps", st)
                 if reveal and ep_key(st) and ep_key(reveal) and ep_key(st) > ep_key(reveal):
                     self.err(s, "reveal step %s is after the final reveal %s" % (st, reveal))
-            if reveal:
+            if reveal and is_todo(reveal):
+                self.todo(s, "reveal", reveal)
+            elif reveal:
                 if self.episode(s, "reveal", reveal):
                     rk = ep_key(reveal)
             else:
@@ -549,6 +678,9 @@ class Validator:
             for item in s.get("known_by", []) or []:
                 cid, when = split_at(item)
                 c = self.ref(s, "known_by", cid, ("character",))
+                if is_todo(when):
+                    self.todo(s, "known_by", when)
+                    continue
                 if not when:
                     self.err(s, "known_by: %r needs @origin or @SxxEyy" % item)
                     continue
@@ -703,10 +835,15 @@ def main():
     ap.add_argument("--spoilers", action="store_true", help="with --mermaid: show true (secret) parentage")
     ap.add_argument("--cast", nargs=2, metavar=("EPISODE", "IDS"))
     ap.add_argument("--knows", nargs=2, metavar=("CHAR_ID", "EPISODE"))
+    ap.add_argument("--todo", action="store_true", help="list TODO stubs (README section 6a)")
     a = ap.parse_args()
 
     records, problems = load_records(a.root)
     v = Validator(records, a.examples)
+    dec_path = os.path.join(a.root, "decisions_for_lead.md")
+    if os.path.exists(dec_path):
+        with open(dec_path, encoding="utf-8") as fh:
+            v.decisions = set(re.findall(r"^#{2,4} (DEC-\d{2,3})\b", fh.read(), re.M))
     v.run()
     v.errors[:0] = ["ERROR   " + p for p in problems]
 
@@ -732,10 +869,15 @@ def main():
             print(line)
         return 0
 
+    if a.todo:
+        for line in v.todos:
+            print(line)
     for line in v.errors + v.warnings:
         print(line)
     ns = "EXAMPLE" if a.examples else "canon"
-    print("\n%s: %d records, %d errors, %d warnings" % (ns, len(v.recs), len(v.errors), len(v.warnings)))
+    drafts = sum(1 for r in v.recs if r.get("canon") == "draft")
+    print("\n%s: %d records (%d draft, %d amend blocks), %d errors, %d warnings, %d TODO stubs (--todo to list)" % (
+        ns, len(v.recs), drafts, getattr(v, "n_amends", 0), len(v.errors), len(v.warnings), len(v.todos)))
     return 1 if v.errors else 0
 
 

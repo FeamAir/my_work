@@ -1874,6 +1874,7 @@ term: Isembar Ashare
 say: IZ-em-bar ah-SHAH-reh
 kind: person
 meaning: Keeper who crowned the Keepership (prequel P2)
+ref: CH-0287
 ```
 
 ```canon
@@ -1884,6 +1885,7 @@ term: Sereth Ilvane
 say: SEH-reth IL-vayn
 kind: person
 meaning: matriarch who led the Nine in OS 700 (prequel P3)
+ref: CH-0224
 ```
 
 ```canon
@@ -2161,6 +2163,2854 @@ meaning: the Chronicler's sign-off (changes only in S12E13)
 ```
 
 ---
+
+## v0.3 additions (draft)
+
+Status: **draft** (respellings proposed by writer-houses and writer-characters, normalised by the keeper; stressed syllable in CAPS; to be tested with the TTS voice). Names of older heads without a character ID are entries without `ref`; `meaning` says who they were. Name clashes against the 3-letter rule: DEC-57.
+
+### People (v0.3)
+
+```canon
+id: TERM-0214
+type: term
+canon: draft
+term: Sedge
+say: SEJ
+kind: person
+ref: CH-0077
+```
+
+```canon
+id: TERM-0215
+type: term
+canon: draft
+term: Tolvar Corvane
+say: TOLL-var kor-VAYN
+kind: person
+ref: CH-0203
+```
+
+```canon
+id: TERM-0216
+type: term
+canon: draft
+term: Stellan Corvane
+say: STEL-un kor-VAYN
+kind: person
+ref: CH-0200
+```
+
+```canon
+id: TERM-0217
+type: term
+canon: draft
+term: Wenna Corvane
+say: WEN-uh kor-VAYN
+kind: person
+ref: CH-0201
+```
+
+```canon
+id: TERM-0218
+type: term
+canon: draft
+term: Alys Corvane
+say: AL-iss kor-VAYN
+kind: person
+ref: CH-0202
+```
+
+```canon
+id: TERM-0219
+type: term
+canon: draft
+term: Hemmet Dask
+say: HEM-it DASK
+kind: person
+ref: CH-0216
+```
+
+```canon
+id: TERM-0220
+type: term
+canon: draft
+term: Bertil Dask
+say: BUR-til DASK
+kind: person
+ref: CH-0210
+```
+
+```canon
+id: TERM-0221
+type: term
+canon: draft
+term: Rosamund Dask
+say: ROZ-uh-mund DASK
+kind: person
+ref: CH-0217
+```
+
+```canon
+id: TERM-0222
+type: term
+canon: draft
+term: Agathe Dask
+say: AG-aht DASK
+kind: person
+ref: CH-0211
+```
+
+```canon
+id: TERM-0223
+type: term
+canon: draft
+term: Edrin Dask
+say: ED-rin DASK
+kind: person
+ref: CH-0212
+```
+
+```canon
+id: TERM-0224
+type: term
+canon: draft
+term: Hilde Dask
+say: HIL-duh DASK
+kind: person
+ref: CH-0213
+```
+
+```canon
+id: TERM-0225
+type: term
+canon: draft
+term: Thyra Dask
+say: THY-ruh DASK
+kind: person
+ref: CH-0214
+```
+
+```canon
+id: TERM-0226
+type: term
+canon: draft
+term: Ylva Dask
+say: ILL-vuh DASK
+kind: person
+ref: CH-0215
+```
+
+```canon
+id: TERM-0227
+type: term
+canon: draft
+term: Emeric Ilvane
+say: EM-er-ick IL-vayn
+kind: person
+ref: CH-0220
+```
+
+```canon
+id: TERM-0228
+type: term
+canon: draft
+term: Tamlyn Pallis
+say: TAM-lin PAL-iss
+kind: person
+ref: CH-0221
+```
+
+```canon
+id: TERM-0229
+type: term
+canon: draft
+term: Imre Pallis
+say: IM-ray PAL-iss
+kind: person
+ref: CH-0222
+```
+
+```canon
+id: TERM-0230
+type: term
+canon: draft
+term: Borra Rusk
+say: BOR-uh RUSK
+kind: person
+ref: CH-0236
+```
+
+```canon
+id: TERM-0231
+type: term
+canon: draft
+term: Bodvar Rusk
+say: BOD-var RUSK
+kind: person
+ref: CH-0230
+```
+
+```canon
+id: TERM-0232
+type: term
+canon: draft
+term: Gisla Rusk
+say: GEES-luh RUSK
+kind: person
+ref: CH-0237
+```
+
+```canon
+id: TERM-0233
+type: term
+canon: draft
+term: Wilmot Rusk
+say: WIL-mot RUSK
+kind: person
+ref: CH-0231
+```
+
+```canon
+id: TERM-0234
+type: term
+canon: draft
+term: Eirik Rusk
+say: AY-rik RUSK
+kind: person
+ref: CH-0232
+```
+
+```canon
+id: TERM-0235
+type: term
+canon: draft
+term: Ardo Rusk
+say: AR-doh RUSK
+kind: person
+ref: CH-0233
+```
+
+```canon
+id: TERM-0236
+type: term
+canon: draft
+term: Dagny Rusk
+say: DAG-nee RUSK
+kind: person
+ref: CH-0234
+```
+
+```canon
+id: TERM-0237
+type: term
+canon: draft
+term: Sindre Rusk
+say: SIN-dreh RUSK
+kind: person
+ref: CH-0235
+```
+
+```canon
+id: TERM-0238
+type: term
+canon: draft
+term: Reske Quell
+say: RESK-eh KWEL
+kind: person
+ref: CH-0243
+```
+
+```canon
+id: TERM-0239
+type: term
+canon: draft
+term: Rourke Quell
+say: RORK KWEL
+kind: person
+ref: CH-0240
+```
+
+```canon
+id: TERM-0240
+type: term
+canon: draft
+term: Jessamy of Rhee
+say: JESS-uh-mee uv REE
+kind: person
+ref: CH-0241
+```
+
+```canon
+id: TERM-0241
+type: term
+canon: draft
+term: Jinna Quell
+say: JIN-uh KWEL
+kind: person
+ref: CH-0242
+```
+
+```canon
+id: TERM-0242
+type: term
+canon: draft
+term: Barnet Fennick
+say: BAR-nit FEN-ik
+kind: person
+ref: CH-0250
+```
+
+```canon
+id: TERM-0243
+type: term
+canon: draft
+term: Sefton Fennick
+say: SEF-tun FEN-ik
+kind: person
+ref: CH-0251
+```
+
+```canon
+id: TERM-0244
+type: term
+canon: draft
+term: Maud Fennick
+say: MAWD FEN-ik
+kind: person
+ref: CH-0253
+```
+
+```canon
+id: TERM-0245
+type: term
+canon: draft
+term: Yolande Fennick
+say: yoh-LAND FEN-ik
+kind: person
+ref: CH-0252
+```
+
+```canon
+id: TERM-0246
+type: term
+canon: draft
+term: Hendrik Lantry
+say: HEN-drik LAN-tree
+kind: person
+ref: CH-0260
+```
+
+```canon
+id: TERM-0247
+type: term
+canon: draft
+term: Mattias Lantry
+say: mah-TEE-us LAN-tree
+kind: person
+ref: CH-0261
+```
+
+```canon
+id: TERM-0248
+type: term
+canon: draft
+term: Bastian Lantry
+say: BAST-ee-un LAN-tree
+kind: person
+ref: CH-0262
+```
+
+```canon
+id: TERM-0249
+type: term
+canon: draft
+term: Annick Lantry
+say: AN-ick LAN-tree
+kind: person
+ref: CH-0263
+```
+
+```canon
+id: TERM-0250
+type: term
+canon: draft
+term: Rainer Lantry
+say: RY-ner LAN-tree
+kind: person
+ref: CH-0264
+```
+
+```canon
+id: TERM-0251
+type: term
+canon: draft
+term: Elske Lantry
+say: ELS-keh LAN-tree
+kind: person
+ref: CH-0265
+```
+
+```canon
+id: TERM-0252
+type: term
+canon: draft
+term: Aldous Harrow
+say: AWL-dus HARR-oh
+kind: person
+ref: CH-0271
+```
+
+```canon
+id: TERM-0253
+type: term
+canon: draft
+term: Osbert Harrow
+say: OZ-bert HARR-oh
+kind: person
+ref: CH-0270
+```
+
+```canon
+id: TERM-0254
+type: term
+canon: draft
+term: Rawlin Moll
+say: RAW-lin MOL
+kind: person
+ref: CH-0275
+```
+
+```canon
+id: TERM-0255
+type: term
+canon: draft
+term: Thessa Moll
+say: THESS-uh MOL
+kind: person
+ref: CH-0276
+```
+
+```canon
+id: TERM-0256
+type: term
+canon: draft
+term: Weylin Ostry
+say: WAY-lin OSS-tree
+kind: person
+ref: CH-0278
+```
+
+```canon
+id: TERM-0257
+type: term
+canon: draft
+term: Elowen Ostry
+say: EL-oh-wen OSS-tree
+kind: person
+ref: CH-0279
+```
+
+```canon
+id: TERM-0258
+type: term
+canon: draft
+term: the last Lady of Vanth
+say: thuh LAST LAY-dee uv VANTH
+kind: person
+ref: CH-0280
+```
+
+```canon
+id: TERM-0259
+type: term
+canon: draft
+term: Taleh Ashare
+say: TAH-leh ah-SHAH-reh
+kind: person
+ref: CH-0285
+```
+
+```canon
+id: TERM-0260
+type: term
+canon: draft
+term: Ulenne Ashare
+say: oo-LEN ah-SHAH-reh
+kind: person
+ref: CH-0286
+```
+
+```canon
+id: TERM-0261
+type: term
+canon: draft
+term: Wystan Corvane
+say: WISS-tun kor-VAYN
+kind: person
+ref: CH-0204
+```
+
+```canon
+id: TERM-0262
+type: term
+canon: draft
+term: Gant
+say: GANT
+kind: person
+ref: CH-0073
+```
+
+```canon
+id: TERM-0263
+type: term
+canon: draft
+term: Nim
+say: NIM
+kind: person
+ref: CH-0074
+```
+
+```canon
+id: TERM-0264
+type: term
+canon: draft
+term: Ansel Fray
+say: AN-sel FRAY
+kind: person
+ref: CH-0075
+```
+
+```canon
+id: TERM-0265
+type: term
+canon: draft
+term: Orm Hask
+say: ORM HASK
+kind: person
+ref: CH-0076
+```
+
+```canon
+id: TERM-0266
+type: term
+canon: draft
+term: Dakka Den
+say: DAK-ah DEN
+kind: person
+ref: CH-0071
+```
+
+```canon
+id: TERM-0267
+type: term
+canon: draft
+term: Itsek
+say: IT-sek
+kind: person
+ref: CH-0072
+```
+
+```canon
+id: TERM-0268
+type: term
+canon: draft
+term: Brannic Corvane
+say: BRAN-ick kor-VAYN
+kind: person
+meaning: head of House Corvane CY 19-44; the Salt War
+```
+
+```canon
+id: TERM-0269
+type: term
+canon: draft
+term: Edda Corvane
+say: ED-uh kor-VAYN
+kind: person
+meaning: Lady Admiral CY 44-71; the Long Mole
+```
+
+```canon
+id: TERM-0270
+type: term
+canon: draft
+term: Galen Corvane
+say: GAY-len kor-VAYN
+kind: person
+meaning: head CY 71-102; Helm CY 80-102
+```
+
+```canon
+id: TERM-0271
+type: term
+canon: draft
+term: Rendal Corvane
+say: REN-dul kor-VAYN
+kind: person
+meaning: head CY 131-160, "the first of both bloods"
+```
+
+```canon
+id: TERM-0272
+type: term
+canon: draft
+term: Saffen Corvane
+say: SAF-en kor-VAYN
+kind: person
+meaning: head CY 160-188
+```
+
+```canon
+id: TERM-0273
+type: term
+canon: draft
+term: Hallam Corvane
+say: HAL-um kor-VAYN
+kind: person
+meaning: head CY 188-221; Helm CY 198-221
+```
+
+```canon
+id: TERM-0274
+type: term
+canon: draft
+term: Idwal Corvane
+say: ID-wahl kor-VAYN
+kind: person
+meaning: head CY 221-247
+```
+
+```canon
+id: TERM-0275
+type: term
+canon: draft
+term: Oswin Corvane
+say: OZ-win kor-VAYN
+kind: person
+meaning: head CY 247-266
+```
+
+```canon
+id: TERM-0276
+type: term
+canon: draft
+term: Orla Corvane
+say: OR-luh kor-VAYN
+kind: person
+meaning: First Cantor CY 252-281
+```
+
+```canon
+id: TERM-0277
+type: term
+canon: draft
+term: Ulric Dask
+say: UL-rick DASK
+kind: person
+meaning: head CY 24-58; Helm CY 39-58
+```
+
+```canon
+id: TERM-0278
+type: term
+canon: draft
+term: Wardel Dask
+say: WAR-dul DASK
+kind: person
+meaning: head CY 58-93; the Furrow War
+```
+
+```canon
+id: TERM-0279
+type: term
+canon: draft
+term: Grimald Dask
+say: GRIM-ald DASK
+kind: person
+meaning: head CY 93-126; Helm CY 102-126
+```
+
+```canon
+id: TERM-0280
+type: term
+canon: draft
+term: Ebbard Dask
+say: EB-ard DASK
+kind: person
+meaning: head CY 126-171; Helm CY 149-171
+```
+
+```canon
+id: TERM-0281
+type: term
+canon: draft
+term: Wulfric Dask
+say: WOOLF-rick DASK
+kind: person
+meaning: head CY 171-199
+```
+
+```canon
+id: TERM-0282
+type: term
+canon: draft
+term: Osric Dask
+say: OZ-rick DASK
+kind: person
+meaning: head CY 199-228
+```
+
+```canon
+id: TERM-0283
+type: term
+canon: draft
+term: Stannic Dask
+say: STAN-ick DASK
+kind: person
+meaning: head CY 228-262
+```
+
+```canon
+id: TERM-0284
+type: term
+canon: draft
+term: Idony Dask
+say: ID-oh-nee DASK
+kind: person
+meaning: First Cantor CY 192-221
+```
+
+```canon
+id: TERM-0285
+type: term
+canon: draft
+term: Avel Ilvane
+say: AV-el IL-vayn
+kind: person
+meaning: head CY 9-39; Helm CY 17-39
+```
+
+```canon
+id: TERM-0286
+type: term
+canon: draft
+term: Cassen Ilvane
+say: KASS-en IL-vayn
+kind: person
+meaning: head CY 39-70
+```
+
+```canon
+id: TERM-0287
+type: term
+canon: draft
+term: Mireth Ilvane
+say: MEER-eth IL-vayn
+kind: person
+meaning: head CY 70-101
+```
+
+```canon
+id: TERM-0288
+type: term
+canon: draft
+term: Selwyn Ilvane
+say: SEL-win IL-vayn
+kind: person
+meaning: head CY 101-118
+```
+
+```canon
+id: TERM-0289
+type: term
+canon: draft
+term: Evander Ilvane
+say: ee-VAN-der IL-vayn
+kind: person
+meaning: head CY 118-149; Helm CY 126-149
+```
+
+```canon
+id: TERM-0290
+type: term
+canon: draft
+term: Linnet Ilvane
+say: LIN-it IL-vayn
+kind: person
+meaning: head CY 149-180
+```
+
+```canon
+id: TERM-0291
+type: term
+canon: draft
+term: Cyrel Ilvane
+say: SEER-el IL-vayn
+kind: person
+meaning: head CY 180-214
+```
+
+```canon
+id: TERM-0292
+type: term
+canon: draft
+term: Belisse Ilvane
+say: beh-LEESS IL-vayn
+kind: person
+meaning: head CY 214-240
+```
+
+```canon
+id: TERM-0293
+type: term
+canon: draft
+term: Tavian Ilvane
+say: TAY-vee-un IL-vayn
+kind: person
+meaning: head CY 240-268; Helm CY 249-268
+```
+
+```canon
+id: TERM-0294
+type: term
+canon: draft
+term: Sorrel Ilvane
+say: SOR-ul IL-vayn
+kind: person
+meaning: First Cantor CY 14-43
+```
+
+```canon
+id: TERM-0295
+type: term
+canon: draft
+term: Saskia Ilvane
+say: SASS-kee-uh IL-vayn
+kind: person
+meaning: First Cantor CY 70-98
+```
+
+```canon
+id: TERM-0296
+type: term
+canon: draft
+term: Ommen Ilvane
+say: OM-en IL-vayn
+kind: person
+meaning: First Cantor CY 98-131
+```
+
+```canon
+id: TERM-0297
+type: term
+canon: draft
+term: Quiller Ilvane
+say: KWIL-er IL-vayn
+kind: person
+meaning: First Cantor CY 131-160
+```
+
+```canon
+id: TERM-0298
+type: term
+canon: draft
+term: Beryl Ilvane
+say: BEH-ril IL-vayn
+kind: person
+meaning: First Cantor CY 160-192
+```
+
+```canon
+id: TERM-0299
+type: term
+canon: draft
+term: Nolwen Ilvane
+say: NOLL-wen IL-vayn
+kind: person
+meaning: First Cantor CY 221-252
+```
+
+```canon
+id: TERM-0300
+type: term
+canon: draft
+term: Torsk Rusk
+say: TORSK RUSK
+kind: person
+meaning: head CY 26-60
+```
+
+```canon
+id: TERM-0301
+type: term
+canon: draft
+term: Ulla Rusk
+say: OOL-uh RUSK
+kind: person
+meaning: head CY 60-98
+```
+
+```canon
+id: TERM-0302
+type: term
+canon: draft
+term: Brodric Rusk
+say: BROD-rick RUSK
+kind: person
+meaning: head CY 98-129
+```
+
+```canon
+id: TERM-0303
+type: term
+canon: draft
+term: Vorn Rusk
+say: VORN RUSK
+kind: person
+meaning: head CY 129-163; stormed the Stair CY 141
+```
+
+```canon
+id: TERM-0304
+type: term
+canon: draft
+term: Ragna Rusk
+say: RAG-nuh RUSK
+kind: person
+meaning: head CY 163-190
+```
+
+```canon
+id: TERM-0305
+type: term
+canon: draft
+term: Drust Rusk
+say: DRUST RUSK
+kind: person
+meaning: head CY 190-216; the Kite War
+```
+
+```canon
+id: TERM-0306
+type: term
+canon: draft
+term: Inga Rusk
+say: ING-uh RUSK
+kind: person
+meaning: head CY 216-244
+```
+
+```canon
+id: TERM-0307
+type: term
+canon: draft
+term: Jettan Quell
+say: JET-un KWEL
+kind: person
+meaning: Captain-Lord CY 12-33 (Jutt)
+```
+
+```canon
+id: TERM-0308
+type: term
+canon: draft
+term: Skarn Quell
+say: SKARN KWEL
+kind: person
+meaning: Captain-Lord CY 33-41 (Skarra)
+```
+
+```canon
+id: TERM-0309
+type: term
+canon: draft
+term: Raddock Quell
+say: RAD-uck KWEL
+kind: person
+meaning: Captain-Lord CY 41-70 (Tarrow)
+```
+
+```canon
+id: TERM-0310
+type: term
+canon: draft
+term: Jusso Quell
+say: JOO-soh KWEL
+kind: person
+meaning: Captain-Lord CY 70-96 (Tarrow)
+```
+
+```canon
+id: TERM-0311
+type: term
+canon: draft
+term: Rilla Quell
+say: RIL-uh KWEL
+kind: person
+meaning: Captain-Lord CY 96-130 (Jutt)
+```
+
+```canon
+id: TERM-0312
+type: term
+canon: draft
+term: Murro Quell
+say: MUR-oh KWEL
+kind: person
+meaning: Captain-Lord CY 130-155 (Tarrow)
+```
+
+```canon
+id: TERM-0313
+type: term
+canon: draft
+term: Jolle Quell
+say: JOL-eh KWEL
+kind: person
+meaning: Captain-Lord CY 155-198; "the Pirate Helm" CY 171-198
+```
+
+```canon
+id: TERM-0314
+type: term
+canon: draft
+term: Jenner Quell
+say: JEN-er KWEL
+kind: person
+meaning: Captain-Lord CY 198-230 (Skarra)
+```
+
+```canon
+id: TERM-0315
+type: term
+canon: draft
+term: Jassa Quell
+say: JASS-uh KWEL
+kind: person
+meaning: Captain-Lord CY 230-259 (Jutt)
+```
+
+```canon
+id: TERM-0316
+type: term
+canon: draft
+term: Ivo Fennick
+say: EE-voh FEN-ik
+kind: person
+meaning: first Relay-Master CY 9-40
+```
+
+```canon
+id: TERM-0317
+type: term
+canon: draft
+term: Percival Fennick
+say: PUR-sih-vul FEN-ik
+kind: person
+meaning: Relay-Master CY 40-77
+```
+
+```canon
+id: TERM-0318
+type: term
+canon: draft
+term: Gideon Fennick
+say: GID-ee-un FEN-ik
+kind: person
+meaning: Relay-Master CY 77-110
+```
+
+```canon
+id: TERM-0319
+type: term
+canon: draft
+term: Clement Fennick
+say: KLEM-ent FEN-ik
+kind: person
+meaning: Relay-Master CY 110-150
+```
+
+```canon
+id: TERM-0320
+type: term
+canon: draft
+term: Hamon Fennick
+say: HAY-mun FEN-ik
+kind: person
+meaning: Relay-Master CY 150-189; Master of the Hearings
+```
+
+```canon
+id: TERM-0321
+type: term
+canon: draft
+term: Rafe Fennick
+say: RAYF FEN-ik
+kind: person
+meaning: head CY 189-221
+```
+
+```canon
+id: TERM-0322
+type: term
+canon: draft
+term: Nyle Fennick
+say: NILE FEN-ik
+kind: person
+meaning: head CY 221-240
+```
+
+```canon
+id: TERM-0323
+type: term
+canon: draft
+term: Thurstan Harrow
+say: THUR-stun HARR-oh
+kind: person
+meaning: head CY 17-52
+```
+
+```canon
+id: TERM-0324
+type: term
+canon: draft
+term: Lambert Harrow
+say: LAM-bert HARR-oh
+kind: person
+meaning: head CY 52-80; Helm CY 58-80
+```
+
+```canon
+id: TERM-0325
+type: term
+canon: draft
+term: Baldwin Harrow
+say: BAWLD-win HARR-oh
+kind: person
+meaning: head CY 80-118
+```
+
+```canon
+id: TERM-0326
+type: term
+canon: draft
+term: Hugo Harrow
+say: HYOO-goh HARR-oh
+kind: person
+meaning: head CY 118-150
+```
+
+```canon
+id: TERM-0327
+type: term
+canon: draft
+term: Anselm Harrow
+say: AN-selm HARR-oh
+kind: person
+meaning: head CY 150-183 (name clash: DEC-57)
+```
+
+```canon
+id: TERM-0328
+type: term
+canon: draft
+term: Jocelyn Harrow
+say: JOSS-lin HARR-oh
+kind: person
+meaning: head CY 183-209
+```
+
+```canon
+id: TERM-0329
+type: term
+canon: draft
+term: Tancred Harrow
+say: TAN-kred HARR-oh
+kind: person
+meaning: head CY 209-249; Helm CY 221-249; the Paper Ordinance
+```
+
+```canon
+id: TERM-0330
+type: term
+canon: draft
+term: Ancel Moll
+say: AN-sel MOL
+kind: person
+meaning: head ~OS 690-CY 30 (name clash: DEC-57)
+```
+
+```canon
+id: TERM-0331
+type: term
+canon: draft
+term: Yorath Moll
+say: YOR-ath MOL
+kind: person
+meaning: head CY 30-61
+```
+
+```canon
+id: TERM-0332
+type: term
+canon: draft
+term: Kenver Ostry
+say: KEN-ver OSS-tree
+kind: person
+meaning: head ~OS 695-CY 31
+```
+
+```canon
+id: TERM-0333
+type: term
+canon: draft
+term: Gwilym Ostry
+say: GWIL-im OSS-tree
+kind: person
+meaning: head CY 31-70
+```
+
+```canon
+id: TERM-0334
+type: term
+canon: draft
+term: Callis Ostry
+say: KAL-iss OSS-tree
+kind: person
+meaning: head CY 70-112
+```
+
+```canon
+id: TERM-0335
+type: term
+canon: draft
+term: Gethin Vanth
+say: GETH-in VANTH
+kind: person
+meaning: head ~OS 690-CY 28
+```
+
+```canon
+id: TERM-0336
+type: term
+canon: draft
+term: Hywel Vanth
+say: HUH-wel VANTH
+kind: person
+meaning: head CY 28-66
+```
+
+```canon
+id: TERM-0337
+type: term
+canon: draft
+term: Ithel Vanth
+say: ITH-el VANTH
+kind: person
+meaning: head CY 66-104
+```
+
+```canon
+id: TERM-0338
+type: term
+canon: draft
+term: Tegwen Vanth
+say: TEG-wen VANTH
+kind: person
+meaning: head CY 104-136
+```
+
+```canon
+id: TERM-0339
+type: term
+canon: draft
+term: Aleneh Ashare
+say: ah-LEN-eh ah-SHAH-reh
+kind: person
+meaning: Tide-Queen OS 431-468
+```
+
+```canon
+id: TERM-0340
+type: term
+canon: draft
+term: Ravenne Ashare
+say: rah-VEN ah-SHAH-reh
+kind: person
+meaning: Tide-Queen OS 468-505
+```
+
+```canon
+id: TERM-0341
+type: term
+canon: draft
+term: Obeh Ashare
+say: OH-beh ah-SHAH-reh
+kind: person
+meaning: Tide-King OS 505-533
+```
+
+```canon
+id: TERM-0342
+type: term
+canon: draft
+term: Rinneh Ashare
+say: RIN-eh ah-SHAH-reh
+kind: person
+meaning: Tide-Queen OS 533-571
+```
+
+```canon
+id: TERM-0343
+type: term
+canon: draft
+term: Yareh Ashare
+say: YAR-eh ah-SHAH-reh
+kind: person
+meaning: Tide-King OS 571-600
+```
+
+```canon
+id: TERM-0344
+type: term
+canon: draft
+term: Thandry of Brackwater
+say: THAN-dree uv BRAK-waw-ter
+kind: person
+meaning: First Cantor CY 43-70, the last wreck-singer to rise in the Choir
+```
+
+```canon
+id: TERM-0345
+type: term
+canon: draft
+term: Ekida
+say: eh-KEE-dah
+kind: person
+meaning: Dry Queen CY 138-143
+```
+
+```canon
+id: TERM-0346
+type: term
+canon: draft
+term: Sotka
+say: SOT-kah
+kind: person
+meaning: Dry Queen CY 202-207 (the Kite War)
+```
+
+```canon
+id: TERM-0347
+type: term
+canon: draft
+term: Akko of Kitsa
+say: AH-koh uv KIT-sah
+kind: person
+meaning: Kitsa glider-captain, Tsura's consort, killed in the Rim Skirmish (proposal, DEC-33)
+```
+
+### Houses, clans and powers (v0.3)
+
+```canon
+id: TERM-0348
+type: term
+canon: draft
+term: House Dunmore
+say: HOWSS DUN-mor
+kind: house
+ref: HS-013
+```
+
+```canon
+id: TERM-0349
+type: term
+canon: draft
+term: House Cobbet
+say: HOWSS KOB-it
+kind: house
+ref: HS-014
+```
+
+```canon
+id: TERM-0350
+type: term
+canon: draft
+term: House Inchley
+say: HOWSS INCH-lee
+kind: house
+ref: HS-015
+```
+
+```canon
+id: TERM-0351
+type: term
+canon: draft
+term: House Merriden
+say: HOWSS MEH-rih-den
+kind: house
+ref: HS-016
+```
+
+```canon
+id: TERM-0352
+type: term
+canon: draft
+term: House Kellow
+say: HOWSS KEL-oh
+kind: house
+ref: HS-017
+```
+
+```canon
+id: TERM-0353
+type: term
+canon: draft
+term: House Dask of the Reach
+say: HOWSS DASK uv thuh REECH
+kind: house
+ref: HS-018
+```
+
+```canon
+id: TERM-0354
+type: term
+canon: draft
+term: House Gillam
+say: HOWSS GIL-um
+kind: house
+ref: HS-019
+```
+
+```canon
+id: TERM-0355
+type: term
+canon: draft
+term: Clan Rhee
+say: KLAN REE
+kind: house
+ref: HS-020
+```
+
+```canon
+id: TERM-0356
+type: term
+canon: draft
+term: Clan Jutt
+say: KLAN JUT
+kind: house
+ref: HS-021
+```
+
+```canon
+id: TERM-0357
+type: term
+canon: draft
+term: Clan Skarra
+say: KLAN SKAR-uh
+kind: house
+ref: HS-022
+```
+
+```canon
+id: TERM-0358
+type: term
+canon: draft
+term: Clan Tarrow
+say: KLAN TAR-oh
+kind: house
+ref: HS-023
+```
+
+```canon
+id: TERM-0359
+type: term
+canon: draft
+term: Clan Varra
+say: KLAN VAR-uh
+kind: house
+ref: HS-024
+```
+
+```canon
+id: TERM-0360
+type: term
+canon: draft
+term: House Hadden
+say: HOWSS HAD-en
+kind: house
+ref: HS-025
+```
+
+```canon
+id: TERM-0361
+type: term
+canon: draft
+term: House Grell
+say: HOWSS GREL
+kind: house
+ref: HS-026
+```
+
+```canon
+id: TERM-0362
+type: term
+canon: draft
+term: House Corvane of the Roads
+say: HOWSS kor-VAYN uv thuh ROHDZ
+kind: house
+ref: HS-027
+```
+
+```canon
+id: TERM-0363
+type: term
+canon: draft
+term: House Whitlow
+say: HOWSS WIT-loh
+kind: house
+ref: HS-028
+```
+
+```canon
+id: TERM-0364
+type: term
+canon: draft
+term: House Pallis
+say: HOWSS PAL-iss
+kind: house
+ref: HS-029
+```
+
+```canon
+id: TERM-0365
+type: term
+canon: draft
+term: House Tennant
+say: HOWSS TEN-unt
+kind: house
+ref: HS-030
+```
+
+```canon
+id: TERM-0366
+type: term
+canon: draft
+term: House Orsley
+say: HOWSS ORZ-lee
+kind: house
+ref: HS-031
+```
+
+```canon
+id: TERM-0367
+type: term
+canon: draft
+term: House Kilbride
+say: HOWSS kil-BRIDE
+kind: house
+ref: HS-032
+```
+
+```canon
+id: TERM-0368
+type: term
+canon: draft
+term: House Wray
+say: HOWSS RAY
+kind: house
+ref: HS-033
+```
+
+```canon
+id: TERM-0369
+type: term
+canon: draft
+term: Clan Den
+say: KLAN DEN
+kind: house
+meaning: Ossari clan of the Rim; kite-masters (Tsura, Dakka)
+```
+
+```canon
+id: TERM-0370
+type: term
+canon: draft
+term: Clan Tekka
+say: KLAN TEK-ah
+kind: house
+meaning: Ossari clan of the nitre country; saltpeter (Itsek)
+```
+
+```canon
+id: TERM-0371
+type: term
+canon: draft
+term: Clan Kitsa
+say: KLAN KIT-sah
+kind: house
+meaning: Ossari clan of the high mesas; gliders
+```
+
+```canon
+id: TERM-0372
+type: term
+canon: draft
+term: Clan Udra
+say: KLAN OO-drah
+kind: house
+meaning: Ossari well-keepers and knot-reckoners
+```
+
+```canon
+id: TERM-0373
+type: term
+canon: draft
+term: Clan Saktu
+say: KLAN SAHK-too
+kind: house
+meaning: Ossari herders of the southern plateau
+```
+
+```canon
+id: TERM-0374
+type: term
+canon: draft
+term: Clan Edakka
+say: KLAN eh-DAH-kah
+kind: house
+meaning: Ossari lake-fishers of the Shelf lakes; took in Vanth survivors (Kadu)
+```
+
+### Places (v0.3)
+
+```canon
+id: TERM-0375
+type: term
+canon: draft
+term: the Rim
+say: thuh RIM
+kind: place
+ref: PL-0070
+```
+
+```canon
+id: TERM-0376
+type: term
+canon: draft
+term: the Table House
+say: thuh TAY-bul howss
+kind: place
+ref: PL-0071
+```
+
+```canon
+id: TERM-0377
+type: term
+canon: draft
+term: Rimgate
+say: RIM-gayt
+kind: place
+ref: PL-0072
+```
+
+```canon
+id: TERM-0378
+type: term
+canon: draft
+term: the Goat Stair
+say: thuh GOHT STAIR
+kind: place
+ref: PL-0073
+```
+
+```canon
+id: TERM-0379
+type: term
+canon: draft
+term: the Brackwater salt pans
+say: thuh BRAK-waw-ter SALT panz
+kind: place
+ref: PL-0074
+```
+
+```canon
+id: TERM-0380
+type: term
+canon: draft
+term: the Long Mole
+say: thuh LONG MOHL
+kind: place
+ref: PL-0075
+```
+
+```canon
+id: TERM-0381
+type: term
+canon: draft
+term: the Concord Arsenal
+say: thuh KON-kord AR-sen-ul
+kind: place
+ref: PL-0076
+```
+
+```canon
+id: TERM-0382
+type: term
+canon: draft
+term: the Rusk House-in-Exile
+say: thuh RUSK HOWSS-in-EG-zile
+kind: place
+ref: PL-0077
+```
+
+```canon
+id: TERM-0383
+type: term
+canon: draft
+term: the Map Office
+say: thuh MAP OF-iss
+kind: place
+ref: PL-0078
+```
+
+```canon
+id: TERM-0384
+type: term
+canon: draft
+term: Hobb's Gate
+say: HOBZ GAYT
+kind: place
+ref: PL-0079
+```
+
+```canon
+id: TERM-0385
+type: term
+canon: draft
+term: the Second Sluice
+say: thuh SEK-und SLOOSS
+kind: place
+ref: PL-0080
+```
+
+```canon
+id: TERM-0386
+type: term
+canon: draft
+term: the Third Sluice
+say: thuh THURD SLOOSS
+kind: place
+ref: PL-0081
+```
+
+```canon
+id: TERM-0387
+type: term
+canon: draft
+term: the Fourth Sluice
+say: thuh FORTH SLOOSS
+kind: place
+ref: PL-0082
+```
+
+```canon
+id: TERM-0388
+type: term
+canon: draft
+term: the Fifth Sluice
+say: thuh FIFTH SLOOSS
+kind: place
+ref: PL-0083
+```
+
+```canon
+id: TERM-0389
+type: term
+canon: draft
+term: the Reach
+say: thuh REECH
+kind: place
+ref: PL-0038
+meaning: local name of the Moll polders
+```
+
+### Titles, words, objects (v0.3)
+
+```canon
+id: TERM-0390
+type: term
+canon: draft
+term: the Hill Voice
+say: thuh HIL VOYSS
+kind: word
+ref: RULE-017
+meaning: Harrow's second voice, a house's voice without a Spire; Lantry's since CY 252
+```
+
+```canon
+id: TERM-0391
+type: term
+canon: draft
+term: the Sluice Voice
+say: thuh SLOOSS VOYSS
+kind: word
+meaning: the voice that goes with the Sluice Spire (Fennick since CY 251)
+```
+
+```canon
+id: TERM-0392
+type: term
+canon: draft
+term: the Hull Moot
+say: thuh HUL MOOT
+kind: word
+ref: HS-005
+meaning: the five Quell clan-chiefs sitting in an upturned hull; elects the Captain-Lord
+```
+
+```canon
+id: TERM-0393
+type: term
+canon: draft
+term: the Sunk Charter
+say: thuh SUNK CHAR-ter
+kind: object
+ref: EV-0264
+meaning: Quell's salvage right over Lirenne (CY 3)
+```
+
+```canon
+id: TERM-0394
+type: term
+canon: draft
+term: the Pilots' Peace
+say: thuh PY-luts PEESS
+kind: word
+ref: EV-0267
+meaning: the peace of CY 40 after the Salt War
+```
+
+```canon
+id: TERM-0395
+type: term
+canon: draft
+term: the Unison Decree
+say: thee YOO-nih-sun dih-KREE
+kind: word
+ref: EV-0266
+meaning: CY 34: all Cantors trained at Pale Crag
+```
+
+```canon
+id: TERM-0396
+type: term
+canon: draft
+term: the Exchange of Sleeves
+say: thee eks-CHAYNJ uv SLEEVZ
+kind: word
+ref: RULE-023
+meaning: the hostage custom of the Stair Treaty
+```
+
+```canon
+id: TERM-0397
+type: term
+canon: draft
+term: Sea Right
+say: SEE RITE
+kind: word
+ref: RULE-018
+meaning: Corvane house law of succession
+```
+
+```canon
+id: TERM-0398
+type: term
+canon: draft
+term: the Joining
+say: thuh JOY-ning
+kind: word
+ref: RULE-019
+meaning: Still 5: every Spire sung together at dusk
+```
+
+```canon
+id: TERM-0399
+type: term
+canon: draft
+term: the Lament for the Drowned
+say: thuh luh-MENT for thuh DROWND
+kind: word
+ref: RULE-019
+meaning: Still 4: Cantors in boats over Lirenne
+```
+
+```canon
+id: TERM-0400
+type: term
+canon: draft
+term: the Ember contracts
+say: thee EM-ber KON-trakts
+kind: word
+ref: HS-002
+meaning: Dask harvests sold forward to the bank
+```
+
+```canon
+id: TERM-0401
+type: term
+canon: draft
+term: vote-lien
+say: VOHT-leen
+kind: word
+meaning: a Conclave voice pledged to a creditor
+```
+
+```canon
+id: TERM-0402
+type: term
+canon: draft
+term: Lirenne salvage bond
+say: lih-REN SAL-vij BOND
+kind: object
+meaning: the S6 bond (SEC-016)
+```
+
+```canon
+id: TERM-0403
+type: term
+canon: draft
+term: the Bondholders' Council
+say: thuh BOND-hohl-derz KOWN-sil
+kind: word
+```
+
+```canon
+id: TERM-0404
+type: term
+canon: draft
+term: storm-berth
+say: STORM-burth
+kind: word
+ref: PL-0075
+meaning: a berth inside the Long Mole sold in storms
+```
+
+```canon
+id: TERM-0405
+type: term
+canon: draft
+term: calm-fee
+say: KAHM-fee
+kind: word
+ref: HS-005
+meaning: the toll to be sung through the Storm Spire's water
+```
+
+```canon
+id: TERM-0406
+type: term
+canon: draft
+term: priority song
+say: pry-OR-ih-tee SONG
+kind: word
+ref: HS-090
+meaning: a bought promise to be sung first
+```
+
+```canon
+id: TERM-0407
+type: term
+canon: draft
+term: first-tone
+say: FURST-tohn
+kind: word
+ref: HS-006
+meaning: relay messages an hour before the public
+```
+
+```canon
+id: TERM-0408
+type: term
+canon: draft
+term: speed fee
+say: SPEED fee
+kind: word
+meaning: a bribe-fee to the Hearings
+```
+
+```canon
+id: TERM-0409
+type: term
+canon: draft
+term: gate book
+say: GAYT book
+kind: object
+ref: HS-026
+meaning: the quartermasters' honest ledger
+```
+
+```canon
+id: TERM-0410
+type: term
+canon: draft
+term: cliff book
+say: KLIF book
+kind: object
+ref: HS-026
+meaning: the quartermasters' real ledger
+```
+
+```canon
+id: TERM-0411
+type: term
+canon: draft
+term: the Book of Mouths
+say: thuh BOOK uv MOWTHZ
+kind: object
+ref: HS-002
+meaning: Dask's ledger of everyone who ate Dask grain on credit
+```
+
+```canon
+id: TERM-0412
+type: term
+canon: draft
+term: the Ash Roll
+say: thee ASH ROHL
+kind: object
+ref: HS-029
+meaning: the stewards' true roll of gleaned children
+```
+
+```canon
+id: TERM-0413
+type: term
+canon: draft
+term: the Book of the Blood
+say: thuh BOOK uv thuh BLUD
+kind: object
+ref: HS-003
+meaning: the Pale Crag register of Ilvane-born
+```
+
+```canon
+id: TERM-0414
+type: term
+canon: draft
+term: the Grey Hares
+say: thuh GRAY HAIRZ
+kind: word
+ref: HS-006
+meaning: Odo's household guard
+```
+
+```canon
+id: TERM-0415
+type: term
+canon: draft
+term: the White Staves
+say: thuh WITE STAYVZ
+kind: word
+ref: HS-003
+meaning: the Pale Crag cloister guard
+```
+
+```canon
+id: TERM-0416
+type: term
+canon: draft
+term: the Grey Ninth
+say: thuh GRAY NYNTH
+kind: word
+meaning: free company of Rusk deserters
+```
+
+```canon
+id: TERM-0417
+type: term
+canon: draft
+term: the Salt Oars
+say: thuh SALT ORZ
+kind: word
+meaning: mercenary galley fleet of the outer isles
+```
+
+```canon
+id: TERM-0418
+type: term
+canon: draft
+term: the red knot
+say: thuh RED NOT
+kind: word
+ref: RULE-022
+meaning: the mark on an Ossari well-cord
+```
+
+```canon
+id: TERM-0419
+type: term
+canon: draft
+term: kite-word
+say: KITE-wurd
+kind: word
+ref: HS-091
+meaning: the simplest set of kite signals
+```
+
+```canon
+id: TERM-0420
+type: term
+canon: draft
+term: the Sky Road
+say: thuh SKY ROHD
+kind: word
+ref: HS-091
+meaning: Ossari belief: the wind carries the names of the dead
+```
+
+```canon
+id: TERM-0421
+type: term
+canon: draft
+term: the Furrow War
+say: thuh FUR-oh WOR
+kind: word
+ref: EV-0250
+```
+
+```canon
+id: TERM-0422
+type: term
+canon: draft
+term: the Broken Dike
+say: thuh BROH-ken DYKE
+kind: word
+ref: SEC-034
+```
+
+```canon
+id: TERM-0423
+type: term
+canon: draft
+term: the Salt War
+say: thuh SALT WOR
+kind: word
+ref: EV-0267
+```
+
+```canon
+id: TERM-0424
+type: term
+canon: draft
+term: the Kite War
+say: thuh KITE WOR
+kind: word
+ref: EV-0270
+```
+
+```canon
+id: TERM-0425
+type: term
+canon: draft
+term: the Grey Cough
+say: thuh GRAY KOF
+kind: word
+ref: EV-0274
+```
+
+```canon
+id: TERM-0426
+type: term
+canon: draft
+term: the Paper Ordinance
+say: thuh PAY-per OR-dih-nunss
+kind: word
+ref: EV-0271
+```
+
+```canon
+id: TERM-0427
+type: term
+canon: draft
+term: the Clerks' Ordinance
+say: thuh KLARKS OR-dih-nunss
+kind: word
+ref: EV-0269
+```
+
+```canon
+id: TERM-0428
+type: term
+canon: draft
+term: the Stair Treaty
+say: thuh STAIR TREE-tee
+kind: word
+ref: EV-0268
+```
+
+```canon
+id: TERM-0429
+type: term
+canon: draft
+term: the Exchange Panic
+say: thee eks-CHAYNJ PAN-ik
+kind: word
+ref: EV-0272
+```
+
+```canon
+id: TERM-0430
+type: term
+canon: draft
+term: the Rim Skirmish
+say: thuh RIM SKUR-mish
+kind: word
+ref: EV-0273
+```
+
+```canon
+id: TERM-0431
+type: term
+canon: draft
+term: the salt tongue
+say: thuh SALT TUNG
+kind: word
+meaning: the sea pushing up a low river (CY 314)
+```
+
+```canon
+id: TERM-0432
+type: term
+canon: draft
+term: the Table
+say: thuh TAY-bul
+kind: word
+ref: HS-007
+meaning: the partners of the Counting House
+```
+
+```canon
+id: TERM-0433
+type: term
+canon: draft
+term: Master of the Count
+say: MAS-ter uv thuh KOWNT
+kind: title
+ref: HS-007
+meaning: head of Lantry, elected by the Table
+```
+
+```canon
+id: TERM-0434
+type: term
+canon: draft
+term: Relay-Master
+say: REE-lay MAS-ter
+kind: title
+ref: HS-006
+```
+
+```canon
+id: TERM-0435
+type: term
+canon: draft
+term: Relay-Warden
+say: REE-lay WOR-den
+kind: title
+ref: HS-030
+```
+
+```canon
+id: TERM-0436
+type: term
+canon: draft
+term: Captain-Quartermaster
+say: KAP-tin KWOR-ter-mas-ter
+kind: title
+ref: HS-026
+```
+
+```canon
+id: TERM-0437
+type: term
+canon: draft
+term: Lord of the Hall
+say: LORD uv thuh HAWL
+kind: title
+ref: HS-003
+meaning: secular head of Ilvane
+```
+
+```canon
+id: TERM-0438
+type: term
+canon: draft
+term: Dikeriders
+say: DYKE-ry-derz
+kind: word
+ref: HS-002
+meaning: polder knights
+```
+
+```canon
+id: TERM-0439
+type: term
+canon: draft
+term: voice-bearer
+say: VOYSS-bair-er
+kind: title
+ref: RULE-015
+```
+
+```canon
+id: TERM-0440
+type: term
+canon: draft
+term: Challenge of the Voice
+say: CHAL-inj uv thuh VOYSS
+kind: word
+ref: RULE-016
+```
+
+```canon
+id: TERM-0441
+type: term
+canon: draft
+term: Challenge of Precedence
+say: CHAL-inj uv PRESS-ih-dunss
+kind: word
+ref: RULE-016
+```
+
+```canon
+id: TERM-0442
+type: term
+canon: draft
+term: Article Nine
+say: AR-tih-kul NYNE
+kind: word
+ref: RULE-009
+meaning: the Sunken Vote clause
+```
+
+```canon
+id: TERM-0443
+type: term
+canon: draft
+term: First Song
+say: FURST SONG
+kind: word
+ref: RULE-020
+```
+
+```canon
+id: TERM-0444
+type: term
+canon: draft
+term: Second Song
+say: SEK-und SONG
+kind: word
+ref: RULE-020
+```
+
+```canon
+id: TERM-0445
+type: term
+canon: draft
+term: Last Song
+say: LAST SONG
+kind: word
+ref: RULE-020
+```
+
+```canon
+id: TERM-0446
+type: term
+canon: draft
+term: Let Go
+say: LET GOH
+kind: word
+ref: RULE-020
+meaning: a district not sung
+```
+
+```canon
+id: TERM-0447
+type: term
+canon: draft
+term: lift
+say: LIFT
+kind: word
+ref: RULE-020
+meaning: a bought rise to a higher tier of song
+```
+
+```canon
+id: TERM-0448
+type: term
+canon: draft
+term: the Concord stamp
+say: thuh KON-kord STAMP
+kind: object
+ref: PL-0076
+meaning: the Arsenal ring-stamp on powder barrels
+```
+
+```canon
+id: TERM-0449
+type: term
+canon: draft
+term: the Pearl Pretender
+say: thuh PURL prih-TEN-der
+kind: title
+ref: CH-0043
+```
+
+```canon
+id: TERM-0450
+type: term
+canon: draft
+term: Gleaner's bell
+say: GLEE-nerz BEL
+kind: object
+ref: HS-090
+meaning: silver handbell rung beside a child's ear
+```
+
+```canon
+id: TERM-0451
+type: term
+canon: draft
+term: Cantor's rinse
+say: KAN-torz RINSS
+kind: word
+ref: HS-003
+meaning: the weekly silver rinse of the Crag
+```
+
+```canon
+id: TERM-0452
+type: term
+canon: draft
+term: the Remembering
+say: thuh rih-MEM-ber-ing
+kind: word
+meaning: Still 3 lantern rite of the Lows for the Night of Still Water
+```
+
+```canon
+id: TERM-0453
+type: term
+canon: draft
+term: whistle-chain
+say: WISS-ul chayn
+kind: word
+meaning: the Lows' roof-to-roof whistled relay
+```
+
+```canon
+id: TERM-0454
+type: term
+canon: draft
+term: silt-bread
+say: SILT-bred
+kind: object
+```
+
+```canon
+id: TERM-0455
+type: term
+canon: draft
+term: tide-house
+say: TYD-howss
+kind: word
+meaning: cheap chicory house on the dike
+```
+
+### Slang of the Lows and the Mids (v0.3; writer-characters §11)
+
+```canon
+id: TERM-0456
+type: term
+canon: draft
+term: the White Roll
+say: thuh WITE ROHL
+kind: object
+ref: HS-029
+meaning: the Choir's public roll of foundling novices
+```
+
+```canon
+id: TERM-0457
+type: term
+canon: draft
+term: the Low Ebb Fair
+say: thuh LOH EB FAIR
+kind: word
+meaning: mudlark fair in Ember
+```
+
+```canon
+id: TERM-0458
+type: term
+canon: draft
+term: up the Steps
+say: UP thuh STEPS
+kind: word
+meaning: out of the Lows; to safety
+```
+
+```canon
+id: TERM-0459
+type: term
+canon: draft
+term: your dryness
+say: yor DRY-ness
+kind: word
+meaning: mocking address for anyone from the Steps
+```
+
+```canon
+id: TERM-0460
+type: term
+canon: draft
+term: the dries
+say: thuh DRIZE
+kind: word
+meaning: the rich (also: the dry)
+```
+
+```canon
+id: TERM-0461
+type: term
+canon: draft
+term: wet note
+say: WET NOHT
+kind: word
+meaning: a dry-note backed by land that will flood
+```
+
+```canon
+id: TERM-0462
+type: term
+canon: draft
+term: a one-dry
+say: uh wun-DRY
+kind: word
+meaning: a one-mark note
+```
+
+```canon
+id: TERM-0463
+type: term
+canon: draft
+term: fiver
+say: FY-ver
+kind: word
+meaning: a five-mark note
+```
+
+```canon
+id: TERM-0464
+type: term
+canon: draft
+term: copper
+say: KOP-er
+kind: word
+meaning: small coin; 60 to a mark
+```
+
+```canon
+id: TERM-0465
+type: term
+canon: draft
+term: to walk it off
+say: too WAWK it OFF
+kind: word
+meaning: to work off a debt on the treadmill
+```
+
+```canon
+id: TERM-0466
+type: term
+canon: draft
+term: drowned on paper
+say: DROWND on PAY-per
+kind: word
+meaning: officially dead, alive under another name
+```
+
+```canon
+id: TERM-0467
+type: term
+canon: draft
+term: given to the ebb
+say: GIV-en too thee EB
+kind: word
+meaning: drowned as punishment; buried at sea
+```
+
+```canon
+id: TERM-0468
+type: term
+canon: draft
+term: gone to the Lady
+say: GON too thuh LAY-dee
+kind: word
+meaning: drowned (polite)
+```
+
+```canon
+id: TERM-0469
+type: term
+canon: draft
+term: the Lady spat you out
+say: thuh LAY-dee SPAT yoo OWT
+kind: word
+meaning: you were lucky to survive
+```
+
+```canon
+id: TERM-0470
+type: term
+canon: draft
+term: shell-kisser
+say: SHEL-kiss-er
+kind: word
+meaning: Steps insult for Lady Below worshippers
+```
+
+```canon
+id: TERM-0471
+type: term
+canon: draft
+term: mud-rat
+say: MUD-rat
+kind: word
+meaning: mudlark (insult)
+```
+
+```canon
+id: TERM-0472
+type: term
+canon: draft
+term: larker
+say: LAR-ker
+kind: word
+meaning: mudlark (affectionate)
+```
+
+```canon
+id: TERM-0473
+type: term
+canon: draft
+term: lane
+say: LAYN
+kind: word
+meaning: a mudlark's patch of canal
+```
+
+```canon
+id: TERM-0474
+type: term
+canon: draft
+term: house noise
+say: HOWSS noyz
+kind: word
+meaning: humming indoors (legal grey zone)
+```
+
+```canon
+id: TERM-0475
+type: term
+canon: draft
+term: there's a whistle on
+say: thairz uh WISS-ul ON
+kind: word
+meaning: Listeners about
+```
+
+```canon
+id: TERM-0476
+type: term
+canon: draft
+term: ears
+say: EERZ
+kind: word
+meaning: Listeners
+```
+
+```canon
+id: TERM-0477
+type: term
+canon: draft
+term: hares
+say: HAIRZ
+kind: word
+meaning: Listeners (from the Fennick sigil)
+```
+
+```canon
+id: TERM-0478
+type: term
+canon: draft
+term: robes
+say: ROHBZ
+kind: word
+meaning: the Choir
+```
+
+```canon
+id: TERM-0479
+type: term
+canon: draft
+term: the bell
+say: thuh BEL
+kind: word
+meaning: the Gleaners ("the bell came down the lane")
+```
+
+```canon
+id: TERM-0480
+type: term
+canon: draft
+term: the post
+say: thuh POHST
+kind: word
+meaning: the tide-post
+```
+
+```canon
+id: TERM-0481
+type: term
+canon: draft
+term: post-night
+say: POHST-nite
+kind: word
+meaning: a night on the tide-post
+```
+
+```canon
+id: TERM-0482
+type: term
+canon: draft
+term: a rung
+say: uh RUNG
+kind: word
+meaning: a flood (floors are raised one rung per flood)
+```
+
+```canon
+id: TERM-0483
+type: term
+canon: draft
+term: sandbag money
+say: SAND-bag MUN-ee
+kind: word
+meaning: a dry-pledge
+```
+
+```canon
+id: TERM-0484
+type: term
+canon: draft
+term: mouth
+say: MOWTH
+kind: word
+meaning: an Undertow rumour-seller
+```
+
+```canon
+id: TERM-0485
+type: term
+canon: draft
+term: dry room
+say: DRY room
+kind: word
+meaning: a room above the flood line
+```
+
+```canon
+id: TERM-0486
+type: term
+canon: draft
+term: clip
+say: KLIP
+kind: word
+meaning: a trusted clerk; "he's got his clip" = promoted
+```
+
+```canon
+id: TERM-0487
+type: term
+canon: draft
+term: inkfinger
+say: INK-fing-er
+kind: word
+meaning: clerk (Lows insult)
+```
+
+```canon
+id: TERM-0488
+type: term
+canon: draft
+term: still-mouthed
+say: STIL-mowthd
+kind: word
+meaning: silent out of fear
+```
+
+```canon
+id: TERM-0489
+type: term
+canon: draft
+term: tide-turned
+say: TYD-turnd
+kind: word
+meaning: betrayed; a turncoat
+```
+
+```canon
+id: TERM-0490
+type: term
+canon: draft
+term: Ninther
+say: NYNE-ther
+kind: word
+meaning: someone from the Ninth Sluice
+```
+
+```canon
+id: TERM-0491
+type: term
+canon: draft
+term: duck
+say: DUK
+kind: word
+meaning: Lows endearment
+```
+
+```canon
+id: TERM-0492
+type: term
+canon: draft
+term: chick
+say: CHIK
+kind: word
+meaning: Lows endearment
+```
+
+```canon
+id: TERM-0493
+type: term
+canon: draft
+term: columns!
+say: KOL-umz
+kind: word
+meaning: clerk's oath (Hollis)
+```
 
 ## EXAMPLE (placeholder, not canon)
 

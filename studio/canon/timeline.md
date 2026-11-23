@@ -912,6 +912,218 @@ participants: [CH-0001, CH-0042]
 
 Ten thousand voices across the delta; the cost of the song shared. Pell's voice is the price.
 
+### New events v0.3 (draft)
+
+Status: **draft** (writer-houses `story/houses/README.md`; EV-0274 and EV-0275 added by the keeper). Keeper range EV-0250...0299.
+
+```canon
+id: EV-0264
+type: event
+canon: draft
+name: The Sunk Charter
+date: CY 3
+place: PL-0060
+houses: [HS-005]
+participants: [CH-0243]
+```
+
+Quell is granted the salvage of the whole drowned city of Lirenne and its shallows "until the city be raised or the sea give it back". Its second edge against Article Nine of the Charter of the Ring ("whoever holds Lirenne") is what the Lirenne salvage bonds sell in S6 (SEC-016).
+
+```canon
+id: EV-0265
+type: event
+canon: draft
+name: The Relay chartered
+date: CY 9
+place: PL-0004
+houses: [HS-009, HS-006]
+participants: [CH-0271]
+```
+
+Helm Aldous Harrow charters the Relay - echo-stone stations Spire to Spire - and gives the codebooks to his stewards, the Fennicks, hereditary Relay-Masters from now on (HS-006 `founded`).
+
+```canon
+id: EV-0266
+type: event
+canon: draft
+name: The Unison Decree
+date: CY 34
+place: PL-0040
+houses: [HS-090, HS-003, HS-001, HS-002, HS-005]
+secrets: [SEC-005]
+```
+
+The Choir's chapter dissolves the lesser choirs (the Gullmouth harbour choir, the Barrows field-choir, the Brackwater wreck-singers): every Cantor must be trained at Pale Crag; the other houses rent Cantors from the Choir from now on. Public: a holy reform. Truth: the same act as the Cantor schools (EV-0052) - no group singing outside Ilvane's control (SEC-003, SEC-005).
+
+```canon
+id: EV-0267
+type: event
+canon: draft
+name: The Salt War
+date: CY 37
+date_end: CY 40
+place: PL-0056
+houses: [HS-001, HS-005]
+```
+
+Admiral Brannic Corvane burns the clan fleets at the Brackwater bar. The Pilots' Peace (CY 40): Quell keeps its Spire, its salt and its calm-fee, flies the Concord flag in war and supplies every Gullmouth pilot (Clan Skarra) - the root of the Corvane-Quell "uneasy friendship".
+
+```canon
+id: EV-0268
+type: event
+canon: draft
+name: The Stair Treaty
+date: CY 142
+place: PL-0046
+houses: [HS-004, HS-091]
+```
+
+Peace by exhaustion after the First Upland War: the Rim stays Ossari, the escarpment is Rusk's; all upland saltpeter passes the Stair and pays Rusk a tenth (the saltpeter licence); the hostage custom of the Exchange of Sleeves begins. Rusk stops sending its own children after CY 206.
+
+```canon
+id: EV-0269
+type: event
+canon: draft
+name: The Clerks' Ordinance
+date: CY 160
+place: PL-0009
+houses: [HS-006]
+```
+
+The Hearings (the Concord's courts) pass from the Helm's office to the Fennick Relay-Masters; the Listeners begin as informers "so that the Hearings may hear".
+
+```canon
+id: EV-0270
+type: event
+canon: draft
+name: The Kite War
+date: CY 203
+date_end: CY 206
+place: PL-0070
+houses: [HS-004, HS-091, HS-025]
+```
+
+The Second Upland War: Rusk takes three terrace forts on the Rim and loses two within a year; keeps Rimgate (PL-0072), given to the Hadden family, who marry into Clan Tekka. First gliders seen by Concord soldiers. Dry Queen Sotka.
+
+```canon
+id: EV-0271
+type: event
+canon: draft
+name: The Paper Ordinance
+date: CY 224
+place: PL-0011
+houses: [HS-007, HS-009]
+secrets: [SEC-007]
+```
+
+Helm Tancred Harrow allows the Counting House to issue dry-notes, "a promise of dry ground", backed by deeds to land above the waterline (in practice: above Let Go on the Tithe Map) and countersigned by a Merriden notary.
+
+```canon
+id: EV-0272
+type: event
+canon: draft
+name: The Exchange Panic
+date: CY 268
+place: PL-0030
+houses: [HS-001, HS-007]
+```
+
+The Gullmouth Exchange, Corvane's own bank, fails after a false relay rumour of a lost treasure fleet; Lantry buys its paper at a fifth; Corvane borrows from Lantry from then on. Pattern (no secret of its own): the rumour was a relay message sold early - the trick Bede Lark repeats in CY 312 (EV-0262).
+
+```canon
+id: EV-0273
+type: event
+canon: draft
+name: The Rim Skirmish
+date: CY 309
+place: PL-0070
+houses: [HS-004, HS-091]
+killed: [CH-0233]
+```
+
+Border fight on the Rim; Brenna's son Ardo Rusk is killed (writer-houses; also the Kitsa glider-captain Akko if DEC-33 is accepted). Truce follows. Whether the hostage Esk is given after this truce (CY 309) or two years earlier (CY 307) is DEC-20: see EV-0275.
+
+```canon
+id: EV-0274
+type: event
+canon: draft
+name: The Grey Cough
+date: CY 249
+date_end: CY 251
+place: PL-0005
+houses: [HS-009, HS-006]
+participants: [CH-0270]
+```
+
+A winter lung-fever of the Steps; House Harrow dies of it (EV-0253). Fennick stewards run Harrow's estates in the dying months.
+
+```canon
+id: EV-0275
+type: event
+canon: draft
+name: Esk given to the Stair as hostage
+date: TODO(DEC-20)
+place: PL-0046
+houses: [HS-091, HS-004]
+participants: [CH-0040, CH-0018]
+secrets: [SEC-019]
+```
+
+Under a border truce the clans give Esk as hostage, "the Dry Queen's nephew" (SEC-019). Date open: CY 307 (writer-characters: Esk at the Stair since he was eight; Tsura has watched his kite "for five years") or CY 309 after the Rim Skirmish (writer-houses, EV-0273) - DEC-20.
+
+### Additions to approved events (draft)
+
+`amend` blocks (README §6) from the writer-houses dossiers; the approved records are unchanged.
+
+```canon
+id: EV-0250
+type: event
+canon: draft
+amend: true
+participants: [CH-0275]
+killed: [CH-0275]
+houses: [HS-017, HS-018]
+secrets: [SEC-034]
+```
+
+The Furrow War (CY 87-88). Public: in the flood year CY 87 the Moll lords "cut their own dikes"; Dask levies march in to "rebuild the Reach"; Lord Rawlin Moll is killed at Hobb's Gate (PL-0079) in CY 88; Helm Galen Corvane sanctions the conquest; Thessa Moll marries a Dask second son (CY 89) - Dask of the Reach (HS-018). Truth: SEC-034.
+
+```canon
+id: EV-0251
+type: event
+canon: draft
+amend: true
+participants: [CH-0279, CH-0204]
+killed: [CH-0278]
+houses: [HS-027]
+secrets: [SEC-035]
+```
+
+Lord Weylin Ostry and his heir are lost on the Ostry bar in fog under a Corvane escort (CY 119); his sister Elowen marries Wystan Corvane (CY 120); the cadet line Corvane of the Roads (HS-027) keeps the forts. Truth: SEC-035.
+
+```canon
+id: EV-0253
+type: event
+canon: draft
+amend: true
+killed: [CH-0270]
+participants: [CH-0250]
+houses: [HS-007, HS-013, HS-014]
+```
+
+Osbert Harrow, the last lord, dies childless in Fallow CY 251 of the Grey Cough (EV-0274). The Sluice Spire, the Sluice Voice and the twelve sluices' dry-tithe pass to Fennick, raised to great house in Longdark CY 251 by a Conclave vote of 5-3 (Corvane, Quell, Ilvane against; Lantry money bought Dask and the Choir). The arithmetic of that vote with Harrow's two voices vacant is DEC-06.
+
+```canon
+id: EV-0254
+type: event
+canon: draft
+amend: true
+secrets: [SEC-036]
+participants: [CH-0261]
+```
+
+Osbert's last will leaves Harrow's second voice, the Hill Voice (a house's voice without a Spire since CY 1; DEC-02), "to the holder of my debts"; the Ring confirms it 5-3 (arithmetic: DEC-06). Harrow Hall becomes the Table House (PL-0071). Truth: SEC-036.
+
 ## 3. Episodes
 
 Season 1 has exact dates (outline r2). For seasons 2-12 an episode record exists only where the canon already points to it; its dates are the **season span** from `saga_arc.md` until the season outline is approved.

@@ -9,6 +9,7 @@ Write at the top of the review: material, version, canon version checked against
 - [ ] `python3 studio/canon/tools/validate.py` — 0 errors on the current canon (with the proposed changes applied in draft).
 - [ ] `--cast SxxEyy <all CH ids in the episode>` — nobody dead, unborn, missing or captive appears unless the script means it (flashback, vision, corpse, rumour).
 - [ ] For each POV character: `--knows CH-… SxxEyy` printed and kept next to the script.
+- [ ] `--todo`: the script depends on no TODO stub; every `draft` record or `amend` field the script uses is listed for the lead (README §4, §6a); open DEC items that block the season (`decisions_for_lead.md`) are closed.
 
 ## 1. Identity and names
 

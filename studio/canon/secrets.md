@@ -73,6 +73,21 @@ Below each block: **Clues** (episode - what is shown). Full clue tables and red 
 | SEC-027 | (restricted) | saga | S01E01 | S12E11 | sealed | `sealed/` |
 | SEC-028 | The broken pumps | season | S01E05 | S05E08 | sealed | here |
 | SEC-029 | Ear-money | season | S01E05 | S04E06 | sealed | here |
+| SEC-030 | The saltpeter sold twice | season | S01E04 | S03E11 | sealed | here (draft) |
+| SEC-031 | The wreckers' wages | season | S01E04 | open (DEC-37) | sealed | here (draft) |
+| SEC-033 | The Lows-born hunter | episode | S01E02 | S05E12 | sealed | here (draft) |
+| SEC-034 | The Broken Dike | season | — | open (DEC-38) | sealed | here (draft) |
+| SEC-035 | The fog on the Ostry bar | episode | — | open (DEC-37) | sealed | here (draft) |
+| SEC-036 | Harrow's deathbed will | season | — | open (DEC-39) | sealed | here (draft) |
+| SEC-037 | The map before the map | episode | S01E01 | S02E06 | sealed | here (draft) |
+| SEC-038 | The pilots' night | episode | — | open (DEC-41) | sealed | here (draft) |
+| SEC-039 | The Goat Stair | season | — | open (DEC-40) | sealed | here (draft) |
+| SEC-040 | Retired codebooks | episode | S01E07 | open (DEC-37) | sealed | here (draft) |
+| SEC-041 | The walkers' union | season | S01E05 | open (DEC-37) | sealed | here (draft) |
+| SEC-042 | Two retainers | episode | S02E02 | S06E11 | sealed | here (draft) |
+| SEC-043 | Ferro's bindings | episode | — | open (DEC-37) | sealed | here (draft) |
+| SEC-044 | Ottar's tongue | episode | — | open (DEC-37) | sealed | here (draft) |
+| SEC-045 | One copper | episode | S01E02 | open (DEC-45) | sealed | here (draft) |
 
 ## Restricted secrets - what may be shared
 
@@ -481,6 +496,344 @@ related: [HS-090, HS-093, CH-0056, CH-0014, CH-0064]
 Clues: S01E05 the Gleaner novice counting coins · S03E07 a price column in the Gleaner ledger · S04E02 Patch and other debt-walkers all "came back from the robes" · S04E06 Silt drowns her under-boss in his own account book. Public in S5 (with SEC-005).
 
 ---
+
+## New secrets v0.3 (draft)
+
+Status: **draft** (the lead screenwriter approves numbering, tier and reveal: DEC-37). Final numbers given by the keeper: writer-characters' SEC-030 and SEC-031 kept; their SEC-032 (Lucan's chest) is **not issued** - the chest's content is already an approved fact (CH-0016, `world.md` §6) and its wording is DEC-49; writer-houses' candidates SEC-C01...C07 became SEC-034...040; the writer-characters minor secrets became SEC-033 and SEC-041...045. None touches the origin of a main hero or a restricted answer.
+
+### SEC-030 - The saltpeter sold twice
+
+```canon
+id: SEC-030
+type: secret
+canon: draft
+title: The saltpeter sold twice
+tier: season
+truth: Lady Brenna Rusk began selling Rusk powder back up the escarpment through Clan Tekka (the envoy Itsek) to pay her pikes when the Helm's contracts were late (from about CY 302); her Captain-Quartermasters (House Grell) made it a business and sell the upland saltpeter twice (the gate book and the cliff book); at the Battle of the Stair the Ossari fire Rusk powder.
+cover_story: Saltpeter lost to damp; the Stair keeps honest stores.
+status: sealed
+known_by: [CH-0018@origin, CH-0072@origin]
+hints: [S01E04]
+reveal: S03E11
+public_on_reveal: false
+related: [CH-0018, CH-0072, CH-0004, HS-004, HS-026, HS-091, EV-0311]
+```
+
+Source: writer-characters SEC-030 (Brenna, Itsek) + writer-houses scheme "saltpeter sold twice" (HS-004, HS-026). The quartermasters' trade after the fall of the Stair: HS-004 dossier.
+
+### SEC-031 - The wreckers' wages
+
+```canon
+id: SEC-031
+type: secret
+canon: draft
+title: The wreckers' wages
+tier: season
+truth: Quell wrecker silver (Clan Rhee's false lights) has quietly paid part of the Corvane fleet's wages and refit debt - about 30,000 marks since CY 305, never written down - which is why Jaro backs Ruel and then Maren.
+cover_story: An old friendship of sailors (the Pilots' Peace).
+status: sealed
+known_by: [CH-0019@origin, CH-0005@origin]
+hints: [S01E04]
+reveal: TODO(DEC-37)
+public_on_reveal: false
+related: [CH-0019, CH-0005, CH-0006, HS-005, HS-020, HS-001]
+```
+
+Source: writer-characters SEC-031 + writer-houses HS-001/HS-005 (same fact).
+
+### SEC-033 - The Lows-born hunter
+
+```canon
+id: SEC-033
+type: secret
+canon: draft
+title: The Lows-born hunter
+tier: episode
+truth: Captain Fitch was born in the Fifth Sluice; as a boy he informed on his own lane's singers to buy his mother a room up the Steps - Pell's dream, paid the other way.
+cover_story: A Mids officer with no accent.
+status: sealed
+known_by: [CH-0053@origin, CH-0001@S05E12]
+hints: [S01E02]
+reveal: S05E12
+public_on_reveal: false
+related: [CH-0053, CH-0001, PL-0083, EV-0319]
+```
+
+Source: writer-characters (Fitch). Hint: the only Listener who whistles like the Lows.
+
+### SEC-034 - The Broken Dike
+
+```canon
+id: SEC-034
+type: secret
+canon: draft
+title: The Broken Dike
+tier: season
+truth: In CY 87 Wardel Dask's Cantors sang the Sheaf Spire short over the Moll polders for three nights in a storm: Dask fields held and the river drowned Moll's; Moll did not cut its dikes - the first recorded letting-go of a district, 224 years before Account Nine.
+cover_story: The lords of Moll cut their own dikes to drown their neighbours, and the sea drowned them instead.
+status: sealed
+known_by: []
+hints: []
+reveal: TODO(DEC-38)
+public_on_reveal: false
+related: [HS-002, HS-010, HS-017, HS-018, EV-0250, CH-0017]
+```
+
+Source: writer-houses candidate SEC-C01. Kept by the Kellow knights' clapped grievance-song and by Wardel Dask's song-log in the Barrows archive.
+
+### SEC-035 - The fog on the Ostry bar
+
+```canon
+id: SEC-035
+type: secret
+canon: draft
+title: The fog on the Ostry bar
+tier: episode
+truth: In CY 119 Wystan Corvane's escort captain lost Lord Weylin Ostry's ship on the Ostry bar on purpose; Ostry's heiress then married Wystan.
+cover_story: Lost at sea in fog.
+status: sealed
+known_by: []
+hints: []
+reveal: TODO(DEC-37)
+public_on_reveal: false
+related: [HS-011, HS-027, HS-001, CH-0204, CH-0278, CH-0279, EV-0251]
+```
+
+Source: writer-houses candidate SEC-C02; a family story of the Corvane-of-the-Roads cadets. Optional colour for S2.
+
+### SEC-036 - Harrow's deathbed will
+
+```canon
+id: SEC-036
+type: secret
+canon: draft
+title: Harrow's deathbed will
+tier: season
+truth: Osbert Harrow's will of CY 247 left the Hill Voice to his natural son's line (Kilbride); the deathbed will of CY 251 that leaves it to the holder of his debts was drafted by Lantry clerks during his fever and witnessed by the Fennick Relay-Master; the Kilbrides keep a copy of the first will.
+cover_story: Osbert freely bequeathed the voice to the bank.
+status: sealed
+known_by: []
+hints: []
+reveal: TODO(DEC-39)
+public_on_reveal: false
+related: [HS-009, HS-032, HS-007, HS-006, CH-0270, EV-0254]
+```
+
+Source: writer-houses candidate SEC-C03.
+
+### SEC-037 - The map before the map
+
+```canon
+id: SEC-037
+type: secret
+canon: draft
+title: The map before the map
+tier: episode
+truth: Inchley clerks of the Map Office sell drafts of the Tithe Map weeks before the reading - to the Undertow (which prices dry-pledges by them), the Cobbets and the bank; the CY 312 draft already showed Ninth Sluice let go in Inchley's hand.
+cover_story: The map is secret until the Helm reads it.
+status: sealed
+known_by: [CH-0014@origin, CH-0011@origin]
+hints: [S01E01]
+reveal: S02E06
+public_on_reveal: false
+related: [HS-015, HS-093, HS-014, HS-007, PL-0078]
+```
+
+Source: writer-houses candidate SEC-C04. Surfaces with Lucan's chest (S02E06): Inchley draft marks beside Ursel's notes.
+
+### SEC-038 - The pilots' night
+
+```canon
+id: SEC-038
+type: secret
+canon: draft
+title: The pilots' night
+tier: episode
+truth: The night Lady Ysa opens Gullmouth, Clan Skarra pilots bring Fennick's ships over the bar, paid by Ysa through the Corvane-of-the-Roads cadets, not by Fennick; it looks like Quell's treachery.
+cover_story: Quell sold Gullmouth.
+status: sealed
+known_by: [CH-0058@TODO(DEC-41)]
+hints: []
+reveal: TODO(DEC-41)
+public_on_reveal: false
+related: [HS-022, HS-027, CH-0058, CH-0019, EV-0308]
+```
+
+Source: writer-houses candidate SEC-C05. Timing against SEC-023 (S02E10) to be fixed: DEC-41.
+
+### SEC-039 - The Goat Stair
+
+```canon
+id: SEC-039
+type: secret
+canon: draft
+title: The Goat Stair
+tier: season
+truth: The Hadden family of Rimgate guides the quartermasters' back-trade up the Goat Stair, an unguarded path two miles from the Stair; whoever knows it can move men or powder past the Stair.
+cover_story: The Stair is the only road up the escarpment.
+status: sealed
+known_by: []
+hints: []
+reveal: TODO(DEC-40)
+public_on_reveal: false
+related: [HS-025, HS-026, PL-0073, SEC-030]
+```
+
+Source: writer-houses candidate SEC-C06.
+
+### SEC-040 - Retired codebooks
+
+```canon
+id: SEC-040
+type: secret
+canon: draft
+title: Retired codebooks
+tier: episode
+truth: The Tennant Relay-Wardens sell retired codebooks and take a cut of their keepers' private sales; Hollis's bought codebook (S1E7) came down this chain, and Bede Lark's double sale happened on a Tennant tower.
+cover_story: Codebooks are burned when retired.
+status: sealed
+known_by: [CH-0052@origin]
+hints: [S01E07]
+reveal: TODO(DEC-37)
+public_on_reveal: false
+related: [HS-030, HS-006, CH-0052, CH-0003, EV-0262]
+```
+
+Source: writer-houses candidate SEC-C07.
+
+### SEC-041 - The walkers' union
+
+```canon
+id: SEC-041
+type: secret
+canon: draft
+title: The walkers' union
+tier: season
+truth: Corr runs a secret union of the treadmill walkers under the Guild - cells by wheel, signals in a stamped rhythm (Hush-Law-legal) - that can stop every pump in Highwater.
+cover_story: The walkers are unorganised debt-labour.
+status: sealed
+known_by: [CH-0048@origin]
+hints: [S01E05]
+reveal: TODO(DEC-37)
+public_on_reveal: false
+related: [CH-0048, CH-0041, HS-092]
+```
+
+Source: writer-characters (minor) + writer-houses (HS-092). Pays S5E8 (the pin) and S6 (the strike).
+
+### SEC-042 - Two retainers
+
+```canon
+id: SEC-042
+type: secret
+canon: draft
+title: Two retainers
+tier: episode
+truth: Rook Danner holds a Lantry retainer and a Quell one and keeps both receipts.
+cover_story: A mercenary loyal to his paymaster.
+status: sealed
+known_by: [CH-0059@origin]
+hints: [S02E02]
+reveal: S06E11
+public_on_reveal: false
+related: [CH-0059, HS-095, HS-007, HS-005, EV-0322]
+```
+
+Source: writer-characters (minor). Pays when he switches sides in the Battle of the Shoals.
+
+### SEC-043 - Ferro's bindings
+
+```canon
+id: SEC-043
+type: secret
+canon: draft
+title: Ferro's bindings
+tier: episode
+truth: Archivist Ferro has copied forbidden Ashare texts for thirty years and sewn the copies into the bindings of hymn-books.
+cover_story: A harmless old archivist.
+status: sealed
+known_by: [CH-0060@origin]
+hints: []
+reveal: TODO(DEC-37)
+public_on_reveal: false
+related: [CH-0060, HS-090, HS-008]
+```
+
+Source: writer-characters (minor).
+
+### SEC-044 - Ottar's tongue
+
+```canon
+id: SEC-044
+type: secret
+canon: draft
+title: Ottar's tongue
+tier: episode
+truth: Corporal Ottar is Ossari-born - a hostage-child raised at the Stair, Kadu's cousin - and hides his birth in the ranks; he has not spoken his own tongue in fifteen years.
+cover_story: A Stair-born soldier.
+status: sealed
+known_by: [CH-0062@origin, CH-0018@origin, CH-0047@origin]
+hints: []
+reveal: TODO(DEC-37)
+public_on_reveal: false
+related: [CH-0062, CH-0047, HS-004, HS-091]
+```
+
+Source: writer-characters (minor). The roster already says he is Ossari-born; the secret is that he hides it among Rusk soldiers.
+
+### SEC-045 - One copper
+
+```canon
+id: SEC-045
+type: secret
+canon: draft
+title: One copper
+tier: episode
+truth: In S1E2 Mags sold word of Pell's singing stone to Silt's fence Nim for one copper; that is how the Listeners learned the lane, not just the relay log.
+cover_story: The Listeners traced the stone by the relay log.
+status: sealed
+known_by: [CH-0049@S01E02, CH-0074@S01E02]
+hints: [S01E02]
+reveal: TODO(DEC-45)
+public_on_reveal: false
+related: [CH-0049, CH-0074, CH-0053, CH-0001]
+```
+
+Source: writer-characters (minor). Pell learns it from Nim in S2.
+
+### Additions to approved secrets (draft)
+
+`amend` blocks (README §6): new knowers proposed by the dossiers; the approved records above are unchanged.
+
+```canon
+id: SEC-019
+type: secret
+canon: draft
+amend: true
+known_by: [CH-0071@origin]
+```
+
+Dakka Den, the official mother (writer-characters).
+
+```canon
+id: SEC-029
+type: secret
+canon: draft
+amend: true
+known_by: [CH-0073@origin, CH-0077@origin]
+```
+
+Gant (the buyer) and Novice Sedge (the seller), writer-characters.
+
+```canon
+id: SEC-013
+type: secret
+canon: draft
+amend: true
+known_by: [CH-0076@origin]
+```
+
+Orm Hask, the assassin (writer-characters); who he worked for is DEC-36.
 
 ## EXAMPLE (placeholder, not canon)
 
