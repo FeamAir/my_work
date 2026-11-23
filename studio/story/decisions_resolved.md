@@ -1,7 +1,7 @@
-# HOLLOWSTONE — Decisions Resolved (DEC-01 … DEC-64) and Approval of the Draft Canon
+# HOLLOWSTONE — Decisions Resolved (DEC-01 … DEC-70) and Approval of the Draft Canon
 
 Version 1.0 · 2026-11-22 · author: lead-screenwriter · **Revision r3** (step 6 of the story chain: final ruling)
-Answers: `studio/canon/decisions_for_lead.md` (canon v0.3, 64 items, 17 block S1).
+Answers: `studio/canon/decisions_for_lead.md` (canon v0.3, 64 items, 17 block S1). **Revision r6 (2026-11-22):** Part 5 added — DEC-65…70 (canon v0.5, group G).
 Spoiler level: **internal, helper-readable.** Restricted secrets are not named here, not even by code: where a ruling touches one, it says *restricted — see sealed §10* (= `studio/story/sealed/master_mystery.md` §10, readable by lead, keeper and director only).
 
 **How to read.** Each item: **Ruling** · *Why* (1–2 sentences) · **Keeper** (what to change in which canon records). "Approve amend" = merge the draft `amend` block into the approved record. Wherever this file and an older foundation file disagree, this file wins; the foundation files were corrected in the same revision (r3).
@@ -317,3 +317,98 @@ Status I ask the keeper to set. "Approved" means: binding for scripts, storyboar
 2. Do not develop the events of CY 314 beyond what the dossiers now say, until the S4 outline is issued.
 3. Do not use the "of the Crag" entry in the Book of the Blood for any named Cantor.
 4. The saga is **HOLLOWSTONE**. *The Low Note* is the name of Act II and of Season 12 (and, in-world, of the low part of the song).
+
+---
+
+## Part 5 — Revision r6: DEC-65 … DEC-70 (canon v0.5, group G)
+
+2026-11-22 · answers `decisions_for_lead.md` group G and the keeper's report r5. Same format as above: **Ruling** · *Why* · **Keeper**. Restricted sides: *sealed §11* (= `studio/story/sealed/master_mystery.md` §11). **DEC-65 and DEC-66 are final for the pilot's art** — the artist may finish the master locations and the emblems on them now.
+
+### DEC-65 — Compass of Highwater and the heights of the Spires
+**Ruling: variant A, with the additions below.**
+
+| Fact | Ruling |
+|---|---|
+| Sea and harbour (PL-0018) | **west** of the city. The sun sets over the sea. |
+| The hill (the Steps, the Dry Palace PL-0009, the Crown Spire PL-0014) | **east** of the harbour; dawn comes from behind the hill. The river and the plateau lie further east and upstream (already implied by HS-002, HS-010). |
+| Ninth Sluice (PL-0008) | **south-west**, the lowest district and the nearest to the sea. From the Ninth the Crown Spire is seen to the **north-east**, up the hill. |
+| Heights, foot to crown | Crown Spire **about 160 m**; Choir Spire **about 120 m**; Sluice Spire **about 90 m**. All inside the approved 60–200 m range. |
+| Other Spires | set at their first appearance, inside the range. The Sunken Spire's height is not stated (HS-008: "taller than any now standing" stays as the only wording). |
+
+Consequences for the pilot (binding on the art, not changes to the script):
+- Sc 9: Ione on the crown faces **west**, into the low sun; the camera behind her sees her against the light. From the roof-ridge in the Ninth the tower is **front-lit** by the same sun — it reads white without any trick.
+- Sc 10–12: the Tithe Hall takes its "last light" through **west** windows.
+- Sc 2–3 (dawn): the Ninth lies in the **shadow of the hill**; first sun reaches the harbour before it reaches the lane.
+- Sc 1 (night, CY 295): the open flood water beyond the evacuation gate lies to the south-west.
+
+*Why.* The heights are inside the approved range and the sunset over the sea serves the series image (the harbour turned to glass in the last light). Deciding it now costs nothing later: the wider delta map can be drawn around these four points.
+**Keeper.** `world.md` §2 and PL-0004, PL-0008, PL-0009, PL-0014, PL-0018: add the compass facts and the three heights. No restricted side.
+
+### DEC-66 — The Concord's flag, the Helm's grey, the shape of the banner
+**Ruling: the artist's proposal is approved, with four specifications.**
+1. **Flag of the Concord (the Helm's flag):** storm-grey field; a ring of nine Spire silhouettes around a plain white disc; eight filled black; the ninth an **outline only, at the foot of the ring**.
+2. The nine silhouettes are **identical and plain**: no grooves, no spiral, no difference of height. No spiral appears anywhere on the flag or on any mark of the Helm's office.
+3. **The Helm's grey** is the colour of the *office*, not of the Helm's house: storm-grey, **lighter and warmer** than Fennick's slate grey, and it must stay tellable from Fennick's slate when the two hang or stand side by side (they will, from S1E11 on).
+4. **Carrier of arms:** a tall **vertical banner with a slanted cut at the foot**, the long point on the **pole side**, the same for every house, the Choir and the Guild; seals are **round**. **No shields** anywhere in the world. The tapestry (Sc 5, panel 2) uses the same banner shape.
+
+*Why.* The flag repeats only what every citizen knows (eight voices and the ninth set aside, RULE-009) and gives the frame a shape that is not European heraldry. Spec 3 is needed because a Fennick will hold the Helm's office within S1.
+**Keeper.** New open records for the flag and the banner shape in `world.md` §3.2; note in HS-005 that the house colour and the office colour are different greys. No restricted side.
+
+### DEC-67 — The seven peoples
+**Ruling: variant A — a short table in `world.md` §3: name · where they live · one line of look.** HEX values, prompt fragments and "traces of life" stay in the artist's working sheet.
+
+| Canon name | Where | Note for the record |
+|---|---|---|
+| Delta folk | the Lows and most of the Mids of Highwater, the Manymouth | mixed for a century; no trait is "required" |
+| the old houses of the Steps | the Steps, Pale Crag | **not a people: families and a way of life** (brides from every shore); what marks them is grooming and an indoor skin |
+| Gullmouth coast folk | Gullmouth, the Corvane fleet | |
+| Shoals islanders | the Shoals, Breakwater | |
+| Polder folk | the Polders, the Dask Barrows, Moll lands | |
+| Uplanders | the Stair, Rimgate | |
+| Ossari | the plateau, the Rim | |
+
+Three rules go into the record with the table:
+1. **Look is never proof of descent.** Every people is a range; no single trait is exclusive to one of them.
+2. **Paleness is a way of life, not blood** (the artist's own wording for Ilvane — keep it verbatim). The Cantors' silver hair is a rinse, known to everybody.
+3. Look never marks virtue or villainy (the artist's rule 1).
+
+In-world nobody counts "seven peoples"; the number is ours, not a spoken term.
+*Why.* The words belong in canon because scenes will lean on who "looks" like the Lows or the Steps; the shades belong to the art.
+**Keeper.** Add the table; check the approved main characters against it and report conflicts instead of changing either side. Restricted side: none in the table itself (see sealed §11 for one check to run).
+
+### DEC-68 — Lows prayer signs that match Choir signs
+**Ruling: variant A, staged.**
+- **Two signs match from the start: WATER (SG-006) and STILL (SG-007).** In Lows prayer they are made smaller, low at the waist, often with the hand already wet. They may be on screen from **S1E8** (the Still Days rite), together with the palm on the lips (LW-01) and the sunwise spiral (LW-02).
+- **A third match is reserved**: MANY (SG-026). It is not shown in any Lows prayer before the season named in sealed §11, and until then it is not listed among the matches in any helper-readable file.
+- **SILENCE (SG-003) does not match.** The Lows' sign of silence is the palm on the lips and nothing else.
+- **Nobody on screen remarks on the match** in S1–S4, in any language, signed or spoken. No subtitle glosses a Lows prayer sign.
+- The first time a Choir character and a Lows character make the same sign **in one scene** is chosen by the lead in the season outline; helpers do not stage it on their own.
+
+*Why.* Two quiet, everyday signs let an attentive viewer notice early; one stronger sign is kept for a scene that needs it. The reason for the match: *restricted — see sealed §11.*
+**Keeper.** `world.md` §8.6: name the two signs; lift the hold ("none on screen until DEC-68") for these two only. Director's excerpt §5 item 6 and `direction/sign_language.md`: mark SG-006 and SG-007 "also a Lows prayer sign (small, at the waist)". The reserved sign and the reason: `sealed/sealed.md` only.
+
+### DEC-69 — What a Spire shows when more than one high voice sounds
+**Ruling: variant B. The look exists and is decided now; it is issued to the production team as a rule-only excerpt before the storyboards of Season 3** (see the note to the director in the report).
+
+Open part, valid for every season and safe for every helper:
+- **Groove light answers the high part.** In S1–S2 this is the whole rule the team needs, and it stands as confirmed by the keeper.
+- It is a **working rule of the look, not a law of the world.** Nobody writes "a low sound never lights a Spire" into canon, a prompt library or a marketing line.
+- **The echo-shard never glows** — through the whole saga as outlined today. Its sound is seen as a tremor and as rings on water.
+- **S1E1 Sc 9, the direction of the light: the script stands.** The light comes **down** from the crown, turn by turn, and it goes out **from the top down** (the last lit turns are at the foot). The VFX sheet (`vfx/magic_look.md`, VFX-GROOVE-LIGHT: "fades bottom-up") is to be brought into line. This is a ruling, not a preference: *fixed — ask the lead.*
+
+Everything else (the many-voiced look, where it is first seen, what is forbidden until then): *restricted — see sealed §11.*
+**Keeper.** Do not add a world rule on low sound and light. Record the restricted look in `sealed/sealed.md` §J; prepare the rule-only excerpt for the VFX director when the director of the studio asks for it (contents: sealed §11).
+
+### DEC-70 — The Ashare theme and the tone of the Sunken Spire
+**Ruling: variant B, with a fixed entry point.**
+- **House Ashare has no musical theme before S5E10.** The tapestry, the Chronicler's passages about Lirenne and every Ashare image before that episode are carried by the Chronicle's own ("archive") music or by silence.
+- The line in approved HS-008 — "the closed-mouth teal hum" as a recogniser, and fragments of a hummed theme before S5E10 — is **withdrawn**. Ashare keeps four recognisers until S5E10: pearl and deep teal; the silver spiral shell; layered silks with shell ornaments; pale stone and teal tile under water.
+- **From S5E10 the theme exists.** Its conditions (material, register, voice or no voice, what it may share and from when) are restricted; the composer receives them through his excerpt and shows the theme to the keeper before first use, as already agreed.
+- **The tone of the Sunken Spire:** decided; restricted. `world.md` §7.10 keeps the row "Sunken — not stated" in every helper-readable copy.
+
+*Why.* The safest ruling for the reveals costs nothing in S1–S4, where the theme was not going to sound in full anyway; an absent theme is also the right sound for a house the Chronicle says is gone.
+**Keeper.** Amend approved HS-008 (leitmotif line; the fifth recogniser removed; the music note reworded to "no Ashare theme of any kind before S5E10"). Composer's excerpt §3 items 5–6 and 10: replace the conflict note with this ruling. Restricted conditions and the tone: `sealed/sealed.md` §J, from sealed §11.
+
+### Also ruled in r6
+- **S1E1 Sc 8, the old Cantor:** "a yellowed throat-band" → **"a black throat-band"** (HS-090; the keeper's report r5). Corrected in `script.md` (v1.0.1), `beat_sheet.md` and `production_notes.md`. He is not Sabin and must not be drawn with any part of Sabin's look.
+

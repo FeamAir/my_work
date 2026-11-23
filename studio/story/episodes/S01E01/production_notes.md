@@ -102,7 +102,7 @@ Pell · Wick · Nan · Ione · Ruel · Hollis · Ursel · Odo
 8. Kes — **back and hands only**: rust-red tabard, shaved sides, dented half-helm with a white stripe under the left arm; plus the *young* pair of hands for Sc 1 (her full sheet is due for E2)
 9. Liss — silhouette with one long left braid (Sc 1)
 10. Sister Venn — a grey robed sleeve and hand (Sc 1)
-11. the old Cantor on the stair — robe, yellowed throat-band, a signing hand
+11. the old Cantor on the stair — robe, black throat-band, a signing hand
 12. *(optional)* Vesna — veiled, violet veil, rings on every finger of the right hand; never a face
 13. *(optional)* Brother Elm — bowed, tonsure band, undyed linen
 

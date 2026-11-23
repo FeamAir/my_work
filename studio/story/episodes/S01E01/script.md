@@ -1,6 +1,6 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Script
 
-Version 1.0 · 2026-11-22 · author: lead-screenwriter · status: **full script for approval**
+Version 1.0.1 · 2026-11-22 · author: lead-screenwriter · status: **full script for approval**
 Built on: `beat_sheet.md` v2 (same scene numbers) · canon v0.4 + `decisions_resolved.md` · analyst's review `research/pilot_hook_review.md` (O-1…O-11 applied; see the check at the end of this file)
 Spoiler level: **safe for the production team.** This file says what is seen and heard and which wording is binding. It never says why a detail matters. Where a note reads *fixed — ask the lead*, do not change it and do not guess.
 
@@ -421,7 +421,7 @@ SOUND: the fork's pure tone, heard as she hears it, from inside the head. Everyt
 
 She opens her eyes. The grooves of the stair wind upward past her.
 
-On the third turn an OLD CANTOR (bk: robe, a yellowed throat-band) stands aside to let her pass. One hand rests at the throat. The other makes a short, tired sign in the air: a blessing. The mouth moves with it. **No sound comes out.**
+On the third turn an OLD CANTOR (bk: robe, a black throat-band) stands aside to let her pass. One hand rests at the throat. The other makes a short, tired sign in the air: a blessing. The mouth moves with it. **No sound comes out.**
 
 Ione stops. She bows to the old Cantor, lower than she needs to, the way one bows to something one is going to become. Then she climbs.
 
@@ -1034,3 +1034,10 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 - Each minute ends on an open question: **yes** (1:10 who took the child; 2:00 can she find six; 3:00 what answered; 4:00 will she sell it; 5:20 why may they not sing; 6:14 what did the Queen do).
 - Remaining soft spot inside six minutes: **5:20–6:02**. Forty-two seconds of narrator directly after the kitchen is still the lowest-energy stretch of the opening. It is as short as its five binding sentences allow, and it now opens on the stone. If the retention curve after release shows a step here, the remedy is in the edit (panel pace), not in the text.
 - Remaining soft spot outside six minutes: **7:14–9:04** (the map, then Ione's stair) is quiet by design, and ends in the crown at 9:04.
+
+## Change log
+
+| Version | Date | Change |
+|---|---|---|
+| 1.0 | 2026-11-22 | Full script on beat sheet v2; the analyst's O-1…O-11 applied. |
+| 1.0.1 | 2026-11-22 | Sc 8: the old Cantor wears **a black throat-band** (was "a yellowed throat-band"). Canon HS-090: a Cantor without a voice wears black. He is a background figure with his own silhouette and is nobody the viewer meets later under a name. Nothing else in the scene changes; timings unchanged. Source: keeper's report r5; `decisions_resolved.md` Part 5. |

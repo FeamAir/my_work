@@ -177,7 +177,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 
 ### Sc 8 — Ione takes her pitch
 - **Place:** PL-0014 the Crown Spire — base and inner stair (inside PL-0009 the Dry Palace). **Time:** afternoon.
-- **Characters:** CH-0002 Ione · a Choir novice-attendant (bk — hood) · an old Cantor on the stair (bk — robe, yellowed throat-band; mute).
+- **Characters:** CH-0002 Ione · a Choir novice-attendant (bk — hood) · an old Cantor on the stair (bk — robe, black throat-band; mute).
 - **What happens:**
   - Ione (eighteen; white, a novice's linen stole, violet throat-band, silver hair to the waist) stands very straight while the attendant fusses. Attendant `[OS]`: sing it flat for the lords. Ione `[MS]`: *"Is that what the song is for?"* (her question, in its first and lightest form.)
   - She strikes the silver tuning fork on her knuckle and holds it to the bone behind her ear. Eyes closed. The grooves of the stair wind upward past her.
