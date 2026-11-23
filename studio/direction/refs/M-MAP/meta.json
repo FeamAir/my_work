@@ -1,0 +1,53 @@
+{
+ "d_s_1": {
+  "prompt": "Image 1 shows the style of the compass rose (a spiral of fine ink lines turning clockwise from the centre). A large hand-drawn antique map on heavy cream parchment of a wide river delta and barrier islands at the mouth of a great river: a central granite hill city, branching canals, reed islands, polders behind dikes, a line of sandbar islands offshore, a drowned area of shallow sea marked only by faint wave lines, nine small black tower symbols placed across the land, an ornamental compass rose drawn as a spiral of fine ink lines turning clockwise from the centre like image 1, an empty decorative cartouche and an empty legend box with four empty swatches, no writing anywhere. Top-down, flat, evenly lit. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: any text, letters or labels, real-world coastlines, signature, seal, photorealism.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H21_inchley.png"
+  ],
+  "aspect": "16:9",
+  "seed": 584971,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "Image 1 shows the style of the compass rose (a spiral of fine ink lines turning clockwise from the centre). A large hand-drawn antique map on heavy cream parchment of a wide river delta and barrier islands at the mouth of a great river: a central granite hill city, branching canals, reed islands, polders behind dikes, a line of sandbar islands offshore, a drowned area of shallow sea marked only by faint wave lines, nine small black tower symbols placed across the land, an ornamental compass rose drawn as a spiral of fine ink lines turning clockwise from the centre like image 1, an empty decorative cartouche and an empty legend box with four empty swatches, no writing anywhere. Top-down, flat, evenly lit. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: any text, letters or labels, real-world coastlines, signature, seal, photorealism.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H21_inchley.png"
+  ],
+  "aspect": "16:9",
+  "seed": 895764,
+  "status": "ok"
+ },
+ "d_s_3": {
+  "prompt": "Image 1 shows the style of the compass rose (a spiral of fine ink lines turning clockwise from the centre). A large hand-drawn antique map on heavy cream parchment of a wide river delta and barrier islands at the mouth of a great river: a central granite hill city, branching canals, reed islands, polders behind dikes, a line of sandbar islands offshore, a drowned area of shallow sea marked only by faint wave lines, nine small black tower symbols placed across the land, an ornamental compass rose drawn as a spiral of fine ink lines turning clockwise from the centre like image 1, an empty decorative cartouche and an empty legend box with four empty swatches, no writing anywhere. Top-down, flat, evenly lit. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: any text, letters or labels, real-world coastlines, signature, seal, photorealism.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H21_inchley.png"
+  ],
+  "aspect": "16:9",
+  "seed": 522652,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: absolutely no writing: remove the word in the legend box (keep the empty box with four empty swatches); the compass rose is a spiral of fine ink lines turning clockwise from the centre exactly like image 2; nine small black tower symbols. Image 1 shows the style of the compass rose (a spiral of fine ink lines turning clockwise from the centre). A large hand-drawn antique map on heavy cream parchment of a wide river delta and barrier islands at the mouth of a great river: a central granite hill city, branching canals, reed islands, polders behind dikes, a line of sandbar islands offshore, a drowned area of shallow sea marked only by faint wave lines, nine small black tower symbols placed across the land, an ornamental compass rose drawn as a spiral of fine ink lines turning clockwise from the centre like image 1, an empty decorative cartouche and an empty legend box with four empty swatches, no writing anywhere. Top-down, flat, evenly lit. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: any text, letters or labels, real-world coastlines, signature, seal, photorealism.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-MAP/d_s_2.png",
+   "studio/direction/refs/HERALDRY/H21_inchley.png"
+  ],
+  "aspect": "16:9",
+  "seed": 284155,
+  "status": "ok"
+ },
+ "f_small": {
+  "prompt": "Use image 1 as the source: the same coastline, islands, canals and tower symbols, redrawn as a smaller, rougher hand copy on a smaller sheet of slightly darker, worn parchment with a torn corner, fewer details, the same clockwise spiral compass rose; no writing anywhere. Top-down, flat. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: any text, letters, labels, seal, signature.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-MAP/f_s.png"
+  ],
+  "aspect": "4:3",
+  "seed": 399723,
+  "status": "ok"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "Prop reference sheet: a plain old wooden chest for fishing nets, low and long, dark weathered planks, a thick rope handle at each end, a simple iron hasp without a lock, salt stains, a coil of net spilling from the half-open lid. Exactly four views: front, three-quarter, lid open showing nets inside, and from above. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: carvings, ornaments, treasure, metal corners, emblems.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 856476,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "Prop reference sheet: a plain old wooden chest for fishing nets, low and long, dark weathered planks, a thick rope handle at each end, a simple iron hasp without a lock, salt stains, a coil of net spilling from the half-open lid. Exactly four views: front, three-quarter, lid open showing nets inside, and from above. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: carvings, ornaments, treasure, metal corners, emblems.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 453064,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: plain wood, no metal corners, a thick rope handle at each end, a simple iron hasp without a lock, net spilling from the half-open lid, salt stains. Prop reference sheet: a plain old wooden chest for fishing nets, low and long, dark weathered planks, a thick rope handle at each end, a simple iron hasp without a lock, salt stains, a coil of net spilling from the half-open lid. Exactly four views: front, three-quarter, lid open showing nets inside, and from above. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: carvings, ornaments, treasure, metal corners, emblems.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-CHEST/d_s_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 538176,
+  "status": "ok"
+ }
+}

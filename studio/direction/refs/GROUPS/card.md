@@ -34,3 +34,36 @@ Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl
 |---|---|---|---|---|---|
 | `C08_fennike_people_v1.png` | f1 | nano-banana-2 | 234838 | d3 | — |
 
+## Stage 2 (2026-11-23) — `C-01`
+
+Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl. drafts: R2 `refs_stage/C-01/`. Drafts: 2 × nano-banana; finals: 1 × nano-banana-2 (/edit).
+
+| File | Final | Model | Seed | From draft | Known flaws |
+|---|---|---|---|---|---|
+| `C01_mudlarks_v1.png` | f_s | nano-banana-2 | 190129 | d_s_2 | — |
+
+## Stage 2 (2026-11-23) — `C-02`
+
+Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl. drafts: R2 `refs_stage/C-02/`. Drafts: 2 × nano-banana; finals: 1 × nano-banana-2 (/edit).
+
+| File | Final | Model | Seed | From draft | Known flaws |
+|---|---|---|---|---|---|
+| `C02_wheel_walkers_v1.png` | f_s | nano-banana-2 | 398100 | d_s_2 | — |
+
+## Stage 2 (2026-11-23) — `C-07`
+
+Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl. drafts: R2 `refs_stage/C-07/`. Drafts: 2 × nano-banana; finals: 1 × nano-banana-2 (/edit).
+
+| File | Final | Model | Seed | From draft | Known flaws |
+|---|---|---|---|---|---|
+| `C07_choir_robes_v1.png` | f_s | nano-banana-2 | 558927 | d_s_1 | — |
+
+## Stage 2 (2026-11-23) — `C-03`
+
+Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl. drafts: R2 `refs_stage/C-03/`. Drafts: 2 × nano-banana; finals: 2 × nano-banana-2 (/edit).
+
+| File | Final | Model | Seed | From draft | Known flaws |
+|---|---|---|---|---|---|
+| `C03_lane_folk_A_night-rain_v1.png` | f_s | nano-banana-2 | 352838 | d_s_2 | — |
+| `C03_lane_folk_B_dusk_v1.png` | f_B | nano-banana-2 | 494454 | — (edit of A) | faces partly readable in B |
+

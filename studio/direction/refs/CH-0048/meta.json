@@ -1,0 +1,58 @@
+{
+ "d_s_1": {
+  "prompt": "[ID: CORR] man of about 55, barrel-bodied with huge thighs from walking the wheel; sun-blackened deep brown skin; grey beard twisted into a single rope; his own LEFT hand is missing — the left forearm ends in a stump wrapped in old leather; a reed whistle held in his RIGHT hand; outfit: sleeveless patched leather jerkin, knee breeches, bare calloused feet. Exactly two views: 1) waist-up three-quarter portrait, calm weathered expression, mouth closed, the leather-wrapped stump on the RIGHT side of the picture; 2) full-body side view walking on the slats of a big wooden treadmill wheel. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: a left hand, two hands, a hook, whistle in the stump arm, braided hair.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 315911,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "[ID: CORR] man of about 55, barrel-bodied with huge thighs from walking the wheel; sun-blackened deep brown skin; grey beard twisted into a single rope; his own LEFT hand is missing — the left forearm ends in a stump wrapped in old leather; a reed whistle held in his RIGHT hand; outfit: sleeveless patched leather jerkin, knee breeches, bare calloused feet. Exactly two views: 1) waist-up three-quarter portrait, calm weathered expression, mouth closed, the leather-wrapped stump on the RIGHT side of the picture; 2) full-body side view walking on the slats of a big wooden treadmill wheel. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: a left hand, two hands, a hook, whistle in the stump arm, braided hair.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 521040,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: his LEFT hand is missing: the left forearm ends above the wrist in a stump wrapped in old leather — in the portrait the stump is on the RIGHT side of the picture; the reed whistle is in his RIGHT hand; in the side view on the wheel only one hand is visible, the left arm ends in the wrapped stump; grey beard twisted into one rope. [ID: CORR] man of about 55, barrel-bodied with huge thighs from walking the wheel; sun-blackened deep brown skin; grey beard twisted into a single rope; his own LEFT hand is missing — the left forearm ends in a stump wrapped in old leather; a reed whistle held in his RIGHT hand; outfit: sleeveless patched leather jerkin, knee breeches, bare calloused feet. Exactly two views: 1) waist-up three-quarter portrait, calm weathered expression, mouth closed, the leather-wrapped stump on the RIGHT side of the picture; 2) full-body side view walking on the slats of a big wooden treadmill wheel. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: a left hand, two hands, a hook, whistle in the stump arm, braided hair.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0048/d_s_1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 162015,
+  "status": "ok"
+ },
+ "f_s2": {
+  "prompt": "Use image 1 exactly — same man, faces, outfits, poses, wheel, colours and style. Change only the arms of the waist-up portrait on the left: in that portrait, the arm on the RIGHT side of the picture (his left arm) ends above the wrist in a stump wrapped in old leather, with NO hand; the arm on the LEFT side of the picture (his right arm) has a normal big hand holding a small reed whistle. The side view on the wheel stays as it is. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: two hands in the portrait, hand on the right side of the picture in the portrait.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0048/f_s.png"
+  ],
+  "aspect": "16:9",
+  "seed": 422102,
+  "status": "ok"
+ },
+ "f_portrait": {
+  "prompt": "Image 1 shows this man's face, beard and clothes. Waist-up portrait of the same man, an amputee: his LEFT arm is SHORTER — it ends halfway down the forearm in a rounded stump bound in old brown leather, there is NO left hand at all; that arm is on the RIGHT side of the picture, bent slightly so the leather-bound stump is clearly visible against the background. His RIGHT arm (on the LEFT side of the picture) has a big calloused hand holding a small reed whistle at chest height. Barrel-bodied, sun-blackened deep brown skin, grey beard twisted into a single rope, sleeveless patched leather jerkin; calm weathered expression, mouth closed, three-quarter view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: left hand, two hands, hook, hand at the end of the leather wrapping, wrapped wrist with fingers.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0048/f_s.png"
+  ],
+  "aspect": "3:4",
+  "seed": 202300,
+  "status": "ok"
+ },
+ "f_portrait2": {
+  "prompt": "Image 1 shows this man's face, beard and clothes. Waist-up portrait of the same man seen from his LEFT side: he faces the LEFT edge of the picture in a three-quarter profile, so his left side is toward the viewer. His near arm — his LEFT arm — is shorter and ends halfway down the forearm in a rounded stump bound in old brown leather, no hand; it hangs in front of his body, clearly visible. His far arm (his right) is mostly hidden behind his body, its hand holding a small reed whistle near his chest. Barrel-bodied, sun-blackened deep brown skin, grey beard twisted into a single rope, sleeveless patched leather jerkin; calm weathered expression, mouth closed. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: a hand at the end of the near arm, two visible hands, hook.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0048/f_s.png"
+  ],
+  "aspect": "3:4",
+  "seed": 15868,
+  "status": "ok"
+ }
+}

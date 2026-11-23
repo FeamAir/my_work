@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "Prop reference sheet: a ceremonial silver cup on a short stem, wide shallow bowl, a plain band of engraved wave lines around the rim, polished and old. Exactly four views: front, three-quarter, top-down showing the inside empty, and on a dark wooden table for scale. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gems, gold, pearls.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 146034,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "Prop reference sheet: a ceremonial silver cup on a short stem, wide shallow bowl, a plain band of engraved wave lines around the rim, polished and old. Exactly four views: front, three-quarter, top-down showing the inside empty, and on a dark wooden table for scale. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gems, gold, pearls.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 180259,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: plain silver, engraved wave band at the rim, no gems; no coins. Prop reference sheet: a ceremonial silver cup on a short stem, wide shallow bowl, a plain band of engraved wave lines around the rim, polished and old. Exactly four views: front, three-quarter, top-down showing the inside empty, and on a dark wooden table for scale. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gems, gold, pearls.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-CUP/d_s_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 692373,
+  "status": "ok"
+ }
+}

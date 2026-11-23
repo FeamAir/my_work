@@ -1,0 +1,34 @@
+{
+ "d_M1_1": {
+  "prompt": "Top-down view straight down onto a large cartographer's table of dark polished wood: brass map-weights, a leather blotter at one corner, ink pots, quills, dividers and a ruler, an empty leather map case, the centre of the table completely clear for a large map. high flat midday light from a high window, minimal shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 715446,
+  "status": "ok"
+ },
+ "d_M1_2": {
+  "prompt": "Top-down view straight down onto a large cartographer's table of dark polished wood: brass map-weights, a leather blotter at one corner, ink pots, quills, dividers and a ruler, an empty leather map case, the centre of the table completely clear for a large map. high flat midday light from a high window, minimal shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 306417,
+  "status": "ok"
+ },
+ "f_M1": {
+  "prompt": "Strictly top-down orthographic view looking straight down from the ceiling onto a large cartographer's table of dark polished wood that fills the whole frame edge to edge: brass map-weights, a leather blotter at one corner, ink pots, quills, dividers and a ruler, an empty leather map case along one edge, the centre of the table completely clear for a large map. Flat even light from a high window. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars. Avoid also: perspective, visible floor, walls, room.",
+  "model": "nano-banana-2",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 520540,
+  "status": "ok"
+ },
+ "f_M2": {
+  "prompt": "Low camera at table height looking across a large dark polished cartographer's table with brass map-weights, ink pots and a leather map case, toward an open arched door at the far side of the room through which the first steps of a stone spiral staircase lead upward; high window light. high flat midday light from a high window, minimal shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 675894,
+  "status": "ok"
+ }
+}

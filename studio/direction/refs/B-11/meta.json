@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "[ID: OLD-CANTOR] very old man, stocky and bowed, round soft face, bald with a white fringe, mouth closed and slack; a BLACK band wrapped around his throat; outfit: a worn undyed-linen robe greyed with age, rope belt. Exactly two views: 1) full-body three-quarter side view stepping aside on a curving stone stair, one hand resting at his throat; 2) a close-up of his other hand raised in a small calm open-palm gesture. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: violet band, yellowed or linen-coloured throat band, skeletal thinness, singing mouth.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 329827,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "[ID: OLD-CANTOR] very old man, stocky and bowed, round soft face, bald with a white fringe, mouth closed and slack; a BLACK band wrapped around his throat; outfit: a worn undyed-linen robe greyed with age, rope belt. Exactly two views: 1) full-body three-quarter side view stepping aside on a curving stone stair, one hand resting at his throat; 2) a close-up of his other hand raised in a small calm open-palm gesture. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: violet band, yellowed or linen-coloured throat band, skeletal thinness, singing mouth.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 471010,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: the band wrapped around his throat is BLACK cloth, clearly visible; round soft face, stocky, bowed; the raised hand open and calm. [ID: OLD-CANTOR] very old man, stocky and bowed, round soft face, bald with a white fringe, mouth closed and slack; a BLACK band wrapped around his throat; outfit: a worn undyed-linen robe greyed with age, rope belt. Exactly two views: 1) full-body three-quarter side view stepping aside on a curving stone stair, one hand resting at his throat; 2) a close-up of his other hand raised in a small calm open-palm gesture. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: violet band, yellowed or linen-coloured throat band, skeletal thinness, singing mouth.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/B-11/d_s_1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 768282,
+  "status": "ok"
+ }
+}

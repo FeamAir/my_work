@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "[ID: MAGS] 15-year-old girl, tall for her age and gangly; olive skin; a frizz of black hair tied up with a strip of red rag; outfit: a man's oversized dark waistcoat full of pockets over a faded shirt, rolled trousers, bare muddy feet, a rake over the shoulder. Exactly two views side by side: full-body front view and full-body back view, cocky stance. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: braid, earrings, red clothing other than the hair rag.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 575594,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "[ID: MAGS] 15-year-old girl, tall for her age and gangly; olive skin; a frizz of black hair tied up with a strip of red rag; outfit: a man's oversized dark waistcoat full of pockets over a faded shirt, rolled trousers, bare muddy feet, a rake over the shoulder. Exactly two views side by side: full-body front view and full-body back view, cocky stance. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: braid, earrings, red clothing other than the hair rag.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 883372,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: the only red is the rag in her hair; bare muddy feet; gangly and tall for 15. [ID: MAGS] 15-year-old girl, tall for her age and gangly; olive skin; a frizz of black hair tied up with a strip of red rag; outfit: a man's oversized dark waistcoat full of pockets over a faded shirt, rolled trousers, bare muddy feet, a rake over the shoulder. Exactly two views side by side: full-body front view and full-body back view, cocky stance. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: braid, earrings, red clothing other than the hair rag.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0049/d_s_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 763257,
+  "status": "ok"
+ }
+}

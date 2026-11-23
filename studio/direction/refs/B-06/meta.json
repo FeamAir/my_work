@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "[ID: COLLECTOR] lean sallow man in his forties, thin moustache, tired narrow eyes; outfit: slate-grey tabard with a single acid sulphur-yellow stripe across the chest over a dark coat, a felt hat; a small iron-bound wooden box chained to his own LEFT wrist. Exactly two views: 1) waist-up three-quarter portrait, officious neutral face, mouth closed; 2) full-body front view with the chained box hanging from the wrist on the RIGHT side of the picture. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: hare brooch, weapons, rust red, gold yellow, box on the left side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 551477,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "[ID: COLLECTOR] lean sallow man in his forties, thin moustache, tired narrow eyes; outfit: slate-grey tabard with a single acid sulphur-yellow stripe across the chest over a dark coat, a felt hat; a small iron-bound wooden box chained to his own LEFT wrist. Exactly two views: 1) waist-up three-quarter portrait, officious neutral face, mouth closed; 2) full-body front view with the chained box hanging from the wrist on the RIGHT side of the picture. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: hare brooch, weapons, rust red, gold yellow, box on the left side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 47662,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: the iron-bound box is chained to his LEFT wrist, hanging on the RIGHT side of the picture in the front view; acid sulphur-yellow stripe (greenish lemon), not gold. [ID: COLLECTOR] lean sallow man in his forties, thin moustache, tired narrow eyes; outfit: slate-grey tabard with a single acid sulphur-yellow stripe across the chest over a dark coat, a felt hat; a small iron-bound wooden box chained to his own LEFT wrist. Exactly two views: 1) waist-up three-quarter portrait, officious neutral face, mouth closed; 2) full-body front view with the chained box hanging from the wrist on the RIGHT side of the picture. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: hare brooch, weapons, rust red, gold yellow, box on the left side of the picture.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/B-06/d_s_1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 325380,
+  "status": "ok"
+ }
+}

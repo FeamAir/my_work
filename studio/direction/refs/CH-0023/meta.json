@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "Silhouette reference: a slight young woman standing on the ridge of a stilt-house roof at night, seen from below and from her LEFT side, a dark shape against a deep blue night sky with rain, exactly one long braid hanging on her LEFT side, toward the viewer, a neckerchief at the throat, head lifted as if humming. No face detail, pure silhouette with a thin cool rim light. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, two braids, loose hair.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 610395,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "Silhouette reference: a slight young woman standing on the ridge of a stilt-house roof at night, seen from below and from her LEFT side, a dark shape against a deep blue night sky with rain, exactly one long braid hanging on her LEFT side, toward the viewer, a neckerchief at the throat, head lifted as if humming. No face detail, pure silhouette with a thin cool rim light. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, two braids, loose hair.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 492176,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: full-bleed, no black bars; she faces the LEFT edge of the picture so we see her left side, the single long braid hanging on her left side toward the viewer; pure dark silhouette with a thin cool rim light, rain, night. Silhouette reference: a slight young woman standing on the ridge of a stilt-house roof at night, seen from below and from her LEFT side, a dark shape against a deep blue night sky with rain, exactly one long braid hanging on her LEFT side, toward the viewer, a neckerchief at the throat, head lifted as if humming. No face detail, pure silhouette with a thin cool rim light. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, two braids, loose hair.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0023/d_s_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 556878,
+  "status": "ok"
+ }
+}

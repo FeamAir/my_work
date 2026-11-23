@@ -1,0 +1,74 @@
+{
+ "d_W1_1": {
+  "prompt": "Side view of three enormous wooden treadmill wheels standing in a row under one long timber roof on piles over a dark sump pit, each wheel taller than a house with slatted steps inside, chains of wooden buckets descending into black water; the two nearer wheels show motion blur on their slats, the farthest wheel stands still and empty; a small raised platform at the front wheel for the wheel-master. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 887931,
+  "status": "ok"
+ },
+ "d_W1_2": {
+  "prompt": "Side view of three enormous wooden treadmill wheels standing in a row under one long timber roof on piles over a dark sump pit, each wheel taller than a house with slatted steps inside, chains of wooden buckets descending into black water; the two nearer wheels show motion blur on their slats, the farthest wheel stands still and empty; a small raised platform at the front wheel for the wheel-master. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 575652,
+  "status": "ok"
+ },
+ "d_W1_3": {
+  "prompt": "Side view of three enormous wooden treadmill wheels standing in a row under one long timber roof on piles over a dark sump pit, each wheel taller than a house with slatted steps inside, chains of wooden buckets descending into black water; the two nearer wheels show motion blur on their slats, the farthest wheel stands still and empty; a small raised platform at the front wheel for the wheel-master. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 736980,
+  "status": "ok"
+ },
+ "f_W1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: full-bleed, no black bars; these are TREADMILL wheels for people to walk inside (wide wooden drums with slatted steps on the inside), not water wheels; three in a row under one long roof; the two nearer show motion blur, the farthest stands still and empty; bucket chains descend into a black sump pit; a small raised platform at the front wheel. Side view of three enormous wooden treadmill wheels standing in a row under one long timber roof on piles over a dark sump pit, each wheel taller than a house with slatted steps inside, chains of wooden buckets descending into black water; the two nearer wheels show motion blur on their slats, the farthest wheel stands still and empty; a small raised platform at the front wheel for the wheel-master. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008W/d_W1_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 293364,
+  "status": "ok"
+ },
+ "f_W1b": {
+  "prompt": "Side view of three enormous wooden TREADWHEELS in a row under one long timber roof on piles over a dark sump pit. Each treadwheel is a huge open wooden drum, taller than a house, built like a giant squirrel cage: two big wooden rims joined by many horizontal wooden slats on the inside, so that people can walk INSIDE the drum on the slats to turn it, like a medieval treadwheel crane; a wooden axle; each drum turns a chain of wooden buckets that descends into the black water of the pit. The two nearer treadwheels show motion blur on their slats; the farthest stands still and empty. A small raised wooden platform for the wheel-master stands at the front wheel. No people. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars. Avoid also: water wheels with paddles, mill wheels, spokes dipping into a stream.",
+  "model": "nano-banana-2",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 679688,
+  "status": "ok"
+ },
+ "f_W1_dusk": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the light to: dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows, a lantern on the wheel-master's platform. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008W/f_W1b.png"
+  ],
+  "aspect": "16:9",
+  "seed": 217021,
+  "status": "ok"
+ },
+ "f_W2": {
+  "prompt": "Use the location from image 1 exactly: same three wooden treadwheels, roof, piles, bucket chains, sump pit. New camera position: inside the nearest treadwheel, behind the walkers' position, looking along the curved slatted floor of the drum as it rises ahead, the slats and the rim framing the view, the other wheels visible through the open side. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008W/f_W1b.png"
+  ],
+  "aspect": "16:9",
+  "seed": 81622,
+  "status": "ok"
+ },
+ "f_W3": {
+  "prompt": "Use the location from image 1 exactly: same three wooden treadwheels, roof, piles, bucket chains, sump pit. New camera position: low, from the wheel-master's small raised platform at the front wheel, looking up at the huge drum towering overhead, the bucket chain descending past the platform into the black pit. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008W/f_W1b.png"
+  ],
+  "aspect": "16:9",
+  "seed": 433323,
+  "status": "ok"
+ }
+}

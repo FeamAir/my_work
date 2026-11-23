@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "Prop reference sheet: a small iron-bound wooden collection box with a coin slot and a padlock, a short iron chain ending in a cuff, slate-grey paint with a single acid sulphur-yellow stripe across the lid. Exactly three views: front, side, and the cuff closed on a man's LEFT wrist with the box hanging. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: emblems, gold.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 129727,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "Prop reference sheet: a small iron-bound wooden collection box with a coin slot and a padlock, a short iron chain ending in a cuff, slate-grey paint with a single acid sulphur-yellow stripe across the lid. Exactly three views: front, side, and the cuff closed on a man's LEFT wrist with the box hanging. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: emblems, gold.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 848723,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: the cuff is closed on a man's LEFT wrist (thumb on the RIGHT side of the picture when the back of the hand faces us); one acid-yellow stripe on slate-grey paint. Prop reference sheet: a small iron-bound wooden collection box with a coin slot and a padlock, a short iron chain ending in a cuff, slate-grey paint with a single acid sulphur-yellow stripe across the lid. Exactly three views: front, side, and the cuff closed on a man's LEFT wrist with the box hanging. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: emblems, gold.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-BOX/d_s_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 588845,
+  "status": "ok"
+ }
+}

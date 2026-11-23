@@ -1,0 +1,28 @@
+{
+ "d_s_1": {
+  "prompt": "Insert reference: an old woman's hand and forearm in a heavy deep-grey wool robe sleeve reaching down from the top of the frame, the hand small, very clean, age-spotted, fingers gentle and practised, night, a single lantern glow from below. No face, no body beyond the sleeve. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: rings, bell, jewellery, violet, linen-coloured cloth.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 186616,
+  "status": "ok"
+ },
+ "d_s_2": {
+  "prompt": "Insert reference: an old woman's hand and forearm in a heavy deep-grey wool robe sleeve reaching down from the top of the frame, the hand small, very clean, age-spotted, fingers gentle and practised, night, a single lantern glow from below. No face, no body beyond the sleeve. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: rings, bell, jewellery, violet, linen-coloured cloth.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 642850,
+  "status": "ok"
+ },
+ "f_s": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: full-bleed, no black bars; deep-grey wool sleeve, the hand small, very clean, age-spotted, no rings. Insert reference: an old woman's hand and forearm in a heavy deep-grey wool robe sleeve reaching down from the top of the frame, the hand small, very clean, age-spotted, fingers gentle and practised, night, a single lantern glow from below. No face, no body beyond the sleeve. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: rings, bell, jewellery, violet, linen-coloured cloth.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0056/d_s_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 660756,
+  "status": "ok"
+ }
+}
