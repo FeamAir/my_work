@@ -8,6 +8,8 @@ Version 1.2 · 2026-11-22 · author: lead-screenwriter
 
 > **Revision r3 (2026-11-22, final ruling):** the saga is titled **HOLLOWSTONE** (*The Low Note* = Act II and Season 12). New **§10** holds the restricted side of the rulings on `canon/decisions_for_lead.md` (open side: `story/decisions_resolved.md`). Clue wording corrected in §5 for DEC-21, DEC-49, DEC-54, DEC-63 and for Cressa's S1E3 scene (DEC-24); numbering note: the canon's SEC-011 is this file's SEC-011a. No answer and no reveal episode changes.
 
+> **Revision r7 (2026-11-22, love lines):** new **§12** — the restricted side of `story/romance_lines.md`: what the Maren / Hollis line is after S6E9, the hidden terms of the Helm's marriage, two restricted notes on the Pell / Esk and Ruel / Jaro lines, one added Chronicler rule. **No answer and no reveal episode of SEC-001…029 changes.**
+
 ---
 
 ## 1. The answer in one paragraph
@@ -391,4 +393,62 @@ Open rulings: `studio/story/decisions_resolved.md` Part 5. Keeper: record these 
 | DEC-69 | **The ladder of the look.** (1) *Solo high voice* (all of S1–S2): blue-white light **in the grooves only**, thin and cold, descending from the crown; it leaves from the crown downward — the Spire is lit from above, by one throat, and held by nothing. (2) *Low sound at a stone that is not a Spire* (the shard, the lime-pit wall): never light; tremor and rings. (3) *The hum joining a Spire already lit by a solo* (S1E5, S1E10): the light does not change colour or path; it only stops flickering. (4) *The low part reaching a Spire with no high voice* (S3E10 the Sunken Spire stirs; S9E5 the First Raising in its first phase): **no light at all**; the Spire "breathes" — rings on the water round its foot, a slow pulse of the hum; the grooves stay dark. S1E12 already obeys this (the crown rings, it does not light). (5) *The full chord — high part and the Low Note together:* a **second light, warmer, that rises from the foot** and sits **in the depth of the stone**, not only in the grooves (lamp behind shell); where it meets the descending blue-white the tower is lit whole and the light is steady. It fades **from the foot last** — the many let go last. **First seen: S4E11** (the duet at the silent Crown Spire, RULE-014) — the warm light climbs only the first three turns and nobody in the scene names it. **First seen in full: S5E11** (the Thousand Voices). S9E5: full on the Sunken crown above water only. **S11E12** (the Answer): the Sunken Spire lights from the foot, under the sea — the first light of Lirenne. S12E12: every Spire, whole. *Why it is fair:* the solo look of the pilot is shown from the first episode as light from the top only; the foot of every sung Spire in S1–S4 is dark stone in water (the artist and VFX must keep it so — no bounce-glow at the foot before S4E11). **Forbidden until the episode named:** warm or rising light on any Spire (before S4E11; in marketing, openings, endings and previews before S5E11); any light on the Sunken Spire (before S9E5 above water, before S11E12 below). **The shard:** never glows, including S12E11 (stone and ring are fitted in sound and in water, not in light). |
 | DEC-69 (excerpt for VFX) | Needed, but not for S1–S2. Issue before the S3 storyboards, rules only: the five states as a look table (state → what is seen), the list of episodes with the state allowed in each, the forbidden list above, and the dark-foot rule for S1–S4. It carries **no reasons**: not who sings, not what the low part is, no SEC codes, no word "chorus" or "Low Note" — states are named L1…L5. Issue season by season (S3–S4 first; L5 in full only with the S5 package). |
 | DEC-70 | **Tone of the Sunken Spire = B flat** (composer's proposal, `studio/music/lullaby.md` §3.1, approved): outside the eight living home-tones; the floor of the lullaby; the shard's tone (B flat 1 with partials on screen); the tone of the Sunken crown in S1E12. **Ashare theme, conditions.** S1–S5E9: none. **S5E10 (first statement, the Spiral Book and the flashback):** instrumental only, high register, its **own** melodic material; B flat may sound under it as a bare held tone, never as a hummed or sung line; no closed-mouth voice; no interval cell of the five-note phrase. *Why this is safe at S5E10:* SEC-002 is out since S3E10, the Sunken crown has rung on that tone since S1E12, and the same episode shows Neveh prising the stone from the ring uncommented — the tone under Ashare is by then a fair clue, not a leak; what stays protected is the *voice* (SEC-025) and the *ring* (SEC-027). **From S8E8** the theme may be heard in the same scene as the shard. **S10E10:** theme and lullaby are joined for the first time, and only here does the closed-mouth hum belong to Ashare (the withdrawn HS-008 idea returns as the reveal itself). Never beside the ring before S12E11. Marketing: no Ashare theme before S5E10 has aired; no joined version before S10E10. |
+
+## 12. Love lines — restricted side (r7)
+
+Open design: `studio/story/romance_lines.md`. This section is what that file may not say. Keeper: record in `canon/sealed/sealed.md` (new §K) only. Helpers receive nothing from here.
+
+### 12.1 L2 — Maren and Hollis after S6E9 (restricted half of SEC-047)
+
+| When | What happens | Why it is fair / what it protects |
+|---|---|---|
+| S6E9 | Zev pulls Hollis out of the fire (canon). Hollis stays dead **to Maren too**. Three reasons, in his own order: he is Odo's killer, and a living treasury secretary beside a candidate costs her the chair; their last words were about the page, and dead he is the one person she can never again ask to cut one; and from the Listening House he hears what the Relay hears — he stays to *audit* her. | keeps SEC-011a intact: she mourns in earnest, so no scene of hers leaks it |
+| S6E12 | Zev tells him she has put on the ring. | the ring goes on because he is gone; he learns it as a consequence of his own death |
+| S7E2–E3 | Before the betrothal Zev tells Hollis and asks his leave. The wedding is held with the bride's lover hidden in the groom's house. | the triangle has no rival in it: one man marries her to keep the other alive (12.2) |
+| S9E5 → S10E4 | He reads the First Raising in the Relay's logs and believes, as she does, that the song drowned the camp (canon). Quire's first sheets are the best love letters he ever wrote: her case, argued better than she argues it. | canon line "better than she does" now has a private cause; the conviction stays primary |
+| S10E5 | The brass clip in Quire's wax (canon clue). **Maren recognises it** — she handled it aboard the fleet in S3. Shot rule: her hand stops on the wax, nothing more; no line, no reaction shot. From this episode she knows Quire is Hollis, alive. She tells no one and gives one order: Quire is not to be hunted "while he is useful". | a fair clue for the audience that the Sovereign knows something; does not show *who* is the second half |
+| S10E6 | Her answer, the only one she can send: a decree in which the phrase *"carried forward"* appears — the first time it is in a mouth that is not his. | echo chain of SEC-011b gains one link; reads as officialese |
+| S10E10 | Quire changes sides (canon). She still does not hunt him. | the season's small riddle — *why does the Sovereign, merciless to great thieves and small, let one forger live?* — is L2; answered S11E6 |
+| S11E6 | Quire is revealed as two (canon). What **she** learns is the second half: the press and the Relay were her consort's. She loses the lover to the other side and the husband as an ally in one scene. | the reveal lands on Pell as an answer and on Maren as a wound |
+| S12E11 | *Proposal for the S12 outline (not canon until that outline is approved):* Hollis is the one sent into the Ring — the only person she will let through the door. Their first meeting since S6E7. He does not plead and does not bargain; he reads her the account of what is carried forward if she seals. **Her choice stays hers alone** — she must not choose *for him* (it is Neveh's choice made the other way, SEC-025 / §1a; a lover's plea would cheapen the mirror). He is the witness. Draft of the last exchange: *"They will write that I was past reason." — "They will. I'll write what happened."* | this is the commission of the Chronicle. §2's frame — *"That is what they wrote. Now — here is what happened."* — becomes a promise kept to a dead woman; it also explains how the narrator knows what was said in the Ring |
+
+**Added Chronicler rule (extends §6).** 5. The official record has no entry for love. The Chronicler states the fact and never the cause (S1E9: *"The Captain-Lord of the Shoals paid his respects last."*). About Maren he never uses an endearment, never an adjective of his own, never a pause the script marks. On a rewatch every flat line about "the Lord Admiral's daughter", "the Helm", "the Sovereign" is spoken by the man who loved her — and that is the whole effect. No new tell is allowed before S12E13.
+
+**Marketing.** L2 may be shown as a love story through S6E9 and as Maren's grief after it. Nothing may suggest that it continues.
+
+### 12.2 L3 — the hidden terms of the Helm's marriage (SEC-048)
+
+1. **The reversion clause.** Drafted by Zev as Master of the Hearings: if the marriage is without issue at the Helm's death or deposition, the Relay and its keys return to House Fennick unencumbered. Public readers take it for a dower formality. It is the right by which he opens the Relay to the Great Chorus (S12E12): the consort's key.
+2. **A white marriage by agreement.** Neither wants a child born into the chair that killed both their fathers. So the Sovereign Years have a consort and no heir by *her own* choice — the crown is built to end with her. The audience should understand this only in S12.
+3. **Zev's own reason for consenting.** The consort's house is the one roof in Highwater that nobody may search. Quire's press and Hollis's cot (S8E3, the second cot — canon clue) are safe under the marriage. He marries the woman to keep alive the man who loves her. He never lies to her in words; he omits — the Chronicler's rule, practised by a second person.
+4. **Planted suspect, upgraded.** In S9 the code that betrays the columns runs on the *consort's* Relay (canon: he logged it, did not send it). A husband is a better false trail than a rival lord.
+5. **S11E6.** She cannot arrest the consort without voiding the contract that gives her the Relay; she confines him to the Listening House — where the Relay's keys are.
+
+### 12.3 L4 — two restricted notes
+
+- **What Esk knows.** Since S4E9 (canon clue: Tsura tells him privately) Esk knows that his mother did not breach the weir. He does not know who did. He tells Pell once, by kite, in S8E3: *"It was not her."* She takes it for a son's lie. Paid S10E11 (Silt's book) and S11E10 (Tsura's own words). The audience has known since S7E8, so the scene is pure dramatic irony; **the reveal ladder of SEC-024 is not touched**.
+- **SEC-010 stays reasoned.** Pell's warning kite (S8E11) gives Maren a personal grievance — "the singer chose the besiegers once already". It must not replace the motive of S9E5. In the S9 outline the grievance is spoken once (S9E6, beside *"I have seen what her lullaby does"*) and never offered as the reason.
+- **Epilogue (proposal for S12E13, MV 40):** a kite-spar over the door of the tide-post room. Esk need not be on screen.
+
+### 12.4 L1 — the price of Jaro's neutrality (S10)
+
+After SEC-001 became public (S6) Ruel's name was struck from the roll of Admirals and the Admiral's lamp on the Gullmouth mole was put out. In S10 the Sovereign restores the name and relights the lamp — and that, not money, buys Quell's neutrality. It is the one sale Jaro is ashamed of. In S11E8 he sails against her anyway.
+Guard for SEC-027: Jaro never handles the ring and never speaks of the pearl. Ruel withholds his left hand only from Longdark 4 (the needle is armed); nothing in L1 may place the ring near a thumbnail-sized stone.
+
+### 12.5 Line A and the clip (SEC-050 ↔ SEC-011)
+
+Custody of the brass clip, complete: **Teodor Kett** → Ursel Lantry (CY 296, kept in her sleeve) → Hollis (S1E1) → melted (S6E9) → evidence chest of the Hearings → Zev → Hollis → Quire's wax (S10E5) → the Chronicle's last page (S12E13). The seal of Quire is the clip of two clerks who forged for the women they loved; only the son stopped. The provenance is not spoken before S6E8.
+
+### 12.6 Check against the closed secrets
+
+| Secret | Touched by | Result |
+|---|---|---|
+| SEC-001 | L1 (the withheld hand), L2 (the one page, S6E7) | one more S1 clue; "public in S6" gets its mechanism; reveal S1E11 unchanged |
+| SEC-010 | L3 (suspect), L4 (grievance) | motive and reveal S9E11 unchanged |
+| SEC-011a / b | L2, L3, line A | answer unchanged; one private recognition (S10E5) shown without a tell; S11E6 and S12E13 unchanged |
+| SEC-013, SEC-023 | L1 (alibi; the packet) | cover stories strengthened; reveals S2E11, S2E10 unchanged |
+| SEC-012 | L5 | Elm's exposure S7E7 and death S8E9 unchanged; the cut pages are the means |
+| SEC-016 | Lio's suit and jealousy | reveal S8E6 unchanged |
+| SEC-024 | L4 (what Esk knows) | ladder S7E8 / S10E11 / S11E10 unchanged |
+| SEC-025, -026, -027 | none (guards in 12.1 and 12.4) | untouched |
 

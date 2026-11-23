@@ -1,4 +1,4 @@
-# HOLLOWSTONE — Decisions Resolved (DEC-01 … DEC-70) and Approval of the Draft Canon
+# HOLLOWSTONE — Decisions Resolved (DEC-01 … DEC-76) and Approval of the Draft Canon
 
 Version 1.0 · 2026-11-22 · author: lead-screenwriter · **Revision r3** (step 6 of the story chain: final ruling)
 Answers: `studio/canon/decisions_for_lead.md` (canon v0.3, 64 items, 17 block S1). **Revision r6 (2026-11-22):** Part 5 added — DEC-65…70 (canon v0.5, group G).
@@ -411,4 +411,20 @@ Everything else (the many-voiced look, where it is first seen, what is forbidden
 
 ### Also ruled in r6
 - **S1E1 Sc 8, the old Cantor:** "a yellowed throat-band" → **"a black throat-band"** (HS-090; the keeper's report r5). Corrected in `script.md` (v1.0.1), `beat_sheet.md` and `production_notes.md`. He is not Sabin and must not be drawn with any part of Sabin's look.
+
+## Part 6 — Revision r7: love lines (DEC-71 … DEC-76)
+
+Lead's own rulings on the investor's decision of 2026-11-22 ("the saga needs love"). Design: `studio/story/romance_lines.md`. Restricted side: sealed §12. Secret numbers SEC-046…051 are proposed; the keeper confirms.
+
+**DEC-71 — the age gate.** **Ruling:** a romantic beat is allowed only in a season in which both characters are 18+ by canon birth year; no retroactive framing; the list of characters who are never romantic stands as in `romance_lines.md` §0–§1. **Keeper:** add to `checklist.md` as a check on every script; replace the sentence "Romance in this saga is rare, adult and political" wherever it was copied.
+
+**DEC-72 — the function test.** **Ruling:** a love beat stays in an outline only if it causes a named decision. *Why:* coherence first — love must work for the intrigue, not beside it.
+
+**DEC-73 — five main lines and three of the second circle are approved** (L1–L5, A–C); line D is a reserve for the S2 outline. **Keeper:** secrets, events, relations and custody chains as listed in `romance_lines.md` §7.
+
+**DEC-74 — no death, battle, reveal or vote moves.** Canon facts that gain a cause: Jaro "trades with both sides" (S3–S5); the ring goes on at S6E12; "the Relay in the Sovereign's hands" (S11); SEC-001 "public in S6" (through the Account Nine file).
+
+**DEC-75 — Season 1.** **Ruling:** additions to E3, E4, E6, E7, E8, E9, E11, E12 as marked r7 in `season01_outline.md`; E1 untouched; one optional pilot seed left to the director. E9 runs ~23 min.
+
+**DEC-76 — relation kinds.** **Ruling:** add `lover`, `betrothed`, `suitor`, `beloved` to the recommended kinds in `canon/README.md`. *Restricted — see sealed §12* for what two of the new secrets may not say in open records.
 

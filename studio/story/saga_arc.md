@@ -1,9 +1,10 @@
 # Saga Arc — HOLLOWSTONE
 
-Version 1.2 · 2026-11-22 · author: lead-screenwriter · status: **approved foundation**
+Version 1.3 · 2026-11-22 · author: lead-screenwriter · status: **approved foundation**
 
 > **Revision r2 (2026-11-22, stress-test pass):** season paragraphs rewritten where logic, motive or pace failed (S2–S4, S6–S12); the S4 "dam" is now the Ossari **weir**, and who breached it is a secret (SEC-024); the middle of the saga (S6–S9) gets its own engine — a hidden crime revealed in S7, a failed First Raising in S9, a second-layer mystery that runs S8→S10; six new secrets SEC-023…029 are scheduled (answers of SEC-024…027 stay in the sealed file); every season now lists its **hand-off image**; new sections at the end: **Intrigue ladder**, **Motif matrix**, **Thread ledger** (thread → planted → returns → revealed). No death, battle or reveal episode from v1.0 has moved.
 > **Revision r3 (2026-11-22, final ruling):** the saga is **HOLLOWSTONE**; *The Low Note* is Act II and Season 12. Entered from `decisions_resolved.md`: Lucan's sealed *chest* (DEC-49); Kes's confession is heard by Esk (DEC-54); the S4 wave is timed to the hour (DEC-17); the Night of a Thousand Voices falls on Still 3, CY 320 (DEC-07); the order bonds → exposure → crash in S6 (DEC-18); the Kilbride suit in S7 (DEC-39); Maren *orders* the Spires sung (DEC-53); S9 years (DEC-23); two new rows in the Intrigue ladder (DEC-45, DEC-55). No death, battle or reveal episode has moved.
+> **Revision r7 (2026-11-22, love lines):** the saga gains five love lines and three second-circle ones — new section **Love lines by season**; four new rows in the Intrigue ladder, two in the Motif matrix, eight in the Thread ledger (all marked r7). New secrets SEC-046…051 are proposals for the keeper. Canon facts that now have a cause: Jaro "trades with both sides" (S3–S5); Maren puts on the ring three episodes after Hollis's presumed death (S6); "the Relay in the Sovereign's hands" (S11). **No death, battle or reveal episode has moved; no closed answer is stated here.** Full design: `romance_lines.md`; restricted parts: `sealed/master_mystery.md` §12.
 Spoiler level: **internal / partly sealed.** This file names *what* is revealed and when; the full answers are in `sealed/master_mystery.md`. Not for public material.
 
 ## 0. Shape
@@ -72,6 +73,22 @@ Spoiler level: **internal / partly sealed.** This file names *what* is revealed 
 **Conflict:** Maren holds Highwater and threatens to silence its Spires and drown the delta rather than surrender it to "the mob" — a threat the audience now knows can be carried out, and has been once before. **Big event:** the **Great Chorus** — ten thousand voices across the delta, every Spire sung by crowds linked by kite and Relay (Zev opens it); the cost of the song shared by many, so nobody is taken; then the crowds at each Spire decide, by singing or by silence, what the song shall be from now on. **Big loss:** **Maren Corvane** (E11). Pell's voice (E12). **Closes:** Maren's choice; the last step of SEC-027 (E11); the Chronicler's identity and the frame of the whole narration (SEC-011b, E13 — sealed). **Epilogue (E13, ~35 min):** decades later; the tide-post of Ninth Sluice; the Chronicler's sign-off changes for the first time. A new count of years begins.
 
 ---
+
+## Love lines by season (r7)
+
+Full design: `romance_lines.md` (rules, age gate, beats, consequences). Restricted parts: `sealed/master_mystery.md` §12. Rule of the saga from r7: **a love beat is kept only if it causes a decision** — a vote, a silence, a betrayal, a document. Romance only between characters who are 18+ in the season's year; TV 16+. No death, battle or reveal episode of this file has moved.
+
+| Line | Who | Runs | What it moves |
+|---|---|---|---|
+| **L1 "The Second Lamp"** | Ruel Corvane and Jaro Quell — a secret liaison since CY 305 (SEC-046) | S1E4 → S1E9 (the audience learns it at the wake) → S2E10–E11 → S6 → S11E8 | why the Quell vote holds in S1E12 and why the Quell frame holds (an alibi that cannot be spoken); Ysa's packet of letters → Odo's hold on Jaro ("trades with both sides", S3–S5) → Zev returns it unopened (S6E2); Jaro's break (S9E5) and return (S11E8) |
+| **L2 "The Clerk and the Admiral"** | Maren Corvane and Hollis Kett (SEC-047) — the saga's great tragic love | seeds S1E7, E11 → S2 (ledger-letters) → S3 (the purser) → S4E12 → S5E11–E12 → S6E7–E9 → S6E12; **S7–S12 restricted** | the powder fraud of her mother's kin broken on his word (S3); her spy in Odo's treasury (skip–S5); SEC-001 made public by his hand when he refuses to cut one page (S6E7); the ring goes on after his "death" (S6E12) |
+| **L3 "The Paper Marriage"** | Helm Maren Corvane and Lord Zev Fennick — a marriage of state (SEC-048) | S7E2–E3 → S9E12 → S12 | Fennick's obedience in the water war; the Relay "in the Sovereign's hands"; a crown with a consort and **no heir** — the succession question of S10–S12 |
+| **L4 "Kites over the Wall"** | Pell and Esk, adults (25 and 23) from S7; Lio's unrequited suit S6–S8 | S6E5–E6 (Lio) → S7E4–E12 → S8 → S9E10–E11 → S10–S12; both survive | the three records cross the lines (S7E10); a private kite-line across the siege; Lio's jealous sale of the kite-code and Pell's warning (S8) → "Maren sees a rival" (S9); Esk suspected and cleared (S9); the delta–upland alliance has a human knot before it has a treaty |
+| **L5 "The Voice"** | Brother Elm and Ione Ilvane — unspoken (SEC-049) | seed S1E11 → S2E10 → S4E10–E11 → S5E6 → S7E7 → S8E9 | he knows what she is from S2E10 and does not tell her; his grief drives the S5 leaks; the pages he cut from her journal and could not burn are the Choir's proof against him |
+
+**Second circle:** A — Ursel Lantry and Teodor Kett (SEC-050; S1E1 clip, S1E11, S4E6, revealed S6E8: the heart of Ursel's POV season) · B — Bede Lark and Sibby Roan (SEC-051; S1E7 → S2E6: why the leak was sold twice) · C — Aurin and Cressa Ilvane (S1E3 → S5 → S6E12 → S12: the arranged marriage that becomes love too late) · D, reserve — Kes Mabry and Eirik Rusk (decide with the S2 outline).
+
+**By season:** S1 — L1 alive and ended; seeds of L2, L5, A, B, C. S2 — L1's packet (E10, E11); L2 by letter; L5; B closes (E6). S3 — L2 aboard the fleet; L5 at Pale Crag. S4 — L5 ends (E10–E11); L2's kiss and order (E12); A's letter (E6). S5 — L2 breaks on Odo's death; L5's cut pages (E6); C. S6 — L2's last quarrel and the fire; A revealed (E8); L1's letters come home; Lio's suit; C ends (E12). S7 — L3; L4 begins; L5's pages found. S8 — L4 across the wall; Lio's act; Elm dies. S9 — L4's worst hour; L1's break; L3: no heir. S10 — L4 in hiding; the clan match; succession. S11 — L1 ends (E8); L4 and Tsura (E10). S12 — L2 and L3 end with Maren (E11); L4 lives.
 
 ## Main heroes by season (who is introduced where)
 
@@ -150,6 +167,10 @@ Brief requirement: intrigue on every level, *with consequences upward*. Each row
 | Mids / islands | salvage bonds on a drowned city, with a pretender to sell them | Quell brokers, Piers Lantry | splits the Lows' vote; finances the Raising; makes Lirenne a prize | S6E5 → S8E6 → S9 |
 | Mids | a private ledger kept as insurance | Fossett | names Ruel's killers | S2E7 → S2E11; testifies S6 |
 | Steps (household) | a regent tidying a brother's crime | Lady Ysa Corvane | Marl's death; the fall of Gullmouth | S1E7 → S2E10–11 |
+| Mids | a keeper buys a walker off the wheel (r7) | Bede Lark, for Sibby Roan | the reason the leak was sold **twice** — the root of both S1 murders has a human cause (SEC-051) | S1E7 → S2E6 |
+| Steps (household) | a sister keeps a dead brother's letters (r7) | Lady Ysa Corvane → Odo Fennick → Zev Fennick | the Listener's hold on the Captain-Lord: Quell "trades with both sides" for three seasons (SEC-046) | S1E9 → S2E11 → S6E2 |
+| Lows / islands | a suitor sells a lovers' code (r7) | Lio and his brokers | the Helm's watch reads the kite-line across the siege; Pell's warning makes her the Helm's rival | S8E4 → S8E11 → S9 |
+| Choir | pages cut from a dead woman's journal and kept (r7) | Brother Elm | the Choir's proof against its own Voice (SEC-049) | S5E6 → S7E7 → S8E9 |
 
 ## Hand-off chain (season finale image → next cold open)
 
@@ -169,6 +190,8 @@ S1 Esk's kite at the Stair → S2 Tsura reads it · S2 the ultimatum in Brenna's
 | **The Tithe Map** | E1 unread line "the Ninth Sluice—" | S2E6 the unsigned map in the chest; S3 the Ossari redraw the rim; S4 Odo's Listener map | S5 the Hum's own chalk map; S6 burned with the bank; S7 Maren's war map; S8 the siege map | S9 the chart of the Sunk; S10 the polders struck off; S11 the Long Ebb map; S12 the last one is sung, not drawn |
 | **The Still Days** | E8–E12 | S4E11 the weir | S5E11; S6 election | S9E12 coronation; S12 the Great Chorus falls on them |
 | **The Chronicler's sign-off** | E1, E12 | every finale | every finale; S7E1 the hoarser voice | S12E13 it changes |
+| **The second stern lamp** (r7) | E4 lit, E8 nobody comes, E9 put out | S2E10 Ysa names it; S2E12 Jaro lights one lamp for Maren | S6E8 Jaro reads the Longdark 5 note under it | S11E8 two lamps at Lirenne |
+| **Love as paper** (r7: the packet, the ledger's second column, the cut pages, the kite-code) | E9 the packet in tarred twine | S2 ledger-letters; S2E11 the packet to Odo; S4E6 the letter "U. —" | S5E6 the cut pages; S6E2 the packet returned; S7E3 the marriage contract; S7E7 the pages found; S8 kites over the wall | S9E10 the kite over the bridge; S11–S12 kite-lines carry the pitch |
 
 Every season-opening map sequence (§12.2.2) redraws the Tithe Map; that is its guaranteed appearance.
 
@@ -215,5 +238,13 @@ Internal, **answer-free**: this table names threads, not solutions (those are in
 | Who speaks for the drowned (the Sunken Vote) | S1E11–E12 | S6E12 (cast again); S8E10 | S11E12; S12 |
 | Ione's tuning fork | S1E1 | S4E12; S5E1 | S12E12 (it gives the Great Chorus its pitch) |
 | The sign language | S1E11 | S4E7 (unsubtitled line); S8 | S10E9; S12E12 (Pell signs the last line) |
+| The second lamp (SEC-046, r7) | S1E4 | S1E6, E8, E12; S2E9 | S1E9 (audience); S2E10 (Maren) |
+| The packet in tarred twine (r7) | S1E9 | S2E10, E11; S3–S5 (Jaro's "both sides") | S6E2 (returned unopened); S6E8 (the Longdark 5 note) |
+| The purser (SEC-047, r7) | S1E7, E11 | S2 (ledger-letters); S3; S4E12; S5E12 | S6E7 (the one page); after S6E9 — sealed |
+| The Helm's marriage (SEC-048, r7) | S7E2 | S7E3; S9E12; S10 (no heir) | S12 (sealed) |
+| The kite-line (r7) | S7E10 | S8E2–E9; S8E4 (the code sold) | S8E11 (the warning); S9E10–E11 |
+| Ione's cut pages (SEC-049, r7) | S2E10 (the two notes) | S4E10; S5E6 | S7E7 → S8E9 |
+| The clip's first owner (SEC-050, r7) | S1E1, S1E11 | S4E6 (the letter "U. —") | S6E8 |
+| Why twice (SEC-051, r7) | S1E7 | S2E4 | S2E6 |
 
 **Cliffhanger audit:** S1 episode-to-episode — see `season01_outline.md` (each episode lists `Pays:`). Season-to-season — the hand-off chain above. For S2–S12 the same `Pays:` line is mandatory in every episode outline before it is approved.
