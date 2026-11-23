@@ -83,7 +83,7 @@ def hosts() -> dict[str, str]:
     acct = config.get("R2_ACCOUNT_ID", required=False)
     h = {
         "fal (queue)": "queue.fal.run",
-        "fal (cdn)": "fal.media",  # TODO проверить: домен(ы) выдачи результатов (fal.media / v3.fal.media)
+        "fal (cdn)": "v3.fal.media",  # результаты отдаются с поддоменов (v3/v3b.fal.media); корень fal.media не резолвится
         "ElevenLabs": "api.elevenlabs.io",
         "Anthropic": "api.anthropic.com",
         "Gemini": "generativelanguage.googleapis.com",
