@@ -1,8 +1,8 @@
 # House Fennick (HS-006)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-006
@@ -14,11 +14,12 @@ words: "Nothing unheard."
 sigil: a grey hare with raised ears
 colors: [slate grey, sulphur yellow]
 seat: PL-0012
-lands: [PL-0016]
-heads: [CH-0010, CH-0042@CY 320]
-alliances: [HS-007:client@CY 312]
+lands: [PL-0016, PL-0012, PL-0008]
+heads: [CH-0250@CY 251-11, CH-0251@CY 262, CH-0010@CY 291, CH-0042@CY 320]
+alliances: [HS-007:client@CY 312, HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-005:enemy@CY 9, HS-013:sworn@CY 251, HS-014:sworn@CY 251, HS-030:sworn@CY 9, HS-002:ally@CY 312-11]
 secrets: [SEC-015]
 leitmotif: theme on the Sluice Spire's home tone
+founded: CY 9
 ```
 
 - **Epithet:** the Listeners
@@ -29,20 +30,10 @@ leitmotif: theme on the Sluice Spire's home tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-006
-type: house
-canon: draft
-amend: true
-lands: [PL-0012, PL-0008]
-founded: CY 9
-heads: [CH-0250@CY 251-11, CH-0251@CY 262, CH-0010@CY 291, CH-0042@CY 320]
-alliances: [HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-005:enemy@CY 9, HS-013:sworn@CY 251, HS-014:sworn@CY 251, HS-030:sworn@CY 9, HS-002:ally@CY 312-11]
-```
 
 > Note: `founded` = CY 9, when the family became hereditary Relay-Masters. **Raised to great house** CY 251-11 (EV-0253). Heads before CY 251 were Relay-Masters, not lords; they are listed in prose.
 
@@ -58,7 +49,7 @@ alliances: [HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-0
 | CY 160 | **the Hearings** — the Concord's courts — from the Helm's office (EV-0269, the **Clerks' Ordinance**) | the Hearings needed fast messages and good records; Fennick had both |
 | CY 160 → | the Listeners: informers in every district "so that the Hearings may hear" | |
 | CY 249–251 | as House Harrow died of the Grey Cough (EV-0253), Fennick ran Harrow's estates, its Sluice Spire, its sluice-warden vassals (Dunmore, Cobbet) | stewards of the dying |
-| CY 251-11 | **raised to great house**; the **Sluice Spire** and Harrow's **Sluice Voice** pass to Fennick by a Conclave vote of 5–3 (Corvane, Quell, Ilvane against) | the "upstarts"; Lantry's money bought the two swing votes (Dask for a grain monopoly on the Highwater Lows, the Choir for a stipend) |
+| CY 251-11 | **raised to great house**; the **Sluice Spire** and Harrow's **Sluice Voice** pass to Fennick by a Conclave vote of 5–3 (Corvane, Quell, Ilvane against; both Harrow voices cast by Harrow's stewards, the Fennicks - "stewards of the dying", DEC-06) | the "upstarts"; Lantry's money bought the two swing votes (Dask for a grain monopoly on the Highwater Lows, the Choir for a stipend) |
 | CY 251 → | the dry-tithe of the Highwater Lows (the twelve sluices) | it came with the Spire |
 | CY 312 | **Odo Fennick, Helm** — the first Fennick Helm | the Sunken Vote (S1E12) |
 
@@ -121,7 +112,7 @@ alliances: [HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-0
 
 ---
 
-## The Listeners (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## The Listeners (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
 
 Informers and secret police of House Fennick (`HS-006-fennick.md`): ~1,500 part-time eyes, ~200 full-time "hares" under Captain Fitch (CH-0053). Grey hooded coats with a yellow cord at the throat, hidden when working; signal by whistles (three-note calls — the whistles of S1E2). Paid per report; **buy eyes** in the Lows (S1E2's stolen tithe box). From CY 312 they enforce "Listener Law" (S4) and fire on the singers of the Thousand Voices (S5E11).

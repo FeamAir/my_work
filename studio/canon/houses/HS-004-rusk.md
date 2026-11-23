@@ -1,8 +1,8 @@
 # House Rusk (HS-004)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-004
@@ -14,10 +14,12 @@ words: "Shut, and stand."
 sigil: a red iron gate in a black cliff
 colors: [rust red, black]
 seat: PL-0046
-lands: [PL-0046, PL-0045]
-heads: [CH-0018]
-alliances: [HS-012:destroyed@CY 141, HS-091:border@CY 312]
+lands: [PL-0046, PL-0045, PL-0047, PL-0072]
+heads: [CH-0236@~OS 690, CH-0230@CY 244, CH-0018@CY 279, CH-0235@CY 313-09]
+alliances: [HS-012:destroyed@CY 141, HS-091:border@CY 312, HS-012:enemy@CY 141, HS-091:enemy@CY 141, HS-091:hostage_exchange@CY 142, HS-025:sworn@CY 142, HS-026:sworn@CY 142, HS-002:ally@CY 141]
 leitmotif: theme on the Falls Spire's home tone
+founded: ~OS 400
+secrets: [SEC-008, SEC-009]
 ```
 
 - **Epithet:** the Stair
@@ -29,23 +31,12 @@ leitmotif: theme on the Falls Spire's home tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-004
-type: house
-canon: draft
-amend: true
-lands: [PL-0047, PL-0072]
-founded: ~OS 400
-heads: [CH-0236@~OS 690, CH-0230@CY 244, CH-0018@CY 279, TODO(DEC-30)@CY 313-09]
-alliances: [HS-012:enemy@CY 141, HS-091:enemy@CY 141, HS-091:hostage_exchange@CY 142, HS-025:sworn@CY 142, HS-026:sworn@CY 142, HS-002:ally@CY 141]
-secrets: [SEC-008, SEC-009]
-```
 
-> Note for the keeper: from Mistcall CY 313 (fall of the Stair, S3E11; the Battle of the Stair is dated Mistcall CY 313 in `saga_arc.md`) the seat is in exile at Highwater (PL-0077); the Falls Spire is held by the Ossari. Who heads Rusk after Brenna's death (S3E11) is proposed in `characters/_minor-houses.md` (grandson Sindre, 11, with his great-uncle Eirik as castellan of the voice) — **lead's decision DEC-30**.
+> Note for the keeper: from Mistcall CY 313 (fall of the Stair, S3E11; the Battle of the Stair is dated Mistcall CY 313 in `saga_arc.md`) the seat is in exile at Highwater (PL-0077); the Falls Spire is held by the Ossari. After Brenna's death (S3E11) the head is her grandson **Sindre Rusk** (CH-0235, 11), with his great-uncle **Eirik** (CH-0232) as Castellan of the Voice - regent in all but name (DEC-30, approved). Sindre is a minor through S3-S5 (brief restriction: checklist).
 
 ### Public history
 
@@ -59,7 +50,7 @@ secrets: [SEC-008, SEC-009]
 | CY 142 | the **Stair Treaty** (EV-0268) with the upland clans: the Rim stays Ossari, the escarpment is Rusk's; the **saltpeter licence** (all upland saltpeter passes the Stair and pays Rusk a tenth); the hostage custom, the **Exchange of Sleeves** | peace by exhaustion |
 | CY 203–206 | **the Kite War** (EV-0270, Second Upland War): Rusk takes three terrace forts on the Rim, loses two within a year; keeps **Rimgate** (PL-0072), given to the border family Hadden (HS-025) | the first time Concord soldiers see gliders |
 | CY 206 → | Rusk stops sending its own children to the Rim under the Exchange of Sleeves (Ossari children still come to the Stair) | an insult the Ossari remember |
-| CY 309 | the **Rim Skirmish** (EV-0273): Brenna's son Ardo killed; truce; the Ossari give a hostage — Esk (CH-0040), "the Dry Queen's nephew" | |
+| CY 309 | the **Rim Skirmish** (EV-0273): Brenna's son Ardo killed (and the Kitsa glider-captain Akko); truce; the Ossari give a hostage the same season — Esk (CH-0040, aged 10), "the Dry Queen's nephew" (EV-0275, DEC-20) | a hostage paid for blood |
 
 Rusk has never had a Helm, and boasts of it: "We don't sit. We stand."
 

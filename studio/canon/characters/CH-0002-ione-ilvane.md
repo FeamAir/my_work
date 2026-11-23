@@ -1,8 +1,8 @@
 # Ione Ilvane (CH-0002)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0002
@@ -14,7 +14,7 @@ class: noble
 role: protagonist
 born: CY 294-03
 born_at: PL-0008
-died: CY 314-11
+died: CY 314-11-03
 died_at: PL-0014
 father: CH-0020
 mother: CH-0021
@@ -24,6 +24,9 @@ parentage_secret: SEC-004
 secrets: [SEC-004, SEC-005]
 status_track: [S01E01:alive, S04E11:dead]
 first_episode: S01E01
+epithet: the Novice
+relations: [CH-0012:mentor, CH-0022:friend, CH-0005:ally, CH-0056:gleaned_by]
+born_official: CY 294-09
 ```
 
 ## Look (story-level, must never change)
@@ -54,21 +57,12 @@ Novice Cantor of the Choir; officially the daughter of Lord Aurin and Lady Cress
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
-Not merged — the approved value is kept: `class: clergy` (kept canon); `died: CY 314-11-03` (DEC-17); `status_track: [S01E01:alive, S04E10:revealed, S04E11:dead]` (kept canon).
-`born_official` = the birthday House Ilvane celebrates (from the approved foundation; the S2 infant-grave clue needs it) — DEC-19.
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
+Not merged — `class: clergy` and the `revealed` step in `status_track` were not approved (decisions_resolved 3.3). `died: CY 314-11-03` is canon since v0.4 (DEC-17: evening of Still 3, the duet at the Crown Spire).
+`born_official` = the birthday House Ilvane celebrates (from the approved foundation; the S2 infant-grave clue needs it) — DEC-19: `CY 294-09`; public trees and marketing show only this; no birthday is spoken in S1.
 
-```canon
-id: CH-0002
-type: character
-canon: draft
-amend: true
-epithet: the Novice
-relations: [CH-0012:mentor, CH-0022:friend, CH-0005:ally, CH-0056:gleaned_by]
-born_official: CY 294-09
-```
 
 > Writer's note (dossier): Birth name: Ama, of the Ninth (SEC-004). born_at: Ninth Sluice (PL pending). died_at: the Crown Spire, Highwater (PL pending). Death date = third Still Day, CY 314 (S4E11, weir wave) — keeper to confirm with the S4 timeline. Official birthday (the one House Ilvane celebrates) is later than the true one; exact date [ask lead] — it must sit five months after the date on the infant grave at Pale Crag (S2 clue).
 

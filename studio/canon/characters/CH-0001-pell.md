@@ -1,8 +1,8 @@
 # Pell (CH-0001)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0001
@@ -12,12 +12,12 @@ name: Pell
 epithet: of the Ninth
 class: poor
 role: protagonist
-born: CY 297
+born: CY 297-02
 born_at: PL-0008
 father: CH-0024
 mother: CH-0023
-relations: [CH-0007:sibling, CH-0043:friend, CH-0049:friend, CH-0065:protector]
-secrets: [SEC-002, SEC-003, SEC-004]
+relations: [CH-0007:sibling, CH-0043:friend, CH-0049:friend, CH-0065:protector, CH-0003:protector, CH-0046:rescuer]
+secrets: [SEC-002, SEC-003, SEC-004, SEC-012]
 status_track: [S01E01:alive]
 first_episode: S01E01
 ```
@@ -55,19 +55,10 @@ Mudlark of Ninth Sluice, raised by her grandmother Nan after her mother's death 
 
 ---
 
-## Dossier (draft) — writer-characters, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters, 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 
-```canon
-id: CH-0001
-type: character
-canon: draft
-amend: true
-born: CY 297-02
-relations: [CH-0003:protector, CH-0046:rescuer]
-secrets: [SEC-012]
-```
 
 > Writer's note (dossier): born_at: Ninth Sluice, Highwater Lows (PL id pending). Relation kinds "protector", "rescuer", "grandchild" are proposals; keeper may normalise.
 

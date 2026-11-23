@@ -1,6 +1,6 @@
 # World
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -10,7 +10,7 @@ Holds: laws of the world, magic / technology and their limits, society, calendar
 
 ## 1. Premise
 
-**THE LOW NOTE.** The Concord of Tessary is a great river delta and barrier archipelago at the mouth of the Aun, most of it below sea level. It stays dry only because of nine colossal towers of black singing stone - the Spires - publicly believed to be the work of a vanished race (the Builders). When a trained Cantor sings into a Spire, the stone answers and the sea obeys. Whoever holds a Spire decides which districts stay dry. The Helm is elected for life by a Conclave of eight votes; money is paper printed by a bank against deeds to dry land; the poor live below the waterline, pay a dry-tithe and are forbidden by law to sing. The Spires have been slowly detuning for three centuries. Low fantasy with one law of wonder: no dragons, prophecies, chosen ones or levels. Rating TV 16+.
+**HOLLOWSTONE.** (Saga title since r3; *The Low Note* is Act II and Season 12 - and, in-world, the low part of the song.) The Concord of Tessary is a great river delta and barrier archipelago at the mouth of the Aun, most of it below sea level. It stays dry only because of nine colossal towers of black singing stone - the Spires - publicly believed to be the work of a vanished race (the Builders). When a trained Cantor sings into a Spire, the stone answers and the sea obeys. Whoever holds a Spire decides which districts stay dry. The Helm is elected for life by a Conclave of eight votes; money is paper printed by a bank against deeds to dry land; the poor live below the waterline, pay a dry-tithe and are forbidden by law to sing. The Spires have been slowly detuning for three centuries. Low fantasy with one law of wonder: no dragons, prophecies, chosen ones or levels. Rating TV 16+.
 
 ## 2. World rules
 
@@ -48,7 +48,7 @@ id: RULE-003
 type: world_rule
 canon: approved
 area: magic
-rule: A Spire not sung each day, or sung badly, detunes and its answer weakens; a fully silent Spire lets the sea in within days; every Spire has lost some tone over 312 years (publicly: because the stone is old).
+rule: A Spire not sung each day, or sung badly, detunes and its answer weakens; a fully silent Spire lets the sea in within days - within hours on a storm tide, or where the Spire is already failing; every Spire has lost some tone over 312 years (publicly: because the stone is old).
 cost: Districts in sight of a weak Spire flood more often.
 limit: Detuning is slow (years) unless a Spire is damaged or deliberately left unsung.
 known_publicly: true
@@ -56,6 +56,8 @@ secrets: [SEC-008]
 ```
 
 The public cause (old stone) is a belief; the real cause is in SEC-008 and the sealed part.
+
+Amended in v0.4 (DEC-05): the clause "within hours on a storm tide, or where the Spire is already failing" keeps "days" true for healthy Spires (S4, S12) and explains the one-night flood of S1E10. S1E9 carries the line: *"The Sluice has been singing on two voices and a mute since the summer. Miss it one night in this weather and you won't have days."* (CY 312 census of the Sluice Spire: two voices and the mute Sabin - HS-090.)
 
 ```canon
 id: RULE-004
@@ -767,14 +769,14 @@ kind: ocean
 The ocean beyond the Sunk.
 
 
-## 5a. New places (v0.3, draft)
+## 5a. New places (v0.3; approved v0.4)
 
-Status: **draft** (the lead screenwriter approves). Source in each entry. The twelve sluices of the Highwater Lows are numbered First to Twelfth from the dike down to the sea; Cobbet wards the First to Fourth, Dunmore the Seventh to Twelfth (HS-013, HS-014). Only sluices that a character or event needs have a record.
+Status: **approved** (lead screenwriter, r3: PL-0070…0083). Source in each entry. The twelve sluices of the Highwater Lows are numbered First to Twelfth from the dike down to the sea; Cobbet wards the First to Fourth, Dunmore the Seventh to Twelfth (HS-013, HS-014). Only sluices that a character or event needs have a record.
 
 ```canon
 id: PL-0070
 type: place
-canon: draft
+canon: approved
 name: the Rim
 kind: region
 parent: PL-0050
@@ -786,7 +788,7 @@ Escarpment rim above the Stair: terrace forts, kite signal-towers; clan Den coun
 ```canon
 id: PL-0071
 type: place
-canon: draft
+canon: approved
 name: the Table House
 kind: building
 parent: PL-0005
@@ -798,7 +800,7 @@ Harrow Hall, the old seat of House Harrow on the Steps; Lantry foreclosed on it 
 ```canon
 id: PL-0072
 type: place
-canon: draft
+canon: approved
 name: Rimgate
 kind: fort
 parent: PL-0045
@@ -810,7 +812,7 @@ The one terrace fort Rusk kept after the Kite War (EV-0270); seat of the Hadden 
 ```canon
 id: PL-0073
 type: place
-canon: draft
+canon: approved
 name: the Goat Stair
 kind: path
 parent: PL-0045
@@ -822,7 +824,7 @@ Unguarded goat-path up the escarpment two miles from the Stair; the smugglers' a
 ```canon
 id: PL-0074
 type: place
-canon: draft
+canon: approved
 name: the Brackwater salt pans
 kind: works
 parent: PL-0055
@@ -834,7 +836,7 @@ Salt pans of the inner islands; Clan Jutt. Source: writer-houses.
 ```canon
 id: PL-0075
 type: place
-canon: draft
+canon: approved
 name: the Long Mole
 kind: harbour work
 parent: PL-0030
@@ -846,7 +848,7 @@ Gullmouth's mile-long mole with lantern posts every hundred paces, built by Lady
 ```canon
 id: PL-0076
 type: place
-canon: draft
+canon: approved
 name: the Concord Arsenal
 kind: works
 parent: PL-0006
@@ -858,7 +860,7 @@ Arsenal and powder mills in the Highwater Mids; every barrel bears the Arsenal r
 ```canon
 id: PL-0077
 type: place
-canon: draft
+canon: approved
 name: the Rusk House-in-Exile
 kind: building
 parent: PL-0006
@@ -870,7 +872,7 @@ Leased barracks block in the Mids; seat of House Rusk from Mistcall CY 313 (afte
 ```canon
 id: PL-0078
 type: place
-canon: draft
+canon: approved
 name: the Map Office
 kind: office
 parent: PL-0009
@@ -881,7 +883,7 @@ The Helm's Map Office in the Dry Palace, where the Inchley cartographers draw th
 ```canon
 id: PL-0079
 type: place
-canon: draft
+canon: approved
 name: Hobb's Gate
 kind: dike
 parent: PL-0038
@@ -893,19 +895,19 @@ Dike in the Moll polders where Lord Rawlin Moll was killed in the Furrow War (EV
 ```canon
 id: PL-0080
 type: place
-canon: draft
+canon: approved
 name: the Second Sluice
 kind: district
 parent: PL-0007
 held_by: HS-006
 ```
 
-Upper Lows (Cobbet wardens). Nim's lane. Source: keeper (for writer-characters).
+Upper Lows (Cobbet wardens). Tuck's lane. Source: keeper (for writer-characters).
 
 ```canon
 id: PL-0081
 type: place
-canon: draft
+canon: approved
 name: the Third Sluice
 kind: district
 parent: PL-0007
@@ -917,7 +919,7 @@ Upper Lows (Cobbet wardens); Mother Silt's birthplace. Source: keeper (for write
 ```canon
 id: PL-0082
 type: place
-canon: draft
+canon: approved
 name: the Fourth Sluice
 kind: district
 parent: PL-0007
@@ -929,7 +931,7 @@ Upper Lows (Cobbet wardens); Gant's treadmills. Source: keeper (for writer-chara
 ```canon
 id: PL-0083
 type: place
-canon: draft
+canon: approved
 name: the Fifth Sluice
 kind: district
 parent: PL-0007
@@ -949,7 +951,18 @@ Middle Lows; Captain Fitch's birthplace (SEC-033). Source: keeper (for writer-ch
 | Highwater | Lirenne shallows | - | 3 days by sail | - |  |
 | anywhere in the delta | anywhere in sight of a Spire | - | - | minutes (Relay tone-code) | line of sight only (RULE-004) |
 
-Travel times not given by the foundation (the Polders, the Shoals by land, the uplands on foot): to be set with the S2-S3 outlines.
+Overland and upland legs (DEC-64, approved; refined with the S2-S3 outlines only if a scene needs it):
+
+| Leg | Time |
+|---|---|
+| Highwater → Dask Barrows | 2 days by barge up the Aun · 3 days by dike road |
+| Dask Barrows → the Stair | 4 days upstream (Highwater → the Stair 6, as above) |
+| the Stair → Dask Barrows → Highwater, downstream | 2½ + 1½ days (4, as above) |
+| the Stair → the Rim (switchback road) | half a day; the Rim → the Shelf lakes: half a day |
+| the Rim → the inner terrace towns | 2–3 days on foot; kite-signal along the Rim: minutes |
+| Gullmouth ↔ Brackwater | 1 day by sail |
+| an army on dike roads | ~20 km a day: Highwater → the Stair 12 days |
+| a flood bore, the Stair → Highwater | about half a day (DEC-17): a bore does not tie up at night or wait at locks |
 
 ## 6. Saga objects (custody)
 
@@ -959,22 +972,23 @@ Exact owners by episode. The objects' origins before the saga, where restricted,
 |---|---|---|
 | **Pell's echo-shard** | cracked black stone no bigger than a thumbnail, on a cord | found by Pell in the back-canal (PL-0020) S01E01 → hidden in Nan's net-chest S01E03 → Pell → Ione S04E08 → Pell S04E11 → Pell to the end (cracks further S09E05) |
 | **Ruel's black pearl ring** ("the Admiral's Pearl") | black pearl, hinged and hollow, on Ruel's **left** hand | Ruel to S01E09 (on his hand at the wake) → Maren takes it at the wake and hides it S01E11 → hidden S2-S6 (Ysa knows she has it, S02E10) → worn openly by Maren from S06E12 → coronation S09E12 → Maren to S12E11 |
-| **Hollis's brass ledger-clip** | brass clerk's clip | Ursel → Hollis S01E01 → Hollis (on every copy S2-S4) → found melted in the fire S06E09 → seen again S10E05 (Quire's seal), S11E06, S12E13 (see report: custody gap S06E09 → S10E05) |
+| **Hollis's brass ledger-clip** | brass clerk's clip | Ursel → Hollis S01E01 → Hollis (on every copy S2-S4) → found melted in the fire S06E09 → (S06E10 → S10E05: `sealed/`, DEC-48) → seen again S10E05, S11E06, S12E13 |
 | **Ione's tuning fork** | silver tuning-fork pendant | Ione S01E01 → Pell S04E12 → struck on a tide-post S05E01 → gives the Great Chorus its pitch S12E12 |
 | **Nan's spiral-shell earring** | single spiral-shell earring, left ("it had a mate") | Nan S01E02 → Pell wears it from S02E08 (left ear) |
 | **Wick's cap** | Maren's Corvane cadet cap | stolen by Wick S01E02 → worn on watch (S2, S5) → Maren finds it on his body at the Ninth Bridge S09E10 |
 | **Corr's sawn pump-pin** | clean-sawn treadmill axle-pin | pocketed by Corr S01E10 → on Dorran's desk S05E08 |
 | **Silt's book of sold men** | ledger | Mother Silt (from S04E10) → Tibb S09E05 → source of Pell's knowledge S10E11 |
-| **Lucan's sealed chest / will** | the unsigned Tithe Map with Ursel's marginal notes | withheld by Garrick S01E12 → surfaces S02E06 |
+| **Lucan's sealed chest** | a sealed chest: Lucan's will **and** the unsigned Tithe Map with Ursel's marginal hand and the Inchley draft marks (SEC-037) (DEC-49) | withheld by Garrick S01E12 ("everything but one sealed chest") → opened S02E06 |
+| **The Breaking spears** ("the Ilvane spearheads") | white-bronze leaf-shaped spearheads stamped with the open hand of Ilvane; a rack kept as relics in the Pale Crag crypt. Public reading: "the spears that ended the mad Queen's guard" (DEC-12) | the Pale Crag crypt (PL-0040); first seen S02E05, again S03E06 |
 
-## 7. Power and money (draft, v0.3)
+## 7. Power and money (v0.3; approved v0.4)
 
-Status: **draft** (writer-houses, `studio/story/houses/power_and_money.md`, 2026-11-22; merged by lore-keeper; the lead screenwriter approves). Laws and customs that the stories rely on are machine records RULE-015...024 (law / custom / economy); the text below is the dossier, with IDs updated. §5, §6 and §9 contain secrets (writers' room only).
+Status: **approved** (writer-houses, `studio/story/houses/power_and_money.md`, 2026-11-22; merged by lore-keeper; approved by the lead screenwriter in r3; §7.10 stays a draft working sheet for the sound director). Laws and customs that the stories rely on are machine records RULE-015...024 (law / custom / economy); the text below is the dossier, with IDs updated. §5, §6 and §9 contain secrets (writers' room only).
 
 ```canon
 id: RULE-015
 type: world_rule
-canon: draft
+canon: approved
 area: law
 rule: A Conclave voice is cast by the head of the voting house or by a voice-bearer carrying the head's seal-ring; a bearer under 21 must be confirmed by the house's eldest adult member; the Choir's voice is cast by the First Cantor or her Voice; the Helm votes only through his own house.
 cost: A young heir depends on the elder who confirms (Ysa's condition, S01E11).
@@ -982,12 +996,12 @@ limit: Confirmation is per vote.
 known_publicly: true
 ```
 
-Open point for the lead: DEC-03.
+Approved (DEC-03, r3): in S1 only this Ring law is spoken (S1E9, Odo's Challenge of the Voice: Maren is 19).
 
 ```canon
 id: RULE-016
 type: world_rule
-canon: draft
+canon: approved
 area: law
 rule: A Helm is elected on the first Still Days at least thirty days after the death or removal; the Master of the Hearings keeps the roll; any head of a voting house or anyone sponsored by two seats may stand; each pending Challenge of the Voice or of Precedence postpones the vote by one Still Day; the vote must be taken before dusk on the fifth Still Day; challenges go to the Hearings except when Fennick is a party (then the unchallenged seats decide); seats vote from the youngest seal to the oldest.
 cost: Odo is judge in his own election everywhere but the Ring (S1).
@@ -995,12 +1009,12 @@ limit: Interregnum: the Ring governs by simple majority of seats present; the la
 known_publicly: true
 ```
 
-Open point for the lead: DEC-07.
+Approved (DEC-07, r3): the Night of a Thousand Voices is Still 3, CY 320 (EV-0319); the election follows on the Still Days of CY 321 (S6).
 
 ```canon
 id: RULE-017
 type: world_rule
-canon: draft
+canon: approved
 area: law
 rule: Since CY 1 one voice of the Ring - the Hill Voice, given to House Harrow for surrendering its Hill Spire to the Helm's office (the Crown Spire) - belongs to a house and not to a Spire; it can therefore be bequeathed (Lantry, CY 252) and is the precedent for Rusk's voice in exile and the Guild's claim.
 cost: A standing quarrel: every vote of a voice without a Spire can be challenged.
@@ -1008,12 +1022,12 @@ limit: The Ring has never voted on the precedent.
 known_publicly: true
 ```
 
-Open point for the lead: DEC-02.
+Approved (DEC-02, r3).
 
 ```canon
 id: RULE-018
 type: world_rule
-canon: draft
+canon: approved
 area: custom
 rule: Sea Right of House Corvane: only one who has commanded a ship of the line becomes head; until then the eldest adult kin on land holds the seal in trust and confirms the heir's acts.
 cost: Gives Lady Ysa legal power over Maren (S1-S2).
@@ -1021,25 +1035,25 @@ limit: House law of Corvane only.
 known_publicly: true
 ```
 
-Open point for the lead: DEC-03.
+Approved (DEC-03, r3): seen in S1E11 (the Corvane seal stays on Ysa's hand when she confirms Maren), first named in S2. Heads of HS-001 after Ruel: `houses/HS-001-corvane.md` (DEC-31).
 
 ```canon
 id: RULE-019
 type: world_rule
-canon: draft
+canon: approved
 area: custom
-rule: The Choir retunes the Spires on the Still Days in a fixed, public order: Still 1 Storm and Sentinel; Still 2 Sheaf and Pale; Still 3 Highwater's three - Choir at dawn, Crown at noon, Sluice at dusk; Still 4 Falls (Cantors travel upriver beforehand) and the Lament for the Drowned over Lirenne; Still 5 the Joining, every Spire sung together at dusk.
+rule: The Choir retunes the Spires on the Still Days in a fixed, public order: Still 1 Storm and Sentinel; Still 2 Sheaf and Pale; Still 3 Highwater's three - Choir at dawn, Crown at noon, Sluice at dusk; Still 4 Falls (Cantors travel upriver beforehand) and the Lament for the Drowned over Lirenne; Still 5 the Joining, every Spire sung together at dusk. Retuning means the Spire is let fall silent for some hours and then woken by the retuning song; a Spire in mid-retuning does not answer an ordinary solo tide-song.
 cost: Still 3 is the most dangerous day in Highwater (S1 flood, S4 wave).
 limit: Public knowledge: it points at nobody.
 known_publicly: true
 ```
 
-Open point for the lead: DEC-04.
+Approved with the retuning clarification (DEC-04, r3).
 
 ```canon
 id: RULE-020
 type: world_rule
-canon: draft
+canon: approved
 area: economy
 rule: The Tithe Map sets four tiers of song: First Song (always sung; 12 coppers a month per household), Second Song (sung if voices allow; 6), Last Song (if voices remain; 3), Let Go (not sung, pumps only, tithe forgiven; drowned deeds go "for reclamation" under the Dry Charter model). A district can buy a lift (~500 marks a year to the Spire's holder).
 cost: The value of the realm's money is decided every year by the map (dry-notes are backed only by land above Let Go).
@@ -1051,7 +1065,7 @@ secrets: [SEC-007]
 ```canon
 id: RULE-021
 type: world_rule
-canon: draft
+canon: approved
 area: economy
 rule: Money: the mark is a silver coin worth 60 coppers; dry-notes of the Counting House come in 1, 5, 10, 50 and 100 marks, backed (Paper Ordinance, CY 224) by deeds above the waterline in the Dry Book, countersigned by a Merriden notary, with a silver reserve of about one mark in twenty.
 cost: Notes on drowned land are worthless ("wet notes").
@@ -1063,7 +1077,7 @@ secrets: [SEC-007]
 ```canon
 id: RULE-022
 type: world_rule
-canon: draft
+canon: approved
 area: custom
 rule: The Ossari Dry Queen is an office, not a crown: when the Udra knot-reckoners declare the wells below the red knot, the council of clan mothers gives "the dry" to a daughter with full power over water, grain and war until the wells rise above the red knot again; her badge is a copper ring in the left ear.
 cost: Relief from thirst weakens the Dry Queen (CY 314, CY 320).
@@ -1071,12 +1085,12 @@ limit: Always a woman by the clan mothers' custom.
 known_publicly: true
 ```
 
-Open point for the lead: DEC-09.
+Approved (DEC-09, r3).
 
 ```canon
 id: RULE-023
 type: world_rule
-canon: draft
+canon: approved
 area: custom
 rule: The Exchange of Sleeves (Stair Treaty, CY 142): each generation the clans send a child of a ruling family to live at the Stair and Rusk sends one of its own to the Rim, each wearing the other's sleeve as a sign of guest-right; Rusk stopped sending after CY 206.
 cost: The uplands count Rusk's broken half as the oldest unpaid debt.
@@ -1087,7 +1101,7 @@ known_publicly: true
 ```canon
 id: RULE-024
 type: world_rule
-canon: draft
+canon: approved
 area: magic
 rule: A Spire is safe with about eight voiced Cantors (daily tide-songs and a rested reserve for a storm); below five it detunes faster; below three it is sung in shifts and by children; a Cantor's voice lasts about fifteen to twenty years of service, less with Great Songs.
 cost: Weaker Spires need more Great Songs, which burn voices faster - the shortage feeds itself (census: HS-090).
@@ -1096,7 +1110,7 @@ known_publicly: false
 secrets: [SEC-005]
 ```
 
-Open point for the lead: DEC-11.
+Approved with the census in HS-090 (DEC-11, r3). Numbers stay off screen; one line pays it in S5E6 (Ione's journal: every Ilvane-born Cantor of her lifetime had a Lows nurse).
 
 ### 7.1 The Conclave (the Ring)
 
@@ -1127,7 +1141,7 @@ The Charter of the Ring (CY 1, EV-0101) gave the realm **eight voices** and set 
 #### 7.1.3 Calling a Helm vote
 1. **Death or removal** of a Helm is announced by the Relay's **death-tone** (S1E1).
 2. The **Master of the Hearings** (Fennick since the Clerks' Ordinance, CY 160) keeps the Ring's roll and proclaims the vacancy.
-3. **Date:** by law a Helm is chosen on the **Still Days** — the first Still Days at least thirty days after the death. (Lucan dies Longdark 6, CY 312 → the Still Days of CY 312, "thirty days". Odo dies on the Night of a Thousand Voices, CY 320 → the Still Days of CY 321 — *this needs S5E11 to fall less than thirty days before the Still Days of CY 320 (Longdark or the Still Days themselves); DEC-07*.)
+3. **Date:** by law a Helm is chosen on the **Still Days** — the first Still Days at least thirty days after the death. (Lucan dies Longdark 6, CY 312 → the Still Days of CY 312, "thirty days". Odo dies on the Night of a Thousand Voices, Still 3 of CY 320 (CY 320-11-03, EV-0319) → the Still Days of CY 321 (S6), DEC-07.)
 4. **Interregnum:** the Ring governs by simple majority of seats present; the Crown Spire is sung by the Choir; the Tithe Map in force is the last one signed.
 5. **Candidates:** any head of a voting house, or anyone sponsored by two seats.
 
@@ -1306,7 +1320,9 @@ Run by House Fennick since the Clerks' Ordinance (CY 160). Courts in the Listeni
 | Still 4 | **Falls** (Cantors travel upriver beforehand); in Highwater the **Lament for the Drowned** — Cantors in boats over Lirenne, no answer expected | |
 | Still 5 | **the Joining** — every Spire sung together at dusk | the Helm vote must be cast before dusk |
 
-> DEC-04: this schedule is public knowledge in-world. It makes Still 3 the obvious day for anyone who wants Highwater's Spires silent — relevant to the staging of SEC-024 (S4), but it points at no one: every power in the delta knows the schedule.
+**Retuning (DEC-04, approved):** the Spire is let fall silent for some hours, then woken by the retuning song; a Spire in mid-retuning does not answer an ordinary solo tide-song. In CY 312 the Sluice Spire falls silent at dusk on Still 3 and its retuning song never comes (EV-0304, EV-0305).
+
+> The schedule is public knowledge in-world: every power in the delta knows it, and it points at no one.
 
 ---
 
@@ -1324,7 +1340,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 6 | **Priority songs** | Choir chapter | Cantors on the crown | districts that can't pay | Ione (S1), Elm | S1E7–E8 | the Choir's bank debt → **the Choir votes Fennick** (**S1E12**) |
 | 7 | **† Ear-money** (SEC-029) | Gleaner novices | an Undertow under-boss | Lows children (Patch) | Silt (S4E6), Ione | S1E5 → S4E6 | Silt's ledger → the songblood doctrine falls (**S5E6**) |
 | 8 | **† Pump "breakage"** (SEC-028) | Guild masters | journeymen, warden clerks | Ninth Sluice (doubled dead) | Corr (holds the pin), Dorran | S1E5 → S5E8 | the walkers force the Guild to hold Ninth Sluice on the Night of a Thousand Voices (**S5**) |
-| 9 | **† Gate passes** | Dunmore warden's clerk | Rusk guardsmen | families without passes | Kes (S1E4, E10) | S1E10 | Kes opens the gate → stripped, sent to the Stair (**S1E12 → S3**) |
+| 9 | **† Gate passes** (three floors, DEC-55) | Dunmore warden's clerk issues (5 marks a family); the Rusk quartermaster's office strikes extra copies | guardsman Ansel Fray sells them at the gate (S1E4) | families without passes | Kes (S1E4, E10) | S1E4, S1E10 | Kes opens the gate → stripped, sent to the Stair (**S1E12 → S3**) |
 | 10 | **Relief bread** at triple price | Garrick, Orsley | barge-masters (Gillam), Undertow middlemen | the Lows | Pell (S1E5) | S1E5 | Dask's vote is bought with bread → **Odo Helm** (**S1**) |
 | 11 | **Flag-hiring** (other houses' seals on barges) | Gillam | lock-keepers who look away | rival convoys | Maren (S2) | S1E5, S2E11 | Dask barges block the canal → Maren loses the Sluice Gates (**S2**) |
 | 12 | **† Storm-berths and padded powder** | Corvane flag-captains (Whitlow) | pursers, gunners' mates | wrecked merchant crews; Lows gunners | Nell Tern, Maren (S2E11) | S2E11 | guns silent → Maren loses the Helm's War; the Sovereign's war on small thieves (**S2 → S10**) |
@@ -1339,14 +1355,14 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 21 | **† The Hum hires out singers** | Pell | Hum circles | — | the Choir, Maren | S6 | houses with failing Spires buy Lows voices → **Maren elected** (**S6**) |
 | 22 | **† Lirenne salvage bonds + a pretender** (SEC-016) | Tarrow brokers, Piers Lantry | barge-sellers, Lio | ruined savers | Pell, Jaro (who exposes it in S8E6 is the lead's) | S6E5 → S8E6 | splits the Lows' vote (**S6**); pays for the Raising (**S9**) |
 | 23 | **Notes for swords** — free companies paid in dry-notes | the bank, Helm Odo | company captains (Rook Danner) | the companies' men | Maren, Jaro | S6E11 | the mercenary fleet changes sides mid-battle → the Battle of the Shoals (**S6**) |
-| 24 | **The Purchased Seat's deathbed will** (SEC-036) | Lantry clerks (CY 251), Fennick witness | — | Harrow's natural line (Kilbride) | Zev (Hearings, S7), Piers | S6–S7 (proposal) | who votes the Hill Voice after the bank falls (**S7**) — needs the lead's decision |
+| 24 | **The Purchased Seat's deathbed will** (SEC-036) | Lantry clerks (CY 251), Fennick witness | — | Harrow's natural line (Kilbride) | Zev (Hearings, S7), Piers | S7E4–E5 (DEC-39) | Piers casts the Purchased Seat from S6E12 and through S7–S9 under challenge; the Hearings never rule — the suit is still pending when the Conclave is dissolved (S9E12) |
 
-Rows 1–23 change a named decision of the Steps in the season given; row 24 is an offered hook. Every season S1–S9 has at least one Lows or Mids scheme in this table that moves the top (S1: 2, 8, 9, 10; S2: 11, 12, 19; S3: 15; S4: 16; S5: 8; S6: 18, 20, 21, 22; S7: 16; S8: 22; S9: 22); S10–S12 continue through rows 12 and 17 and the lead's own outlines.
+Rows 1–24 change or freeze a named decision of the Steps in the season given (row 24: DEC-39). Every season S1–S9 has at least one Lows or Mids scheme in this table that moves the top (S1: 2, 8, 9, 10; S2: 11, 12, 19; S3: 15; S4: 16; S5: 8; S6: 18, 20, 21, 22; S7: 16; S8: 22; S9: 22); S10–S12 continue through rows 12 and 17 and the lead's own outlines.
 
 
 ### 7.10 Spire home tones (draft, for the sound director)
 
-Proposal of writer-houses (`studio/story/houses/art_and_music_sheet.md` §5). Canon fixes only that each house theme is built on its Spire's tone and that relay stones ring only on the high home-tones (RULE-004).
+Still **draft** in v0.4: a working sheet (decisions_resolved 3.4), confirmed by the composer and the sound director at the style and voice tests. Proposal of writer-houses (`studio/story/houses/art_and_music_sheet.md` §5). Canon fixes only that each house theme is built on its Spire's tone and that relay stones ring only on the high home-tones (RULE-004).
 
 | Spire | Home tone | House theme |
 |---|---|---|
@@ -1363,9 +1379,9 @@ Proposal of writer-houses (`studio/story/houses/art_and_music_sheet.md` §5). Ca
 No house theme uses the low register as its tonic.
 
 
-## 8. Life of the Lows and the Mids (draft, v0.3)
+## 8. Life of the Lows and the Mids (v0.3; approved v0.4)
 
-Status: **draft** (writer-characters, `studio/story/characters/lows_and_mids_life.md`, 2026-11-22; merged by lore-keeper without the story hooks; slang of §11 is in `glossary.md`). Folk beliefs are marked **(belief)**. Agrees with §7 (prices, wages, 1 mark = 60 coppers). The Lows' Still 3 "Remembering" (lanterns) and the Choir's Still 4 "Lament for the Drowned" (RULE-019) are two different rites.
+Status: **approved** by the lead screenwriter in r3 (writer-characters, `studio/story/characters/lows_and_mids_life.md`, 2026-11-22; merged by lore-keeper without the story hooks; slang of §11 is in `glossary.md`). Folk beliefs are marked **(belief)**. Agrees with §7 (prices, wages, 1 mark = 60 coppers). The Lows' Still 3 "Remembering" (lanterns) and the Choir's Still 4 "Lament for the Drowned" (RULE-019) are two different rites.
 
 ### 8.1 Work
 
@@ -1458,7 +1474,7 @@ The Hush Law (RULE-006) forbids commoners to sing within sight of a Spire; work-
 ---
 
 ### 8.8 Crime and the Undertow
-- **Structure (proposal):** **Mother Silt** on her barge-palace; one **under-boss per sluice or trade** (Gant of the Fourth runs treadmills; others run moorings, the shard trade, the dry-pledges); **fences** (Nim) who buy from mudlarks; **mouths** who sell rumour; **runners** (children, paid in food).
+- **Structure (proposal):** **Mother Silt** on her barge-palace; one **under-boss per sluice or trade** (Gant of the Fourth runs treadmills; others run moorings, the shard trade, the dry-pledges); **fences** (Tuck) who buy from mudlarks; **mouths** who sell rumour; **runners** (children, paid in food).
 - **Trades:** smuggling (salt, echo-chips, powder in war); the **dry-pledge** racket; **salvage-rights** fights; the echo-shard black market; **fake drownings**; debt-buying and debt-walkers; hiring out men "with no questions" (S4E10, `[SEALED]` what for).
 - **Silt's law:** everything is sold; no child is. (SEC-029 breaks it from inside.)
 - **Undertow punishments:** "put on the wheel" (walk a debt you didn't owe); "given to the ebb" (drowned) for informers; the law's punishment is the **tide-post**.

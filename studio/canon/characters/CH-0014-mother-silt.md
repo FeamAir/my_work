@@ -1,8 +1,8 @@
 # Mother Silt (CH-0014)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0014
@@ -12,13 +12,15 @@ name: Mother Silt
 house: HS-093
 class: outlaw
 role: major
-born: ~CY 258
-died: ~CY 324
+born: CY 258-03
+died: CY 324-07
 died_at: PL-0055
-relations: [CH-0046:heir]
+relations: [CH-0046:heir, CH-0021:ally, CH-0054:informant_of, CH-0073:enemy, CH-0074:employer_of, CH-0064:protector, CH-0048:ally]
 secrets: [SEC-029]
 status_track: [S01E05:alive, S09E05:dead]
 first_episode: S01E05
+epithet: Mother Silt
+born_at: PL-0081
 ```
 
 ## Look (story-level, must never change)
@@ -44,23 +46,13 @@ Boss of the Undertow. Second circle S1–S3, main from S4. Dies in the surge aft
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
-Not merged — the approved value is kept: `name: Silt` (kept canon); `died: CY 325` (DEC-23).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
+Not merged — `name: Silt` kept; the dossier's `died: CY 325` was rejected (DEC-23: the First Raising is Ember CY 324, `died: CY 324-07`).
 
-```canon
-id: CH-0014
-type: character
-canon: draft
-amend: true
-epithet: Mother Silt
-born: CY 258-03
-relations: [CH-0021:ally, CH-0054:informant_of, CH-0073:enemy, CH-0074:employer_of, CH-0064:protector, CH-0048:ally]
-born_at: PL-0081
-```
 
-> Writer's note (dossier): First seen: her barge in S1E5 (her fence speaks for her in S1E2). Born in the Third Sluice (PL pending; proposal). Died S9E5 in the surge after the First Raising, on the Shoals (CY 324–325; keeper to fix). SEC-024 listed only for the S4E10 hiring she never forgives herself — its meaning is [SEALED — ask lead]. CH-0073 (Gant), CH-0074 (Nim) are new-character proposals in `_minor-lows.md`. Main from S4.
+> Writer's note (dossier): First seen: her barge in S1E5 (her fence speaks for her in S1E2). Born in the Third Sluice (PL pending; proposal). Died S9E5 in the surge after the First Raising, on the Shoals (CY 324–325; keeper to fix). SEC-024 listed only for the S4E10 hiring she never forgives herself — its meaning is [SEALED — ask lead]. CH-0073 (Gant), CH-0074 (Tuck) are new-character proposals in `_minor-lows.md`. Main from S4.
 
 ### Look (story-level, for the art team)
 - **Age band and build:** woman of 54; heavy, slow, seated more than standing; powerful arms.
@@ -87,9 +79,9 @@ born_at: PL-0081
 - **Heroism:** she **gets the children out** — in the end at the cost of her life (S9E5).
 
 ### Biography
-Born in the Third Sluice (proposal), sold onto a treadmill as a debt-walker at nine for her father's debt; walked it for six years, the brand still on her hand. She came off the wheel by stealing the debt-book of the man who owned her. From that day she has run on two rules: everything is for sale, and no child is. Over thirty years she built the Undertow — the dry-pledge racket, the shard trade, the rumour "mouths", the barge-palace in the Lows. She sells to the Listeners, to the bank, to Corvane sailors and to the Lows; Widow Pruitt informs for her; her fence Nim deals with the mudlarks.
+Born in the Third Sluice (proposal), sold onto a treadmill as a debt-walker at nine for her father's debt; walked it for six years, the brand still on her hand. She came off the wheel by stealing the debt-book of the man who owned her. From that day she has run on two rules: everything is for sale, and no child is. Over thirty years she built the Undertow — the dry-pledge racket, the shard trade, the rumour "mouths", the barge-palace in the Lows. She sells to the Listeners, to the bank, to Corvane sailors and to the Lows; Widow Pruitt informs for her; her fence Tuck deals with the mudlarks.
 
-In S1 her barge is on Pell's road; she buys Pell's salvage and, through Nim, is the first to hear of a stone that "sings". She is fond of Pell without showing it.
+In S1 her barge is on Pell's road; she buys Pell's salvage and, through Tuck, is the first to hear of a stone that "sings". She is fond of Pell without showing it.
 
 In S4 she learns that one of her own under-bosses, Gant, has been buying "ear-tested" children from Gleaner novices and selling them as debt-walkers — the ear-money (SEC-029). She purges him, and her purge exposes the Gleaners (E6). Her ledger later becomes proof of the ear's true nature (S5E6). In S4E10 the Undertow hires out men, no questions asked — a hiring she never forgives herself (`[SEALED — ask lead]`). From then on she keeps the "book of sold men".
 

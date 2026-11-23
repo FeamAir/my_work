@@ -1,8 +1,8 @@
 # House Harrow (HS-009)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-009
@@ -10,8 +10,15 @@ type: house
 canon: approved
 name: House Harrow
 rank: extinct
-extinct: CY 251
-lands: [PL-0016]
+extinct: CY 251-11
+lands: [PL-0016, PL-0004, PL-0014, PL-0008]
+words: The hill holds.
+sigil: a grey harrow (field-rake) over a green hill, on white
+colors: [moss green, white]
+seat: PL-0071
+founded: ~OS 400
+heads: [CH-0271@~OS 690, CH-0270@CY 249]
+alliances: [HS-006:steward@CY 9, HS-007:debtor@CY 224, HS-013:sworn@~OS 400, HS-014:sworn@~OS 400, HS-032:natural_line@CY 240]
 ```
 
 - **Fate:** founding house; died out CY 251 (EV-0253). Sluice Spire to Fennick; its vote sold to Lantry in CY 252 (EV-0254).
@@ -19,25 +26,10 @@ lands: [PL-0016]
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-009
-type: house
-canon: draft
-amend: true
-words: The hill holds.
-sigil: a grey harrow (field-rake) over a green hill, on white
-colors: [moss green, white]
-seat: PL-0071
-lands: [PL-0004, PL-0014, PL-0008]
-founded: ~OS 400
-extinct: CY 251-11
-heads: [CH-0271@~OS 690, CH-0270@CY 249]
-alliances: [HS-006:steward@CY 9, HS-007:debtor@CY 224, HS-013:sworn@~OS 400, HS-014:sworn@~OS 400, HS-032:natural_line@CY 240]
-```
 
 ### Public history
 
@@ -52,17 +44,17 @@ alliances: [HS-006:steward@CY 9, HS-007:debtor@CY 224, HS-013:sworn@~OS 400, HS-
 **Who took what (CY 251–252):**
 | Harrow's | Went to | How |
 |---|---|---|
-| Sluice Spire + Sluice Voice + the twelve sluices' tithe | **Fennick** (raised to great house, CY 251-11) | Conclave vote 5–3 |
-| Hill Voice | **Lantry** — "the Purchased Seat" (CY 252) | Osbert's last will: "to the holder of my debts"; confirmed by the Ring 5–3 |
+| Sluice Spire + Sluice Voice + the twelve sluices' tithe | **Fennick** (raised to great house, CY 251-11) | Conclave vote 5–3 (both Harrow voices cast by the Fennicks as Harrow's stewards, DEC-06) |
+| Hill Voice | **Lantry** — "the Purchased Seat" (CY 252) | Osbert's last will: "to the holder of my debts"; confirmed by the Ring 5–2 (the Hill Voice empty, DEC-06) |
 | Harrow Hall | Lantry (the Table House) | foreclosure |
 | sluice-warden vassals (Dunmore, Cobbet) | Fennick | with the Spire |
 | a natural son's line | House Kilbride (HS-032) | not recognised |
 
-**Heads of house:** Aldous (~OS 690 – CY 17) · Thurstan (17–52) · Lambert (52–80; Helm 58–80) · Baldwin (80–118) · Hugo (118–150) · Anselm (150–183) · Jocelyn (183–209) · Tancred (209–249; Helm 221–249) · Osbert (249–251).
+**Heads of house:** Aldous (~OS 690 – CY 17) · Thurstan (17–52) · Lambert (52–80; Helm 58–80) · Baldwin (80–118) · Hugo (118–150) · Crispin (150–183) · Jocelyn (183–209) · Tancred (209–249; Helm 221–249) · Osbert (249–251).
 
 ### True history
 
-- **The deathbed will (proposal, new secret SEC-036).** Osbert Harrow's last will was drafted by Lantry clerks while he was in the fever, and witnessed by the Fennick Relay-Master; an earlier will, made in CY 247, left the Hill Voice to his natural son's line (Kilbride, HS-032). The Kilbrides still hold a copy. In law, a voice can be bequeathed (the Hill Voice was created as the house's property) — so the earlier will, if proven, would make the Purchased Seat a theft. Use: after the bank falls (S6E9–E10), the Purchased Seat is up for grabs; a Kilbride claim is a ready-made S7 complication (who votes the Hill Voice when Piers "inherits the ruins"?). Question to the lead (DEC-39).
+- **The deathbed will (SEC-036; revealed S7E5 in the Kilbride suit, DEC-39).** Osbert Harrow's last will was drafted by Lantry clerks while he was in the fever, and witnessed by the Fennick Relay-Master; an earlier will, made in CY 247, left the Hill Voice to his natural son's line (Kilbride, HS-032). The Kilbrides still hold a copy. In law, a voice can be bequeathed (the Hill Voice was created as the house's property) — so the earlier will, if proven, would make the Purchased Seat a theft. Use: after the bank falls (S6E9–E10), the Purchased Seat is up for grabs; a Kilbride claim is a ready-made S7 complication (who votes the Hill Voice when Piers "inherits the ruins"?). Question to the lead (DEC-39).
 - No great-house secret from the brief touches Harrow.
 
 ### Culture and look (for history montages)

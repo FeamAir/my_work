@@ -1,8 +1,8 @@
 # Odo Fennick (CH-0010)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0010
@@ -13,11 +13,14 @@ epithet: the Listener
 house: HS-006
 class: ruler
 role: antagonist
-born: CY 257
-died: CY 320
-relations: [CH-0053:captain]
+born: CY 257-01
+died: CY 320-11-03
+relations: [CH-0053:captain, CH-0011:client_of, CH-0017:ally, CH-0051:briber_of, CH-0252:spouse]
 status_track: [S01E01:alive, S05E11:dead]
 first_episode: S01E01
+father: CH-0251
+mother: CH-0253
+born_at: PL-0004
 ```
 
 ## Look (story-level, must never change)
@@ -45,24 +48,12 @@ Master of the Relay and the Hearings; Helm from S01E12 (EV-0306). Rules by "List
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 Not merged — the approved value is kept: `class: noble` (kept canon).
-`died: CY 320-11` places the Night of a Thousand Voices on the Still Days of CY 320 — DEC-07.
+`died: CY 320-11-03`: the Night of a Thousand Voices is the night of Still 3, CY 320 (DEC-07); the election follows on the Still Days of CY 321.
 
-```canon
-id: CH-0010
-type: character
-canon: draft
-amend: true
-born: CY 257-01
-died: CY 320-11
-relations: [CH-0011:client_of, CH-0017:ally, CH-0051:briber_of, CH-0252:spouse]
-father: CH-0251
-mother: CH-0253
-born_at: PL-0004
-```
 
 > Writer's note (dossier): Parents and wife (Zev's mother): writer-houses. Born and died in Highwater (PL pending); killed by Hollis on the Night of a Thousand Voices (S5E11, CY 320 storm season — keeper to fix the day). His surface secret (he did NOT poison the Helm) is SEC-001's cover story, not a separate secret.
 

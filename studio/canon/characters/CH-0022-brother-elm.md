@@ -1,8 +1,8 @@
 # Brother Elm (CH-0022)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0022
@@ -13,11 +13,12 @@ epithet: the Voice
 house: HS-090
 class: clergy
 role: major
-born: CY 290
+born: CY 290-05
 died: CY 323
 secrets: [SEC-012]
 status_track: [S01E03:alive, S08E09:dead]
 first_episode: S01E03
+relations: [CH-0045:rival, CH-0060:ally, CH-0065:fellow_quiet]
 ```
 
 ## Look (story-level, must never change)
@@ -42,19 +43,11 @@ Vesna's "Voice" and interpreter; officially a foundling novice. Executed by the 
 
 ---
 
-## Dossier (draft) — writer-characters, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters, 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 Not merged — the approved value is kept: `name: Elm` (kept canon); `epithet: Brother Elm, the Voice` (kept canon).
 
-```canon
-id: CH-0022
-type: character
-canon: draft
-amend: true
-born: CY 290-05
-relations: [CH-0045:rival, CH-0060:ally, CH-0065:fellow_quiet]
-```
 
 > Writer's note (dossier): Main from S2 (surprise POV inside the Choir). Executed by the Choir, S8E9 (CY 323). Lows-born, a Quiet child placed in the Choir (SEC-012): born_at Lows (which sluice: [ask lead]); his birth parents: [ask lead] — not invented here. Relations to Ione (friend) and Vesna (voice) live in their lower-ID records.
 

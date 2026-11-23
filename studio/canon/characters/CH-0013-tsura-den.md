@@ -1,8 +1,8 @@
 # Tsura Den (CH-0013)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0013
@@ -13,9 +13,9 @@ epithet: the Dry Queen
 house: HS-091
 class: ruler
 role: major
-born: ~CY 270
+born: CY 270-08
 died: SY 2
-relations: [CH-0047:general]
+relations: [CH-0047:general, CH-0071:sibling, CH-0072:envoy, CH-0018:enemy, CH-0078:companion]
 secrets: [SEC-008, SEC-019]
 status_track: [S02E01:alive, S11E10:dead]
 first_episode: S02E01
@@ -45,20 +45,12 @@ War-leader of the Ossari kite-clans. Seen only as kites at the end of S1; POV fr
 
 ---
 
-## Dossier (draft) — writer-characters, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters, 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
-Not merged — the approved value is kept: `status_track: [S01E12:alive, S11E10:dead]` (DEC-24); `first_episode: S01E12` (DEC-24).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
+Not merged — the dossier's `first_episode: S01E12` was rejected (DEC-24: first appearance S2E1; the kites of S1E12 are not an appearance); `house` in the dossier wording not approved (3.3).
 Relation to Esk is recorded only as parentage (CH-0040 `true_mother`), never as a public relation.
 
-```canon
-id: CH-0013
-type: character
-canon: draft
-amend: true
-born: CY 270-08
-relations: [CH-0071:sibling, CH-0072:envoy, CH-0018:enemy]
-```
 
 > Writer's note (dossier): house: Ossari kite-clans — writer-houses to give an HS id (and her clan). In S1E12 she is only kites on the escarpment; first seen in person S2E1 (cold open, reading Esk's kite). CH-0071 (Dakka Den, sister) and CH-0072 (Itsek, envoy) are new-character proposals — see `_minor-ossari.md`. SEC-024 is listed only because the world believes she breached the weir; the truth is [SEALED — ask lead]. Died SY 2, S11E10.
 
@@ -89,7 +81,7 @@ relations: [CH-0071:sibling, CH-0072:envoy, CH-0018:enemy]
 ### Biography
 War-leader of the Ossari kite-clans, chosen by the clan council in the dust years (writer-houses: council, clans, date). Her people's rivers and wells have been dying for generations; the Concord says the stone is old and the rains are fickle. She knows the falls swell on days without rain and cannot prove why (SEC-008, believed from S3, proven S7E10).
 
-Esk is **her son**, given to the Stair as a hostage under a border truce as "her nephew" (SEC-019); his official mother is her sister Dakka (proposal). She has watched his kite from the rim for five years.
+Esk is **her son**, given to the Stair as a hostage under a border truce as "her nephew" (SEC-019); his official mother is her sister Dakka. She has watched his kite from the rim for three years (since CY 309, DEC-20). Esk's father was Akko of Kitsa, her companion, killed in the Rim Skirmish (DEC-33; part of SEC-019).
 
 In S4 her people build a weir at the lip of the falls; in council (E9) she threatens to breach it; on the third Still Day it goes, and the wave runs down the Aun. She **does not deny it** `[SEALED — ask lead]`, and takes the Weir Terms.
 

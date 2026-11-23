@@ -1,8 +1,8 @@
 # Nan Oshra (CH-0015)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0015
@@ -18,6 +18,8 @@ died: CY 313
 secrets: [SEC-002, SEC-003, SEC-004, SEC-012]
 status_track: [S01E01:alive, S02E08:dead]
 first_episode: S01E01
+epithet: Nan
+relations: [CH-0065:fellow_cell, CH-0049:neighbour]
 ```
 
 ## Look (story-level, must never change)
@@ -42,18 +44,10 @@ Pell's grandmother, net-mender, elder of a Quiet cell. Had an elder sister, Ves,
 
 ---
 
-## Dossier (draft) — writer-characters, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters, 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 
-```canon
-id: CH-0015
-type: character
-canon: draft
-amend: true
-epithet: Nan
-relations: [CH-0065:fellow_cell, CH-0049:neighbour]
-```
 
 > Writer's note (dossier): Born CY 242 per lead r2 report. Mother: a sealed record (lead's r2 report) — left empty here. Killed by Fennick's Listeners, S2E8 (CY 313, first half; keeper to fix). CH-0023 Liss = Nan's daughter (proposal — see report: the lullaby passes mother to daughter). Relation to Pell (grandchild) lives in CH-0001. Elder of a Quiet cell (three keep it).
 

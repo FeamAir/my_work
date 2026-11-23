@@ -1,8 +1,8 @@
 # Hollis Kett (CH-0003)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0003
@@ -11,10 +11,10 @@ canon: approved
 name: Hollis Kett
 class: clerk
 role: protagonist
-born: CY 286
+born: CY 286-07
 born_at: PL-0006
 father: CH-0025
-relations: [CH-0011:guardian, CH-0052:source, CH-0054:landlady, CH-0055:rival]
+relations: [CH-0011:guardian, CH-0052:source, CH-0054:landlady, CH-0055:rival, CH-0006:ally]
 secrets: [SEC-006, SEC-007]
 status_track: [S01E01:alive, S06E09:presumed_dead]
 first_episode: S01E01
@@ -47,18 +47,10 @@ Junior clerk of the Lantry Counting House, raised as the bank's charity apprenti
 
 ---
 
-## Dossier (draft) — writer-characters, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters, 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 
-```canon
-id: CH-0003
-type: character
-canon: draft
-amend: true
-born: CY 286-07
-relations: [CH-0006:ally]
-```
 
 > Writer's note (dossier): born_at: the Mids, Highwater (PL pending). Mother: proposal — a laundress of the Mids, died of marsh fever CY 291 (new minor, no ID needed unless named on screen). class "clerk" is a proposal; keeper may map to "merchant"/"servant". may_return deliberately left empty: status after S6E9 is sealed (SEC-011).
 
@@ -98,9 +90,9 @@ His handwriting is his father's (SEC-006). Ursel knows it ("His father had a bea
 |---|---|---|---|
 | S01 | Lantry Counting House; his garret in the Mids; Nan's stilt-house | Gets the ledger-clip (E1); solves the forged note (E3); opens Account Nine (E3); finds "T. Kett" (E4); sees Garrick leave Ursel's office by the back stair (E4); copies the ledger (E6); flees (E7); decodes the Listeners' tones with Bede Lark's codebook and Pell (E7); gives Maren a copy (E7); proves SEC-001 from the burned page's twin (E11). | Fugitive; homeless with Pell's family; Ursel knows where he is not. |
 | S02 | the Undertow; Widow Pruitt's house | Hidden in the Undertow with the ledger copy; Widow Pruitt teaches him how a debtor is "drowned on paper" (E3); matches the Still-Day purse to Fennick's steward (E6, SEC-015) and reads the unsigned Tithe Map from the dead Helm's chest; Fossett's private ledger names Ruel's killers (E7 → E11). | Has the proof of two crimes and nobody who can hear it. |
-| S03 | Highwater, then Maren's fleet (proposal) | Proposal for lead: when Odo pardons Maren to get her fleet, Hollis is carried inside that pardon as "the Corvane purser" — he keeps the fleet's accounts and stops the powder fraud that lost S2. | A pardoned man with a false job title. |
+| S03 | Highwater, then Maren's fleet (DEC-52) | Approved (DEC-52): when Odo pardons Maren to get her fleet, Hollis is carried inside that pardon as "the Corvane purser" — he keeps the fleet's accounts and stops the powder fraud that lost S2. | A pardoned man with a false job title. |
 | S04 | Highwater under Listener Law | Keeps Maren's books; an echo of "T. Kett" (E6) — he finds a second document in his father's hand and puts it away unread. | Refuses to look at his father. |
-| (skip) | — | Proposal for lead: during the five years Maren places him in Odo's treasury as her man. | — |
+| (skip) | — | Approved (DEC-52): during the five years Maren places him in Odo's treasury as her man. | — |
 | S05 | Odo's treasury | Odo's treasury secretary and a double agent (Maren's); on the Night of a Thousand Voices he **kills Odo** (E11). | A killer who never touched a weapon before. |
 | S06 | the Counting House; the Ring | Account Nine and the dry-note fraud exposed (E7); learns his father forged the Dry Charter and was killed by Ursel (E8); the bank fire (E9): **presumed dead**. | `presumed_dead`. **After S6E9: sealed.** |
 | S07 → S12 | sealed | sealed | sealed |

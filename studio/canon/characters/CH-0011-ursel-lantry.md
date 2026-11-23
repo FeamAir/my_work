@@ -1,8 +1,8 @@
 # Ursel Lantry (CH-0011)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0011
@@ -13,9 +13,9 @@ epithet: the Counting Widow
 house: HS-007
 class: merchant
 role: antagonist
-born: CY 250
+born: CY 250-09
 died: CY 321
-relations: [CH-0017:co-conspirator, CH-0055:spy, CH-0061:grandson]
+relations: [CH-0017:co-conspirator, CH-0055:spy, CH-0061:grandson, CH-0025:murderer_of, CH-0052:client, CH-0262:spouse]
 secrets: [SEC-006, SEC-007, SEC-013, SEC-015]
 status_track: [S01E01:alive, S06E10:dead]
 first_episode: S01E01
@@ -44,19 +44,11 @@ Head of the Lantry Counting House; raised Hollis. Dies when the bank falls (S06E
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 Ursel is Bastian Lantry's second wife; Piers is his grandson by his first wife — DEC-29.
 
-```canon
-id: CH-0011
-type: character
-canon: draft
-amend: true
-born: CY 250-09
-relations: [CH-0025:murderer_of, CH-0052:client, CH-0262:spouse]
-```
 
 > Writer's note (dossier): Husband, children (Piers's parent): writer-houses (House Lantry). Died when the bank falls, S6E10 (CY 321; keeper to fix the date). POV in S6 only. Relation to Hollis (guardian) lives in CH-0003.
 

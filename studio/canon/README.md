@@ -128,6 +128,7 @@ Each record is a fenced block with the language tag `canon`. Inside: one `key: v
   house: HS-007
   born: AE 981-04-12
   relations: [CH-0043:rival, CH-0050:sworn_sword]
+mother: CH-0252
   ```
 ```
 

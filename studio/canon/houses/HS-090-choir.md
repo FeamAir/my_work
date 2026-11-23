@@ -1,8 +1,8 @@
 # the Choir (HS-090)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-090
@@ -10,11 +10,16 @@ type: house
 canon: approved
 name: the Choir
 rank: order
-colors: [undyed linen]
+colors: [undyed linen, black]
 seat: PL-0013
-lands: [PL-0015]
-heads: [CH-0012]
-secrets: [SEC-005, SEC-012, SEC-029]
+lands: [PL-0015, PL-0013, PL-0040]
+heads: [CH-0224@CY 1, CH-0012@CY 281]
+secrets: [SEC-005, SEC-012, SEC-029, SEC-003]
+words: One voice, kept true.
+sigil: nine short black strokes in an arc above one level line, on undyed linen
+founded: CY 1
+founder: CH-0224
+alliances: [HS-003:patron@CY 1, HS-029:stewards@CY 1, HS-007:debtor@CY 300, HS-006:ally@CY 312-10]
 ```
 
 - **What:** official faith and order of Cantors; one Conclave vote; venerates the First Voices (the Builders). Head: the First Cantor (Vesna; mute; speaks through her Voice). Child-finders: the Gleaners, paid by the head.
@@ -23,25 +28,10 @@ secrets: [SEC-005, SEC-012, SEC-029]
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`name`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`name`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-090
-type: house
-canon: draft
-amend: true
-words: One voice, kept true.
-sigil: nine short black strokes in an arc above one level line, on undyed linen
-colors: [black]
-lands: [PL-0013, PL-0040]
-founded: CY 1
-founder: CH-0224
-heads: [CH-0224@CY 1, CH-0012@CY 281]
-alliances: [HS-003:patron@CY 1, HS-029:stewards@CY 1, HS-007:debtor@CY 300, HS-006:ally@CY 312-10]
-secrets: [SEC-003]
-```
 
 > Words and sigil are **proposals** (the frame gives only the colour). The nine strokes are the throats of a Spire's crown; the level line is "still water". `heads` here = First Cantors.
 
@@ -59,7 +49,7 @@ The Choir is a voting power because in CY 1 Ilvane gave it the **Bell Spire** of
 | 43 – 70 | Thandry of Brackwater | the last wreck-singer to rise in the Choir |
 | 70 – 98 | Saskia Ilvane | |
 | 98 – 131 | Ommen Ilvane | |
-| 131 – 160 | Quiller Ilvane | declared Vanth's under-singing treason (CY 140) |
+| 131 – 160 | Pryor Ilvane | declared Vanth's under-singing treason (CY 140) |
 | 160 – 192 | Beryl Ilvane | |
 | 192 – 221 | Idony Dask | the only Dask-born First Cantor |
 | 221 – 252 | Nolwen Ilvane | voted to raise Fennick for a stipend (CY 251) |

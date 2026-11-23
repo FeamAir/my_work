@@ -1,8 +1,8 @@
 # Kes Mabry (CH-0004)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0004
@@ -12,14 +12,15 @@ name: Kes Mabry
 serves: HS-004
 class: soldier
 role: protagonist
-born: CY 278
+born: CY 278-05
 born_at: PL-0046
 died: CY 322
 died_at: PL-0028
-relations: [CH-0040:ward, CH-0062:corporal]
-secrets: [SEC-009]
+relations: [CH-0040:ward, CH-0062:corporal, CH-0018:sworn_sword, CH-0007:mentor]
+secrets: [SEC-009, SEC-008]
 status_track: [S01E01:alive, S07E11:dead]
 first_episode: S01E01
+epithet: Sergeant Mabry
 ```
 
 ## Look (story-level, must never change)
@@ -44,27 +45,19 @@ Commoner pike sergeant of House Rusk, twenty years' service. In S1 commands the 
 | Season | Where (PL-…) | What they do | State at season end |
 |---|---|---|---|
 | S1 | PL-0004 | opens the gate (S01E10) | demoted, at the Stair |
-| S3 | PL-0046 | the Battle of the Stair; confesses to Pell (S03E09) | — |
+| S3 | PL-0046 | the Battle of the Stair; confesses (S03E09) — heard first by Esk (DEC-54) | — |
 | S7 | PL-0028 | dies (S07E11) | dead |
 
 
 ---
 
-## Dossier (draft) — writer-characters, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters, 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
-Not merged — the approved value is kept: `house: HS-004` (kept canon).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
+Not merged — the approved value is kept: `house: HS-004` (kept canon; the dossier wording was not approved, decisions_resolved 3.3).
 
-```canon
-id: CH-0004
-type: character
-canon: draft
-amend: true
-epithet: Sergeant Mabry
-born: CY 278-05
-relations: [CH-0018:sworn_sword, CH-0007:mentor]
-secrets: [SEC-008]
-```
+**r3 rulings (v0.4):** her first stripe — Rains 12, CY 296, "for steadiness at the Ninth Sluice gate" — is the anniversary she drinks *at* in S2E6 (DEC-16; SEC-009 clue). Her S3E9 confession is heard first by **Esk** (Pell is in the Sunk, nine days away); Pell learns it later from Kes herself, not before S5 (DEC-54; the S5 episode comes with the S5 outline).
+
 
 > Writer's note (dossier): First seen from behind in S1E1 (montage); first face S1E2. born_at: an upland farm below the Stair (PL pending). died_at: the Battle of the Hundred Locks (PL/EV pending). Relation to Wick (mentor) is a proposal for S5 (see arc). house: she serves House Rusk but is a commoner; keeper may prefer house empty + relation.
 
@@ -104,7 +97,7 @@ Kes knows the Ossari better than any Concord officer, and is the first to hear E
 |---|---|---|---|
 | S01 | Highwater (Rusk barracks, the quay, the Ring, the evacuation gate) | Guard captain of the delegation; kills Ruel's assassin (E8); reads the polder clay (E9); opens the gate (E10); stripped of rank; escorts Esk to the Stair (E12 tag). | Demoted, at the Stair, watching the Ossari fires. |
 | S02 | the Stair | Serves Brenna Rusk; teaches Esk to fight and is taught to read kites; notices the quartermasters' saltpeter traffic and is told to stop noticing. | Trusted by Brenna, distrusted by Rusk officers. |
-| S03 | the Stair | With Esk and Ottar through the Ossari invasion; her guilt is revealed (E9, SEC-009 — to the audience; which character hears it on screen: proposal — Esk, the hostage she guards, so that the boy she protects knows what she did); Battle of the Stair (E10–11): holds the inner gate beside Brenna; the Stair falls; Kes survives and gets the wounded out. | A sergeant without a fortress. |
+| S03 | the Stair | With Esk and Ottar through the Ossari invasion; her guilt is revealed (E9, SEC-009 — to the audience; on screen it is heard by Esk, DEC-54 — the hostage she guards, so that the boy she protects knows what she did); Battle of the Stair (E10–11): holds the inner gate beside Brenna; the Stair falls; Kes survives and gets the wounded out. | A sergeant without a fortress. |
 | S04 | the escarpment truce line; Highwater | Rusk in exile at Highwater; Kes on the truce line watches the weir rise; her report "the river is being held, not stolen" is ignored. | Restored to sergeant by necessity. |
 | S05 | Highwater (city watch) | Proposal: drill-sergeant of the city watch — trains Wick (19); on the Night of a Thousand Voices she refuses the order to fire and holds her company back. | Under arrest, then quietly released (proposal). |
 | S06 | Maren's forces | Serves under Helm-elect Maren as the soldiers' sergeant everyone wants. | — |

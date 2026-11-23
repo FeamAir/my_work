@@ -1,8 +1,8 @@
 # the Ossari (HS-091)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-091
@@ -10,11 +10,14 @@ type: house
 canon: approved
 name: the Ossari
 rank: federation
-colors: [sand-orange]
+colors: [sand-orange, dusty white, copper]
 seat: PL-0050
-lands: [PL-0050, PL-0051]
-heads: [CH-0013]
+lands: [PL-0050, PL-0051, PL-0070]
+heads: [CH-0013@CY 308]
 secrets: [SEC-008, SEC-019]
+words: The wind keeps the names.
+sigil: a sand-orange diamond kite with three tail-knots, on dusty white
+alliances: [HS-004:enemy@CY 141, HS-004:hostage_exchange@CY 142, HS-012:refuge@CY 141, HS-025:kin@CY 206, HS-024:smuggling@CY 250]
 ```
 
 - **What:** federation of kite-clans on the dry plateau, led by Tsura Den, the Dry Queen: gliders, signal-kites, terrace forts, saltpeter; hostage custom with Rusk.
@@ -23,22 +26,10 @@ secrets: [SEC-008, SEC-019]
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-091
-type: house
-canon: draft
-amend: true
-words: The wind keeps the names.
-sigil: a sand-orange diamond kite with three tail-knots, on dusty white
-colors: [dusty white, copper]
-lands: [PL-0070]
-heads: [CH-0013@CY 308]
-alliances: [HS-004:enemy@CY 141, HS-004:hostage_exchange@CY 142, HS-012:refuge@CY 141, HS-025:kin@CY 206, HS-024:smuggling@CY 250]
-```
 
 > `heads` = the current Dry Queen. "Dry Queen" is an office, not a crown (below). Words and sigil are proposals.
 
@@ -50,7 +41,7 @@ The Concord calls them "the uplanders" or "the kite-clans" and pictures raiders.
 
 | Clan | Country | Trade / power | Note for plots |
 |---|---|---|---|
-| **Den** | the Rim above the Stair | kite-masters, signal-towers, the Rim forts | Tsura's clan, and her sister **Dakka Den** (CH-0071, `writer-characters`), Esk's official mother; most Ossari hostages at the Stair have been Den children |
+| **Den** | the Rim above the Stair | kite-masters, signal-towers, the Rim forts | Tsura's clan, and her sister **Dakka Den** (CH-0071, `writer-characters`), Esk's official mother (Esk's true parents: SEC-019); most Ossari hostages at the Stair have been Den children |
 | **Tekka** | the nitre country of the inner plateau | **saltpeter** yards, terrace-building | married into the Rusk border family Hadden (CY 206); the saltpeter trade lives here — the envoy **Itsek** (CH-0072, `writer-characters`) is Tekka, and his clan has bought Rusk powder back for ten years |
 | **Kitsa** | the high mesas | **gliders**, scouts, fire-pot droppers | the glider-riders of the Battle of the Stair |
 | **Udra** | the well-country | well-keepers, cistern-priests, the **knot-reckoners** (they keep the wells' depth in knotted cords) | they decide when a drought is a drought |
@@ -102,7 +93,7 @@ Since the **Stair Treaty** (CY 142): each generation the clans send a child of a
 | Still 3 | the weir goes. Publicly: **"the Dry Queen did not deny it."** Who did it: `[SEALED — ask lead]` (SEC-024). |
 | Still 5 | **the Weir Terms** (EV-0317). |
 
-#### The Weir Terms (CY 314) — proposed text, for the lead to confirm
+#### The Weir Terms (CY 314) — approved text (DEC-08)
 1. The Ossari keep the Rim and the Stair's upper town; the Falls Spire stays in their hands.
 2. The Falls Spire is **sung half the year**: from Mistcall 1 to Silting 36 (the storm months and the Wet), by Concord Cantors sent upriver under truce; **silent** from Reedmonth 1 to Fallow 36.
 3. The Ossari may rebuild a weir **no higher than a kite-spar** (about 3 m) — enough to hold the Shelf lakes, not enough to dry the Polders.
@@ -110,7 +101,7 @@ Since the **Stair Treaty** (CY 142): each generation the clans send a child of a
 5. The Exchange of Sleeves is renewed both ways (the Concord must send a child to the Rim — a clause nobody in Highwater intends to keep).
 6. The Ossari claim **no voice in the Ring** ("we will not sit in your drowning-house").
 
-The Terms hold five years. Maren breaks them in S7 to buy Dask's vote with river water.
+The Terms hold **seven years** (CY 315–321). Maren breaks them in CY 322 (S7) to buy Dask's vote with river water (DEC-08).
 
 ### 9. Production
 

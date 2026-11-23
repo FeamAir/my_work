@@ -1,8 +1,8 @@
 # House Corvane (HS-001)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-001
@@ -14,11 +14,12 @@ words: "We go under and come up."
 sigil: a black cormorant diving into a silver wave
 colors: [deep blue, silver]
 seat: PL-0030
-lands: [PL-0030, PL-0032]
-heads: [CH-0005, CH-0006@CY 312-11-02]
-alliances: [HS-005:friend@CY 312, HS-006:rival@CY 312, HS-007:debtor@CY 312, HS-011:absorbed@~CY 120]
-secrets: [SEC-001, SEC-023]
+lands: [PL-0030, PL-0032, PL-0031, PL-0075]
+heads: [CH-0203@~OS 684, CH-0200@CY 266, CH-0005@CY 290-09, CH-0058@CY 312-11-02, CH-0006@CY 313]
+alliances: [HS-005:friend@CY 312, HS-006:rival@CY 312, HS-007:debtor@CY 312, HS-011:absorbed@~CY 120, HS-011:marriage@CY 120, HS-005:sworn@CY 40, HS-006:enemy@CY 251, HS-007:debtor@CY 308, HS-027:cadet@CY 131]
+secrets: [SEC-001, SEC-023, SEC-003]
 leitmotif: theme on the Sentinel Spire's home tone
+founded: ~OS 400
 ```
 
 - **Epithet:** the Sentinel
@@ -31,29 +32,18 @@ leitmotif: theme on the Sentinel Spire's home tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-001
-type: house
-canon: draft
-amend: true
-lands: [PL-0031, PL-0075]
-founded: ~OS 400
-heads: [CH-0203@~OS 684, CH-0200@CY 266, CH-0005@CY 290-09, CH-0006@CY 312-11-02, TODO(DEC-31)@CY 313]
-alliances: [HS-011:marriage@CY 120, HS-005:sworn@CY 40, HS-006:enemy@CY 251, HS-007:debtor@CY 308, HS-027:cadet@CY 131]
-secrets: [SEC-003]
-```
 
-> Note for the keeper: `heads` lists only heads who have character IDs (founder + last three generations). The full succession is the table in *Public history*. Maren's headship from CY 312-11-02 is "by Sea Right in trust" — see *Culture*: the house seal is held by Lady Ysa until Maren commands a ship of the line. Who heads Corvane after S2E11 (Ysa opens Gullmouth to Fennick) is a question to the lead (DEC-31).
+> Note for the keeper: `heads` lists only heads who have character IDs (founder + last three generations). The full succession is the table in *Public history*. Maren's headship from CY 312-11-02 is "by Sea Right in trust" — see *Culture*: the house seal is held by Lady Ysa until Maren commands a ship of the line. Heads after Ruel (DEC-31, approved): Lady Ysa (CH-0058) holds the seal ashore from Ruel's death (Sea Right, RULE-018) as regent; in CY 313 Maren commands ships of the line and claims the headship, Ysa refuses and opens Gullmouth (S2E11), and Odo's Hearings recognise Ysa - the headship is disputed through CY 313; it ends with Maren's pardon in S3 (CY 313), whose price is recognising Maren. The S3 episode of the pardon is fixed with the S3 outline (still open, decisions_resolved 3.4).
 
 ### Public history
 
 **Wardens of the river mouth.** The Corvanes enter history as one of the nine warden families sworn to the Keepers of Lirenne in the Crowning of the Keepers (~OS 400, EV-0051): sea-captains given the Sentinel Spire at Gullmouth and the duty to keep the mouth of the Aun open for Lirenne's ships. For three centuries they are the Keepers' fleet.
 
-**The Breaking (OS 700, EV-0100) — the Chronicle's version.** When Queen Neveh "went mad and sang her city into the sea", Admiral **Tolvar Corvane** held the fleet off Lirenne's harbour and, says the Chronicle, "took from the water all that could be taken". He came home with the house's heirloom, the **Admiral's Pearl** — a black pearl ring, "won at Lirenne". He was the first to put his seal on the Charter of the Ring (CY 1, EV-0101).
+**The Breaking (OS 700, EV-0100) — the Chronicle's version.** When Queen Neveh "went mad and sang her city into the sea", Admiral **Tolvar Corvane** held the fleet off Lirenne's harbour and, says the Chronicle, "took from the water all that could be taken". Open records say only that he "held the harbour; came ashore when the city fell" (DEC-14). He came home with the house's heirloom, the **Admiral's Pearl** — a black pearl ring, "won at Lirenne". He was the first to put his seal on the Charter of the Ring (CY 1, EV-0101).
 
 **Rise and conquest.**
 | When | What Corvane took | How |
@@ -80,7 +70,8 @@ secrets: [SEC-003]
 | 247 – 266 | Oswin | lost the Gullmouth Exchange (CY 268 panic happened under his son) |
 | 266 – 290 | Stellan (CH-0200) | **Helm** CY 268–290; Ruel's father |
 | 290 – 312 | Ruel (CH-0005) | Lord Admiral; the Still Water boats (CY 295) |
-| 312 – | Maren (CH-0006) | by Sea Right in trust (seal held by Lady Ysa, CH-0058) |
+| 312 – 313 | Ysa (CH-0058) | seal-holder ashore, regent by Sea Right (RULE-018); confirms Maren's vote (S1E11) and keeps the seal; disputed from CY 313 (DEC-31) |
+| 313 – | Maren (CH-0006) | recognised at her pardon (S3; DEC-31) |
 
 Three Corvane Helms in 312 years — the most of any house; the Lows remember Stellan's reign as "the years the boats came".
 
@@ -96,7 +87,7 @@ Three Corvane Helms in 312 years — the most of any house; the Lows remember St
 
 ### Culture and look
 
-- **Sea Right.** A Corvane becomes head only after commanding a ship of the line. Until then the eldest adult kinsman on land "holds the seal in trust" and must confirm the heir's acts. That is why Ruel's elder sister Ysa, who never went to sea, was regent of Gullmouth and not its lady; and why in CY 312 Maren (a junior officer) can cast the Corvane vote only with Ysa's confirmation — **Ysa's "condition" (S1E11) is a legal power, not a favour**.
+- **Sea Right.** A Corvane becomes head only after commanding a ship of the line. Until then the eldest adult kinsman on land "holds the seal in trust" and must confirm the heir's acts. That is why Ruel's elder sister Ysa, who never went to sea, was regent of Gullmouth and not its lady; and why in CY 312 Maren (a junior officer) can cast the Corvane vote only with Ysa's confirmation — **Ysa's "condition" (S1E11) is a legal power, not a favour**. On screen (DEC-03): S1 speaks only the Ring law (a bearer under 21 must be confirmed, S1E9); the Sea Right is *seen* in S1E11 - the Corvane seal stays on Ysa's hand when she confirms - and is first named in S2. Ysa's condition itself stays unspoken in S1 (pays S2E10).
 - **Faith:** Choir on land, the Lady Below at sea (sailors throw salt over the stern; officers pretend not to see). Every Corvane ship carries a "drowned bell" that is never rung.
 - **Dress:** deep-blue long coats, high collars, silver cormorant clasps; officers wear a silver cord in the hair or on the sleeve. Sailors: blue-and-white striped smocks, tarred hats. Marines: blue helmets with a black crest ridge (good crowd consistency).
 - **Architecture:** Gullmouth is stone quays and slate roofs climbing a headland around the Sentinel Spire; the Long Mole runs a mile into the sea with lantern posts every hundred paces. Flagship at Highwater: the *Patient Gull*.

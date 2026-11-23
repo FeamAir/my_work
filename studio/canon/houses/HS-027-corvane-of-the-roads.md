@@ -1,11 +1,11 @@
 # House Corvane of the Roads (HS-027)
 
-Canon: v0.3 · Status: **draft** (writer-houses, `studio/story/houses/minor_houses.md`, 2026-11-22; merged by lore-keeper; the lead screenwriter approves).
+Canon: v0.4 · Status: **approved** (writer-houses, `studio/story/houses/minor_houses.md`, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3).
 
 ```canon
 id: HS-027
 type: house
-canon: draft
+canon: approved
 name: House Corvane of the Roads
 rank: minor
 words: Mind the bar.

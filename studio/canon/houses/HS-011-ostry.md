@@ -1,8 +1,8 @@
 # House Ostry (HS-011)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-011
@@ -10,8 +10,16 @@ type: house
 canon: approved
 name: House Ostry
 rank: extinct
-extinct: ~CY 120
+extinct: CY 120
 lands: [PL-0032]
+words: Mind the bar.
+sigil: a white lantern on a black tower, on dark red
+colors: [dark red, white]
+seat: PL-0032
+liege: HS-001
+founded: ~OS 400
+heads: [CH-0278@CY 112]
+alliances: [HS-001:marriage@CY 120, HS-027:heir_line@CY 120, HS-022:pilots@CY 1]
 ```
 
 - **Fate:** founding "sword house" (no Spire); absorbed by Corvane by marriage ~CY 120 (EV-0251); its old harbour-forts.
@@ -19,25 +27,10 @@ lands: [PL-0032]
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-011
-type: house
-canon: draft
-amend: true
-words: Mind the bar.
-sigil: a white lantern on a black tower, on dark red
-colors: [dark red, white]
-seat: PL-0032
-liege: HS-001
-founded: ~OS 400
-extinct: CY 120
-heads: [CH-0278@CY 112]
-alliances: [HS-001:marriage@CY 120, HS-027:heir_line@CY 120, HS-022:pilots@CY 1]
-```
 
 ### Public history
 

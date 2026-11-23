@@ -1,8 +1,8 @@
 # the Quiet (HS-094)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-094
@@ -21,9 +21,9 @@ secrets: [SEC-002, SEC-003]
 
 ---
 
-## The Quiet as a power (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## The Quiet as a power (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft**. Only what the helpers may know (the rest: `sealed/`).
+Status: **approved** (lead screenwriter, r3). Only what the helpers may know (the rest: `sealed/`).
 
 
 A secret society in the Lows and the Sunk, cells of three ("three keep it, none sings it"), sign: a spiral drawn in mud. Keeps **the old lullabies**. Has lost children to the Gleaners for three centuries. The Oshra line keeps the last verse in it (SEC-003). **Everything else about the Quiet is `[SEALED — ask lead]`** — this file adds no structure, leaders or holdings.

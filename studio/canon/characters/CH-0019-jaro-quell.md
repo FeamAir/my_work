@@ -1,8 +1,8 @@
 # Jaro Quell (CH-0019)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0019
@@ -13,10 +13,14 @@ epithet: Captain-Lord
 house: HS-005
 class: ruler
 role: major
-born: ~CY 276
+born: CY 276-10
 died: SY 2
 status_track: [S01E04:alive, S11E08:dead]
 first_episode: S01E04
+relations: [CH-0059:enemy, CH-0061:business_partner, CH-0043:patron]
+father: CH-0240
+mother: CH-0241
+secrets: [SEC-031]
 ```
 
 ## Look (story-level, must never change)
@@ -41,21 +45,10 @@ Captain-lord of the island clans; S1 vote-broker, POV from S2. Breaks with the m
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 
-```canon
-id: CH-0019
-type: character
-canon: draft
-amend: true
-born: CY 276-10
-relations: [CH-0059:enemy, CH-0061:business_partner, CH-0043:patron]
-father: CH-0240
-mother: CH-0241
-secrets: [SEC-031]
-```
 
 > Writer's note (dossier): Main from S2. Died S11E8 ("he comes back to the side he left"), SY 2. Relations to Ruel (friend) and Maren (ally) live in their lower-ID records. Secret "wrecker money funds Corvane" needs a SEC id — proposal SEC-031 (see report). CH-0043 Lio "patron": proposal — a Quell deck hears a whistler's tune in S2E2 (thread ledger); Jaro's ship is where Lio goes after the tide-post. Lead to confirm; Jaro's knowledge of the bond fraud (SEC-016) is NOT assumed here.
 

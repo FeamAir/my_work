@@ -1,8 +1,8 @@
 # Maren Corvane (CH-0006)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0006
@@ -12,19 +12,20 @@ name: Maren Corvane
 house: HS-001
 class: noble
 role: protagonist
-born: CY 293
+born: CY 293-06
 died: ~SY 3
 father: CH-0005
-relations: [CH-0044:midshipwoman]
+relations: [CH-0044:midshipwoman, CH-0019:ally, CH-0010:enemy, CH-0058:betrayed_by, CH-0007:cap_thief]
 secrets: [SEC-001, SEC-023]
-status_track: [S01E02:alive, S12E11:dead]
-first_episode: S01E02
+status_track: [S01E01:alive, S12E11:dead]
+first_episode: S01E01
+mother: CH-0202
 ```
 
 ## Look (story-level, must never change)
 - Age band: 19 at S1.
 - Dark curly hair tied high with a silver cord.
-- Brass spyglass on her belt; deep-blue riding coat.
+- Brass spyglass on her belt; deep-blue **short jacket** (cut at the hip; never her father's long coat) (DEC-60).
 - From S06E12: her father's black pearl ring, worn openly.
 
 ## Voice
@@ -50,21 +51,14 @@ Ruel's daughter and heir, junior naval officer. Refuses to kneel to Helm Odo (S0
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
-Not merged — the approved value is kept: `status_track: [S01E01:alive]` (DEC-24); `first_episode: S01E01` (DEC-24).
-Mother (Alys, born a Whitlow) — writer-houses proposal, DEC-27.
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
+First episode S01E01 is canon since v0.4 (DEC-24): back only, in the Corvane retinue at the tithe-reading; first face and first line S1E2.
+Mother (Alys, born a Whitlow) — approved (DEC-27).
 
-```canon
-id: CH-0006
-type: character
-canon: draft
-amend: true
-born: CY 293-06
-relations: [CH-0019:ally, CH-0010:enemy, CH-0058:betrayed_by, CH-0007:cap_thief]
-mother: CH-0202
-```
+**r3 rulings (v0.4):** she has no ear: in S8 and later she **orders** Spires sung or silenced, she never sings herself (DEC-53). Heads of Corvane after Ruel: HS-001 (DEC-31).
+
 
 > Writer's note (dossier): First seen: S1E1 (back/shoulder at the Dry Palace, proposal) or S1E2 (face, "pulled off her ship"). Mother: writer-houses. Died S12E11 (fixed by saga frame) — died/died_at/status left for the keeper and lead: the late arc is sealed for this writer. SEC-010 listed because she buries the proof in S1E11 ("protect the name"); its content beyond S1 is not mine.
 
@@ -74,7 +68,7 @@ mother: CH-0202
 - **Hair:** **dark umber-brown curls tied high at the crown with a silver cord** — a short, bouncing tail.
 - **Eyes:** grey-blue, steady.
 - **Distinctive mark:** none in S1; from S2E11 a thin powder-burn scar through the LEFT eyebrow (proposal — the Sluice Gates).
-- **Usual clothes and colours:** **deep-blue SHORT riding coat** (cut at the hip — never her father's long coat), white shirt, grey breeches, sea boots. Main colour: deep blue (see the report: a Corvane-blue conflict with Ruel in S1E1–E9 only).
+- **Usual clothes and colours:** **deep-blue SHORT jacket** (cut at the hip — never her father's long coat), white shirt, grey breeches, sea boots. Main colour: deep blue (see the report: a Corvane-blue conflict with Ruel in S1E1–E9 only).
 - **Signature items:** (1) **brass spyglass on her belt (right hip)**; (2) from **S6E12** her father's **black pearl ring, worn openly on the LEFT hand**. From S1E11 to S6E12 the ring is hidden (never on screen on her).
 - **Changes over the saga:** S2 exile: salt-faded coat; S5 admiral's insignia; S6E12 the ring; S7+ Helm's grey-blue mantle over the coat (the director decides the Helm's regalia).
 
@@ -105,5 +99,5 @@ Only child of Ruel Corvane; a junior naval officer by choice, raised on decks mo
 | S05 | Highwater | Pardoned admiral; places her own people (Hollis) inside Odo's government; the Night of a Thousand Voices ends Odo. | The strongest person in the city without a title. |
 | S06 | the Ring | Election on the Still Days; elected Helm with the votes Pell bought for her by a promise — repeal of the Hush Law (E12); puts on her father's ring. | Helm. The ring is worn openly. |
 | S07 | Highwater; the Falls | Breaks the Weir Terms to pay Dask with river water; repeals the Hush Law only in Highwater; learns SEC-008 (E10) — and orders the Spires sung harder. | At war with the uplands. |
-| S08 | besieged Highwater | The Siege of Highwater (E10–11) ends by her stroke: two Spires sung against the Ossari camps; thousands drown. | **After S8: sealed.** |
+| S08 | besieged Highwater | The Siege of Highwater (E10–11) ends by her stroke: she has two Spires sung against the Ossari camps (DEC-53); thousands drown. | **After S8: sealed.** |
 | S09 → S12 | sealed | sealed | sealed |

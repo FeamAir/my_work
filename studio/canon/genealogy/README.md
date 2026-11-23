@@ -46,7 +46,7 @@ flowchart TD
   CH_EX_0004 -.->|true, SEC-EX-001| CH_EX_0003
 ```
 
-## v0.3: the last three generations (draft)
+## v0.3: the last three generations (approved v0.4)
 
 Since v0.3 the trees of the great houses reach back to the founders (writer-houses, `characters/_minor-houses.md`, CH-0200…0287; parents and spouses of the main cast are draft `amend` blocks in their own records). Try `--mermaid HS-001` … `HS-008`. Status: **draft** until the lead confirms DEC-27…DEC-29.
 

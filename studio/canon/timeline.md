@@ -1,6 +1,6 @@
 # Timeline
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -112,7 +112,7 @@ place: PL-0061
 houses: [HS-008]
 ```
 
-The Keepership becomes hereditary in House Ashare (Keeper Isembar); nine Spire-warden families are sworn to it. Prequel P2.
+The Keepership becomes hereditary in House Ashare (Keeper Isembar); nine warden families (six Spire-wardens, three sword-families) are sworn to it (DEC-01). Prequel P2.
 
 ```canon
 id: EV-0052
@@ -140,7 +140,7 @@ killed: [CH-0030]
 secrets: [SEC-003, SEC-025, SEC-027]
 ```
 
-Public: Queen Neveh went mad and sang Lirenne into the sea; nine Spire-warden families rose, killed her and founded the Concord. Truth (SEC-003): the Nine, led by Ilvane with Corvane ships at sea, massacred the people's chorus on the steps of the Lirenne Spire during the Still Days; ~40,000 dead; Oshra escaped by reed boat carrying the last verse and a spiral shell. The last hour: sealed. Ends the Old Song era. Prequel P3.
+Public: Queen Neveh went mad and sang Lirenne into the sea; the nine warden families (six Spire-wardens, three sword-families) rose, killed her and founded the Concord. Truth (SEC-003): the Nine, led by Ilvane with Corvane ships at sea, massacred the people's chorus on the steps of the Lirenne Spire during the Still Days; ~40,000 dead; Oshra escaped by reed boat carrying the last verse and a spiral shell. The last hour: sealed. Ends the Old Song era. Prequel P3. Open wording for the Corvane admiral (DEC-14): Tolvar Corvane (CH-0203) "held the harbour; came ashore when the city fell".
 
 ```canon
 id: EV-0101
@@ -152,7 +152,7 @@ houses: [HS-001, HS-002, HS-003, HS-004, HS-005, HS-009, HS-010, HS-011, HS-012,
 secrets: [SEC-005]
 ```
 
-Nine founding houses; the Hush Law (RULE-006); the Choir founded as a solo order; the songblood doctrine; the Gleaners begin. Spires: Crown to the Helm's office, Choir to the Choir; Rusk, Moll, Ostry are "sword houses" without a Spire.
+The nine warden families found the Concord - six Spire-wardens (Corvane - Sentinel; Dask - Sheaf; Ilvane - Pale and Bell/Choir; Quell - Storm; Harrow - Hill/Crown and Sluice; Vanth - Falls) and three sword families (Rusk, Moll, Ostry); "the Nine" are families, not Spires, which is why there are eight voices in CY 1 (DEC-01); the Hush Law (RULE-006); the Choir founded as a solo order; the songblood doctrine; the Gleaners begin. Spires: Crown to the Helm's office, Choir to the Choir; Rusk, Moll, Ostry are "sword houses" without a Spire.
 
 ```canon
 id: EV-0102
@@ -271,7 +271,10 @@ canon: approved
 name: Dask conquer Moll
 date: CY 88
 place: PL-0038
-houses: [HS-002, HS-010]
+houses: [HS-002, HS-010, HS-017, HS-018]
+participants: [CH-0275]
+killed: [CH-0275]
+secrets: [SEC-034]
 ```
 
 ```canon
@@ -281,7 +284,10 @@ canon: approved
 name: Ostry absorbed by Corvane
 date: ~CY 120
 place: PL-0032
-houses: [HS-001, HS-011]
+houses: [HS-001, HS-011, HS-027]
+participants: [CH-0279, CH-0204]
+killed: [CH-0278]
+secrets: [SEC-035]
 ```
 
 By marriage.
@@ -302,10 +308,12 @@ type: event
 canon: approved
 name: House Harrow dies out; Fennick raised
 date: CY 251
-houses: [HS-009, HS-006]
+houses: [HS-009, HS-006, HS-007, HS-013, HS-014]
+killed: [CH-0270]
+participants: [CH-0250]
 ```
 
-Sluice Spire to Fennick; Fennick raised to great house.
+Sluice Spire to Fennick; Fennick raised to great house. Vote 5-3: both Harrow voices are cast by Harrow's stewards, the Fennicks, "stewards of the dying" (DEC-06).
 
 ```canon
 id: EV-0254
@@ -315,9 +323,11 @@ name: The Purchased Seat
 date: CY 252
 place: PL-0010
 houses: [HS-007, HS-009]
+secrets: [SEC-036]
+participants: [CH-0261]
 ```
 
-Lantry buys Harrow's Conclave vote.
+Lantry buys Harrow's Conclave vote. Vote 5-2: the Hill Voice is the matter voted on and is empty; Corvane and Quell against (DEC-06).
 
 ```canon
 id: EV-0256
@@ -470,7 +480,7 @@ participants: [CH-0057]
 secrets: [SEC-015]
 ```
 
-On the third Still Day the Sluice Spire is not retuned. Public: an old Spire failing.
+On the third Still Day the Sluice Spire falls silent at dusk for its retuning and the retuning song never comes (DEC-04). Public: an old Spire failing.
 
 ```canon
 id: EV-0305
@@ -482,11 +492,11 @@ episode: S01E10
 place: PL-0008
 houses: [HS-092, HS-004, HS-090]
 participants: [CH-0001, CH-0007, CH-0015, CH-0002, CH-0004, CH-0048, CH-0046]
-killed: [CH-0049, CH-0057]
-secrets: [SEC-002, SEC-009, SEC-017, SEC-028]
+killed: [CH-0049, CH-0057, CH-0067]
+secrets: [SEC-002, SEC-009, SEC-017b, SEC-028]
 ```
 
-~2,000 dead. Pumps jammed (SEC-028); Kes opens the gate; Pell saves baby Tibb; Ione's Great Song with Pell's hum holds the Spire - Ione loses her voice.
+~2,000 dead; the Spire was already failing (two voices and a mute since the summer), so the sea comes in within hours on the storm tide (RULE-003, DEC-05). Sal Tern drowns (CH-0067). Pumps jammed (SEC-028); Kes opens the gate; Pell saves baby Tibb; Ione's Great Song with Pell's hum holds the Spire - Ione loses her voice.
 
 ```canon
 id: EV-0306
@@ -583,7 +593,7 @@ houses: [HS-091, HS-002]
 secrets: [SEC-024]
 ```
 
-On the third Still Day, while Highwater's Spires are silent for retuning, the weir goes and a flood wave runs down the Aun. Public: "The weir at the falls was breached, and the Dry Queen did not deny it." Truth: SEC-024 (sealed).
+In the last dark hour before dawn on the third Still Day the weir goes; the bore does not tie up at night or wait at locks: it passes the Polders by mid-morning and reaches Highwater by late afternoon, while the Crown Spire is silent in mid-retuning and the Sluice Spire is about to follow (DEC-17). S4E11 line: *"A barge sleeps at night and waits at every lock. Water does neither."* Public: "The weir at the falls was breached, and the Dry Queen did not deny it." Truth: SEC-024 (sealed).
 
 ```canon
 id: EV-0316
@@ -591,7 +601,6 @@ type: event
 canon: approved
 name: The duet at the Crown Spire
 date: CY 314-11-03
-date_end: CY 314-11-05
 episode: S04E11
 place: PL-0014
 participants: [CH-0001]
@@ -599,20 +608,20 @@ killed: [CH-0002]
 secrets: [SEC-021]
 ```
 
-Mute Ione sings the Crown Spire on breath alone with Pell (high part + low note) and sings out; the duet holds the wave.
+Evening of the third Still Day (DEC-17). Mute Ione sings the Crown Spire on breath alone with Pell (high part + low note) and sings out; the duet holds the wave.
 
 ```canon
 id: EV-0317
 type: event
 canon: approved
 name: The Weir Terms
-date: CY 314-11
+date: CY 314-11-05
 episode: S04E12
 houses: [HS-091, HS-006]
 participants: [CH-0013]
 ```
 
-The Ossari keep the rim; the Falls Spire is sung only half the year. Held until Maren breaks them in S7.
+Still 4-5 (S4E12). The Ossari keep the rim; the Falls Spire is sung only half the year. The Terms hold seven years (CY 315-321); Maren breaks them in CY 322 (S7) (DEC-08). Text: `houses/HS-091-ossari.md`.
 
 ```canon
 id: EV-0318
@@ -633,7 +642,7 @@ id: EV-0319
 type: event
 canon: approved
 name: The Night of a Thousand Voices
-date: CY 320
+date: CY 320-11-03
 episode: S05E11
 place: PL-0008
 houses: [HS-092, HS-006]
@@ -642,7 +651,7 @@ killed: [CH-0010]
 secrets: [SEC-028, SEC-021]
 ```
 
-Begins at the tide-post; thousands sing the Sluice Spire in a storm; the Listeners fire; Hollis kills Odo; the Pumpwrights' barges hold the water (Corr's price). Hundreds of singers dead.
+The night of Still 3, CY 320 - the Sluice Spire silent for its retuning, twenty-five years to the night after Still Water (DEC-07). Begins at the tide-post; thousands sing the Sluice Spire in a storm; the Listeners fire; Hollis kills Odo; the Pumpwrights' barges hold the water (Corr's price). Hundreds of singers dead.
 
 ```canon
 id: EV-0320
@@ -912,14 +921,14 @@ participants: [CH-0001, CH-0042]
 
 Ten thousand voices across the delta; the cost of the song shared. Pell's voice is the price.
 
-### New events v0.3 (draft)
+### New events v0.3 (approved v0.4)
 
-Status: **draft** (writer-houses `story/houses/README.md`; EV-0274 and EV-0275 added by the keeper). Keeper range EV-0250...0299.
+Status: **approved** (lead screenwriter, r3; EV-0275 dated by DEC-20) (writer-houses `story/houses/README.md`; EV-0274 and EV-0275 added by the keeper). Keeper range EV-0250...0299.
 
 ```canon
 id: EV-0264
 type: event
-canon: draft
+canon: approved
 name: The Sunk Charter
 date: CY 3
 place: PL-0060
@@ -932,7 +941,7 @@ Quell is granted the salvage of the whole drowned city of Lirenne and its shallo
 ```canon
 id: EV-0265
 type: event
-canon: draft
+canon: approved
 name: The Relay chartered
 date: CY 9
 place: PL-0004
@@ -945,7 +954,7 @@ Helm Aldous Harrow charters the Relay - echo-stone stations Spire to Spire - and
 ```canon
 id: EV-0266
 type: event
-canon: draft
+canon: approved
 name: The Unison Decree
 date: CY 34
 place: PL-0040
@@ -958,7 +967,7 @@ The Choir's chapter dissolves the lesser choirs (the Gullmouth harbour choir, th
 ```canon
 id: EV-0267
 type: event
-canon: draft
+canon: approved
 name: The Salt War
 date: CY 37
 date_end: CY 40
@@ -971,7 +980,7 @@ Admiral Brannic Corvane burns the clan fleets at the Brackwater bar. The Pilots'
 ```canon
 id: EV-0268
 type: event
-canon: draft
+canon: approved
 name: The Stair Treaty
 date: CY 142
 place: PL-0046
@@ -983,7 +992,7 @@ Peace by exhaustion after the First Upland War: the Rim stays Ossari, the escarp
 ```canon
 id: EV-0269
 type: event
-canon: draft
+canon: approved
 name: The Clerks' Ordinance
 date: CY 160
 place: PL-0009
@@ -995,7 +1004,7 @@ The Hearings (the Concord's courts) pass from the Helm's office to the Fennick R
 ```canon
 id: EV-0270
 type: event
-canon: draft
+canon: approved
 name: The Kite War
 date: CY 203
 date_end: CY 206
@@ -1008,7 +1017,7 @@ The Second Upland War: Rusk takes three terrace forts on the Rim and loses two w
 ```canon
 id: EV-0271
 type: event
-canon: draft
+canon: approved
 name: The Paper Ordinance
 date: CY 224
 place: PL-0011
@@ -1021,7 +1030,7 @@ Helm Tancred Harrow allows the Counting House to issue dry-notes, "a promise of 
 ```canon
 id: EV-0272
 type: event
-canon: draft
+canon: approved
 name: The Exchange Panic
 date: CY 268
 place: PL-0030
@@ -1033,7 +1042,7 @@ The Gullmouth Exchange, Corvane's own bank, fails after a false relay rumour of 
 ```canon
 id: EV-0273
 type: event
-canon: draft
+canon: approved
 name: The Rim Skirmish
 date: CY 309
 place: PL-0070
@@ -1041,12 +1050,12 @@ houses: [HS-004, HS-091]
 killed: [CH-0233]
 ```
 
-Border fight on the Rim; Brenna's son Ardo Rusk is killed (writer-houses; also the Kitsa glider-captain Akko if DEC-33 is accepted). Truce follows. Whether the hostage Esk is given after this truce (CY 309) or two years earlier (CY 307) is DEC-20: see EV-0275.
+Border fight on the Rim; Brenna's son Ardo Rusk is killed, and in the same fight the Kitsa glider-captain Akko (CH-0078, DEC-33). Truce follows; Esk is given as hostage the same season (EV-0275, DEC-20).
 
 ```canon
 id: EV-0274
 type: event
-canon: draft
+canon: approved
 name: The Grey Cough
 date: CY 249
 date_end: CY 251
@@ -1060,67 +1069,30 @@ A winter lung-fever of the Steps; House Harrow dies of it (EV-0253). Fennick ste
 ```canon
 id: EV-0275
 type: event
-canon: draft
+canon: approved
 name: Esk given to the Stair as hostage
-date: TODO(DEC-20)
+date: CY 309-08
 place: PL-0046
 houses: [HS-091, HS-004]
 participants: [CH-0040, CH-0018]
 secrets: [SEC-019]
 ```
 
-Under a border truce the clans give Esk as hostage, "the Dry Queen's nephew" (SEC-019). Date open: CY 307 (writer-characters: Esk at the Stair since he was eight; Tsura has watched his kite "for five years") or CY 309 after the Rim Skirmish (writer-houses, EV-0273) - DEC-20.
+Under the truce after the Rim Skirmish (EV-0273) the clans give Esk as hostage, "the Dry Queen's nephew" (SEC-019), in Fallow CY 309 - a hostage paid for Ardo Rusk's blood (DEC-20). Esk is 10; in S1 he has been a hostage three years. Corporal Ottar was given twelve years earlier, CY 297.
 
-### Additions to approved events (draft)
+### Additions to approved events (folded in v0.4)
 
 `amend` blocks (README §6) from the writer-houses dossiers; the approved records are unchanged.
 
-```canon
-id: EV-0250
-type: event
-canon: draft
-amend: true
-participants: [CH-0275]
-killed: [CH-0275]
-houses: [HS-017, HS-018]
-secrets: [SEC-034]
-```
 
 The Furrow War (CY 87-88). Public: in the flood year CY 87 the Moll lords "cut their own dikes"; Dask levies march in to "rebuild the Reach"; Lord Rawlin Moll is killed at Hobb's Gate (PL-0079) in CY 88; Helm Galen Corvane sanctions the conquest; Thessa Moll marries a Dask second son (CY 89) - Dask of the Reach (HS-018). Truth: SEC-034.
 
-```canon
-id: EV-0251
-type: event
-canon: draft
-amend: true
-participants: [CH-0279, CH-0204]
-killed: [CH-0278]
-houses: [HS-027]
-secrets: [SEC-035]
-```
 
 Lord Weylin Ostry and his heir are lost on the Ostry bar in fog under a Corvane escort (CY 119); his sister Elowen marries Wystan Corvane (CY 120); the cadet line Corvane of the Roads (HS-027) keeps the forts. Truth: SEC-035.
 
-```canon
-id: EV-0253
-type: event
-canon: draft
-amend: true
-killed: [CH-0270]
-participants: [CH-0250]
-houses: [HS-007, HS-013, HS-014]
-```
 
 Osbert Harrow, the last lord, dies childless in Fallow CY 251 of the Grey Cough (EV-0274). The Sluice Spire, the Sluice Voice and the twelve sluices' dry-tithe pass to Fennick, raised to great house in Longdark CY 251 by a Conclave vote of 5-3 (Corvane, Quell, Ilvane against; Lantry money bought Dask and the Choir). The arithmetic of that vote with Harrow's two voices vacant is DEC-06.
 
-```canon
-id: EV-0254
-type: event
-canon: draft
-amend: true
-secrets: [SEC-036]
-participants: [CH-0261]
-```
 
 Osbert's last will leaves Harrow's second voice, the Hill Voice (a house's voice without a Spire since CY 1; DEC-02), "to the holder of my debts"; the Ring confirms it 5-3 (arithmetic: DEC-06). Harrow Hall becomes the Table House (PL-0071). Truth: SEC-036.
 
@@ -1210,6 +1182,8 @@ date_end: CY 312-11-01
 pov: [CH-0004, CH-0002, CH-0001]
 ```
 
+Still 1 (DEC-04): Ione does not sing a retuning; she stands in the muster of Cantors at the Choir Spire as the retuning parties leave for the coast, and counts how few they are. Ruel is stabbed that night.
+
 ```canon
 id: S01E09
 type: episode
@@ -1220,7 +1194,7 @@ date_end: CY 312-11-03
 pov: [CH-0005, CH-0006, CH-0010]
 ```
 
-outline dates it Still 2; its cliffhanger falls on Still 3
+Still 2 → dusk of Still 3 (DEC-15): Ruel, stabbed on the night of Still 1 (S01E08), dies on Still 2; countdown line "Account Nine closes on the third Still Day"; the cliffhanger is dusk, Still 3, when the Sluice Spire falls silent.
 
 ```canon
 id: S01E10
@@ -1342,6 +1316,14 @@ type: episode
 canon: approved
 date_start: CY 313-01-01
 date_end: CY 313-06-36
+```
+
+```canon
+id: S03E02
+type: episode
+canon: approved
+date_start: CY 313-07-01
+date_end: CY 314-02-36
 ```
 
 ```canon

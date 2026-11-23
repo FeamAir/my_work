@@ -1,8 +1,8 @@
 # House Quell (HS-005)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-005
@@ -14,10 +14,12 @@ words: "Calm is bought."
 sigil: a green eel coiled through a ring
 colors: [sea-green, bone]
 seat: PL-0056
-lands: [PL-0055]
-heads: [CH-0019]
+lands: [PL-0055, PL-0056, PL-0057, PL-0060, PL-0074]
+heads: [CH-0243@~OS 690, CH-0240@CY 259, CH-0242@CY 289, CH-0019@CY 303, TODO(DEC-32)@SY 2]
 secrets: [SEC-016]
 leitmotif: theme on the Storm Spire's home tone
+founded: ~OS 400
+alliances: [HS-001:sworn@CY 40, HS-030:enemy@CY 9, HS-007:partner@CY 321, HS-020:clan@~OS 400, HS-021:clan@~OS 400, HS-022:clan@~OS 400, HS-023:clan@~OS 400, HS-024:clan@CY 96]
 ```
 
 - **Epithet:** the Shoals
@@ -28,22 +30,12 @@ leitmotif: theme on the Storm Spire's home tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-005
-type: house
-canon: draft
-amend: true
-lands: [PL-0056, PL-0057, PL-0060, PL-0074]
-founded: ~OS 400
-heads: [CH-0243@~OS 690, CH-0240@CY 259, CH-0242@CY 289, CH-0019@CY 303, TODO(DEC-32)@SY 2]
-alliances: [HS-001:sworn@CY 40, HS-030:enemy@CY 9, HS-007:partner@CY 321, HS-020:clan@~OS 400, HS-021:clan@~OS 400, HS-022:clan@~OS 400, HS-023:clan@~OS 400, HS-024:clan@CY 96]
-```
 
-> Note for the keeper: Quell is not a bloodline. It is a **house of five clans**; the clan-moot (the **Hull Moot**) elects a **Captain-Lord**, who takes the name *Quell* for life or until deposed. "Jaro Quell" was born Jaro of Clan Rhee. Members of the house are the clans' people; `house: HS-005` should be used only for a sitting or former Captain-Lord, clan members get their clan (HS-020…031). `heads` = Captain-Lords with IDs.
+> Note for the keeper: Quell is not a bloodline. It is a **house of five clans**; the clan-moot (the **Hull Moot**) elects a **Captain-Lord**, who takes the name *Quell* for life or until deposed. "Jaro Quell" was born Jaro of Clan Rhee. Members of the house are the clans' people; `house: HS-005` should be used only for a sitting or former Captain-Lord, clan members get their clan (HS-020…031). `heads` = Captain-Lords with IDs. After Jaro (S11) the seat is **vacant** until the Hull Moot of the next Still Days (SY 2); the new Captain-Lord is named with the S11 outline - the stub `TODO(DEC-32)@SY 2` stays by design (decisions_resolved 3.4).
 
 ### Public history
 

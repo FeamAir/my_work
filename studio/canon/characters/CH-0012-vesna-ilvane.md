@@ -1,8 +1,8 @@
 # Vesna Ilvane (CH-0012)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0012
@@ -15,7 +15,7 @@ class: clergy
 role: antagonist
 born: CY 239
 died: SY 1
-relations: [CH-0022:voice, CH-0045:voice]
+relations: [CH-0022:voice, CH-0045:voice, CH-0056:commander_of, CH-0220:spouse]
 secrets: [SEC-005, SEC-012]
 status_track: [S01E03:alive, S10E09:dead]
 first_episode: S01E03
@@ -46,18 +46,11 @@ Head of the Choir and real power of House Ilvane; mother of Lord Aurin. Official
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 Not merged — the approved value is kept: `status_track: [S01E01:alive, S10E09:dead]` (kept canon).
 
-```canon
-id: CH-0012
-type: character
-canon: draft
-amend: true
-relations: [CH-0056:commander_of, CH-0220:spouse]
-```
 
 > Writer's note (dossier): First seen: S1E3 on screen (proposal: a veiled figure on the Choir Spire stair may be glimpsed in E1). born/born_at: [SEALED — ask lead]; the year is derived from age 73 only. father/mother: [SEALED]. Aurin's father: writer-houses / [ask lead]. Died SY 1 (S10E9), a prisoner of the Sovereign. Relation kinds "voice" / "voice_after": Elm, then Daro, read her signs aloud.
 

@@ -2,7 +2,7 @@
 
 > **CLOSED FILE - FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper, studio director. Writer-helpers, marketing, art and sound receive only excerpts decided by the director (`studio/status.md`). Never quote in public material, openings, previews or reports to the investor. Format: `README.md` §8a.
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
 Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6).
 
@@ -272,9 +272,9 @@ name: Hesh Oshra
 class: poor
 role: minor
 house: HS-094
-born: ?
+born: ~CY 215
 born_at: PL-0008
-died: ?
+died: CY 263
 secrets: [SEC-026]
 ```
 
@@ -429,7 +429,7 @@ secrets: [SEC-021, SEC-014]
 ```canon
 id: TERM-0212
 type: term
-canon: draft
+canon: approved
 term: Hesh Oshra
 say: HESH OSH-rah
 kind: person
@@ -439,7 +439,7 @@ ref: CH-0066
 ```canon
 id: TERM-0213
 type: term
-canon: draft
+canon: approved
 term: Ves
 say: VESS
 kind: person
@@ -512,7 +512,7 @@ The quartermasters' second sale (CY 314).
 ```canon
 id: HS-026
 type: house
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-024]
 ```

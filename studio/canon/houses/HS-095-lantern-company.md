@@ -1,8 +1,8 @@
 # the Lantern Company (HS-095)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-095
@@ -19,9 +19,9 @@ heads: [CH-0059]
 
 ---
 
-## Free companies (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Free companies (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft**. Only the Lantern Company has a record; the other companies are named here and in the glossary.
+Status: **approved** (lead screenwriter, r3). Only the Lantern Company has a record; the other companies are named here and in the glossary.
 
 
 Mercenary bands paid in **dry-notes** (they demand silver when they smell trouble — the first sign of the S6 crash).

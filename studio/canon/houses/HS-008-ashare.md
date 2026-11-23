@@ -1,8 +1,8 @@
 # House Ashare (HS-008)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-008
@@ -14,11 +14,13 @@ words: "Many mouths, one water."
 sigil: a silver spiral shell
 colors: [pearl, deep teal]
 seat: PL-0061
-lands: [PL-0061, PL-0062]
+lands: [PL-0061, PL-0062, PL-0060]
 extinct: OS 700-11
-heads: [CH-0030]
+heads: [CH-0287@~OS 398, CH-0285@OS 600, CH-0286@OS 628, CH-0030@OS 671]
 secrets: [SEC-003]
 leitmotif: theme on the Sunken Spire's tone
+founded: OS 1
+alliances: [HS-001:sworn@~OS 400, HS-002:sworn@~OS 400, HS-003:sworn@~OS 400, HS-004:sworn@~OS 400, HS-005:sworn@~OS 400, HS-009:sworn@~OS 400, HS-010:sworn@~OS 400, HS-011:sworn@~OS 400, HS-012:sworn@~OS 400]
 ```
 
 - **Epithet:** the Tide-Kings
@@ -29,20 +31,10 @@ leitmotif: theme on the Sunken Spire's tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-008
-type: house
-canon: draft
-amend: true
-lands: [PL-0060]
-founded: OS 1
-heads: [CH-0287@~OS 398, CH-0285@OS 600, CH-0286@OS 628, CH-0030@OS 671]
-alliances: [HS-001:sworn@~OS 400, HS-002:sworn@~OS 400, HS-003:sworn@~OS 400, HS-004:sworn@~OS 400, HS-005:sworn@~OS 400, HS-009:sworn@~OS 400, HS-010:sworn@~OS 400, HS-011:sworn@~OS 400, HS-012:sworn@~OS 400]
-```
 
 > Note for the keeper: `extinct: OS 700-11` = the Still Days of OS 700 (the Breaking, EV-0100). The Chronicle's reckoning ("Old Song") counts from the first Keeper (OS 1). The Sunken Vote (RULE-009) is the legal ghost of this house.
 

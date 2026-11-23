@@ -1,8 +1,8 @@
 # Cressa Ilvane (CH-0021)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0021
@@ -12,10 +12,15 @@ name: Cressa Ilvane
 house: HS-003
 class: noble
 role: major
-born: ~CY 272
+born: CY 272-06
 died: CY 321
-status_track: [S02E05:alive, S06E12:dead]
-first_episode: S02E05
+status_track: [S01E03:alive, S06E12:dead]
+first_episode: S01E03
+epithet: Lady Cressa
+relations: [CH-0056:enemy]
+secrets: [SEC-004, SEC-005]
+father: CH-0221
+mother: CH-0222
 ```
 
 ## Look (story-level, must never change)
@@ -40,24 +45,14 @@ Lady of Ilvane, Aurin's wife, Ione's official mother; her own daughter Ilse died
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
-Not merged — the approved value is kept: `status_track: [S01E03:alive, S06E12:dead]` (DEC-24); `first_episode: S01E03` (DEC-24).
-Born a Pallis (HS-029), keeps `house: HS-003` — DEC-27.
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
+First episode S01E03 is canon since v0.4 (DEC-24): she applies Ione's rinse herself (hands, mirror) — pays S3E12 → S4E1.
 
-```canon
-id: CH-0021
-type: character
-canon: draft
-amend: true
-epithet: Lady Cressa
-born: CY 272-06
-relations: [CH-0056:enemy]
-secrets: [SEC-004, SEC-005]
-father: CH-0221
-mother: CH-0222
-```
+**r3 ruling (DEC-43):** in CY 295 both Cressa and Aurin knew their own child had died and that the baby was "a foundling of the Choir"; neither knew she had a living mother in the Lows.
+Born a Pallis (HS-029), keeps `house: HS-003` — approved (DEC-27).
+
 
 > Writer's note (dossier): First seen S1E3 (proposal: at the rinse scene, she pours the water — mirrored by S4E1 when she pours it away). Main from S4. Murdered by the Choir, S6E12 (CY 321). Her own baby (unnamed, died CY 294) is buried at Pale Crag — a minor record may be needed for the grave (keeper's choice). Relation to Ione lives in CH-0002 (mother field); spouse (Aurin) and ally (Silt) live in the lower-ID records CH-0020 and CH-0014.
 
@@ -88,7 +83,7 @@ mother: CH-0222
 ### Biography
 Married into House Ilvane (birth-house: writer-houses), wife of Lord Aurin. Her own baby died in CY 294 and was buried at Pale Crag. In CY 295, after the Night of Still Water, the Choir placed a child in her nursery and she was told to call it her own. She did, and loved it. **What she knew in CY 295** — proposal: she knew her baby was dead and that the child was "a foundling of the Choir"; she did **not** know the child had a living mother in the Lows. Lead to confirm (it decides how S4 plays).
 
-She gives Ione the weekly rinse herself (S1E3, proposal). In S2 she learns Choir sign to talk to her mute daughter. In S3 she watches Vesna confine Ione at Pale Crag and does nothing. In S4 she pours the rinse away (E1) and investigates with Ione and Mother Silt; Ione dies in E11. In S5 Aurin gives her the Gleaner rolls; she publishes them with Ione's journal and Silt's ledger (E6, SEC-005). In S6 the Choir murders her (E12).
+She gives Ione the weekly rinse herself (S1E3, DEC-24). In S2 she learns Choir sign to talk to her mute daughter. In S3 she watches Vesna confine Ione at Pale Crag and does nothing. In S4 she pours the rinse away (E1) and investigates with Ione and Mother Silt; Ione dies in E11. In S5 Aurin gives her the Gleaner rolls; she publishes them with Ione's journal and Silt's ledger (E6, SEC-005). In S6 the Choir murders her (E12).
 
 ### Arc by season
 | Season | Where they are | What they do | State at season end |

@@ -1,8 +1,8 @@
 # House Dask (HS-002)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-002
@@ -12,13 +12,14 @@ name: House Dask
 rank: great
 words: "Every mouth owes us."
 sigil: a bronze sickle over three furrows
-colors: [ochre, earth brown]
+colors: [ochre, earth brown, bronze]
 seat: PL-0036
-lands: [PL-0035, PL-0038]
-heads: [CH-0016, CH-0017@CY 312-10]
-alliances: [HS-006:ally@CY 312, HS-007:grain_futures@CY 312, HS-010:conquered@CY 88]
+lands: [PL-0035, PL-0038, PL-0036, PL-0037]
+heads: [CH-0216@~OS 680, CH-0210@CY 262, CH-0016@CY 280, CH-0017@CY 312-10, CH-0215@SY 1]
+alliances: [HS-006:ally@CY 312, HS-007:grain_futures@CY 312, HS-010:conquered@CY 88, HS-018:cadet@CY 89, HS-031:marriage@CY 300, HS-007:debtor@CY 290, HS-006:sworn@CY 312-11]
 secrets: [SEC-013]
 leitmotif: theme on the Sheaf Spire's home tone
+founded: ~OS 400
 ```
 
 - **Epithet:** the Granary
@@ -30,21 +31,10 @@ leitmotif: theme on the Sheaf Spire's home tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-002
-type: house
-canon: draft
-amend: true
-colors: [bronze]
-lands: [PL-0036, PL-0037]
-founded: ~OS 400
-heads: [CH-0216@~OS 680, CH-0210@CY 262, CH-0016@CY 280, CH-0017@CY 312-10, TODO(DEC-32)@SY 1]
-alliances: [HS-018:cadet@CY 89, HS-031:marriage@CY 300, HS-007:debtor@CY 290, HS-006:sworn@CY 312-11]
-```
 
 ### Public history
 
@@ -99,7 +89,7 @@ This is what Dask lives through in S4. It explains why everyone, later, can beli
 | Ember | Garrick petitions Helm Odo for the fleet and the Rusk-in-exile pikes to force the weir. Odo refuses — his treasury cannot pay a war, and the Ossari threat keeps Listener Law alive. Dask levies desert to Highwater to beg. Moll polders villages (Kellow knights) fly old Moll ribbons. |
 | Fallow 1 | second delivery fails. Dask is, on paper, bankrupt; the bank holds the right to foreclose on the Moll polders. Garrick signs the vote-lien "for one season". |
 | Mistcall | Tsura threatens in council to breach the weir herself (S4E9). The delta says "the Dry Queen stole the river." Garrick's steward, in public: *"Who pays for the dry? This year — we do."* |
-| Still 3 | the weir goes; the wave runs down the Aun (S4E11). |
+| Still 3 | the weir goes before dawn; the wave runs down the Aun and reaches Highwater the same afternoon (S4E11). |
 | after | the Aun runs again; the salt tongue is pushed back; the CY 315 harvest is good; the vote-lien lapses at the Weir Terms. |
 
 Everyone in the delta had a reason in CY 314.

@@ -1,8 +1,8 @@
 # House Vanth (HS-012)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-012
@@ -11,7 +11,15 @@ canon: approved
 name: House Vanth
 rank: extinct
 extinct: CY 141
-lands: [PL-0046, PL-0047]
+lands: [PL-0046, PL-0047, PL-0045]
+words: The river remembers.
+sigil: a white waterfall between two grey stones, on slate blue-green
+colors: [slate blue-green, white]
+seat: PL-0046
+founded: ~OS 400
+heads: [CH-0280@CY 136]
+alliances: [HS-004:sworn_swords@~OS 400, HS-004:destroyed_by@CY 141, HS-091:refuge@CY 141]
+secrets: [SEC-008]
 ```
 
 - **Fate:** founding house, held the Stair and the Falls Spire; destroyed in the First Upland War CY 141 (EV-0151). Survivors fled upland (Kadu's ancestors).
@@ -21,25 +29,10 @@ lands: [PL-0046, PL-0047]
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-012
-type: house
-canon: draft
-amend: true
-words: The river remembers.
-sigil: a white waterfall between two grey stones, on slate blue-green
-colors: [slate blue-green, white]
-seat: PL-0046
-lands: [PL-0045]
-founded: ~OS 400
-heads: [CH-0280@CY 136]
-alliances: [HS-004:sworn_swords@~OS 400, HS-004:destroyed_by@CY 141, HS-091:refuge@CY 141]
-secrets: [SEC-008]
-```
 
 ### Public history
 

@@ -1,8 +1,8 @@
 # House Lantry (HS-007)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-007
@@ -15,9 +15,12 @@ sigil: a copper balance whose one pan holds water
 colors: [black, copper]
 seat: PL-0011
 founded: CY 220
-heads: [CH-0011, CH-0061@CY 322]
-secrets: [SEC-006, SEC-007, SEC-013, SEC-015]
+heads: [CH-0260@CY 220, CH-0261@CY 241, CH-0262@CY 266, CH-0011@CY 291, CH-0061@CY 322]
+secrets: [SEC-006, SEC-007, SEC-013, SEC-015, SEC-016]
 leitmotif: no Spire - theme built on the Relay's tone-codes
+lands: [PL-0011, PL-0071]
+founder: CH-0260
+alliances: [HS-016:partner@CY 220, HS-031:partner@CY 230, HS-006:patron@CY 251, HS-009:creditor@CY 240, HS-002:creditor@CY 290, HS-001:creditor@CY 308, HS-090:creditor@CY 300, HS-005:partner@CY 321]
 ```
 
 - **Epithet:** the Counting House
@@ -28,21 +31,10 @@ leitmotif: no Spire - theme built on the Relay's tone-codes
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`rank`, `sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`rank`, `sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-007
-type: house
-canon: draft
-amend: true
-lands: [PL-0011, PL-0071]
-founder: CH-0260
-heads: [CH-0260@CY 220, CH-0261@CY 241, CH-0262@CY 266, CH-0011@CY 291, CH-0061@CY 322]
-alliances: [HS-016:partner@CY 220, HS-031:partner@CY 230, HS-006:patron@CY 251, HS-009:creditor@CY 240, HS-002:creditor@CY 290, HS-001:creditor@CY 308, HS-090:creditor@CY 300, HS-005:partner@CY 321]
-secrets: [SEC-016]
-```
 
 > Note for the keeper: Lantry holds **no Spire**. Its Conclave voice is the **Hill Voice** — the former second voice of House Harrow, attached since CY 1 to the Crown Spire's surrender (`HS-009-harrow.md`; `world.md` §7 §1). The head of Lantry is not hereditary: the partners of **the Table** elect a Master or Mistress of the Count every seven years (Ursel elected CY 291, re-elected 298, 305, 312).
 
@@ -56,7 +48,7 @@ secrets: [SEC-016]
 | CY 220 | deposits of the Steps | the vault |
 | CY 224 | **the Paper Ordinance** (EV-0271): signed by Helm Tancred Harrow — the Counting House may issue **dry-notes**, "a promise of dry ground", backed by deeds to land above the waterline | Harrow was the bank's first great debtor |
 | CY 240–251 | the debts of House Harrow (Sluice works, the Grey Cough years) | |
-| CY 251–252 | **the Purchased Seat** (EV-0254): Lord Osbert Harrow's last will leaves the **Hill Voice** "to the holder of his debts"; the Ring confirms it 5–3 in CY 252 | the first and only voice held by a house without a Spire or a sword |
+| CY 251–252 | **the Purchased Seat** (EV-0254): Lord Osbert Harrow's last will leaves the **Hill Voice** "to the holder of his debts"; the Ring confirms it 5–2 in CY 252 (the Hill Voice itself is the matter voted on and is empty; Corvane and Quell against - DEC-06) | the first and only voice held by a house without a Spire or a sword |
 | CY 251 | **patron of Fennick** — funds the elevation | the clerks' house owes the bank its rank |
 | CY 268 | **the Exchange Panic** (EV-0272): the Gullmouth Exchange (Corvane's own bank) fails after a false relay rumour of a lost treasure fleet; Lantry buys its paper at a fifth | from then on Corvane borrows from Lantry |
 | CY 290s | Dask's harvests by forward contract (the Ember contracts); the Choir's roof; Corvane's fleet refit (CY 308) | creditor of all |

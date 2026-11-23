@@ -1,8 +1,8 @@
 # Esk (CH-0040)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0040
@@ -12,11 +12,18 @@ name: Esk
 house: HS-091
 class: noble
 role: major
-born: ~CY 299
+born: CY 299-04
 true_mother: CH-0013
 parentage_secret: SEC-019
 status_track: [S01E04:alive]
 first_episode: S01E04
+epithet: the hostage
+mother: CH-0071
+relations: [CH-0062:friend, CH-0047:comrade]
+secrets: [SEC-019, SEC-008]
+father: TODO(DEC-33)
+born_at: PL-0050
+true_father: CH-0078
 ```
 
 ## Look (story-level, must never change)
@@ -41,25 +48,12 @@ Ossari hostage held by House Rusk, officially Tsura's nephew. Main from S3. Susp
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 Not merged — the approved value is kept: `status_track: [S01E04:alive, S07E06:revealed]` (kept canon).
-`mother` = the official mother (Dakka Den, CH-0071); the true mother stays as approved (SEC-019). Father: TODO stub, DEC-33. Hostage since CY 307 or 309: DEC-20.
+`mother` = the official mother (Dakka Den, CH-0071); the true mother stays as approved (SEC-019). `true_father` = Akko of Kitsa (CH-0078, DEC-33). The official father is Dakka's husband; his name comes from writer-characters with the S3 dossiers, so `father` stays `TODO(DEC-33)` by design. Hostage since Fallow CY 309, aged 10 (DEC-20). Where in S1: Highwater, the Rusk barracks (hostage with the Conclave delegation); from S1E12 at the Stair (DEC-25).
 
-```canon
-id: CH-0040
-type: character
-canon: draft
-amend: true
-epithet: the hostage
-born: CY 299-04
-mother: CH-0071
-relations: [CH-0062:friend, CH-0047:comrade]
-secrets: [SEC-019, SEC-008]
-father: TODO(DEC-33)
-born_at: PL-0050
-```
 
 > Writer's note (dossier): Official mother: Dakka Den (CH-0071, new-character proposal) — "Tsura's nephew". Father: [ask lead / writer-houses]. Born on the Ossari plateau (PL pending). Main from S3. Survives the saga. Relations to Kes (ward) and Brenna (hostage_keeper) live in their lower-ID records.
 
@@ -88,7 +82,7 @@ born_at: PL-0050
 - **Heroism:** he **keeps the record nobody else will keep**, and later carries the pitch when every other line is cut (S11).
 
 ### Biography
-Given to the Stair as a hostage under a border truce, as "the Dry Queen's nephew" (SEC-019: he is her son). He has lived at the Stair since he was eight (CY 307, proposal) and in S1 is in Highwater with the Rusk delegation. He flies a kite from the barracks roof (S1E4); Kes teases him; he teaches her to read kites. In the S1E12 tag his kite answers the signal-fires on the escarpment: "home".
+Given to the Stair as a hostage under a border truce, as "the Dry Queen's nephew" (SEC-019: he is her son). He was given in CY 309, at ten, after the Rim Skirmish (DEC-20) — in S1 he has been a hostage three years — and in S1 is in Highwater with the Rusk delegation. He flies a kite from the barracks roof (S1E4); Kes teases him; he teaches her to read kites. In the S1E12 tag his kite answers the signal-fires on the escarpment: "home".
 
 His knotted cord of "stone-song days" (S3E8) is the first data anyone gathers on the thirst (SEC-008). In S9 he is suspected of a betrayal he tried to prevent; in S11, with the Relay in the Sovereign's hands, his kite-lines carry the pitch from boat to boat.
 

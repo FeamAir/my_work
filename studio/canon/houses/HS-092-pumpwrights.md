@@ -1,8 +1,8 @@
 # the Pumpwrights' Guild (HS-092)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-092
@@ -10,8 +10,15 @@ type: house
 canon: approved
 name: the Pumpwrights' Guild
 rank: guild
-heads: [CH-0041]
+heads: [CH-0041@~CY 305]
 secrets: [SEC-028]
+words: Iron doesn't tire.
+sigil: a black cog-wheel with a bucket on each tooth, on brick orange
+colors: [brick orange, iron black]
+seat: PL-0004
+lands: [PL-0076]
+founded: CY 177
+alliances: [HS-006:licensed_by@CY 251, HS-007:debtor@CY 300, HS-033:partner@CY 200]
 ```
 
 - **What:** engineers of pumps, dikes, locks, powder-mills; Mids power; wants a vote ("pumps vs. songs"). Under it: the walkers' secret union (Corr).
@@ -20,24 +27,10 @@ secrets: [SEC-028]
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`name`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`name`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-092
-type: house
-canon: draft
-amend: true
-words: Iron doesn't tire.
-sigil: a black cog-wheel with a bucket on each tooth, on brick orange
-colors: [brick orange, iron black]
-seat: PL-0004
-lands: [PL-0076]
-founded: CY 177
-heads: [CH-0041@~CY 305]
-alliances: [HS-006:licensed_by@CY 251, HS-007:debtor@CY 300, HS-033:partner@CY 200]
-```
 
 
 > Words, sigil and colour are proposals (brick orange — check against Ossari sand-orange: brick is red-brown and dark, sand-orange is light and dusty). Dorran Strand (CH-0041) Guildmaster since CY 305 (proposal).

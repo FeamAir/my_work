@@ -1,8 +1,8 @@
 # Brenna Rusk (CH-0018)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below as **draft** (v0.3).
+Foundation-level record (`cast_overview.md` r2, ages at CY 312 Longdark; `~` births are derived from those ages). The dossier by `writer-characters` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: CH-0018
@@ -13,12 +13,15 @@ epithet: Lady of the Stair
 house: HS-004
 class: ruler
 role: major
-born: ~CY 255
+born: CY 255-02
 died: CY 313-09
 died_at: PL-0046
-relations: [CH-0040:hostage]
+relations: [CH-0040:hostage, CH-0062:ward, CH-0072:trade_partner, CH-0231:spouse]
 status_track: [S01E04:alive, S03E11:dead]
 first_episode: S01E04
+father: CH-0230
+mother: CH-0237
+secrets: [SEC-030]
 ```
 
 ## Look (story-level, must never change)
@@ -43,22 +46,11 @@ Head of House Rusk; her quartermasters sell saltpeter twice. Holds the gate and 
 
 ---
 
-## Dossier (draft) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-characters + writer-houses (genealogy links, `story/houses/lineages.md` §3), 2026-11-22 · merged in v0.3
 
-Status: **draft** (the lead screenwriter approves). The approved record above is unchanged; the `amend` block below only adds to it (README §6).
+Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded into the record above in v0.4.
 Not merged — the approved value is kept: `epithet: the Lady of the Stair` (kept canon).
 
-```canon
-id: CH-0018
-type: character
-canon: draft
-amend: true
-born: CY 255-02
-relations: [CH-0062:ward, CH-0072:trade_partner, CH-0231:spouse]
-father: CH-0230
-mother: CH-0237
-secrets: [SEC-030]
-```
 
 > Writer's note (dossier): Main from S2. Died holding the gate of the Stair, S3E11 (Mistcall CY 313). Her secret (selling saltpeter to the Ossari) needs a SEC id — see report (proposal SEC-030). Relation to Kes (sworn_sword) lives in CH-0004.
 

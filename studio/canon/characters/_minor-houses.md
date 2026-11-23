@@ -1,6 +1,6 @@
 # Second circle - house lineages (founders, last heads, the last three generations)
 
-Canon: v0.3 · Status: **draft** (writer-houses, `studio/story/houses/lineages.md` §2, 2026-11-22; merged by lore-keeper; the lead screenwriter approves).
+Canon: v0.4 · Status: **approved** (writer-houses, `studio/story/houses/lineages.md` §2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3 with the DEC-57 renames).
 
 Minimal records for the family trees of the great and fallen houses (`tools/validate.py --mermaid HS-…`). Parents and spouses of the main cast are linked by `amend` blocks in their own records. Older heads without an ID are names only in each house file. IDs CH-0200…0299 are the house-lineage block (README §3).
 
@@ -9,7 +9,7 @@ Minimal records for the family trees of the great and fallen houses (`tools/vali
 ```canon
 id: CH-0203
 type: character
-canon: draft
+canon: approved
 name: Tolvar Corvane
 epithet: the Admiral of the Breaking
 house: HS-001
@@ -23,7 +23,7 @@ first_episode: origin
 ```canon
 id: CH-0200
 type: character
-canon: draft
+canon: approved
 name: Stellan Corvane
 house: HS-001
 class: ruler
@@ -37,7 +37,7 @@ first_episode: origin
 ```canon
 id: CH-0201
 type: character
-canon: draft
+canon: approved
 name: Wenna Corvane
 house: HS-001
 class: noble
@@ -50,7 +50,7 @@ first_episode: origin
 ```canon
 id: CH-0202
 type: character
-canon: draft
+canon: approved
 name: Alys Corvane
 house: HS-001
 class: noble
@@ -67,7 +67,7 @@ first_episode: origin
 ```canon
 id: CH-0216
 type: character
-canon: draft
+canon: approved
 name: Hemmet Dask
 house: HS-002
 class: noble
@@ -80,7 +80,7 @@ first_episode: origin
 ```canon
 id: CH-0210
 type: character
-canon: draft
+canon: approved
 name: Bertil Dask
 house: HS-002
 class: ruler
@@ -94,7 +94,7 @@ first_episode: origin
 ```canon
 id: CH-0217
 type: character
-canon: draft
+canon: approved
 name: Rosamund Dask
 house: HS-002
 class: noble
@@ -107,7 +107,7 @@ first_episode: origin
 ```canon
 id: CH-0211
 type: character
-canon: draft
+canon: approved
 name: Agathe Dask
 house: HS-002
 class: noble
@@ -120,7 +120,7 @@ first_episode: origin
 ```canon
 id: CH-0212
 type: character
-canon: draft
+canon: approved
 name: Edrin Dask
 house: HS-002
 class: noble
@@ -136,7 +136,7 @@ first_episode: origin
 ```canon
 id: CH-0213
 type: character
-canon: draft
+canon: approved
 name: Hilde Dask
 epithet: of the Reach
 house: HS-002
@@ -150,7 +150,7 @@ first_episode: origin
 ```canon
 id: CH-0214
 type: character
-canon: draft
+canon: approved
 name: Thyra Dask
 house: HS-002
 class: noble
@@ -161,7 +161,7 @@ born: CY 280
 ```canon
 id: CH-0215
 type: character
-canon: draft
+canon: approved
 name: Ylva Dask
 house: HS-002
 class: noble
@@ -178,7 +178,7 @@ mother: CH-0214
 ```canon
 id: CH-0224
 type: character
-canon: draft
+canon: approved
 name: Sereth Ilvane
 epithet: the Matriarch
 house: HS-003
@@ -192,7 +192,7 @@ first_episode: origin
 ```canon
 id: CH-0220
 type: character
-canon: draft
+canon: approved
 name: Emeric Ilvane
 house: HS-003
 class: ruler
@@ -205,7 +205,7 @@ first_episode: origin
 ```canon
 id: CH-0221
 type: character
-canon: draft
+canon: approved
 name: Tamlyn Pallis
 house: HS-029
 class: noble
@@ -219,7 +219,7 @@ first_episode: origin
 ```canon
 id: CH-0222
 type: character
-canon: draft
+canon: approved
 name: Imre Pallis
 house: HS-029
 class: noble
@@ -236,7 +236,7 @@ first_episode: origin
 ```canon
 id: CH-0236
 type: character
-canon: draft
+canon: approved
 name: Borra Rusk
 house: HS-004
 class: soldier
@@ -249,7 +249,7 @@ first_episode: origin
 ```canon
 id: CH-0230
 type: character
-canon: draft
+canon: approved
 name: Bodvar Rusk
 house: HS-004
 class: ruler
@@ -263,7 +263,7 @@ first_episode: origin
 ```canon
 id: CH-0237
 type: character
-canon: draft
+canon: approved
 name: Gisla Rusk
 house: HS-004
 class: noble
@@ -276,7 +276,7 @@ first_episode: origin
 ```canon
 id: CH-0231
 type: character
-canon: draft
+canon: approved
 name: Wilmot Rusk
 house: HS-004
 class: noble
@@ -289,7 +289,7 @@ first_episode: origin
 ```canon
 id: CH-0232
 type: character
-canon: draft
+canon: approved
 name: Eirik Rusk
 house: HS-004
 class: soldier
@@ -302,7 +302,7 @@ mother: CH-0237
 ```canon
 id: CH-0233
 type: character
-canon: draft
+canon: approved
 name: Ardo Rusk
 house: HS-004
 class: soldier
@@ -318,7 +318,7 @@ first_episode: origin
 ```canon
 id: CH-0234
 type: character
-canon: draft
+canon: approved
 name: Dagny Rusk
 house: HS-004
 class: noble
@@ -329,7 +329,7 @@ born: CY 281
 ```canon
 id: CH-0235
 type: character
-canon: draft
+canon: approved
 name: Sindre Rusk
 house: HS-004
 class: noble
@@ -347,7 +347,7 @@ mother: CH-0234
 ```canon
 id: CH-0243
 type: character
-canon: draft
+canon: approved
 name: Reske Quell
 house: HS-005
 class: ruler
@@ -360,7 +360,7 @@ first_episode: origin
 ```canon
 id: CH-0240
 type: character
-canon: draft
+canon: approved
 name: Rourke Quell
 epithet: of Rhee
 house: HS-005
@@ -375,7 +375,7 @@ first_episode: origin
 ```canon
 id: CH-0241
 type: character
-canon: draft
+canon: approved
 name: Jessamy of Rhee
 house: HS-020
 class: noble
@@ -388,7 +388,7 @@ first_episode: origin
 ```canon
 id: CH-0242
 type: character
-canon: draft
+canon: approved
 name: Jinna Quell
 epithet: of Jutt
 house: HS-005
@@ -402,7 +402,7 @@ born: CY 250
 ```canon
 id: CH-0250
 type: character
-canon: draft
+canon: approved
 name: Barnet Fennick
 house: HS-006
 class: ruler
@@ -415,7 +415,7 @@ first_episode: origin
 ```canon
 id: CH-0251
 type: character
-canon: draft
+canon: approved
 name: Sefton Fennick
 house: HS-006
 class: ruler
@@ -430,7 +430,7 @@ first_episode: origin
 ```canon
 id: CH-0253
 type: character
-canon: draft
+canon: approved
 name: Maud Fennick
 house: HS-006
 class: noble
@@ -443,7 +443,7 @@ first_episode: origin
 ```canon
 id: CH-0252
 type: character
-canon: draft
+canon: approved
 name: Yolande Fennick
 house: HS-006
 class: noble
@@ -458,7 +458,7 @@ first_episode: origin
 ```canon
 id: CH-0260
 type: character
-canon: draft
+canon: approved
 name: Hendrik Lantry
 house: HS-007
 class: merchant
@@ -471,7 +471,7 @@ first_episode: origin
 ```canon
 id: CH-0261
 type: character
-canon: draft
+canon: approved
 name: Mattias Lantry
 house: HS-007
 class: merchant
@@ -485,7 +485,7 @@ first_episode: origin
 ```canon
 id: CH-0262
 type: character
-canon: draft
+canon: approved
 name: Bastian Lantry
 house: HS-007
 class: merchant
@@ -500,7 +500,7 @@ first_episode: origin
 ```canon
 id: CH-0263
 type: character
-canon: draft
+canon: approved
 name: Annick Lantry
 house: HS-007
 class: merchant
@@ -513,7 +513,7 @@ first_episode: origin
 ```canon
 id: CH-0264
 type: character
-canon: draft
+canon: approved
 name: Rainer Lantry
 house: HS-007
 class: merchant
@@ -529,7 +529,7 @@ first_episode: origin
 ```canon
 id: CH-0265
 type: character
-canon: draft
+canon: approved
 name: Elske Lantry
 house: HS-007
 class: merchant
@@ -544,7 +544,7 @@ first_episode: origin
 ```canon
 id: CH-0271
 type: character
-canon: draft
+canon: approved
 name: Aldous Harrow
 house: HS-009
 class: ruler
@@ -557,7 +557,7 @@ first_episode: origin
 ```canon
 id: CH-0270
 type: character
-canon: draft
+canon: approved
 name: Osbert Harrow
 house: HS-009
 class: ruler
@@ -570,7 +570,7 @@ first_episode: origin
 ```canon
 id: CH-0275
 type: character
-canon: draft
+canon: approved
 name: Rawlin Moll
 house: HS-010
 class: ruler
@@ -583,7 +583,7 @@ first_episode: origin
 ```canon
 id: CH-0276
 type: character
-canon: draft
+canon: approved
 name: Thessa Moll
 house: HS-018
 class: noble
@@ -597,7 +597,7 @@ first_episode: origin
 ```canon
 id: CH-0278
 type: character
-canon: draft
+canon: approved
 name: Weylin Ostry
 house: HS-011
 class: ruler
@@ -610,7 +610,7 @@ first_episode: origin
 ```canon
 id: CH-0279
 type: character
-canon: draft
+canon: approved
 name: Elowen Ostry
 house: HS-001
 class: noble
@@ -623,7 +623,7 @@ first_episode: origin
 ```canon
 id: CH-0280
 type: character
-canon: draft
+canon: approved
 name: the last Lady of Vanth
 house: HS-012
 class: ruler
@@ -638,7 +638,7 @@ first_episode: origin
 ```canon
 id: CH-0287
 type: character
-canon: draft
+canon: approved
 name: Isembar Ashare
 house: HS-008
 class: ruler
@@ -651,7 +651,7 @@ first_episode: origin
 ```canon
 id: CH-0285
 type: character
-canon: draft
+canon: approved
 name: Taleh Ashare
 house: HS-008
 class: ruler
@@ -664,7 +664,7 @@ first_episode: origin
 ```canon
 id: CH-0286
 type: character
-canon: draft
+canon: approved
 name: Ulenne Ashare
 house: HS-008
 class: ruler
@@ -680,7 +680,7 @@ first_episode: origin
 ```canon
 id: CH-0204
 type: character
-canon: draft
+canon: approved
 name: Wystan Corvane
 house: HS-001
 class: ruler

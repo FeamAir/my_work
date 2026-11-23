@@ -1,8 +1,8 @@
 # House Ilvane (HS-003)
 
-Canon: v0.2 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
 
-Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below as **draft** (v0.3).
+Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
 ```canon
 id: HS-003
@@ -12,13 +12,14 @@ name: House Ilvane
 rank: great
 words: "Hear, and be still."
 sigil: an open white hand holding a spiral stone
-colors: [white, pale violet]
+colors: [white, pale violet, silver]
 seat: PL-0040
-lands: [PL-0040, PL-0017]
-heads: [CH-0020]
-alliances: [HS-006:contempt@CY 312, HS-007:debtor@CY 312, HS-090:dominates@CY 312]
-secrets: [SEC-004, SEC-005]
+lands: [PL-0040, PL-0017, PL-0041]
+heads: [CH-0224@~OS 688, CH-0220@CY 268, CH-0020@CY 301]
+alliances: [HS-006:contempt@CY 312, HS-007:debtor@CY 312, HS-090:dominates@CY 312, HS-090:patron@CY 1, HS-029:sworn@CY 1, HS-007:debtor@CY 300, HS-006:enemy@CY 251]
+secrets: [SEC-004, SEC-005, SEC-003, SEC-029]
 leitmotif: theme on the Pale Spire's home tone
+founded: ~OS 400
 ```
 
 - **Epithet:** the Songblood
@@ -31,22 +32,10 @@ leitmotif: theme on the Pale Spire's home tone
 
 ---
 
-## Dossier (draft) — writer-houses, 2026-11-22 · merged in v0.3
+## Dossier (approved r3) — writer-houses, 2026-11-22 · merged in v0.3
 
-Status: **draft** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; the lead screenwriter approves). The approved foundation record above is unchanged; the `amend` block below only adds to it (README §6). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
+Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`sigil`, `leitmotif`) stay as approved; the dossier wording is in the text below.
 
-```canon
-id: HS-003
-type: house
-canon: draft
-amend: true
-colors: [silver]
-lands: [PL-0041]
-founded: ~OS 400
-heads: [CH-0224@~OS 688, CH-0220@CY 268, CH-0020@CY 301]
-alliances: [HS-090:patron@CY 1, HS-029:sworn@CY 1, HS-007:debtor@CY 300, HS-006:enemy@CY 251]
-secrets: [SEC-003, SEC-029]
-```
 
 > Note for the keeper: Ilvane has two heads in practice — the **Lord of the Hall** (secular head, listed in `heads`) and, when an Ilvane holds it, the office of **First Cantor** (head of the Choir, HS-090). In CY 312 these are Lord Aurin (CH-0020) and his mother, First Cantor Vesna (CH-0012). Vesna's own entry in the house tree is only her official one — "daughter of Ilvane of the Crag, b. CY 239" — with no parents named (brief r2; `[SEALED — ask lead]`).
 
