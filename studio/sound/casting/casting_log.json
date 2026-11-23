@@ -119,7 +119,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 1,
+   "voice_id": "K3PkIvwIWSsVOFh6ZwRq",
+   "seed": 3111,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "K3PkIvwIWSsVOFh6ZwRq",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V02/i1_p1.mp3"
+  }
  },
  "V03": {
   "name": "HS S1 V03",
@@ -175,7 +185,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "yQutTeU9ri2pPwzgY7SO",
+   "seed": 3121,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "yQutTeU9ri2pPwzgY7SO",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V03/i1_p3.mp3"
+  }
  },
  "V04": {
   "name": "HS S1 V04",
@@ -231,7 +251,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 1,
+   "voice_id": "JDqVQUWrTkqKJUi5V0Xo",
+   "seed": 3131,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "JDqVQUWrTkqKJUi5V0Xo",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p1.mp3"
+  }
  },
  "V05": {
   "name": "HS S1 V05",
@@ -287,7 +317,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "v0bxs05N6L36WwOa09ep",
+   "seed": 3141,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "v0bxs05N6L36WwOa09ep",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p3.mp3"
+  }
  },
  "V06": {
   "name": "HS S1 V06",
@@ -393,7 +433,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 2,
+   "preview": 2,
+   "voice_id": "WFG5Ms3p5WkToImSDDnd",
+   "seed": 3152,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "WFG5Ms3p5WkToImSDDnd",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p2.mp3"
+  }
  },
  "V07": {
   "name": "HS S1 V07",
@@ -449,7 +499,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "H2ScA5AaNufRh2PPnMdi",
+   "seed": 3161,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "H2ScA5AaNufRh2PPnMdi",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p3.mp3"
+  }
  },
  "V08": {
   "name": "HS S1 V08",
@@ -505,7 +565,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "4NQbUoR4U0anhExNcJRR",
+   "seed": 3171,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "4NQbUoR4U0anhExNcJRR",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p3.mp3"
+  }
  },
  "V09": {
   "name": "HS S1 V09",
@@ -561,7 +631,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "UmbFuACrLtlTZUAXLccZ",
+   "seed": 3181,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "UmbFuACrLtlTZUAXLccZ",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p3.mp3"
+  }
  },
  "V10": {
   "name": "HS S1 V10",
@@ -617,7 +697,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "PWqxdNZLI6s0YLJIi8fG",
+   "seed": 3191,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "PWqxdNZLI6s0YLJIi8fG",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p3.mp3"
+  }
  },
  "V11": {
   "name": "HS S1 V11",
@@ -673,7 +763,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 1,
+   "voice_id": "Dac4C4KLxg2pJlsoYnoj",
+   "seed": 3201,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "Dac4C4KLxg2pJlsoYnoj",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p1.mp3"
+  }
  },
  "V12": {
   "name": "HS S1 V12",
@@ -729,7 +829,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 2,
+   "voice_id": "qG3cnlGxJgmMXqt4bbIm",
+   "seed": 3211,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "qG3cnlGxJgmMXqt4bbIm",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p2.mp3"
+  }
  },
  "V13": {
   "name": "HS S1 V13",
@@ -785,7 +895,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "PJX2NeYe2aBGqobdcWhI",
+   "seed": 3221,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "PJX2NeYe2aBGqobdcWhI",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p3.mp3"
+  }
  },
  "V14": {
   "name": "HS S1 V14",
@@ -841,7 +961,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "YFZRbyIZyYTBQIAglqXJ",
+   "seed": 3231,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "YFZRbyIZyYTBQIAglqXJ",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p3.mp3"
+  }
  },
  "V15": {
   "name": "HS S1 V15",
@@ -897,7 +1027,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 3,
+   "voice_id": "wsnsRkBo3fRmnw5VGA2N",
+   "seed": 3241,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "wsnsRkBo3fRmnw5VGA2N",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p3.mp3"
+  }
  },
  "V16": {
   "name": "HS S1 V16",
@@ -1003,7 +1143,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 2,
+   "preview": 3,
+   "voice_id": "ezK9nLZpUgIsAhjVGvj1",
+   "seed": 3252,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "ezK9nLZpUgIsAhjVGvj1",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p3.mp3"
+  }
  },
  "V17": {
   "name": "HS S1 V17",
@@ -1059,7 +1209,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 1,
+   "voice_id": "3IeVnlQ7Cn67uf7nTumG",
+   "seed": 3261,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "3IeVnlQ7Cn67uf7nTumG",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p1.mp3"
+  }
  },
  "NARR01": {
   "name": "HS NARR A cand",
@@ -1165,6 +1325,16 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 2,
+   "voice_id": "Kq376vQT4X9raogOKEpK",
+   "seed": 3271,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "Kq376vQT4X9raogOKEpK",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p2.mp3"
+  }
  }
 }

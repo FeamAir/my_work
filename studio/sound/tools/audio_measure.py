@@ -60,8 +60,8 @@ def measure(path):
     x = load(path)
     s, e = trim_bounds(x)
     f0 = f0_track(x[int(s * SR):int(e * SR)])
-    res = {"file": str(path), "dur": round(len(x) / SR, 3), "speech_start": round(s, 2),
-           "speech_end": round(e, 2), "speech_dur": round(e - s, 2)}
+    res = {"file": str(path), "dur": round(len(x) / SR, 3), "speech_start": round(float(s), 2),
+           "speech_end": round(float(e), 2), "speech_dur": round(float(e - s), 2)}
     if len(f0):
         res.update(f0_med=round(float(np.median(f0)), 1), f0_p10=round(float(np.percentile(f0, 10)), 1),
                    f0_p90=round(float(np.percentile(f0, 90)), 1))
