@@ -92,6 +92,8 @@ Each record has `canon:`
 | `locked` | Already shown on screen (episode produced). Cannot be changed — only reinterpreted (new secret, unreliable narrator, etc.). | nobody; a retcon needs director + lead screenwriter |
 | `retconned` | Kept for history, no longer true. Points to the replacement in prose. | keeper |
 
+Since v0.4 (r3) the writer dossiers are approved: a "(proposal)" mark left in their prose only records who proposed the detail - it is approved with the dossier, unless the same sentence says "lead's choice" or a DEC says otherwise.
+
 A dossier that adds to an **approved** record does not change it: its additions sit in an `amend` block (status `draft`) right under the approved record (§6). When the lead approves, the keeper folds the amend into the record and deletes the amend block. A value that contradicts an approved one is never written into an amend: it goes to `decisions_for_lead.md`.
 
 Canon version `vMAJOR.MINOR`:

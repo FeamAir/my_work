@@ -54,7 +54,7 @@ Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lor
 
 ### True history
 
-- **The deathbed will (SEC-036; revealed S7E5 in the Kilbride suit, DEC-39).** Osbert Harrow's last will was drafted by Lantry clerks while he was in the fever, and witnessed by the Fennick Relay-Master; an earlier will, made in CY 247, left the Hill Voice to his natural son's line (Kilbride, HS-032). The Kilbrides still hold a copy. In law, a voice can be bequeathed (the Hill Voice was created as the house's property) — so the earlier will, if proven, would make the Purchased Seat a theft. Use: after the bank falls (S6E9–E10), the Purchased Seat is up for grabs; a Kilbride claim is a ready-made S7 complication (who votes the Hill Voice when Piers "inherits the ruins"?). Question to the lead (DEC-39).
+- **The deathbed will (SEC-036; revealed S7E5 in the Kilbride suit, DEC-39).** Osbert Harrow's last will was drafted by Lantry clerks while he was in the fever, and witnessed by the Fennick Relay-Master; an earlier will, made in CY 247, left the Hill Voice to his natural son's line (Kilbride, HS-032). The Kilbrides still hold a copy. In law, a voice can be bequeathed (the Hill Voice was created as the house's property) — so the earlier will, if proven, would make the Purchased Seat a theft. Use: after the bank falls (S6E9–E10), the Purchased Seat is up for grabs; a Kilbride claim is a ready-made S7 complication (who votes the Hill Voice when Piers "inherits the ruins"?). Decided (DEC-39): S7E4–E5, Zev's first great case; the suit is still pending when the Conclave is dissolved (S9E12).
 - No great-house secret from the brief touches Harrow.
 
 ### Culture and look (for history montages)
