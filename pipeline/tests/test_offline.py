@@ -53,11 +53,11 @@ class TestConfig(Base):
             self.assertIn(".env.example", str(cm.exception))
 
     def test_require_lists_all(self):
-        with mock.patch.dict(os.environ, {"R2_SECRET_ACCESS_KEY": "", "ELEVENLABS_API_KEY": ""}):
+        with mock.patch.dict(os.environ, {"R2_SECRET_ACCESS_KEY": "", "R2_ACCESS_KEY_ID": ""}):
             with self.assertRaises(config.MissingConfigError) as cm:
-                config.require("R2_SECRET_ACCESS_KEY", "ELEVENLABS_API_KEY")
+                config.require("R2_SECRET_ACCESS_KEY", "R2_ACCESS_KEY_ID")
             self.assertIn("R2_SECRET_ACCESS_KEY", str(cm.exception))
-            self.assertIn("ELEVENLABS_API_KEY", str(cm.exception))
+            self.assertIn("R2_ACCESS_KEY_ID", str(cm.exception))
 
     def test_mask_hides_secret(self):
         self.assertNotIn("secretvalue", config.mask("supersecretvalue99"))
