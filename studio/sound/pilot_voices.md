@@ -1,6 +1,6 @@
 # HOLLOWSTONE — голоса пилота S01E01 «The Ninth Sluice»
 
-Версия 1.1 · 2026-11-23 · звукорежиссёр · статус: **черновик к первой пробе TTS** (платные вызовы не делались, `voice_id` пусты)
+Версия 1.2 · 2026-11-23 · звукорежиссёр · статус: **черновой кастинг для аниматика выполнен 2026-11-23** (`voice_id` — §6; финальный кастинг — после picture lock)
 Источники: `story/characters/voice_fingerprints.md` (r3), досье CH-…, `_minor-*.md`, `beat_sheet.md` v1.1, `production_notes.md` v1.1 §3, §7, `canon/glossary.md` (v0.4).
 Связанные файлы: `tts_pronunciation_test.md`, `emotion_markup.md`, `dubbing_ready.md`.
 
@@ -115,9 +115,9 @@
 | ElevenLabs | имя голоса `HS S1 V01`; ttv `eleven_ttv_v3` (+ контроль `eleven_multilingual_ttv_v2`); `voice_id` —; seed —; guidance 5 |
 | Статус | черновик |
 
-**Voice Design (EN):**
+**Voice Design (EN)** — v1.2, фактически использованный промпт (возраст персонажа убран из промпта: формулировка «…fifteen-year-old…» заблокирована фильтром сервиса (403)):
 ```text
-Young adult female voice with a youthful, teenage sound, around 18 to 20, performing a tough fifteen-year-old street girl. Light alto, lower than most girls her age; dry and slightly grainy, with no breathiness. Fast, clipped delivery: short phrases, hard stops, endings swallowed, and a quick dry laugh through the nose. Rough working-class English dock accent with dropped "g" endings, glottal "t" in the middle of words and flat short vowels. Wary, sharp and unsentimental; she jokes instead of showing fear. Clean studio recording, close microphone, no background noise, no music.
+Young adult woman around twenty with a light, youthful sound, playing a tough street scavenger in an animated series. Light alto, lower than most young women; dry and slightly grainy, with no breathiness. Fast, clipped delivery: short phrases, hard stops, endings swallowed, and a quick dry laugh through the nose. Rough working-class English dock accent with dropped "g" endings, glottal "t" in the middle of words and flat short vowels. Wary, sharp and unsentimental; she jokes instead of showing fear. Clean studio recording, close microphone, no background noise, no music.
 ```
 
 **Тестовая фраза (EN, 431 симв.):**
@@ -151,9 +151,9 @@ You want it found, you pay the mud. Mud doesn't do favours. Six coppers by dusk?
 | ElevenLabs | `HS S1 V02`; `eleven_ttv_v3`; `voice_id` — |
 | Статус | черновик |
 
-**Voice Design (EN):**
+**Voice Design (EN)** — v1.2, фактически использованный промпт («eleven-year-old» убран превентивно после блокировки V-01):
 ```text
-Adult female voice performing a boyish eleven-year-old, as in animation dubbing: high, bright and quick, slightly scratchy, with an excited crack when he gets carried away. Talks fast, tumbling over his own words, cheeky and curious, always asking why. Thick working-class English dock accent, broader than a city child's: dropped "g" endings, glottal "t", flat vowels. Can drop instantly into a hushed, awed whisper. Clean studio recording, close microphone, no background noise, no music.
+Adult female voice actor performing a boyish cartoon character, as in animation dubbing: high, bright and quick, slightly scratchy, with an excited crack when he gets carried away. Talks fast, tumbling over his own words, cheeky and curious, always asking why. Thick working-class English dock accent: dropped "g" endings, glottal "t", flat vowels. Can drop instantly into a hushed, awed whisper. Clean studio recording, close microphone, no background noise, no music.
 ```
 
 **Тестовая фраза (EN, 331 симв.):**
@@ -276,9 +276,9 @@ Twelve, carry the four, nineteen... It balances. Which is exactly why I don't tr
 | Запреты | «sorry»; ирония или «злодейские» нотки голосом. Зритель должен любить его до E11 |
 | ElevenLabs | `HS S1 V06`; `eleven_ttv_v3`; `voice_id` — |
 
-**Voice Design (EN):**
+**Voice Design (EN)** — v1.2, фактически использованный промпт (итерация 2: «deep … bass-baritone, low resonant chest voice» — в итерации 1 голос вышел на уровне Hollis):
 ```text
-Man around fifty, a beloved sea-lord and admiral. Warm, round, big baritone that carries across a harbour without effort. Easy, generous, smiling delivery, unhurried but never slow; a ready laugh. Warm coastal English accent with broad open vowels. Charismatic and kind-sounding: the voice of a man you would follow into a boat in a storm. Clean studio recording, close microphone, no background noise, no music.
+Man around fifty, a beloved sea-lord and admiral. Deep, warm, round bass-baritone with a low, resonant chest voice, big enough to carry across a harbour without effort. Easy, generous, smiling delivery, unhurried but never slow; a ready, low laugh. Warm coastal English accent with broad open vowels. Charismatic and kind-sounding: the voice of a man you would follow into a boat in a storm. Clean studio recording, close microphone, no background noise, no music.
 ```
 
 **Тестовая фраза (EN, 373 симв.):**
@@ -409,9 +409,9 @@ No half-walks today. ... Short a pin. Two wheels, half the walks, and grown back
 | Эмоциональный диапазон | насмешка, азарт, любопытство («What've you got?») |
 | ElevenLabs | `HS S1 V11`; `eleven_ttv_v3`; `voice_id` — |
 
-**Voice Design (EN):**
+**Voice Design (EN)** — v1.2, фактически использованный промпт (возраст убран (как у V-01)):
 ```text
-Young adult female voice with a youthful teenage sound, performing a loud fifteen-year-old street scavenger. Hoarse, raspy mid-high voice and a big cackling laugh; brash and broad, a little drawling, she loves an audience. Rough working-class English dock accent, broader and slower than her friends'. Clean studio recording, close microphone, no background noise, no music.
+Young adult woman around twenty with a youthful sound, playing a loud street scavenger in an animated series. Hoarse, raspy mid-high voice and a big cackling laugh; brash and broad, a little drawling, she loves an audience. Rough working-class English dock accent, broader and slower than her friends'. Clean studio recording, close microphone, no background noise, no music.
 ```
 
 **Тестовая фраза (EN, 255 симв.):**
@@ -494,9 +494,9 @@ My lord. The tone. It came very quickly, my lord. Three long, and the rest. From
 | Сцены | 18 (`[OS]`, одна реплика; сержант Kes молчит) |
 | ElevenLabs | `HS S1 V15`; `eleven_ttv_v3`; `voice_id` — |
 
-**Voice Design (EN):**
+**Voice Design (EN)** — v1.2, фактически использованный промпт (по сценарию v1.0.2 стражник молодой (A GUARD (young…))):
 ```text
-Man in his thirties, a hill-country soldier on gate duty. Gruff, rough mid-low voice, blunt and tired; rural accent with a rolled "r" and long "o" vowels. Speaks in short lines and expects no answer. Clean studio recording, close microphone, no background noise, no music.
+Young man in his early twenties, a hill-country soldier on gate duty. Gruff, rough mid-low voice, blunt and tired beyond his years; rural accent with a rolled "r" and long "o" vowels. Speaks in short lines to fill an uneasy quiet and expects no answer. Clean studio recording, close microphone, no background noise, no music.
 ```
 
 **Тестовая фраза (EN, 178 симв.):**
@@ -563,6 +563,46 @@ The Chronicle of the Dry Years. In the matter of the tithe, the following is set
 
 ---
 
+### V-16 · Clerk at the next desk (без имени, новый) — клерк банка Lantry
+
+| Поле | Значение |
+|---|---|
+| Сцены | 14 (`[MS]` «Yes, Kett?», `[OS]` «It gets into everything.») |
+| Звучание | маслянистый тенор, сама учтивость (сценарий v1.0.2) |
+| ElevenLabs | `HS S1 V16`; `eleven_ttv_v3`; voice_id — §6; после пилота — только массовка (§0 п. 8) |
+
+**Voice Design (EN):**
+```text
+Man in his thirties, a short, round, well-groomed senior bank clerk. Light, high, smooth tenor, oily and pleasant; all courtesy and smiles, with a faint condescension under the politeness. Clear, neutral, educated city accent with soft, precise consonants. He speaks lightly and quietly, as if to a friend across a desk. Clean studio recording, close microphone, no background noise, no music.
+```
+
+**Тестовая фраза (EN):**
+```text
+Yes, Kett? ... It gets into everything, the damp. The paper, the ink, the ledgers, the clerks. One learns to blot, and to smile. Of course, sir. I'll have the column on your desk before noon, sir.
+```
+
+---
+
+### V-17 · Steward (без имени, новый) — распорядитель зала
+
+| Поле | Значение |
+|---|---|
+| Сцены | 11 (`[OS]`, формула «The tithe cup…») |
+| Звучание | ровный церемониальный голос, говорит формулу, произнесённую сотни раз |
+| ElevenLabs | `HS S1 V17`; `eleven_ttv_v3`; voice_id — §6; после пилота — только массовка |
+
+**Voice Design (EN):**
+```text
+Man in his sixties, a palace steward who announces ceremonies. Measured, resonant mid-range voice, formal and impersonal, reciting a formula he has said every year of his life; refined court accent with long rounded vowels, unhurried and faintly sing-song, projecting to a large hall without effort. Clean studio recording, close microphone, no background noise, no music.
+```
+
+**Тестовая фраза (EN):**
+```text
+The tithe cup. First the taster. Then the Helm. Then the guest of the reading. ... Be upstanding, my lords and ladies, for the reading of the Tithe Map. The hall will keep silence until the Helm has signed.
+```
+
+---
+
 ## 4. Реплики без отдельной карточки и вокал без слов
 
 | Что | Сцена | Чей | Куда |
@@ -575,9 +615,43 @@ The Chronicle of the Dry Years. In the matter of the tithe, the following is set
 
 ---
 
+## 6. Журнал закрепления — черновой кастинг аниматика (2026-11-23)
+
+Статус: **черновой** (для аниматика). Финальное закрепление по §0 п. 7 — после picture lock и слепого теста §2. NARR-01 — **кандидат**, не закреплён (animatic.md §3, протокол SD-R1 у директора).
+
+Параметры дизайна у всех: `POST /v1/text-to-voice/design`, loudness 0, should_enhance false, без reference audio; превью сохранены (`output/S01E01/animatic/casting/<ID>/i<итерация>_p<номер>.mp3`, R2 `S01E01/animatic/casting/…`). Промпт и тестовая фраза каждой итерации, замеры всех превью — `casting/casting_log.json`; правки промптов — `casting/prompts.json`. Выбор превью — по замерам (медиана F0 к цели §2, темп), а не на слух: **прослушивание директором обязательно** до финала.
+
+| ID | Персонаж | Имя в EL | voice_id | Модель дизайна | seed | guidance | итераций | превью | F0 превью / цель, Гц |
+|---|---|---|---|---|---|---|---|---|---|
+| V-01 | Pell | `HS S1 V01` | `iXg6m3okqCpdUH3cAzLs` | `eleven_ttv_v3` | 3101 | 5.0 | 1 | i1·p2 | 205.1 / 195 |
+| V-02 | Wick | `HS S1 V02` | `K3PkIvwIWSsVOFh6ZwRq` | `eleven_ttv_v3` | 3111 | 5.0 | 1 | i1·p1 | 363.6 / 290 |
+| V-03 | Nan | `HS S1 V03` | `yQutTeU9ri2pPwzgY7SO` | `eleven_ttv_v3` | 3121 | 5.0 | 1 | i1·p3 | 210.5 / 230 |
+| V-04 | Ione | `HS S1 V04` | `JDqVQUWrTkqKJUi5V0Xo` | `eleven_ttv_v3` | 3131 | 5.0 | 1 | i1·p1 | 266.7 / 255 |
+| V-05 | Hollis | `HS S1 V05` | `v0bxs05N6L36WwOa09ep` | `eleven_ttv_v3` | 3141 | 5.0 | 1 | i1·p3 | 131.1 / 130 |
+| V-06 | Ruel | `HS S1 V06` | `WFG5Ms3p5WkToImSDDnd` | `eleven_ttv_v3` | 3152 | 5.0 | 2 | i2·p2 | 108.8 / 105 |
+| V-07 | Lucan | `HS S1 V07` | `H2ScA5AaNufRh2PPnMdi` | `eleven_ttv_v3` | 3161 | 5.0 | 1 | i1·p3 | 119.4 / 95 |
+| V-08 | Ursel | `HS S1 V08` | `4NQbUoR4U0anhExNcJRR` | `eleven_ttv_v3` | 3171 | 5.0 | 1 | i1·p3 | 173.9 / 175 |
+| V-09 | Odo | `HS S1 V09` | `UmbFuACrLtlTZUAXLccZ` | `eleven_ttv_v3` | 3181 | 5.0 | 1 | i1·p3 | 116.8 / 115 |
+| V-10 | Corr | `HS S1 V10` | `PWqxdNZLI6s0YLJIi8fG` | `eleven_ttv_v3` | 3191 | 5.0 | 1 | i1·p3 | 83.8 / 85 |
+| V-11 | Mags | `HS S1 V11` | `Dac4C4KLxg2pJlsoYnoj` | `eleven_ttv_v3` | 3201 | 5.0 | 1 | i1·p1 | 266.7 / 240 |
+| V-12 | Tithe-collector | `HS S1 V12` | `qG3cnlGxJgmMXqt4bbIm` | `eleven_ttv_v3` | 3211 | 5.0 | 1 | i1·p2 | 179.8 / 145 |
+| V-13 | Choir attendant | `HS S1 V13` | `PJX2NeYe2aBGqobdcWhI` | `eleven_ttv_v3` | 3221 | 5.0 | 1 | i1·p3 | 179.8 / 200 |
+| V-14 | Relay-keeper | `HS S1 V14` | `YFZRbyIZyYTBQIAglqXJ` | `eleven_ttv_v3` | 3231 | 5.0 | 1 | i1·p3 | 148.8 / 150 |
+| V-15 | Rusk guard | `HS S1 V15` | `wsnsRkBo3fRmnw5VGA2N` | `eleven_ttv_v3` | 3241 | 5.0 | 1 | i1·p3 | 106.0 / 110 |
+| V-16 | Clerk | `HS S1 V16` | `ezK9nLZpUgIsAhjVGvj1` | `eleven_ttv_v3` | 3252 | 5.0 | 2 | i2·p3 | 144.8 / 140 |
+| V-17 | Steward | `HS S1 V17` | `3IeVnlQ7Cn67uf7nTumG` | `eleven_ttv_v3` | 3261 | 5.0 | 1 | i1·p1 | 158.4 / 125 |
+| NARR-01 | The Chronicler (кандидат) | `HS NARR A cand` | `Kq376vQT4X9raogOKEpK` | `eleven_ttv_v3` | 3271 | 5.0 | 2 | i1·p2 | 106.0 / 115 |
+
+**Озвучка аниматика (TTS):** персонажи — `eleven_v3`, stability 0.5 (Natural), similarity 0.8, seed 101 (дубль t2 — 202), аудиотеги по `S01E01_vo_plan.json`; NARR-01 — `eleven_multilingual_v2`, stability 0.75 / similarity 0.85 / style 0 / speaker boost, speed 0.72 (≈110 сл/мин) и 0.80 (фразы 2 и 4 Sc 5). Словарь произношений `hollowstone_en_draft_v1` (`lexicon/`). Паспорт каждого файла — `S01E01_vo_manifest.json`.
+
+**Важное наблюдение для A/B (§«Модели TTS»):** голоса, задизайненные на `eleven_ttv_v3`, сохраняют тембр на `eleven_v3`, но на `eleven_v4` / `eleven_v4_turbo` уходят вверх: Corr 84 → 147 Гц, Ruel 105 → 135 Гц, Lucan 117 → 132 Гц (та же фраза, тот же seed); тяжёлые голоса на v4 читают на 20–25 % быстрее. Т.е. документация права: Voice Design + v4 = «менее выразительно», и для нашего каста это ещё и потеря регистра. Если финал пойдёт на v4 — голоса надо дизайнить заново под v4 (или проверить ремикс), иначе матрица §2 развалится.
+
+---
+
 ## 5. Журнал изменений
 
 | Дата | Что | Кто |
 |---|---|---|
 | 2026-11-22 | v1.0: 15 карточек персонажей + рассказчик; матрица различения; A/B расширен до трёх моделей (v2 / v3 / v4) | звукорежиссёр |
 | 2026-11-23 | v1.1: поручения режиссёра (приёмка раскадровки §4.3): темп Sc 5 по фразам, фраза 4 — двумя дублями; отдельные дорожки «Pell. Mouth.» (V2) и реплики Nan (V4); новые таймкоды | звукорежиссёр |
+| 2026-11-23 | v1.2: черновой кастинг аниматика — 18 голосов (15 карточек + V-16 Clerk, V-17 Steward, NARR-01 кандидат), §6 журнал; промпты V-01/V-02/V-11 без возраста (блок фильтра), V-06 итерация 2, V-15 молодой | звукорежиссёр |

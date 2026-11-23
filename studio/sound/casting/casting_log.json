@@ -14,7 +14,7 @@
     "previews": [
      {
       "generated_voice_id": "wMkDr5Tcp9ZlhWQ9TefX",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V01/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V01/i1_p1.mp3",
       "duration_secs": 34.5888125,
       "dur": 34.586,
       "speech_start": 0.04,
@@ -27,7 +27,7 @@
      },
      {
       "generated_voice_id": "iXg6m3okqCpdUH3cAzLs",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V01/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V01/i1_p2.mp3",
       "duration_secs": 31.872125,
       "dur": 31.869,
       "speech_start": 0.08,
@@ -40,7 +40,7 @@
      },
      {
       "generated_voice_id": "OWcKOxhjr3EfpBc1gDOl",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V01/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V01/i1_p3.mp3",
       "duration_secs": 36.835375,
       "dur": 36.833,
       "speech_start": 0.12,
@@ -62,7 +62,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "iXg6m3okqCpdUH3cAzLs",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V01/i1_p2.mp3"
+   "file": "output/S01E01/animatic/casting/V01/i1_p2.mp3"
   }
  },
  "V02": {
@@ -80,7 +80,7 @@
     "previews": [
      {
       "generated_voice_id": "K3PkIvwIWSsVOFh6ZwRq",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V02/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V02/i1_p1.mp3",
       "duration_secs": 34.04025,
       "dur": 34.038,
       "speech_start": 0.08,
@@ -93,7 +93,7 @@
      },
      {
       "generated_voice_id": "cru7LkpMUjv2dzoRzGH7",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V02/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V02/i1_p2.mp3",
       "duration_secs": 31.3235625,
       "dur": 31.321,
       "speech_start": 0.02,
@@ -106,7 +106,7 @@
      },
      {
       "generated_voice_id": "xuqkkIjrVncRYIybUoTW",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V02/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V02/i1_p3.mp3",
       "duration_secs": 27.3268125,
       "dur": 27.324,
       "speech_start": 0.08,
@@ -128,7 +128,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "K3PkIvwIWSsVOFh6ZwRq",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V02/i1_p1.mp3"
+   "file": "output/S01E01/animatic/casting/V02/i1_p1.mp3"
   }
  },
  "V03": {
@@ -146,7 +146,7 @@
     "previews": [
      {
       "generated_voice_id": "WbAaJA5QIBhDF1McSFuQ",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V03/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V03/i1_p1.mp3",
       "duration_secs": 33.4916875,
       "dur": 33.489,
       "speech_start": 0.02,
@@ -159,7 +159,7 @@
      },
      {
       "generated_voice_id": "R26aHUFDyRELOgo6CwV4",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V03/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V03/i1_p2.mp3",
       "duration_secs": 41.0933125,
       "dur": 41.091,
       "speech_start": 0.02,
@@ -172,7 +172,7 @@
      },
      {
       "generated_voice_id": "yQutTeU9ri2pPwzgY7SO",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V03/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V03/i1_p3.mp3",
       "duration_secs": 37.4100625,
       "dur": 37.407,
       "speech_start": 0.02,
@@ -194,7 +194,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "yQutTeU9ri2pPwzgY7SO",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V03/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V03/i1_p3.mp3"
   }
  },
  "V04": {
@@ -212,7 +212,7 @@
     "previews": [
      {
       "generated_voice_id": "JDqVQUWrTkqKJUi5V0Xo",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V04/i1_p1.mp3",
       "duration_secs": 29.23375,
       "dur": 29.231,
       "speech_start": 0.02,
@@ -225,7 +225,7 @@
      },
      {
       "generated_voice_id": "TPZleOWRsdTlkALsuDVd",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V04/i1_p2.mp3",
       "duration_secs": 23.2516875,
       "dur": 23.249,
       "speech_start": 0.12,
@@ -238,7 +238,7 @@
      },
      {
       "generated_voice_id": "2q94v985YEmmI35iwmGf",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V04/i1_p3.mp3",
       "duration_secs": 34.432125,
       "dur": 34.429,
       "speech_start": 0.08,
@@ -260,7 +260,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "JDqVQUWrTkqKJUi5V0Xo",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p1.mp3"
+   "file": "output/S01E01/animatic/casting/V04/i1_p1.mp3"
   }
  },
  "V05": {
@@ -278,7 +278,7 @@
     "previews": [
      {
       "generated_voice_id": "2L4vEpruZ8M2GMcbLuuc",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V05/i1_p1.mp3",
       "duration_secs": 30.357,
       "dur": 30.354,
       "speech_start": 0.06,
@@ -291,7 +291,7 @@
      },
      {
       "generated_voice_id": "OUMlDMoSf99Qed0Fkzax",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V05/i1_p2.mp3",
       "duration_secs": 36.2868125,
       "dur": 36.284,
       "speech_start": 0.02,
@@ -304,7 +304,7 @@
      },
      {
       "generated_voice_id": "v0bxs05N6L36WwOa09ep",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V05/i1_p3.mp3",
       "duration_secs": 26.9088125,
       "dur": 26.906,
       "speech_start": 0.06,
@@ -326,7 +326,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "v0bxs05N6L36WwOa09ep",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V05/i1_p3.mp3"
   }
  },
  "V06": {
@@ -344,7 +344,7 @@
     "previews": [
      {
       "generated_voice_id": "5K6Gh5Z5bmVZ7iVss8aF",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V06/i1_p1.mp3",
       "duration_secs": 33.8835625,
       "dur": 33.881,
       "speech_start": 0.02,
@@ -357,7 +357,7 @@
      },
      {
       "generated_voice_id": "Rhzlv39V4MAAHwqCuGGJ",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V06/i1_p2.mp3",
       "duration_secs": 35.398625,
       "dur": 35.396,
       "speech_start": 0.04,
@@ -370,7 +370,7 @@
      },
      {
       "generated_voice_id": "KPmUAzIFo2sESMydB0ST",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V06/i1_p3.mp3",
       "duration_secs": 32.1333125,
       "dur": 32.131,
       "speech_start": 0.08,
@@ -394,7 +394,7 @@
     "previews": [
      {
       "generated_voice_id": "RRuf6gvWSMpWa9PREQvL",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V06/i2_p1.mp3",
       "duration_secs": 26.67375,
       "dur": 26.671,
       "speech_start": 0.04,
@@ -407,7 +407,7 @@
      },
      {
       "generated_voice_id": "WFG5Ms3p5WkToImSDDnd",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V06/i2_p2.mp3",
       "duration_secs": 37.5668125,
       "dur": 37.564,
       "speech_start": 0.04,
@@ -420,7 +420,7 @@
      },
      {
       "generated_voice_id": "Gwrc2u4spHXyLOtnwgJw",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V06/i2_p3.mp3",
       "duration_secs": 39.6305,
       "dur": 39.628,
       "speech_start": 0.04,
@@ -442,7 +442,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "WFG5Ms3p5WkToImSDDnd",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p2.mp3"
+   "file": "output/S01E01/animatic/casting/V06/i2_p2.mp3"
   }
  },
  "V07": {
@@ -460,7 +460,7 @@
     "previews": [
      {
       "generated_voice_id": "LIeC3N4MoLMSPix4bwHb",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V07/i1_p1.mp3",
       "duration_secs": 43.31375,
       "dur": 43.311,
       "speech_start": 0.1,
@@ -473,7 +473,7 @@
      },
      {
       "generated_voice_id": "uNmfavZbTu2CebrpNl7l",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V07/i1_p2.mp3",
       "duration_secs": 42.4516875,
       "dur": 42.449,
       "speech_start": 0.08,
@@ -486,7 +486,7 @@
      },
      {
       "generated_voice_id": "H2ScA5AaNufRh2PPnMdi",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V07/i1_p3.mp3",
       "duration_secs": 51.8035625,
       "dur": 51.801,
       "speech_start": 0.24,
@@ -508,7 +508,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "H2ScA5AaNufRh2PPnMdi",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V07/i1_p3.mp3"
   }
  },
  "V08": {
@@ -526,7 +526,7 @@
     "previews": [
      {
       "generated_voice_id": "gJqY7rmo1VBmn4T2sk6K",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V08/i1_p1.mp3",
       "duration_secs": 35.1635625,
       "dur": 35.161,
       "speech_start": 0.06,
@@ -539,7 +539,7 @@
      },
      {
       "generated_voice_id": "13DluQRohu4MSSLEEvmD",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V08/i1_p2.mp3",
       "duration_secs": 39.238625,
       "dur": 39.236,
       "speech_start": 0.06,
@@ -552,7 +552,7 @@
      },
      {
       "generated_voice_id": "4NQbUoR4U0anhExNcJRR",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V08/i1_p3.mp3",
       "duration_secs": 34.5888125,
       "dur": 34.586,
       "speech_start": 0.08,
@@ -574,7 +574,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "4NQbUoR4U0anhExNcJRR",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V08/i1_p3.mp3"
   }
  },
  "V09": {
@@ -592,7 +592,7 @@
     "previews": [
      {
       "generated_voice_id": "vTOpWhjxLpog78QlfEuY",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V09/i1_p1.mp3",
       "duration_secs": 29.8084375,
       "dur": 29.806,
       "speech_start": 0.08,
@@ -605,7 +605,7 @@
      },
      {
       "generated_voice_id": "e9ThWiSgzdrjm1nS3rlb",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V09/i1_p2.mp3",
       "duration_secs": 25.001875,
       "dur": 24.999,
       "speech_start": 0.08,
@@ -618,7 +618,7 @@
      },
      {
       "generated_voice_id": "UmbFuACrLtlTZUAXLccZ",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V09/i1_p3.mp3",
       "duration_secs": 27.1700625,
       "dur": 27.167,
       "speech_start": 0.04,
@@ -640,7 +640,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "UmbFuACrLtlTZUAXLccZ",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V09/i1_p3.mp3"
   }
  },
  "V10": {
@@ -658,7 +658,7 @@
     "previews": [
      {
       "generated_voice_id": "ZHQmh5cWRscGgRRVVN5f",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V10/i1_p1.mp3",
       "duration_secs": 30.7488125,
       "dur": 30.746,
       "speech_start": 0.04,
@@ -671,7 +671,7 @@
      },
      {
       "generated_voice_id": "o9ZGurdeptJt0Vz7Ttr1",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V10/i1_p2.mp3",
       "duration_secs": 32.838625,
       "dur": 32.836,
       "speech_start": 0.02,
@@ -684,7 +684,7 @@
      },
      {
       "generated_voice_id": "PWqxdNZLI6s0YLJIi8fG",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V10/i1_p3.mp3",
       "duration_secs": 27.0133125,
       "dur": 27.011,
       "speech_start": 0.06,
@@ -706,7 +706,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "PWqxdNZLI6s0YLJIi8fG",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V10/i1_p3.mp3"
   }
  },
  "V11": {
@@ -724,7 +724,7 @@
     "previews": [
      {
       "generated_voice_id": "Dac4C4KLxg2pJlsoYnoj",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V11/i1_p1.mp3",
       "duration_secs": 22.9905,
       "dur": 22.988,
       "speech_start": 0.12,
@@ -737,7 +737,7 @@
      },
      {
       "generated_voice_id": "jNRyxgZW6zewWisPTX5U",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V11/i1_p2.mp3",
       "duration_secs": 21.475375,
       "dur": 21.473,
       "speech_start": 0.04,
@@ -750,7 +750,7 @@
      },
      {
       "generated_voice_id": "SKfiwUfwW84UKvP2BBfz",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V11/i1_p3.mp3",
       "duration_secs": 20.195375,
       "dur": 20.193,
       "speech_start": 0.02,
@@ -772,7 +772,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "Dac4C4KLxg2pJlsoYnoj",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p1.mp3"
+   "file": "output/S01E01/animatic/casting/V11/i1_p1.mp3"
   }
  },
  "V12": {
@@ -790,7 +790,7 @@
     "previews": [
      {
       "generated_voice_id": "X46TiRCrr2Xa1NETlUsu",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V12/i1_p1.mp3",
       "duration_secs": 28.841875,
       "dur": 28.839,
       "speech_start": 0.02,
@@ -803,7 +803,7 @@
      },
      {
       "generated_voice_id": "qG3cnlGxJgmMXqt4bbIm",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V12/i1_p2.mp3",
       "duration_secs": 22.9905,
       "dur": 22.988,
       "speech_start": 0.02,
@@ -816,7 +816,7 @@
      },
      {
       "generated_voice_id": "g5CSrCDTjZj3yl0LUuKs",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V12/i1_p3.mp3",
       "duration_secs": 30.9316875,
       "dur": 30.929,
       "speech_start": 0.08,
@@ -838,7 +838,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "qG3cnlGxJgmMXqt4bbIm",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p2.mp3"
+   "file": "output/S01E01/animatic/casting/V12/i1_p2.mp3"
   }
  },
  "V13": {
@@ -856,7 +856,7 @@
     "previews": [
      {
       "generated_voice_id": "xN6C0EQzzGf3rro7bRv9",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V13/i1_p1.mp3",
       "duration_secs": 21.8933125,
       "dur": 21.891,
       "speech_start": 0.04,
@@ -869,7 +869,7 @@
      },
      {
       "generated_voice_id": "sq1bEpv2XWuWqzkm5PQq",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V13/i1_p2.mp3",
       "duration_secs": 24.3488125,
       "dur": 24.346,
       "speech_start": 0.1,
@@ -882,7 +882,7 @@
      },
      {
       "generated_voice_id": "PJX2NeYe2aBGqobdcWhI",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V13/i1_p3.mp3",
       "duration_secs": 25.001875,
       "dur": 24.999,
       "speech_start": 0.06,
@@ -904,7 +904,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "PJX2NeYe2aBGqobdcWhI",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V13/i1_p3.mp3"
   }
  },
  "V14": {
@@ -922,7 +922,7 @@
     "previews": [
      {
       "generated_voice_id": "s4699ZiTE5sCC0VMhgii",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V14/i1_p1.mp3",
       "duration_secs": 17.792125,
       "dur": 17.789,
       "speech_start": 0.06,
@@ -935,7 +935,7 @@
      },
      {
       "generated_voice_id": "C2a5Gz74EzO2Bp1f4Ibh",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V14/i1_p2.mp3",
       "duration_secs": 13.481875,
       "dur": 13.479,
       "speech_start": 0.06,
@@ -948,7 +948,7 @@
      },
      {
       "generated_voice_id": "YFZRbyIZyYTBQIAglqXJ",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V14/i1_p3.mp3",
       "duration_secs": 14.6835625,
       "dur": 14.681,
       "speech_start": 0.02,
@@ -970,7 +970,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "YFZRbyIZyYTBQIAglqXJ",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V14/i1_p3.mp3"
   }
  },
  "V15": {
@@ -988,7 +988,7 @@
     "previews": [
      {
       "generated_voice_id": "ZDN5Tb0ubamjl6TWQGEZ",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V15/i1_p1.mp3",
       "duration_secs": 13.795375,
       "dur": 13.793,
       "speech_start": 0.1,
@@ -1001,7 +1001,7 @@
      },
      {
       "generated_voice_id": "RXQ8LUuf32EsyPh08ZAp",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V15/i1_p2.mp3",
       "duration_secs": 13.795375,
       "dur": 13.793,
       "speech_start": 0.06,
@@ -1014,7 +1014,7 @@
      },
      {
       "generated_voice_id": "wsnsRkBo3fRmnw5VGA2N",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V15/i1_p3.mp3",
       "duration_secs": 14.997,
       "dur": 14.994,
       "speech_start": 0.12,
@@ -1036,7 +1036,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "wsnsRkBo3fRmnw5VGA2N",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V15/i1_p3.mp3"
   }
  },
  "V16": {
@@ -1054,7 +1054,7 @@
     "previews": [
      {
       "generated_voice_id": "p9FYeH4UQtU3fXHSofmn",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V16/i1_p1.mp3",
       "duration_secs": 16.6688125,
       "dur": 16.666,
       "speech_start": 0.02,
@@ -1067,7 +1067,7 @@
      },
      {
       "generated_voice_id": "4RJ1AX4Mv4QjTQ64phEH",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V16/i1_p2.mp3",
       "duration_secs": 12.7505,
       "dur": 12.748,
       "speech_start": 0.08,
@@ -1080,7 +1080,7 @@
      },
      {
       "generated_voice_id": "qoUN1QCqtlO2zCVv07KO",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V16/i1_p3.mp3",
       "duration_secs": 13.795375,
       "dur": 13.793,
       "speech_start": 0.06,
@@ -1104,7 +1104,7 @@
     "previews": [
      {
       "generated_voice_id": "tluFNywYGYvhoP7jTV9J",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V16/i2_p1.mp3",
       "duration_secs": 16.041875,
       "dur": 16.039,
       "speech_start": 0.08,
@@ -1117,7 +1117,7 @@
      },
      {
       "generated_voice_id": "dyNeZENF5fQlqXA5g1uv",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V16/i2_p2.mp3",
       "duration_secs": 17.557,
       "dur": 17.554,
       "speech_start": 0.08,
@@ -1130,7 +1130,7 @@
      },
      {
       "generated_voice_id": "ezK9nLZpUgIsAhjVGvj1",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V16/i2_p3.mp3",
       "duration_secs": 17.321875,
       "dur": 17.319,
       "speech_start": 0.1,
@@ -1152,7 +1152,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "ezK9nLZpUgIsAhjVGvj1",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p3.mp3"
+   "file": "output/S01E01/animatic/casting/V16/i2_p3.mp3"
   }
  },
  "V17": {
@@ -1170,7 +1170,7 @@
     "previews": [
      {
       "generated_voice_id": "3IeVnlQ7Cn67uf7nTumG",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/V17/i1_p1.mp3",
       "duration_secs": 22.0500625,
       "dur": 22.047,
       "speech_start": 0.08,
@@ -1183,7 +1183,7 @@
      },
      {
       "generated_voice_id": "SFW17WFxzWHDITmtbsIm",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/V17/i1_p2.mp3",
       "duration_secs": 28.032125,
       "dur": 28.029,
       "speech_start": 0.12,
@@ -1196,7 +1196,7 @@
      },
      {
       "generated_voice_id": "vm9sMv0OHshWuPzHXlA0",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/V17/i1_p3.mp3",
       "duration_secs": 22.677,
       "dur": 22.674,
       "speech_start": 0.1,
@@ -1218,7 +1218,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "3IeVnlQ7Cn67uf7nTumG",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p1.mp3"
+   "file": "output/S01E01/animatic/casting/V17/i1_p1.mp3"
   }
  },
  "NARR01": {
@@ -1236,7 +1236,7 @@
     "previews": [
      {
       "generated_voice_id": "P4hGQ23xpaGC6UX6cQPc",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p1.mp3",
+      "file": "output/S01E01/animatic/casting/NARR01/i1_p1.mp3",
       "duration_secs": 46.6835625,
       "dur": 46.681,
       "speech_start": 0.08,
@@ -1249,7 +1249,7 @@
      },
      {
       "generated_voice_id": "Kq376vQT4X9raogOKEpK",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p2.mp3",
+      "file": "output/S01E01/animatic/casting/NARR01/i1_p2.mp3",
       "duration_secs": 43.00025,
       "dur": 42.998,
       "speech_start": 0.02,
@@ -1262,7 +1262,7 @@
      },
      {
       "generated_voice_id": "0VM0VcmGJXrspqGpXBbe",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p3.mp3",
+      "file": "output/S01E01/animatic/casting/NARR01/i1_p3.mp3",
       "duration_secs": 46.761875,
       "dur": 46.759,
       "speech_start": 0.02,
@@ -1286,7 +1286,7 @@
     "previews": [
      {
       "generated_voice_id": "d22lAK9H8TBFrJWAOr1g",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i2_p1.mp3",
+      "file": "output/S01E01/animatic/casting/NARR01/i2_p1.mp3",
       "duration_secs": 39.081875,
       "dur": 39.079,
       "speech_start": 0.04,
@@ -1299,7 +1299,7 @@
      },
      {
       "generated_voice_id": "y58a24ksWxpZ8vVIcfLC",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i2_p2.mp3",
+      "file": "output/S01E01/animatic/casting/NARR01/i2_p2.mp3",
       "duration_secs": 46.84025,
       "dur": 46.838,
       "speech_start": 0.08,
@@ -1312,7 +1312,7 @@
      },
      {
       "generated_voice_id": "jDdHffuKPhRjtYXNCWnL",
-      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i2_p3.mp3",
+      "file": "output/S01E01/animatic/casting/NARR01/i2_p3.mp3",
       "duration_secs": 43.00025,
       "dur": 42.998,
       "speech_start": 0.02,
@@ -1334,7 +1334,7 @@
    "model": "eleven_ttv_v3",
    "guidance": 5.0,
    "generated_voice_id": "Kq376vQT4X9raogOKEpK",
-   "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p2.mp3"
+   "file": "output/S01E01/animatic/casting/NARR01/i1_p2.mp3"
   }
  }
 }
