@@ -176,5 +176,16 @@
   "aspect": "16:9",
   "seed": 287121,
   "status": "ok"
+ },
+ "ear_f1": {
+  "prompt": "Image 1 is the old woman's character master; image 2 shows the exact direction of the spiral (from the centre outward it turns clockwise). Close-up detail insert: the left ear of the old woman from image 1 seen from her left side, the faded indigo headscarf edge and a few white wisps above it, deep brown wrinkled skin, and hanging from the earlobe a single small pale spiral seashell earring on a thin hook; the shell's spiral is drawn exactly like image 2: from the centre outward it turns CLOCKWISE; the shell is small, about the size of a fingertip, matte, not shining. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: counter-clockwise spiral, second earring, jewellery stones, glow, teal background.",
+  "model": "nano-banana-2",
+  "refs": [
+   "studio/direction/refs/CH-0015/A03_00_master_v1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "1:1",
+  "seed": 466517,
+  "status": "ok"
  }
 }

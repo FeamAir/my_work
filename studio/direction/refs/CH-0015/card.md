@@ -16,3 +16,6 @@ Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl
 det_f rejected: ear close-up had no earring. Earring is single, in her left ear (picture-right in front views) on every sheet — checked.
 `*_03_silhouette` and `*_07_palette` built locally (threshold / median-cut quantize), $0.
 
+
+## Earring insert (stage 2.5)
+`A03_06b_earring_v1.png` — final ear_f1, nano-banana-2 /edit, refs: Nan master + drawn reference spiral `../HERALDRY/H16_ashare_reference_spiral.png`. **Canonical for the earring**: single spiral shell, left ear, spiral clockwise from the centre outward (checked). Supersedes cell 1 of `A03_06_details_v1.png`. Lesson: pass the drawn spiral as a reference whenever a spiral must read in close-up.

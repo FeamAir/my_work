@@ -1,0 +1,22 @@
+{
+ "V15": {
+  "description": "Young man in his early twenties, a hill-country soldier on gate duty. Gruff, rough mid-low voice, blunt and tired beyond his years; rural accent with a rolled \"r\" and long \"o\" vowels. Speaks in short lines to fill an uneasy quiet and expects no answer. Clean studio recording, close microphone, no background noise, no music."
+ },
+ "V16": {
+  "description": "Man in his thirties, a short, round, well-groomed senior bank clerk. Smooth, oily light tenor; all courtesy, pleasant and smiling, with a faint condescension under the politeness. Clear, neutral, educated city accent with soft, precise consonants. He speaks lightly and quietly, as if to a friend across a desk. Clean studio recording, close microphone, no background noise, no music.",
+  "text": "Yes, Kett? ... It gets into everything, the damp. The paper, the ink, the ledgers, the clerks. One learns to blot, and to smile. Of course, sir. I'll have the column on your desk before noon, sir."
+ },
+ "V17": {
+  "description": "Man in his sixties, a palace steward who announces ceremonies. Measured, resonant mid-range voice, formal and impersonal, reciting a formula he has said every year of his life; refined court accent with long rounded vowels, unhurried and faintly sing-song, projecting to a large hall without effort. Clean studio recording, close microphone, no background noise, no music.",
+  "text": "The tithe cup. First the taster. Then the Helm. Then the guest of the reading. ... Be upstanding, my lords and ladies, for the reading of the Tithe Map. The hall will keep silence until the Helm has signed."
+ },
+ "V01": {
+  "description": "Young adult woman around twenty with a light, youthful sound, playing a tough street scavenger in an animated series. Light alto, lower than most young women; dry and slightly grainy, with no breathiness. Fast, clipped delivery: short phrases, hard stops, endings swallowed, and a quick dry laugh through the nose. Rough working-class English dock accent with dropped \"g\" endings, glottal \"t\" in the middle of words and flat short vowels. Wary, sharp and unsentimental; she jokes instead of showing fear. Clean studio recording, close microphone, no background noise, no music."
+ },
+ "V02": {
+  "description": "Adult female voice actor performing a boyish cartoon character, as in animation dubbing: high, bright and quick, slightly scratchy, with an excited crack when he gets carried away. Talks fast, tumbling over his own words, cheeky and curious, always asking why. Thick working-class English dock accent: dropped \"g\" endings, glottal \"t\", flat vowels. Can drop instantly into a hushed, awed whisper. Clean studio recording, close microphone, no background noise, no music."
+ },
+ "V11": {
+  "description": "Young adult woman around twenty with a youthful sound, playing a loud street scavenger in an animated series. Hoarse, raspy mid-high voice and a big cackling laugh; brash and broad, a little drawling, she loves an audience. Rough working-class English dock accent, broader and slower than her friends'. Clean studio recording, close microphone, no background noise, no music."
+ }
+}
