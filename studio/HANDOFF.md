@@ -15,10 +15,13 @@ _Обновлено: 2026-11-23._
 
 1. ✅ Сетевой доступ: среда **Default**, «Ограниченный», разрешённые домены: fal.run, *.fal.run, fal.ai, *.fal.ai, fal.media, *.fal.media, api.elevenlabs.io, *.r2.cloudflarestorage.com (+ менеджеры пакетов). В прежнем чате изменение не подхватилось — **первым делом проверить доступ** (`curl -s -o /dev/null -w "%{http_code}" https://queue.fal.run`).
    ⚠️ 2026-11-23: сессии **внутри проекта claude.ai «Anime»** получают 403 на fal.ai (своя среда без доменов). Работаем в сессии **вне проекта** — там доступ есть.
+   Известный старый сбой теста: `test_mix.py::TestSoundPlanBuild::test_spec` (не связан с ключами).
    ✅ 2026-11-23 (новый чат): доступ проверен — fal.ai 200, queue.fal.run 404, api.elevenlabs.io 404 (ответы серверов, не блок прокси). Канон: 0 ошибок. Ключей в среде пока нет → идём к шагу 2.
-2. ⏳ fal.ai: регистрация, пополнение $100, ключ → переменная FAL_KEY в настройках среды («Переменные среды»).
-3. ⏳ ElevenLabs Pro $99/мес → ELEVENLABS_API_KEY.
-4. ⏳ Cloudflare R2: бакет anime-studio, токен → R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET=anime-studio.
+2. ✅ fal.ai (2026-11-23): аккаунт, баланс $100 (квитанция #1658-4950), ключ «Hollowstone» (пресет API, бессрочный, без IP-фильтра).
+   Ключ сохранён **сетевым секретом** среды Default (форма request_credential, хост queue.fal.run, `Authorization: Key …`) — прокси сам подставляет заголовок. В коде `FAL_KEY` по умолчанию = заглушка `proxy-injected` (`pipeline/config.py`). `check_services --live`: «fal.ai — ключ принят».
+   Замечание: проверка `fal (cdn)` на корневой `fal.media` даёт DNS fail — корень домена не резолвится, результаты отдаются с поддоменов (v3.fal.media и т.п.); поправить проверку при первом реальном вызове.
+3. ⏳ ElevenLabs Pro $99/мес → ключ тоже через форму request_credential (хост api.elevenlabs.io, заголовок `xi-api-key`, без префикса) + заглушка в config.py.
+4. ⏳ Cloudflare R2 (S3-подпись SigV4 — сетевой секрет не подойдёт, нужны настоящие переменные среды): бакет anime-studio, токен → R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET=anime-studio.
 5. ⏳ BUDGET_LIMIT_USD=150 (предохранитель до просмотра аниматика).
 Инвестор просит вести **по одному шагу**, с подсказками по русскому интерфейсу (он на телефоне).
 

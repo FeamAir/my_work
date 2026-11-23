@@ -26,6 +26,10 @@ KEYS: dict[str, tuple[bool, str, str]] = {
 
 DEFAULTS = {
     "R2_BUCKET": "anime-studio",
+    # Ключ fal.ai хранится как «сетевой секрет» среды Claude: прокси сам подставляет
+    # заголовок Authorization в запросы к queue.fal.run. В переменной — только заглушка.
+    # Без прокси (локальный запуск) задайте настоящий FAL_KEY в .env.
+    "FAL_KEY": "proxy-injected",
     "OUTPUT_DIR": "output",
 }
 

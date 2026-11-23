@@ -46,17 +46,17 @@ class Base(unittest.TestCase):
 
 class TestConfig(Base):
     def test_missing_key_message(self):
-        with mock.patch.dict(os.environ, {"FAL_KEY": ""}):
+        with mock.patch.dict(os.environ, {"R2_SECRET_ACCESS_KEY": ""}):
             with self.assertRaises(config.MissingConfigError) as cm:
-                config.get("FAL_KEY")
-            self.assertIn("FAL_KEY", str(cm.exception))
+                config.get("R2_SECRET_ACCESS_KEY")
+            self.assertIn("R2_SECRET_ACCESS_KEY", str(cm.exception))
             self.assertIn(".env.example", str(cm.exception))
 
     def test_require_lists_all(self):
-        with mock.patch.dict(os.environ, {"FAL_KEY": "", "ELEVENLABS_API_KEY": ""}):
+        with mock.patch.dict(os.environ, {"R2_SECRET_ACCESS_KEY": "", "ELEVENLABS_API_KEY": ""}):
             with self.assertRaises(config.MissingConfigError) as cm:
-                config.require("FAL_KEY", "ELEVENLABS_API_KEY")
-            self.assertIn("FAL_KEY", str(cm.exception))
+                config.require("R2_SECRET_ACCESS_KEY", "ELEVENLABS_API_KEY")
+            self.assertIn("R2_SECRET_ACCESS_KEY", str(cm.exception))
             self.assertIn("ELEVENLABS_API_KEY", str(cm.exception))
 
     def test_mask_hides_secret(self):
