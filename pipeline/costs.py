@@ -23,6 +23,10 @@ class BudgetExceeded(RuntimeError):
     """Вызов превысил бы BUDGET_LIMIT_USD."""
 
 
+class BalanceFloorReached(RuntimeError):
+    """Вызов опустил бы баланс сервиса ниже неприкасаемого остатка — сообщить инвестору."""
+
+
 class PaidCallsDisabled(RuntimeError):
     """Платные вызовы не разрешены (STUDIO_ALLOW_PAID != 1)."""
 
@@ -114,7 +118,47 @@ def guard(service: str, units: float) -> float:
                 f"Бюджет исчерпан: потрачено ~${spent:.2f}, вызов {service} ~${est:.2f}, "
                 f"лимит BUDGET_LIMIT_USD=${limit:.2f}."
             )
+    _check_floor(service, est)
     return est
+
+
+# ------------------------------------------------- остаток на балансе ---
+# Правило инвестора (2026-11-23): баланс fal.ai не опускается ниже $20;
+# при приближении — сообщить ему. Пополнения — studio/budget/balances.json.
+
+BALANCES_PATH = config.REPO_ROOT / "studio" / "budget" / "balances.json"
+
+
+def provider_of(service: str) -> str:
+    return "elevenlabs" if service.startswith("elevenlabs") else "fal"
+
+
+def balance_status(provider: str = "fal", path: Path | None = None) -> dict | None:
+    """Оценка остатка: пополнения минус учтённые траты. None — правило не задано."""
+    p = path or BALANCES_PATH
+    if not p.is_file():
+        return None
+    cfg = json.loads(p.read_text(encoding="utf-8")).get(provider)
+    if not cfg:
+        return None
+    spent = sum(float(r.get("usd_estimate", 0) or 0) for r in read_log()
+                if r.get("provider") == provider)
+    remaining = float(cfg["deposited_usd"]) - spent
+    floor = float(cfg.get("floor_usd", 0))
+    return {"provider": provider, "deposited_usd": float(cfg["deposited_usd"]),
+            "spent_usd": round(spent, 4), "remaining_usd": round(remaining, 4),
+            "floor_usd": floor, "warn": remaining - floor <= float(cfg.get("warn_margin_usd", 0))}
+
+
+def _check_floor(service: str, est: float) -> None:
+    st = balance_status(provider_of(service))
+    if st is None:
+        return
+    if st["remaining_usd"] - est < st["floor_usd"]:
+        raise BalanceFloorReached(
+            f"Стоп: баланс {st['provider']} ~${st['remaining_usd']:.2f}, вызов {service} ~${est:.2f} "
+            f"опустил бы его ниже неприкасаемых ${st['floor_usd']:.2f}. Сообщить инвестору о пополнении."
+        )
 
 
 def log(service: str, units: float, *, provider: str, endpoint: str = "",
@@ -150,7 +194,8 @@ def summary(path: Path | None = None) -> dict:
         by_service[r.get("service", "?")] = by_service.get(r.get("service", "?"), 0) + float(r.get("usd_estimate", 0) or 0)
     return {"total_usd": round(sum(by_service.values()), 4),
             "by_service": {k: round(v, 4) for k, v in sorted(by_service.items())},
-            "limit_usd": config.budget_limit_usd()}
+            "limit_usd": config.budget_limit_usd(),
+            "fal_balance": balance_status("fal")}
 
 
 if __name__ == "__main__":

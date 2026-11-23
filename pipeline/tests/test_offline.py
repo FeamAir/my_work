@@ -193,3 +193,21 @@ class TestStorage(Base):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestBalanceFloor(unittest.TestCase):
+    def test_floor_blocks_and_warns(self):
+        import json, tempfile
+        from pipeline import costs
+        with tempfile.TemporaryDirectory() as d:
+            bal = Path(d) / "b.json"
+            bal.write_text(json.dumps({"fal": {"deposited_usd": 25, "floor_usd": 20, "warn_margin_usd": 10}}))
+            with mock.patch.object(costs, "BALANCES_PATH", bal), \
+                 mock.patch.object(costs, "read_log", return_value=[{"provider": "fal", "usd_estimate": 4.0}]):
+                st = costs.balance_status("fal")
+                self.assertAlmostEqual(st["remaining_usd"], 21.0)
+                self.assertTrue(st["warn"])
+                costs._check_floor("nano-banana", 0.5)  # 20.5 >= 20 — можно
+                with self.assertRaises(costs.BalanceFloorReached):
+                    costs._check_floor("nano-banana", 2.0)
+                costs._check_floor("elevenlabs-tts", 100.0)  # для ElevenLabs правило не задано
