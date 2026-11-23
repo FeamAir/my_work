@@ -1,6 +1,6 @@
 # Canon — how it works
 
-Canon version: **v0.6** (saga **HOLLOWSTONE**; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
+Canon version: **v0.7** (saga **HOLLOWSTONE**; v0.7 = the love lines of r7, DEC-71…76; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
 
 The canon is the single source of truth for the saga: world laws, chronology, houses, characters, bloodlines, secrets and names. Scripts, art, sound and marketing must follow it. If a script and the canon disagree, the canon wins until the keeper records a change.
 
@@ -20,8 +20,8 @@ The canon is the single source of truth for the saga: world laws, chronology, ho
 | `glossary.md` | Spelling and pronunciation of every name for voice synthesis | `term` |
 | `sealed/sealed.md` | **Restricted** part of the canon: answers of restricted secrets, sealed characters, overlays, true versions of events, sealed rules and names (§8a) | any type; `overlay: true` |
 | `checklist.md` | Checklist for reviewing script materials against the canon | — |
-| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 ruled in r6 (Part 5 of the same file; canon v0.6) | — |
-| `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director; v0.6: `for_vfx_S3-S4.md` prepared, **not issued** until the S3 storyboards). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
+| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 ruled in r6 (Part 5 of the same file; canon v0.6); DEC-71…76 ruled in r7 (Part 6; canon v0.7); **DEC-77, DEC-78 open** (keeper's questions, r7) | — |
+| `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director; v0.6: `for_vfx_S3-S4.md` prepared, **not issued** until the S3 storyboards; v0.7: director and artist §6, composer §3 item 12 - love lines of S1, nothing from `sealed/` §K). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
 | `tools/validate.py` | Automatic consistency checker | — |
 | `*/_template.md`, examples | Empty templates + one EXAMPLE each (`example: true`) | ignored by the normal run |
 
@@ -68,15 +68,15 @@ Allocation (v0.3):
 | Kind | Range | Who |
 |---|---|---|
 | Characters | CH-0001…0065 | the lead (foundation) |
-| | CH-0066…0099 | keeper and writer-characters (second circle, new people); CH-0070 was never issued (proposal = CH-0067); v0.4: CH-0078 Akko of Kitsa (keeper, DEC-33); next free: CH-0079 |
+| | CH-0066…0099 | keeper and writer-characters (second circle, new people); CH-0070 was never issued (proposal = CH-0067); v0.4: CH-0078 Akko of Kitsa (keeper, DEC-33); v0.7: CH-0079 Sibby Roan (r7); next free: CH-0080 |
 | | CH-0100…0199 | reserved for future cast (S2-S12 outlines) |
 | | CH-0200…0299 | house lineages (writer-houses: founders, last heads, the last three generations) |
 | Houses | HS-001…012 great and fallen · HS-013…089 minor houses and clans (writer-houses: HS-013…033) · HS-090…099 non-house powers | |
 | Places | PL-0001…0065 foundation · PL-0070…0079 writer-houses / keeper · PL-0080+ keeper (sluices and the like; v0.5: PL-0084 the Ninth Sluice treadmill pump; next free: PL-0085) | |
-| Events | EV-0001…0249 by prequel period (`franchise.md` §3) · EV-0250…0299 other pre-saga history (keeper; v0.3 up to EV-0275) · EV-0300+ the saga | |
-| Secrets | SEC-001…029 foundation (+ SEC-011b; SEC-017 split into SEC-017a/b in v0.4, SEC-017 retconned) · SEC-030+ keeper's numbering of new secrets; numbers proposed by writers are temporary until the keeper confirms them (writer-houses' SEC-C01…C07 = SEC-034…040; SEC-032 not issued) | |
+| Events | EV-0001…0249 by prequel period (`franchise.md` §3) · EV-0250…0299 other pre-saga history (keeper; v0.3 up to EV-0275; v0.7 EV-0276…0280) · EV-0300+ the saga (v0.7 up to EV-0347; EV-0309, 0312, 0314 never issued) | |
+| Secrets | SEC-001…029 foundation (+ SEC-011b; SEC-017 split into SEC-017a/b in v0.4, SEC-017 retconned) · SEC-030+ keeper's numbering of new secrets; numbers proposed by writers are temporary until the keeper confirms them (writer-houses' SEC-C01…C07 = SEC-034…040; SEC-032 not issued; v0.7: the lead's SEC-046…051 confirmed as proposed; next free SEC-052) | |
 | World rules | RULE-001…014 foundation (013-014 sealed) · RULE-015+ new (v0.3: law, custom, economy) | |
-| Terms | TERM-0001…0213 foundation · TERM-0214+ v0.3 · TERM-0494 v0.4 · TERM-0495…0496 v0.5 (next free: TERM-0497) |
+| Terms | TERM-0001…0213 foundation · TERM-0214+ v0.3 · TERM-0494 v0.4 · TERM-0495…0496 v0.5 · TERM-0497 v0.7 (next free: TERM-0498) |
 | Eras | ERA-BA, ERA-OS, ERA-CY, ERA-SY in `timeline.md`; ERA-MV (fifth era) restricted, in `sealed/` (DEC-13) | | |
 
 EXAMPLE records use an `EX-` infix (`CH-EX-0001`) and `example: true`; the normal validator run ignores them. They are deleted or kept as reference once real canon exists; they never mix with real canon.
@@ -145,7 +145,9 @@ Conventions inside values:
 - No inline comments inside a real block: a `#` comment must be on its own line.
 - `overlay: true` - only in `sealed/`: the block adds or replaces fields of the record with the same `id` (§8a).
 - `amend: true` - a **draft** block that adds to an approved record with the same `id` (outside or inside `sealed/`): it fills fields the record lacks (or holds as `?`), may narrow a date inside the approved interval (`CY 297` → `CY 297-02`, `~CY 270` → `CY 270-08`), and extends list fields. It may never contradict an approved value - the validator reports that as an error. Merge order: record → amends → overlays.
-- Relation kinds are free words in `snake_case`, seen from the record that holds them (the lower ID). Recommended: `spouse, sibling, parent_of` (only when no `father`/`mother` field can say it), `ward, guardian, mentor, friend, ally, enemy, rival, client, patron, employer_of, informant_of, commander_of, sworn_sword, killed_by, voice`. Kinship that follows from `father`/`mother` is not repeated as a relation; a secret parentage is never a relation (only `true_*`).
+- Relation kinds are free words in `snake_case`, seen from the record that holds them (the lower ID). Recommended: `spouse, sibling, parent_of` (only when no `father`/`mother` field can say it), `ward, guardian, mentor, friend, ally, enemy, rival, client, patron, employer_of, informant_of, commander_of, sworn_sword, killed_by, voice, business_partner`. Kinship that follows from `father`/`mother` is not repeated as a relation; a secret parentage is never a relation (only `true_*`).
+- **Romantic kinds (v0.7, DEC-71, DEC-76):** `lover` (a liaison, mutual), `betrothed`, `spouse`, `partner` (an open couple, not married), `suitor` (the other character courts the holder), `suitor_of` (the holder courts the other), `beloved` (the holder loves the other, unspoken or not a liaison), `beloved_of` (the other loves the holder; the holder's answer is left to the screen). Reading rule for one-directional kinds: the bare word names what **the other** is to the holder; `_of` names what **the holder** is to the other (as in `informant_of`, `murderer_of`). A romantic kind **must carry the moment it starts**: `CH-0019:lover@CY 305`, `CH-0042:spouse@S07E03` (old marriages may stay without a moment as `spouse`). The validator checks that both characters are **18+ by birth year** at that moment and that neither has `romance: never`. A relation that changes kind is written twice (`CH-0042:betrothed@S07E02, CH-0042:spouse@S07E03`); a cover word may stay beside the truth only if both are true (`CH-0006:ally, CH-0006:lover@S04E12`). By the lower-ID convention Maren's lover is in Hollis's record (CH-0003) and Ruel's in Ruel's (CH-0005); exceptions kept from v0.4: Ursel holds her relations to Teodor (`murderer_of`, `lover`).
+- `romance: never` (v0.7, DEC-71) - a character who is never romantic at any age in the saga (Wick, Tibb, Mags, Patch, Daro Vey, Sindre Rusk, Ylva Dask). `partner` before v0.7 meant business: Gant's relation was renamed `business_partner` (no change of fact).
 - `class` (open list): `ruler, noble, knight, clergy, merchant, clerk, physician, craftsman, soldier, servant, poor, outlaw`.
 
 ## 6a. TODO stubs (things not decided yet)
@@ -173,6 +175,7 @@ python3 studio/canon/tools/validate.py --mermaid HS-007 [--spoilers]   # family 
 python3 studio/canon/tools/validate.py --cast S02E03 CH-0001,CH-0007   # can these characters appear?
 python3 studio/canon/tools/validate.py --knows CH-0001 S03E05          # what does this character know by then?
 python3 studio/canon/tools/validate.py --todo                          # list TODO stubs (§6a)
+python3 studio/canon/tools/validate.py --age S07 CH-0001,CH-0040       # age gate for romance (DEC-71): age by birth year in the season's first year
 ```
 
 The validator is run after every change and before every script review. Errors block approval; warnings must be read and either fixed or explained in the keeper's report.

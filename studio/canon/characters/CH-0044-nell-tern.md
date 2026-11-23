@@ -13,7 +13,7 @@ class: soldier
 role: major
 born: ~CY 290
 relations: [CH-0067:sibling, CH-0046:aunt]
-secrets: [SEC-017a, SEC-017b]
+secrets: [SEC-017a, SEC-017b, SEC-047]
 epithet: midshipwoman
 status_track: [S01E02:alive]
 first_episode: S01E02

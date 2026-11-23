@@ -16,6 +16,7 @@ role: antagonist
 born: CY 257-01
 died: CY 320-11-03
 relations: [CH-0053:captain, CH-0011:client_of, CH-0017:ally, CH-0051:briber_of, CH-0252:spouse]
+secrets: [SEC-046]
 status_track: [S01E01:alive, S05E11:dead]
 first_episode: S01E01
 father: CH-0251
@@ -37,6 +38,9 @@ born_at: PL-0004
 
 ## Biography
 Master of the Relay and the Hearings; Helm from S01E12 (EV-0306). Rules by "Listener Law" in S4. Killed by Hollis on the Night of a Thousand Voices (EV-0319).
+
+## Love (r7)
+- Holds Ruel's letters to Jaro from S02E11 (Ysa's pledge, EV-0342; SEC-046): the Listener can unseat the Captain-Lord at any Hull Moot - the cause of Quell "trading with both sides" (S3-S5). Never opens the matter in public. The packet passes to Zev at his death (EV-0343).
 
 ## Arc by season (foundation)
 

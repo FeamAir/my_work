@@ -42,13 +42,13 @@ born: ~CY 268
 mother: CH-0012
 relations: [CH-0021:spouse]
 secrets: [SEC-004]
-status_track: [S01E04:alive]
-first_episode: S01E04
+status_track: [S01E03:alive]
+first_episode: S01E03
 epithet: Lord of Ilvane
 father: CH-0220
 ```
 
-Lord of Ilvane, Ione's official father. Defies his mother's vote (S01E12); gives Cressa the Gleaner rolls (S5); confined at Pale Crag "for his nerves" (S6–S9); freed when Maren breaks the Choir; decides what Pale Crag does in S12.
+Lord of Ilvane, Ione's official father. *(v0.7, r7: first on screen S01E03 - at Ione's rinse he stands in the doorway and does not come in; DEC-75 moves his first appearance from S01E04.)* Line C "The Other Thing" (no new fact): a cloister marriage of twenty years' courtesy over a dead child (Ilse, CH-0068) and a borrowed one; it becomes a marriage only after Ione's death, when he gives Cressa the Gleaner rolls - the first thing he does for her and against his mother; his S12 decision for Pale Crag is made between two graves, Ilse's and Cressa's. Defies his mother's vote (S01E12); gives Cressa the Gleaner rolls (S5); confined at Pale Crag "for his nerves" (S6–S9); freed when Maren breaks the Choir; decides what Pale Crag does in S12.
 
 ## Ilse Ilvane (CH-0068)
 
@@ -82,14 +82,14 @@ house: HS-001
 class: noble
 role: supporting
 born: ~CY 261
-secrets: [SEC-023]
+secrets: [SEC-023, SEC-046]
 status_track: [S01E09:alive]
 first_episode: S01E09
 father: CH-0200
 mother: CH-0201
 ```
 
-Ruel's sister. Arrives aboard the *Patient Gull* a day too early (S01E09); names her "condition" (S01E11); opens Gullmouth to Fennick (S02E11).
+Ruel's sister. Arrives aboard the *Patient Gull* a day too early (S01E09); names her "condition" (S01E11); opens Gullmouth to Fennick (S02E11). *(v0.7, r7, SEC-046)* She has always known about Ruel and Jaro. S01E09 she bars Jaro from the ship and takes the packet in tarred twine from the cabin locker (EV-0341); S02E10 she lays it before Maren - *"There were two things to bury."*; S02E11 gives it to Odo as her pledge (EV-0342).
 
 ## Piers Lantry (CH-0061)
 

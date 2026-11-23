@@ -18,6 +18,7 @@ parentage_secret: SEC-017b
 status_track: [S01E10:alive]
 first_episode: S01E10
 secrets: [SEC-017b]
+romance: never
 ```
 
 ## Look (story-level, must never change)

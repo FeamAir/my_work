@@ -32,6 +32,11 @@ relations: [CH-0049:friend]
 ## Biography
 Pell's friend; sings aloud at Ruel's rally (S01E02), a night on the tide-post (S01E03), vanishes. Returns as the Pearl Pretender (S06E01). Dying, asks the crowd to raise Lirenne anyway (S08E06).
 
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **Age gate (DEC-71):** 17 in S1; nothing romantic in S1 (Pell's friend). His suit: S06E05-E06 (26), relation in CH-0001 (`suitor@S06E05`) - real and unreturned; the brokers script it as "the Pearl and the Singer" (SEC-016).
+- **S08E04-E06 the jealous act:** he lets his brokers sell the Pell-Esk kite-code to the Dry Palace watch; dying (S08E06) he tells Pell what he sold (EV-0347).
+- **Jaro Quell (CH-0019): patron - patronage only** (DEC-71); never romantic.
+
 ## Arc by season (foundation)
 
 | Season | Where (PL-…) | What they do | State at season end |

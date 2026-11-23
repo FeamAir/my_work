@@ -16,8 +16,8 @@ role: major
 born: CY 264-04
 died: CY 312-11-02
 died_at: PL-0018
-relations: [CH-0058:sibling, CH-0016:enemy, CH-0050:client, CH-0019:friend, CH-0010:rival, CH-0202:spouse]
-secrets: [SEC-001, SEC-031]
+relations: [CH-0058:sibling, CH-0016:enemy, CH-0050:client, CH-0019:lover@CY 305, CH-0010:rival, CH-0202:spouse]
+secrets: [SEC-001, SEC-031, SEC-046]
 status_track: [S01E01:alive, S01E09:dead]
 first_episode: S01E01
 father: CH-0200
@@ -41,6 +41,9 @@ born_at: PL-0030
 
 ## Biography
 Head of House Corvane, Lord Admiral, reformist candidate for Helm; hero of the Still Water rescue boats (EV-0200). Poisons Helm Lucan (EV-0300), is stabbed on the Steps (EV-0302) and dies (EV-0303). His crime is revealed in S01E11 and made public in S6. Keeps acting after death: the ring, the burned page, the fleet's debt to Lantry, his last words, his sister's cover-up (SEC-023).
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L1 "The Second Lamp"** with Jaro Quell (CH-0019), from CY 305 (EV-0277) to his death; a widower since CY 300. In public "an old friendship of sailors" (the v0.4 relation `friend` was the cover; v0.7: `lover`). Signal: the second stern lamp of the *Patient Gull*. S01E04 he gives Jaro the right hand and keeps the ringed left behind his back; S01E06 *"A storm is coming. Be ready too."*; Longdark 5 the unsent note (EV-0280) - he told his sister, not his lover. SEC-046.
 
 ## Arc by season (foundation)
 

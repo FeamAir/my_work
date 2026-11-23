@@ -15,7 +15,7 @@ class: clergy
 role: major
 born: CY 290-05
 died: CY 323
-secrets: [SEC-012]
+secrets: [SEC-012, SEC-049]
 status_track: [S01E03:alive, S08E09:dead]
 first_episode: S01E03
 relations: [CH-0045:rival, CH-0060:ally, CH-0065:fellow_quiet]
@@ -32,6 +32,9 @@ relations: [CH-0045:rival, CH-0060:ally, CH-0065:fellow_quiet]
 
 ## Biography
 Vesna's "Voice" and interpreter; officially a foundling novice. Executed by the Choir (S08E09).
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L5 "The Voice"** with Ione Ilvane - relation in CH-0002 (`beloved_of@CY 313`); unspoken love compromised by a lie of omission. S1E11 seed (her name, and he never speaks aloud); S2 sign lessons (she 19, he 23); S2E10 the two notes - from that night he understands what she is and does not tell her (SEC-012); S3 keeper of her journal; S4E10 *"You knew. Since the two notes."* - he signs yes; forehead to forehead; S4E11 she dies; S5E6 he cuts the pages that name him and leaks the journal (SEC-049); S7E7 Daro finds them; S8E9 his last words are the first sentence he speaks aloud as himself (fixed line with the S8 outline).
 
 ## Arc by season (foundation)
 

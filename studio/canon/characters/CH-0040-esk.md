@@ -27,7 +27,7 @@ true_father: CH-0078
 ```
 
 ## Look (story-level, must never change)
-- Age band: 13 at S1 (teen: no romance).
+- Age band: 13 at S1 (teen: no romance; v0.7, DEC-71: romance allowed from S5, used from S7 at 23 - line L4 with Pell, relation in CH-0001).
 
 ## Voice
 - Ossari; sends kite-signals home.
@@ -37,6 +37,9 @@ true_father: CH-0078
 
 ## Biography
 Ossari hostage held by House Rusk, officially Tsura's nephew. Main from S3. Suspected in S9 of the betrayal he tried to prevent; in S11 his kite-lines carry the pitch. Survives.
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L4 "Kites over the Wall"** with Pell - relation in CH-0001 (`partner@S07E12`); beats there. What they share before a word is spoken: Kes Mabry, his guardian (guardian and ward - family, never romance). S8 kite-code letters across the siege (EV-0347). S10 the clans want him matched inside the uplands to hold the alliance; Tsura neither forbids nor blesses Pell.
 
 ## Arc by season (foundation)
 

@@ -1,0 +1,45 @@
+from lib import S
+
+SCENE = dict(
+    title='SC 7 — Мост: карта', short='Карта',
+    start=434, length=40,
+    loc='PL-0078 картографическая контора, только стол (D-07 M1/M2; NOON)',
+    time='полдень',
+    chars='руки картографа (спина, обшлага ливреи Инчли) · Летописец [VO]',
+    axis='строго сверху; руки картографа входят снизу кадра (он стоит у нижнего края). Лестница — в глубине M2',
+    water='на карте: море и гавань — слева (запад), холм — центр, Низы веером к ЮЗ — левый нижний сектор (север карты вверх)',
+    light='DOCUMENT + NOON: ровный верхний свет из высокого окна',
+    accent='тинты ярусов (вектор, монтаж)', mood='документ',
+    mode='LA only', vertical='—',
+    notes=[
+        'Основа карты — E-05 (живопись без текста); подписи, четыре тинта, цвета держателей, кольца Шпилей — векторные слои в монтаже (мастер-файл карты, перерисовывается каждый сезон). Компас-роза — спираль по часовой.',
+        'Вторая малая копия под пресс-папье — ровно 2 с, без комментария (FIXED).',
+        'Руки в sh060–sh070 — генерация (C); остальные кадры с руками — статичны.',
+    ],
+    checks=['Ориентация карты = DEC-65 (море на западе); тот же мастер-файл в sc12. Склейка: лестница (sh090) → спираль чёрного камня sc08-sh010.'],
+)
+
+SHOTS = [
+    S(3.5, 'insert', 'строго сверху, отъезд', 'Компас-роза тушью: спираль тонких линий по часовой', 'MUSIC: M05 Archive, часть B (легче)', 'A', 'L-01 отъезд 0.15', 'E-05 M-MAP',
+      '— (деталь мастер-плиты карты E-05)', '', 'спираль по часовой', refplate=True, nochar=True, key='map'),
+    S(6, 'top', 'строго сверху, медленный наезд', 'Большой лист под руками картографа (спина, обшлага Инчли). Дельта и её рукава. Хайуотер: Ступени, Средние, Низы под дамбой. Девять чёрных башен, каждая в кольце цвета держателя', 'CHRONICLER [VO] FIXED: «The Tithe Map sets down who is sung first when the storm comes, and who after.»', 'A', 'L-01 0.04 + слои карты (монтаж)', 'E-05; D-07 M1 NOON',
+      'Top-down view of a large cartographer\'s table of dark polished wood with a big hand-drawn parchment map of a river delta laid flat, brass map-weights, ink pots, dividers; two hands in dark cuffs with a narrow livery trim resting flat at the bottom edge of the map. {DOCUMENT}',
+      '', 'руки снизу', key='map_hands'),
+    S(6, 'top', 'строго сверху, статика', 'Тинты заливаются по районам: сильный, средний, тонкий', 'CHRONICLER [VO] FIXED: «First Song. Second Song. Last Song.»', 'A', 'L-17 (тинты по маскам районов, fade-in на словах)', 'E-05', '', '', '—', reuse='map_hands'),
+    S(4, 'insert', 'сверху, статика', 'Легенда: три подписанных тинта. Ниже — четвёртый: бледная заливка, подпись под большим пальцем картографа', '—', 'A', 'L-01 0.03', 'E-05',
+      'Top-down insert of the legend box of a hand-drawn map: four colour swatches in a column, the lowest one a pale wash, a thumb in a dark livery cuff resting over the label space beside the lowest swatch. {DOCUMENT}',
+      '', 'палец снизу справа'),
+    S(5, 'insert', 'сверху, наезд к кольцу', 'Девять башен; кольцо одной нарисовано тоньше остальных — той, что стоит над городом на сваях', 'CHRONICLER [VO] FIXED: «Of the nine Spires, eight still answered. One of the eight answered badly.»', 'A', 'L-01 0.10 к тонкому кольцу', 'E-05', '', '', 'наезд к ЮЗ сектору', reuse='map'),
+    S(6, 'top', 'сверху, статика', 'Руки сворачивают большую карту и вкладывают в кожаный тубус', 'CHRONICLER [VO] FIXED [ECHO]: «By law the Helm reads the map aloud, and signs it; and the balance of that year was read on the sixth of Longdark.»', 'C', 'резерв: два кадра (карта на столе / в тубусе)', 'E-05; D-07 M1',
+      'Top-down view of a dark wooden table: two hands in dark livery cuffs rolling up a large parchment map toward a leather map case lying open at the top edge. {DOCUMENT}',
+      'static camera; the hands roll the large map up tightly and slide it into the leather case. Hands keep five fingers.', 'катят снизу вверх'),
+    S(2, 'insert', 'сверху, статика', 'Те же руки задвигают под пресс-папье меньший лист — та же береговая линия. Без комментария. Две секунды', '—', 'C', 'резерв: два кадра', 'E-05 малая копия; D-07 M1',
+      'Top-down insert: the same hands slide a smaller sheet of parchment showing the same delta coastline under a leather blotter at the corner of the table. {DOCUMENT}',
+      'static camera; the hands slide the small sheet fully under the blotter and withdraw.', 'под пресс-папье справа'),
+    S(3, 'MS', 'низко через стол на дверь (M2), статика', 'Тубус поднимают и уносят из кадра — вверх по лестнице', 'SFX: шаги по каменной лестнице', 'B', 'резерв: L-04', 'D-07 M2',
+      'Noon, low view across a cartographer\'s table toward an open door with a spiral stone stair beyond; a leather map case being lifted from the table by a hand in a dark cuff at the top edge. {MIDS_INTERIOR}',
+      'static camera; the case is lifted and carried out of frame toward the door.', 'уносят вправо-вглубь к двери'),
+    S(4.5, 'WS', 'в дверь, вверх, медленный подъём', 'Пустая винтовая лестница за дверью; шаги уходят вверх', 'SFX: шаги затихают', 'A', 'L-03 (вверх) ; склейка по форме → sc08-sh010', 'D-07 M2',
+      'Noon, view through a doorway up a narrow spiral stone stair winding upward out of sight, soft light from above, no people. {MIDS_INTERIOR}',
+      '', 'спираль вверх', nochar=True),
+]

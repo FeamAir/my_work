@@ -11,6 +11,7 @@ Usage:
   python3 tools/validate.py --mermaid HS-0001 [--spoilers]   # print family tree of a house
   python3 tools/validate.py --cast S02E03 CH-0001,CH-0007    # who of these can appear in the episode
   python3 tools/validate.py --knows CH-0001 S03E05           # which secrets the character knows by then
+  python3 tools/validate.py --age S07 CH-0001,CH-0040        # age gate (DEC-71): age by birth year in the season's first year
   python3 tools/validate.py --root PATH     # canon root (default: parent of tools/)
 
 Exit code: 0 = no errors (warnings allowed), 1 = errors found, 2 = usage/parse failure.
@@ -48,6 +49,12 @@ SECRET_STATES = {"sealed", "seeded", "revealed"}
 
 
 TODO_RE = re.compile(r"^TODO\((DEC-\d{2,3})\)$")
+
+# v0.7 (DEC-71, DEC-76): romantic relation kinds. A romantic relation must carry a moment
+# (ID:kind@SxxEyy or ID:kind@CY 305) and both characters must be 18+ by birth year then.
+# 'spouse' is checked only when a moment is given (old marriages carry none).
+ROMANCE_KINDS = {"lover", "beloved", "beloved_of", "betrothed", "suitor", "suitor_of", "partner"}
+AGE_GATE = 18
 
 
 def is_todo(v):
@@ -530,6 +537,9 @@ class Validator:
                 if tid == c.get("id"):
                     self.err(c, "relations: relation to self")
                     continue
+                other = self.by_id.get(tid)
+                if other is not None and other.get("type") == "character":
+                    self.check_romance(c, other, kind)
                 if self.ref(c, "relations", tid, ("character",)):
                     key = tuple(sorted((c["id"], tid))) + (kind,)
                     if key in pair_seen:
@@ -542,6 +552,62 @@ class Validator:
         for n, lst in names.items():
             if n and len(lst) > 1:
                 self.warn(lst[1], "same name as %s (%s) - make sure this is intended, add epithet" % (lst[0]["id"], lst[0].where()))
+
+    def year_of(self, day):
+        return day // self.cal.year_len if self.cal else None
+
+    def moment_start(self, rec, field, moment):
+        """'S07E03' or 'CY 305' -> first day, or None (reported)."""
+        if ep_key(moment):
+            if not self.episode(rec, field, moment):
+                return None
+            iv = self.ep_interval(moment)
+            return iv[0] if iv else None
+        if self.cal is None:
+            return None
+        try:
+            return self.cal.interval(moment)[0]
+        except ValueError as e:
+            self.err(rec, "%s: %s" % (field, e))
+            return None
+
+    def age_by_year(self, c, day):
+        """Age by birth year (DEC-71): year of the moment minus the LATEST possible birth year."""
+        b = self.date(c, "born")
+        if not b or day is None:
+            return None
+        return self.year_of(day) - self.year_of(b[1])
+
+    def check_romance(self, c, other, kind):
+        base, moment = split_at(kind)
+        if base not in ROMANCE_KINDS and not (base == "spouse" and moment):
+            return
+        for x in (c, other):
+            if str(x.get("romance", "")).lower() == "never":
+                self.err(c, "relations: %s:%s - %s is marked 'romance: never' (DEC-71)" % (other["id"], kind, x["id"]))
+        if not moment:
+            self.err(c, "relations: romantic kind %r needs a moment (ID:%s@SxxEyy or @CY YYYY, DEC-71)" % (kind, base))
+            return
+        day = self.moment_start(c, "relations", moment)
+        if day is None:
+            return
+        for x in (c, other):
+            age = self.age_by_year(x, day)
+            if age is None:
+                self.warn(c, "relations: %s:%s - no birth date for %s, age gate not checked" % (other["id"], kind, x["id"]))
+            elif age < AGE_GATE:
+                self.err(c, "relations: %s:%s - %s is %d by birth year at %s (age gate %d+, DEC-71)" % (
+                    other["id"], kind, x["id"], age, moment, AGE_GATE))
+
+    def season_first_day(self, season):
+        """'S07' -> first date_start among the season's episode records."""
+        days = []
+        for e in self.by_type["episode"]:
+            if e["id"].startswith(season + "E"):
+                d = self.date(e, "date_start")
+                if d:
+                    days.append(d[0])
+        return min(days) if days else None
 
     def check_status_track(self, c, born, died):
         track = c.get("status_track", []) or []
@@ -836,6 +902,8 @@ def main():
     ap.add_argument("--cast", nargs=2, metavar=("EPISODE", "IDS"))
     ap.add_argument("--knows", nargs=2, metavar=("CHAR_ID", "EPISODE"))
     ap.add_argument("--todo", action="store_true", help="list TODO stubs (README section 6a)")
+    ap.add_argument("--age", nargs=2, metavar=("SEASON_OR_EPISODE", "IDS"),
+                    help="age gate (DEC-71): age by birth year in the season's first year (S07) or at an episode (S07E03)")
     a = ap.parse_args()
 
     records, problems = load_records(a.root)
@@ -863,6 +931,32 @@ def main():
             ok = st in ("alive", "revealed", "captive", "unknown")
             bad |= not ok
             print("%s %-24s %s%s" % (cid, c.get("name", ""), st, "" if ok else "   <-- CHECK"))
+        return 1 if bad else 0
+    if a.age:
+        when, ids = a.age
+        if re.match(r"^S\d{2}$", when):
+            day = v.season_first_day(when)
+        else:
+            iv = v.ep_interval(when)
+            day = iv[0] if iv else None
+        if day is None:
+            print("%s: no episode records with dates" % when)
+            return 2
+        bad = 0
+        print("Age gate %d+ by birth year (DEC-71) at %s; '~' births count from the latest year" % (AGE_GATE, when))
+        for cid in [x.strip() for x in ids.split(",") if x.strip()]:
+            c = v.by_id.get(cid)
+            if not c or c.get("type") != "character":
+                print("%s: UNKNOWN ID" % cid)
+                bad = 1
+                continue
+            age = v.age_by_year(c, day)
+            never = str(c.get("romance", "")).lower() == "never"
+            ok = age is not None and age >= AGE_GATE and not never
+            bad |= not ok
+            note = "romance: never" if never else ("no birth date" if age is None else ("" if ok else "UNDER %d" % AGE_GATE))
+            print("%s %-24s born %-12s age %-4s %s" % (cid, c.get("name", ""), c.get("born", "?"),
+                                                       "?" if age is None else age, ("   <-- " + note) if note else "ok"))
         return 1 if bad else 0
     if a.knows:
         for line in v.knows(*a.knows) or ["(nothing recorded)"]:

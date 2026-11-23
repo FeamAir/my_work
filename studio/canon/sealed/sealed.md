@@ -2,9 +2,9 @@
 
 > **CLOSED FILE - FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper, studio director. Writer-helpers, marketing, art and sound receive only excerpts decided by the director (`studio/status.md`). Never quote in public material, openings, previews or reports to the investor. Format: `README.md` §8a.
 
-Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings (J.1) and of the r6 rulings DEC-66…70 (J.2, J.3); transfer by lore-keeper)
+Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings (J.1) and of the r6 rulings DEC-66…70 (J.2, J.3); §K = restricted side of the love lines, r7, DEC-71…76; transfer by lore-keeper)
 
-Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6), r3 (§10) and r6 (§11). Role excerpts decided by the director: `../excerpts/` (v0.4).
+Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6), r3 (§10), r6 (§11) and r7 (§12). Role excerpts decided by the director: `../excerpts/` (v0.4).
 
 ## A. Restricted secrets
 
@@ -26,7 +26,7 @@ public_on_reveal: false
 related: [CH-0006, CH-0044, CH-0017, CH-0040, CH-0042, EV-0331]
 ```
 
-Clues: S01E11 she buries her father's crime (pattern) · S02E11 her captains' padded powder accounts · S06E12 promise worded "in Highwater" · S08E11 she drowns the camps · S09E04 asks Nell for the bridge tide-table "for the parade" · S09E05 watches the First Raising from her flagship · S09E06 "I have seen what her lullaby does." · S09E08 Tibb intercepts a relay code from the Dry Palace. Partly public on reveal.
+Clues: S01E11 she buries her father's crime (pattern) · S02E11 her captains' padded powder accounts · S06E12 promise worded "in Highwater" · S08E11 she drowns the camps · S09E04 asks Nell for the bridge tide-table "for the parade" · S09E05 watches the First Raising from her flagship · S09E06 "I have seen what her lullaby does." · S09E08 Tibb intercepts a relay code from the Dry Palace. Partly public on reveal. *(v0.7, §K.2-K.3)* The planted suspect "the code runs on Zev's Relay" is upgraded: a husband is a better false trail than a rival lord (SEC-048). Pell's warning kite (S08E11) gives Maren a personal grievance; in the S9 outline it is spoken once (S09E06, beside *"I have seen what her lullaby does"*) and never offered as the reason - the motive stays S09E05.
 
 ### SEC-011 - Quire
 
@@ -39,14 +39,14 @@ tier: season
 truth: The masked forger Quire is Hollis, alive, together with Zev Fennick, who pulled him from the Counting House fire, hid him in the Listening House and prints and relays the pages; Hollis was entered dead by the Undertow's fake-drowning trade; Quire's first pamphlets (S09E12-S10E04) genuinely serve the Sovereign until S10E10 proves what the Tenth Verse is.
 cover_story: Hollis died in the fire.
 status: sealed
-known_by: [CH-0003@S06E09, CH-0042@S06E09, CH-0001@S11E06]
+known_by: [CH-0003@S06E09, CH-0042@S06E09, CH-0006@S10E05, CH-0001@S11E06]
 hints: [S06E09, S08E03, S09E12, S10E05]
 reveal: S11E06
 public_on_reveal: false
 related: [CH-0003, CH-0042, EV-0320]
 ```
 
-Clues: Lead's ID SEC-011a (kept as SEC-011). S02E03 Pruitt shows the fake drowning on paper · S06E09 Zev is the last man seen going in; the clip found melted · S08E03 a second cot in Zev's rooms · S09E12 pamphlets in double-entry columns, faster than boats (only the Relay is that fast) · S10E05 a brass clip pressed into the wax. Red herrings: Elm, Zev (as Relay heir), Tibb, Vesna.
+Clues: Lead's ID SEC-011a (kept as SEC-011). S02E03 Pruitt shows the fake drowning on paper · S06E09 Zev is the last man seen going in; the clip found melted · S08E03 a second cot in Zev's rooms · S09E12 pamphlets in double-entry columns, faster than boats (only the Relay is that fast) · S10E05 a brass clip pressed into the wax. Red herrings: Elm, Zev (as Relay heir), Tibb, Vesna. *(v0.7, §K.1)* **Maren** knows the Hollis half from S10E05 (she recognises the clip in the wax - she handled it aboard the fleet in S3; shot rule: her hand stops on the wax, nothing more) and acts on it only by ordering that Quire is not to be hunted "while he is useful"; the second half - the press and the Relay were her consort's - she learns at S11E06. The season's small riddle *why does the Sovereign let one forger live?* is line L2, answered S11E06.
 
 ### SEC-011b - The Chronicler
 
@@ -60,7 +60,7 @@ truth: The narrator of the series is old Hollis Kett reading the official Chroni
 cover_story: An anonymous court chronicler.
 status: sealed
 known_by: [CH-0003@S12E13]
-hints: [S01E01, S01E04, S02E01, S05E02, S06E09, S07E01, S09E12, S10E05]
+hints: [S01E01, S01E04, S02E01, S05E02, S06E09, S07E01, S09E12, S10E05, S10E06]
 reveal: S12E13
 public_on_reveal: true
 min_seasons_hidden: 1
@@ -68,7 +68,7 @@ depends_on: [SEC-011]
 related: [CH-0003, CH-0001]
 ```
 
-Clues: S01E01 "carried forward", "the balance of that year" · S01E04 Hollis alone: "carried forward" · S02E01 the exact price of bread in Ninth Sluice · S05E02 he knows Odo's sealed treasury letter · S06E09 the melted clip · S07E01 the voice is hoarser (smoke) · S09E12 double-entry pamphlets · S10E05 the clip seal. Sign-off changes only in S12E13: "...and the water kept its counsel. We did not." Wording rules: sealed §B.
+Clues: S01E01 "carried forward", "the balance of that year" · S01E04 Hollis alone: "carried forward" · S02E01 the exact price of bread in Ninth Sluice · S05E02 he knows Odo's sealed treasury letter · S06E09 the melted clip · S07E01 the voice is hoarser (smoke) · S09E12 double-entry pamphlets · S10E05 the clip seal · *(v0.7)* S10E06 a decree of the Sovereign uses *"carried forward"* - the first time the phrase is in a mouth that is not his (reads as officialese; her only answer to Quire). Sign-off changes only in S12E13: "...and the water kept its counsel. We did not." Wording rules: sealed §B.
 
 ### SEC-014 - The Builders
 
@@ -240,7 +240,7 @@ related: [CH-0001, CH-0005, CH-0006, CH-0023, CH-0030, CH-0031, HS-001, HS-008, 
 reveal_steps: [S08E08, S09E12]
 ```
 
-Clues: Steps: S08E08 the shard was Liss's and where she found it; S09E12 Maren learns what the ring is and crowns herself with it; S12E11 stone and ring are fitted. Clues: S01E01 black pearl on Neveh's hand, the servant's closed fist, "no bigger than a thumbnail" · S01E04 hinged and hollow · S01E11 Maren takes the ring · S04E04 Nan's sketch: the stone at Liss's throat · S05E10 Neveh prises the stone out; an admiral's hand closes on the ring · S06E10 "A Keeper's pearl is black, and hollow." · S06E12 Maren puts it on. Production: the ring and the shard never share a frame before S12E11. Nan knows the shard was Liss's (origin); Vesna knows what it is (origin).
+Clues: Steps: S08E08 the shard was Liss's and where she found it; S09E12 Maren learns what the ring is and crowns herself with it; S12E11 stone and ring are fitted. Clues: S01E01 black pearl on Neveh's hand, the servant's closed fist, "no bigger than a thumbnail" · S01E04 hinged and hollow · S01E11 Maren takes the ring · S04E04 Nan's sketch: the stone at Liss's throat · S05E10 Neveh prises the stone out; an admiral's hand closes on the ring · S06E10 "A Keeper's pearl is black, and hollow." · S06E12 Maren puts it on. Production: the ring and the shard never share a frame before S12E11. *(v0.7, §K.4)* Guard for line L1: Jaro never handles the ring and never speaks of the pearl; Ruel withholds his left hand only from Longdark 4 (the needle is armed) - S01E04 and S01E09 give Jaro the right hand; nothing in L1 places the ring near a thumbnail-sized stone. Nan knows the shard was Liss's (origin); Vesna knows what it is (origin).
 
 ## B. The Chronicler's wording (SEC-011b)
 
@@ -259,6 +259,8 @@ He reads the official record and **never states a false fact**; he misleads only
 | the Dry Queen broke the weir | "The weir at the falls was breached, and the Dry Queen did not deny it." |
 
 After each reveal his next line on the topic is unchanged (it is the official record); the scene that follows contradicts it. Sign-off changes only in S12E13: "...and the water kept its counsel. We did not."
+
+**Rule 5 (v0.7, master file §12.1): the official record has no entry for love.** He states the fact and never the cause (S01E09: *"The Captain-Lord of the Shoals paid his respects last."*). About Maren he never uses an endearment, never an adjective of his own, never a pause the script marks. On a rewatch every flat line about "the Lord Admiral's daughter", "the Helm", "the Sovereign" is spoken by the man who loved her - that is the whole effect. No new tell is allowed before S12E13.
 
 ## C. Restricted characters and overlays
 
@@ -455,7 +457,7 @@ meaning: Vesna's birth name
 | Keeper's ring (Ruel's pearl) | made for Keeper Isembar (~OS 380-420, prequel P2) → Neveh → Corvane admiral (OS 700) → heads of House Corvane → Ruel |
 | Nan's earring and its mate | Hesh splits the pair CY 244: Ves (Vesna) keeps the right one; Nan the left |
 
-**Custody of the brass ledger-clip after S06E09 (DEC-48; the open table in `world.md` §6 stops at the fire):** found melted in the ashes by Fossett (S06E09) → entered in evidence at the Hearings' inquest (S06E10) → the Hearings' evidence chest, i.e. Zev's keeping → returned by Zev to Hollis in the Listening House (off screen) → pressed into Quire's wax (S10E05). Fair-play shots: S07E05, during the Kilbride suit, the tagged, melted clip lies in the open evidence chest; S08E03 (the second cot) the tag hangs empty on Zev's wall. A viewer who tracks the object finds Zev before S11E06.
+**Custody of the brass ledger-clip (v0.7 complete chain, master file §12.5):** Teodor Kett → Ursel Lantry (CY 296, kept in her sleeve) → Hollis (S01E01) → melted (S06E09) → evidence chest of the Hearings → Zev → Hollis → Quire's wax (S10E05) → the Chronicle's last page (S12E13). The seal of Quire is the clip of two clerks who forged for the women they loved; only the son stopped. The provenance is not spoken before S06E08 (SEC-050). **After S06E09 (DEC-48; the open table in `world.md` §6 stops at the fire):** found melted in the ashes by Fossett (S06E09) → entered in evidence at the Hearings' inquest (S06E10) → the Hearings' evidence chest, i.e. Zev's keeping → returned by Zev to Hollis in the Listening House (off screen) → pressed into Quire's wax (S10E05). Fair-play shots: S07E05, during the Kilbride suit, the tagged, melted clip lies in the open evidence chest; S08E03 (the second cot) the tag hangs empty on Zev's wall. A viewer who tracks the object finds Zev before S11E06.
 
 ## H. v0.3 additions (overlays approved in r3; keeper notes)
 
@@ -571,6 +573,13 @@ Public cover: the Dry Queen "did not deny it".
 | DEC-69 | SEC-014, SEC-018, SEC-021, SEC-025 | The look of a Spire answering the low part / many voices / the Answer, and the Sunken Spire stirring (§J.2, ruled r6). |
 | DEC-70 | SEC-018, SEC-025, SEC-027 | The Ashare theme on the Sunken tone = the shard's tone; ruled r6 (§J.2). |
 
+| DEC-71, DEC-72 | — | Age gate and function test (open). |
+| DEC-73, DEC-74 | SEC-010, SEC-011, SEC-011b, SEC-024, SEC-027 | Love lines L1-L5, A-C: restricted halves in §K (L2 after S06E09; L3 terms; L4 notes; L1 price; the clip). Answers unchanged (§K.6). |
+| DEC-75 | SEC-027 | S1 additions: Ruel gives Jaro the right hand (the ring stays out of L1). |
+| DEC-76 | SEC-011 | What SEC-047 and SEC-048 may not say in open records: the line after S06E09 and the terms (§K.1, §K.2). |
+| DEC-77 | — | Keeper's question: the S3 episode of SEC-047 and the episodes for Nell and Jaro (open). |
+| DEC-78 | — | Keeper's question: the day of Bede's purchase (open). |
+
 All DEC items DEC-01…64 were ruled in r3; the restricted side of the rulings is §I. DEC-65…70 were ruled in r6 (`studio/story/decisions_resolved.md` Part 5); their restricted side is §J.2 (DEC-65 has none).
 
 ## I. Restricted side of the r3 rulings (v0.4)
@@ -661,3 +670,78 @@ Approved look lines of the main and second-circle characters checked against `wo
 | Jaro CH-0019 | deep brown island skin | Shoals islanders | inside |
 | Kes CH-0004, Brenna CH-0018 | ruddy, weathered upland skin | Uplanders | inside |
 | Tsura CH-0013, Esk CH-0040 | deep brown / brown "upland" skin | Ossari | inside; note: "upland skin" in their records means the plateau (usage note in `world.md` §3.5). Esk's Ossari descent through Akko (CH-0078) is not touched by any trait. |
+
+## K. Restricted side of the love lines (r7, v0.7)
+
+Source: `studio/story/sealed/master_mystery.md` §12 (lead screenwriter, r7). Open side: `studio/story/romance_lines.md`, `decisions_resolved.md` Part 6 (DEC-71…76) and the open canon (SEC-046…051, EV-0276…0280, EV-0340…0347, `world.md` §1 and §6, the character records). Helpers receive nothing from this section; no excerpt carries it.
+
+### K.1 L2 - Maren and Hollis after S06E09 (restricted half of SEC-047)
+
+```canon
+id: SEC-047
+type: secret
+canon: approved
+overlay: true
+known_by: [CH-0042@S07E02]
+related: [SEC-011, SEC-011b, SEC-048]
+```
+
+| When | What happens | Why it is fair / what it protects |
+|---|---|---|
+| S06E09 | Zev pulls Hollis out of the fire. Hollis stays dead **to Maren too** - in his own order: he is Odo's killer, and a living treasury secretary beside a candidate costs her the chair; their last words were about the page, and dead he is the one person she can never again ask to cut one; from the Listening House he hears what the Relay hears - he stays to *audit* her. | keeps SEC-011 intact: she mourns in earnest, no scene of hers leaks it |
+| S06E12 | Zev tells him she has put on the ring. | the ring goes on because he is gone |
+| S07E02-E03 | Before the betrothal Zev tells Hollis and asks his leave (Zev knows of the love from here: overlay above). The wedding is held with the bride's lover hidden in the groom's house. | the triangle has no rival in it: one man marries her to keep the other alive (K.2) |
+| S09E05 → S10E04 | He reads the First Raising in the Relay's logs and believes, as she does, that the song drowned the camp. Quire's first sheets are her case argued better than she argues it - the best love letters he ever wrote. | the line "better than she does" gains a private cause; the conviction stays primary |
+| S10E05 | The brass clip in Quire's wax. **Maren recognises it.** Shot rule: her hand stops on the wax, nothing more; no line, no reaction shot. From here she knows Quire is Hollis, alive (SEC-011 knower), tells no one, and gives one order: Quire is not to be hunted "while he is useful". | a fair clue that the Sovereign knows something; does not show *who* the second half is |
+| S10E06 | Her answer: a decree with the phrase *"carried forward"* (SEC-011b hint). | reads as officialese |
+| S10E10 | Quire changes sides. She still does not hunt him. | answered S11E06 |
+| S11E06 | Quire revealed as two: she learns the press and the Relay were her consort's - loses the lover to the other side and the husband as an ally in one scene. | lands on Pell as an answer, on Maren as a wound |
+| S12E11 | **Proposal for the S12 outline - not canon until that outline is approved:** Hollis is the one sent into the Ring - the only person she lets through the door; their first meeting since S06E07; he reads her the account of what is carried forward if she seals. Her choice stays hers alone (the mirror of Neveh's choice, SEC-025); he is the witness. Draft: *"They will write that I was past reason." - "They will. I'll write what happened."* | the commission of the Chronicle; explains how the narrator knows what was said in the Ring |
+
+Marketing: L2 may be shown as a love story through S06E09 and as Maren's grief after it. **Nothing may suggest that it continues.**
+
+### K.2 L3 - the terms of the Helm's marriage (SEC-048)
+
+```canon
+id: SEC-048
+type: secret
+canon: approved
+overlay: true
+truth: The Corvane-Fennick marriage contract of CY 322 holds a reversion clause drafted by Zev as Master of the Hearings - if the marriage is without issue at the Helm's death or deposition, the Relay and its keys return to House Fennick unencumbered - and the two agree on a white marriage, because neither wants a child born into the chair that killed both their fathers; Zev consents also because the consort's house is the one roof in Highwater nobody may search, which keeps Quire's press and Hollis safe.
+related: [CH-0003, SEC-011, SEC-010, EV-0339]
+```
+
+1. **The reversion clause** - public readers take it for a dower formality; it is the right by which the consort opens the Relay to the Great Chorus (S12E12): the consort's key.
+2. **The white marriage** - the Sovereign Years have a consort and no heir by *her own* choice: the crown is built to end with her. The audience understands it only in S12.
+3. **Zev's own reason** - he marries the woman to keep alive the man who loves her (the second cot, S08E03, is under the marriage's roof). He never lies to her in words; he omits - the Chronicler's rule practised by a second person. Maren does not know this reason (her knowledge of the contract: the clause and the white marriage).
+4. **Planted suspect, upgraded** (SEC-010): in S9 the betraying code runs on the *consort's* Relay (he logged it, did not send it).
+5. **S11E06** - she cannot arrest the consort without voiding the contract that gives her the Relay; she confines him to the Listening House, where the Relay's keys are.
+
+### K.3 L4 - two restricted notes
+
+- **What Esk knows.** From S04E09 (Tsura tells him privately) Esk knows that his mother did not breach the weir; he does not know who did - not a knower of SEC-024. He tells Pell once, by kite, in S08E03: *"It was not her."* She takes it for a son's lie. Paid S10E11 (Silt's book) and S11E10 (Tsura's own words). The audience has known since S07E08: pure dramatic irony; **the reveal ladder of SEC-024 is not touched**.
+- **SEC-010 stays reasoned:** the grievance from the warning kite (S08E11) is spoken once (S09E06) and never the reason (SEC-010 prose).
+- **Epilogue (proposal for S12E13, MV 40):** a kite-spar over the door of the tide-post room; Esk need not be on screen. Not canon until the S12 outline.
+
+### K.4 L1 - the price of Jaro's neutrality (S10)
+
+After SEC-001 became public (S6) Ruel's name was struck from the roll of Admirals and the Admiral's lamp on the Gullmouth mole was put out. In S10 the Sovereign restores the name and relights the lamp - that, not money, buys Quell's neutrality; it is the one sale Jaro is ashamed of. In S11E08 he sails against her anyway. Guard for SEC-027 (also in SEC-027 prose): Jaro never handles the ring and never speaks of the pearl; Ruel withholds his left hand only from Longdark 4; nothing in L1 places the ring near a thumbnail-sized stone.
+
+### K.5 Line A and the clip (SEC-050 ↔ SEC-011)
+
+Complete custody: §G. The seal of Quire is the clip of two clerks who forged for the women they loved; only the son stopped.
+
+### K.6 Check against the closed secrets (keeper, v0.7)
+
+| Secret | Touched by | Result |
+|---|---|---|
+| SEC-001 | L1 (the withheld hand), L2 (the one page, S06E07) | one more S1 clue; "public in S6" gains its mechanism; reveal S01E11 unchanged; Jaro knower @S06E08 |
+| SEC-010 | L3 (suspect), L4 (grievance) | motive and reveal S09E11 unchanged |
+| SEC-011 / SEC-011b | L2, L3, line A | answers unchanged; Maren knower @S10E05 (half, shown without a tell); new hint S10E06; S11E06 and S12E13 unchanged |
+| SEC-013, SEC-023 | L1 (alibi; the packet) | cover stories strengthened; reveals S02E11, S02E10 unchanged |
+| SEC-012 | L5 | Elm's exposure S07E07 and death S08E09 unchanged; the cut pages are the means |
+| SEC-016 | Lio's suit and jealousy | reveal S08E06 unchanged |
+| SEC-024 | L4 (what Esk knows) | ladder S07E08 / S10E11 / S11E10 unchanged; Esk not a knower |
+| SEC-025, SEC-026, SEC-027 | none (guards K.1, K.4) | untouched |
+
+Keeper's findings (v0.7): no contradiction between §12 of the master file and the sealed canon. Validator: knowers of the overlays are alive at their episodes (Zev @S07E02, Maren @S10E05).

@@ -16,7 +16,7 @@ colors: [deep blue, silver]
 seat: PL-0030
 lands: [PL-0030, PL-0032, PL-0031, PL-0075]
 heads: [CH-0203@~OS 684, CH-0200@CY 266, CH-0005@CY 290-09, CH-0058@CY 312-11-02, CH-0006@CY 313]
-alliances: [HS-005:friend@CY 312, HS-006:rival@CY 312, HS-007:debtor@CY 312, HS-011:absorbed@~CY 120, HS-011:marriage@CY 120, HS-005:sworn@CY 40, HS-006:enemy@CY 251, HS-007:debtor@CY 308, HS-027:cadet@CY 131]
+alliances: [HS-005:friend@CY 312, HS-006:rival@CY 312, HS-007:debtor@CY 312, HS-011:absorbed@~CY 120, HS-011:marriage@CY 120, HS-005:sworn@CY 40, HS-006:enemy@CY 251, HS-007:debtor@CY 308, HS-027:cadet@CY 131, HS-006:marriage@CY 322]
 secrets: [SEC-001, SEC-023, SEC-003]
 leitmotif: theme on the Sentinel Spire's home tone
 founded: ~OS 400
@@ -74,6 +74,8 @@ Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lor
 | 313 – | Maren (CH-0006) | recognised at her pardon (S3; DEC-31) |
 
 Three Corvane Helms in 312 years — the most of any house; the Lows remember Stellan's reign as "the years the boats came".
+
+**Marriage alliance with Fennick (v0.7, r7):** Helm Maren Corvane marries Lord Zev Fennick in S07E03, CY 322 (EV-0346) - the Helm's War closed on paper; the Relay sworn to the Helm, kept by Fennick; no shared roof; no heir, so the heir-presumptive is the cadet line, Corvane of the Roads (HS-027), S10-S11. Terms: SEC-048. The Quell friendship of CY 305 had a second root - SEC-046.
 
 **Alliances and debts (CY 312).** Sworn friend of Quell since the Pilots' Peace (Quell wrecker money quietly pays part of the Corvane fleet's wages — about 30,000 marks since CY 305, never written down). Enemy of Fennick since CY 251, when Corvane voted against raising "the clerks". Owes Lantry **180,000 marks** on the fleet refit of CY 308 (sight-drafts on that credit are what the bank watched — S1E11).
 

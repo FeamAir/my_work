@@ -6,7 +6,7 @@ Rules:
 - Parents only by ID. If the real parent differs from the official one, the official one goes in `father`/`mother`, the real one in `true_father`/`true_mother`, and `parentage_secret` must point to a secret in `secrets.md`.
 - What the character *knows* is recorded in `secrets.md` (`known_by`), not here.
 - `status_track` records changes of state by episode: `alive`, `dead`, `missing`, `presumed_dead`, `captive`, `revealed` (true identity revealed), `unborn`. Dead → alive is an error unless `may_return: true` and a world rule allows it.
-- Teen characters: write the age band in `look`; no romantic or sexual content with minors (see BRIEF).
+- Teen characters: write the age band in `look`; no romantic or sexual content with minors (see BRIEF). Age gate (v0.7, DEC-71): a romantic beat only in a season in which the character is 18+ by birth year; `python3 tools/validate.py --age Sxx IDS`.
 
 ```canon-template
 id: CH-NNNN
@@ -27,9 +27,10 @@ true_father:       # CH-… (only if secret)
 true_mother:       # CH-… (only if secret)
 parentage_secret:  # SEC-…
 adoptive_parents: []
-relations: []      # [CH-…:kind] kind: spouse, betrothed, sibling, rival, mentor, sworn_sword, friend, enemy, lover(adults only), ward ...
+relations: []      # [CH-…:kind] kind: spouse, sibling, rival, mentor, sworn_sword, friend, enemy, ward ...; romantic kinds need a moment and 18+ (DEC-71): lover@CY 305, betrothed@S07E02, suitor@S06E05, beloved@CY 308, beloved_of@CY 313, partner@S07E12
 secrets: []        # SEC-… about this character
 status_track: []   # [S01E01:alive, S03E09:dead]
+romance:           # never - this character is never romantic at any age (DEC-71; checked)
 may_return:        # true only if world rules allow return from death
 first_episode:     # SxxEyy
 ```

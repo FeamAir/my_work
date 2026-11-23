@@ -35,6 +35,9 @@ mother: CH-0222
 ## Biography
 Lady of Ilvane, Aurin's wife, Ione's official mother; her own daughter Ilse died CY 294 (CH-0068). Murdered by the Choir (S06E12).
 
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **Line C "The Other Thing"** with Aurin Ilvane (relation in CH-0020, `spouse`): no new fact, only the reading of existing ones. A cloister marriage ("keep the blood true"), twenty years of courtesy; it becomes a marriage only after Ione's death, when Aurin gives her the Gleaner rolls (S5); she publishes and is murdered (S06E12). S01E03: Aurin in the doorway at the rinse, not coming in.
+
 ## Arc by season (foundation)
 
 | Season | Where (PL-…) | What they do | State at season end |

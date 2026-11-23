@@ -16,10 +16,11 @@ born: ~CY 298
 father: CH-0010
 status_track: [S01E02:alive]
 first_episode: S01E02
+secrets: [SEC-046, SEC-048]
 ```
 
 ## Look (story-level, must never change)
-- Age band: 14 at S1 (teen: no romance).
+- Age band: 14 at S1 (teen: no romance; v0.7, DEC-71: romance allowed from S5; married at 24 in S7, line L3 - relation in CH-0006).
 
 ## Voice
 - Will not touch the Relay keys.
@@ -29,6 +30,10 @@ first_episode: S01E02
 
 ## Biography
 Odo's son; inherits a broken house (POV from S6). The last man seen entering the burning Counting House (S06E09). After S06E09: sealed. Survives.
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L3 "The Paper Marriage"** with Helm Maren Corvane: betrothal S07E02, marriage S07E03 (EV-0346), relation in CH-0006; a marriage of state, honest about what it is; they do not share a roof; no heir. As Master of the Hearings he rules against his wife's convenience (Kilbride suit, S07E04-E05). The terms: SEC-048.
+- **The packet (SEC-046):** inherits Ruel's letters to Jaro with the Listening House (S05E12) and sends them back unopened (S06E02) - his first act as Lord Fennick; Jaro's debt is paid at the wedding.
 
 ## Arc by season (foundation)
 

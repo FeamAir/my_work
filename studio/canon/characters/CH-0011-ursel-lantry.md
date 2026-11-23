@@ -15,8 +15,8 @@ class: merchant
 role: antagonist
 born: CY 250-09
 died: CY 321
-relations: [CH-0017:co-conspirator, CH-0055:spy, CH-0061:grandson, CH-0025:murderer_of, CH-0052:client, CH-0262:spouse]
-secrets: [SEC-006, SEC-007, SEC-013, SEC-015]
+relations: [CH-0017:co-conspirator, CH-0055:spy, CH-0061:grandson, CH-0025:murderer_of, CH-0025:lover@CY 291, CH-0052:client, CH-0262:spouse]
+secrets: [SEC-006, SEC-007, SEC-013, SEC-015, SEC-050]
 status_track: [S01E01:alive, S06E10:dead]
 first_episode: S01E01
 ```
@@ -34,6 +34,9 @@ first_episode: S01E01
 
 ## Biography
 Head of the Lantry Counting House; raised Hollis. Dies when the bank falls (S06E10; POV in S6).
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **Line A "A Beautiful Hand"** with Teodor Kett (CH-0025), CY 291-296 (EV-0276); SEC-050. He forged the Dry Charter because she asked; she chose the bank. She raised his son and has been kind to him every day since - never a mask. She has carried his brass clip in her sleeve for sixteen years and gives it to Hollis in S01E01. S01E11 *"His father had a beautiful hand."* - her fingers go to the empty sleeve. The heart of her POV season (S6; reveal S06E08).
 
 ## Arc by season (foundation)
 

@@ -15,8 +15,8 @@ role: protagonist
 born: CY 293-06
 died: ~SY 3
 father: CH-0005
-relations: [CH-0044:midshipwoman, CH-0019:ally, CH-0010:enemy, CH-0058:betrayed_by, CH-0007:cap_thief]
-secrets: [SEC-001, SEC-023]
+relations: [CH-0044:midshipwoman, CH-0019:ally, CH-0010:enemy, CH-0058:betrayed_by, CH-0007:cap_thief, CH-0042:betrothed@S07E02, CH-0042:spouse@S07E03]
+secrets: [SEC-001, SEC-023, SEC-046, SEC-047, SEC-048]
 status_track: [S01E01:alive, S12E11:dead]
 first_episode: S01E01
 mother: CH-0202
@@ -38,6 +38,13 @@ mother: CH-0202
 
 ## Biography
 Ruel's daughter and heir, junior naval officer. Refuses to kneel to Helm Odo (S01E12); loses the Sluice Gates (EV-0308); exile, pardon (S3), election as Helm (S06E12), Sovereign (S09E12). The saga's tragic pole. Dies S12E11. Writers' briefs stop at S8; later turns are in the sealed part of the canon.
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L2 "The Clerk and the Admiral"** with Hollis Kett - relation in CH-0003 (`lover@S04E12`); SEC-047. S1: seeds only (E7 the sum, E11 the page) - no romantic beat. S2 ledger-letters; S2E11 the first letter with no columns; S3 the purser and the Whitlow captains (her mother's kin); S4E12 the kiss and the order (EV-0345); S6E7 she asks him to cut one page and he will not; S6E9 the fire; S6E12 the ring goes on. After S6E9: restricted.
+- **L3 "The Paper Marriage"** with Zev Fennick: betrothal S07E02, marriage S07E03 (EV-0346); a marriage of state, never a love; no heir; terms SEC-048.
+- Learns SEC-046 (her father and Jaro) at S02E10 from Ysa; Jaro becomes the nearest thing to family she has left (he shelters her in exile, S2E12).
+- S8E11 Pell's warning kite gives her a personal grievance ("the singer chose the besiegers once already") - spoken once in S9 and never the reason (line L4).
+- Age gate: 20 at the first romantic beat (S2); nothing romantic in S1.
 
 ## Arc by season (foundation)
 

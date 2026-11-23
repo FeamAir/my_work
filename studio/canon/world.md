@@ -1,6 +1,6 @@
 # World
 
-Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; transfer by lore-keeper)
+Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; v0.7: love lines r7, DEC-71…76, Part 6 - §1 love rule, §6 objects, §7.4 and §8.2 the walker's bond; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -11,6 +11,8 @@ Holds: laws of the world, magic / technology and their limits, society, calendar
 ## 1. Premise
 
 **HOLLOWSTONE.** (Saga title since r3; *The Low Note* is Act II and Season 12 - and, in-world, the low part of the song.) The Concord of Tessary is a great river delta and barrier archipelago at the mouth of the Aun, most of it below sea level. It stays dry only because of nine colossal towers of black singing stone - the Spires - publicly believed to be the work of a vanished race (the Builders). When a trained Cantor sings into a Spire, the stone answers and the sea obeys. Whoever holds a Spire decides which districts stay dry. The Helm is elected for life by a Conclave of eight votes; money is paper printed by a bank against deeds to dry land; the poor live below the waterline, pay a dry-tithe and are forbidden by law to sing. The Spires have been slowly detuning for three centuries. Low fantasy with one law of wonder: no dragons, prophecies, chosen ones or levels. Rating TV 16+.
+
+**Love (v0.7, DEC-71…72; design `studio/story/romance_lines.md`):** love in this saga is adult - a romantic beat only in a season in which both characters are 18+ by birth year, never dated back to childhood; TV 16+ (feeling, a kiss, an embrace, a closed door; no nudity, no bed scenes); it is carried by objects and hands. A love beat stays only if it causes a decision - a vote, a silence, a betrayal, a document. Nobody is shamed for whom they love; liaisons are hidden for votes, seals, clans, vows and debts. The official Chronicle has no entry for love: it states the fact, never the cause. Never romantic at any age: `romance: never` in the character record (Wick, Tibb, Mags, Patch, Daro Vey, Sindre Rusk, Ylva Dask); Jaro and Lio - patronage only; Kes and Esk - guardian and ward.
 
 ## 2. World rules
 
@@ -1028,13 +1030,17 @@ Exact owners by episode. The objects' origins before the saga, where restricted,
 |---|---|---|
 | **Pell's echo-shard** | cracked black stone no bigger than a thumbnail, on a cord | found by Pell in the back-canal (PL-0020) S01E01 → hidden in Nan's net-chest S01E03 → Pell → Ione S04E08 → Pell S04E11 → Pell to the end (cracks further S09E05) |
 | **Ruel's black pearl ring** ("the Admiral's Pearl") | black pearl, hinged and hollow, on Ruel's **left** hand | Ruel to S01E09 (on his hand at the wake) → Maren takes it at the wake and hides it S01E11 → hidden S2-S6 (Ysa knows she has it, S02E10) → worn openly by Maren from S06E12 → coronation S09E12 → Maren to S12E11 |
-| **Hollis's brass ledger-clip** | brass clerk's clip | Ursel → Hollis S01E01 → Hollis (on every copy S2-S4) → found melted in the fire S06E09 → (S06E10 → S10E05: `sealed/`, DEC-48) → seen again S10E05 (Quire's seal), S11E06, S12E13 |
+| **Hollis's brass ledger-clip** | brass clerk's clip | *(v0.7, SEC-050)* **Teodor Kett** → Ursel Lantry (CY 296; kept in her sleeve sixteen years) → Hollis S01E01 → Hollis (on every copy S2-S4) → found melted in the fire S06E09 → (S06E10 → S10E05: `sealed/`, DEC-48) → seen again S10E05 (Quire's seal), S11E06, S12E13 |
 | **Ione's tuning fork** | silver tuning-fork pendant | Ione S01E01 → Pell S04E12 → struck on a tide-post S05E01 → gives the Great Chorus its pitch S12E12 |
 | **Nan's spiral-shell earring** | single spiral-shell earring, left ("it had a mate") | Nan S01E02 → Pell wears it from S02E08 (left ear) |
 | **Wick's cap** | Maren's Corvane cadet cap | stolen by Wick S01E02 → worn on watch (S2, S5) → Maren finds it on his body at the Ninth Bridge S09E10 |
 | **Corr's sawn pump-pin** | clean-sawn treadmill axle-pin | pocketed by Corr S01E10 → on Dorran's desk S05E08 |
 | **Silt's book of sold men** | ledger | Mother Silt (from S04E10) → Tibb S09E05 → source of Pell's knowledge S10E11 |
 | **Lucan's sealed chest** | a sealed chest: Lucan's will **and** the unsigned Tithe Map with Ursel's marginal hand and the Inchley draft marks (SEC-037) (DEC-49) | withheld by Garrick S01E12 ("everything but one sealed chest") → opened S02E06 |
+| **The second stern lamp of the *Patient Gull*** (v0.7) | a second lamp at the stern gallery of Ruel's flagship. Signal: one lamp - the Admiral is aboard; two - come (SEC-046) | hung by a steward S01E04 → lit S01E08 as the procession sets out (nobody comes) → put out by Jaro at the wake S01E09 → (saga_arc motif: S2E12 Jaro lights one lamp for Maren; S11E8 "two stern lamps going down at Lirenne" is a proposal for the S11 outline, not canon) |
+| **The packet in tarred twine** (v0.7) | Jaro's letters to Ruel, unsigned but naming the wrecker silver, and Ruel's unsent note of Longdark 5 (EV-0280), tied in tarred twine, kept in the cabin locker of the *Patient Gull* (SEC-046) | Ruel → Ysa takes it from the locker S01E09 (EV-0341; first reading: evidence of the poison) → shown to Maren S02E10 → Odo S02E11, Ysa's pledge for Gullmouth (EV-0342) → the Listening House S2-S5 → Zev S05E12 (EV-0343) → returned **unopened** to Jaro S06E02 (EV-0344) → Jaro reads the Longdark 5 note S06E08 |
+| **Ione's journal** (v0.7) | Ione's own journal from Pale Crag (SEC-049) | Ione → Brother Elm, who carries it out past the wardens (S3) and keeps it → after her death Elm cuts out the pages that name him (S05E06) → Cressa (S05E06), who publishes it with the Gleaner rolls and Silt's ledger (EV-0318) |
+| **The cut pages of Ione's journal** (v0.7) | the pages that name Elm, in Ione's hand (SEC-049) | Elm, kept in his cell (S05E06) → found by Daro Vey (S07E07) → the Choir, the proof at his trial (S08E09) |
 | **The Breaking spears** ("the Ilvane spearheads") | white-bronze leaf-shaped spearheads stamped with the open hand of Ilvane; a rack kept as relics in the Pale Crag crypt. Public reading: "the spears that ended the mad Queen's guard" (DEC-12) | the Pale Crag crypt (PL-0040); first seen S02E05, again S03E06 |
 
 ## 7. Power and money (v0.3; approved v0.4)
@@ -1300,6 +1306,7 @@ The reading names the tiers in order, sluice by sluice; the Let Go tier is read 
 | a barrel of powder (50 kg) | ~30 marks in Highwater | | Gleaner (ear-money) | 3 marks a head + 10 if the child takes the ear |
 | saltpeter | 1 mark / 10 kg at the Rim, 4 at the Arsenal | | free-company sword | 3 marks a month in notes |
 | at a Lows fence (v0.5, R-12): a small unlicensed echo-shard | ~6 coppers | | a morning's buttons | ~4 coppers |
+| buying out a walker's bond (v0.7, keeper's figure for SEC-051) | the holder's price for the remaining debt-paper: **~80 marks** for a six-year walker like Sibby Roan (the face of the debt is higher; interest outruns the wheel) | | a leak sold by a relay-keeper (Tithe Map news, CY 312) | **40 marks** a sale (EV-0262: one sale = half a bond) |
 
 **Arrears of the dry-tithe (v0.5, R-10):** the collector may take arrears **in goods** (nets, pots, tools) at his own valuation; the household keeps its place on the map. S01E01: two months owed (6 coppers at Last Song).
 
@@ -1487,7 +1494,7 @@ Status: **approved** by the lead screenwriter in r3 (writer-characters, `studio/
 - **Dry-notes** — Lantry paper "promise of dry ground", in ones, fives and tens ("a one-dry", "a fiver", "a tenner"). The Lows take them at a discount and call notes backed by low land **"wet notes"** (proposal: you can see it in the serial — every note names the deed-district; Lows people check it before accepting).
 - **The dry-tithe** — paid per household, per month, to the house of the nearest Spire (the Ninth pays Fennick); the tithe-collector's box is chained to his wrist.
 - **Dry-pledges** — the Undertow's protection racket: pay and your lane gets sandbags first in a flood; don't, and your sandbags go missing.
-- **Debts** — the Lows run on debt-paper. A debt can be **"walked"** (on a treadmill), **"sold"** (to an under-boss), or **"drowned on paper"** (Widow Pruitt's trick: you are entered as drowned in the flood-roll and start again under another name — see S2E3, S6E9).
+- **Debts** — the Lows run on debt-paper. A debt can be **"walked"** (on a treadmill; *v0.7:* a mark off the debt a walk while the interest runs faster, so a walker is freed only when someone **buys out the bond** - the holder's price for the remaining paper, ~80 marks for a six-year walker, §7.4; Bede Lark and Sibby Roan, SEC-051), **"sold"** (to an under-boss), or **"drowned on paper"** (Widow Pruitt's trick: you are entered as drowned in the flood-roll and start again under another name — see S2E3, S6E9).
 - **Salt** — small change of the poor and the Lady's offering; a pinch of salt settles a bet.
 
 

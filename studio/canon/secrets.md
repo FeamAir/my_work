@@ -1,6 +1,6 @@
 # Secrets registry
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; transfer by lore-keeper)
+Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; v0.7: SEC-046…051 and the additions to SEC-001, 006, 012, 013, 016, 023, 031 from the love lines, r7, DEC-73; transfer by lore-keeper)
 
 **Full spoilers - never use in public material before the reveal episode.**
 
@@ -90,6 +90,12 @@ Below each block: **Clues** (episode - what is shown). Full clue tables and red 
 | SEC-043 | Ferro's bindings | episode | S05E03 | S05E10 | sealed | here |
 | SEC-044 | Ottar's tongue | episode | S01E04 | S03E05 | sealed | here |
 | SEC-045 | One copper | episode | S01E02 | S02E09 | sealed | here |
+| SEC-046 | The second lamp | season | S01E01 | S01E09 | sealed | here |
+| SEC-047 | The purser | saga | S01E07 | TODO(DEC-77) (S3) | sealed | here (+ overlay in `sealed/`) |
+| SEC-048 | The paper marriage | season | S07E03 | S12E12 | sealed | here (+ overlay in `sealed/`) |
+| SEC-049 | The cut pages | season | S05E06 | S07E07 | sealed | here |
+| SEC-050 | A beautiful hand | season | S01E01 | S06E08 | sealed | here |
+| SEC-051 | Twice | episode | S01E07 | S02E06 | sealed | here |
 
 SEC-032 was never issued (DEC-49: Lucan's sealed chest is already an approved fact).
 
@@ -111,6 +117,8 @@ Answers are in `sealed/sealed.md` (readers: lead-screenwriter, lore-keeper, stud
 | SEC-026 | never in marketing, openings or previews before S10E10; nothing about Vesna's life before the Choir |
 | SEC-027 | Ruel's ring and Pell's shard never share a frame before S12E11 (director and artist excerpt: `excerpts/for_director_and_artist.md`, v0.4) |
 
+Open secrets with a restricted half (v0.7, r7): **SEC-047** - the open record stops at S06E09; marketing may show the line as a love story through S06E09 and as Maren's grief after it. **SEC-048** - the open record names only the public terms. The rest of both: `sealed/` §K.
+
 ---
 
 ## Records
@@ -126,14 +134,14 @@ tier: season
 truth: Ruel Corvane poisoned Helm Lucan Dask through a needle in his hollow black-pearl ring (poison bought from Sister Marl) to stop the Tithe Map that would let Ninth Sluice flood.
 cover_story: Natural death; later 'Fennick did it'.
 status: sealed
-known_by: [CH-0005@origin, CH-0050@origin, CH-0058@origin, CH-0003@S01E11, CH-0006@S01E11]
+known_by: [CH-0005@origin, CH-0050@origin, CH-0058@origin, CH-0003@S01E11, CH-0006@S01E11, CH-0019@S06E08]
 hints: [S01E01, S01E04, S01E06, S01E07, S01E09]
 reveal: S01E11
 public_on_reveal: false
-related: [CH-0005, CH-0016, CH-0050, CH-0063, EV-0262, EV-0263, EV-0300]
+related: [CH-0005, CH-0016, CH-0050, CH-0063, EV-0262, EV-0263, EV-0300, SEC-046]
 ```
 
-Clues: S01E01 left-handed clasp, blood on the knuckle, "I don't drink before a storm" · S01E04 the hinged pearl · S01E06 "by the skin, not the mouth"; Juno lived · S01E07 Ruel burns one page; Marl dead with a Corvane mark · S01E09 "Forgive what I did for them." · S01E11 proof by chain (sight-draft EV-0263 + Marl + Ambry + Juno + Ione's sign for *hinge*). Becomes public in S6. Red herrings: the death-tone "too fast"; Garrick inherits.
+Clues: S01E01 left-handed clasp, blood on the knuckle, "I don't drink before a storm" · S01E04 the hinged pearl; *(r7)* on the *Patient Gull* Ruel gives Jaro his right hand and keeps the ringed left behind his back · S01E06 "by the skin, not the mouth"; Juno lived · S01E07 Ruel burns one page; Marl dead with a Corvane mark · S01E09 "Forgive what I did for them." · S01E11 proof by chain (sight-draft EV-0263 + Marl + Ambry + Juno + Ione's sign for *hinge*). Becomes public in S6 *(r7: through the Account Nine file - the bank filed every Corvane draft, so publishing the bank publishes Ruel's sight-draft (EV-0263); on the eve of S06E07 Maren asks Hollis to cut that one page and he will not; SEC-047)*; Jaro learns it then and reads Ruel's unsent note of Longdark 5 (S06E08, EV-0280; SEC-046). Ruel told his sister (Longdark 5) and not his lover. Red herrings: the death-tone "too fast"; Garrick inherits.
 
 ### SEC-002 - The lullaby
 
@@ -234,10 +242,10 @@ known_by: [CH-0011@origin, CH-0003@S06E08]
 hints: [S01E04, S01E11, S02E03, S04E06, S05E08]
 reveal: S06E08
 public_on_reveal: false
-related: [CH-0003, CH-0011, CH-0025, EV-0203, EV-0204]
+related: [CH-0003, CH-0011, CH-0025, EV-0203, EV-0204, EV-0276, SEC-050]
 ```
 
-Clues: S01E04 "T. Kett" on the charter · S01E11 "His father had a beautiful hand." · S02E03 Pruitt: drowned "on a night without rain, in a canal knee-deep" · S04E06 Hollis's forgery mistaken for an old document - "the same hand" · S05E08 Silt sells Hollis the boatman who saw it.
+Clues: S01E04 "T. Kett" on the charter · S01E11 "His father had a beautiful hand." · S02E03 Pruitt: drowned "on a night without rain, in a canal knee-deep" · S04E06 Hollis's forgery mistaken for an old document - "the same hand" · S05E08 Silt sells Hollis the boatman who saw it. *(r7)* Why he forged and why she raised the boy: SEC-050 (they were lovers, CY 291-296; he forged because she asked; her kindness to Hollis was never a mask). The S04E06 "second document in his father's hand" that Hollis puts away unread is a letter that begins *"U. -"*.
 
 ### SEC-007 - Account Nine
 
@@ -315,10 +323,10 @@ known_by: [CH-0012@origin, CH-0056@origin, CH-0022@origin, CH-0045@S07E07, CH-00
 hints: [S01E02, S02E09, S03E07, S04E04, S04E08, S07E07]
 reveal: S08E08
 public_on_reveal: false
-related: [CH-0012, CH-0022, CH-0023, EV-0205, EV-0261]
+related: [CH-0012, CH-0022, CH-0023, EV-0205, EV-0261, SEC-049]
 ```
 
-Clues: S01E02 Liss "drowned in a dry year"; Nan asks only *where* the shard was found and lays salt and a shell there · S02E09 Vesna signs an order while Elm says "a blessing for the sick" · S03E07 ledger "mother - silenced, CY 305" · S04E04 Nan's sketch of Liss with a small dark stone at her throat · S04E08 Elm signs a spiral to Pell · S07E07 Daro catches Elm mistranslating (he knows only the Voice part from here).
+Clues: S01E02 Liss "drowned in a dry year"; Nan asks only *where* the shard was found and lays salt and a shell there · S02E09 Vesna signs an order while Elm says "a blessing for the sick" · S03E07 ledger "mother - silenced, CY 305" · S04E04 Nan's sketch of Liss with a small dark stone at her throat · S04E08 Elm signs a spiral to Pell · S07E07 Daro catches Elm mistranslating (he knows only the Voice part from here) *(r7: and finds in his cell the pages cut from Ione's journal, SEC-049 - the Choir's proof against him)*. *(r7)* Elm's place in the Choir depends on this silence - the reason he does not tell Ione what he understands at S02E10 (line L5).
 
 ### SEC-013 - Who killed Ruel
 
@@ -335,10 +343,10 @@ known_by: [CH-0011@S01E04, CH-0017@S01E04, CH-0059@S01E08, CH-0055@S02E07, CH-00
 hints: [S01E04, S01E08, S01E09, S02E02, S02E06, S02E07]
 reveal: S02E11
 public_on_reveal: false
-related: [CH-0005, CH-0011, CH-0017, CH-0059, HS-095, EV-0302]
+related: [CH-0005, CH-0011, CH-0017, CH-0059, HS-095, EV-0302, SEC-046]
 ```
 
-Clues: S01E04 Garrick leaves Ursel's office by the back stair · S01E08 the Quell token (herring) · S01E09 Polder clay on the assassin's boots · S02E02 Rook Danner paid in Lantry notes · S02E06 Lucan Dask's sealed chest: his will and the unsigned Tithe Map, suppressed by Garrick (DEC-49) · S02E07 Fossett's private ledger. Proof in S2 needs two paper trails added together: Danner's notes and the steward's purse (DEC-36).
+Clues: S01E04 Garrick leaves Ursel's office by the back stair · S01E08 the Quell token (herring) · S01E09 Polder clay on the assassin's boots; *(r7)* Jaro, asked where he was on the night of Still 1: *"On a deck. Waiting on the weather."* · S02E02 Rook Danner paid in Lantry notes · S02E06 Lucan Dask's sealed chest: his will and the unsigned Tithe Map, suppressed by Garrick (DEC-49) · S02E07 Fossett's private ledger. Proof in S2 needs two paper trails added together: Danner's notes and the steward's purse (DEC-36). *(r7)* The Quell frame holds for a season because Jaro's alibi cannot be spoken: he was waiting on the *Patient Gull* under the second lamp (SEC-046). The audience knows it from S01E08-E09; the Ring does not.
 
 ### SEC-015 - The skipped song
 
@@ -378,7 +386,7 @@ public_on_reveal: true
 related: [CH-0043, CH-0061, HS-005, HS-008, EV-0327]
 ```
 
-Clues: S06E03 Lio draws the spiral counter-clockwise (Ashare spirals turn sunwise) · S06E05 Piers sells "Lirenne bonds" the day after Lio's first speech · S06E10 his pearl is a Quell trade pearl - Ferro: "A Keeper's pearl is black, and hollow." · S07E05 Jaro's laugh.
+Clues: S06E03 Lio draws the spiral counter-clockwise (Ashare spirals turn sunwise) · S06E05 Piers sells "Lirenne bonds" the day after Lio's first speech; *(r7)* S06E05-E06 the brokers script a betrothal, "the Pearl and the Singer", to bring the Hum under the bonds - Lio means it, Pell refuses him in public (deepens the split of the Lows' vote) · S06E10 his pearl is a Quell trade pearl - Ferro: "A Keeper's pearl is black, and hollow." · S07E05 Jaro's laugh. *(r7)* S08E04-E06: Lio's brokers sell the Pell-Esk kite-code to the Dry Palace watch; dying (S08E06) Lio tells Pell what he sold. Who exposes the Pretender in public at S08E06 is open for the S8 outline (lead's question, `romance_lines.md` §8).
 
 ### SEC-017 - Tibb (split, DEC-47)
 
@@ -494,10 +502,10 @@ known_by: [CH-0058@origin, CH-0006@S02E10]
 hints: [S01E07, S01E09, S01E11, S02E04]
 reveal: S02E10
 public_on_reveal: false
-related: [CH-0058, CH-0050, EV-0301, EV-0308]
+related: [CH-0058, CH-0050, EV-0301, EV-0308, EV-0341, SEC-046]
 ```
 
-Clues: S01E07 Corvane coin in Marl's fist · S01E09 Ysa arrives a day before the Relay could have called her · S01E11 her unspoken "condition": Ysa confirms - and keeps the seal (DEC-03) · S02E04 her boatswain pays for a Choir funeral · S02E10 "I have been burying your father for a year."
+Clues: S01E07 Corvane coin in Marl's fist · S01E09 Ysa arrives a day before the Relay could have called her; *(r7)* she empties the cabin locker - a packet in tarred twine goes into her sleeve (double reading: first as evidence of the poison, truly SEC-046) · S01E11 her unspoken "condition": Ysa confirms - and keeps the seal (DEC-03) · S02E04 her boatswain pays for a Choir funeral · S02E10 "I have been burying your father for a year." *(r7: she lays down two things - the boatswain's discharge and the packet: "There were two things to bury.")*
 
 ### SEC-028 - The broken pumps
 
@@ -580,10 +588,10 @@ known_by: [CH-0019@origin, CH-0005@origin, CH-0006@S02E09]
 hints: [S01E04]
 reveal: S02E09
 public_on_reveal: false
-related: [CH-0019, CH-0005, CH-0006, HS-005, HS-020, HS-001]
+related: [CH-0019, CH-0005, CH-0006, HS-005, HS-020, HS-001, EV-0277, SEC-046]
 ```
 
-Source: writer-characters SEC-031 + writer-houses HS-001/HS-005 (same fact).
+Source: writer-characters SEC-031 + writer-houses HS-001/HS-005 (same fact). *(r7)* The silver begins the year the liaison does (CY 305, EV-0277): the money was always the shadow of the love, and both hide behind the same sentence, "an old friendship of sailors" (SEC-046). At S02E09 Maren thinks she has understood the friendship; she learns the rest at S02E10.
 
 ### SEC-033 - The Lows-born hunter
 
@@ -844,6 +852,134 @@ related: [CH-0049, CH-0074, CH-0053, CH-0001]
 ```
 
 Source: writer-characters (minor). Pell learns it in S2E9, the episode after Nan's death (DEC-45).
+
+## New secrets v0.7 - the love lines (r7, approved)
+
+Source: `studio/story/romance_lines.md` §7 (lead screenwriter, r7; approved DEC-73). Numbers SEC-046…051 proposed by the lead are **confirmed** by the keeper (no clash; SEC-032 stays unissued). Restricted halves (SEC-047 after S06E09, the terms of SEC-048, the price of S10 in SEC-046) are in `sealed/sealed.md` §K only. Age gate (DEC-71): every pair below is 18+ by birth year at the moment of its relation (validator check).
+
+### SEC-046 - The second lamp
+
+```canon
+id: SEC-046
+type: secret
+canon: approved
+title: The second lamp
+tier: season
+truth: Ruel Corvane and Jaro Quell were lovers from CY 305 until Ruel's death; the Quell wrecker silver (SEC-031) followed the love; the signal was a second stern lamp on the Patient Gull (one lamp - the Admiral is aboard; two - come).
+cover_story: An old friendship of sailors.
+status: sealed
+known_by: [CH-0005@origin, CH-0019@origin, CH-0058@origin, CH-0006@S02E10, CH-0010@S02E11, CH-0042@S05E12]
+hints: [S01E01, S01E04, S01E06, S01E08]
+reveal: S01E09
+public_on_reveal: false
+related: [CH-0005, CH-0019, CH-0058, CH-0006, CH-0010, CH-0042, EV-0277, EV-0280, EV-0341, EV-0342, SEC-031, SEC-013, SEC-023]
+```
+
+Why hidden: a Captain-Lord can be deposed by three clans of five at any Hull Moot, and clan silver spent on a lover's fleet is a deposing matter; a candidate for Helm whose swing vote shares his cabin hands his rival a challenge. No letters signed, no shared roof. Hidden for votes, never for shame (`romance_lines.md` §0.6).
+Clues: S01E01 *(director's decision r7, background seed)* Sc 12 - when the hall runs to the dying Helm, one figure in the sea-green Quell block stands still and looks at Ruel (from behind, no name, no line, no reference sheet) · S01E04 the second stern lamp is hung; *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."*; Ruel gives the right hand, keeps the ringed left behind his back; Ione sees two lamps from the quay · S01E06 the corridor: *"You were very good in there. Very ready." - "A storm is coming. Be ready too."* · S01E08 two lamps lit as the procession sets out, a man in a green sash waiting at the rail, back to us · **S01E09 reveal (audience only)**: Ysa bars Jaro (*"House only tonight, Captain-Lord."*), takes the packet in tarred twine; at the wake Jaro, let in last and alone, puts out the second lamp and takes the dead man's right hand; Chronicler: *"The Captain-Lord of the Shoals paid his respects last."* (the record states the fact, never the cause). Echoes: S01E12 Jaro's vote, *"Calm is bought. This one was paid for."*; Quell hulls astern of the fleet.
+After S1 (consequences): S02E10 Ysa lays the packet before Maren - *"There were two things to bury."* · S02E11 Ysa gives the packet to Odo as her pledge for Gullmouth: from now on the Listener can unseat Jaro at any moot (cause of "trades with both sides", S3-S5) · S05E12 Zev inherits it and S06E02 sends it back **unopened** - Zev is listed as a knower at the lead's instruction: he knows *that* the packet is the Captain-Lord's letters and what hold it gives, not what they say · S06E08 Jaro finds Ruel's unsent note of Longdark 5 in it (EV-0280) · S07E03 Jaro witnesses the Helm's wedding and does not object (his debt to Zev) · S09E05 the break · S10 the price of his neutrality: `sealed/` §K · S11E08 dies. Objects: the second lamp and the packet - `world.md` §6.
+
+### SEC-047 - The purser
+
+```canon
+id: SEC-047
+type: secret
+canon: approved
+title: The purser
+tier: saga
+truth: Maren Corvane and Hollis Kett love each other from S2 and are lovers from S04E12; she trusts his columns before she trusts him, and each time she must choose between him and the name she chooses the name.
+cover_story: The Admiral's purser; later Odo's treasury secretary.
+status: sealed
+known_by: [CH-0003@S02E11, CH-0006@S02E11, CH-0044@TODO(DEC-77), CH-0019@TODO(DEC-77)]
+hints: [S01E07, S01E11, S02E11]
+reveal: TODO(DEC-77)
+public_on_reveal: false
+min_seasons_hidden: 1
+related: [CH-0003, CH-0006, CH-0044, CH-0019, EV-0345, SEC-001, SEC-010]
+```
+
+Why hidden: the heir (later head) of Corvane and a charity clerk of the bank, then a fugitive, then her spy in the enemy's treasury - each of his positions is one in which a known tie to her would kill him. Never public before S06E09.
+Clues and beats: S01E07 seed (not a romantic beat): she checks his sum and finds nothing to correct - *"You could sell this to Fennick for a house on the Steps." - "I would have to keep the house dry."* · S01E11 seed: he gives her the page - *"You could have burned it." - "Twice, by now."* · S2 the proofs travel by Undertow boat as ledger entries; the entries grow a second column that is not accounts · S02E11 his letter with the names of her father's killers - the first letter with no columns (both knowers from here) · **S3 (audience, episode: DEC-77)** purser of Corvane; he proves the powder fraud on the Whitlow flag-captains, her mother's kin, and she breaks them on a clerk's word; the fleet learns the purser has the Admiral's ear and Nell Tern learns why · S4 Jaro learns (episode: DEC-77) · S04E12 the first kiss and, in the same scene, the order to go into Odo's treasury (EV-0345) · S5 they meet rarely and badly; S05E11 he kills Odo; S05E12 *"I never asked you." - "No. You never do."* · S06E07 she asks him to cut one page (the sight-draft) and he will not - SEC-001 becomes public by the hand of the man who loves her · S06E09 the fire; their last words were a quarrel · S06E12 she puts on her father's ring. **After S06E09: `sealed/` §K only.** Marketing: the line may be shown as a love story through S06E09 and as Maren's grief after it.
+
+### SEC-048 - The paper marriage
+
+```canon
+id: SEC-048
+type: secret
+canon: approved
+title: The paper marriage
+tier: season
+truth: The Corvane-Fennick marriage contract of CY 322 between Helm Maren Corvane and Lord Zev Fennick has terms beyond the public ones.
+cover_story: A marriage of peace that closes the Helm's War on paper.
+status: sealed
+known_by: [CH-0006@S07E03, CH-0042@S07E03]
+hints: [S07E03, S09E12, S11E06]
+reveal: S12E12
+public_on_reveal: false
+related: [CH-0006, CH-0042, HS-001, HS-006, EV-0346]
+```
+
+Public terms: Corvane and Fennick, enemies since CY 251, close the Helm's War on paper; the **Relay** is sworn to the Helm for her wars and stays in Fennick's keeping; the consort keeps the Listening House and the Hearings; they do not share a roof. Both are honest with each other about what this is - two people who each lost a father to the chair. Betrothal S07E02, marriage S07E03 in the Ring, without a song; Jaro stands witness for the bride. Consequences on screen: the Relay obeys the Helm through the war (the reason "the Relay in the Sovereign's hands", S11); S07E04-E05 the consort, as Master of the Hearings, rules against his wife's convenience in the Kilbride suit; S09E12 the Sovereign has a consort and **no heir** - the regime's open flaw through S10-S12; the heir-presumptive is the cadet line, Corvane of the Roads (HS-027); S12 the consort opens the Relay to the Great Chorus. The marriage is never a love; it ends with her death (S12E11); Zev survives. The terms: `sealed/` §K.
+
+### SEC-049 - The cut pages
+
+```canon
+id: SEC-049
+type: secret
+canon: approved
+title: The cut pages
+tier: season
+truth: Before Ione's journal reached Cressa for publication, Brother Elm cut out the pages that name him and kept them, unable to burn her handwriting.
+cover_story: The published journal is complete.
+status: sealed
+known_by: [CH-0022@S05E06, CH-0045@S07E07]
+hints: [S05E06]
+reveal: S07E07
+public_on_reveal: false
+related: [CH-0022, CH-0002, CH-0021, CH-0045, EV-0318, EV-0328, SEC-012]
+```
+
+Line L5 (Elm and Ione): S01E11 seed - the first sign he teaches her is her own name, and the Voice does not speak aloud once · S2 sign lessons (she is 19); a language with words only the two of them use · S02E10 she hums two notes in her sleep and he goes pale: from that night he understands what she is and does not tell her, because his place in the Choir depends on silence (SEC-012) · S3 he carries her journal out past the Pale Crag wardens · S04E08 the break-out; the spiral to Pell · S04E10 she signs *"You knew. Since the two notes."*; he signs yes; forehead to forehead, her hand closed over his signing hand · S04E11 she dies · S05E06 he cuts the pages, then leaks the journal to Cressa · S07E07 Daro finds the pages in his cell - the Choir's proof against him is her love of him, in her own hand · S08E09 executed; the Choir as a body holds the pages from his trial (no single knower recorded); his last words are the first sentence he speaks aloud as himself (fixed line to be written with the S8 outline). Journal and pages custody: `world.md` §6.
+
+### SEC-050 - A beautiful hand
+
+```canon
+id: SEC-050
+type: secret
+canon: approved
+title: A beautiful hand
+tier: season
+truth: Ursel Lantry and Teodor Kett were lovers from her widowhood in CY 291 until his death in CY 296; he forged the Dry Charter because she asked, and the brass ledger-clip she gave Hollis was his father's.
+cover_story: Benefactress and ward.
+status: sealed
+known_by: [CH-0011@origin, CH-0025@origin, CH-0003@S06E08]
+hints: [S01E01, S01E11, S04E06]
+reveal: S06E08
+public_on_reveal: false
+related: [CH-0011, CH-0025, CH-0003, EV-0276, EV-0203, EV-0204, SEC-006]
+```
+
+A year after the forgery the bank needed the forger gone, and she chose the bank (SEC-006). She raised his son and has been kind to him every day since: the kindness was never a mask. Clues (no extra screen time): S01E01 the clip from her sleeve - he picks it up "as one picks up something warm" (the pilot's existing direction) · S01E11 *"His father had a beautiful hand."* - her fingers go to the empty sleeve the clip came from · S04E06 the second document in his father's hand that Hollis puts away unread is a letter that begins *"U. -"* · S06E08 reveal (Ursel's POV season). Function: Ursel chose the bank over Teodor, as Ruel chose "them" over telling Jaro and Maren chooses the name over Hollis. The clip's provenance is not spoken before S06E08 (custody: `world.md` §6).
+
+### SEC-051 - Twice
+
+```canon
+id: SEC-051
+type: secret
+canon: approved
+title: Twice
+tier: episode
+truth: Bede Lark sold the Tithe Map leak twice, to Ruel and to Ursel, because one sale was half the price of a debt-walker's bond and two bought Sibby Roan off the treadmill.
+cover_story: A keeper's greed.
+status: sealed
+known_by: [CH-0052@origin, CH-0079@TODO(DEC-78), CH-0003@S02E06]
+hints: [S01E07, S02E04]
+reveal: S02E06
+public_on_reveal: false
+related: [CH-0052, CH-0079, CH-0003, CH-0048, PL-0084, EV-0262, EV-0278, EV-0279, EV-0340, SEC-001, SEC-013]
+```
+
+Sibby Roan (CH-0079) has walked off her dead husband's debt on Corr's wheel at the Ninth Sluice treadmill pump since CY 306 (EV-0278); Bede has saved for her since CY 308 (EV-0279). Price: `world.md` §7.4 (keeper's figure, v0.7: the buy-out of her bond 80 marks; each sale of the leak 40). Clues: S01E07 counting Hollis's coin he says he sold "the same news, twice"; asked why, he nods at the treadmill across the canal - *one sale is half a walker's bond; two is a woman off the wheel* (Sibby: a back on Corr's wheel, no face) · S02E04 the line's second beat (content with the S2 outline; `romance_lines.md` §6) · S02E06 Hollis proves that the double sale caused both murders of S1; Bede must choose between the woman and the confession. The day Bede buys the bond: DEC-78 (EV-0340). The smallest love in the city sets off both murders of S1.
 
 ### Additions to approved secrets (folded in v0.4)
 

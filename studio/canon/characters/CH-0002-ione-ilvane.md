@@ -25,12 +25,12 @@ secrets: [SEC-004, SEC-005]
 status_track: [S01E01:alive, S04E11:dead]
 first_episode: S01E01
 epithet: the Novice
-relations: [CH-0012:mentor, CH-0022:friend, CH-0005:ally, CH-0056:gleaned_by]
+relations: [CH-0012:mentor, CH-0022:friend, CH-0005:ally, CH-0056:gleaned_by, CH-0022:beloved_of@CY 313]
 born_official: CY 294-09
 ```
 
 ## Look (story-level, must never change)
-- Age band: 18 at S1 (no romance).
+- Age band: 18 at S1 (no romantic beat in S1 - a seed only in S1E11; v0.7: line L5 from S2, at 19).
 - Hair: long pale-silver, kept silver by the weekly "Cantor's rinse"; roots visibly dark in S3–S4 captivity.
 - Throat-band: violet silk; **black** after she loses her voice (S01E10).
 - Signature item: silver tuning-fork pendant (custody: world.md §6).
@@ -45,6 +45,10 @@ born_official: CY 294-09
 
 ## Biography
 Novice Cantor of the Choir; officially the daughter of Lord Aurin and Lady Cressa Ilvane, entered in the rolls as born Mistcall CY 294 (the cover of SEC-004; the true date is the `born` field). Loses her voice singing a Great Song over Ninth Sluice (EV-0305). Dies singing the Crown Spire with Pell against the weir wave (EV-0316) — the saga's first protagonist change. Keeps acting after death: the tuning fork, her journal (published S05E06).
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L5 "The Voice"** with Brother Elm: `beloved_of@CY 313` = Elm loves her; her answer stays on screen, not in the record - S04E10 neither forgiveness nor refusal: forehead to forehead, her hand closed over his signing hand. Beats in CH-0022 and SEC-049. Her journal: custody `world.md` §6.
+- S01E04: carrying Ruel's message, she sees two stern lamps from the quay and thinks nothing of it (SEC-046).
 
 ## Arc by season (foundation)
 

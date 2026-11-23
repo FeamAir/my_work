@@ -1,6 +1,6 @@
 # Timeline
 
-Canon: v0.5 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; v0.7: love-line events EV-0276…0280 and EV-0340…0347, episode records S06E02 and S10E06, from `studio/story/romance_lines.md` §7, DEC-73; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -921,6 +921,120 @@ participants: [CH-0001, CH-0042]
 
 Ten thousand voices across the delta; the cost of the song shared. Pell's voice is the price.
 
+### New events v0.7 - love lines in the saga (r7, approved DEC-73)
+
+```canon
+id: EV-0340
+type: event
+canon: approved
+name: Bede Lark buys Sibby Roan's bond
+date: TODO(DEC-78)
+place: PL-0084
+participants: [CH-0052, CH-0079]
+secrets: [SEC-051]
+```
+
+Bought with the two sales of the leak (EV-0262): 80 marks (`world.md` §7.4). The day is open (DEC-78): `romance_lines.md` §7 says Longdark 6 ("the day the Helm dies"), but the approved S1 outline still has her on Corr's wheel in S01E07 (Longdark 25-30). Keeper's recommendation: after S01E07 and before the flood of Still 3 - Still 2, CY 312-11-02. Not shown on screen in S1; S2E4 and S2E6 pay it.
+
+```canon
+id: EV-0341
+type: event
+canon: approved
+name: Ysa takes the packet; Jaro at the wake
+date: CY 312-11-02
+date_end: CY 312-11-03
+episode: S01E09
+place: PL-0018
+houses: [HS-001, HS-005]
+participants: [CH-0058, CH-0019, CH-0006]
+secrets: [SEC-046, SEC-023]
+```
+
+Still 2-3. Ysa bars Jaro from the *Patient Gull* ("House only tonight, Captain-Lord."); he stands on the mole all night. She empties the cabin locker - Jaro's letters and Ruel's Longdark 5 note, tied in tarred twine - into her sleeve. At the wake he is let in last, alone, puts out the second stern lamp and takes the dead man's right hand. Chronicler: *"The Captain-Lord of the Shoals paid his respects last."*
+
+```canon
+id: EV-0342
+type: event
+canon: approved
+name: The packet passes to Odo Fennick
+date: CY 313
+episode: S02E11
+houses: [HS-001, HS-006, HS-005]
+participants: [CH-0058, CH-0010]
+secrets: [SEC-046]
+```
+
+S02E10 Ysa lays the packet before Maren with the boatswain's discharge ("There were two things to bury."); S02E11, opening Gullmouth to Fennick (EV-0308), she gives it to Odo as her pledge. The letters name the wrecker silver: from now on the Listener can unseat Jaro at any Hull Moot.
+
+```canon
+id: EV-0343
+type: event
+canon: approved
+name: The packet passes to Zev Fennick
+date: CY 320-11
+episode: S05E12
+houses: [HS-006]
+participants: [CH-0042]
+secrets: [SEC-046]
+```
+
+Still CY 320: Zev inherits the Listening House (PL-0012) after Odo's death (S05E11) and the packet with it.
+
+```canon
+id: EV-0344
+type: event
+canon: approved
+name: The packet returned to Jaro unopened
+date: CY 321
+episode: S06E02
+houses: [HS-006, HS-005]
+participants: [CH-0042, CH-0019]
+secrets: [SEC-046]
+```
+
+The first act of the new Lord Fennick. Jaro is free to back Maren in S6 and owes Zev a debt he pays at the wedding (EV-0346). In S06E08 he finds Ruel's Longdark 5 note in it (EV-0280).
+
+```canon
+id: EV-0345
+type: event
+canon: approved
+name: Maren and Hollis - the kiss and the order
+date: CY 314-11-05
+episode: S04E12
+participants: [CH-0006, CH-0003]
+secrets: [SEC-047]
+```
+
+Still 5, CY 314, after Ione's death and the Weir Terms (EV-0317): the first kiss and, in the same scene, her order to go into Odo's treasury (DEC-52). Her way of loving, stated once.
+
+```canon
+id: EV-0346
+type: event
+canon: approved
+name: Marriage of Helm Maren Corvane and Lord Zev Fennick
+date: CY 322
+episode: S07E03
+place: PL-0010
+houses: [HS-001, HS-006]
+participants: [CH-0006, CH-0042, CH-0019]
+secrets: [SEC-048]
+```
+
+Betrothal S07E02; married in the Ring without a song (the Hush Law is repealed only in Highwater, EV-0325, and the Helm does not sing); Jaro Quell stands witness for the bride and does not object. Closes the Helm's War on paper; Corvane and Fennick allied by marriage (HS-001, HS-006). Terms: SEC-048.
+
+```canon
+id: EV-0347
+type: event
+canon: approved
+name: The kite correspondence across the siege lines
+date: CY 322
+date_end: CY 323
+participants: [CH-0001, CH-0040, CH-0043]
+secrets: [SEC-016]
+```
+
+Pell and Esk (line L4): from the parley over the Falls Spire (S7) to the Siege of Highwater (EV-0329, S08E02-E09) letters go by **kite-code** over the wall in plain sight of two armies - the only channel between the movement and the uplands. S08E04-E06 Lio lets his brokers sell the code to the Dry Palace watch; S08E10-E11 Pell flies a warning on the blown code and Esk's part of the camp leaves the low ground before the Spires are sung.
+
 ### New events v0.3 (approved v0.4)
 
 Status: **approved** (lead screenwriter, r3; EV-0275 dated by DEC-20) (writer-houses `story/houses/README.md`; EV-0274 and EV-0275 added by the keeper). Keeper range EV-0250...0299.
@@ -1080,6 +1194,73 @@ secrets: [SEC-019]
 
 Under the truce after the Rim Skirmish (EV-0273) the clans give Esk as hostage, "the Dry Queen's nephew" (SEC-019), in Fallow CY 309 - a hostage paid for Ardo Rusk's blood (DEC-20). Esk is 10; in S1 he has been a hostage three years. Corporal Ottar was given twelve years earlier, CY 297.
 
+### New events v0.7 - love lines before the saga (r7, approved DEC-73)
+
+```canon
+id: EV-0276
+type: event
+canon: approved
+name: Ursel Lantry and Teodor Kett become lovers
+date: CY 291
+date_end: CY 296
+houses: [HS-007]
+participants: [CH-0011, CH-0025]
+secrets: [SEC-050]
+```
+
+From the year of her widowhood (Bastian Lantry, CH-0262, d. CY 291) until his death (EV-0204). He forges the Dry Charter (EV-0203) because she asks; a year later she chooses the bank. Not spoken before S06E08.
+
+```canon
+id: EV-0277
+type: event
+canon: approved
+name: The liaison of Ruel Corvane and Jaro Quell begins
+date: CY 305
+houses: [HS-001, HS-005]
+participants: [CH-0005, CH-0019]
+secrets: [SEC-046, SEC-031]
+```
+
+The same year the Quell wrecker silver begins to pay the Corvane fleet (SEC-031). Ruel is a widower since CY 300 (CH-0202). Signal: a second stern lamp on the *Patient Gull*. Revealed to the audience S01E09.
+
+```canon
+id: EV-0278
+type: event
+canon: approved
+name: Sibby Roan goes on the wheel
+date: CY 306
+place: PL-0084
+participants: [CH-0079]
+secrets: [SEC-051]
+```
+
+Her dead husband's debt is "walked" on Corr's wheel at the Ninth Sluice treadmill pump (`world.md` §8.2): a mark off the debt per walk, while the interest runs faster.
+
+```canon
+id: EV-0279
+type: event
+canon: approved
+name: Bede Lark begins to save for Sibby's bond
+date: CY 308
+participants: [CH-0052]
+secrets: [SEC-051]
+```
+
+A relay-keeper's savings against an 80-mark bond (`world.md` §7.4); four years are not enough - the reason he sells the leak twice in CY 312 (EV-0262).
+
+```canon
+id: EV-0280
+type: event
+canon: approved
+name: Ruel's unsent note to Jaro
+date: CY 312-10-05
+houses: [HS-001]
+participants: [CH-0005, CH-0058]
+secrets: [SEC-046, SEC-001, SEC-023]
+```
+
+Longdark 5, the eve of the Helm's death: Ruel writes *"If I asked you to sail tomorrow and not ask why-"* and does not send it; the note goes into the cabin locker with the packet. The same day he tells his sister (Ysa "has known since Longdark 5", SEC-023). He told his sister and not his lover. Jaro reads the note in S06E08.
+
 ### Additions to approved events (folded in v0.4)
 
 `amend` blocks (README §6) from the writer-houses dossiers; the approved records are unchanged.
@@ -1110,7 +1291,7 @@ date_end: CY 312-10-06
 pov: [CH-0001, CH-0002, CH-0003]
 ```
 
-pilot ~27 min (script v1.0: 26:39 of story). **One day** (v0.5, lead's ruling R-1, `story/episodes/S01E01/continuity_check.md` v2): Longdark 6, from the dawn ebb to dark. The tithe-reading, the Helm's fall and the death-tone fall in the late afternoon and at the evening bell of the same day.
+pilot ~27 min (script v1.0: 26:39 of story). *(v0.7, director's decision on r7: one background seed in Sc 12 - one figure in the sea-green Quell block stands still and looks at Ruel; from behind, no name, no line, no reference sheet; it is Jaro Quell, SEC-046 - no other change to the pilot.)* **One day** (v0.5, lead's ruling R-1, `story/episodes/S01E01/continuity_check.md` v2): Longdark 6, from the dawn ebb to dark. The tithe-reading, the Helm's fall and the death-tone fall in the late afternoon and at the evening bell of the same day.
 
 ```canon
 id: S01E02
@@ -1561,6 +1742,16 @@ date_end: CY 321-11-05
 ```
 
 ```canon
+id: S06E02
+type: episode
+canon: approved
+date_start: CY 321-01-01
+date_end: CY 321-11-05
+```
+
+(v0.7) The packet returned to Jaro unopened (EV-0344).
+
+```canon
 id: S06E03
 type: episode
 canon: approved
@@ -1850,6 +2041,14 @@ date_end: SY 1-11-05
 
 ```canon
 id: S10E05
+type: episode
+canon: approved
+date_start: SY 1-01-01
+date_end: SY 1-11-05
+```
+
+```canon
+id: S10E06
 type: episode
 canon: approved
 date_start: SY 1-01-01

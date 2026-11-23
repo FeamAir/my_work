@@ -169,6 +169,7 @@ role: minor
 born: CY 301
 father: CH-0017
 mother: CH-0214
+romance: never
 ```
 
 > Hilde was born into Dask of the Reach (HS-018, Moll blood) — public. Thyra was born an Orsley (HS-031) — approved (DEC-27). Ylva (11 in CY 312) heads House Dask from SY 1, after Garrick drowns (S10E11) (DEC-32); no plot is assigned to her here.
@@ -337,6 +338,7 @@ role: supporting
 born: CY 302
 father: CH-0233
 mother: CH-0234
+romance: never
 ```
 
 > `first_episode` left empty for living stubs (Thyra, Ylva, Eirik, Dagny, Sindre, Jinna): the lead places them.

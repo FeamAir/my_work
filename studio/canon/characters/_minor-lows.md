@@ -60,6 +60,7 @@ epithet: of the Ninth
 relations: [CH-0074:informant_of]
 first_episode: S01E01
 secrets: [SEC-045]
+romance: never
 ```
 
 Pell's mudlark friend (15); steals for Mother Silt; drowns in the flood (EV-0305) — the Lows' loss.
@@ -78,6 +79,7 @@ secrets: [SEC-029]
 relations: [CH-0073:debtor_of]
 status_track: [S01E05:alive]
 first_episode: S01E05
+romance: never
 ```
 
 Treadmill boy (12), Wick's friend, debt-walker owing the Undertow; one of the children "returned" by the Gleaners (S04E02); chorus runner S5.
@@ -196,7 +198,7 @@ class: outlaw
 role: minor
 born: ~CY 270
 born_at: PL-0082
-relations: [CH-0077:partner]
+relations: [CH-0077:business_partner]
 secrets: [SEC-029]
 status_track: [S01E05:alive]
 first_episode: S01E05
@@ -228,3 +230,25 @@ first_episode: S01E02
 ```
 
 **Tuck** (28; approved; renamed from Nim, DEC-57 — Nim and Nan share scenes in S1E2 and are one vowel apart in TTS) — Mother Silt's fence for the mudlarks. *Function:* says the line *"Calm is bought, mudlark. So is everything."* (S1E2); buys and sells shards; the lane's link to the Listeners. *Secret:* sells to Fitch's Listeners as well as to Silt (Silt knows, and uses it to feed Fitch what she wants him to hear). *Link:* Pell learns in S2E9, the episode after Nan's death, who sold her stone's lane (Mags) (SEC-045, DEC-45). Mags sold only "a stone that sings back" and the lane, for one copper - nothing about where it was found. *Look:* narrow, **one gold-capped front tooth**, a coat lined with dozens of little pockets, a jeweller's loupe on a cord. *Voice:* rapid, nasal patter.
+
+---
+
+## Sibby Roan (CH-0079) — new (approved r7) · lead-screenwriter, `story/romance_lines.md` §3 line B · v0.7
+
+Status: **approved** (lead screenwriter, r7, DEC-73). ID given by the keeper (next free in CH-0066…0099). Name check (glossary rule 1): "Sib-" and "Roa-" clash with no important name (Sindre, Sister, Silting; Rook, Rosamund, Rourke differ in the third letter).
+
+```canon
+id: CH-0079
+type: character
+canon: approved
+name: Sibby Roan
+epithet: the debt-walker
+class: poor
+role: minor
+born: ~CY 279
+secrets: [SEC-051]
+status_track: [S01E07:alive]
+first_episode: S01E07
+```
+
+**Sibby Roan** (33 in CY 312) — a treadmill debt-walker of the Ninth, walking off her dead husband's debt on Corr's wheel at the Ninth Sluice treadmill pump (PL-0084) since CY 306 (EV-0278). Bede Lark (CH-0052) has saved for her bond since CY 308 and buys it with the two sales of the leak (EV-0262, EV-0340; the day: DEC-78) - she is freed in CY 312, before the flood. *Function:* the human reason for the leak sold twice (SEC-051) - the smallest love in the city sets off both murders of S1. *On screen:* S01E07 only from behind, a back on Corr's wheel; **no face, no reference sheet**; S2E4 / S2E6 as the S2 outline needs. Her husband is unnamed. Relation to Bede lives in CH-0052.

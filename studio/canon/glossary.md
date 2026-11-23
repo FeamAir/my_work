@@ -1,6 +1,6 @@
 # Glossary and pronunciation
 
-Canon: v0.5 · Status: **approved** as text - TERM-0001…0211 approved by the lead screenwriter in r5 (`studio/reports/lead-screenwriter-2026-11-22-r5.md` §5), TERM-0212 onward in r3. All respellings are still to be tested with the TTS voice (sound director's first probe); a respelling changed after the probe is a CHANGELOG line, not a new approval. (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
+Canon: v0.7 · Status: **approved** as text - TERM-0001…0211 approved by the lead screenwriter in r5 (`studio/reports/lead-screenwriter-2026-11-22-r5.md` §5), TERM-0212 onward in r3. All respellings are still to be tested with the TTS voice (sound director's first probe); a respelling changed after the probe is a CHANGELOG line, not a new approval. (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
 
 Every name spoken on screen has one entry. Voice synthesis reads `say` (stressed syllable in CAPS); subtitles and on-screen text use `term`. Entries for restricted names are in `sealed/`.
 
@@ -5044,6 +5044,18 @@ ref: PL-0084
 ```
 
 Usage (v0.5): the object Pell finds is an **echo-shard** (TERM-0140) - the only spoken and written form. "Echo-chip" is not a canon word (an early draft of the S1E1 beat sheet used it; the script does not); `world.md` §8 now says "echo-shards" too.
+
+```canon
+id: TERM-0497
+type: term
+canon: approved
+term: Sibby Roan
+say: SIB-ee ROHN
+kind: person
+ref: CH-0079
+```
+
+(v0.7, r7) Name check, rule 1: no important name begins "Sib-" or "Roa-".
 
 ## EXAMPLE (placeholder, not canon)
 

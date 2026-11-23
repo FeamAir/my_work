@@ -14,13 +14,13 @@ name: Teodor Kett
 class: clerk
 role: minor
 died: CY 296
-secrets: [SEC-006]
+secrets: [SEC-006, SEC-050]
 status_track: [S01E01:dead]
 born: ~CY 258
 first_episode: S01E04
 ```
 
-Hollis's father; forged the Dry Charter (EV-0203); drowned (EV-0204). His handwriting = Hollis's.
+Hollis's father; forged the Dry Charter (EV-0203); drowned (EV-0204). His handwriting = Hollis's. *(v0.7, r7)* Ursel Lantry's lover CY 291-296 (EV-0276; relation in CH-0011; SEC-050); he forged because she asked. The brass ledger-clip was his (custody `world.md` §6); the S04E06 letter in his hand begins *"U. -"*.
 
 ## Bede Lark (CH-0052)
 
@@ -35,11 +35,11 @@ born: ~CY 272
 status_track: [S01E07:alive]
 first_episode: S01E07
 epithet: the relay-keeper
-relations: [CH-0053:informant_of]
-secrets: [SEC-001, SEC-013]
+relations: [CH-0053:informant_of, CH-0079:beloved@CY 308]
+secrets: [SEC-001, SEC-013, SEC-051]
 ```
 
-Relay-keeper who sells messages early. Sold one leak twice (EV-0262) — the root of two murders. States the keeper's lore: *"Old stones ring low. We throw them back."* (S01E07).
+Relay-keeper who sells messages early. Sold one leak twice (EV-0262) — the root of two murders. States the keeper's lore: *"Old stones ring low. We throw them back."* (S01E07). *(v0.7, r7, line B "Twice", SEC-051)* He sold it twice to buy Sibby Roan (CH-0079) off Corr's wheel: saving for her bond since CY 308 (EV-0279), buys it with the two sales (EV-0340, day: DEC-78). S01E07 he nods at the treadmill - *one sale is half a walker's bond; two is a woman off the wheel*. S02E06 he must choose between the woman and the confession. `beloved` = he loves her; her side is played on screen.
 
 ## Captain Fitch (CH-0053)
 

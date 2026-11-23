@@ -14,7 +14,8 @@ class: clergy
 role: major
 born: ~CY 296
 relations: [CH-0077:junior_of]
-secrets: [SEC-005]
+secrets: [SEC-005, SEC-049]
+romance: never
 status_track: [S01E05:alive]
 first_episode: S01E05
 ```

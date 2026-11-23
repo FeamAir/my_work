@@ -21,6 +21,7 @@ relations: [CH-0064:friend, CH-0046:protector]
 status_track: [S01E01:alive, S09E10:dead]
 first_episode: S01E01
 epithet: of the Ninth
+romance: never
 ```
 
 ## Look (story-level, must never change)

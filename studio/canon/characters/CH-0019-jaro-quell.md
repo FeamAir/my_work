@@ -20,7 +20,7 @@ first_episode: S01E04
 relations: [CH-0059:enemy, CH-0061:business_partner, CH-0043:patron]
 father: CH-0240
 mother: CH-0241
-secrets: [SEC-031]
+secrets: [SEC-031, SEC-046, SEC-047]
 ```
 
 ## Look (story-level, must never change)
@@ -34,6 +34,13 @@ secrets: [SEC-031]
 
 ## Biography
 Captain-lord of the island clans; S1 vote-broker, POV from S2. Breaks with the movement after the First Raising (S9); comes back to the side he left and dies (S11E08).
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L1 "The Second Lamp"** with Ruel Corvane - relation in CH-0005 (`lover@CY 305`); SEC-046. S1: E4 the second lamp and *"You're halfway there."*; E6 the corridor; E8 waiting at the rail; E9 barred from the ship, the alibi he cannot give (*"On a deck. Waiting on the weather."* - why the Quell frame of SEC-013 holds), alone at the wake: he puts out the second lamp and takes the dead man's right hand; E12 *"Calm is bought. This one was paid for."* After: S2 the war is his mourning; S2E11 his letters pass to Odo (blackmail: the cause of "trades with both sides", S3-S5); S06E02 Zev returns them unopened; S06E08 Ruel's Longdark 5 note; S07E03 witness at the Helm's wedding; S9E5 the break; S10 the price (restricted); S11E8 dies.
+- **S01E01:** the still figure in the sea-green block in Sc 12, from behind, unnamed (director's decision on r7) - not a casting appearance: first face and name S01E04.
+- **Lio (CH-0043): patronage only** (DEC-71); never romantic.
+- Learns SEC-047 (Maren and Hollis) in S4 (episode: DEC-77).
+- **Never handles Ruel's ring** (staging rule, v0.7).
 
 ## Arc by season (foundation)
 
@@ -72,7 +79,7 @@ Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded 
 
 ### Goals
 - **Wants (outer):** the Shoals free of the Relay, the Helm and the bank — unrecorded trade forever.
-- **Needs (inner):** to find one thing he will not sell; he finds it in S11.
+- **Needs (inner):** to find, **again**, one thing he will not sell (the first was Ruel - SEC-046; r7); he finds it a second time in S11.
 - **Fears:** being bought cheaply; being on a losing deck.
 - **Heroism:** he **comes back** — to the side he left, when it is losing (S11E8).
 

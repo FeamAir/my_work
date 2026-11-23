@@ -1,0 +1,55 @@
+from lib import S
+
+D = 'dusk, the sun just set over the sea to the west, cool shadows, first lanterns lit'
+
+SCENE = dict(
+    title='SC 18 — Город слышит: Средние', short='Ворота',
+    start=1359, length=45,
+    loc='PL-0021 ворота эвакуации Девятого, сторона Средних (D-03 G2/G3; DUSK)',
+    time='сумерки',
+    chars='сержант (спина и руки, B-08 CH-0004, без имени вслух) · стража Расков C-05 (со спины) · молодой стражник [OS]',
+    axis='камера с сухой стороны (Средние), ворота перед нами, ступени — позади камеры. Засов идёт СПРАВА НАЛЕВО в скобу у левого края — рамка S1-SC01-HANDS. Файл стражи идёт от камеры к воротам; сержант впереди, полушлем под ЛЕВОЙ рукой (на виде со спины — слева в кадре)',
+    water='за воротами вниз — Низы: фонари на чёрной воде, прилив вернулся в переулки',
+    light='сумерки, холодный синий, первые фонари; на вставке рук — сумеречный свет вместо фонаря, тот же угол (сверху справа)',
+    accent='ржаво-красный табардов (стража) — но не на руках', mood='механика, без слов',
+    mode='MIX', vertical='— (сопоставление рук sc01/sc18 — никогда в маркетинге)',
+    notes=[
+        'Вставка рук sh060 — кадр в кадр как sc01-sh050: тот же объектив, ракурс, сторона, засов налево; руки старше, тот же хват. Делается edit-ом от финала sc01 (кадрирование копируется). Класс D — та же модель, что в sc01, чтобы фактура совпала.',
+        'Обшлага рук — чёрная стёганка, табарда и цвета дома в кадре рук нет (выдержка §3). Сценарий говорит «a soldier\'s cuffs in rust-red» — расхождение; ставлю по выдержке, вопрос в отчёте.',
+        'Музыка M09 продолжается ровно; без акцента на руках (никакой связи sc01 ↔ sc18 в музыке).',
+        'Приказ не звучит — хватает знака рукой.',
+    ],
+    checks=['Склейка по форме sc17-sh130 (камень) → sh010 (ворота) — горизонталь засова на той же высоте кадра, что камень.'],
+)
+
+SHOTS = [
+    S(5, 'WS', 'с сухой стороны, статика', 'Ворота sc1 на семнадцать лет старше, с сухой стороны. Позади нас сухие ступени вверх; сквозь открытые створки — мостки вниз, фонари, первая чёрная вода в переулках. Тон тонко над стеной', 'SFX: тон смерти тонко. MUSIC: M09', 'A', 'L-09 + L-10 (вода за воротами) + L-01 0.02', 'D-03 G2 DUSK',
+      'Dusk, wide shot from the dry upper side of a huge iron-bound oak gate standing open in the arch of a tall brick dike: through the open leaves plank-walks going down into a stilt town, lanterns, black water back in the lanes; dry stone steps at the bottom of the frame. No people. ' + D,
+      '', 'ворота по центру; Низы за ними', nochar=True, key='gate18'),
+    S(3, 'insert', 'eye-level, статика', 'Фонарь на гребне стены дрожит от тона', 'SFX: тон', 'A', 'L-09 + L-05 1 px', 'D-03',
+      'Dusk, insert of a lantern on an iron hook at the top of a brick dike wall, cool violet sky behind. No people. ' + D,
+      '', '—', nochar=True),
+    S(4, 'MS', 'со спины, статика', 'Строй стражи Расков в шлемах и ржаво-красных табардах — со спины. Впереди сержант (только спина): среднего роста, широкая; чёрные волосы, выбритые с боков; помятый полушлем с белой полосой под ЛЕВОЙ рукой', 'SFX: сапоги', 'B', 'резерв: L-04', 'B-08 CH-0004; C-05',
+      'Dusk, medium shot from behind of a file of soldiers in dented half-helms and rust-red tabards over black gambesons walking toward a big open gate; at their head a broad woman of medium height, bareheaded, black hair shaved at both sides, carrying a dented half-helm with a white stripe under her LEFT arm (left side of the image). No faces. ' + D,
+      'static camera; the file marches in step away from camera toward the gate.', 'от камеры к воротам', key='file'),
+    S(2.5, 'insert', 'со спины, статика', 'Знак рукой — приказа не нужно', '—', 'B', 'резерв: L-12', 'B-08',
+      'Dusk, insert from behind: a broad woman\'s right hand raised at shoulder height in a short flat signal, black gambeson sleeve, shaved nape. ' + D,
+      'static camera; the hand rises in one short flat signal and drops.', '—'),
+    S(4, 'WS', 'с сухой стороны, статика', 'Створки идут внутрь', 'SFX: петли, тяжёлое дерево', 'B', 'резерв: L-04 (створки-слои)', 'D-03 G2; C-05', '', '', 'створки сходятся к центру', reuse='gate18'),
+    S(5, 'INSERT', 'рамка S1-SC01-HANDS', 'Кадр в кадр как sc1 [0:14]: та же оптика, тот же угол, та же сторона. Пара рук на засове — старше; тот же хват. Тащат засов', 'SFX: железо скребёт', 'D', 'резерв (как sc01): начало + удар + результат', 'B-08 руки B; D-03 G3 DUSK',
+      'Edit of the S1-SC01-HANDS final frame: same lens, same angle, same framing; change only the hands to the broader hands of a 34-year-old soldier with scarred knuckles, the same grip on the same thick horizontal iron bar across the upper third, black padded gambeson cuffs, no house colours; dusk light from upper right instead of lantern light. No face.',
+      'static camera; the two hands drag the heavy iron bar from right to left toward the bracket at the left edge; knuckles whiten. Each hand keeps five fingers. End frame: the bar fully in the bracket.',
+      'засов R→L — как sc01', key='hands18'),
+    S(2, 'INSERT', 'рамка S1-SC01-HANDS', 'Засов падает в железо. Тот же звук', 'SFX: удар засова (тот же сэмпл, что sc01)', 'D', 'L-05 (15 px, 3 кадра)', 'B-08 руки B', '', '', 'засов в скобе слева', clipreuse='hands18', reuse='hands18'),
+    S(4.5, 'MS', 'сзади-сбоку, статика', 'Сержант не смотрит на ворота, когда они закрыты. Она смотрит на стену рядом', '—', 'A', 'L-01 0.02', 'B-08',
+      'Dusk, medium shot from behind and slightly to the side of a broad woman with black hair shaved at the sides, the dented half-helm under her left arm, her head turned to look at a brick wall beside a closed gate, face not visible. ' + D,
+      '', 'смотрит вправо (на стену)', key='sgt'),
+    S(3, 'insert', 'POV, статика', 'Голая кирпичная стена рядом с воротами, в свете фонаря', '—', 'A', 'L-09', 'D-03 G2',
+      'Dusk, insert of a bare brick dike wall beside a closed gate, old tide stains on the bricks, lantern light. No people. ' + D,
+      '', '—', nochar=True),
+    S(3, 'MS', 'со спины, статика', 'Шлемы со спины', 'A GUARD [OS] (молодой; чтобы заполнить тишину): «Thirty days of this, then.»', 'A', 'L-01 0.02', 'C-05', '', '', '—', reuse='file'),
+    S(2.5, 'MS', 'со спины, статика', 'Ответа нет. Полушлем под рукой уходит дальше', '—', 'B', 'резерв: L-04', 'B-08', '', '', 'уходит вправо вдоль стены', reuse='sgt', clip=6),
+    S(6.5, 'EWS', 'с гребня стены вниз, медленный наезд', 'Сквозь последнюю щель перед тем, как створки сошлись, — и теперь поверх стены, ВНИЗ: фонари на чёрной воде. Прилив вернулся в переулки', 'SFX: тон, вода внизу', 'A', 'L-09 + L-10 + L-01 0.04', 'D-03; D-02 DUSK',
+      'Dusk, high view from the top of a brick dike wall straight down over a stilt town: lanterns in doorways reflected on black water that fills the lanes, plank-walks, rooftops in cool blue dusk. No readable people. ' + D,
+      '', 'вниз (ЮЗ)', nochar=True),
+]

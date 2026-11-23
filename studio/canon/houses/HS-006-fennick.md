@@ -16,7 +16,7 @@ colors: [slate grey, sulphur yellow]
 seat: PL-0012
 lands: [PL-0016, PL-0012, PL-0008]
 heads: [CH-0250@CY 251-11, CH-0251@CY 262, CH-0010@CY 291, CH-0042@CY 320]
-alliances: [HS-007:client@CY 312, HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-005:enemy@CY 9, HS-013:sworn@CY 251, HS-014:sworn@CY 251, HS-030:sworn@CY 9, HS-002:ally@CY 312-11]
+alliances: [HS-007:client@CY 312, HS-009:steward@CY 9, HS-007:client@CY 251, HS-001:enemy@CY 251, HS-005:enemy@CY 9, HS-013:sworn@CY 251, HS-014:sworn@CY 251, HS-030:sworn@CY 9, HS-002:ally@CY 312-11, HS-001:marriage@CY 322]
 secrets: [SEC-015]
 leitmotif: theme on the Sluice Spire's home tone
 founded: CY 9
@@ -66,6 +66,8 @@ Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lor
 | 240 – 262 | Barnet (CH-0250) | **first Lord Fennick** (CY 251) |
 | 262 – 291 | Sefton (CH-0251) | Odo's father |
 | 291 – | Odo (CH-0010) | **Helm** from S1E12 (CY 312-11-05); killed S5E11 |
+
+**Marriage alliance with Corvane (v0.7, r7):** Lord Zev Fennick marries Helm Maren Corvane in S07E03, CY 322 (EV-0346): Corvane and Fennick, enemies since CY 251, closed on paper; the Relay sworn to the Helm for her wars and kept by Fennick; the consort keeps the Listening House and the Hearings. Terms: SEC-048. From S02E11 to S06E02 the Listening House also holds Ruel's letters to Jaro (SEC-046).
 
 **Alliances and debts (CY 312).** Client of Lantry since the elevation (owes ~60,000 marks and its legitimacy). Enemy of Corvane ("law vs. sea"). Useful to everyone. Old feud with Quell over the islands' refusal of Relay towers.
 

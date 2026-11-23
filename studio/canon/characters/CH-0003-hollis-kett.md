@@ -14,8 +14,8 @@ role: protagonist
 born: CY 286-07
 born_at: PL-0006
 father: CH-0025
-relations: [CH-0011:guardian, CH-0052:source, CH-0054:landlady, CH-0055:rival, CH-0006:ally]
-secrets: [SEC-006, SEC-007]
+relations: [CH-0011:guardian, CH-0052:source, CH-0054:landlady, CH-0055:rival, CH-0006:ally, CH-0006:lover@S04E12]
+secrets: [SEC-006, SEC-007, SEC-047, SEC-050, SEC-051]
 status_track: [S01E01:alive, S06E09:presumed_dead]
 first_episode: S01E01
 ```
@@ -35,6 +35,11 @@ first_episode: S01E01
 
 ## Biography
 Junior clerk of the Lantry Counting House, raised as the bank's charity apprentice after his father drowned (EV-0204). The episode detective of S1–S6: finds Account Nine (SEC-007) and his father's name on the Dry Charter (SEC-006). Presumed dead in the Counting House fire (EV-0320). Everything after S06E09: sealed.
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **L2 "The Clerk and the Admiral"** with Maren Corvane (`lover@S04E12`; love from S2); SEC-047 - beats in the Maren record and SEC-047. He is the only person who never tells her what she wants to hear. After S06E09: restricted.
+- **His father's story (line A, SEC-050):** Teodor Kett and Ursel Lantry were lovers; the brass clip was his father's (custody `world.md` §6). From S6E8 he sees his own story written a generation early: a clerk who forged for a ruling woman - with the chance to end it differently.
+- Learns SEC-051 (why Bede sold twice) at S02E06.
 
 ## Arc by season (foundation)
 

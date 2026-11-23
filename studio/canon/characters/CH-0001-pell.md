@@ -16,14 +16,14 @@ born: CY 297-02
 born_at: PL-0008
 father: CH-0024
 mother: CH-0023
-relations: [CH-0007:sibling, CH-0043:friend, CH-0049:friend, CH-0065:protector, CH-0003:protector, CH-0046:rescuer]
+relations: [CH-0007:sibling, CH-0043:friend, CH-0049:friend, CH-0065:protector, CH-0003:protector, CH-0046:rescuer, CH-0043:suitor@S06E05, CH-0040:partner@S07E12]
 secrets: [SEC-002, SEC-003, SEC-004, SEC-012]
 status_track: [S01E01:alive]
 first_episode: S01E01
 ```
 
 ## Look (story-level, must never change)
-- Age band: 15 at S1 (teen: no romance, ever); 23 after the skip (S5).
+- Age band: 15 at S1 (teen: no romance in S1-S4 - she turns 18 in the skip; v0.7, DEC-71: romance allowed from S5, used from S6 as the object of Lio's suit and from S7 as her own feeling, line L4); 23 after the skip (S5).
 - Hair: cropped rust-brown, one long braid on the **left** bound by a blue tin sluice-tag (her father Dov's tag).
 - Signature item: cracked black echo-shard, no bigger than a thumbnail, on a cord at the neck (custody: world.md §6).
 - From S2E8: Nan's single spiral-shell earring, **left** ear.
@@ -41,6 +41,11 @@ first_episode: S01E01
 
 ## Biography
 Mudlark of Ninth Sluice, raised by her grandmother Nan after her mother's death (EV-0261). Finds the shard at the lowest ebb (S01E01). Lead of the saga from Act II (after S04E11). Survives the saga; gives her voice in the finale (S12E12).
+
+## Love (r7, approved DEC-73; `story/romance_lines.md`)
+- **Age gate (DEC-71):** no romantic beat, hint or held look in S1-S4. Pell and Esk never meet in S1-S4; Pell and Lio in S1 are friends of 15 and 17 and nothing else.
+- **Lio's suit (S06E05-E06):** the brokers' "Pearl and the Singer" betrothal; Lio (26) means it; Pell (24) refuses him in public (SEC-016). S08E04-E06 his jealous act: he lets the kite-code be sold; dying he tells her.
+- **L4 "Kites over the Wall"** with Esk (CH-0040), first met as adults in S7: E6 she learns he is the Dry Queen's son; E10 the three records; E11-E12 Kes dies and they mourn the same woman - the first admitted feeling (`partner@S07E12`); S8 letters by kite-code over the siege wall (EV-0347); S8E11 her warning; S9E10-E11 the kite over the Ninth Bridge; S10 the clans' match for him; S11E10 Tsura's knot on her wrist (proposal); S11-S12 his lines carry her pitch. The one love line that ends alive; after S12E12 they speak in signs and kites.
 
 ## Arc by season (foundation)
 
