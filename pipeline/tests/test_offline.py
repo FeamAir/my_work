@@ -71,18 +71,18 @@ class TestConfig(Base):
 class TestCosts(Base):
     def test_estimates(self):
         self.assertAlmostEqual(costs.estimate("kling-2.5-turbo-pro", 5), 0.35)
-        self.assertAlmostEqual(costs.estimate("kling-3-pro", 10), 1.40)
-        self.assertAlmostEqual(costs.estimate("minimax-h3-max-turbo", 6), 0.09)
+        self.assertAlmostEqual(costs.estimate("kling-3-pro", 10), 1.12)
+        self.assertAlmostEqual(costs.estimate("minimax-h3-max-turbo", 6), 0.24)
         self.assertAlmostEqual(costs.estimate("nano-banana", 1), 0.04)
         self.assertAlmostEqual(costs.estimate("nano-banana-2", 2), 0.16)
 
     def test_budget_and_log(self):
-        costs.guard("kling-3-pro", 5)  # 0.70 <= 1.00
-        costs.log("kling-3-pro", 5, provider="fal")
+        costs.guard("kling-3-pro", 6)  # 0.672 <= 1.00
+        costs.log("kling-3-pro", 6, provider="fal")
         with self.assertRaises(costs.BudgetExceeded):
-            costs.guard("kling-2.5-turbo-pro", 5)  # 0.70 + 0.35 > 1.00
+            costs.guard("kling-2.5-turbo-pro", 5)  # 0.672 + 0.35 > 1.00
         costs.log("nano-banana", 1, provider="fal", status="error: X")  # ошибки не стоят денег
-        self.assertAlmostEqual(costs.total_spent(), 0.70)
+        self.assertAlmostEqual(costs.total_spent(), 0.672)
         rows = costs.read_log()
         self.assertEqual(len(rows), 2)
         self.assertTrue((Path(self.tmp.name) / "costs.jsonl").is_file())

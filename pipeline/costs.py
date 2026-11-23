@@ -42,8 +42,10 @@ class Price:
 PRICES: dict[str, Price] = {
     # --- fal.ai, видео (за секунду ролика) ---
     "kling-2.5-turbo-pro": Price("Kling 2.5 Turbo Pro (image-to-video)", "second", 0.07),
-    "kling-3-pro": Price("Kling 3 Pro (image-to-video)", "second", 0.14),
-    "minimax-h3-max-turbo": Price("MiniMax H3 Max Turbo (image-to-video)", "second", 0.015),
+    # Цены сверены с каталогом fal 2026-11-23 (после окончания ноябрьской акции).
+    "kling-3-pro": Price("Kling 3 Pro (image-to-video, без звука)", "second", 0.112),
+    "minimax-h3-max-turbo": Price("MiniMax H3 Max Turbo 768P (image-to-video)", "second", 0.04),
+    "minimax-h3-max-turbo-1080": Price("MiniMax H3 Max Turbo 1080P (image-to-video)", "second", 0.08),
     # --- fal.ai, картинки (за изображение) ---
     "nano-banana": Price("Nano Banana (text-to-image)", "image", 0.04),
     "nano-banana-edit": Price("Nano Banana (image edit)", "image", 0.04),

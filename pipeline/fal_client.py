@@ -39,18 +39,37 @@ IMAGE_MODELS: dict[str, str] = {
     "nano-banana-pro-edit": "fal-ai/nano-banana-pro/edit",
 }
 VIDEO_MODELS: dict[str, str] = {
+    # Проверено по OpenAPI и каталогу fal 2026-11-23.
     "kling-2.5-turbo-pro": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
-    "kling-3-pro": "fal-ai/kling-video/v3/pro/image-to-video",  # TODO проверить по docs
-    "minimax-h3-max-turbo": "fal-ai/minimax/hailuo-03/max-turbo/image-to-video",  # TODO проверить по docs
+    "kling-3-pro": "fal-ai/kling-video/v3/pro/image-to-video",  # start_image_url, generate_audio=False
+    "minimax-h3-max-turbo": "minimax/h3-max-turbo/image-to-video",  # 768P
+    "minimax-h3-max-turbo-1080": "minimax/h3-max-turbo/image-to-video",  # 1080P
 }
 
-# Разрешённые длительности (сек). Kling принимает строку "5" / "10".
-# TODO(проверить по docs): допустимые duration для Kling 3 Pro и MiniMax H3.
+# Разрешённые длительности (сек).
 VIDEO_DURATIONS: dict[str, tuple[int, ...]] = {
     "kling-2.5-turbo-pro": (5, 10),
-    "kling-3-pro": (5, 10),
-    "minimax-h3-max-turbo": (6, 10),
+    "kling-3-pro": tuple(range(3, 16)),
+    "minimax-h3-max-turbo": tuple(range(1, 16)),
+    "minimax-h3-max-turbo-1080": tuple(range(1, 16)),
 }
+
+
+def _video_payload(model: str, image_url: str, prompt: str, duration: int,
+                   negative_prompt: str | None) -> dict[str, Any]:
+    if model == "kling-3-pro":
+        p: dict[str, Any] = {"start_image_url": image_url, "prompt": prompt,
+                             "duration": str(duration), "generate_audio": False}
+    elif model.startswith("kling"):
+        p = {"image_url": image_url, "prompt": prompt, "duration": str(duration)}
+    else:  # minimax h3
+        p = {"image_url": image_url, "prompt": prompt, "duration": duration,
+             "resolution": "1080P" if model.endswith("-1080") else "768P",
+             "prompt_expansion_mode": "disabled"}
+    if model.startswith("kling") and negative_prompt:
+        p["negative_prompt"] = negative_prompt
+    return p
+
 
 TERMINAL_OK = "COMPLETED"
 POLL_INTERVAL = 3.0
@@ -173,16 +192,7 @@ def image_to_video(image: str | Path, prompt: str, out_path: str | Path, *,
     if allowed and duration not in allowed:
         raise ValueError(f"{model}: duration должна быть одной из {allowed}, получено {duration}")
     endpoint = VIDEO_MODELS[model]
-    payload: dict[str, Any] = {
-        "prompt": prompt,
-        "image_url": to_image_url(image),
-        "duration": str(duration),
-    }
-    if model.startswith("kling") and negative_prompt:
-        payload["negative_prompt"] = negative_prompt
-    if model.startswith("minimax"):
-        # TODO проверить по docs: у MiniMax поле prompt_optimizer, duration строкой "6"/"10"
-        payload["prompt_optimizer"] = True
+    payload = _video_payload(model, to_image_url(image), prompt, duration, negative_prompt)
     payload.update(extra or {})
 
     costs.guard(model, duration)
