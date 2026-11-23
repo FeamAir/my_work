@@ -1,6 +1,6 @@
 # House Ashare (HS-008)
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; v0.6 amended by DEC-70, r6; transfer by lore-keeper)
 
 Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
@@ -18,7 +18,7 @@ lands: [PL-0061, PL-0062, PL-0060]
 extinct: OS 700-11
 heads: [CH-0287@~OS 398, CH-0285@OS 600, CH-0286@OS 628, CH-0030@OS 671]
 secrets: [SEC-003]
-leitmotif: theme on the Sunken Spire's tone
+leitmotif: none before S5E10 (DEC-70); from S5E10 a house theme under restricted conditions
 founded: OS 1
 alliances: [HS-001:sworn@~OS 400, HS-002:sworn@~OS 400, HS-003:sworn@~OS 400, HS-004:sworn@~OS 400, HS-005:sworn@~OS 400, HS-009:sworn@~OS 400, HS-010:sworn@~OS 400, HS-011:sworn@~OS 400, HS-012:sworn@~OS 400]
 ```
@@ -79,7 +79,7 @@ Lirenne held the sea-gate of the whole delta: harbour dues, pearls, the first Sp
 
 ### Notes for production
 
-- **Five recognisers:** pearl + deep teal; the silver spiral shell; loose layered silks with shell ornaments; pale stone and teal tile under water; the closed-mouth teal hum.
+- **Four recognisers (v0.6, DEC-70):** pearl + deep teal; the silver spiral shell; loose layered silks with shell ornaments; pale stone and teal tile under water. *(The fifth recogniser of v0.4, "the closed-mouth teal hum", and the hummed theme fragments before S5E10 are **withdrawn** by DEC-70.)*
 - **Sigil drawing:** a silver spiral shell seen from above, spiral turning **clockwise from the centre outward** (fix this once — the Lows' chalk spiral and the Pretender's wrong spiral are judged against it), on deep teal.
 - **Colour cautions:** teal belongs to Ashare and to anything claiming Ashare (the Pretender, the empty teal chair of the Sunken Vote in the Ring, S1E12). No living house uses teal.
-- **Music:** do not give Ashare a home-tone theme before S5E10 — `studio/story/houses/art_and_music_sheet.md` (production sheet).
+- **Music (v0.6, DEC-70):** **no Ashare theme of any kind before S5E10** - no fragments, no hum, no motif. The tapestry, the Chronicler's passages about Lirenne and every Ashare image before that episode are carried by the Chronicle's own ("archive") music or by silence. From S5E10 the theme exists; its conditions are given to the composer in his excerpt, and he shows it to the keeper before first use. The Sunken Spire's tone is not stated in open canon (`world.md` §7.10).

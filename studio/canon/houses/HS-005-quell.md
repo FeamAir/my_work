@@ -1,6 +1,6 @@
 # House Quell (HS-005)
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; v0.6 flag note DEC-66; transfer by lore-keeper)
 
 Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
@@ -111,4 +111,5 @@ Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lor
 - **Five recognisers:** sea-green + bone; the green eel coiled through an iron ring; oilskins, knitted caps, bone ear-rings, green sashes; grey stilted town, salt pans, beacon towers; a whistled 6/8 figure on B with hull-knocks.
 - **Sigil drawing:** a sea-green eel making one full coil through a dark iron ring, head up, mouth closed; field bone (warm off-white). Not a snake: draw the fin ridge.
 - **Colour cautions:** sea-green must stay green (with yellow in it). **Never teal** — teal is Ashare's, and in S6 the Pretender's banners are teal: the audience must see the difference between Quell's green and the Pretender's teal on the same barge.
+- **Flags (v0.6, DEC-66):** the Concord flag Quell flies in war (the Pilots' Peace) is the Helm's flag of `world.md` §3.2 - storm-grey field, nine plain Spire silhouettes, the ninth an outline at the foot. Its storm-grey is the colour of the **office**, not of any house, and is a different grey from Fennick's slate (HS-006). Quell's own arms ride on the common banner shape (tall, slanted cut at the foot, long point at the pole); seals round, no shields.
 - **Crowds:** oilskin hoods and lanterns at night; boats from above.

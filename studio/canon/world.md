@@ -1,6 +1,6 @@
 # World
 
-Canon: v0.5 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; transfer by lore-keeper)
+Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -30,6 +30,13 @@ known_publicly: true
 On screen: black glassy spiral-grooved towers (60-200 m) crowned by a ring of open "throats"; when sung, a deep hum, the grooves glow faint blue-white, water within sight flattens like glass. The singing Cantor stands in a throat, back to camera - the iconic lip-sync-free shot. First singing-out on screen: Cantor Sabin, S01E10.
 
 **The turn of the grooves (v0.5, keeper's ruling from the approved spiral rule).** Every spiral of the show turns **sunwise**, judged against the Ashare sigil: seen from above, clockwise from the centre outward (`houses/HS-008-ashare.md`). A Spire is read the same way, seen from above with the crown as the centre: **from the crown downward the groove turns clockwise; going up, it turns counter-clockwise (seen from above)** - an ordinary right-hand screw thread. Side view: on the near face the grooves rise from **lower left to upper right** ( / ). When a Spire is sung, the light comes down the groove from the crown, i.e. sunwise. A flat spiral (shell, chalk sign, tapestry border, a hand drawing the sign in the air) is judged as the viewer sees it: clockwise from the centre outward. Shots are never mirrored to fix a spiral (the director's rule).
+
+**Groove light (v0.6, DEC-69 open part).** These are **working rules of the look, not laws of the world**; no world rule on low sound and light exists, and none is to be written into canon, a prompt library or a marketing line.
+- Groove light answers the **high part** (a Cantor's solo). For S1–S2 this is the whole rule.
+- **The echo-shard never glows.** Its sound is seen as a tremor and as rings on water.
+- **S01E01 Sc 9 (fixed by the lead):** the light comes **down** from the crown, turn by turn, and goes out **from the top down** - the last lit turns are at the foot.
+
+**Heights of the named Spires (v0.6, DEC-65; foot to crown):** Crown Spire **about 160 m**, Choir Spire **about 120 m**, Sluice Spire **about 90 m**. The others are set at their first appearance, inside the 60-200 m range. The Sunken Spire's height is never stated beyond HS-008: "taller than any now standing".
 
 ```canon
 id: RULE-002
@@ -188,6 +195,9 @@ Added by the keeper from the foundation's mechanism of SEC-008 (master file r2 �
 - **Board at CY 312:** Crown Spire - the Helm in trust · Choir Spire - the Choir · Sluice Spire (failing) - Fennick · Sentinel - Corvane · Sheaf - Dask · Pale - Ilvane · Falls - Rusk · Storm - Quell · Sunken (silent) - nobody. Lantry holds a vote and no Spire.
 - **Law:** Fennick runs the Hearings and the Relay; commoners cannot testify against a noble without a Mids sponsor.
 - **Army and fleet:** each great house keeps its own troops; the fleet is mostly Corvane ships under the Helm's flag; free companies are paid in dry-notes.
+- **The flag of the Concord (the Helm's flag; v0.6, DEC-66):** a **storm-grey** field; a ring of **nine Spire silhouettes** around a plain **white disc**; eight filled black, the ninth an **outline only, at the foot of the ring** (the Sunken Vote, RULE-009). The nine silhouettes are identical and plain: no grooves, no spiral, no difference of height. No spiral appears on the flag or on any mark of the Helm's office.
+- **The Helm's grey** is the colour of the **office**, not of the Helm's house: storm-grey, **lighter and warmer** than Fennick's slate grey (HS-006), and always tellable from it when the two hang or stand side by side (from S1E11 on).
+- **The banner (carrier of arms; v0.6, DEC-66):** every house, the Choir and the Guild carry their arms on a **tall vertical banner with a slanted cut at the foot**, the long point on the **pole side** - one shape for all. **Seals are round.** There are **no shields** anywhere in the world. The Breaking tapestry (S1E1 Sc 5, panel 2) uses the same banner shape.
 
 ### 3.3 Money
 - **Marks** - silver coin, scarce. **Dry-notes** - Lantry paper backed by deeds to dry land; when land floods its notes are worthless (the central scheme of Acts I-II, SEC-007). **Dry-tithe** - protection tax of every Lows household to the holder of the nearest Spire. **Grain** - mostly Dask. **Saltpeter** (uplands) and **echo-stones** (Relay) - strategic goods.
@@ -195,6 +205,27 @@ Added by the keeper from the foundation's mechanism of SEC-008 (master file r2 �
 ### 3.4 Religion
 - **The Choir** (HS-090) - official faith and order of Cantors; venerates the First Voices and the Spires as their gift; novices trained from childhood; children with the ear are gleaned.
 - **The Lady Below** - Lows folk faith: the sea as a drowned mother who takes back what she is owed; offerings of salt and shells; sign: the spiral shell. Tolerated, mocked by the Steps.
+
+### 3.5 The peoples of the delta (v0.6, DEC-67)
+
+A working list for scripts and art. In-world nobody counts "seven peoples": the number is ours, not a spoken term. Shades, HEX values, prompt fragments and "traces of life" stay in the artist's sheet (`studio/art/peoples_and_costume.md` §1).
+
+| Name | Where they live | Look (one line) |
+|---|---|---|
+| **Delta folk** | the Lows and most of the Mids of Highwater, the Manymouth | mixed for a century; skin from light olive to deep brown, any face and hair; **no trait is "required"** |
+| **the old houses of the Steps** | the Steps, Pale Crag | **not a people: families and a way of life** (brides from every shore); marked by grooming and an indoor skin, not by any face |
+| **Gullmouth coast folk** | Gullmouth, the Corvane fleet | sea-weathered, tan to brown; rolling gait |
+| **Shoals islanders** | the Shoals, Brackwater | deep brown, often freckled across the nose; squint lines |
+| **Polder folk** | the Polders, the Dask Barrows, Moll lands | fair to ruddy, broad-boned; flaxen to red hair |
+| **Uplanders** | the Stair, Rimgate | ruddy and weathered, light to light-brown; high-coloured cheeks; many have Ossari kin |
+| **Ossari** | the plateau, the Rim | brown to deep bronze, wind-creased eyes; lean from the dry years |
+
+Three rules go with the table:
+1. **Look is never proof of descent.** Every people is a range; no single trait belongs to one of them alone.
+2. **Paleness is a way of life, not blood.** The Cantors' silver hair is a rinse, known to everybody.
+3. **Look never marks virtue or villainy.**
+
+Usage note: in character records "upland skin" is used both for Uplanders (Kes, Brenna: ruddy) and for Ossari (Tsura, Esk: brown); read it with the person's people, not as one look.
 
 ## 4. Calendar
 
@@ -259,7 +290,9 @@ kind: city
 parent: PL-0003
 ```
 
-Capital on a granite hill in mid-delta, three tiers: the Steps, the Mids, the Lows. Three Spires: Crown, Choir, Sluice. Points of the compass and the Spires' heights: not fixed yet (DEC-65); the canon holds only the range 60-200 m.
+Capital on a granite hill in mid-delta, three tiers: the Steps, the Mids, the Lows. Three Spires: Crown, Choir, Sluice.
+
+**Compass (v0.6, DEC-65):** the sea and the harbour lie **west** of the city - the sun sets over the sea. The hill (the Steps, the Dry Palace, the Crown Spire) lies **east** of the harbour; dawn comes from behind the hill. The river and the plateau lie further east, upstream. The Ninth Sluice is **south-west**, the lowest district and the nearest to the sea. **Heights, foot to crown:** Crown Spire about 160 m, Choir Spire about 120 m, Sluice Spire about 90 m (§2). The wider delta map is drawn around these points when it is needed.
 
 ```canon
 id: PL-0005
@@ -305,6 +338,8 @@ parent: PL-0007
 
 Our home district ("the Ninth"). Flooded CY 295 (EV-0200) and CY 312 (EV-0305).
 
+*Compass (v0.6, DEC-65):* **south-west** of the hill, the lowest district and the nearest to the sea; from the Ninth the Crown Spire stands to the **north-east**, up the hill. At dawn the Ninth lies in the shadow of the hill: the first sun reaches the harbour before the lanes. In the evening the Crown Spire, seen from the Ninth, is front-lit by the setting sun. The open flood water beyond the evacuation gate (S01E01 Sc 1) lies to the south-west.
+
 ```canon
 id: PL-0009
 type: place
@@ -315,6 +350,8 @@ parent: PL-0005
 ```
 
 Seat of the Helm; tithe hall (Tithe Map reading, S01E01).
+
+*Compass (v0.6, DEC-65):* on the hill, east of the harbour. The tithe hall has **west** windows: the late-afternoon reading takes the last light through them (S01E01 Sc 10-12).
 
 ```canon
 id: PL-0010
@@ -374,6 +411,8 @@ parent: PL-0009
 
 Held by the sitting Helm in trust. Ione sings it in S01E01 and dies on it in S04E11.
 
+*v0.6 (DEC-65):* about **160 m**, foot to crown, the tallest standing Spire of Highwater; on the hill, east of the harbour. A Cantor singing the evening song on the crown faces **west**, into the low sun over the sea (S01E01 Sc 9).
+
 ```canon
 id: PL-0015
 type: place
@@ -383,6 +422,8 @@ kind: spire
 parent: PL-0013
 held_by: HS-090
 ```
+
+*v0.6 (DEC-65):* about **120 m**, foot to crown.
 
 ```canon
 id: PL-0016
@@ -394,7 +435,7 @@ parent: PL-0007
 held_by: HS-006
 ```
 
-Failing; under-sung to save Cantor fees. Ex-Harrow (to Fennick CY 251).
+Failing; under-sung to save Cantor fees. Ex-Harrow (to Fennick CY 251). *v0.6 (DEC-65):* about **90 m**, foot to crown.
 
 ```canon
 id: PL-0017
@@ -416,6 +457,8 @@ parent: PL-0004
 ```
 
 Where the Corvane flagship *Patient Gull* lies in S1.
+
+*Compass (v0.6, DEC-65):* **west** of the city, open to the sea; the sun sets over it.
 
 ```canon
 id: PL-0019
@@ -1403,11 +1446,11 @@ Still **draft** in v0.4: a working sheet (decisions_resolved 3.4), confirmed by 
 | Choir | G | the Choir |
 | Falls | A | Rusk (Vanth before CY 141) |
 | Storm | B | Quell |
-| Sunken | not fixed (lead and composer) | Ashare |
+| Sunken | not stated | Ashare (no theme before S5E10, HS-008) |
 
 No house theme uses the low register as its tonic.
 
-**The Spire hum (v0.5, draft with the table; composer's proposal):** the hum of the **eight living Spires** is built from octaves and fifths of the home tone only - no thirds; its fundamental is never below **C2**. The Sunken Spire is not covered by this line (its tone is not fixed: DEC-70).
+**The Spire hum (v0.5, draft with the table; composer's proposal):** the hum of the **eight living Spires** is built from octaves and fifths of the home tone only - no thirds; its fundamental is never below **C2**. The Sunken Spire is not covered by this line; its tone is not stated in this table (DEC-70, r6).
 
 
 ## 8. Life of the Lows and the Mids (v0.3; approved v0.4)
@@ -1483,7 +1526,12 @@ Status: **approved** by the lead screenwriter in r3 (writer-characters, `studio/
 ### 8.6 The Lady Below
 - **Belief:** the sea is a drowned mother who takes back what she is owed — no more, no less. The spiral shell is her sign; salt and shells are her offerings. Drowning is "going to the Lady"; a narrow escape is "the Lady spat you out".
 - **Saltwives:** her priestesses (Orrie): older women of the Lows who keep shell-shrines on moored hulks, wash the dead, bless boats, and judge small quarrels with a handful of salt.
-- **Worship is silent or whispered** (the Hush Law): prayers are said with the lips only, or **signed** with a short set of hand-shapes (proposal: a few overlap with Choir sign — nobody asks why). *v0.5:* which signs overlap is open (DEC-68); until it is decided, no Lows prayer sign that looks like a Choir sign is shown on screen. Fixed on screen: the Still Days palm over the mouth (S1E8) and the sunwise spiral drawn in the air (the Lady's sign; §1 for the turn).
+- **Worship is silent or whispered** (the Hush Law): prayers are said with the lips only, or **signed** with a short set of hand-shapes. A few of them match Choir sign - nobody asks why.
+- **Prayer signs that match Choir sign (v0.6, DEC-68):** **WATER (SG-006)** and **STILL (SG-007)**. In Lows prayer they are made **smaller, low at the waist**, often with the hand already wet. On screen from **S1E8** (the Still Days rite), together with the palm on the lips (LW-01) and the sunwise spiral drawn in the air (LW-02, the Lady's sign; §2 for the turn).
+  - **SILENCE (SG-003) does not match:** the Lows' sign of silence is the palm on the lips and nothing else.
+  - No other Lows prayer sign that looks like a Choir sign is shown until the lead names it in a season outline.
+  - In S1–S4 **nobody on screen remarks on the match**, in any language, signed or spoken; no subtitle glosses a Lows prayer sign.
+  - The first scene where a Choir character and a Lows character make the same sign is chosen by the lead in a season outline; helpers do not stage it on their own.
 - **The Steps** mock it ("shell-kissers"); the Choir tolerates it as harmless.
 - **The Quiet hides inside it** (`houses_overview.md` §3): the mud-spiral of the Quiet looks like a Lady's shell drawn in the silt. Most worshippers do not know the Quiet exists.
 

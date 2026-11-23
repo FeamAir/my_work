@@ -2,9 +2,9 @@
 
 > **CLOSED FILE - FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper, studio director. Writer-helpers, marketing, art and sound receive only excerpts decided by the director (`studio/status.md`). Never quote in public material, openings, previews or reports to the investor. Format: `README.md` §8a.
 
-Canon: v0.5 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings and of DEC-68…70; transfer by lore-keeper)
+Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings (J.1) and of the r6 rulings DEC-66…70 (J.2, J.3); transfer by lore-keeper)
 
-Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6) and r3 (§10). Role excerpts decided by the director: `../excerpts/` (v0.4).
+Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6), r3 (§10) and r6 (§11). Role excerpts decided by the director: `../excerpts/` (v0.4).
 
 ## A. Restricted secrets
 
@@ -565,11 +565,13 @@ Public cover: the Dry Queen "did not deny it".
 | DEC-46 | SEC-024 | See §H above: two pointer sentences not merged. |
 | DEC-48, DEC-51, DEC-52, DEC-56, DEC-57 | SEC-011, SEC-011b | Hollis in Odo's treasury (DEC-52) fits SEC-011b ("forged the record for Odo, S5"). Quire/Quiller clash: resolved, Quiller → Pryor (DEC-57). |
 
-| DEC-68 | SEC-003, SEC-014 | Lows prayer signs that overlap Choir sign: the common root is the people's chorus of Lirenne (§J). |
-| DEC-69 | SEC-014, SEC-018, SEC-021, SEC-025 | The look of a Spire answering the low part / many voices / the Answer, and the Sunken Spire stirring (§J). |
-| DEC-70 | SEC-018, SEC-025, SEC-027 | The Ashare theme on the Sunken tone = the shard's tone (§J). |
+| DEC-66 | — | Ruled r6: the flag's white disc and the outline Spire (§J.2). |
+| DEC-67 | SEC-004, SEC-017a | Ruled r6: the peoples table; fair-play rules for S04E10; keeper's check (§J.2, §J.3). |
+| DEC-68 | SEC-003, SEC-014 | Ruled r6: the common root is the people's chorus of Lirenne; reserved third sign (§J.2). |
+| DEC-69 | SEC-014, SEC-018, SEC-021, SEC-025 | The look of a Spire answering the low part / many voices / the Answer, and the Sunken Spire stirring (§J.2, ruled r6). |
+| DEC-70 | SEC-018, SEC-025, SEC-027 | The Ashare theme on the Sunken tone = the shard's tone; ruled r6 (§J.2). |
 
-All DEC items DEC-01…64 were ruled in r3; the restricted side of the rulings is §I. DEC-65…70 are open (v0.5).
+All DEC items DEC-01…64 were ruled in r3; the restricted side of the rulings is §I. DEC-65…70 were ruled in r6 (`studio/story/decisions_resolved.md` Part 5); their restricted side is §J.2 (DEC-65 has none).
 
 ## I. Restricted side of the r3 rulings (v0.4)
 
@@ -614,9 +616,11 @@ MV 1 = the year after SY 3 (= CY 329). The Great Chorus falls on the Still Days 
 
 `studio/canon/excerpts/`: `for_composer.md`, `for_director_and_artist.md`, `for_sound_director.md`. Each gives only the working rules a role needs for S1 and the standing constraints, without answers beyond what the work requires. The keeper updates them when a reveal airs or a later season's outline needs more.
 
-## J. v0.5 - restricted side of the keeper's rulings (2026-11-22)
+## J. Restricted side of the v0.5 keeper rulings and of the r6 rulings
 
-What the keeper told the roles in v0.5, and why (the roles received only the rule).
+### J.1 v0.5 - the keeper's rulings (2026-11-22)
+
+What the keeper told the roles in v0.5, and why (the roles received only the rule). *v0.6:* the rows on the light rule, the Ashare theme and the prayer signs are superseded by J.2 (kept as history).
 
 | Question (role) | Rule given | Restricted reason |
 |---|---|---|
@@ -629,3 +633,31 @@ What the keeper told the roles in v0.5, and why (the roles received only the rul
 | Ashare theme (composer) | Shown to the keeper first; no shared material, no reserved tone, not in S1 | HS-008 (approved) builds the Ashare theme on the Sunken Spire's tone with closed-mouth hum fragments before S05E10. The Sunken tone is the shard's tone (S01E12), and in the composer's sealed design (`studio/music/lullaby.md` §3.1) the lullaby's floor: an Ashare theme on that tone, hummed with the mouth shut, **is** the Low Note heard as Ashare's - it would point at SEC-025/SEC-027 (Ashare - lullaby - shard) long before S05E10/S10E10. Hence DEC-70. |
 | Lows prayer signs vs Choir sign (director) | None on screen until DEC-68 | Any overlap is read by fans as a clue to SEC-003/SEC-014. Keeper's **recommendation, not canon until DEC-68 is ruled**: the shared root is older than the Concord - the people's chorus of Lirenne kept signs to sing together in silence; the solo Choir kept them for its mutes, the Lows for prayer. Which signs, and from which season they may be noticed, is the lead's choice. |
 
+### J.2 r6 - restricted side of DEC-66…70 (v0.6)
+
+Source: `studio/story/sealed/master_mystery.md` §11 (lead screenwriter, r6). Open sides: `studio/story/decisions_resolved.md` Part 5 and the open canon (`world.md` §2, §3.2, §3.5, §7.10, §8.6; HS-005, HS-006, HS-008). DEC-65 has no restricted side.
+
+| DEC | Restricted ruling |
+|---|---|
+| DEC-66 (note) | The white disc of the Concord flag is **"still water" and nothing else**: never drawn as a pearl, never hinged, never black. The outline Spire at the foot is the **only** place the flag admits Lirenne. The epilogue flag of S12E13 is the S12 outline's choice (nine filled is the obvious image; not decided). |
+| DEC-67 | The two open rules ("look is never proof of descent"; "paleness is a way of life, not blood") are the **fair-play sentences for S04E10**: true in the open canon from the start. Ione (CH-0002, SEC-004 - born Ama, of the Lows) must stay *possible* inside the Delta folk range under an indoor life and the Cantors' rinse; Nell (SEC-017a) likewise inside hers. No people may be given a trait that would make either reveal impossible or obvious. **Keeper's check v0.6: passed** - see J.3. |
+| DEC-68 | **Reason - approved as canon (the keeper's v0.5 proposal accepted):** the signs are older than the Concord. The people's chorus of Lirenne used hand signs to hold many singers together and to rehearse in silence; after OS 700 the solo Choir kept them for its mutes, the Lows kept a few as prayer. They are **conducting signs**; WATER and STILL are the two commonest calls of a chorus-leader. **Reserved third match: MANY (SG-026)** - in the old use, the call for the low part to come in. Not in any Lows prayer before **S5** (first: **S05E11**, the Night of a Thousand Voices: a Quiet elder makes it over the crowd and the crowd answers). Until then MANY is not listed among the matches in any helper-readable file. Vesna's own use of it (S02E09, "the noise of the many", SEC-020) stays a Choir sign only. **Planned ladder:** S01E08 plant (WATER, STILL in the rite) → S01E11 Vesna signs STILL in the Ring → S04E08 Elm's spiral to Pell → S05E11 MANY → S08E10 the archive shows the signs drawn beside the ten staves → S12E12 Pell signs the last line and the chorus follows her hand. The cause is spoken aloud **no earlier than S08E10** (with SEC-014). |
+| DEC-69 | **The ladder of the look** (states L1…L5 in the VFX excerpt; the excerpt carries no reasons). **L1 - solo high voice** (all of S1-S2): blue-white light **in the grooves only**, thin and cold, descending from the crown; it leaves from the crown downward - lit from above, by one throat, held by nothing. **L2 - low sound at a stone that is not a Spire** (the shard, the lime-pit wall): never light; tremor and rings. **L3 - the hum joining a Spire already lit by a solo** (S01E05, S01E10): light does not change colour or path; it only stops flickering. **L4 - the low part reaching a Spire with no high voice** (S03E10 the Sunken Spire stirs; S09E05 the First Raising, first phase): **no light at all**; the Spire "breathes" - rings on the water round its foot, a slow pulse of the hum; grooves dark. S01E12 already obeys this (the Sunken crown rings, it does not light). **L5 - the full chord** (high part and the Low Note together): a **second light, warmer, rising from the foot**, sitting **in the depth of the stone**, not only in the grooves (lamp behind shell); where it meets the descending blue-white the tower is lit whole and steady. It fades **from the foot last** - the many let go last. **First seen: S04E11** (the duet at the silent Crown Spire, RULE-014): the warm light climbs only the first three turns; nobody in the scene names it. **First seen in full: S05E11** (the Thousand Voices). S09E05: full on the Sunken crown above water only. **S11E12** (the Answer): the Sunken Spire lights from the foot, under the sea - the first light of Lirenne. S12E12: every Spire, whole. *Why it is fair:* the solo look is shown from the first episode as light from the top only; the foot of every sung Spire in S1-S4 is dark stone in water (**dark-foot rule: no glow and no bounce-light at the foot before S04E11**). **Forbidden until the episode named:** warm or rising light on any Spire - before S04E11 on screen; before S05E11 in marketing, openings, endings and previews. Any light on the Sunken Spire - before S09E05 above water, before S11E12 below. **The shard never glows**, including S12E11 (stone and ring are fitted in sound and in water, not in light). |
+| DEC-69 (VFX excerpt) | Needed, not for S1-S2. Issued by the director before the S3 storyboards, rules only: the look table (state → what is seen), the episodes and the state allowed in each, the forbidden list, the dark-foot rule. **No reasons**: not who sings, not what the low part is, no SEC codes, no word "chorus" or "Low Note"; states named L1…L5 only. Season by season: S3-S4 first; L5 in full only with the S5 package. Prepared by the keeper: `excerpts/for_vfx_S3-S4.md` (v0.6, **not issued**). |
+| DEC-70 | **Tone of the Sunken Spire = B flat** (composer's proposal, `studio/music/lullaby.md` §3.1, approved): outside the eight living home-tones; the floor of the lullaby; the shard's tone (B flat 1 with partials on screen); the tone of the Sunken crown in S01E12. Open copies of `world.md` §7.10 keep "Sunken - not stated". **Ashare theme, conditions.** S1-S05E09: none. **S05E10** (first statement, the Spiral Book and the flashback): instrumental only, high register, its **own** melodic material; B flat may sound under it as a bare held tone, never as a hummed or sung line; no closed-mouth voice; no interval cell of the five-note phrase. *Why safe at S05E10:* SEC-002 is out since S03E10, the Sunken crown has rung on that tone since S01E12, and the same episode shows Neveh prising the stone from the ring uncommented - the tone under Ashare is by then a fair clue, not a leak; what stays protected is the *voice* (SEC-025) and the *ring* (SEC-027). **From S08E08** the theme may be heard in the same scene as the shard. **S10E10:** theme and lullaby joined for the first time; only here does the closed-mouth hum belong to Ashare (the withdrawn HS-008 idea returns as the reveal itself). **Never beside the ring before S12E11.** Marketing: no Ashare theme before S05E10 has aired; no joined version before S10E10. Composer's excerpt §1 p. 2, §3 p. 10-11 (v0.6) carry the conditions without the reasons. |
+
+### J.3 Keeper's check of the main characters against the peoples table (DEC-67, v0.6)
+
+Approved look lines of the main and second-circle characters checked against `world.md` §3.5. **No conflict; nothing changed on either side.**
+
+| Character | Recorded look | People (public) | Result |
+|---|---|---|---|
+| Pell CH-0001, Wick CH-0007, Silt CH-0014, Nan CH-0015 | olive-brown / dark-olive / deep brown | Delta folk | inside the range |
+| **Ione CH-0002** | "pale indoor skin - paler than any Lows face"; silver by rinse; olive undertone allowed (v0.5, director's choice) | the old houses of the Steps (public) | **SEC-004 stays possible:** Delta folk run from light olive; a girl raised under a roof from the gleaning is paler than any outdoor Lows face (rule 2), and the rinse hides the hair (dark roots S3-S4). The olive undertone is the fair trace - **recommend the director keep it**. Not obvious: the Steps are "families, not a people", so no face marks her out. |
+| **Nell CH-0044** | short sandy hair; Corvane navy; Gullmouth naval accent (skin not recorded) | Gullmouth coast folk (public: Corvane navy) | **SEC-017a stays possible:** sandy hair is inside both ranges (Delta folk: no trait required; Gullmouth: sun-bleached hair); her accent is learned, not born. Not obvious, as long as her skin, when it is drawn, stays inside the Delta folk range and does not lean to one end of it. |
+| Elm CH-0022 | olive delta skin, "Lows-born, unremarked in the Choir" | Delta folk | inside; consistent with rule 1 |
+| Hollis CH-0003, Odo CH-0010, Ursel CH-0011, Vesna CH-0012, Cressa CH-0021 | light / pale / light-brown / pale / fair pink-pale | Mids, the Steps | inside (grooming and indoor life) |
+| Ruel CH-0005, Maren CH-0006 | deep sea-weathered tan; warm brown, darker than her father | Gullmouth coast folk | inside |
+| Jaro CH-0019 | deep brown island skin | Shoals islanders | inside |
+| Kes CH-0004, Brenna CH-0018 | ruddy, weathered upland skin | Uplanders | inside |
+| Tsura CH-0013, Esk CH-0040 | deep brown / brown "upland" skin | Ossari | inside; note: "upland skin" in their records means the plateau (usage note in `world.md` §3.5). Esk's Ossari descent through Akko (CH-0078) is not touched by any trait. |

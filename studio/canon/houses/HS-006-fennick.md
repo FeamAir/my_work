@@ -1,6 +1,6 @@
 # House Fennick (HS-006)
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.6 · Status: **approved** (foundation r2, approved by the director 2026-11-22; v0.6 colour note DEC-66; transfer by lore-keeper)
 
 Foundation-level record (`houses_overview.md` r2). The full dossier by `writer-houses` is merged below (v0.3); approved by the lead screenwriter in r3 (`studio/story/decisions_resolved.md`), folded in v0.4.
 
@@ -107,6 +107,7 @@ Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lor
 - **Five recognisers:** slate grey + sulphur yellow; the grey hare with raised ears; grey robes with yellow linings, shaved heads, the hare's-ear brooch; a narrow stone house crowned by a relay tower, walls of pigeon-holes; a ticking pizzicato over a drifting C-sharp.
 - **Sigil drawing:** a seated grey hare in profile, both ears straight up and slightly apart, one eye visible; field sulphur yellow. Keep the yellow acid, not gold.
 - **Colour cautions:** slate grey is Fennick's — Corvane silver is a metal accent, never a field; keep Listeners' coats matte grey.
+- **Two greys (v0.6, DEC-66):** the house colour (**slate grey**) and the colour of the Helm's office (**storm-grey**, the field of the Concord flag, `world.md` §3.2) are **different greys**: storm-grey is lighter and warmer. From S1E11/S1E12 Fennick banners and the Helm's flag stand side by side (Odo Helm from S1E12) - they must stay tellable in every frame. A Fennick Helm keeps the slate house colour on his person; the storm-grey belongs to the office.
 - **Crowds:** Listeners are hooded and faceless by design; relay towers at night with stones glowing faintly.
 
 
