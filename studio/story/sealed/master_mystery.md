@@ -156,7 +156,7 @@ Format: episode — what is shown/said — how it reads first time / after revea
 ### SEC-003 (saga) — the Breaking → S5E10 (incl. Pell–Oshra, Maren–Corvane links)
 | Ep | Clue |
 |---|---|
-| S1E1 | Cold-open tapestry: Neveh singing with **crowds** behind her (Chronicler: "her mad court"); a servant girl with a **left braid** holding a spiral shell; a cormorant sail blocking the harbour. |
+| S1E1 | Cold-open tapestry: Neveh singing with **crowds** behind her (Chronicler — Revision r5, 2026-11-22: *"In the last year of the old kingdom, the nine warden families found Queen Neveh past reason, and her court with her."*; the earlier wording "her mad court" is withdrawn); a servant girl with a **left braid** holding a spiral shell; a cormorant sail blocking the harbour. |
 | S1E2 | Nan's family name is **Oshra** — "an old Lows name, it means nothing". |
 | S1E8 | Still Days rite: commoners kneel with a hand over the mouth during the retuning. Wick: *"Why do we cover our mouths?"* Nobody knows. |
 | S2E5 | In Pale Crag's crypt Ione sees a relic "spear of the Breaking" — an Ilvane spearhead, not a weapon for fighting a "mad queen" alone, but one of hundreds in a rack. |
