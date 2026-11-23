@@ -90,7 +90,7 @@ Avoid: text, letters, mottos, banners with words, shield outline, crown, gradien
 ### H-10 Оссари (HS-091) *(рисунок — предложение)*
 - **Описание:** поле **пыльно-белое**; **песочно-оранжевый ромб-змей** с **хвостом из трёх узлов**.
 - **Цвета:** `#ECE6D8` · `#D9A066` (светлый, пыльный — не охра Дасков) · бечева `#7A5A3A`.
-- **Внимание:** знаки «мать» и «дом» в коде змеев — отдельная задача (код сдаётся хранителю; не путать герб с сигнальными змеями).
+- **Внимание:** герб — не сигнальный змей; сигнальные змеи и их код — отдельная задача.
 - **Промпт:** `{EMBLEM_STYLE}, dusty white field, a sand-orange diamond-shaped kite seen flat, thin crossed spars visible, a long thin tail string hanging down with exactly three small knots, light dusty orange not ochre. {EMBLEM_AVOID}`
 
 ### H-11 Гильдия насосников (HS-092) *(предложение)*
