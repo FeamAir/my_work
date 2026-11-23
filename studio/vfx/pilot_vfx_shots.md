@@ -1,6 +1,24 @@
 # S1E01 «The Ninth Sluice» — покадровая постановка сцен-«денег»
 
-Версия 1.0 · 2026-11-22 · автор: постановщик битв и спецэффектов
+Версия 1.1 · 2026-11-22 · автор: постановщик битв и спецэффектов
+
+> **r1 (2026-11-22):** внесены 9 отступлений раскадровщика (`reports/storyboard-artist-2026-11-22.md`), подтверждённые режиссёром, и решения режиссёра r4 (`direction/S01E01_storyboard_acceptance.md` §4.2). ID кадров сохранены; номера кадров раскадровки — в `studio/storyboard/S01E01/`. Где таймкоды ниже расходятся с раскадровкой, верна раскадровка (сценарий v1.0.1).
+>
+> | # | Что изменилось | Где |
+> |---|---|---|
+> | 1 | 1B и 1C слиты в один кадр sc01-sh030 («One shot» сценария): фонари гаснут и вода растёт в одном плане | 1B, 1C |
+> | 2 | 1D перенесён в верхний геокадр [0:10]: вода с толпой по эту сторону стены, сухие ступени — по ту | 1D |
+> | 3 | 1G — 4 с вместо 7 (тишина ≤ 2 с) | 1G |
+> | 4 | 1A — 3 с; клип K3 5 с вместо 10 с | 1A |
+> | 5 | 1I по сценарию: лодка полна закутанных фигур, младенец сидит | 1I |
+> | 6 | Добавлены кадры сценария без VFX-ID: пустая колыбель сверху, створки, глаза в щели, общий план крыш, лодка издали — LA/MM по раскадровке | Сц. 1 |
+> | 7 | 9L перенесён в начало Sc 13 (порядок 9 → 13) | 9L |
+> | 8 | В 9B и 9I солнце **впереди** Ионы и **за спинами** Пелл и Уика (DEC-65), а не «слева» | 9B, 9I, шапка M3 |
+> | 9 | 20A — дрожащий кулак (камень в кулаке с Sc 19); 20B — камень лежит на ладони, а не висит на шнурке | 20A, 20B |
+> | Р1 | **3D, 9B, 20B — класс D: финал сразу на Kling 3 Pro** (2 черновика MM + до 5 дублей K3): обложки и тизеры | 3D, 9B, 20B |
+> | Р2 | **Руки Sc 18 (sc18-sh060/070) — Kling 3 Pro**, пара к 1E | Прочие VFX |
+> | Р3 | **9L — тёмное подножие** в промпте | 9L |
+> | Р4 | **3B — напев укладывается в первые 3,5 с**, дальше неподвижное лицо (шипение Уика 3,6–4,6 с, точка входа V2) | 3B |
 Основа: `story/episodes/S01E01/beat_sheet.md` v1.1, `production_notes.md` v1.1 (§1 M1–M6), закрытая выдержка для режиссёра и художника, `vfx/magic_look.md`, `vfx/water_and_disaster.md`.
 Для: режиссёра (сводит в общий шот-лист серии по `direction/shotlist_template.md`), художника-концептера (референсы), IT-инженера (сборка LA).
 Статус: **черновик постановки для раскадровки.** Ничего не генерируется до утверждённой раскадровки и аниматика (решение директора: пилот — сначала аниматик из дешёвых кадров со звуком, инвестор смотрит его).
@@ -45,7 +63,7 @@
 **Карта воды:** течение справа налево (от ворот к открытой воде); дождь из левого верхнего угла, 15°; ворота — справа в кадре, открытая вода — слева; уровень растёт. Свет: модуль `LOWS_NIGHT_FLOOD` (v2): янтарь фонарей `#E39B3A`, чёрно-бирюзовая вода; акцент сцены — янтарь фонаря. Музыки нет до 0:35.
 **Переиспользование:** все плейты, маски и движения камеры сохраняются как `S1-SC01-*` — E10 повторяет сцену кадр в кадр (тот же переулок, тот же косяк, те же ворота).
 
-### 1A · 0:00–0:08 · общий, уровень глаз · 8 с · HERO — колыбель
+### 1A · 0:00–0:03 · общий, уровень глаз · 3 с · HERO — колыбель (r1: 3 с)
 - **Что:** колыбель плывёт по середине *улицы*, вода до притолок, медленно поворачивается; рядом на столбе ещё горит фонарь. Первый кадр серии: читается за полсекунды на телефоне.
 - **Композиция:** колыбель в центре (безопасная зона 9:16), фонарь — правее и выше; переулок уходит в глубину; дверной косяк с отметками прилива — правый передний план (тот же, что в сц. 2).
 - **Камера:** статика с очень медленным наездом (≈5% за 8 с).
@@ -64,17 +82,18 @@ Very slow push-in. The cradle drifts slowly from right to left with the current 
 turn, rocking on small ripples; rain rings on the water; the lantern flame flickers and its reflection
 trembles. Nothing else moves, no people appear. {MOTION}
 ```
-- **Черновик:** MM 10 с ×1–2 · **Финал:** K3 10 с (≤5) · **Резерв LA:** вырезанная колыбель `LA-FLOAT` по плейту W-1 + `LA-RAIN` + `LA-REFLECT` + мерцание фонаря.
+- **Черновик:** MM 6 с ×1–2 · **Финал:** K3 5 с (≤5), берём лучшие 3 с · **Резерв LA:** вырезанная колыбель `LA-FLOAT` по плейту W-1 + `LA-RAIN` + `LA-REFLECT` + мерцание фонаря.
 - **Приёмка:** колыбель пустая, без узла; не меняет форму; течение справа налево; лиц нет.
 
-### 1B · 0:08–0:13 · общий, тот же переулок · 5 с — фонари гаснут
+### 1B · общий, тот же переулок — фонари гаснут (r1: слит с 1C в sc01-sh030)
 - **Что:** фонари на мостках гаснут один за другим, от дальнего к нам.
 - **Камера:** статика.
 - **KF:** плейт W-1 в состоянии «вода до притолок» (NB edit от 1A без колыбели) — `Keep everything identical. Remove the cradle. Add a row of six small lanterns on posts along the plank walkways receding into depth.`
 - **Движение:** только LA — `LA-LANTERN-OUT` (6 масок, интервал 0,7 с, отражение гаснет на 2–3 кадра позже) + `LA-RAIN`.
 - **Модель:** нет (LA) · **Резерв:** не нужен.
 
-### 1C · 0:13–0:18 · крупный, косяк · 5 с — вода выше всех отметок
+### 1C · вода выше всех отметок (r1: слит с 1B в sc01-sh030)
+- **r1:** один план — переулок с косяком на переднем плане; `LA-LANTERN-OUT` и `LA-RISE` идут одновременно в одной плите (композиция по раскадровке). Ниже — исходные элементы, из которых собирается общий кадр.
 - **Что:** вода поднимается по «лестнице» отметок прилива на дверном косяке, проходит самую верхнюю.
 - **Камера:** статика; вода поднимается в кадре.
 - **KF (NB2, два состояния одной композиции):**
@@ -88,7 +107,8 @@ covers the lower part of the post, rain rings on its surface, warm lantern light
 - **Модель:** нет (LA). Этот же косяк — сц. 2 (сухой, отметка той ночи высоко над другими) и сц. 19.
 - **Приёмка:** отметки — без читаемых цифр/букв (надписи, если нужны, — монтажом).
 
-### 1D · 0:18–0:24 · общий, низкий ракурс · 6 с — толпа у ворот
+### 1D · [0:10] · верхний геокадр — толпа у ворот (r1: перенесён)
+- **r1:** кадр становится верхним геокадром: по эту сторону стены — вода и толпа (силуэты, без лиц), по ту — сухие ступени. Промпт ниже — исходный; ракурс, камера и длительность — по раскадровке (верхний план), правила те же: ворота справа, лиц нет.
 - **Что:** толпа в темноте у огромных ворот; силуэты против света фонарей с той стороны; дождь.
 - **Композиция:** ворота справа (карта воды); толпа — сплошная масса спин и поднятых рук, **ни одного лица**.
 - **KF (NB2):**
@@ -128,7 +148,7 @@ lantern light catching the wet knuckles. No faces visible. {STYLE}
 - **Motion:** `Static camera. Fists hit the bars and hands grip and shake them, rain splashes off the iron. No faces. {MOTION}`
 - **Черновик:** MM 5 с · **Финал:** K25 5 с (≤5) · **Резерв LA:** статичный кадр, удары — микротряска кадра + вспышка блика на костяшках синхронно со звуком.
 
-### 1G · 0:35–0:42 · под водой · 7 с — тишина
+### 1G · под водой · 4 с — тишина (r1: 4 с, тишина ≤ 2 с)
 - **Что:** тишина под водой. Затем сверху — женский хамминг (пять нот, звук).
 - **KF:** W-3 (`water_and_disaster.md` §8).
 - **Движение:** LA — медленный подъём пузырей (слой), дрейф ткани, свет фонаря сверху «дышит».
@@ -147,15 +167,16 @@ around, a faint warm glow of distant lanterns behind her, heavy rain. Pure silho
 - **Черновик/финал:** MM 10 с (финал на MM; ≤5) · **Резерв LA:** параллакс + `LA-RAIN` + «дыхание» силуэта (масштаб ±0,5%).
 - **Приёмка:** коса слева; лица нет; ничего не светится (хамминг не «магичен»).
 
-### 1I · 0:50–1:00 · средний, лодка · 10 с · HERO — младенец отвечает
-- **Что:** спасательная лодка с одним фонарём; запелёнатый младенец в ней «отвечает» двумя нотами (звук).
+### 1I · средний, лодка · 10 с · HERO — младенец отвечает
+- **Что (r1, по сценарию):** спасательная лодка с одним фонарём **полна закутанных фигур** (силуэты, лиц нет); **младенец сидит** среди них и «отвечает» двумя нотами (звук).
 - **KF (NB2):**
 ```
 Night, medium shot of a small wooden rescue boat on black flood water, a single lantern on a short pole at the bow
-with warm gold light, in the bottom of the boat a tightly wrapped baby bundle in pale cloth, the baby's face hidden
-in the folds, rain rings on the water, dark stilt houses behind. No adult visible. {WATER_STYLE}. {STYLE}
+with warm gold light, the boat crowded with hunched figures wrapped in shawls and blankets, faces hidden in
+hoods and shadow; among them a small baby sits upright, wrapped in pale cloth, seen from behind and side, face
+not visible; rain rings on the water, dark stilt houses behind. No readable faces. {WATER_STYLE}. {STYLE}
 ```
-- **Motion:** `Static camera. The boat rocks gently on small ripples and drifts slightly left, the lantern sways and its reflection trembles, the cloth bundle moves very slightly as if breathing. {MOTION}`
+- **Motion:** `Static camera. The boat rocks gently on small ripples and drifts slightly left, the lantern sways and its reflection trembles, the wrapped figures sway with the boat, the baby moves its head very slightly. No one turns to camera. {MOTION}`
 - **Черновик:** MM 10 с · **Финал:** K25 10 с (≤5) · **Резерв LA:** `LA-FLOAT` лодки + качание фонаря (поворот слоя ±3°) + `LA-REFLECT`.
 - **Приёмка:** лица младенца не видно; свёрток не меняет форму.
 
@@ -218,7 +239,8 @@ in the mud holding the rope with both fists. Wet silt, mossy stones, pale turquo
 ### 3B · ~2:48 · крупный, тихий · 5 с — Пелл хмыкает от страха
 - **Что:** немой крупный план: она, не замечая, хмыкает три ноты закрытым ртом (звук). Без липсинка.
 - **KF (NB2):** `Close-up of {PELL} in three-quarter profile facing right, looking down at dark water below frame, lips pressed shut, nostrils flared, a drop of sweat at her temple, cold morning light from the right reflected from the water. {STYLE}`
-- **Motion:** `Static camera. Her throat moves slightly as she hums with closed lips, her breathing is shallow, eyes fixed down. Mouth stays closed. {MOTION}`
+- **Motion:** `Static camera. For the first three seconds her throat moves slightly as she hums with closed lips, then she goes completely still, holding her breath, eyes fixed down. Mouth stays closed. {MOTION}`
+- **r1 (решение режиссёра):** напев укладывается **в первые 3,5 с** клипа; дальше лицо неподвижно (под шипение Уика 3,6–4,6 с, отдельная дорожка; точка входа V2). При приёмке — проверить, что движение горла кончилось к 3,5 с.
 - **Черновик:** MM 5 с · **Финал:** K25 5 с (≤5) · **Резерв LA:** статика + микронаезд + дыхание (масштаб ±0,5%).
 
 ### 3C · ~2:55 · вставка · 3 с — грабли зацепились
@@ -234,7 +256,7 @@ Extreme close-up: a rake tine lifting out of black water, from it hangs a rotted
 the black pool behind. {STYLE}
 ```
 - **Motion:** `Static camera. The stone rises clear of the water on its cord, drops of water fall from it, the stone trembles very slightly on the cord. The stone does not glow. {MOTION}`
-- **Черновик:** MM 5 с · **Финал:** K25 5 с (≤5), эскалация — K3 · **Резерв LA:** стоп-кадр + `VFX-SHARD-TREMOR` + капли (слой) + кольца у точки выхода.
+- **Черновик:** MM 6 с ×2 · **Финал (r1, класс D):** K3 5 с сразу (≤5) — стоп-кадр идёт на обложку B и в V2 · **Резерв LA:** стоп-кадр + `VFX-SHARD-TREMOR` + капли (слой) + кольца у точки выхода.
 - **Приёмка:** камень — не больше ногтя большого пальца относительно зубцов граблей; трещина поперёк; свечения нет; перстня/жемчужины нет нигде в соседних кадрах.
 
 ### 3E · 3:00–3:06 · общий, верхний ракурс · 6 с · HERO — кольца по всему пруду
@@ -254,7 +276,7 @@ the black pool behind. {STYLE}
 
 ## M3 · Сц. 9 — корона (1:45)
 
-**Карта:** Иона в горле короны **спиной** к камере, смотрит на гавань; гавань — внизу перед ней; закатное солнце — слева (`STEPS_GOLD`). Перекрёстный монтаж: крыша в Девятом, Пелл и Уик **спиной**, далёкий светящийся Шпиль — в правой трети. Акцент сцены — **бело-голубой Шпиля** (v2 §3.5: закон мира); золото низкого солнца — ключевой свет, не акцент.
+**Карта:** Иона в горле короны **спиной** к камере, смотрит на гавань; гавань — внизу перед ней; низкое солнце **впереди Ионы** (она смотрит на запад, на солнце; камера сзади — контровой свет, DEC-65) (`STEPS_GOLD`). Перекрёстный монтаж: крыша в Девятом, Пелл и Уик **спиной**, далёкий светящийся Шпиль — в правой трети. Акцент сцены — **бело-голубой Шпиля** (v2 §3.5: закон мира); золото низкого солнца — ключевой свет, не акцент.
 **Звук:** один чистый тон; гул Шпиля «под» ней; шум моря **вычитается** на фронте стекла (`magic_look.md` §4.1). Музыки нет, пока она поёт.
 **Библиотека:** кадры 9B, 9D, 9E — `VFX-CROWN-*`, переиспользуются каждый раз, когда поют Шпиль в сезоне.
 
@@ -271,10 +293,10 @@ Medium-wide shot from directly behind: {IONE} stands alone in an open arched thr
 black glassy tower, back to camera, head slightly raised, arms at her sides, a silver tuning fork glinting at her
 breastbone seen only as a glint, her white robe and violet throat-band, long silver hair with two side-plaits joined
 behind whipping in a strong wind; far below and in front of her a harbour city and a fleet of tall ships on choppy
-water under a golden late-afternoon sun from the left. {STYLE}
+water, a low golden sun ahead of her over the sea, her figure rim-lit against it. {STYLE}
 ```
 - **Motion:** `Locked-off camera. Strong wind snaps her robe and hair; her shoulders rise slowly as she draws a long breath and hold still as she sings; she never turns her head. Far below, the water is choppy. {MOTION}`
-- **Черновик:** MM 10 с · **Финал:** K25 10 с (≤5) · **Резерв LA:** ключевой кадр + ветер только на волосах/ткани через короткий MM-клип с вырезанной маской фигуры, или полностью LA: медленный отъезд + пыль/соль в воздухе.
+- **Черновик:** MM 6 с ×2 · **Финал (r1, класс D):** K3 10 с, только стартовый кадр (≤5) — обложка A и V3; ключевой кадр в 2K+ с запасом по краям под кроп · **Резерв LA:** ключевой кадр + ветер только на волосах/ткани через короткий MM-клип с вырезанной маской фигуры, или полностью LA: медленный отъезд + пыль/соль в воздухе.
 - **Приёмка:** лица нет; волосы серебряные, две боковые косы соединены сзади; без липсинка.
 
 ### 9C · 0:15–0:20 · общий снаружи · 5 с — гул
@@ -313,7 +335,7 @@ water under a golden late-afternoon sun from the left. {STYLE}
 - **Движение:** LA — рябь (`displace`) с уменьшающейся амплитудой до ~40% и **не** до нуля (L3: далеко от Шпиля и за домами).
 
 ### 9I · 0:57–1:05 · средне-крупный, три четверти со спины · 8 с — «Water doesn't care who you are.»
-- **KF (NB2):** `Medium close-up of {PELL} from three-quarter behind, looking toward a distant glowing tower, her mouth barely visible, her left hand resting on a thin cord at her neck that disappears under her oilskin. {STYLE}`
+- **KF (NB2):** `Medium close-up of {PELL} from three-quarter behind, looking toward a distant glowing tower with the low sun behind her back, her mouth barely visible, her left hand resting on a thin cord at her neck that disappears under her oilskin. {STYLE}`
 - **Motion:** `Static camera. She speaks a short line with minimal visible mouth movement, her fingers close around the cord at her neck. {MOTION}`
 - **Финал:** MM 10 с (≤5) · **Резерв LA:** статика, реплика на мелком рте (`[MS]`, без синка).
 - **Приёмка:** осколок не виден (под одеждой) — только шнурок; перстня Руэла в соседних кадрах нет.
@@ -327,8 +349,9 @@ water under a golden late-afternoon sun from the left. {STYLE}
 - **Motion:** `Static camera. Her hand rises to her throat and rests there; she swallows twice, the throat moving under the band; then she lowers her head and turns away from the opening. {MOTION}`
 - **Черновик:** MM 5 с · **Финал:** K25 10 с (≤5) · **Резерв LA:** два кадра (рука опущена / у горла) — наплыв 0,5 с + дыхание.
 
-### 9L · переход · 5 с
-- Стеклянная гавань через высокое окно — уже зал (сц. 10). LA: плейт окна + плейт MK-3 «стекло» в окне, наезд. Связь с библиотекой: тот же плейт гавани.
+### 9L · переход · 5 с (r1: перенесён в начало Sc 13 — sc13-sh010)
+- Стеклянная гавань и светящийся Шпиль через высокое окно счётного зала (Sc 13 — пересечение по времени с Sc 9). LA: плейт окна + плейт MK-3 «стекло» в окне, наезд.
+- **Тёмное подножие (r1, выдержка v0.6):** в промпт плейта добавить `the spiral grooves glow from the crown down to the lowest turns, the foot of the tower stays dark with no glow and no reflections`.
 
 ---
 
@@ -401,20 +424,21 @@ woman in black and copper is the only one writing. Felt floor, ledgers, water-gl
 **Карта:** одна комната, одна лампа (тёплая, справа); Пелл сидит на сундуке слева, Уик справа у стола; миска с водой на столе в центре. Акцент — золото лампы. Облик осколка здесь фиксируется на 12 сезонов.
 **Звук:** на третьем ударе смертного тона — низкий тон осколка; держится 1 с в чёрном.
 
-### 20A · средне-крупный, руки · 4 с — шнурок из-под плаща
-- **KF (NB2):** `Medium close-up of {PELL}'s hands pulling a thin rotted cord out from under the collar of her tar-brown oilskin, lamplight from the right. {STYLE}`
-- **Motion:** `Static camera. Her fingers draw the cord up out of her collar slowly until a small dark stone comes free and swings. {MOTION}`
-- **Черновик:** MM 5 с · **Финал:** K25 5 с (≤5) · **Резерв LA:** два кадра (шнурок у ворота / камень снаружи), наплыв.
+### 20A · средне-крупный, руки · 4 с — дрожащий кулак (r1)
+- **Что:** камень уже в кулаке Пелл с Sc 19; кулак мелко дрожит в такт низкому тону, прежде чем она его раскрывает.
+- **KF (NB2):** `Medium close-up of {PELL}'s closed fist resting on her knee, a thin rotted cord trailing out between her fingers, warm lamplight from the right. {STYLE}`
+- **Motion:** `Static camera. The closed fist trembles very slightly and rhythmically, the cord between the fingers quivers; the fingers begin to loosen. {MOTION}`
+- **Черновик:** MM 6 с · **Финал:** K25 5 с (≤5) · **Резерв LA:** L-12 (2 рисунка: кулак сжат / пальцы ослаблены) + дрожь слоя ±1 px.
 
-### 20B · макро · 6 с · HERO — камень гудит в свете лампы
+### 20B · макро · 6 с · HERO — камень гудит на ладони (r1)
 - **KF (NB2, реф: осколок; затем это эталон предмета):**
 ```
-Macro shot: {SHARD_DESC} hanging still on its cord in front of a dark room, warm lamplight from the right
-catching the edge of the crack, the stone small enough to be dwarfed by the two fingertips holding the cord
-at the top of frame. {STYLE}
+Macro shot: {SHARD_DESC} lying in the middle of an open palm, the rotted cord trailing off the hand, warm
+lamplight from the right catching the edge of the crack, the stone small, about the size of a thumbnail
+against the palm. {STYLE}
 ```
-- **Motion:** `Locked-off macro. The stone trembles very fast and very slightly on its cord, the cord vibrates, a warm lamp highlight crawls along the crack. The stone does not glow, does not spin. {MOTION}`
-- **Черновик:** MM 5 с · **Финал:** K25 5 с (≤5) · **Резерв LA:** `VFX-SHARD-TREMOR` (сдвиг ±1–2 px, 12–15 Гц) + блик-слой вдоль трещины.
+- **Motion:** `Locked-off macro. The stone trembles very fast and very slightly on the palm, the cord vibrates, a warm lamp highlight crawls along the crack. The stone does not glow, does not spin, does not roll. {MOTION}`
+- **Черновик:** MM 6 с ×2 · **Финал (r1, класс D):** K3 5 с сразу (≤5) — эталон предмета и финал серии · **Резерв LA:** `VFX-SHARD-TREMOR` (сдвиг ±1–2 px, 12–15 Гц) + блик-слой вдоль трещины.
 - **Приёмка:** размер — с ноготь (по пальцам); трещина поперёк; свечения нет. **Перстня нет ни здесь, ни в соседних кадрах.** Этот кадр не используется рядом с жемчужиной ни в каком промо.
 
 ### 20C · вставка · 4 с · HERO — миска звенит кольцами
@@ -451,7 +475,7 @@ at the top of frame. {STYLE}
 | 8 | Ступени-спираль внутри Коронного Шпиля, бороздки | плейт PL-0014; спираль по солнцу; без света |
 | 13 | Стаканы воды на столах замирают, когда поёт Шпиль | «стекло в миниатюре»: LA — рябь в стакане гаснет (маска), свет Шпиля в окнах (Spire-light вдали, MK-2) |
 | 17 | Стена эхо-камней звенит; Одо останавливает один пальцем | `VFX-RELAY-SHIMMER` на плейте стены; у одного камня мерцание обрывается мгновенно |
-| 18 | Руки Кес на засове | **точная рамка `S1-SC01-HANDS`** (1E): тот же объектив, ракурс, сторона, засов налево; руки старше, тот же хват; свет — сумерки вместо фонаря |
+| 18 | Руки Кес на засове (sc18-sh060/070) | **точная рамка `S1-SC01-HANDS`** (1E): тот же объектив, ракурс, сторона, засов налево; руки старше, тот же хват; обшлага — **чёрная стёганка, без табарда и цвета дома** (решение режиссёра по выдержке); свет — сумерки вместо фонаря. **r1: финал — Kling 3 Pro** (как 1E, иначе не совпадёт фактура), start+end, черновик MM ×2, ≤5 |
 | 19 | Фонари в дверях загораются; вода вернулась в переулки | `LA-LANTERN-OUT` в обратную сторону; плейт W-1 «сумерки, прилив» |
 
 ---
@@ -462,18 +486,21 @@ at the top of frame. {STYLE}
 
 | Сцена | Кадров | Финалы ожидаемо | Финалы потолок | Черновики MM |
 |---|---|---|---|---|
-| M1 сц. 1 | 11 (4 HERO) | $8.15 | $20.38 | $1.05 |
+| M1 сц. 1 | 11 ID (4 HERO; 1B+1C — один кадр) | $6.75 | $16.88 | $1.05 |
 | E-1 сц. 2 | 1 | $0 (LA) | $0 | — |
-| M2 сц. 3 | 6 (3 HERO) | $2.95 | $7.38 | $0.60 |
-| M3 сц. 9 | 12 (4 HERO) | $7.20 | $18.00 | $0.90 |
+| M2 сц. 3 | 6 (3 HERO) | $3.65 | $9.13 | $0.60 |
+| M3 сц. 9 | 12 (4 HERO) | $8.60 | $21.50 | $0.90 |
 | M4 сц. 12 | 5 (3 HERO) | $2.10 | $5.25 | $0.45 |
 | M6 сц. 16 | 4 (1 HERO) | $1.40 | $3.50 | $0.30 |
-| M5 сц. 20 | 8 (3 HERO) | $3.10 | $7.75 | $0.60 |
-| **Итого видео** | **47** | **$24.90** | **$62.25** | **$3.90** |
+| M5 сц. 20 | 8 (3 HERO) | $3.80 | $9.50 | $0.60 |
+| Сц. 18, руки (r1) | 2 (K3) | $2.80 | $7.00 | $0.36 |
+| **Итого видео** | **47 ID + 2** | **$29.10** | **$72.75** | **$4.26** |
 
 Картинки: ~40 уникальных ключевых кадров × 3 попытки × $0.08 ≈ **$9.60**; библиотечные плейты (MK-1…4, состояния W-1, мастер E-1 до 6 попыток) ≈ **$3.00**.
 
-**Ожидаемо: ≈ $41.4; с резервом 20% — ≈ $50. Потолок (все финалы по 5 дублей): ≈ $79.** Без липсинка, апскейла и звука.
-Из 47 кадров **16 — чистая LA** (бесплатно, включая затемнение 20H), **9 — финал на MM**, **18 — K25**, **4 — K3** (1A, 1E, 1J, 9E-вариант B; у 9E есть бесплатный вариант A).
+Картинки рук Sc 18: 2 × 3 × $0.08 ≈ $0.48 (итого картинки ≈ $13.08).
+
+**Ожидаемо (r1): ≈ $46.4; с резервом 20% — ≈ $56 (было ≈ $50). Потолок (все финалы по 5 дублей): ≈ $90 (было ≈ $79).** Рост — класс D для 3D, 9B, 20B (+$2.80 ожидаемо) и руки Sc 18 (+$3.16 с черновиками и картинками); экономия — 1A на 5-секундном клипе (−$1.40). Без липсинка, апскейла и звука.
+Из 47 VFX-ID **16 — чистая LA** (бесплатно, включая затемнение 20H; 1B и 1C собраны в один кадр), **9 — финал на MM**, **15 — K25**, **7 — K3** (1A, 1E, 1J, 3D, 9B, 20B, 9E-вариант B; у 9E есть бесплатный вариант A); плюс 2 кадра рук Sc 18 на K3. Добавленные кадры Сц. 1 без VFX-ID (отступление 6) считаются в смете раскадровщика.
 
 Экономия, заложенная в постановку: свечение Шпиля, стекло гавани, кольца, подъём воды, гаснущие фонари — бесплатные библиотечные элементы, переиспользуемые весь сезон (каждая будущая песня Шпиля ≈ $0 на эффект).
