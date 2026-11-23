@@ -16,3 +16,23 @@
 7. Open: hair still reads slightly orange; director to judge vs `#` palette.
 
 Spent on this step: $0.71 (8+4 drafts × $0.04, Pro $0.15, NB2 $0.08).
+
+## Steps 1.6–1.9 (2026-11-23) — all finals on nano-banana-2 /edit
+| File | From draft | Notes |
+|---|---|---|
+| `A01_01_turnaround_v1.png` | d_turn_3 (of 3) | only draft with logically consistent sides (profile faces right → braid hidden; back → braid picture-left). Small tag near net in 3/4 view — minor. |
+| `A01_02_heads_v1.png` | d_heads_2 (of 2) | **known flaw:** profile faces right yet braid visible (side logic). Accepted for refs; redo only if it misleads a shot. |
+| `A01_04_emotions_v1.png` | d_emo_3 (of 3) | drafts missed "fear"; explicit physical cues in final fixed it. d_emo_1 produced 7 cells. |
+| `A01_06_details_v1.png` | d_det_1 (of 2) | clean. |
+| `../PL-0008/D02_C1_dawn-ebb_v1.png` | d_alley_3 (of 4) | NB drew towers as tiers/pagodas/trees → final prompt "smooth glassy towers with spiral grooves, ring of arches, not tiered/pagodas/trees" fixed it. Grooves still faint. |
+| `../M-SHD/E01_sheet_v1.png` | d_stone_2 (of 4) | drafts drilled a hole + too big; fixed by "cord knotted around the stone, covers < 1/3 of palm". |
+| `../keyframes/styletest_pell_ladder_v1.png` | d_key_2 (of 2) | refs: plate + master + turnaround. Drafts looked pasted-in (character brighter/warmer than scene) → final with explicit "same cold dawn light, darker desaturated values, rim light, colours not brighter than surroundings" integrates well. Staging still off (ladder logic: she stands on foreground deck, not on silt) → key frames need explicit pose/blocking from the storyboard panel. |
+
+Spent steps 1.6–1.9: $1.36 → **style test total $2.07** (plan $2.6).
+Prompts/seeds for every file: `style_test/meta_all.json`; raw: R2 `style_test/2026-11-23/`.
+
+### Lessons for production prompts
+- Character-into-plate: always pass plate + master + turnaround, and a lighting-match sentence.
+- Name the picture side for every asymmetric anchor per view; profiles: state which edge she faces.
+- Emotions: physical cues, not labels.
+- Set "exactly N cells" for grids.
