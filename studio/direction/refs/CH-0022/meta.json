@@ -1,0 +1,10 @@
+{
+ "f1": {
+  "prompt": "[ID: ELM] slight young man of 22, short, soft-faced; olive skin; ash-brown close-cropped hair with a shaved tonsure band running from ear to ear over the crown; light brown watchful eyes; undyed-linen robe; a violet cord knotted round his own LEFT wrist. Exactly two views: 1) full-body front three-quarter view, head bowed, eyes on someone's hands out of frame, the violet cord on the wrist on the RIGHT side of the picture; 2) back view showing the shaved tonsure band. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: cord on the wrist on the left side of the picture, full head of hair.",
+  "model": "nano-banana-2",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 245378,
+  "status": "ok"
+ }
+}

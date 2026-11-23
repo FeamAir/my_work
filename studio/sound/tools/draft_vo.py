@@ -57,9 +57,11 @@ def request_for(seg, alt_model=False):
     if v == "NARR01" and not alt_model:
         vs = dict(PLAN["narr_v2"], speed=PLAN["narr_speed"].get(lid, 0.85))
         return dict(text=text, model_id=PLAN["narr_model"], voice_settings=vs, pronunciation_dictionaries=dicts)
-    st = PLAN["stability"][v]
-    mode = spec.get("mode", "B")
-    vs = {"stability": st.get(mode, st["B"]), "similarity_boost": 0.8}
+    if PLAN["model"] == "eleven_v3":
+        vs = {"stability": PLAN.get("v3_stability", 0.5), "similarity_boost": 0.8}
+    else:
+        st = PLAN["stability"][v]
+        vs = {"stability": st.get(spec.get("mode", "B"), st["B"]), "similarity_boost": 0.8}
     tags = spec.get("tags", "")
     return dict(text=(tags + " " + text).strip(), model_id=PLAN["model"], voice_settings=vs,
                 pronunciation_dictionaries=dicts)
@@ -78,7 +80,7 @@ def gen(only=None, alt=False):
         jobs = [("main", s["name"] + ".mp3", request_for(s), SEEDS[0])]
         if alt and (s["fixed"] or "LIPSYNC" in s["meta"] or s["voice"] == "NARR01"):
             jobs.append(("t2", f"alt/{s['name']}_t2.mp3", request_for(s), SEEDS[1]))
-            if s["voice"] == "NARR01":
+            if s["voice"] == "NARR01" and not (OUT / f"alt/{s['name']}_v4turbo.mp3").exists():
                 jobs.append(("v4t", f"alt/{s['name']}_v4turbo.mp3", request_for(s, alt_model=True), SEEDS[0]))
         for kind, rel, req, seed in jobs:
             f = OUT / rel
@@ -116,6 +118,7 @@ def table():
             "fits_shot": ("" if sec is None else ("yes" if sec <= s["shot_dur"] else f"over {sec - s['shot_dur']:+.1f}")),
             "wpm": round(words(s["text"]) / sec * 60) if sec else "",
             "alt_t2_s": alts.get("t2", {}).get("speech_dur", ""), "alt_v4turbo_s": alts.get("v4t", {}).get("speech_dur", ""),
+            "alt_v4turbo_t2_s": alts.get("v4t_t2", {}).get("speech_dur", ""),
             "model": e["model_id"] if e else "", "file": f"S01E01/animatic/vo/{s['name']}.mp3" if e else "",
             "note": spec.get("skip", "") or ("FIXED" if s["fixed"] else "") + (" ECHO" if s["echo"] else ""),
         })

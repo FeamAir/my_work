@@ -1,0 +1,10 @@
+{
+ "f1": {
+  "prompt": "Reference: a small, very straight old woman seen in full body, front three-quarter view, completely covered by an opaque violet veil from the crown of the head to the collarbones — no face, no hair and no ears visible through the veil — over an undyed-linen robe and a white-and-violet mantle; her RIGHT hand (on the LEFT side of the picture) raised from the sleeve, pale, age-spotted, long fingers, a plain silver ring on every finger of that right hand; her left hand hidden in the sleeve. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, see-through veil, visible eyes, rings on the left hand, bare left hand.",
+  "model": "nano-banana-2",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 244496,
+  "status": "ok"
+ }
+}

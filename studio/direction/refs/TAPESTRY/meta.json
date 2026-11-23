@@ -1,0 +1,160 @@
+{
+ "p1_d1": {
+  "prompt": "flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Image 1 shows the exact spiral direction for the border shells. A queen in pearl and teal robes with a spiral-shell circlet, standing and singing with her right hand raised, and behind her great crowds of common people with open mouths, rows upon rows, filling the panel. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 790207,
+  "status": "ok"
+ },
+ "p1_d2": {
+  "prompt": "flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Image 1 shows the exact spiral direction for the border shells. A queen in pearl and teal robes with a spiral-shell circlet, standing and singing with her right hand raised, and behind her great crowds of common people with open mouths, rows upon rows, filling the panel. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 241797,
+  "status": "ok"
+ },
+ "p1_d3": {
+  "prompt": "flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Image 1 shows the exact spiral direction for the border shells. A queen in pearl and teal robes with a spiral-shell circlet, standing and singing with her right hand raised, and behind her great crowds of common people with open mouths, rows upon rows, filling the panel. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 202978,
+  "status": "ok"
+ },
+ "p1_d4": {
+  "prompt": "flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Image 1 shows the exact spiral direction for the border shells. A queen in pearl and teal robes with a spiral-shell circlet, standing and singing with her right hand raised, and behind her great crowds of common people with open mouths, rows upon rows, filling the panel. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 260757,
+  "status": "ok"
+ },
+ "p1_f1": {
+  "prompt": "Image 1 is the approved draft of this tapestry panel; image 2 shows the exact spiral direction. Redraw image 1 as the final panel at production quality, keeping its woven texture, palette and composition. Fix: the queen stands larger in the foreground centre, the crowds fill the space BEHIND her in rows; the border is made of small spiral seashells whose spirals turn clockwise from the centre outward exactly like image 2 (no plain circles); no haloes; the queen's circlet is a band of small spiral shells. flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. A queen in pearl and teal robes with a spiral-shell circlet, standing and singing with her right hand raised, and behind her great crowds of common people with open mouths, rows upon rows, filling the panel. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_d1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 801397,
+  "status": "ok"
+ },
+ "p2_f1": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style, faces and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Nine noble figures standing in a row on a shore, each beneath a tall vertical banner with a slanted cut at the foot, the long point on the pole side, each banner bearing one flat emblem: a diving cormorant, a sickle, an open hand, an eel in a ring, a harrow, a waterfall, a gate, a spade and reed, a lantern tower; all raising their hands in an oath. Wide panel with generous empty woven margin around the row. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "21:9",
+  "seed": 558382,
+  "status": "ok"
+ },
+ "p3_f1": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style, faces and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. A close woven detail of a raised woman's hand, open, with a ring bearing one black pearl, the sleeve of pearl and teal. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "1:1",
+  "seed": 227899,
+  "status": "ok"
+ },
+ "p4_f1": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style, faces and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. A slight servant girl half hidden behind a pillar, one long braid hanging on her own left side (on the right side of the picture as she faces the viewer), holding a spiral seashell against her chest with one arm, her other hand clenched in a closed fist. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "3:4",
+  "seed": 531507,
+  "status": "ok"
+ },
+ "p5_f1": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style, faces and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Ships at sea across a harbour mouth, the largest sail bearing a black diving cormorant, the ships out on the water, no shore, no people ashore. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 779360,
+  "status": "ok"
+ },
+ "p6_f1": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style, faces and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. A queen alone at the very top of a tall black tower, singing, nobody beside her, and far below at the foot of the tower the crowd lying fallen, stylised and still, the sea rising behind. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "3:4",
+  "seed": 719192,
+  "status": "ok"
+ },
+ "p3_f2": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. A single close woven detail filling the panel: one raised woman's hand, open, palm toward the viewer, fingers up, wearing a ring bearing one round black pearl, the wrist emerging from a sleeve of pearl and teal; a plain woven teal background with small flowers; no faces, no other figures, no other hands. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals. Avoid also: faces, people, hand covering a mouth.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "1:1",
+  "seed": 373768,
+  "status": "ok"
+ },
+ "p4_f2": {
+  "prompt": "Use image 1 exactly — same panel, figure, pillar, shell, fist, border and weave. Change only the braid: her single long braid hangs on the RIGHT side of the picture (her own left side, over her left shoulder), and nothing hangs on the left side of the picture.  Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals. Avoid also: braid on the left side of the picture, two braids.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p4_f1.png"
+  ],
+  "aspect": "3:4",
+  "seed": 56780,
+  "status": "ok"
+ },
+ "p5_f2": {
+  "prompt": "Use image 1 exactly — same ships, cormorant sail, sea, border and weave. Change only: remove the stone harbour walls and towers at the bottom; the whole lower part is open sea with woven waves; no land, no shore, no buildings, no people anywhere.  Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p5_f1.png"
+  ],
+  "aspect": "4:3",
+  "seed": 661411,
+  "status": "ok"
+ },
+ "p0_f1": {
+  "prompt": "Image 1 is the approved first panel of the same tapestry: match exactly its weave, thread texture, six-colour faded palette, figure style and the border of clockwise spiral shells; image 2 shows the exact spiral direction. A new panel of the same tapestry: flat medieval-style woven tapestry, visible warp and weft threads, limited palette of six faded wool and silk thread colours (pearl, deep teal, indigo, madder red, ochre, black), stylised flat figures without perspective, a woven border of small spiral shells, each spiral turning clockwise from the centre outward exactly like the spiral in the reference image, aged and slightly faded textile, evenly lit, flat front view. Black towers rising out of a stylised sea, waves around their bases, no people, no builders, no hands. Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p1_f1.png",
+   "studio/direction/refs/HERALDRY/H16_ashare_reference_spiral.png"
+  ],
+  "aspect": "4:3",
+  "seed": 301462,
+  "status": "ok"
+ },
+ "p0_f2": {
+  "prompt": "Use image 1 exactly — same weave, palette, sea, waves and border. Change only the towers: three tall slender smooth black towers, rounded, each wrapped by a spiral groove woven as a lighter thread line winding up it, each topped by a crown made of a ring of small open arches; no battlements, no crenellations, no windows, no castle, no rocks.  Avoid: anime character style, cel shading, 3D render, photorealism, text, letters, inscriptions, watermark, counter-clockwise spirals. Avoid also: castle, battlements, crenellations.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/TAPESTRY/p0_f1.png"
+  ],
+  "aspect": "4:3",
+  "seed": 9400,
+  "status": "ok"
+ }
+}
