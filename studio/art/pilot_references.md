@@ -89,7 +89,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 - **Промпт `04_emotions`:** шаблон 0.7 с эмоциями (1)–(6) выше.
 - **Промпт `06_details`:** `Use the character from image 1 exactly. Detail sheet, four close-ups in a row: 1) the end of her left braid with the small blue tin tag stamped "IX", slightly dented; 2) her mud-dark hands, nails broken short; 3) her shins with fine old shell-cut scars and rolled mud-grey leggings; 4) the salvage net bag on the right hip. {STYLE}, {SHEET}. {AVOID}`
 - **Негатив (специально):** `braid on her right side, auburn or orange hair, pretty clean skin, earrings, shoes, adult body proportions, glamour`.
-- **Модели:** D — NB × 8 (две версии `{STYLE}` по 4, см. план) · F — NB Pro × 1 **и** NB2 × 1 (сравнение для выбора финальной модели студии).
+- **Модели (весь лист):** D — NB × 18 (из них мастер — 8: две версии `{STYLE}` по 4, см. план) · F — NB Pro × 5 + NB2 × 1 (мастер дважды: Pro и NB2 — сравнение для выбора финальной модели студии).
 - **Приёмка особая:** коса — слева у неё на всех видах; бирка синяя; рост — «самая низкая»; руки грязные; нет серёг (серьга Нан появляется только с S2E8).
 
 ## A-02 Уик — CH-0007
@@ -105,7 +105,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 - **Разворот:** `{PROFILE SIDE}` = `his RIGHT side, with the tuft toward the viewer`; спина — `in the back view the tuft is on the RIGHT side of the image`.
 - **Рты:** шаблон 0.7 (липсинк E1).
 - **`06_details`:** закатанные рукава свитера; верёвочный пояс; щербинка (крупно, улыбка); поза «вниз головой» силуэтом (для сц. 2 — референс позы, не кадр).
-- **Модели:** D — NB × 18 · F — NB Pro × 6.
+- **Модели (весь лист):** D — NB × 20 · F — NB Pro × 6.
 - **Приёмка:** вихор справа у него; щербинка; рост ≈ плечо Пелл; без кепки.
 
 ## A-03 Нан — CH-0015
@@ -121,7 +121,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 - **Разворот:** `{PROFILE SIDE}` = `her LEFT side, showing the single earring`; спина — `headscarf knot at the nape centred`.
 - **`06_details`:** серьга-спираль крупно (спираль по часовой); руки с мозолями от сетевой бечевы и кривым мизинцем правой руки; узел платка; игла для сетей.
 - **Особое правило:** серьгу **не выделяем** светом и композицией — она «просто есть» (в кадре на неё не смотрят).
-- **Модели:** D — NB × 18 · F — NB Pro × 6.
+- **Модели (весь лист):** D — NB × 20 · F — NB Pro × 6.
 - **Приёмка:** серьга одна, левое ухо; спираль по часовой; платок скрывает волосы; сутулость.
 
 ## A-04 Иона — CH-0002
@@ -136,7 +136,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 - **Промпт `00_master`:** `[ID: IONE] … verbatim. Waist-up portrait, three-quarter view, neutral serene expression, mouth closed, looking at the viewer, hands hidden in her long sleeves. {STYLE}, plain warm light-grey background, flat even neutral lighting. Avoid: dark roots, blonde or white-yellow hair, blue or violet eyes, short hair, bare hands, jewellery other than the fork pendant, earrings, photorealism, 3D render look, text, watermark.`
 - **`08_back_hero`:** `Use the character from image 1 exactly. Full-body back view: she stands in a tall arched stone opening, facing away from the viewer toward open sky, robes and silver hair snapping in a strong wind to the right, arms slightly away from the body, head level. {STYLE}, {SHEET}. {AVOID}`
 - **`06_details`:** камертон (крупно, на цепочке; удар о костяшку — поза руки); лента на горле; соединённые сзади косички; кисть, выходящая из рукава.
-- **Модели:** D — NB × 20 · F — NB Pro × 6.
+- **Модели (весь лист):** D — NB × 20 · F — NB Pro × 6.
 - **Приёмка:** нет тёмных корней; глаза тёмно-карие; белое Илвейнов холодное и шелковистое, стола — тёплый грубый лён (две разные белизны в одном кадре).
 - **Решение на утверждение:** оливковый подтон кожи — моё предложение (она бледная, но не «фарфоровая»); на сверку режиссёру и главному сценаристу.
 
@@ -152,7 +152,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 - **Промпт `00_master`:** `[ID: RUEL] … verbatim. Waist-up portrait, three-quarter view, warm neutral expression, mouth closed, looking at the viewer, his left hand resting on his chest so the black pearl ring is visible on the left hand, right hand at his side. {STYLE}, plain warm light-grey background, flat even neutral lighting. Avoid: ring on the right hand, rings on both hands, short jacket, bright royal blue, gold braid, thin build, photorealism, 3D render look, text, watermark, extra fingers.`
 - **`06_details`:** пряжка-баклан (по `heraldry.md` H-01 в серебре); левая рука с кольцом (закрытое кольцо, обычный вид — **без механизма**); правая кисть со шрамом от верёвки; косичка-очередь сзади.
 - **Правило:** на листе Руэла **нет** осколка, верёвочек на шее, чёрных камешков — ничего похожего.
-- **Модели:** D — NB × 18 · F — NB Pro × 6.
+- **Модели (весь лист):** D — NB × 20 · F — NB Pro × 6.
 - **Приёмка:** кольцо на левой; сюртук длинный (до икр); синий глубокий, не королевский; шрам на правой.
 
 ## A-06 Холлис Кетт — CH-0003
@@ -167,7 +167,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 - **Суффикс с зажимом (с сц. 15):** `; a small brass ledger-clip in his left breast pocket` (вид зажима — E-03).
 - **Промпт `00_master`:** `[ID: HOLLIS] … verbatim. Waist-up portrait, three-quarter view, mild neutral expression, mouth closed, looking at the viewer over his spectacles, right hand raised near the chest so the ink-stained fingers are visible. {STYLE}, plain warm light-grey background, flat even neutral lighting. Avoid: cracked right lens, intact lenses, dark grey or slate coat, neat flat hair without the cowlick, muscular build, photorealism, 3D render look, text, watermark, extra fingers.`
 - **`06_details`:** очки (трещина на левом стекле — форма трещины фиксируется: одна диагональ + две короткие); пальцы с чернилами; вихор; левый нагрудный карман (пустой — и с зажимом, edit).
-- **Модели:** D — NB × 18 · F — NB Pro × 5.
+- **Модели (весь лист):** D — NB × 18 · F — NB Pro × 5.
 - **Приёмка:** кафтан **светлее** сланца Одо (поставить рядом с плашкой `#4F5A63` при приёмке); трещина слева у него; самый высокий в группе клерков.
 
 ## A-07 Дама Урсула Лантри — CH-0011
@@ -181,7 +181,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 ```
 - **Промпт `00_master`:** `[ID: URSEL] … verbatim. Waist-up portrait, three-quarter view, faint pleasant expression, mouth closed, looking at the viewer through the pince-nez, both hands resting on the stick handle. {STYLE}, plain warm light-grey background, flat even neutral lighting. Avoid: gold or bronze metal, yellow brass, loose hair, tall figure, glasses with arms, photorealism, 3D render look, text, watermark, extra fingers.`
 - **`06_details`:** ручка трости-весы (коромысло **ровное**, как в гербе H-07); пенсне на цепочке; кольцо; медные шпильки в узле.
-- **Модели:** D — NB × 18 · F — NB Pro × 6.
+- **Модели (весь лист):** D — NB × 20 · F — NB Pro × 6.
 - **Приёмка:** медь розоватая, не бронза; рост — ниже Холлиса на голову и больше.
 
 ## A-08 Одо Феннике — CH-0010
@@ -195,7 +195,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 ```
 - **Промпт `00_master`:** `[ID: ODO] … verbatim. Waist-up portrait, three-quarter view, mild half-lidded expression, mouth closed, looking slightly past the viewer, hands in sleeves. {STYLE}, plain warm light-grey background, flat even neutral lighting. Avoid: hair, beard, gold yellow, light ash-grey coat, menacing grimace, tall figure, photorealism, 3D render look, text, watermark.`
 - **`06_details`:** брошь (H-06), подкладка в движении, войлочные туфли, кисти в рукавах.
-- **Модели:** D — NB × 18 · F — NB Pro × 5.
+- **Модели (весь лист):** D — NB × 18 · F — NB Pro × 5.
 - **Приёмка:** сланец заметно темнее кафтана Холлиса; жёлтый кислотный, не золото; не «зловещий» облик — безобидность нарочитая.
 
 ---
