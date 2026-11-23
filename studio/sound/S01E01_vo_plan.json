@@ -1,0 +1,353 @@
+{
+ "_note": "Draft TTS plan for the S01E01 animatic. Keys = line_id from studio/sound/tools/extract_lines.py. tags = v4 audio tags (max 2, emotion_markup.md §3); mode = card mode B/E/T (stability). Text itself always = script wording.",
+ "model": "eleven_v4_turbo",
+ "narr_model": "eleven_multilingual_v2",
+ "dictionary": "hollowstone_en_draft_v1",
+ "stability": {
+  "V01_PELL": {
+   "B": 0.45,
+   "E": 0.3,
+   "T": 0.55
+  },
+  "V02_WICK": {
+   "B": 0.4,
+   "E": 0.3,
+   "T": 0.5
+  },
+  "V03_NAN": {
+   "B": 0.42,
+   "E": 0.5,
+   "T": 0.55
+  },
+  "V04_IONE": {
+   "B": 0.6,
+   "E": 0.5,
+   "T": 0.6
+  },
+  "V05_HOLLIS": {
+   "B": 0.5,
+   "E": 0.38,
+   "T": 0.55,
+   "S": 0.6
+  },
+  "V06_RUEL": {
+   "B": 0.5,
+   "E": 0.35,
+   "T": 0.58
+  },
+  "V07_LUCAN": {
+   "B": 0.62,
+   "E": 0.48,
+   "T": 0.62
+  },
+  "V08_URSEL": {
+   "B": 0.65,
+   "E": 0.65,
+   "T": 0.65
+  },
+  "V09_ODO": {
+   "B": 0.62
+  },
+  "V10_CORR": {
+   "B": 0.6,
+   "T": 0.6
+  },
+  "V11_MAGS": {
+   "B": 0.4,
+   "E": 0.4
+  },
+  "V12_COLLECTOR": {
+   "B": 0.55,
+   "E": 0.45,
+   "T": 0.55
+  },
+  "V13_ATTENDANT": {
+   "B": 0.5
+  },
+  "V14_RELAYKEEPER": {
+   "B": 0.5,
+   "E": 0.5
+  },
+  "V15_GUARD": {
+   "B": 0.55
+  },
+  "V16_CLERK": {
+   "B": 0.5
+  },
+  "V17_STEWARD": {
+   "B": 0.55
+  },
+  "NARR01": {
+   "B": 0.75
+  }
+ },
+ "narr_v2": {
+  "stability": 0.75,
+  "similarity_boost": 0.85,
+  "style": 0.0,
+  "use_speaker_boost": true
+ },
+ "narr_speed": {
+  "L029": 0.72,
+  "L030": 0.8,
+  "L031": 0.72,
+  "L032": 0.8,
+  "L033": 0.8,
+  "L034": 0.72,
+  "L044": 0.72,
+  "L045": 0.72,
+  "L046": 0.72,
+  "L047": 0.72,
+  "L104": 0.72,
+  "L105": 0.72
+ },
+ "lines": {
+  "L001": {
+   "tags": "[bored]"
+  },
+  "L002": {},
+  "L003": {
+   "tags": "[cheerfully]"
+  },
+  "L004": {
+   "tags": "[flatly]"
+  },
+  "L005": {
+   "tags": "[cheerfully]"
+  },
+  "L006": {
+   "tags": "[shouting]",
+   "mode": "E"
+  },
+  "L007": {
+   "tags": "[flatly]"
+  },
+  "L008": {
+   "tags": "[excited]",
+   "mode": "E"
+  },
+  "L009": {
+   "tags": "[dryly]"
+  },
+  "L010": {
+   "tags": "[shouting] [mischievously]",
+   "mode": "E"
+  },
+  "L011": {
+   "tags": "[shouting]",
+   "mode": "E"
+  },
+  "L012": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L013": {},
+  "L014": {
+   "tags": "[whispers]",
+   "mode": "T"
+  },
+  "L015": {
+   "tags": "[whispers]",
+   "mode": "T"
+  },
+  "L016": {
+   "tags": "[quietly] [in awe]",
+   "mode": "T"
+  },
+  "L017": {
+   "tags": "[flatly]"
+  },
+  "L018": {
+   "tags": "[shouting]",
+   "mode": "E"
+  },
+  "L019": {
+   "tags": "[shouting] [bored]",
+   "mode": "E"
+  },
+  "L020": {
+   "tags": "[rapidly]"
+  },
+  "L021": {},
+  "L022": {},
+  "L023": {},
+  "L024": {},
+  "L025": {
+   "tags": "[quietly] [tense]",
+   "mode": "E"
+  },
+  "L026": {
+   "tags": "[loudly]"
+  },
+  "L027": {
+   "tags": "[whispers]",
+   "mode": "T"
+  },
+  "L028": {
+   "tags": "[dryly]"
+  },
+  "L035": {
+   "tags": "[dryly]"
+  },
+  "L043": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L048": {
+   "tags": "[briskly]"
+  },
+  "L049": {
+   "tags": "[curious]"
+  },
+  "L050": {},
+  "L051": {},
+  "L052": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L053": {
+   "tags": "[dryly]"
+  },
+  "L054": {
+   "tags": "[dryly]"
+  },
+  "L055": {},
+  "L056": {},
+  "L057": {
+   "tags": "[muttering]",
+   "mode": "T"
+  },
+  "L058": {
+   "tags": "[warmly]"
+  },
+  "L059": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L060": {
+   "tags": "[wearily]"
+  },
+  "L061": {},
+  "L062": {},
+  "L063": {
+   "tags": "[wearily]"
+  },
+  "L064": {
+   "tags": "[gently]",
+   "mode": "T"
+  },
+  "L065": {},
+  "L066": {
+   "tags": "[warmly]"
+  },
+  "L067": {
+   "tags": "[hoarse]",
+   "mode": "E"
+  },
+  "L068": {
+   "tags": "[warmly]"
+  },
+  "L069": {
+   "tags": "[politely]"
+  },
+  "L070": {
+   "tags": "[rapidly]",
+   "mode": "E"
+  },
+  "L071": {},
+  "L072": {
+   "tags": "[formally]"
+  },
+  "L073": {
+   "tags": "[amused]"
+  },
+  "L074": {
+   "tags": "[gently]"
+  },
+  "L075": {
+   "tags": "[slowly]",
+   "mode": "S"
+  },
+  "L076": {
+   "tags": "[slowly]",
+   "mode": "S"
+  },
+  "L077": {
+   "tags": "[gently]"
+  },
+  "L078": {
+   "tags": "[quietly] [warmly]",
+   "mode": "T"
+  },
+  "L079": {},
+  "L080": {
+   "skip": "tail of L079 (sc15-sh190) running over the cut into sc15a-sh010; no separate read"
+  },
+  "L081": {},
+  "L082": {},
+  "L083": {
+   "tags": "[flatly]"
+  },
+  "L084": {},
+  "L085": {
+   "tags": "[hesitantly]",
+   "mode": "E"
+  },
+  "L086": {
+   "tags": "[hurriedly]"
+  },
+  "L087": {
+   "tags": "[hesitantly]",
+   "mode": "E"
+  },
+  "L088": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L089": {
+   "tags": "[shouting]",
+   "mode": "E"
+  },
+  "L090": {
+   "tags": "[nervously]",
+   "mode": "E"
+  },
+  "L091": {},
+  "L092": {},
+  "L093": {
+   "tags": "[flatly]"
+  },
+  "L094": {},
+  "L095": {},
+  "L096": {},
+  "L097": {},
+  "L098": {
+   "tags": "[wearily]"
+  },
+  "L099": {
+   "tags": "[urgently]",
+   "mode": "E"
+  },
+  "L100": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L101": {
+   "tags": "[shaken]",
+   "mode": "E"
+  },
+  "L102": {
+   "tags": "[quietly]",
+   "mode": "T"
+  },
+  "L103": {
+   "tags": "[whispers]",
+   "mode": "T"
+  },
+  "L106": {
+   "tags": "[whispers] [in awe]",
+   "mode": "T"
+  }
+ },
+ "_narr_note": "v2 speed 0.85/0.93 from the card gave ~165 wpm on single sentences; lowered to 0.72 (phrases at ~110 wpm) / 0.80 (phrases 2 and 4, ~120-125 wpm). Remaining pace comes from pauses in the edit."
+}

@@ -1,0 +1,46 @@
+{
+ "d_R1_1": {
+  "prompt": "Interior of a narrow tall stone relay room under a tower, frontal view of one whole wall that is a grid of small wrought-iron cradles, eight across and six high, each holding a fist-sized dark glassy faceted stone; a keeper's slanted writing desk with a logbook in front of it; a side wall of pigeon-hole slots full of paper slips; a single narrow window with dusk light and one oil lamp. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: glowing stones, people. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 481796,
+  "status": "ok"
+ },
+ "d_R1_2": {
+  "prompt": "Interior of a narrow tall stone relay room under a tower, frontal view of one whole wall that is a grid of small wrought-iron cradles, eight across and six high, each holding a fist-sized dark glassy faceted stone; a keeper's slanted writing desk with a logbook in front of it; a side wall of pigeon-hole slots full of paper slips; a single narrow window with dusk light and one oil lamp. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: glowing stones, people. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 212425,
+  "status": "ok"
+ },
+ "d_R1_3": {
+  "prompt": "Interior of a narrow tall stone relay room under a tower, frontal view of one whole wall that is a grid of small wrought-iron cradles, eight across and six high, each holding a fist-sized dark glassy faceted stone; a keeper's slanted writing desk with a logbook in front of it; a side wall of pigeon-hole slots full of paper slips; a single narrow window with dusk light and one oil lamp. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: glowing stones, people. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 290102,
+  "status": "ok"
+ },
+ "f_R1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: full-bleed 16:9 with no black bars; the stone wall is a regular grid of eight by six small wrought-iron cradles each holding a dark faceted stone, no glow; the keeper's slanted desk with a logbook in front; pigeon-holes with paper slips; one narrow window with dusk sky; one oil lamp. Interior of a narrow tall stone relay room under a tower, frontal view of one whole wall that is a grid of small wrought-iron cradles, eight across and six high, each holding a fist-sized dark glassy faceted stone; a keeper's slanted writing desk with a logbook in front of it; a side wall of pigeon-hole slots full of paper slips; a single narrow window with dusk light and one oil lamp. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: glowing stones, people. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0012/d_R1_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 631904,
+  "status": "ok"
+ },
+ "f_R2": {
+  "prompt": "Use the location from image 1 exactly: same stone relay room, iron cradles with dark stones, pigeon-holes, window, lamp. New camera position: from in front of the wall of stones looking back toward the narrow wooden door and the keeper's slanted writing desk with its logbook and lamp beside the door; the edge of the stone wall in the near foreground on one side. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9, no black bars. Avoid also: glowing stones, people.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0012/f_R1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 57701,
+  "status": "ok"
+ }
+}

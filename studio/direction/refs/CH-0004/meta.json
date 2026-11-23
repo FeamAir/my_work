@@ -1,0 +1,78 @@
+{
+ "b_d1": {
+  "prompt": "[ID: KES] woman of 34, medium height, broad and compact, heavy forearms; hair: jet-black, short, both sides shaved, top swept back; outfit: rust-red brick-oxide tabard over a black padded gambeson, black breeches, upland boots; a dented half-helm with a painted white stripe front to back, carried tucked under her own LEFT arm. Back view only, face not visible: full-body back view, square stance, the dented half-helm with the white stripe tucked under her left arm, on the LEFT side of the picture in this back view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, helmet on the head, long hair, scarlet red, helm on the right side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 496827,
+  "status": "ok"
+ },
+ "b_d2": {
+  "prompt": "[ID: KES] woman of 34, medium height, broad and compact, heavy forearms; hair: jet-black, short, both sides shaved, top swept back; outfit: rust-red brick-oxide tabard over a black padded gambeson, black breeches, upland boots; a dented half-helm with a painted white stripe front to back, carried tucked under her own LEFT arm. Back view only, face not visible: full-body back view, square stance, the dented half-helm with the white stripe tucked under her left arm, on the LEFT side of the picture in this back view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, helmet on the head, long hair, scarlet red, helm on the right side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 835286,
+  "status": "ok"
+ },
+ "b_d3": {
+  "prompt": "[ID: KES] woman of 34, medium height, broad and compact, heavy forearms; hair: jet-black, short, both sides shaved, top swept back; outfit: rust-red brick-oxide tabard over a black padded gambeson, black breeches, upland boots; a dented half-helm with a painted white stripe front to back, carried tucked under her own LEFT arm. Back view only, face not visible: full-body back view, square stance, the dented half-helm with the white stripe tucked under her left arm, on the LEFT side of the picture in this back view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, helmet on the head, long hair, scarlet red, helm on the right side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 126230,
+  "status": "ok"
+ },
+ "hA_d1": {
+  "prompt": "Image 1 is the fixed insert plate of the gate bar — keep its framing, camera, bar, bracket and light exactly. Add two hands: two hands in black padded gambeson cuffs grip the thick iron bar that runs across the upper third of the frame, the left hand at the left third, the right hand in the centre, both pulling the bar from right to left toward the iron bracket at the left edge of the frame; young slender but strong hands of a 17-year-old, smooth, rain-wet; warm lantern light from the upper right, night rain. No face, no tabard, no house colours, no rings, no gloves. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gloves, rings, rust red cloth, extra hands, extra fingers.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0021/D03_G3_night-rain_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 446278,
+  "status": "ok"
+ },
+ "hA_d2": {
+  "prompt": "Image 1 is the fixed insert plate of the gate bar — keep its framing, camera, bar, bracket and light exactly. Add two hands: two hands in black padded gambeson cuffs grip the thick iron bar that runs across the upper third of the frame, the left hand at the left third, the right hand in the centre, both pulling the bar from right to left toward the iron bracket at the left edge of the frame; young slender but strong hands of a 17-year-old, smooth, rain-wet; warm lantern light from the upper right, night rain. No face, no tabard, no house colours, no rings, no gloves. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gloves, rings, rust red cloth, extra hands, extra fingers.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0021/D03_G3_night-rain_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 713064,
+  "status": "ok"
+ },
+ "b_f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: the dented half-helm with the white stripe is tucked under the arm on the LEFT side of the picture; jet-black hair with both sides shaved, top swept back; rust-red brick-oxide tabard, not scarlet; broad compact build. [ID: KES] woman of 34, medium height, broad and compact, heavy forearms; hair: jet-black, short, both sides shaved, top swept back; outfit: rust-red brick-oxide tabard over a black padded gambeson, black breeches, upland boots; a dented half-helm with a painted white stripe front to back, carried tucked under her own LEFT arm. Back view only, face not visible: full-body back view, square stance, the dented half-helm with the white stripe tucked under her left arm, on the LEFT side of the picture in this back view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible face, helmet on the head, long hair, scarlet red, helm on the right side of the picture.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0004/b_d3.png"
+  ],
+  "aspect": "3:4",
+  "seed": 785522,
+  "status": "ok"
+ },
+ "hA_f1": {
+  "prompt": "Image 1 is the approved draft of this insert; image 2 is the fixed gate-bar plate. Redraw image 1 at production quality keeping exactly the framing of image 2 (bar across the upper third, bracket at the left edge). Fix: the hands belong to a 17-year-old: young, slender but strong, smooth skin, rain-wet with droplets, gripping the bar, the left hand at the left third and the right hand at the centre, pulling toward the bracket on the left; black padded gambeson cuffs; warm lantern light from the upper right, night rain. Image 1 is the fixed insert plate of the gate bar — keep its framing, camera, bar, bracket and light exactly. Add two hands: two hands in black padded gambeson cuffs grip the thick iron bar that runs across the upper third of the frame, the left hand at the left third, the right hand in the centre, both pulling the bar from right to left toward the iron bracket at the left edge of the frame; young slender but strong hands of a 17-year-old, smooth, rain-wet; warm lantern light from the upper right, night rain. No face, no tabard, no house colours, no rings, no gloves. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gloves, rings, rust red cloth, extra hands, extra fingers.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0004/hA_d2.png",
+   "studio/direction/refs/PL-0021/D03_G3_night-rain_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 334008,
+  "status": "ok"
+ },
+ "hB_f1": {
+  "prompt": "Use image 1 exactly — the same framing, camera, gate bar, bracket at the left edge, the same grip and hand positions (left hand at the left third, right hand at the centre, pulling toward the bracket). Change only: the hands are now those of a 34-year-old soldier — broader, heavier, weathered, with scarred knuckles, the same black padded gambeson cuffs; the light is dry dusk: cool blue-violet dusk with warm low light from the upper right exactly like image 2; no rain. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: gloves, rings, rust red cloth, different hand positions, rain.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0004/hA_f1.png",
+   "studio/direction/refs/PL-0021/D03_G3_dusk_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 106294,
+  "status": "ok"
+ }
+}

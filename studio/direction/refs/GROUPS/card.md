@@ -18,3 +18,19 @@ Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl
 |---|---|---|---|---|---|
 | `C04_lantry_clerks_v1.png` | f1 | nano-banana-2 | 350932 | d3 | — |
 
+## Stage 2 (2026-11-23) — `C-05`
+
+Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl. drafts: R2 `refs_stage/C-05/`. Drafts: 3 × nano-banana; finals: 1 × nano-banana-2 (/edit).
+
+| File | Final | Model | Seed | From draft | Known flaws |
+|---|---|---|---|---|---|
+| `C05_rusk_guards_v1.png` | f1 | nano-banana-2 | 519586 | d2 | sergeant's white helmet stripe hard to read; gate emblem on all tabards (asked: badge on one officer) |
+
+## Stage 2 (2026-11-23) — `C-08`
+
+Prompts, refs, seeds for every file: `meta.json` (this folder). Raw outputs incl. drafts: R2 `refs_stage/C-08/`. Drafts: 3 × nano-banana; finals: 1 × nano-banana-2 (/edit).
+
+| File | Final | Model | Seed | From draft | Known flaws |
+|---|---|---|---|---|---|
+| `C08_fennike_people_v1.png` | f1 | nano-banana-2 | 234838 | d3 | — |
+
