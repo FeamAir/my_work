@@ -974,7 +974,7 @@ It holds **one second** into the dark, alone.
 **Total: 21 scenes, 26:39.** Scene numbers are those of the beat sheet; the bank scenes (13–16) are woven into the hall scenes (10–12), so the numbers no longer run in order.
 Pell is on screen 1:10–5:20, 6:14–7:14, 9:58–10:36, 17:44–18:19 and 23:24–26:39. Her longest absence is 7:08 (10:36 → 17:44).
 Lip-sync close-ups: 5 (Sc 4, 11, 12, 15, 20). If the style test allows four: Sc 12's line goes to `[MS]` over the map, the close-up to the reading hand.
-The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:20 in all, none before 5:20, none over a face.
+The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:20 of speech inside 1:37 of screen time, none before 5:20, none over a face.
 Without spoken dialogue: Sc 1 entire; the song and the glass in Sc 9; the fall and four seconds after it; the pens in Sc 16; the last forty seconds of Sc 20 but for one line. About nine minutes in all.
 
 ---

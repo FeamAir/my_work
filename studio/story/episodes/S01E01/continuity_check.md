@@ -1,8 +1,25 @@
-# S1E01 — Continuity Check (beat sheet v1.1 against the outline and the canon)
+# S1E01 — Continuity Check (beat sheet v2 and script v1.0 against the outline and the canon)
 
-Version 1.1 · 2026-11-22 · author: lead-screenwriter
-Checked against: `season01_outline.md` v1.2 · `series_bible.md` v1.2 (§5, §10, §12) · `decisions_resolved.md` (source of truth) · `sealed/master_mystery.md` §5–§7 (clue plans, Chronicler rules) · character and house dossiers · canon v0.3 records (`world.md`, `timeline.md`).
-Spoiler level: internal — codes only. Scene numbers are those of beat sheet v1.1.
+Version 2.0 · 2026-11-22 · author: lead-screenwriter
+Checked against: `season01_outline.md` v1.3 · `series_bible.md` v1.2 (§5, §10, §12) · `decisions_resolved.md` (source of truth) · `sealed/master_mystery.md` §5–§7 and `canon/sealed/sealed.md` (clue plans, Chronicler rules) · character and house dossiers, `voice_fingerprints.md` · canon v0.4 records (`world.md`, `timeline.md`, `glossary.md`, `excerpts/for_director_and_artist.md`).
+Spoiler level: internal — codes only. Scene numbers are those of beat sheet v2 (the same as v1.1, plus Sc 15a; the running order is 1–9, 13, 10, 14, 11, 15, 15a, 12, 16–20).
+
+## 0. What v2 changed, and whether it is safe (the analyst's review, by the director's ruling)
+
+| # | Change | Why it is safe |
+|---|---|---|
+| S-8 | **The bank is woven into the hall:** Sc 9 → 13 → 10 → 14 → 11 → 15 → 15a → 12 → 16 | **Time:** every scene is the afternoon and dusk of Longdark 6. Sc 13 was already simultaneous with Sc 9 (the lit Spire in the bank's windows); it now simply follows the song, and the step back in time of v1.1 is gone. Sc 10 → 14 → 11 → 15 are parallel action at low sun. Sc 16 opens on the evening bell, with the tone arriving before the third stroke: one hard cut after the fall. This is what R-4 and Odo's dossier already said ("the moment the Helm fell"); the audience now feels it. **Logic:** nobody in the bank knows anything earlier than before; Ursel's calm is unchanged. **Clues:** the clasp, the blood, the cup and the fall keep their order and their distance; the scenes between give the minutes that have to pass. "ACCOUNT NINE" is read before "the Ninth Sluice" is spoken. **Sealed §7:** see S-13 |
+| S-9 | New **Sc 15a** (Pell at low sun, 0:35) | no new fact; the collector taking goods is R-10; no line of hers breaks her fingerprint; the stone stays out of frame |
+| S-10 | **Sc 19–20: Pell offers the stone** ("Wait. I can pay."), fist closed; the tone stops the collector before he looks; the stone sings in her open hand | DEC-45 holds: the collector never sees it; Mags hears through the wall and sees nothing. E2 still has Nan see the stone for the first time, in Pell's hand. E2's attempt to sell it is now prepared on screen. The debt stays unpaid (four of six coppers went into the box) |
+| S-11 | **A Listeners' warning whistle** (falling, two tones) in Sc 6 and once, far off, at the end of Sc 20 | canon vocabulary (`world.md` §8, whistle-talk). It is the Lows' own warning that Listeners are about; nobody enters the lane. E2 pays it: the whistle passes, and Fitch's report rests on the keeper's log, as planned. High register, so the composer's "empty low" rule holds |
+| S-12 | **The tapestry has six panels in the keeper's order**; panel 6 shows the crowd fallen; the girl holds a shell and keeps the other hand a fist | this is `excerpts/for_director_and_artist.md` §2 and sealed SEC-025's clue wording; v1.1's five panels were my earlier compression. Nothing is added that the keeper's "not on the tapestry" list forbids |
+| S-13 | **Ring and stone** in the new order | no scene featuring the ring is adjacent to a scene with the stone or its cord: 9 → 13 → 10; 11 → 15 → 15a; and Sc 12 (after 15a) carries no ring insert, with Ruel's left hand below the table edge until after the fall. Sc 4 → 5: the match cut is stone → woven tower; the pearl is two panels later (the sealed plan itself places these close: "minutes later") |
+| S-14 | **Sc 1:** alarm sound from frame one; the cradle empty; a geography shot; eyes in the gap; IX on the doorpost | the cradle still has no knot (SEC-017 untouched; in E10 the cradle is occupied). "No faces" is kept in spirit: eyes only — director's call. E10 can restage every image. The lullaby is still the first *music* |
+| S-15 | **Name diet and jargon:** Tuck is no longer mentioned; Corr, Juno, Fossett, Odo are not named aloud; "Last Song" is first spoken in Sc 7; "echo-chip" of v1.1 is gone (the canon word is *echo-shard*, TERM-0140 — not spoken in E1 at all) | E2 and E3 introduce these names with their faces. E2's tithe-box puzzle loses nothing: the debt, the collector and the rate are all still on screen |
+| S-16 | **Sc 12: the reading names the sluices** — First Song: the First through the Fourth; Second Song: the Fifth, Sixth, Seventh; Last Song: the Eighth, Tenth, Eleventh, Twelfth; then the pale wash | new detail, for the keeper (R-14). It contradicts nothing recorded: the Ninth is Last Song *today* (hence three coppers a month), and the unsigned map moves it. A fair clue for the listener; the legend's fourth label stays covered |
+| S-17 | **Pell's age is said aloud** (Nan, Sc 4: "Fifteen years old…") | canon (born CY 297). See §6 |
+| S-18 | Ruel says **"Lucan."** once, kneeling (Sc 12) | his fingerprint: never after E1. The only exception to the name diet |
+
 
 ## 1. Rulings made in this step
 
@@ -18,7 +35,7 @@ Spoiler level: internal — codes only. Scene numbers are those of beat sheet v1
 | S-6 | "Corr's treadmill gang walking above them" | + one short scene at the wheel (Sc 6) | Keeps the P line alive between minutes 6 and 11; RULE-007 seen; nothing new claimed |
 | S-7 | Closing montage 24:30–30:00 | Sc 17–20, 4:35 | The "city stops" beat is carried by Sc 16 inside the H line |
 
-`season01_outline.md` E1 minute marks should be read through this table; I will bring the outline's E1 table into line in the script step (facts unchanged).
+`season01_outline.md` E1 minute marks: brought into line in outline v1.3 (facts unchanged).
 
 ### 1b. Canon points (need the keeper)
 
@@ -37,45 +54,57 @@ Spoiler level: internal — codes only. Scene numbers are those of beat sheet v1
 | R-11 | **The death-tone as a sound** was undefined. | Three long tones on the Crown Spire's home pitch and a silence as long as one tone; repeated. The stone answers *below* it. Pitch: the sound director's and composer's sheet. | Glossary: "death-tone" (proposal). |
 | R-12 | **Prices.** A chip fetches six coppers at Tuck's; a morning's buttons four. | Small enough to sit inside `world.md` §7 prices (a loaf is 2 coppers). | Add if the keeper lists fence prices. |
 
+| R-13 `v2` | **Tapestry.** The keeper's extract lists six panels and still quotes the withdrawn wording "her mad court". | The script uses the six panels in the keeper's order and the R-2 sentence. | `excerpts/for_director_and_artist.md` §2: replace "её безумным двором" with the R-2 sentence. Sealed §5 (SEC-003, S1E1) in `story/sealed/master_mystery.md` still has the old wording — my file, to be corrected with the director's leave (I was limited to the episode folder in this step). |
+| R-14 `v2` | **Tiers on the CY 312 draft map** (S-16). | As read in Sc 12. | Proposal for `world.md` §7.3 or PL-0070…: tiers of the twelve sluices in CY 311 (in force) and on the unsigned CY 312 draft. |
+| R-15 `v2` | The collector's address: "Ninth Sluice, fourth lane". | A lane number inside the district; nothing else rests on it. | Optional note under PL-0019. |
+| R-16 `v2` | Chronicler: "In the last year of the old kingdom…"; "This is the three hundred and twelfth year of that Concord". | OS 700 was the last year before CY 1; CY 312 is the 312th year. Both literal. | None; see §3. |
+
+**Status of R-1…R-12 in canon v0.4:** the keeper's r4 report does not mention them, and `timeline.md` still gives `S01E01` `date_end: CY 312-10-07`. They remain open proposals; R-1 (the pilot is one day) is the one the script depends on.
+
 No world law, death, reveal or approved date other than R-1 is touched.
 
 ## 2. Outline E1 → beat sheet: is everything there?
 
 | Outline item | Scene | Status |
 |---|---|---|
-| Pre-title, no dialogue, 75 s: water, lanterns, hands on the gate, cradle, five notes, two back, the sleeve; the night named | 1 | all seven images; order per S-1 |
-| Chronicler over the tapestry; exact sentence; crowds, left braid, closed fist, pearl, cormorant sail, last panel alone; sign-off; title | 5 | all kept; position per S-3; wording per R-2 |
+| Pre-title, no dialogue: water, lanterns, hands on the gate, cradle, five notes, two back, the sleeve; the night named | 1 | all seven images, 70 s; order per S-1; additions per S-14 |
+| Chronicler over the tapestry; exact sentence; crowds, left braid, closed fist, pearl, cormorant sail, last panel alone; sign-off; title | 5 | all kept; position per S-3 (now 5:20); wording per R-2; six panels per S-12 |
 | Lowest ebb, the failing Sluice Spire, silt open | 2, 3 | yes (+ it is the stated reason the find is possible) |
-| Pell and Wick mudlark by the old sluice; comic rhythm; Wick's mouth; the collector; Corr's gang above | 2, 3, 6 | yes |
+| Pell and Wick mudlark by the old sluice; comic rhythm; Wick's mouth; the collector; Corr's gang above | 2, 3, 6 | yes (Corr unnamed aloud) |
 | The black stone, thumbnail, rotted cord | 3 | yes |
 | Nan's stilt-house; the rule — never sing | 4 | fixed line |
 | Pell hums; the stone hums back; only Wick sees ♪ | 3 | yes; place per S-4 |
 | Ione takes pitch from the fork; climbs; the crown shot; water flat; hand to throat | 8, 9 | yes |
 | Ruel adored; Maren's back; left-handed clasp; blood on the knuckle; declines the cup; Juno drinks and is fine | 10, 11 | yes |
 | Tithe Map read; collapse on "…and the Ninth Sluice—" | 12 | fixed line |
-| Hollis balances "Account Nine" unknowing; Fossett's error, says nothing; Ursel's kind word and the clip | 13–15 | fixed line |
-| Death-tone; pens in the air; Ursel alone writes on | 16 | yes |
+| Hollis balances "Account Nine" unknowing; Fossett's error, says nothing; Ursel's kind word and the clip | 13, 14, 15 (woven: S-8) | fixed line |
+| Death-tone; pens in the air; Ursel alone writes on | 16 | yes; directly after the fall |
 | Montage: Steps (Odo already dressed), Mids (Kes's back, a gate), Lows | 17–19 | yes |
 | Chronicler: "…thirty days, and a debt carried forward." | 19 | fixed line |
 | Cliffhanger: stones ring the death-tone; Pell's rings lower; Wick's line | 20 | fixed line |
 | Motifs: lullaby, spiral, shard, ring, ledger-clip, Tithe Map, sign-off | 1/3/20, 5/8, 3, 10, 15, 7/12, 5 | all placed (+ the fork, Sc 8) |
 
-Added beyond the outline (each for coherence; none changes a fact): the old mute Cantor on the stair (Sc 8 — the cost before the song); the roof cross-cut (Sc 9 — ties P into I); Ruel's petition and his argument with Lucan (Sc 10 — a visible reason for the left hand, and his motive on screen before the act); the time overlap of the H line (Sc 13); the hands match-cut (Sc 18); the second sheet under the blotter (Sc 7).
+**v2 adds:** Sc 15a; the whistle (Sc 6, Sc 20); "Whoever reads that map decides who gets wet" / "Who reads the map now?"; Pell's offer of the stone; the empty cradle, the geography shot and the eyes at the gate; the sluices named in the reading. **v2 removes from E1 (moved to E2):** the fence's name, the price "at Tuck's", the licence, "no tone for it to ring to".
+
+Added beyond the outline in v1.1 (each for coherence; none changes a fact): the old mute Cantor on the stair (Sc 8 — the cost before the song); the roof cross-cut (Sc 9 — ties P into I); Ruel's petition and his argument with Lucan (Sc 10 — a visible reason for the left hand, and his motive on screen before the act); the time overlap of the H line (Sc 13); the hands match-cut (Sc 18); the second sheet under the blotter (Sc 7).
 
 ## 3. The Chronicler — literal-truth test (sealed §6)
 
 | Line | Test |
 |---|---|
 | "The First Voices raised the Spires. They are not heard now." | approved wording (§6 table) |
-| "…the nine warden families found Queen Neveh past reason, and her court with her." | a finding of the Nine — true as a record |
+| "In the last year of the old kingdom, the nine warden families found Queen Neveh past reason, and her court with her." | a finding of the Nine — true as a record; OS 700 was the last year before the Concord's count |
 | "She sang her city into the sea." | exact, fixed |
-| "…three hundred and twelve years, each with its tithe, and each balance carried forward." | true; clerk's phrase |
+| "The Nine made their Concord on what stayed dry." | true (CY 1) — no word on why anything else was wet |
+| "This is the three hundred and twelfth year of that Concord: three hundred and twelve years, each with its tithe, and each balance carried forward." | true to the number (CY 312; I did not let him say "312 years ago", which would be 311); clerk's phrase |
+| "The Tithe Map sets down who is sung first when the storm comes, and who after. First Song. Second Song. Last Song." | true; he does not name the fourth tier, and is not obliged to |
+| "By law the Helm reads the map aloud, and signs it;" | true (`world.md` §7.3) |
 | "Of the nine Spires, eight still answered. One of the eight answered badly." | true (eight living Spires; the Sluice failing) — no cause given |
-| "…and the balance of that year was read on the sixth of Longdark." | true; second clerk's phrase |
+| "…and the balance of that year was read on the sixth of Longdark." | true — it was read on that day (he does not say "to the end", and he says "read", not "signed"); second clerk's phrase |
 | "Helm Lucan Dask died on the sixth of Longdark, with the Tithe Map unsigned." | true — cause not given |
 | "By law a Helm is chosen on the Still Days. There were thirty days, and a debt carried forward." | fixed; Longdark 6 + 30 → Still 1 |
 
-Script rule: the Chronicler never says "mad", "natural", "accident", "the sea held" or anything about *why*. He counts. He is not heard before 5:55.
+Script rule: the Chronicler never says "mad", "natural", "accident", "the sea held" or anything about *why*. He counts. He is not heard before 5:20, and never over a face.
 
 ## 4. What the pilot plants for E2–E12 (and beyond)
 
@@ -85,7 +114,11 @@ Script rule: the Chronicler never says "mad", "natural", "accident", "the sea he
 | "The back-canal, by the old sluice" — the place named and shown | 3 | E2 (Nan's question; the salt and the shell) → later seasons (SEC-012, SEC-027) |
 | Mags turning her head outside the wall | 20 | E2 (one copper); E10; S2E9 (SEC-045) |
 | A wrong note under the death-tone, near a relay-house | 20 | E2 (Bede Lark's log, Fitch); E3 sweep; E7 codebook |
-| Tuck named; a chip is six coppers; the debt is six coppers and still owing | 3, 4, 19 | E2 (Pell tries to sell it) |
+| The stone is "six coppers"; she offers it to the collector and is cut off; four coppers paid, two still owing (`v2`: the fence is not named in E1) | 3, 4, 15a, 19 | E2 (Pell tries to sell it to Tuck, whom E2 introduces) |
+| The Listeners' warning whistle `v2` | 6, 20 | **E2, first scene: the whistle passes the lane** (Nan covers the stone); Fitch's report from the keeper's log; E2's cliffhanger (whistles from three sides) |
+| "Whoever reads that map decides who gets wet" / "Who reads the map now?" `v2` | 6, 19 | E2 (the candidates), every episode's clock |
+| The sluices as read: the Ninth named last and apart `v2` | 12 | E3 (the ledger's streets), E6 |
+| Pell is fifteen; the stamp says seventeen years `v2` | 2, 4 | E2 (her line about a sister) |
 | Hush Law; "Pell. Mouth."; Nan's hand over Wick's mouth | 3, 4 | E2 (Lio sings), E3 (the tide-post), E8 (hands over mouths) |
 | Nan's unfinished sentence — "not since—" | 4 | E2 (the net-mending talk), E10 |
 | The net-chest "that does not matter" | 4, 19 | E3, E7, E11 |
@@ -94,7 +127,7 @@ Script rule: the Chronicler never says "mad", "natural", "accident", "the sea he
 | Hands on the bar | 1, 18 | E4, E10 ("Not twice."), S3E9 |
 | Two notes hummed back; the sleeve | 1 | E5 (two notes), S3E12, S4 |
 | The treadmill; one wheel standing still, "short a pin"; Corr | 2, 6 | E5 (Corr's line), E10 |
-| The dry-tithe, "Last Song", three coppers | 2 | E2 (the tithe-box puzzle), E3 (Account Nine's streets) |
+| The dry-tithe as a debt (two months, six coppers); "Last Song" on the map and in the reading | 2, 7, 12 | E2 (the tithe-box puzzle — E2 gives the rate), E3 (Account Nine's streets) |
 | The Sluice Spire singing flat | 2, 4 | E3, E5, E9, E10 |
 | The fork; the cost in the throat; the mute Cantor; Choir sign | 8, 9 | E3 (hoarseness; Sabin), E10, E11 |
 | Ione saw the blood on the knuckle | 10 | E4 (the hinge), E11 (the chain) |
@@ -110,28 +143,58 @@ Script rule: the Chronicler never says "mad", "natural", "accident", "the sea he
 | Fossett's transposed figure; Hollis silent | 14 | E3 (the forged note), E6 (the doorway), E7 |
 | The clip | 15 | E7 (he flees with it) → S6 and after |
 | Ursel writes through the death-tone | 16 | E3, E4 (the back stair), E11 |
-| Thirty days | 19 | counted on screen each episode; E8–E12 |
+| Thirty days | 18, 19 | counted on screen each episode; E8–E12 |
 | The tapestry: crowds, braid, fist, pearl, sail, the lone singer; the exact sentence | 5 | E8 and later seasons (SEC-003, 025, 027) |
 
 Outline items that belong to later episodes and are **deliberately not in E1**: Nan's earring line and the name Oshra (E2 — the earring is only worn in E1; the collector says "Nan's house"); Kes's face and first line (E2); "Calm is bought" (E2); Vesna's first scene, Cressa, Sabin (E3); the hinge (E4). Nothing needed by E2–E12 is missing from the pilot.
 
-**One knock-on for E2 (no change of fact):** E2's first scene inherits an unpaid debt of six coppers — a second, plain reason for Pell to go to Tuck, and for Nan to drag her home.
+**Knock-ons for E2 (no change of fact):** (1) E2's first scene inherits an unpaid debt — two coppers of the six — and a girl who has already tried to pay with the stone: a plain reason to go to Tuck, and for Nan to drag her home. (2) E2's first scene opens with the stone in Pell's **open hand** and a warning whistle in the air: Nan's first act is to close her own hand over it; the whistle passes. (3) E2 introduces by name: Tuck, Corr (E5 at the latest), Odo, Juno (E6), Fossett (E3).
 
 ## 5. Rule checks
 
 | Rule | Result |
 |---|---|
-| Hook rule (investor) | wordless hook 0:00–0:08; "why?" by 0:30; stake by 2:05; first mystery at 3:00; no logo, title or narrator before 5:55 (beat sheet §2) |
+| Hook rule (investor) | wordless hook 0:00–0:06; "why?" by 0:25; stake by 2:00; first mystery at 3:00; no logo, title or narrator before 5:20 (beat sheet §2; second-by-second check at the end of `script.md`) |
 | Bible §12.1 hand-off | last frame of E1 = first frame of E2 (same room, same sound) |
 | §12.1.3 cold open caused | the pre-title's doorpost, gate and hands all return inside the episode (Sc 2, 18); the tapestry's lone singer and pearl return in Sc 9, 10 |
 | §12.2.2 season map sequence | Sc 7 |
 | §12.6.3 no free coincidence | the find is possible only at this ebb, and the ebb has a stated cause |
 | §12.6.2 upward consequence | set up, not yet paid: a clerk's silence (Sc 14), a second sheet (Sc 7) |
-| Lullaby only in clue scenes | Sc 1, 3, 20 only; the Lows' sound elsewhere is whistle, plank and count |
-| Sealed §7: ring and stone never share a frame | different lines; in the tapestry the pearl and the fist are in separate panels — **keep it so in the storyboard**; in Sc 9 the roof cross-cut must not be a split screen with the hall |
+| Lullaby only in clue scenes | Sc 1, 3, 20 only; the Lows' sound elsewhere is whistle, plank and count. The alarm of Sc 1 is whistles and iron, not score |
+| Sealed §7: ring and stone never share a frame | S-13; in the tapestry the pearl and the fist are in separate panels — **keep it so in the storyboard**; no split screen anywhere in the woven block; the E2 preview must not feature Ruel's hands |
 | Lines ≤ 3 | P / I / H |
 | Minors (DEC-59): Pell 15, Wick 11, Mags 15, a baby | no romantic or sexual content; danger shown by water, light and sound |
 | Violence 16+ | one death, no blood beyond a bead on a knuckle; the flood by outcome and silhouette |
-| Names / TTS (DEC-57) | Tuck (not Nim); no new named character introduced |
-| Voice fingerprints | Pell, Ruel, Odo, Ursel, Nan, Wick, Hollis, Corr, Lucan — dossier lines verbatim where marked FIXED; nobody says a "never says" (Ruel: no "sorry"; Kes: silent on the Ninth; Hollis: "not yet reconciled"; Pell never says she cannot swim — she ties a rope) |
+| Names / TTS (DEC-57) | no new named character introduced; eleven names spoken (beat sheet §4) |
+| Voice fingerprints | Pell, Ruel, Odo, Ursel, Nan, Wick, Hollis, Corr, Lucan — dossier lines verbatim where marked FIXED; nobody says a "never says" (Ruel: no "sorry"; Kes: silent, on the Ninth and on everything; Hollis: "not yet reconciled", never "I don't know", no unchecked number; Pell: no "please", no "my lord", never says she cannot swim — she ties a rope; Ursel: no threat, no sum aloud; Nan: no reason for her fear; Wick: "It's only water", never "I'm scared"; Odo: one sentence, and it is true) |
+| Lip-sync close-ups | 5 (Sc 4, 11, 12, 15, 20) — counted in `script.md` |
+| Pell's absences | longest 7:08 (10:36 → 17:44) |
+| Length | 26:39; the director has ruled 26–27 min acceptable |
 | New locations | the pilot opens twelve sets at once, three of them table-tops or single plates (allowed: pilot; list in `production_notes.md` §5D); from E2 the ≤2-new rule applies |
+
+## 6. "Will the viewer take the baby of the pre-title for Pell?" — ruling (director's question)
+
+Checked against the sealed plan (SEC-004 and §7 of the sealed file, "encourage / protect"). Ruling: **the ambiguity stays, and is made fair.** In this open file only what is on screen:
+
+- The episode never says who the baby is: no line, no caption, no cut from the baby to a face.
+- The count is on screen for anyone who wants it: the stamp reads *Seventeen years later*, and Nan says "Fifteen years old" in Sc 4.
+- E2 carries a plain line on the subject (outline, E2, the net-mending talk). Nothing in E1 has to be taken back when it is spoken.
+- So a first guess, whatever it is, is made from true pictures and can be tested by arithmetic inside the first five minutes. That is the standard the sealed file sets for every clue ("each is covered by a louder reading", and no statement is false).
+
+Reasoning beyond this is in the sealed file and in my report only by reference. Marketing: the baby humming back and the sleeve stay inside the episode (`production_notes.md` §9, unchanged).
+
+## 7. Production notes — what v2 changes in `production_notes.md` (v1.1)
+
+`production_notes.md` is not rewritten in this step; read it through this list.
+
+| Notes § | Now |
+|---|---|
+| §1 M1 (Sc 1) | 1:10; hero shots unchanged + two cheap additions: the top shot into the cradle, the high-angle geography plate. "No faces anywhere" → eyes in the gap only (director's call). Sound from frame one |
+| §1 M2 (Sc 3), M5 (Sc 20) | the stone's sound has an upper partial for phone speakers; in Sc 20 it lies on her open palm (macro on a hand: finger check) |
+| §1 M4 (Sc 12) | add the opening top shot of the map with the pale district and IX; the blank ruled line |
+| §2 | new Sc 15a: LA (the Sc 2 lane plate, wet, gold light) + one silent close-up. Sc 5: six panels |
+| §3, §5 | unchanged (five lip-syncs; no new reference: Sc 15a reuses the lane and the collector) |
+| §6 | "0:00–0:35 no score" → no score until 0:32, but diegetic alarm from 0:00. Add the falling two-tone whistle (Sc 6, Sc 20). The bell opens Sc 16. The fall: four seconds of total silence, then the hall's uproar, then a hard cut |
+| §7 | Chronicler: three entries, none before 5:20; texts as in `script.md` |
+| §8 | time of day: the woven block is all low sun → last light; Sc 13 no longer steps back in time |
+| §9 | V1: recut per the analyst (cradle → gate by 0:05). V2: SDH burned in. V4: Nan's line `[OS]`, no lip-sync close-up in a social cut. First teaser: V3, ending on Pell's line |
