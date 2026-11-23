@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a **working sheet** for the sound director (voices are confirmed at the first TTS probe). Rename: Tuck (ex Nim). Ashare is pronounced `ah-SHAH-reh` everywhere (DEC-57).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** new §5 "Love lines — how delivery changes" for the sound director and script writers; Jaro's "never says" corrected (he says "loyal" once, to Ruel, S1E4); Sibby Roan added (no voice in S1). The S1 `[LIPSYNC-CU]` budget is **unchanged** — every r7 beat is hands, backs or `[OS]`.
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · for the sound director, script writers and the canon keeper (`series_bible.md` §12.5)
 Distinguish voices on **five axes** (pitch · timbre · attack · tempo · delivery/accent), not by age alone — two "young women" will sound alike to a TTS model unless the axes differ.
 Accents: **Lows** (swallowed t, dropped g, flat vowels) · **Mids** (clear consonants, clerk's finish) · **Steps / Pale Crag** (long vowels, formal) · **Gullmouth** (open sea vowels) · **Upland/Rusk** (rolled r, long o) · **Island/Quell** (drawl, dropped endings) · **Ossari** (hard k and ts, short vowels, falling endings).
@@ -20,7 +22,7 @@ Accents: **Lows** (swallowed t, dropped g, flat vowels) · **Mids** (clear conso
 | **Ursel** | soft low mezzo, grandmotherly; slow; Steps | "All water finds its level." | a threat; a sum aloud; "Teodor" | *"His father had a beautiful hand."* |
 | **Nan** | thin, cracked, loud; quick scolding; old Lows | "Never sing, chick. Hum if you must, and only for the house." | why she fears the Choir; "the Quiet" before children | *"It's not in the blood. It's in the mouth."* |
 | **Vesna** | **voiceless, never lip-sync**; formal Choir sign, slow, ringed right hand; five taps when moved. Voices: Elm (S1–S8E9), Daro (S8–S10E9) | (via Elm) "Hear, and be still." | her own name; "I" | *(via Elm)* "The Choir owes the bank its roof." |
-| **Jaro** | lazy tenor with a laugh; drawling; Island | "Calm is bought." | "I promise"; "loyal" | *"I'm loyal to whoever pays and respects me. You're halfway there."* |
+| **Jaro** | lazy tenor with a laugh; drawling; Island | "Calm is bought." | "I promise"; "loyal" (except once, to Ruel, S1E4 — r7) | *"I'm loyal to whoever pays and respects me. You're halfway there."* |
 | **Brenna** | loud flat rough contralto; blunt; Upland (lady's grammar) | "Shut, and stand." | "neutral" (without spitting); "saltpeter" in Highwater | *"The Steps vote. The Stair bleeds."* |
 | **Brother Elm** | soft even tenor, liturgical; neutral as the Voice, a Lows vowel slips through as himself | "The First Cantor says…" | "I" while voicing | *"I don't lie for her. I only choose which truth reaches you first."* |
 | **Tsura** | dry low alto, carries in wind; falling endings; Ossari | "Count the wells." / "Your stones drink our rivers." | "please"; "queen" about herself; whether she breached the weir | *"You call it a river. Up here we call it the thing that leaves."* |
@@ -41,6 +43,7 @@ Accents: **Lows** (swallowed t, dropped g, flat vowels) · **Mids** (clear conso
 | Tuck | rapid nasal patter | *"Calm is bought, mudlark. So is everything."* |
 | Gant | friendly, fatherly | *"I bought a debt. Debts don't cry."* |
 | Bede Lark | fussy, quick, giggling | *"Old stones ring low. We throw them back."* |
+| Sibby Roan (r7) | none in S1 (a back on the wheel); S2 proposal: low, worn alto, Lows, few words | *(S2, proposal)* "Six years of steps. I can count them." |
 | Fitch | flat, accentless (Lows slips out under fear) | *"I know every lane you'll run down, girl. I ran them first."* |
 | Widow Pruitt | chirping, fast | *"Nobody really drowns in this city, dear. They just change columns."* |
 | Fossett | oily tenor | *"I don't steal, Kett. I keep."* |
@@ -78,3 +81,21 @@ Accents: **Lows** (swallowed t, dropped g, flat vowels) · **Mids** (clear conso
 
 ## 4. `[LIPSYNC-CU]` budget, S1 (≤5 per character)
 Pell 4–5 · Ione 3 (none after E10) · Hollis 4 · Kes 3 · Ruel 4 · Maren 4 · Odo 3 · Ursel 3 · Nan 3 · Vesna **0** · Elm ≤2 · Wick 2 · others ≤1. Episode-level placement is in each dossier's Voice section; the screenwriter has the final say per script.
+
+## 5. Love lines — how delivery changes (Revision r7)
+Rule: love is carried by objects and hands; lip-sync close-ups are not spent on love scenes unless the line is a fixed line (romance_lines §0.7). The Chronicler never voices the cause of a love — only the fact.
+
+| Character | With whom | What changes in the voice | What never changes |
+|---|---|---|---|
+| Jaro | Ruel (S1) | the laugh drops out only at the rail (E8) and on the mole (E9) — both silent; *"This one was paid for"* (E12) said flat, no grin | the drawl; the price-talk |
+| Ruel | Jaro (S1) | in the stern gallery he says nothing — the hand is the line; with Jaro the joke-before-bad-news becomes a plain warning (*"A storm is coming. Be ready too."*) | the public baritone |
+| Maren | Hollis (S1 seed; S2+) | she lets silences stand for him; orders and love in one sentence (S4E12) | short sentences; no "please" |
+| Hollis | Maren | slows down — his courage tempo; ledger words carry feeling ("carried forward", "received") | finishes every word |
+| Elm | Ione | signs as himself, never voices to her; a Lows street gesture slips into his sign only with her (proposal) | the neutral Voice for Vesna |
+| Ione | Elm (S2+) | private signs; in S4E10 her signs get **smaller**, then stop (a hand over his) | subtitles give literal meaning only |
+| Ursel | (Teodor, past) / Hollis | never says "Teodor"; on "a beautiful hand" the voice does not change — the hand goes to the sleeve | soft, slow, still |
+| Bede | Sibby | the giggle stops on one subject; plain and quick about her (proposal) | fussy patter elsewhere |
+| Jaro, Zev, Maren (S7) | the paper marriage | courteous, contractual; Zev does not stammer with Maren (proposal) | — |
+| Pell (S6+, adult only) | Lio's suit; Esk (S7+) | blunt public refusal (S6); with Esk at first all edges; kite-code as a voice without a voice | Lows accent; nothing before S5 |
+| Esk (S7+, adult only) | Pell | slow Concord tongue; letters as counts and knots | nothing before S5 |
+| Lio (S6, adult) | Pell | courts in public, like a rally; the whistle, not the voice, is his gift | nothing romantic in S1 |

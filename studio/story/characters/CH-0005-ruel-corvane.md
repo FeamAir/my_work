@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**.
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L1 "The Second Lamp"** added: Ruel and Captain-Lord Jaro Quell are lovers since CY 305 (proposed **SEC-046**). New S1 beats: E4, E6, E8, E9 (all staged on hands, lamp, backs; no new lip-sync). No fact, death or reveal of the dossier changes. The machine block is **not** changed: the relation kind `lover` (DEC-76) and the secret number are for the keeper (proposals in the report).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon
@@ -58,6 +60,27 @@ In the season before the saga, relay-keeper **Bede Lark** sold him early news: t
 He did not know that Bede Lark had sold the same news to Ursel Lantry — and that the bank now knew he knew. He is stabbed on the Steps on Still 1 (E8) and dies on the *Patient Gull* on Still 2 (E9). His sister Ysa is already aboard (SEC-023).
 
 **Keeps acting after death:** the ring (Maren takes it at the wake, S1E11; wears it from S6E12); the burned ledger page and its twin; the debt to Lantry; his last words; what his sister did to protect him (SEC-023); his crime made public (S6).
+
+## Love line — L1 "The Second Lamp" (Revision r7)
+*Age gate: Ruel 48, Jaro 36 in S1 — both adults; the line is live in S1 (DEC-71). Rating TV 16+: the camera never goes past the cabin door.*
+
+- **Partner:** Captain-Lord **Jaro Quell** (CH-0019). Lovers since **CY 305** — the year the wrecker silver begins to pay the Corvane fleet (SEC-031). The money was always the shadow of the love; the cover for both is one sentence: *"an old friendship of sailors"*. Ruel has been a widower since CY 300.
+- **Why it is hidden (never who — always votes and silver):** a candidate for Helm whose swing vote shares his cabin hands his rival a challenge; clan silver spent on a lover's fleet can depose Jaro at any Hull Moot. So: no signed letters, no shared roof. The signal is a **second stern lamp** on the *Patient Gull* — one lamp: the Admiral is aboard; two: come.
+- **Motivation (what the love does inside him):** Jaro is the one man he never charms. He keeps him **out of the crime** — the needle never comes near him — and **out of the truth**: Ruel tells his sister, not his lover. The love is one more thing he keeps behind his back, which is exactly his flaw ("to admit that he has become what he fights; he never does"). His last unsent note, dated **Longdark 5** — between the poison draft (Longdark 4) and the Helm's death (Longdark 6) — begins *"If I asked you to sail tomorrow and not ask why—"* and stops.
+
+**Key episodes**
+| Ep | Beat | Reads later as |
+|---|---|---|
+| S1E4 | after the public bargaining, the stern gallery: a steward hangs the second lamp. Jaro: *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."* He reaches for Ruel's **left** hand; Ruel gives the **right** and keeps the ringed hand behind his back. Ione sees two lamps from the quay and thinks nothing of it | first viewing: an admiral's reserve; after E11: he will not let the needle near this man — and has not told him |
+| S1E6 | the Ring's corridor after the accusation. Jaro, low: *"You were very good in there. Very ready."* — Ruel: *"A storm is coming. Be ready too."* | the lover is the first to feel that something is wrong — and lets it go |
+| S1E8 | as the night procession sets out: two stern lamps over still water, a man waiting at the rail (back to us). Ruel never comes | the last lamp he lit |
+| S1E9 | he dies on the *Patient Gull*; Ysa keeps Jaro off the ship, empties the cabin locker (a packet in tarred twine); at the wake Jaro, let in last, puts out the second lamp and takes Ruel's **right** hand | the audience learns SEC-046 after the man is dead |
+| after death | S2E10 Ysa shows Maren the packet; S2E11 it becomes Odo's blackmail on Jaro; S5E12→S6E2 Zev returns it unopened; **S6E7–E8** Jaro learns Ruel was a poisoner and finds the unsent note of Longdark 5 | — |
+
+- **Speech with Jaro (rules for script writers):** in the gallery Ruel **does not speak** — the hand is his line. The joke-before-bad-news habit turns, with Jaro only, into a plain warning (*"A storm is coming. Be ready too."*). In public he never names the tie; the Chronicler never states the cause (romance_lines §0.8).
+- **Behaviour — the hand rule:** Ruel shakes **left-handed** with men he means to charm. With Jaro, **never**: he gives the right hand, the ringed left goes behind his back. This must hold in every shot of the two of them (E4, E6, E9). The scarred right hand (rope-scar) is the hand he gives.
+- **Staging for AI:** hands, lamp, backs, silhouette two-shots; no `[LIPSYNC-CU]` spent on the line — the S1 budget above is unchanged.
+- **Pilot (optional, not applied):** in E1 Sc 12 a figure in the sea-green block may stand still and look at Ruel, not at the dying Helm (background, from behind) — the director decides at the storyboard (romance_lines §5).
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |

@@ -2,9 +2,11 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Lucan's sealed *chest* holds his will and the unsigned Tithe Map (DEC-49). Piers is Bastian Lantry's grandson, Ursel's step-grandson (DEC-29).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** added love-line notes to **Aurin** (line C, with Cressa), **Zev** (L3, the paper marriage with Maren, S7 — no romance or hint before S5; he is 14 in S1) and **Ysa** (L1: she bars Jaro, takes the packet, has always known). Machine blocks not changed.
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns family trees (spouses, parents, cadet lines) of Dask, Ilvane, Fennick, Corvane, Lantry, Ashare. Where a parent is needed and not given, the field is empty.
-**Teen:** Zev Fennick (14) — no romance or sexual content.
+**Teen:** Zev Fennick (14) — no romance or sexual content. **r7 age gate:** nothing romantic in S1–S4; allowed from S5 (22); used from S7 (24) — and then only as a marriage of state, never a love.
 
 Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
 
@@ -64,6 +66,8 @@ first_episode: S01E04
 ```
 **Lord Aurin Ilvane** (44) — Ione's official father; head of House Ilvane in name, his mother's in fact. *Function:* receives Ruel's messages through Ione (S1E4); at her signed request **defies his mother** and votes Ilvane for Corvane (S1E12); gives Cressa the **Gleaner rolls** (S5); confined at Pale Crag "for his nerves" (S6–S9); freed when Maren breaks the Choir (S10); decides what Pale Crag does in S12. *Secret:* knew Ione was "brought in" (SEC-004 `known_by` from origin; how much he knew: proposal — that she was a Choir foundling, not that she was stolen). *Link:* the rolls he gives Cressa are the paper core of SEC-005. *Look:* thin, **pale-silver hair cut short**, white-and-violet coat, a **white spiral-stone signet** (the Ilvane sigil) he turns when nervous. *Voice:* gentle, hesitant tenor; stammers in front of his mother. *"I have obeyed her for forty-four years. Today I'd like to see what the other thing feels like."*
 
+**r7 — line C "The Other Thing" (with Cressa):** a cloister marriage ("keep the blood true"), twenty years of courtesy over a dead child and a borrowed one. S1E3 (direction only): at Ione's rinse he **stands in the doorway and does not come in**. It becomes a marriage only after Ione's death: the Gleaner rolls (S5) are the first thing he has ever done for Cressa **and against his mother**. She is murdered (S6E12); he is shut in Pale Crag (S6–S9); his S12 decision for Pale Crag is made between two graves. *Speech:* the stammer is for his mother; proposal — with Cressa, from S5, he does not stammer, and learns a few of her signs. His line "the other thing" is, read with line C, also about his marriage.
+
 ```canon
 id: CH-0042
 type: character
@@ -82,6 +86,8 @@ first_episode: S01E02
 ```
 **Zev Fennick** (14) — Odo's son. Main from S6 (replaces Odo). *Function:* in S1E2 he **will not touch the Relay keys**; in S6E9 he is the last man seen entering the burning Counting House. **After S6E9: `[SEALED — ask lead]`** (frame jobs in `cast_overview.md` §5 apply; not developed here). *Secret:* hates the Relay — the house's ears — because (proposal) he once heard, on a practice stone, a message that sent a man to the Hearings and could not stop it. *Link:* his refusal is the seed of every later choice. *Look:* slight, **thick unruly black-brown hair he refuses to shave like his father**, a sulphur-yellow scarf over a slate-grey coat, ink-free hands (he will not write for the Relay). *Voice:* quiet, a slight stammer when his father is present (proposal). *"I don't want to hear everything, Father. I want to choose what I listen to."*
 
+**r7 — L3 "The Paper Marriage" (with Maren Corvane) and the returned packet.** *(romance_lines L1/L3 open these beats after S6E9; the rest of his late arc stays `[SEALED — ask lead]`.)* **S5E12 → S6E2:** inheriting the Listening House, his **first act** as Lord Fennick is to send Jaro Quell the packet of Ruel's letters **unopened** — "I want to choose what I listen to", made a deed; Jaro owes him a debt. **S7 (CY 322, he is 24, she 29):** betrothal E2, marriage **E3** in the Ring, without a song; the Relay sworn to the Helm for her wars and kept in Fennick's hands; he keeps the Listening House and the Hearings; **separate roofs**. Never a love and never becomes one; both are honest about it — two people who each lost a father to the chair. S7E4–E5, as Master of the Hearings, he rules against his wife's convenience (the Kilbride suit). S9E12 the Sovereign has a consort and no heir. S12 he opens the Relay to the Great Chorus — on what right: *restricted*. He survives. *Speech with Maren:* no stammer — the stammer belongs to his father (proposal); plain, contractual, courteous.
+
 ```canon
 id: CH-0058
 type: character
@@ -98,6 +104,8 @@ status_track: [S01E09:alive]
 first_episode: S01E09
 ```
 **Lady Ysa Corvane** (51) — Ruel's sister, regent of Gullmouth while he sails. *Function:* aboard the *Patient Gull* in S1E9 **a day before any message could have fetched her**; confirms Maren's right to cast the Corvane vote "on one condition" (S1E11 — the condition is **obedience**); opens Gullmouth to Fennick at the Battle of the Sluice Gates (S2E11). *Secret (SEC-023):* has known her brother's crime since before his death; **had Sister Marl killed** to bury it (a Corvane silver mark left in the dead woman's fist); revealed S2E10: *"I have been burying your father for a year."* *Link:* she believes she is protecting the name — the same words Maren will use. *Look:* tall, **grey-streaked dark hair in a tight braided coil pierced by a silver cormorant pin**, storm-grey gown with Corvane-blue trim. *Voice:* cool, maternal alto. *"Your father made the storm, child. I only keep the house dry."* (Fate after S2: lead's choice.)
+
+**r7 — L1 (Ruel and Jaro, proposed SEC-046): she has always known.** S1E9: *"House only tonight, Captain-Lord."* — she keeps Jaro off the *Patient Gull*; she empties the cabin locker — a **packet tied in tarred twine** goes into her sleeve (first reading: evidence of the poison, SEC-023; true reading: the lovers' letters, which name the wrecker silver); at the wake she lets Jaro in last and watches from the doorway. **S2E10:** to Maren she lays down **two** things — the boatswain's discharge and the packet: *"There were two things to bury."* **S2E11:** opening Gullmouth, she gives the packet to Odo as her pledge — Jaro's blackmail begins. *Behaviour:* she guards the name, not the people; she does not despise the love, only its risk (romance_lines §0.6 — nobody is shamed for whom they love).
 
 ```canon
 id: CH-0061

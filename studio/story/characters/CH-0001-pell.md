@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. She learns of Mags's copper in S2E9 (DEC-45) and hears Kes's confession only in S5 (DEC-54).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L4 "Kites over the Wall"** added (with Esk; Lio's unrequited suit). **Age gate: 15 in S1 — no romance, no hint, no "almost" in S1–S4**; allowed from S5 (23); object of Lio's suit in S6 (24); her own feeling from S7 (25). She and Esk never meet in S1–S4. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ lead-screenwriter's world package r2) · Spoiler level: **internal**
 Frame: `cast_overview.md` §1, `saga_arc.md`, `season01_outline.md`. Sealed items are marked `[SEALED — ask lead]`.
 
@@ -64,6 +66,32 @@ Her father died at the gates when she was five (CY 302, EV pending — a counter
 Nan taught her one rule — never sing — and, against it, the first verse of a five-note lullaby, "for the house only". Pell hums it when she is frightened. On the lowest ebb of CY 312 (S1E1) she pulls a thumbnail of black stone out of the back-canal by the old sluice; when she hums, it hums back (SEC-002). Everything in her life after that follows from one sound.
 
 What she inherits without knowing it: a family name, Oshra, that is older than the Concord (SEC-003); a sister who lives on the Steps (SEC-004); a mother who did not drown by accident (SEC-012). Where the shard came from is `[SEALED — ask lead]`.
+
+## Love line — L4 "Kites over the Wall" (Revision r7)
+**Age gate (hard rule, DEC-71):** Pell is 15 in S1 (born CY 297). In **S1–S4** she carries **no romantic beat, no hint, no look held too long** — with Lio, Hollis, Esk or anyone. Lio and Pell in S1 are friends of 15 and 17 and nothing else. She turns 18 in the skip; romance is allowed from S5 (23) but not used there. No retroactive framing: nobody ever says "since we were children"; flashbacks to her under 18 are never shot or scored as romance.
+
+- **Partner:** **Esk** (CH-0040), first met as adults in **S7** (CY 322): she is 25, the voice of the Hum; he is 23, kite-master and envoy of the uplands, "the Dry Queen's nephew". What they share before a word is spoken: **Kes Mabry** — his guardian, and the sergeant who opened the gate of her district.
+- **The wall:** she believes the Dry Queen sent the wave that killed her sister (S4E11). In S7E6 she learns the envoy is the Dry Queen's **son**. Love across the saga's deepest quarrel — the delta's song and the upland's thirst — and the one line that ends alive.
+
+| When | Beat | Consequence |
+|---|---|---|
+| S6E5–E6 | **Lio's suit:** the Pretender's brokers script a betrothal — "the Pearl and the Singer" would bring the Hum under the bonds. Lio (26) means it. Pell (24) **refuses him in public** | deepens the split of the Lows' vote (SEC-016); his love is real and unreturned |
+| S7E4–E6 | parley over the Falls Spire; E6 — he is Tsura's son | she walks out; the truce talk dies for an episode |
+| S7E10 | the three records laid side by side; the delta half and the upland half cross the lines because these two carry them | SEC-008 is proven by a meeting both camps would call treason |
+| S7E11–E12 | Kes dies; they mourn the same woman | the **first admitted feeling** — over a white-striped helm |
+| S8E2–E9 | the siege: she inside the walls, he in the camps; letters by **kite-code** over the wall in plain sight of two armies | the only channel between the movement and the uplands |
+| S8E4–E6 | **Lio's jealous act:** he lets his brokers sell the kite-code to the Dry Palace watch; dying (E6) he tells Pell what he sold | the Helm's watch can read the low camps' musters |
+| S8E10–E11 | she flies a warning on the blown code; Esk and part of the camp are out of the low ground when the Spires are sung | Maren learns the singer warned the enemy — the personal root of "she sees a rival" (S9) |
+| S9E10–E11 | his kite over the Ninth Bridge (planted suspect); Wick dies; for one episode she believes loving an Ossari cost her her brother; cleared E11 | the love survives the worst thing said against it |
+| S10 | in hiding with the Ossari alliance; the clans want Esk matched inside the uplands; Tsura neither forbids nor blesses | — |
+| S10E11 | what she learns from Silt's book (*restricted*) | the wall comes down |
+| S11E10 | Tsura dies; her last words to Pell are about the weir — and (proposal) she ties the kite-string knot on Pell's wrist | blessing and truth arrive together |
+| S11–S12 | his kite-lines carry her pitch | the working link of the Great Chorus: her note, his line |
+| S12E12 | she loses her voice; they already have a language without it — signs and kites | both live; epilogue *restricted, sealed §12* |
+
+- **Speech (adult Pell only, S6+):** the refusal of Lio is public and Lows-blunt, but never cruel (he is the boy from the tide-post). With Esk she is at first all edges — "your dryness" becomes "envoy" said like an insult (proposal). The whistled two or three notes of her nervous habit find a second outlet: **kite-code**, a voice that is not a voice — it prepares the S12 ending.
+- **Behaviour:** she watches the sky over the wall the way she once watched the water (proposal for S8 direction). From S11E10 (proposal) a **kite-string knot on her wrist** — side to be fixed by the director so it does not cross the left braid or the fork.
+- **Staging:** kites, hands, backs against a wall; love scenes in silhouette.
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |

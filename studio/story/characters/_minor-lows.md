@@ -2,9 +2,11 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** set **approved with corrections**. Tibb is born **Longdark CY 311** — about a year old in S1E10, 9 in S5, 13 in S9 (DEC-22). Sal Tern is CH-0067. Silt's fence **Nim is renamed Tuck** (DEC-57). Mags's copper is approved; Pell learns it in S2E9 (DEC-45, SEC-045). Lio and Orrie keep their two-syllable names (DEC-58). Minors: Mags, Lio, Patch, Tibb — the restriction follows age in the season being written (DEC-59).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** **Lio** — his unrequited suit of Pell (S6) and his jealous act (S8) added; in S1 he is Pell's friend (17 and 15) and nothing else; Jaro's protection of him (S2–S6) is patronage only. **New minor: Sibby Roan** (line B, "Twice", with Bede Lark; proposed **SEC-051**). Never romantic at any age: Mags, Patch, Tibb (romance_lines §0.3).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Format: one machine block + short dossier (function · secret · link to the past · look anchors · voice line). Places (PL) and events (EV) are pending; names of places are given in prose.
-**New-character proposals** in this file (need keeper IDs/approval): CH-0067 Sal Tern, CH-0073 Gant, CH-0074 Tuck. Teens (Mags 15, Lio 17, Patch 12, Tibb): no romance or sexual content.
+**New-character proposals** in this file (need keeper IDs/approval): CH-0067 Sal Tern, CH-0073 Gant, CH-0074 Tuck. Teens (Mags 15, Lio 17, Patch 12, Tibb): no romance or sexual content. **r7:** Mags, Patch and Tibb are never romantic at any age; Lio only from S6 (26), as an unrequited suitor. New minor (r7): Sibby Roan (proposed CH-0078).
 Lowfolk naming: one-syllable given name + "of the <sluice>"; a few families keep an old private surname (Oshra, Tern).
 
 Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
@@ -44,6 +46,8 @@ status_track: [S01E02:alive, S01E03:missing, S06E01:alive, S08E06:dead]
 first_episode: S01E02
 ```
 **Lio** (17) — Pell's friend, a street whistler, the best ear in the Ninth. *Function:* sings aloud at Ruel's rally (S1E2), a night on the tide-post (E3), and vanishes; returns in S6 as **the Pearl Pretender**, claiming Ashare blood. *Secret (SEC-016):* the claim was invented by Quell salvage-brokers and Piers Lantry to sell "Lirenne salvage bonds"; **Lio believes it**. *Link:* a whistler's tune on a Quell deck (S2E2) is the only trace of him between S1E3 and S6E1. Dying (S8E6) he asks the crowd to raise Lirenne anyway — the brokers' slogan becomes the movement's aim. *Look:* S1 — lanky, **black hair with a white streak over the LEFT brow**, patched sky-blue scarf; S6 — the streak kept, a pearl-and-teal coat (Ashare colours) and a fake spiral-shell brooch; he draws the spiral the wrong way (S6E3). *Voice:* light tenor, beautiful whistle; after the tide-post he never sings again until S6. *"I didn't sing for them. I sang because the crowd was singing inside and nobody let it out."* Relation to Pell lives in CH-0001.
+
+**r7 — the unrequited suit (L4).** *S1:* Pell's friend, 17 to her 15 — no romance, no hint, no look held too long. *S2–S6:* Jaro Quell's protection is **patronage only**. **S6E5–E6:** the brokers who made the Pretender script a betrothal — "the Pearl and the Singer" would bring the Hum under the bonds. Lio (26) **means it**; Pell (24) refuses him in public; the Lows' vote splits deeper (SEC-016). **S8E4–E6 — the jealous act:** he sees the kites over the siege wall and lets his brokers sell the **kite-code** to the Dry Palace watch; dying (E6) he tells Pell what he sold. *Speech and behaviour:* in S6 he courts in public, as a rally — the only way he knows to say a thing is to a crowd (proposal); his whistle, not his voice, is what he gives her. His betrayal is small, human and fatal: the saga's one act of jealousy.
 
 ```canon
 id: CH-0048
@@ -210,3 +214,24 @@ status_track: [S01E02:alive]
 first_episode: S01E02
 ```
 **Tuck** (28; NEW — proposal) — Mother Silt's fence for the mudlarks. *Function:* says the line *"Calm is bought, mudlark. So is everything."* (S1E2); buys and sells shards; the lane's link to the Listeners. *Secret:* sells to Fitch's Listeners as well as to Silt (Silt knows, and uses it to feed Fitch what she wants him to hear). *Link:* tells Pell in S2 who sold her stone's lane (Mags). *Look:* narrow, **one gold-capped front tooth**, a coat lined with dozens of little pockets, a jeweller's loupe on a cord. *Voice:* rapid, nasal patter.
+
+---
+
+### New minor (Revision r7) — line B "Twice"
+
+```canon
+id: CH-0078
+type: character
+canon: draft
+name: Sibby Roan
+epithet: of the Ninth
+class: poor
+role: minor
+born: ~CY 279
+relations: []
+secrets: []
+status_track: [S01E07:alive]
+first_episode: S01E07
+```
+<!-- NEW — proposal (r7). ID CH-0078 is a proposal: the keeper assigns. Relation to Bede Lark (CH-0052, lover/beloved per DEC-76) lives in his lower-ID record; secret SEC-051 (proposed) belongs to Bede. Family name Roan: a married name kept after her husband's death (proposal; Lowfolk naming allows a few kept surnames). Fate after S2E6: S2 outline. -->
+**Sibby Roan** (33; NEW — proposal, r7) — a **debt-walker on Corr's treadmill** in Ninth Sluice; she has been walking off her dead husband's debt for **six years** (since CY 306). *Function:* the smallest love in the city, which sets off both murders of S1 — **why a relay-keeper sells one message twice**: one sale is half a walker's bond; two is a woman off the wheel. Bede Lark (40) has been saving for four years to buy her bond. In **S1E7**, counting Hollis's coin, he nods at the treadmill across the canal — she is a back on the wheel, no face. He buys her off the wheel (romance_lines: "on the day the Helm dies" — see the report, open question on the order against the E7 shot). **S2E4** — her next beat (to be written with the S2 outline). **S2E6:** Hollis proves that the double sale caused two murders; Bede must choose between the woman and the confession. *Secret:* none of her own — she does not know what her freedom was bought with (proposal; it decides how S2E6 plays). *Link:* her husband's debt is one of the "drowned on paper" debts of the Lows (proposal — Widow Pruitt's lesson to Hollis in S2E3 can name the type); the bond price is set by the keeper against `world.md` §7. *Look (S1, from behind only — no face reference):* walker's build — strong calves, a straight back held against the step-boards; a **faded ochre headscarf knotted at the nape** and a **walker's tally-cord** (one knot per paid shift) at her waist (proposal). *Voice:* none in S1; proposal for S2: low, worn alto, Lows, says little — *"Six years of steps. I can count them. Can you count what you paid?"* (proposal, for S2E6). Age gate: adult (33) — the line is between adults.

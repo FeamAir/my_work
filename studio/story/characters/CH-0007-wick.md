@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with one correction**: the Ninth Bridge is Longdark **CY 325** (DEC-23).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** Wick is on the list of characters who are **never romantic at any age** in this saga (romance_lines §0.3). No change to the dossier.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Teen rule:** 11 in S1 (19 from S5). No romance or sexual content while under 18; none planned after either.
 

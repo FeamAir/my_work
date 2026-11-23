@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. First seen S1E3, applying Ione's rinse herself (DEC-24). In CY 295 she knew her own child had died and that the baby was "a foundling of the Choir"; she did not know of a living mother in the Lows (DEC-43). Born a Pallis (DEC-27).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — C "The Other Thing"** added (with Lord Aurin; no new fact — a reading of existing ones). S1 direction: E3, at the rinse, Aurin stands in the doorway and does not come in. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Ilvane's tree and Cressa's birth-house.
 
@@ -55,6 +57,14 @@ first_episode: S01E03
 Married into House Ilvane (birth-house: writer-houses), wife of Lord Aurin. Her own baby died in CY 294 and was buried at Pale Crag. In CY 295, after the Night of Still Water, the Choir placed a child in her nursery and she was told to call it her own. She did, and loved it. **What she knew in CY 295** — proposal: she knew her baby was dead and that the child was "a foundling of the Choir"; she did **not** know the child had a living mother in the Lows. Lead to confirm (it decides how S4 plays).
 
 She gives Ione the weekly rinse herself (S1E3, proposal). In S2 she learns Choir sign to talk to her mute daughter. In S3 she watches Vesna confine Ione at Pale Crag and does nothing. In S4 she pours the rinse away (E1) and investigates with Ione and Mother Silt; Ione dies in E11. In S5 Aurin gives her the Gleaner rolls; she publishes them with Ione's journal and Silt's ledger (E6, SEC-005). In S6 the Choir murders her (E12).
+
+## Love line — C "The Other Thing" (Revision r7)
+*Both adults (Aurin 44, Cressa 40 in S1). S1E3 → S6E12 → S12. No new fact: only the reading of existing ones.*
+
+- **What it is:** a cloister marriage ("keep the blood true") — twenty years of courtesy over a dead child and a borrowed one. It becomes a marriage **only after Ione's death**: in S5 Aurin gives her the Gleaner rolls — the first thing he has ever done **for her and against his mother**. She publishes; she is murdered (S6E12); he is shut in Pale Crag "for his nerves" (S6–S9). The arranged marriage turns into love too late.
+- **Key beats:** S1E3 the rinse — Aurin stands in the doorway and **does not come in** (direction only) · S4 she is blunt with everyone, him included · S5 the rolls · S5E6 she publishes · S6E12 murdered · S12 his decision for Pale Crag is made "between two graves" (romance_lines §3 C).
+- **Speech and behaviour:** S1–S3 courtly and careful with him — two people who know every sentence is overheard. From S5, proposal: she lets him **see her sign** (she learned it for Ione) and teaches him a few signs; the only private language of their marriage is their dead daughter's. The teething-ring at her throat is never touched in his presence before S5 (proposal).
+- **Staging:** doorways (he stands in them; from S5 he comes through one).
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |

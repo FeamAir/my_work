@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a working sheet. Read with these rulings: the assassin is a Lantern Company man supplied by Rook Danner and paid through Garrick's steward (DEC-36); the fence is Tuck (DEC-57); the passes run Dunmore's clerk → quartermaster's office → Ansel Fray (DEC-55).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** map and tables extended with the S1 love lines: **L1** Ruel — Jaro (lovers, proposed SEC-046; the audience learns it in E9), **L2** Maren — Hollis (seed only), **L5** Elm — Ione (seed only), **A** Ursel — Teodor (past), **B** Bede — Sibby Roan (new minor), **C** Aurin — Cressa. New §6 (love lines in S1) and §7 (age gate). Relation kinds `lover` / `beloved` / `suitor` / `betrothed` follow DEC-76 (keeper).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 State at **S1E12** unless an episode is given. Who-knows-what is a proposal for `secrets.md` `known_by` (the keeper decides). Sealed links are not drawn.
 
@@ -60,7 +62,12 @@ graph LR
   Hollis ===|hidden by, E7| Pell
   Hollis ===|gives the ledger, E7 / the page, E11| Maren
   Kes ---|guards| Esk
-  Jaro ---|friend| Ruel
+  Jaro ===|"old friendship = lovers, SEC-046 - r7"| Ruel
+  Ysa -.->|"keeps the packet, bars him - r7"| Jaro
+  Bede -.->|"two is a woman off the wheel - r7"| Sibby[Sibby Roan]
+  Ursel -.->|"past lover, CY 291-296 - r7"| Teodor["Teodor Kett, dead"]
+  Aurin ---|"spouse, line C - r7"| Cressa
+  Elm -.->|"teaches her name, E11, seed - r7"| Ione
   Brenna ---|vote| Ruel
 ```
 
@@ -76,6 +83,9 @@ graph LR
 | Kes — Ruel | E2 (the quay) / E8 (the Steps) | she kills his assassin and cannot save him |
 | Ruel — Ione | E4 (she carries his messages) | she sees his hinge; he sees a girl who looks at the Lows |
 | Odo — Zev | always | love that cannot touch |
+| Ruel — Jaro (r7) | since CY 305; on screen E4 | lovers under "an old friendship of sailors"; Ruel keeps the crime and the ring from him; Jaro is left with a lamp to put out (E9) |
+| Ysa — Jaro (r7) | before S1; E9 | she has always known; she bars him, then lets him in last |
+| Bede — Sibby (r7) | before S1 (four years of saving) | he is buying her off the wheel with the double sale; she is a back on the wheel (E7) |
 | Ursel — Hollis | since CY 296 | guardian and ward; he thinks she saved him |
 | Nan — Hollis | E7 | furious, then kind |
 | Silt — Pell | before S1 | buyer and mudlark; Silt is fond of her and would sell her |
@@ -94,6 +104,8 @@ graph LR
 | Patch | Gant (the Undertow) | a debt he never made | S4E2–E6 |
 | Kes | the Ninth | CY 295 | S1E10 (opens the gate), S3E9 |
 | Ruel | Bede Lark | forty-mark news | S1E1 (the Helm's death) |
+| Sibby Roan (r7) | the wheel (her dead husband's debt) | six years of steps; the bond Bede buys with two sales | S1 → S2E6 |
+| Jaro (r7) | Ruel | his alibi — he will not sell it (E9) | the Quell frame holds until S2E11 |
 | Maren | Ysa | the Corvane vote "on one condition" | S2E11 |
 | Odo | Vesna | the Sunken Vote | S2–S5 |
 | Ansel Fray | Kes | his neck ("next flood I'll hang you") | S1E10 → S3 (proposal) |
@@ -119,12 +131,17 @@ graph LR
 | Fitch | the Listeners | his Lows birth (proposal) | S5 (proposal) |
 | Dakka, Tsura | the Concord | Esk is a nephew | S7E6 |
 | Pell | Nan | she has stopped humming outside | S2E3 (the slap) |
+| Ruel and Jaro (r7) | everyone | "an old friendship of sailors" | S1E9 (audience; Ysa always knew); S2E10 (Maren) |
+| Ruel (r7) | Jaro | the poison — he tells his sister, not his lover | S6E7–E8 (the unsent note of Longdark 5) |
+| Jaro (r7) | the Ring | "On a deck. Waiting on the weather." — true and incomplete | S1E9 (audience, by E8's lamp shot) |
+| Ysa (r7) | Maren | the packet in tarred twine is "evidence of the poison" | S2E10 ("There were two things to bury.") |
+| Ursel (r7) | Hollis | the clip is "for a clerk who is trusted" — it was his father's | S6E8 |
 
 ## 5. The S1 vote (who votes how, and why)
 | Vote | Cast by | For | Why |
 |---|---|---|---|
 | Corvane | Maren (after Ysa's condition) | Corvane | her father's cause |
-| Quell | Jaro | Corvane | sailors; wreckers' money in Corvane's refit (proposal SEC-031) |
+| Quell | Jaro | Corvane | sailors; wreckers' money in Corvane's refit (proposal SEC-031); r7: Ruel (SEC-046) — *"Calm is bought. This one was paid for."* |
 | Ilvane | Aurin (defying his mother, at Ione's signed request) | Corvane | Ione |
 | Rusk | Brenna | Corvane | honour; dislike of the Listeners |
 | Fennick | Odo | Fennick | — |
@@ -132,3 +149,21 @@ graph LR
 | the Choir | Vesna | Fennick | "the Choir owes the bank its roof" |
 | Dask | Garrick | Fennick | bread; Ursel; Ruel's death |
 | Sunken Vote | Vesna (speaker for the drowned) | **Fennick** | five taps |
+
+## 6. Love lines in S1 (Revision r7)
+Every S1 beat is staged on hands, lamps and backs (romance_lines §0.7); about three minutes over the season; no death, reveal, vote or cliffhanger moves (DEC-74).
+
+| Line | Pair | Kind in S1 | Episodes (S1) | Who knows at S1 end | Pays |
+|---|---|---|---|---|---|
+| L1 "The Second Lamp" | Ruel (48) — Jaro (36) | **lovers** (secret, proposed SEC-046) | E4 lamp & hand · E6 corridor · E8 two lamps, a man waiting · E9 barred, the packet, the wake, the alibi line · E12 the vote line, hulls astern | Ysa (always); the audience (E9); Ione saw two lamps (E4) without knowing | S2E10 (Maren), S2E11 (Odo's blackmail) |
+| L2 "The Clerk and the Admiral" | Maren (19) — Hollis (26) | **seed only**, not romantic | E7 "a house on the Steps" · E11 "Twice, by now" | — | S2 letters; S4E12 the first kiss |
+| L5 "The Voice" | Elm (22) — Ione (18) | **seed only**, not romantic | E11 the first sign: her name; he never speaks aloud | — | S2 lessons; S4E10 |
+| A "A Beautiful Hand" | Ursel — Teodor (dead CY 296) | past lovers (proposed SEC-050) | E1 the clip · E11 "a beautiful hand" + the empty sleeve | Ursel only | S4E6 "U. —"; S6E8 |
+| B "Twice" | Bede (40) — Sibby Roan (33) | his reason (proposed SEC-051) | E7 "two is a woman off the wheel" (her back on Corr's wheel) | Bede | S2E4, S2E6 |
+| C "The Other Thing" | Aurin (44) — Cressa (40) | marriage of courtesy | E3 he stands in the door at the rinse | — | S5 the rolls; S6E12 |
+
+## 7. Age gate (DEC-71) — S1 cast
+- **Romance allowed in S1:** only between characters who are 18+ in CY 312 — in practice the lines above.
+- **No romance, no hint, no "almost" in S1–S4:** Pell (15), Esk (13), Zev (14), Lio (17). Pell and Lio are friends of 15 and 17 and nothing else; Pell and Esk never meet in S1–S4.
+- **Never romantic at any age:** Wick, Tibb, Mags, Patch, Daro Vey (romance_lines §0.3; Sindre and Ylva are outside this sheet). Kes and Esk are **guardian and ward — family**. Jaro's protection of Lio (S2–S6) is **patronage only**.
+- **No retroactive framing:** a feeling that begins in an adult season is never dated back to childhood.

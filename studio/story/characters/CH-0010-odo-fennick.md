@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with one correction**: he dies on the night of Still 3, CY 320 (`died: CY 320-11-03`, DEC-07).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** in **S2E11**, opening Gullmouth, Lady Ysa gives him the packet in tarred twine — Ruel's letters to Jaro Quell, which name the wrecker silver (L1, proposed SEC-046). From then to his death he holds **Jaro's seat on a leash**: he can unseat the Captain-Lord at any Hull Moot, and Jaro "trades with both sides" (S3–S5) because of it. He never publishes the letters — information is his coin. After S5E11 the packet passes with the Listening House to Zev, who sends it back unopened. This fits his need *to be loved for something other than what he knows*: the packet is exactly what he knows.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon

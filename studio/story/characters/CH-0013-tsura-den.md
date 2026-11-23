@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. Esk was given in CY 309: "three years" (DEC-20); his father is Akko of Kitsa (DEC-33). The Dry Queen is an office that ends when the wells rise (RULE-022, DEC-09). The kite-string tattoo is approved (DEC-60). First appearance stays S2E1 (DEC-24).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** her love for **Akko of Kitsa** (SEC-019, canon) is the love behind Esk's birth and the measure she uses on Pell in **S10** — she neither forbids nor blesses. **S11E10:** her last words to Pell are about the weir and (proposal of the lead) she ties the **kite-string knot** on Pell's wrist — the mother's blessing and the truth arrive together. The clans' wish to match Esk inside the uplands (S10) is a pressure she does not join.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` writes Ossari power (clans, council, war); this dossier writes the person.
 

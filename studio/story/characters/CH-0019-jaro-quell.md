@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. The wreckers' wages are SEC-031: he tells Maren in S2E9 (DEC-37); he is blamed for the pilots' night from S2E11 to S3E2 (DEC-41). After him the seat is vacant until the Hull Moot (DEC-32).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L1 "The Second Lamp"** added: Jaro and Ruel Corvane are lovers since CY 305 (proposed **SEC-046**); S1 beats E4, E6, E8, E9, E12; the line drives his S2–S11 choices (blackmail, "both sides", the debt to Zev). Correction to *Voice*: he says "loyal" exactly once, to Ruel, in the S1E4 sample line. Lio under his protection (S2–S6) is **patronage only**. Machine block not changed (relation and secret numbers for the keeper).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Quell (clans, election of captain-lords, family).
 
@@ -41,7 +43,7 @@ first_episode: S01E04
 - **Voice character:** easy, lazy tenor; island drawl (long vowels, dropped endings); a laugh in it even when he threatens.
 - **Speech habits:** prices everything with a smile; quotes his house words as a joke and means them; switches sides mid-sentence and explains why it was always the same side.
 - **Catch-phrase:** "Calm is bought." (S1E4, with a grin)
-- **Never says:** "I promise"; "loyal".
+- **Never says:** "I promise"; "loyal" — **except once**, to Ruel, alone, in the stern gallery (S1E4 sample line below; r7). The one word he never uses is the one he gives the one man.
 - **Sample line:** *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."*
 - **Delivery:** `[LIPSYNC-CU]` max 2 in S1 (E4, E12 vote); ≤5 per season after.
 
@@ -53,6 +55,37 @@ first_episode: S01E04
 
 ## Biography
 Elected captain-lord by the island clans for luck and nerve. Natural friend of Corvane at sea, natural enemy of the Relay. Quell money — wreckers' money, salvaged from ships lured onto the Shoals by false lights — quietly funds Corvane's refit debts (secret; proposal SEC-031), which is why he will back Ruel and then Maren. In S1 he is the vote-broker Ruel courts (E4) and Quell votes for Corvane (E12); a Quell token is found on Ruel's assassin (E8, a red herring planted against him).
+
+## Love line — L1 "The Second Lamp" (Revision r7)
+*Age gate: Jaro 36, Ruel 48 in S1 — both adults (DEC-71). TV 16+: the camera stops at the cabin door.*
+
+- **Partner:** Lord Admiral **Ruel Corvane** (CH-0005), lovers since **CY 305**, the year Quell wrecker silver begins to pay the Corvane refit (SEC-031). Cover: *"an old friendship of sailors"*.
+- **Why it is hidden:** three clans of five can depose a Captain-Lord at any Hull Moot; clan silver spent on a lover's fleet is a deposing matter. Nothing signed, no shared roof; the second stern lamp on the *Patient Gull* is the only signal.
+- **Motivation:** his inner need is *"to find one thing he will not sell"*. The love is the **first** such thing — in S1E9 he will not sell his own alibi, and the Quell frame (SEC-013) holds a whole season because of it. He finds it a second time in S11E8. His fear — *being bought cheaply* — comes true through the love: from S2E11 his letters are Odo's leash.
+
+**Key episodes**
+| When | Beat | Consequence |
+|---|---|---|
+| S1E4 | stern gallery, second lamp: *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."* — he reaches for Ruel's left hand and is given the right | the line is a lover's teasing in private, a broker's price in public |
+| S1E6 | corridor: *"You were very good in there. Very ready."* | he feels the wrong and lets it go |
+| S1E8 | at the rail of the *Patient Gull* under two lamps, back to us, waiting; nobody comes | when the Quell token falls, the audience already knows where he was |
+| S1E9 | Ysa: *"House only tonight, Captain-Lord."* He stands on the mole all night. At the wake, let in last and alone, he **puts out the second lamp** and takes the dead man's **right** hand; Ysa watches from the door. Chronicler: *"The Captain-Lord of the Shoals paid his respects last."* Asked before the Ring where he was on Still 1: *"On a deck. Waiting on the weather."* | the alibi he cannot give; the frame holds |
+| S1E12 | Quell votes Corvane with the token still hanging over him: *"Calm is bought. This one was paid for."* Quell hulls take station astern of Maren's fleet | the vote is his mourning |
+| S2 | the Helm's War is his grief; he fights it harder than his clans want | the blockade lasts; the moot grumbles |
+| S2E10–E12 | Maren learns SEC-046 from Ysa; he becomes the nearest thing to family she has left and shelters her in exile | — |
+| S2E11 | Ysa gives the packet to Odo as her pledge | **blackmail**: Odo can unseat him at any moot |
+| S3–S5 | "trades with both sides" | now it has a cause; Maren reads it as a friend cooling |
+| S5E12→S6E2 | Zev Fennick sends the packet back **unopened** | free to back Maren in S6; owes Zev a debt |
+| S6E7–E8 | SEC-001 public: the man he loved was a poisoner; in the packet, Ruel's unsent note of Longdark 5: *"If I asked you to sail tomorrow and not ask why—"* | Ruel told his sister, not him |
+| S7E3 | stands witness for the bride at Maren's marriage to Zev and does not object | the debt to Zev paid |
+| S9E5 | breaks with the movement after the First Raising | he has already buried one man who did a terrible thing "for them" |
+| S10 | "neutral, for a price" — the price is not money (*restricted, sealed §12*) | — |
+| S11E8 | comes back to the losing side and dies | proposal for the S11 outline: two stern lamps going down at Lirenne |
+
+- **Speech:** the drawl and the price-tag jokes stay; the laugh goes out of the voice in **two places only** — at the rail (E8) and on the mole (E9), both without lines. After E9 his house words turn on himself: *"This one was paid for."* Proposal for the S2+ outlines: in public he goes on calling Ruel "the Admiral"; he never says the given name on screen before S6E8.
+- **Behaviour:** he gestures with the maimed **left** hand on purpose — and with Ruel he reaches for Ruel's left hand and is refused it. At the wake he takes the **right**. In S2–S5 he burns no letters and writes none (proposal): a man who has been blackmailed once keeps nothing on paper.
+- **Look note (E8 object shot):** identified from behind only — sea-green long coat, sea-green dyed hair ends, the bone ring on the RIGHT; the outline's "green sash" is read as his sea-green coat/sash at night (no new costume). The second stern lamp is a *Patient Gull* set prop (E4, E8, E9).
+- **Never romantic:** his protection of **Lio** (S2–S6) is patronage only (romance_lines §0.3).
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |

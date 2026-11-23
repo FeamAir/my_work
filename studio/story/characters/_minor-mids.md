@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** set **approved with corrections**. Orm Hask is a Lantern Company pikeman, Moll-born, supplied by Rook Danner (DEC-36). Ansel Fray sells the quartermaster's extra copies of Dunmore's passes (DEC-55). First appearances as in DEC-24 (Fossett S1E1, Bede Lark S1E7, Dorran cameo S1E9).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** **Bede Lark** — line B "Twice" (with Sibby Roan, `_minor-lows.md`; proposed **SEC-051**): why he sold one message twice. **Teodor Kett** — line A "A Beautiful Hand": Dame Ursel's lover, CY 291–296 (proposed **SEC-050**); the ledger-clip was his. Machine blocks not changed.
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **New-character proposals** in this file: CH-0075 Ansel Fray, CH-0076 Orm Hask.
 
@@ -24,6 +26,8 @@ status_track: [S01E02:alive]
 first_episode: S01E02
 ```
 **Bede Lark** (40) — keeper of the Ninth relay-stone house. *Function:* logs the stone that "rang wrong" during the death-tone (S1E2); sells Hollis a codebook (E7) and the keepers' lore: *"Old stones ring low. We throw them back."* *Secret:* **sold one message twice** — the new Tithe Map would let the Ninth flood — to Ruel and to Ursel (root of both S1 murders; SEC-001/013; proven S2E6). *Link:* his stone-log for the Night of Still Water is still in his chest (proposal — a document for later seasons). *Look:* short, round-shouldered; **half-deaf in the RIGHT ear** after twenty years beside ringing stones — **a grey wool muff over that ear**, ink-dark nails, keeper's brass tone-fork on his belt (a working tool, not Ione's). *Voice:* fussy, quick, giggles at his own cleverness. *"News is like fish, clerk. Sell it fresh, sell it twice, and never eat it yourself."* Relation to Hollis lives in CH-0003.
+
+**r7 — line B "Twice" (with Sibby Roan, proposed SEC-051).** The reason for the double sale: the price of a debt-walker's bond is two sales. **Sibby Roan** (33) has walked off her dead husband's debt on Corr's wheel for six years; Bede has been saving for four. **S1E7:** counting Hollis's coin, asked why twice, he nods at the treadmill across the canal: *one sale is half a walker's bond; two is a woman off the wheel* (outline r7, ~10 s). He buys her off the wheel; **S2E4** next beat; **S2E6** Hollis proves the double sale caused two murders — Bede must choose between the woman and the confession. *Speech and behaviour:* the giggle and the fish-jokes stay — and stop on one subject: about Sibby he is plain and quick, the only sentence he does not sell (proposal). The muffed right ear is turned away from the wheel; he watches it with the good one (proposal for E7 direction). *Age gate:* both adults.
 
 ```canon
 id: CH-0053
@@ -121,6 +125,8 @@ status_track: [S01E01:dead]
 first_episode: S01E04
 ```
 **Teodor Kett** (dead) — Hollis's father, a Lantry clerk. *Function:* the signature "T. Kett" on the CY 295 Dry Charter (S1E4). *Secret (SEC-006):* forged the Charter at the bank's direction; Ursel had him drowned in CY 296. His handwriting is Hollis's. *Link:* "His father had a beautiful hand" (S1E11); revealed S6E8. *Look (document/flashback):* a beautiful copperplate hand; in flashback, Hollis's straw-blond hair, no spectacles. *Voice:* none planned.
+
+**r7 — line A "A Beautiful Hand" (with Dame Ursel, proposed SEC-050).** Lovers after her husband's death (CY 291) — the same year his wife died (proposal in CH-0003). He forged the Dry Charter (CY 295) **because she asked**; a year later the bank needed the forger gone and she chose the bank. **The brass ledger-clip** she gives Hollis in S1E1 was his; she has carried it sixteen years. Plants: S1E11 *"His father had a beautiful hand."* (her fingers go to the empty sleeve); S4E6 a letter in his hand that begins *"U. —"*, which Hollis puts away unread; S6E8 the reveal. *Flashback rule:* if the S6 outline shows CY 291–296, the two are adults; love is carried by the clip, the pen and the letter — no bed scenes (TV 16+).
 
 ```canon
 id: CH-0063

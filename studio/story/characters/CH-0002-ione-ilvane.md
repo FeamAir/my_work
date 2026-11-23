@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. `born_official: CY 294-09` is the only birthday in public material (DEC-19). She dies on the evening of **Still 3, CY 314** (DEC-17). Cressa applies the rinse with her own hands in S1E3 (DEC-24).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L5 "The Voice"** added (with Brother Elm; proposed **SEC-049**, the cut pages). S1 = **seed only** (E11: he teaches her her own name and never speaks aloud); feeling from S2 (19). She is also the witness of the second lamp (S1E4). Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon
@@ -61,6 +63,29 @@ In truth she was born **Ama**, of the Ninth, elder daughter of Dov and Liss (SEC
 In S1 she serves the Sluice Spire nightly, notices that the Choir's novices include "foundlings blessed by the Lady" (SEC-005), hears her grandmother commit the Choir's vote to Fennick, and on the third Still Day climbs the Sluice Spire against orders and sings a Great Song alone. A low hum from a rooftop joins her. She wakes mute.
 
 **Keeps acting after death:** her tuning fork (Pell's from S4E12; gives the Great Chorus its pitch in S12E12); her **journal**, published by Cressa in S5E6 with the Gleaner rolls and Silt's ledger (the proof that the ear is learned, SEC-005); the question of who sent the wave (SEC-024 — `[SEALED — ask lead]`).
+
+## Love line — L5 "The Voice" (Revision r7)
+*Age gate: 18 in S1 by either birth date (true CY 294-03, official 294-09); Elm 22. The lead gives **no romantic beat in S1** — seed only; feeling from S2 (19). The only embrace of the line is S4E10. TV 16+.*
+
+- **Partner:** **Brother Elm** (CH-0022), the First Cantor's Voice — a man whose work is to speak another person's words. He is the first person to speak to her after she loses her voice (S1E11) — in sign.
+- **What she loves in him:** the one person in the Choir who talks *to* her, not *for* someone. The language they build has words only the two of them use.
+- **The lie inside it:** from S2E10 (the two notes she hums in her sleep) he knows what she is and does not tell her — his own place in the Choir depends on silence (SEC-012). She learns it only in S4E10.
+
+| When | Beat | Consequence |
+|---|---|---|
+| S1E4 | (not her line) leaving Ruel's message, she sees **two stern lamps** from the quay and thinks nothing of it | a witness who does not know what she saw |
+| S1E11 | he teaches her first sign: her own name. He does not speak aloud once in the scene | seed — not a romantic beat |
+| S2 | sign lessons; she is 19. Private signs grow between them | the series' sign glossary grows out of a courtship nobody names |
+| S2E10 | she hums two notes in her sleep; he goes pale | his silence begins |
+| S3 | Pale Crag; his "small mercies" — he reads her journal to carry it out past the wardens | he becomes the journal's keeper |
+| S4E8 | he helps the break-out; signs the spiral to Pell | — |
+| S4E10 | after SEC-004 she signs *"You knew. Since the two notes."* He signs yes. Her answer is neither forgiveness nor refusal: forehead to forehead, her hand closed over his signing hand — stopping his words | the only embrace of the line |
+| S4E11 | she dies | — |
+| after death | S5E6 he cuts out the journal pages that name him and cannot burn her handwriting; S7E7 the pages are found in his cell | the Choir's proof against him is her love of him, in her own hand |
+
+- **Speech and behaviour:** she "never lies — she withholds"; he does the same to her, and that symmetry is the line's wound. Her signs grow **bigger** in anger — in S4E10 they grow **smaller**: the answer is a hand closed over his, not a sign. Private signs used only with Elm are marked *"private (L5)"* in the sign glossary (proposal) and are never subtitled as love — subtitles give only their literal meaning.
+- **Journal:** the voice of the love is the journal, not the screen; the cut pages are its only full statement (keeper: custody of the pages follows Elm, then the Choir).
+- **Staging:** hands in frame, foreheads, silhouettes; no lip-sync (she has none after E10 anyway).
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |

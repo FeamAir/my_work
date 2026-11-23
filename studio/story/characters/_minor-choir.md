@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Daro's origin is a case of SEC-005, with no secret of its own (DEC-44). Sabin is first seen in S1E3 (DEC-24).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** **Daro Vey** is on the list of characters who are never romantic at any age (romance_lines §0.3). Sister Marl, Sabin and Sedge carry no love line. L5 (Elm and Ione) lives in CH-0022 / CH-0002; in S7E7 Daro finds Ione's cut journal pages in Elm's cell (proposed SEC-049).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **New-character proposal** in this file: CH-0077 Novice Sedge. **Teen:** Daro Vey (16) — no romance or sexual content.
 Production note: Choir robes and hoods make this whole group easy to show from behind, hooded or veiled.

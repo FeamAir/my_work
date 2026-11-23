@@ -2,6 +2,8 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a **working sheet** for the director and the concept artist; the colour and silhouette separations of §3 are approved (DEC-60). Renames: Tuck (ex Nim). To be confirmed at the style test.
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** Sibby Roan added to §2a (shown from behind only). Two continuity rules for love scenes: **Ruel gives Jaro the RIGHT hand, never the ringed LEFT** (S1E4, E6, E9); Jaro in the S1E8 object shot is read from behind by the sea-green coat and the sea-green hair ends.
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Story-level only: the director turns these into the fixed ID-blocks in `studio/direction/refs/<ID>/card.md`.
 Rule: every main hero has **a hair detail + a signature item**, side stated; no two main heroes on screen in the same season share a hair colour or main clothing colour. Conflicts that come from the frame files are listed at the end (questions for the lead/director, not fixed here).
 
@@ -59,6 +61,7 @@ People in the saga differ as in life — build, height, age, skin, faces of diff
 | Gant | big, soft, slow | tattooed wheel on the back of the skull | chained debt-book |
 | Tuck | narrow, twitchy | gold-capped front tooth | loupe on a cord |
 | Bede Lark | short, round-shouldered; **half-deaf in the RIGHT ear** from years beside ringing stones | wool muff over the right ear | keeper's tone-fork |
+| Sibby Roan (r7) | walker's build — strong calves, straight back; **shown from behind only on Corr's wheel, no face reference** | faded ochre headscarf knotted at the nape | walker's tally-cord at the waist |
 | Fitch | lean, upright, moves like a cat; olive skin he keeps out of the sun | knotted grey-shot black hair | hare-ear pin |
 | Widow Pruitt | tiny, quick | dyed-black ringlets, lace cap | ring of thirty keys |
 | Fossett | short and round | pomaded centre parting | spotless sleeve-guards |

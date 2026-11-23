@@ -2,8 +2,10 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. Hostage since **CY 309** (aged ten), not CY 307 (DEC-20); in S1 at the Rusk barracks in Highwater, from S1E12 at the Stair (DEC-25). True father: Akko of Kitsa, glider captain, killed in the Rim Skirmish of CY 309 (DEC-33). He is the first to hear Kes's confession, S3E9 (DEC-54).
 
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L4 "Kites over the Wall"** added (with Pell, from S7). He and Pell never meet in S1–S4. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
-**Teen rule:** 13 in S1. No romance or sexual content while under 18.
+**Teen rule:** 13 in S1. No romance or sexual content while under 18. **r7 age gate:** no romantic beat, hint or "almost" in **S1–S4**; allowed from S5 (21); used from **S7** (23). Kes and Esk are **guardian and ward — family**, never romantic.
 
 ```canon
 id: CH-0040
@@ -57,6 +59,18 @@ first_episode: S01E04
 Given to the Stair as a hostage under a border truce, as "the Dry Queen's nephew" (SEC-019: he is her son). He has lived with House Rusk since he was ten (given in CY 309 after the Rim Skirmish — r3, DEC-20) and in S1 is in Highwater with the Rusk delegation. He flies a kite from the barracks roof (S1E4); Kes teases him; he teaches her to read kites. In the S1E12 tag his kite answers the signal-fires on the escarpment: "home".
 
 His knotted cord of "stone-song days" (S3E8) is the first data anyone gathers on the thirst (SEC-008). In S9 he is suspected of a betrayal he tried to prevent; in S11, with the Relay in the Sovereign's hands, his kite-lines carry the pitch from boat to boat.
+
+## Love line — L4 "Kites over the Wall" (Revision r7)
+*Age gate: 13 in S1; nothing in S1–S4; first meeting with Pell as adults in **S7** (he is 23, she 25). TV 16+.*
+
+- **Partner:** **Pell** (CH-0001), the voice of the Hum. What they share before a word is spoken: **Kes** — his guardian (family, never romance), the sergeant who opened the gate of her district.
+- **The wall:** she believes his mother sent the wave that killed her sister; in **S7E6** she learns he is the Dry Queen's son.
+- **Motivation:** his fear is *being the price of a peace again*; his need, *to be a son, not a hostage — and to forgive the mother who gave him*. The love tests both: in S10 the clans want him matched inside the uplands to hold the alliance — a marriage of policy, his fear made literal — and in S11E10 his mother's blessing (proposal: the kite-string knot she ties on Pell's wrist) is the forgiveness arriving from the other side. Tsura measures Pell by her own love for Akko of Kitsa (SEC-019).
+
+**Key beats:** S7E4–E6 parley over the Falls Spire, the reveal · S7E10 the three records — they carry the two halves across the lines · S7E11–E12 Kes dies; the first admitted feeling, over her white-striped helm · S8E2–E9 kite-code letters over the siege wall · S8E4–E6 Lio sells the code · S8E10–E11 Pell's warning on the blown code — he and part of the camp are out of the low ground: **he survives the drowning because of her** · S9E10–E11 his kite over the Ninth Bridge; suspected; cleared · S10 in hiding with the alliance; the clans' match · S11–S12 his kite-lines carry her pitch · S12E12 she loses her voice; they already speak in signs and kites. Both live.
+
+- **Speech:** slow in the Concord tongue; precise and literal. His letters over the wall are **counts and knots** — the same habit as his stone-song cord (proposal: one knot code for "I am alive", repeated every dusk of the siege). He never says "mother" about Tsura in public — and the first time he says it to Pell is a turning point for the S10–S11 outlines (proposal).
+- **Behaviour:** the kite is his voice; he flies for her in plain sight of two armies. The cord on his LEFT wrist stays his; the knot on Pell's wrist (S11E10, proposal) is tied by Tsura, not by him.
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |
