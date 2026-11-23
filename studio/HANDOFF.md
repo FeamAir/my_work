@@ -23,8 +23,8 @@ _Обновлено: 2026-11-23._
 3. ✅ ElevenLabs (2026-11-23): **Creator** помесячно ($11 первый месяц, далее $22; 131 000 кредитов вкл. 10k бесплатных; pay-as-you-go выключен). **Pro — после одобрения пилота** (финальный звук 44.1 kHz).
    Ключ «Hollowstone»: ограниченный (TTS, STT, SFX, Music, Voices write, Voice Generation, Forced Alignment, Models, Pronunciation Dictionaries write, User, History read; остальное — нет), лимит 100 000 кредитов/мес, без IP-фильтра, авто-отключение при утечке. Сохранён сетевым секретом (хост api.elevenlabs.io, заголовок `xi-api-key`); в config.py заглушка `proxy-injected`. Проверено: /v1/user/subscription 200, tier creator, 0/131000.
    Для дубляжа позже — добавить ключу право Dubbing.
-4. ⏳ Cloudflare R2 (S3-подпись SigV4 — сетевой секрет не подойдёт, нужны настоящие переменные среды): бакет anime-studio, токен → R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET=anime-studio.
-5. ⏳ BUDGET_LIMIT_USD=150 (предохранитель до просмотра аниматика).
+4. ✅/проверить Cloudflare R2 (2026-11-23): подписка R2 $0/мес (10 ГБ бесплатно), бакет **anime-studio** (Standard, ENAM, публичный доступ выключен). Account API token «hollowstone»: Object Read & Write только на anime-studio, Forever, без IP-фильтра (первый токен с потерянным секретом инвестор должен был удалить — проверить в Manage API Tokens, что токен один). Инвестор вписал R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY в «Переменные среды» Default (через claude.ai/code в браузере, версия для ПК → меню чата → Edit cloud environment; в мобильном приложении это недоступно). Переменные видны только в **новой** сессии → первым делом `python3 -m pipeline.check_services --live` (R2 должен быть OK).
+5. ⏳ BUDGET_LIMIT_USD=150 (предохранитель до просмотра аниматика) — тоже переменная среды; добавить тем же путём (не секрет, можно через update_environment с одобрения инвестора).
 Инвестор просит вести **по одному шагу**, с подсказками по русскому интерфейсу (он на телефоне).
 
 ## Правило остатка
