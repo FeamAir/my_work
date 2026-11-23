@@ -1106,21 +1106,23 @@ type: episode
 canon: approved
 title: The Ninth Sluice
 date_start: CY 312-10-06
-date_end: CY 312-10-07
+date_end: CY 312-10-06
 pov: [CH-0001, CH-0002, CH-0003]
 ```
 
-pilot ~30 min
+pilot ~27 min (script v1.0: 26:39 of story). **One day** (v0.5, lead's ruling R-1, `story/episodes/S01E01/continuity_check.md` v2): Longdark 6, from the dawn ebb to dark. The tithe-reading, the Helm's fall and the death-tone fall in the late afternoon and at the evening bell of the same day.
 
 ```canon
 id: S01E02
 type: episode
 canon: approved
 title: Candidates
-date_start: CY 312-10-08
+date_start: CY 312-10-06
 date_end: CY 312-10-10
 pov: [CH-0001, CH-0005, CH-0010]
 ```
+
+Opens on the night of Longdark 6, in the same second as the last frame of S01E01 (the hand-off scene); the rest of the episode is Longdark 8-10 (v0.5, R-1).
 
 ```canon
 id: S01E03

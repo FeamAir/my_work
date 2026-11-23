@@ -102,6 +102,7 @@ Voiced Cantors serving each Spire (mute seniors not counted). A Spire is "safe" 
 
 ### Notes for production
 
+- **Violet in the Choir (v0.5, keeper - from this record and CH-0012/CH-0022):** the Choir's banner and block are **linen and black**; violet appears only as the Cantors' throat-bands, the First Cantor's veil and her Voice's wrist-cord. A voiceless Cantor's band is **black** - every old mute Cantor on screen wears black at the throat; Sabin's **yellowed linen wrap** (CH-0057, `characters/_minor-choir.md`) is his alone, the mark of a Sluice Cantor nobody pays to re-band. In the tithe hall (S01E01) the Choir block reads linen-and-black, never a violet field (violet fields are Ilvane's).
 - **Five recognisers:** undyed linen + black; nine strokes over a level line; hooded linen robes with violet throat-bands; round temple at the Spire's foot, the tapestry; the passed-on unison on G.
 - **Caution:** keep the Choir's warm linen distinct from Ilvane's cool white silk (`HS-003-ilvane.md`).
 - **Crowds:** hooded Cantors from behind at the crown; novices in rows with shaved napes (no faces needed).

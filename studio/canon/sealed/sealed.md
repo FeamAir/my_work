@@ -2,7 +2,7 @@
 
 > **CLOSED FILE - FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper, studio director. Writer-helpers, marketing, art and sound receive only excerpts decided by the director (`studio/status.md`). Never quote in public material, openings, previews or reports to the investor. Format: `README.md` §8a.
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; transfer by lore-keeper)
+Canon: v0.5 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings and of DEC-68…70; transfer by lore-keeper)
 
 Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6) and r3 (§10). Role excerpts decided by the director: `../excerpts/` (v0.4).
 
@@ -249,7 +249,7 @@ He reads the official record and **never states a false fact**; he misleads only
 | Belief the audience forms | What he actually says (true) |
 |---|---|
 | the Builders were a vanished race | "The First Voices raised the Spires. They are not heard now." |
-| Neveh was mad | "The Nine found her past reason." and "She sang her city into the sea." |
+| Neveh was mad | "In the last year of the old kingdom, the nine warden families found Queen Neveh past reason, and her court with her." (S01E01, script v1.0 - a *finding* of the Nine, true as a record; R-2) and "She sang her city into the sea." The older wording "her mad court" is withdrawn everywhere (excerpt fixed in v0.5). |
 | the ear is in the blood | "The rolls of Ilvane have never lacked a singer." |
 | Still Water was an act of the sea | "The Sluice Spire faltered, and the sea came." |
 | Liss and Teodor died by accident | "drowned" - cause not given |
@@ -565,7 +565,11 @@ Public cover: the Dry Queen "did not deny it".
 | DEC-46 | SEC-024 | See §H above: two pointer sentences not merged. |
 | DEC-48, DEC-51, DEC-52, DEC-56, DEC-57 | SEC-011, SEC-011b | Hollis in Odo's treasury (DEC-52) fits SEC-011b ("forged the record for Odo, S5"). Quire/Quiller clash: resolved, Quiller → Pryor (DEC-57). |
 
-All DEC items above were ruled in r3; the restricted side of the rulings is §I.
+| DEC-68 | SEC-003, SEC-014 | Lows prayer signs that overlap Choir sign: the common root is the people's chorus of Lirenne (§J). |
+| DEC-69 | SEC-014, SEC-018, SEC-021, SEC-025 | The look of a Spire answering the low part / many voices / the Answer, and the Sunken Spire stirring (§J). |
+| DEC-70 | SEC-018, SEC-025, SEC-027 | The Ashare theme on the Sunken tone = the shard's tone (§J). |
+
+All DEC items DEC-01…64 were ruled in r3; the restricted side of the rulings is §I. DEC-65…70 are open (v0.5).
 
 ## I. Restricted side of the r3 rulings (v0.4)
 
@@ -609,3 +613,19 @@ MV 1 = the year after SY 3 (= CY 329). The Great Chorus falls on the Still Days 
 ### I.3 Role excerpts (director's decision, v0.4)
 
 `studio/canon/excerpts/`: `for_composer.md`, `for_director_and_artist.md`, `for_sound_director.md`. Each gives only the working rules a role needs for S1 and the standing constraints, without answers beyond what the work requires. The keeper updates them when a reveal airs or a later season's outline needs more.
+
+## J. v0.5 - restricted side of the keeper's rulings (2026-11-22)
+
+What the keeper told the roles in v0.5, and why (the roles received only the rule).
+
+| Question (role) | Rule given | Restricted reason |
+|---|---|---|
+| "Light for the high song, rings without light for a low sound" (VFX) | Accepted as the working rule for S1-S2; not to be written as a universal law ("low sound never lights a Spire"). Look of many-voiced scenes: DEC-69 | Every S1-S2 low-sound event touches a stone, not a Spire: the shard (S01E01, E12), the lime-pit wall (S02E04, SEC-014). S01E05/E10: the hum joins a Spire already lit by Ione's solo - light stays, it only steadies. S01E12: the Sunken crown **rings**, it does not light (SEC-018). From S03E10 (the Sunken Spire stirs), S04E11 (the duet holds the silent Crown Spire, RULE-014), S05E11 (Thousand Voices), S09E05, S10E10 and S11E12 the many-voiced low part reaches Spires; whether a Spire answering the low part shows light is a story choice (DEC-69). The shard "never glows" holds through S12E11 unless the lead rules otherwise for the fitting of stone and ring. |
+| Spire grooves turn (VFX, director, artist) | Sunwise = right-hand helix; going up counter-clockwise seen from above; near face "/" (`world.md` §2) | The groove spiral, the shell, the chalk sign and the Lady's sign are one motif (series bible §10: "shell, Spire grooves, chalk sign" - one motif tied to the truth about the Builders, SEC-014; keeper's reading: one turn for all of them). Lio's counter-clockwise spiral (S06E03, SEC-016) is judged against it, so the rule must be one for flat and helical spirals. |
+| Old Cantor, S01E01 Sc 8 (artist) | Not Sabin; black throat-band | DEC-24 (Sabin S01E03); keeps SEC-015 (Sabin's purse, Lantry thread) tied to his own look. |
+| Hands on the bar, Sc 1 / Sc 18 (VFX, artist) | Black gambeson cuff, no house colour, no rank | SEC-009 (Kes, hints from S01E04): the cuff must not name Rusk in the pilot; the black gambeson is her real kit, so S03E09 stays fair. |
+| Tapestry panel 2 (artist) | Banners, oath, **no weapons** | The Breaking spears (DEC-12, S02E05 - SEC-003 clue: hundreds of spearheads) must not be pre-shown in the official cloth; the tapestry was paid for by Ilvane (HS-003) and shows no killing. |
+| Marketing: the stone's tone without the hum (composer) | Allowed, no ring in the same cut, not beside Sunken Spire images | The shard's tone = the Sunken crown's tone (S01E12, SEC-018) and the hollow of the ring (SEC-027): a trailer must not set tone + Sunken Spire or tone + ring side by side. A bare tone gives nothing away. |
+| Ashare theme (composer) | Shown to the keeper first; no shared material, no reserved tone, not in S1 | HS-008 (approved) builds the Ashare theme on the Sunken Spire's tone with closed-mouth hum fragments before S05E10. The Sunken tone is the shard's tone (S01E12), and in the composer's sealed design (`studio/music/lullaby.md` §3.1) the lullaby's floor: an Ashare theme on that tone, hummed with the mouth shut, **is** the Low Note heard as Ashare's - it would point at SEC-025/SEC-027 (Ashare - lullaby - shard) long before S05E10/S10E10. Hence DEC-70. |
+| Lows prayer signs vs Choir sign (director) | None on screen until DEC-68 | Any overlap is read by fans as a clue to SEC-003/SEC-014. Keeper's **recommendation, not canon until DEC-68 is ruled**: the shared root is older than the Concord - the people's chorus of Lirenne kept signs to sing together in silence; the solo Choir kept them for its mutes, the Lows for prayer. Which signs, and from which season they may be noticed, is the lead's choice. |
+

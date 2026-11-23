@@ -1,6 +1,6 @@
 # World
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; transfer by lore-keeper)
+Canon: v0.5 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -28,6 +28,8 @@ known_publicly: true
 ```
 
 On screen: black glassy spiral-grooved towers (60-200 m) crowned by a ring of open "throats"; when sung, a deep hum, the grooves glow faint blue-white, water within sight flattens like glass. The singing Cantor stands in a throat, back to camera - the iconic lip-sync-free shot. First singing-out on screen: Cantor Sabin, S01E10.
+
+**The turn of the grooves (v0.5, keeper's ruling from the approved spiral rule).** Every spiral of the show turns **sunwise**, judged against the Ashare sigil: seen from above, clockwise from the centre outward (`houses/HS-008-ashare.md`). A Spire is read the same way, seen from above with the crown as the centre: **from the crown downward the groove turns clockwise; going up, it turns counter-clockwise (seen from above)** - an ordinary right-hand screw thread. Side view: on the near face the grooves rise from **lower left to upper right** ( / ). When a Spire is sung, the light comes down the groove from the crown, i.e. sunwise. A flat spiral (shell, chalk sign, tapestry border, a hand drawing the sign in the air) is judged as the viewer sees it: clockwise from the centre outward. Shots are never mirrored to fix a spiral (the director's rule).
 
 ```canon
 id: RULE-002
@@ -257,7 +259,7 @@ kind: city
 parent: PL-0003
 ```
 
-Capital on a granite hill in mid-delta, three tiers: the Steps, the Mids, the Lows. Three Spires: Crown, Choir, Sluice.
+Capital on a granite hill in mid-delta, three tiers: the Steps, the Mids, the Lows. Three Spires: Crown, Choir, Sluice. Points of the compass and the Spires' heights: not fixed yet (DEC-65); the canon holds only the range 60-200 m.
 
 ```canon
 id: PL-0005
@@ -424,7 +426,7 @@ kind: building
 parent: PL-0008
 ```
 
-Home of Nan, Pell and Wick; Nan's net-chest hides the shard and the ledger copy. Ruined in the flood (S01E10).
+Home of Nan, Pell and Wick; Nan's net-chest hides the shard and the ledger copy. Ruined in the flood (S01E10). In the Ninth's **fourth lane** (the collector's "Ninth Sluice, fourth lane", S01E01; R-15, v0.5).
 
 ```canon
 id: PL-0020
@@ -446,7 +448,7 @@ kind: gate
 parent: PL-0008
 ```
 
-Gate from the Lows to the Mids; shut CY 295, opened by Kes S01E10.
+Gate from the Lows to the Mids; shut CY 295, opened by Kes S01E10. Tier gates are barred at dusk every day, and at once on a death-tone (R-7, v0.5; S01E01: Kes's file at the gate, her back to it).
 
 ```canon
 id: PL-0022
@@ -940,6 +942,17 @@ held_by: HS-006
 
 Middle Lows; Captain Fitch's birthplace (SEC-033). Source: keeper (for writer-characters).
 
+```canon
+id: PL-0084
+type: place
+canon: approved
+name: the Ninth Sluice treadmill pump
+kind: building
+parent: PL-0008
+```
+
+Three great wooden wheels in a row over a sump at the Ninth's sluice; the walkers keep the district dry between songs; in CY 312 one wheel stands still, "short a pin". Corr (CH-0048) is its reedmaster (pumps: RULE-007; the pin: SEC-028). S01E01 (Sc 6), S01E05, S01E10. Source: lead's ruling R-9 (v0.5).
+
 ### Travel times
 
 | From | To | On foot | Boat / barge | Fastest | Notes |
@@ -1205,6 +1218,19 @@ Rusk has never had a Helm; neither has Lantry.
 
 Ninth Sluice: Second Song until CY 295 · Last Song after the Night of Still Water · **Let Go** in the CY 312 draft (the line Lucan dies reading: *"…and the Ninth Sluice—"*).
 
+**The twelve sluices of the Lows on the map (v0.5, lead's ruling R-14; S01E01 Sc 12 as read):**
+
+| Sluice | CY 311 map (in force on Longdark 6, CY 312) | CY 312 draft (read, unsigned) |
+|---|---|---|
+| First - Fourth (Cobbet wardens, HS-014) | First Song | First Song |
+| Fifth, Sixth, Seventh | Second Song | Second Song |
+| Eighth, Tenth, Eleventh, Twelfth | Last Song | Last Song |
+| **Ninth** | Last Song | **Let Go** (a pale wash on the sheet, the IX left unread) |
+
+The reading names the tiers in order, sluice by sluice; the Let Go tier is read last. The legend's fourth label is covered on screen in S01E01.
+
+**The tithe-reading (v0.5, R-4, R-5):** a rite in the Dry Palace tithe hall (PL-0009) in the **late afternoon, after the tithe-day song** on the Crown Spire; not a vote, so seats may send **stewards** instead of coming (S01E01: Fennick, Lantry, Rusk and Quell send stewards). By custom the tithe-day song at the Crown is given to the Choir's freshest voice (R-6; not said on screen in S1E1).
+
 **How it is bought (all floors):**
 - **Steps:** seats trade map favours for votes (the S1 bread vote); the Choir sells **priority songs** that override the map on the crown; the bank asks for districts to be *Let Go* where it holds Account titles.
 - **Mids:** Inchley clerks sell drafts (SEC-037); relay-keepers sell the map's tone-codes early (Bede Lark, CY 312); sluice-wardens (Cobbet) buy their own districts up a tier.
@@ -1230,8 +1256,11 @@ Ninth Sluice: Second Song until CY 295 · Last Song after the Night of Still Wat
 | a storm-berth at Gullmouth | ~5 marks a night | | sergeant (Kes) | 4 marks a month |
 | a barrel of powder (50 kg) | ~30 marks in Highwater | | Gleaner (ear-money) | 3 marks a head + 10 if the child takes the ear |
 | saltpeter | 1 mark / 10 kg at the Rim, 4 at the Arsenal | | free-company sword | 3 marks a month in notes |
+| at a Lows fence (v0.5, R-12): a small unlicensed echo-shard | ~6 coppers | | a morning's buttons | ~4 coppers |
 
-**Relay fees:** within Highwater 5 coppers a tone-group; across the delta 1 mark per 10 groups; **first-tone** subscription (messages an hour before the public) 50 marks a year; the death-tone and flood-tones are free and cannot be delayed — by law (they are delayed anyway).
+**Arrears of the dry-tithe (v0.5, R-10):** the collector may take arrears **in goods** (nets, pots, tools) at his own valuation; the household keeps its place on the map. S01E01: two months owed (6 coppers at Last Song).
+
+**Relay fees:** within Highwater 5 coppers a tone-group; across the delta 1 mark per 10 groups; **first-tone** subscription (messages an hour before the public) 50 marks a year; the death-tone (TERM-0495) and flood-tones are free and cannot be delayed — by law (they are delayed anyway).
 
 **Hearings fees:** filing 1 mark; **speed fee** 5–50 marks (a verdict this week instead of next year); a commoner's testimony against a noble needs a **Mids sponsor** (guildmaster, sealed clerk, Cantor) — Lows rate for a sponsor ~2 marks.
 
@@ -1378,6 +1407,8 @@ Still **draft** in v0.4: a working sheet (decisions_resolved 3.4), confirmed by 
 
 No house theme uses the low register as its tonic.
 
+**The Spire hum (v0.5, draft with the table; composer's proposal):** the hum of the **eight living Spires** is built from octaves and fifths of the home tone only - no thirds; its fundamental is never below **C2**. The Sunken Spire is not covered by this line (its tone is not fixed: DEC-70).
+
 
 ## 8. Life of the Lows and the Mids (v0.3; approved v0.4)
 
@@ -1388,7 +1419,7 @@ Status: **approved** by the lead screenwriter in r3 (writer-characters, `studio/
 #### The Lows (below the waterline)
 | Trade | What they do | Day | Pay (proposal) | Dangers / schemes |
 |---|---|---|---|---|
-| **Mudlarks** | children and the old wade the back-canals and silt flats at low tide for metal, buttons, coins, purses, echo-chips | by the tide, not the clock: two "ebbs" a day | what they find; sold to fences by weight | drowning in soft silt; fights over "lanes"; selling unlicensed echo-chips is a crime (RULE-004) |
+| **Mudlarks** | children and the old wade the back-canals and silt flats at low tide for metal, buttons, coins, purses, echo-shards | by the tide, not the clock: two "ebbs" a day | what they find; sold to fences by weight | drowning in soft silt; fights over "lanes"; selling unlicensed echo-shards is a crime (RULE-004) |
 | **Treadmill walkers** | walk the great wheels that drive the pumps (RULE-007) — 20 to a wheel, in shifts | 6-hour "walks", day and night in storm season | 10 coppers a walk; debt-walkers get nothing but a mark off their debt | debt for life; the reedmaster's whistle sets the pace; crushed feet |
 | **Sluice-workers** | keep the gates, counterweights and sumps of each numbered sluice | watches by the bell | 2 marks a month, tied to the district | chains part in storms (Dov); paid by the Spire-house that takes the dry-tithe |
 | **Salt-rakers** | rake the salt pans at the delta's edge (and on the Quell Shoals) | summer: dawn to noon | by the basket | salt-blind eyes, cracked hands; salt is the Lady's offering and the Lows' cheapest currency |
@@ -1452,7 +1483,7 @@ Status: **approved** by the lead screenwriter in r3 (writer-characters, `studio/
 ### 8.6 The Lady Below
 - **Belief:** the sea is a drowned mother who takes back what she is owed — no more, no less. The spiral shell is her sign; salt and shells are her offerings. Drowning is "going to the Lady"; a narrow escape is "the Lady spat you out".
 - **Saltwives:** her priestesses (Orrie): older women of the Lows who keep shell-shrines on moored hulks, wash the dead, bless boats, and judge small quarrels with a handful of salt.
-- **Worship is silent or whispered** (the Hush Law): prayers are said with the lips only, or **signed** with a short set of hand-shapes (proposal: a few overlap with Choir sign — nobody asks why).
+- **Worship is silent or whispered** (the Hush Law): prayers are said with the lips only, or **signed** with a short set of hand-shapes (proposal: a few overlap with Choir sign — nobody asks why). *v0.5:* which signs overlap is open (DEC-68); until it is decided, no Lows prayer sign that looks like a Choir sign is shown on screen. Fixed on screen: the Still Days palm over the mouth (S1E8) and the sunwise spiral drawn in the air (the Lady's sign; §1 for the turn).
 - **The Steps** mock it ("shell-kissers"); the Choir tolerates it as harmless.
 - **The Quiet hides inside it** (`houses_overview.md` §3): the mud-spiral of the Quiet looks like a Lady's shell drawn in the silt. Most worshippers do not know the Quiet exists.
 
@@ -1475,7 +1506,7 @@ The Hush Law (RULE-006) forbids commoners to sing within sight of a Spire; work-
 
 ### 8.8 Crime and the Undertow
 - **Structure (proposal):** **Mother Silt** on her barge-palace; one **under-boss per sluice or trade** (Gant of the Fourth runs treadmills; others run moorings, the shard trade, the dry-pledges); **fences** (Tuck) who buy from mudlarks; **mouths** who sell rumour; **runners** (children, paid in food).
-- **Trades:** smuggling (salt, echo-chips, powder in war); the **dry-pledge** racket; **salvage-rights** fights; the echo-shard black market; **fake drownings**; debt-buying and debt-walkers; hiring out men "with no questions" (S4E10, `[SEALED]` what for).
+- **Trades:** smuggling (salt, echo-shards, powder in war); the **dry-pledge** racket; **salvage-rights** fights; the echo-shard black market; **fake drownings**; debt-buying and debt-walkers; hiring out men "with no questions" (S4E10, `[SEALED]` what for).
 - **Silt's law:** everything is sold; no child is. (SEC-029 breaks it from inside.)
 - **Undertow punishments:** "put on the wheel" (walk a debt you didn't owe); "given to the ebb" (drowned) for informers; the law's punishment is the **tide-post**.
 - **With the Steps:** the Undertow sells to everyone — Listeners, bank, Corvane sailors, Dask's relief-bread trade. The Listeners tolerate it because it is the best informer they have.
