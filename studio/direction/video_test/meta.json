@@ -1,0 +1,20 @@
+{
+ "alley": {
+  "image": "/home/user/my_work/output/style_test/f_alley.png",
+  "prompt": "Subtle 2D anime animation, the character design, colors and line art stay exactly as in the source image, stable outlines, no morphing, consistent lighting. Static camera. Thin dawn mist drifts slowly along the lane, the puddles on the silt shiver with tiny ripples reflecting the pale sky, the lantern flame flickers faintly, the rope bridge sways very slightly. No people."
+ },
+ "ladder": {
+  "image": "/home/user/my_work/output/style_test/f_key.png",
+  "prompt": "Subtle 2D anime animation, the character design, colors and line art stay exactly as in the source image, stable outlines, no morphing, consistent lighting. Static camera. The girl climbs down the wooden ladder: she steps down one rung, her bare foot reaches the boards, she lets go of the rail and straightens up, looking down the lane. Her braid swings with the movement. Natural weight, slow and careful."
+ },
+ "closeup": {
+  "image": "/home/user/my_work/output/style_test/f_closeup.png",
+  "prompt": "Subtle 2D anime animation, the character design, colors and line art stay exactly as in the source image, stable outlines, no morphing, consistent lighting. Very slow push-in. The girl breathes calmly, blinks once, her narrowed eyes shift slightly as she studies something far down the lane; a light breeze moves loose strands of her hair and the braid. Background mist drifts slowly."
+ },
+ "models": [
+  "minimax-h3-max-turbo",
+  "kling-2.5-turbo-pro",
+  "kling-3-pro"
+ ],
+ "duration": 5
+}
