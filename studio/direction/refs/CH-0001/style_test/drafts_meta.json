@@ -1,0 +1,48 @@
+{
+ "prompts": {
+  "A": "[ID: PELL] 15-year-old girl, short and wiry, small for her age, leans forward slightly; olive-brown sun-darkened skin, freckles across the nose; hair: cropped ragged rust-brown (red-brown, not bright auburn), one long thin braid hanging on HER OWN LEFT side (right side of the image when she faces us), ending in a small blue tin tag stamped \"IX\"; eyes: sea-grey, narrow; outfit: patched tar-brown oilskin jacket, mud-grey wading leggings rolled to the knee, rag-wrapped bare feet, salvage net bag on her right hip; hands mud-dark to the wrist. Waist-up portrait, three-quarter view toward the viewer's left so her left side and the braid are clearly visible, neutral calm expression, mouth closed, looking at the viewer, modest age-appropriate clothing. hand-drawn 2D TV anime illustration for a mature epic fantasy drama, clean cel shading with one hard shadow step and soft lavender-grey shadows, crisp dark umber ink linework with slight brush taper, grounded realistic proportions, restrained muted palette of silt browns, sea greys and slate blues with one saturated accent, painterly gouache background texture, atmospheric haze, cinematic composition, plain warm light-grey background, flat even neutral lighting. Avoid: braid on her right side, two braids, long loose hair, bright orange hair, clean hands, jewellery, earrings, photorealism, 3D render look, chibi proportions, text, watermark, extra fingers, fused hands, mirrored image, magical glow, extra people.",
+  "B": "[ID: PELL] 15-year-old girl, short and wiry, small for her age, leans forward slightly; olive-brown sun-darkened skin, freckles across the nose; hair: cropped ragged rust-brown (red-brown, not bright auburn), one long thin braid hanging on HER OWN LEFT side (right side of the image when she faces us), ending in a small blue tin tag stamped \"IX\"; eyes: sea-grey, narrow; outfit: patched tar-brown oilskin jacket, mud-grey wading leggings rolled to the knee, rag-wrapped bare feet, salvage net bag on her right hip; hands mud-dark to the wrist. Waist-up portrait, three-quarter view toward the viewer's left so her left side and the braid are clearly visible, neutral calm expression, mouth closed, looking at the viewer, modest age-appropriate clothing. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting. Avoid: braid on her right side, two braids, long loose hair, bright orange hair, clean hands, jewellery, earrings, photorealism, 3D render look, chibi proportions, text, watermark, extra fingers, fused hands, mirrored image, magical glow, extra people."
+ },
+ "jobs": [
+  [
+   "A",
+   1,
+   1001
+  ],
+  [
+   "A",
+   2,
+   1002
+  ],
+  [
+   "A",
+   3,
+   1003
+  ],
+  [
+   "A",
+   4,
+   1004
+  ],
+  [
+   "B",
+   1,
+   1001
+  ],
+  [
+   "B",
+   2,
+   1002
+  ],
+  [
+   "B",
+   3,
+   1003
+  ],
+  [
+   "B",
+   4,
+   1004
+  ]
+ ]
+}

@@ -49,6 +49,8 @@ PRICES: dict[str, Price] = {
     "nano-banana-edit": Price("Nano Banana (image edit)", "image", 0.04),
     "nano-banana-2": Price("Nano Banana 2 (text-to-image)", "image", 0.08),
     "nano-banana-2-edit": Price("Nano Banana 2 (image edit)", "image", 0.08),
+    "nano-banana-pro": Price("Nano Banana Pro (text-to-image)", "image", 0.15),
+    "nano-banana-pro-edit": Price("Nano Banana Pro (image edit)", "image", 0.15),
     # --- ElevenLabs: по плану, оценка через кредиты ---
     # TODO: проверить по docs/pricing текущего плана. Цена кредита задаётся
     # ELEVENLABS_USD_PER_CREDIT (Creator: $22 / 100k кредитов ~ 0.00022; overage ~0.0003).

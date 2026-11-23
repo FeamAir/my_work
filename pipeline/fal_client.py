@@ -33,8 +33,10 @@ QUEUE_BASE = "https://queue.fal.run"
 IMAGE_MODELS: dict[str, str] = {
     "nano-banana": "fal-ai/nano-banana",
     "nano-banana-edit": "fal-ai/nano-banana/edit",
-    "nano-banana-2": "fal-ai/nano-banana-2",  # TODO проверить по docs
-    "nano-banana-2-edit": "fal-ai/nano-banana-2/edit",  # TODO проверить по docs
+    "nano-banana-2": "fal-ai/nano-banana-2",  # проверено по OpenAPI fal 2026-11-23
+    "nano-banana-2-edit": "fal-ai/nano-banana-2/edit",
+    "nano-banana-pro": "fal-ai/nano-banana-pro",  # проверено по OpenAPI fal 2026-11-23
+    "nano-banana-pro-edit": "fal-ai/nano-banana-pro/edit",
 }
 VIDEO_MODELS: dict[str, str] = {
     "kling-2.5-turbo-pro": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
@@ -140,7 +142,7 @@ def generate_image(prompt: str, out_path: str | Path, *, model: str = "nano-bana
     endpoint = IMAGE_MODELS[model]
     payload: dict[str, Any] = {"prompt": prompt, "num_images": 1, "output_format": "png"}
     if aspect_ratio:
-        payload["aspect_ratio"] = aspect_ratio  # TODO проверить по docs: поддержка aspect_ratio у nano-banana
+        payload["aspect_ratio"] = aspect_ratio  # поддерживается всеми nano-banana (OpenAPI fal)
     if reference_images:
         payload["image_urls"] = [to_image_url(i) for i in reference_images]
     payload.update(extra or {})
