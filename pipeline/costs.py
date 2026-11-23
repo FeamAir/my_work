@@ -58,6 +58,8 @@ PRICES: dict[str, Price] = {
     # ELEVENLABS_USD_PER_CREDIT (Creator: $22 / 100k кредитов ~ 0.00022; overage ~0.0003).
     "elevenlabs-tts": Price("ElevenLabs TTS (1 кредит/символ; flash/turbo 0.5)", "credit", 0.0003),
     "elevenlabs-sfx": Price("ElevenLabs Sound Effects (оценка ~40 кредитов/сек)", "credit", 0.0003),
+    "elevenlabs-ttv": Price("ElevenLabs Voice Design (кредиты, замер по subscription.character_count)", "credit", 0.0003),
+    "elevenlabs-stt": Price("ElevenLabs Speech-to-Text (QA черновой озвучки; 1 ед. = 1 запрос, кредиты по длительности)", "request", 0.0),
     "elevenlabs-music": Price("ElevenLabs Music (оценка, USD/мин)", "minute", 0.50),
 }
 

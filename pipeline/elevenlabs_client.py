@@ -6,7 +6,13 @@
                                          v2 — вывод из эксплуатации 2027-03-01, по данным звукорежиссёра)
     Music: POST /v1/music   (model_id music_v2_5, fallback music_v2; music_v1 не используем;
                              seed — только с composition_plan)
-    Info:  GET  /v1/user/subscription, GET /v1/voices (бесплатно)
+    Voice Design: POST /v1/text-to-voice/design  (model_id eleven_ttv_v3 | eleven_multilingual_ttv_v2;
+                  voice_description 20–1000 симв., text 100–1000 симв., guidance_scale, seed, loudness,
+                  should_enhance, quality; ответ — previews[{generated_voice_id, audio_base_64, duration_secs}])
+                  POST /v1/text-to-voice  (voice_name, voice_description, generated_voice_id, labels) → voice_id
+    Pronunciation: POST /v1/pronunciation-dictionaries/add-from-rules (alias / phoneme rules)
+    Info:  GET  /v1/user/subscription, GET /v1/voices, GET /v1/models (бесплатно)
+    Схемы сверены с https://api.elevenlabs.io/openapi.json 2026-11-23.
 
 Форматы: "mp3" (mp3_44100_128) или "wav" — запрашивается pcm_44100 и
 оборачивается в WAV-заголовок локально (TODO проверить по docs: pcm_44100
@@ -29,7 +35,10 @@ API_BASE = "https://api.elevenlabs.io"
 
 DEFAULT_TTS_MODEL = "eleven_multilingual_v2"
 # Модели с половинной ценой за символ. TODO проверить по docs/pricing.
-HALF_PRICE_MODELS = {"eleven_flash_v2_5", "eleven_flash_v2", "eleven_turbo_v2_5", "eleven_turbo_v2"}
+# Сверено с GET /v1/models (model_rates.character_cost_multiplier = 0.5) 2026-11-23.
+HALF_PRICE_MODELS = {"eleven_flash_v2_5", "eleven_flash_v2", "eleven_turbo_v2_5", "eleven_turbo_v2",
+                     "eleven_v4_turbo", "eleven_v3_conversational"}
+TTV_MODELS = ("eleven_ttv_v3", "eleven_multilingual_ttv_v2")
 SFX_CREDITS_PER_SECOND = 40  # TODO проверить по docs (оценка; для v3 цена может отличаться)
 SFX_DEFAULT_SECONDS = 5      # если длительность не задана — для оценки
 SFX_MIN_SECONDS, SFX_MAX_SECONDS = 0.5, 30.0
@@ -84,16 +93,28 @@ def tts_credits(text: str, model_id: str) -> float:
 def tts(text: str, voice_id: str, out_path: str | Path, *, model_id: str = DEFAULT_TTS_MODEL,
         fmt: str | None = None, stability: float = 0.5, similarity_boost: float = 0.75,
         style: float = 0.0, speed: float | None = None, language_code: str | None = None,
-        previous_text: str | None = None, next_text: str | None = None, seed: int | None = None) -> Path:
-    """Озвучить реплику. previous_text/next_text улучшают интонацию в диалоге."""
+        previous_text: str | None = None, next_text: str | None = None, seed: int | None = None,
+        voice_settings: dict | None = None,
+        pronunciation_dictionaries: list[tuple[str, str | None]] | None = None) -> Path:
+    """Озвучить реплику. previous_text/next_text улучшают интонацию в диалоге.
+
+    voice_settings — если задан, отправляется как есть (вместо stability/similarity/style/speed):
+    для eleven_v3/v4 нужна только stability, style/speed они не поддерживают.
+    pronunciation_dictionaries — [(dictionary_id, version_id|None)], до 3 по docs.
+    """
     fmt = _fmt_from_path(out_path, fmt)
     credits = tts_credits(text, model_id)
     costs.guard("elevenlabs-tts", credits)
-    voice_settings = {"stability": stability, "similarity_boost": similarity_boost,
-                      "style": style, "use_speaker_boost": True}
-    if speed is not None:
-        voice_settings["speed"] = speed  # TODO проверить по docs: диапазон 0.7–1.2
+    if voice_settings is None:
+        voice_settings = {"stability": stability, "similarity_boost": similarity_boost,
+                          "style": style, "use_speaker_boost": True}
+        if speed is not None:
+            voice_settings["speed"] = speed  # TODO проверить по docs: диапазон 0.7–1.2
     body: dict = {"text": text, "model_id": model_id, "voice_settings": voice_settings}
+    if pronunciation_dictionaries:
+        body["pronunciation_dictionary_locators"] = [
+            {"pronunciation_dictionary_id": d, **({"version_id": v} if v else {})}
+            for d, v in pronunciation_dictionaries]
     for k, v in (("language_code", language_code), ("previous_text", previous_text),
                  ("next_text", next_text), ("seed", seed)):
         if v is not None:
@@ -244,6 +265,112 @@ def music(prompt: str | None, out_path: str | Path, *, length_seconds: float = 3
                          "seconds": secs})
         return _save(resp.content, out_path, fmt)
     raise RuntimeError("unreachable")
+
+
+# ---------------------------------------------------------- Voice Design ---
+
+def design_body(description: str, text: str, *, model_id: str = "eleven_ttv_v3",
+                guidance_scale: float = 5.0, seed: int | None = None, loudness: float = 0.0,
+                should_enhance: bool = False, quality: float | None = None) -> dict:
+    """Тело POST /v1/text-to-voice/design с проверкой лимитов схемы (без сети)."""
+    if model_id not in TTV_MODELS:
+        raise ValueError(f"модель дизайна {model_id!r}; есть {TTV_MODELS}")
+    if not 20 <= len(description) <= 1000:
+        raise ValueError(f"voice_description: {len(description)} симв., допустимо 20–1000")
+    if not 100 <= len(text) <= 1000:
+        raise ValueError(f"text: {len(text)} симв., допустимо 100–1000")
+    if not -1.0 <= loudness <= 1.0 or not 0 <= guidance_scale <= 100:
+        raise ValueError("loudness −1…1, guidance_scale 0…100")
+    body = {"voice_description": description, "text": text, "model_id": model_id,
+            "guidance_scale": guidance_scale, "loudness": loudness, "should_enhance": should_enhance}
+    if seed is not None:
+        if not 0 <= seed <= 2147483647:
+            raise ValueError("seed 0…2147483647")
+        body["seed"] = seed
+    if quality is not None:
+        body["quality"] = quality
+    return body
+
+
+def design_voice(description: str, text: str, out_dir: str | Path, *, prefix: str = "preview",
+                 model_id: str = "eleven_ttv_v3", guidance_scale: float = 5.0, seed: int | None = None,
+                 loudness: float = 0.0, should_enhance: bool = False, quality: float | None = None,
+                 est_credits: float | None = None) -> list[dict]:
+    """Voice Design: превью голоса (обычно 3) по описанию. Сохраняет mp3 в out_dir.
+
+    Возвращает [{generated_voice_id, file, duration_secs}]. Стоимость в кредитах API не возвращает:
+    оценка est_credits (по умолчанию = len(text)) — точное значение замеряйте по subscription().
+    """
+    import base64
+    body = design_body(description, text, model_id=model_id, guidance_scale=guidance_scale, seed=seed,
+                       loudness=loudness, should_enhance=should_enhance, quality=quality)
+    credits = est_credits if est_credits is not None else len(text)
+    costs.guard("elevenlabs-ttv", credits)
+    endpoint = "/v1/text-to-voice/design"
+    try:
+        resp = request("POST", API_BASE + endpoint, service="elevenlabs.ttv", retries=1,
+                       headers=_headers("application/json"), params={"output_format": "mp3_44100_128"},
+                       json=body, timeout=(10, 300))
+    except Exception as e:
+        costs.log("elevenlabs-ttv", credits, provider="elevenlabs", endpoint=endpoint,
+                  status=f"error: {type(e).__name__}")
+        raise
+    costs.log("elevenlabs-ttv", credits, provider="elevenlabs", endpoint=endpoint,
+              request_id=resp.headers.get("request-id"),
+              extra={"model_id": model_id, "seed": seed, "guidance_scale": guidance_scale,
+                     "chars": len(text)})
+    out = Path(out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    result = []
+    for i, p in enumerate(resp.json().get("previews", []), 1):
+        f = out / f"{prefix}_p{i}.mp3"
+        f.write_bytes(base64.b64decode(p["audio_base_64"]))
+        result.append({"generated_voice_id": p["generated_voice_id"], "file": str(f),
+                       "duration_secs": p.get("duration_secs")})
+    return result
+
+
+def create_voice(name: str, description: str, generated_voice_id: str,
+                 labels: dict | None = None) -> str:
+    """Сохранить превью как голос в библиотеке (POST /v1/text-to-voice). Возвращает voice_id.
+    Кредиты не списываются (занимает слот голоса)."""
+    body: dict = {"voice_name": name, "voice_description": description[:1000],
+                  "generated_voice_id": generated_voice_id}
+    if labels:
+        body["labels"] = labels
+    data = request("POST", API_BASE + "/v1/text-to-voice", service="elevenlabs.ttv.create",
+                   headers=_headers("application/json"), json=body).json()
+    return data["voice_id"]
+
+
+def speech_to_text(path: str | Path, *, model_id: str = "scribe_v2", language_code: str | None = "en",
+                   keyterms: list[str] | None = None) -> dict:
+    """Расшифровка (POST /v1/speech-to-text, multipart). Для QA черновой озвучки: пропуски слов,
+    как движок произнёс выдуманные имена. Тарифицируется по длительности аудио (кредиты)."""
+    data: dict = {"model_id": model_id, "tag_audio_events": "false", "timestamps_granularity": "word"}
+    if language_code:
+        data["language_code"] = language_code
+    if keyterms:
+        data["keyterms"] = keyterms
+    p = Path(path)
+    hdr = {"xi-api-key": config.get("ELEVENLABS_API_KEY"), "Accept": "application/json"}
+    costs.guard("elevenlabs-stt", 1)
+    resp = request("POST", API_BASE + "/v1/speech-to-text", service="elevenlabs.stt", retries=1,
+                   headers=hdr, data=data, files={"file": (p.name, p.read_bytes(), "audio/mpeg")},
+                   timeout=(10, 300))
+    costs.log("elevenlabs-stt", 1, provider="elevenlabs", endpoint="/v1/speech-to-text",
+              request_id=resp.headers.get("request-id"), extra={"file": p.name})
+    return resp.json()
+
+
+def pronunciation_dictionary(name: str, rules: list[dict], description: str | None = None) -> dict:
+    """Создать словарь произношений из правил (alias / phoneme). Возвращает {id, version_id}."""
+    body: dict = {"name": name, "rules": rules}
+    if description:
+        body["description"] = description
+    data = request("POST", API_BASE + "/v1/pronunciation-dictionaries/add-from-rules",
+                   service="elevenlabs.pls", headers=_headers("application/json"), json=body).json()
+    return {"id": data.get("id"), "version_id": data.get("version_id")}
 
 
 # ------------------------------------------------------------ бесплатные ---
