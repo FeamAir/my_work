@@ -1,6 +1,6 @@
 # Timeline
 
-Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; v0.7: love-line events EV-0276…0280 and EV-0340…0347, episode records S06E02 and S10E06, from `studio/story/romance_lines.md` §7, DEC-73; transfer by lore-keeper)
+Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; v0.7: love-line events EV-0276…0280 and EV-0340…0347, episode records S06E02 and S10E06, from `studio/story/romance_lines.md` §7, DEC-73; v0.8: EV-0340 dated (DEC-78), S03E06 and S04E12 prose, Jaro at the Weir Terms (DEC-77), rename Wren Roan (DEC-79); transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -618,10 +618,10 @@ name: The Weir Terms
 date: CY 314-11-05
 episode: S04E12
 houses: [HS-091, HS-006]
-participants: [CH-0013]
+participants: [CH-0013, CH-0019]
 ```
 
-Still 4-5 (S4E12). The Ossari keep the rim; the Falls Spire is sung only half the year. The Terms hold seven years (CY 315-321); Maren breaks them in CY 322 (S7) (DEC-08). Text: `houses/HS-091-ossari.md`.
+Still 4-5 (S4E12). *(v0.8, DEC-77: Jaro Quell is present - constraint for the S4 outline.)* The Ossari keep the rim; the Falls Spire is sung only half the year. The Terms hold seven years (CY 315-321); Maren breaks them in CY 322 (S7) (DEC-08). Text: `houses/HS-091-ossari.md`.
 
 ```canon
 id: EV-0318
@@ -927,14 +927,14 @@ Ten thousand voices across the delta; the cost of the song shared. Pell's voice 
 id: EV-0340
 type: event
 canon: approved
-name: Bede Lark buys Sibby Roan's bond
-date: TODO(DEC-78)
+name: Bede Lark buys Wren Roan's bond
+date: CY 312-11-02
 place: PL-0084
 participants: [CH-0052, CH-0079]
 secrets: [SEC-051]
 ```
 
-Bought with the two sales of the leak (EV-0262): 80 marks (`world.md` §7.4). The day is open (DEC-78): `romance_lines.md` §7 says Longdark 6 ("the day the Helm dies"), but the approved S1 outline still has her on Corr's wheel in S01E07 (Longdark 25-30). Keeper's recommendation: after S01E07 and before the flood of Still 3 - Still 2, CY 312-11-02. Not shown on screen in S1; S2E4 and S2E6 pay it.
+Bought with the two sales of the leak (EV-0262): 80 marks (`world.md` §7.4). **Still 2, CY 312-11-02 (DEC-78, r8)** - the day the Lord Admiral dies (EV-0303): he buys her free on the day the second death his double sale helped to cause is completed. ("Longdark 6 / the day the Helm dies" in `romance_lines.md` r7 was an error, corrected by the lead in r8.) *Why three weeks after S01E07 (keeper's reason, v0.8; it replaces the lead's proposal, which said debt-paper could be bought out only at year's end - that clashes with `world.md` §8.2 and §8.8, where debt-paper is sold to under-bosses on any day):* on any day a holder sells a walker's paper only at its face, which is more than Bede has; the ~80-mark price for the remaining debt is struck when the holder tallies the year's walks against the interest, and that tally is made as the year closes, on Still 1 (§4, §7.4, §8.2). Bede pays the morning after the tally. Not shown on screen in S1; she is off the wheel one night before the pumps of the Ninth stand still (S1E10). From this day she knows only of the purchase, not of the money (partial, not a knower); she learns the source in S02E04 (SEC-051). S2E4 and S2E6 pay it.
 
 ```canon
 id: EV-0341
@@ -1227,7 +1227,7 @@ The same year the Quell wrecker silver begins to pay the Corvane fleet (SEC-031)
 id: EV-0278
 type: event
 canon: approved
-name: Sibby Roan goes on the wheel
+name: Wren Roan goes on the wheel
 date: CY 306
 place: PL-0084
 participants: [CH-0079]
@@ -1240,7 +1240,7 @@ Her dead husband's debt is "walked" on Corr's wheel at the Ninth Sluice treadmil
 id: EV-0279
 type: event
 canon: approved
-name: Bede Lark begins to save for Sibby's bond
+name: Bede Lark begins to save for Wren's bond
 date: CY 308
 participants: [CH-0052]
 secrets: [SEC-051]
@@ -1541,6 +1541,8 @@ date_start: CY 313-07-01
 date_end: CY 314-02-36
 ```
 
+*(v0.8, r8, DEC-77, DEC-81)* Hollis, as purser of Corvane, proves the padded powder of the Whitlow flag-captains on paper; Maren, as Lord Admiral, strikes the senior Whitlow captains' flags (dismissal under fleet custom; nobody dies) on a clerk's word. Audience reveal of SEC-047; Nell Tern learns it in the same episode.
+
 ```canon
 id: S03E07
 type: episode
@@ -1668,6 +1670,8 @@ canon: approved
 date_start: CY 314-03-01
 date_end: CY 314-11-05
 ```
+
+*(v0.8, r8, DEC-77)* The Weir Terms. Jaro Quell is present (constraint for the S4 outline): he sees the purser leave the Admiral's cabin and reads it at a glance - SEC-047 knower `CH-0019@S04E12`; he says nothing and does not sell it. Same episode: EV-0345.
 
 ```canon
 id: S05E02

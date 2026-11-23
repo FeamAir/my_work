@@ -37,6 +37,7 @@ Lady of Ilvane, Aurin's wife, Ione's official mother; her own daughter Ilse died
 
 ## Love (r7, approved DEC-73; `story/romance_lines.md`)
 - **Line C "The Other Thing"** with Aurin Ilvane (relation in CH-0020, `spouse`): no new fact, only the reading of existing ones. A cloister marriage ("keep the blood true"), twenty years of courtesy; it becomes a marriage only after Ione's death, when Aurin gives her the Gleaner rolls (S5); she publishes and is murdered (S06E12). S01E03: Aurin in the doorway at the rinse, not coming in.
+- **Ilse (v0.8, DEC-85):** the dead child of line C is **Ilse Ilvane, CH-0068** - Cressa's own daughter, dead at two months in CY 294-04, buried secretly at Pale Crag (EV-0257; the infant grave is the S2 clue). In Cressa's own mouth the name is spoken **never in S1-S3** and **once in S4** (the episode is set with the S4 outline). Line C may read "between two graves - Ilse's and Cressa's". No new record.
 
 ## Arc by season (foundation)
 

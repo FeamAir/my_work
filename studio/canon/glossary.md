@@ -1,6 +1,6 @@
 # Glossary and pronunciation
 
-Canon: v0.7 · Status: **approved** as text - TERM-0001…0211 approved by the lead screenwriter in r5 (`studio/reports/lead-screenwriter-2026-11-22-r5.md` §5), TERM-0212 onward in r3. All respellings are still to be tested with the TTS voice (sound director's first probe); a respelling changed after the probe is a CHANGELOG line, not a new approval. (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
+Canon: v0.8 (r8: TERM-0497 renamed Wren Roan, DEC-79) · Status: **approved** as text - TERM-0001…0211 approved by the lead screenwriter in r5 (`studio/reports/lead-screenwriter-2026-11-22-r5.md` §5), TERM-0212 onward in r3. All respellings are still to be tested with the TTS voice (sound director's first probe); a respelling changed after the probe is a CHANGELOG line, not a new approval. (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
 
 Every name spoken on screen has one entry. Voice synthesis reads `say` (stressed syllable in CAPS); subtitles and on-screen text use `term`. Entries for restricted names are in `sealed/`.
 
@@ -5049,13 +5049,13 @@ Usage (v0.5): the object Pell finds is an **echo-shard** (TERM-0140) - the only 
 id: TERM-0497
 type: term
 canon: approved
-term: Sibby Roan
-say: SIB-ee ROHN
+term: Wren Roan
+say: REN ROHN
 kind: person
 ref: CH-0079
 ```
 
-(v0.7, r7) Name check, rule 1: no important name begins "Sib-" or "Roa-".
+(v0.8, r8, DEC-79) Renamed from "Sibby Roan" (two syllables against the Lows palette, DEC-58; one consonant from Tibb and close to Cantor Sabin in TTS). ID and TERM number unchanged; rule 1 gains **no** new exception. Name check, rule 1: no important name begins "Wre-" or "Roa-"; one syllable. Nearest sounds: Sister Venn and Wenna Corvane (no shared scene), Tern (different vowel), Rendal Corvane `REN-dul` (a head of CY 131-160, history only, never on screen with her). The W is silent: test in the first TTS probe (sound director).
 
 ## EXAMPLE (placeholder, not canon)
 

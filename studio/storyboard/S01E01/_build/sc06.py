@@ -2,7 +2,7 @@ from lib import S
 
 SCENE = dict(
     title='SC 6 — Колесо', short='Колесо',
-    start=374, length=60,
+    start=380.5, length=59.5,
     loc='PL-0008, насосное колесо Девятого — три колеса над отстойником (D-05 W1/W2/W3; MORNING→поздн. утро)',
     time='позднее утро',
     chars='{PELL} CH-0001 · {WICK} CH-0007 · {CORR} B-05 CH-0048 (мастер колеса, без имени вслух) · ходоки C-02',
@@ -24,7 +24,7 @@ SHOTS = [
     S(2.5, 'CU', 'статика', 'Ступица огромного деревянного колеса, вращается', 'MUSIC: титр гаснет на повисшей ноте. SFX: скрип дерева, счёт «…and four. And five.»', 'A', 'L-04 (слой ступицы, rotate 8°/с)', 'D-05 W1',
       'Late morning, close-up of the hub of an enormous wooden treadmill wheel, heavy timber spokes, worn iron straps, centred in frame, under a timber roof. No people. {LOWS_DAY}',
       '', 'вращение по часовой; центр кадра', nochar=True, key='hub'),
-    S(4, 'WS', 'сбоку, статика', 'Три огромных колеса в ряд над отстойником, каждое выше дома. Два вращаются. Третье стоит. На него никто не смотрит', 'SFX: счёт на одной высоте, скрип, вода поднимается и падает, тростниковый свисток отмечает шаг', 'A', 'L-04 (колёса 1–2 — слои rotate; 3 — статично) + L-07', 'D-05 W1 MORNING; C-02',
+    S(3.5, 'WS', 'сбоку, статика', 'Три огромных колеса в ряд над отстойником, каждое выше дома. Два вращаются. Третье стоит. На него никто не смотрит', 'SFX: счёт на одной высоте, скрип, вода поднимается и падает, тростниковый свисток отмечает шаг', 'A', 'L-04 (колёса 1–2 — слои rotate; 3 — статично) + L-07', 'D-05 W1 MORNING; C-02',
       'Late morning, side view of three enormous wooden treadmill wheels in a row under one long timber roof on piles over a dark sump pit, each taller than a house, chains of wooden buckets descending into black water; tiny figures of walkers inside the two nearer wheels; the farthest wheel empty and still; a small raised platform at the front wheel. {LOWS_DAY}',
       '', 'колёса уходят вглубь вправо; 3-е — дальнее', key='wheels'),
     S(3, 'MS', 'изнутри колеса, из-за спин', 'Внутри — двадцать спин идут в гору и никуда не приходят', 'SFX: счёт, шаги по планкам', 'B', 'L-13 (петля 2 с туда-обратно)', 'C-02; D-05 W2',

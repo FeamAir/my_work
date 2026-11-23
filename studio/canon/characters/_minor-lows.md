@@ -233,15 +233,15 @@ first_episode: S01E02
 
 ---
 
-## Sibby Roan (CH-0079) — new (approved r7) · lead-screenwriter, `story/romance_lines.md` §3 line B · v0.7
+## Wren Roan (CH-0079) — new (approved r7; renamed r8) · lead-screenwriter, `story/romance_lines.md` §3 line B · v0.8
 
-Status: **approved** (lead screenwriter, r7, DEC-73). ID given by the keeper (next free in CH-0066…0099). Name check (glossary rule 1): "Sib-" and "Roa-" clash with no important name (Sindre, Sister, Silting; Rook, Rosamund, Rourke differ in the third letter).
+Status: **approved** (lead screenwriter, r7, DEC-73). ID given by the keeper (next free in CH-0066…0099). **v0.8 (r8, DEC-79): renamed from "Sibby Roan"** - two syllables against the Lows palette (DEC-58, no third exception) and a TTS risk next to Tibb and Cantor Sabin; the short form "Sib" fails on Tibb. ID unchanged. Name check (glossary rule 1, TERM-0497 `REN ROHN`): "Wre-" and "Roa-" clash with no important name (Rook, Rosamund, Rourke differ in the third letter); nearest sounds Sister Venn, Wenna Corvane (no shared scene), Tern. "Roan" is her married name, kept.
 
 ```canon
 id: CH-0079
 type: character
 canon: approved
-name: Sibby Roan
+name: Wren Roan
 epithet: the debt-walker
 class: poor
 role: minor
@@ -251,4 +251,4 @@ status_track: [S01E07:alive]
 first_episode: S01E07
 ```
 
-**Sibby Roan** (33 in CY 312) — a treadmill debt-walker of the Ninth, walking off her dead husband's debt on Corr's wheel at the Ninth Sluice treadmill pump (PL-0084) since CY 306 (EV-0278). Bede Lark (CH-0052) has saved for her bond since CY 308 and buys it with the two sales of the leak (EV-0262, EV-0340; the day: DEC-78) - she is freed in CY 312, before the flood. *Function:* the human reason for the leak sold twice (SEC-051) - the smallest love in the city sets off both murders of S1. *On screen:* S01E07 only from behind, a back on Corr's wheel; **no face, no reference sheet**; S2E4 / S2E6 as the S2 outline needs. Her husband is unnamed. Relation to Bede lives in CH-0052.
+**Wren Roan** (33 in CY 312) — a treadmill debt-walker of the Ninth, walking off her dead husband's debt on Corr's wheel at the Ninth Sluice treadmill pump (PL-0084) since CY 306 (EV-0278). Bede Lark (CH-0052) has saved for her bond since CY 308 and buys it with the two sales of the leak (EV-0262, EV-0340) on **Still 2, CY 312-11-02** (DEC-78, r8) - she is off the wheel one night before the pumps of the Ninth stand still (S1E10); not shown in S1. *What she knows:* from Still 2 only that he bought her bond, not what the money was (partial, not a knower); she learns the source in **S02E04** (SEC-051 knower `CH-0079@S02E04`), before Hollis proves it in S02E06. *Function:* the human reason for the leak sold twice (SEC-051) - the smallest love in the city sets off both murders of S1. *On screen:* S01E07 only from behind, a back on Corr's wheel; **no face, no reference sheet, no voice in S1** (DEC-87: her look and voice as drafted by `writer-characters` accepted); S2E4 / S2E6 as the S2 outline needs. Her husband is unnamed. Relation to Bede lives in CH-0052.

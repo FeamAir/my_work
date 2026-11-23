@@ -31,6 +31,8 @@ first_episode: S01E02
 ## Biography
 Maren's midshipwoman, secretly Lows-born. Main from S7 (replaces Kes as soldier POV). Survives.
 
+- **SEC-047: knower @S03E06** (v0.8, DEC-77, r8): when the purser proves the Whitlow powder fraud and Maren strikes the captains' flags on a clerk's word, Nell learns why the purser has the Admiral's ear.
+
 ## Arc by season (foundation)
 
 | Season | Where (PL-…) | What they do | State at season end |

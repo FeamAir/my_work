@@ -39,7 +39,7 @@ relations: [CH-0053:informant_of, CH-0079:beloved@CY 308]
 secrets: [SEC-001, SEC-013, SEC-051]
 ```
 
-Relay-keeper who sells messages early. Sold one leak twice (EV-0262) — the root of two murders. States the keeper's lore: *"Old stones ring low. We throw them back."* (S01E07). *(v0.7, r7, line B "Twice", SEC-051)* He sold it twice to buy Sibby Roan (CH-0079) off Corr's wheel: saving for her bond since CY 308 (EV-0279), buys it with the two sales (EV-0340, day: DEC-78). S01E07 he nods at the treadmill - *one sale is half a walker's bond; two is a woman off the wheel*. S02E06 he must choose between the woman and the confession. `beloved` = he loves her; her side is played on screen.
+Relay-keeper who sells messages early. Sold one leak twice (EV-0262) — the root of two murders. States the keeper's lore: *"Old stones ring low. We throw them back."* (S01E07). *(v0.7, r7, line B "Twice", SEC-051)* He sold it twice to buy Wren Roan (CH-0079) off Corr's wheel: saving for her bond since CY 308 (EV-0279), buys it with the two sales (EV-0340) on Still 2, CY 312-11-02 (DEC-78, r8) - the day the Lord Admiral dies, the second death his double sale helped to cause. S01E07 he nods at the treadmill - *one sale is half a walker's bond; two is a woman off the wheel*. S02E06 he must choose between the woman and the confession. `beloved` = he loves her; her side is played on screen. He speaks of her plainly, without his jokes (DEC-87, direction).
 
 ## Captain Fitch (CH-0053)
 

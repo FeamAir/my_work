@@ -4,7 +4,7 @@ ST = 'black glassy stone stair spiralling up inside a colossal tower, the spiral
 
 SCENE = dict(
     title='SC 8 — Иона берёт тон', short='Иона берёт тон',
-    start=474, length=70,
+    start=477.5, length=66.5,
     loc='PL-0014 Шпиль Короны: основание и внутренняя лестница (внутри PL-0009) (D-08 S3; LATE-AFT лучи)',
     time='после полудня',
     chars='{IONE} CH-0002 · новиция-служанка (спина, C-07 №1) · старый Кантор (спина, B-11; чёрная повязка на горле)',
@@ -23,7 +23,7 @@ SCENE = dict(
 )
 
 SHOTS = [
-    S(5, 'WS', 'вверх по оси лестницы, подъём', 'Чёрный камень, спиральные пазы, уходит вверх из виду. Свет сверху, холодный и белый', 'MUSIC: M05 уходит; SFX: почти ничего, ткань', 'A', 'L-03 (вверх) + L-07 (пыль в лучах)', 'D-08 S3',
+    S(4, 'WS', 'вверх по оси лестницы, подъём', 'Чёрный камень, спиральные пазы, уходит вверх из виду. Свет сверху, холодный и белый', 'MUSIC: M05 уходит; SFX: почти ничего, ткань', 'A', 'L-03 (вверх) + L-07 (пыль в лучах)', 'D-08 S3',
       'Afternoon, looking straight up the core of a ' + ST + ', curving up out of sight. No people.',
       '', 'спираль вверх (по часовой, вид снизу — против)', nochar=True),
     S(5, 'WS', 'eye-level, статика', 'Иона стоит очень прямо у подножия лестницы; служанка в капюшоне возится с её подолом', 'SFX: ткань', 'B', 'резерв: L-12 (руки служанки)', 'CH-0002; C-07; D-08 S3',
@@ -49,10 +49,10 @@ SHOTS = [
       'Extreme close-up: the round stem of a small silver tuning fork pressed to the bone behind a young woman\'s ear, pale silver hair silver to the roots, a thin side-plait, cold light.',
       '', '—'),
     S(2.5, 'MCU', 'eye-level, статика', 'Она открывает глаза', 'MUSIC: M06 растворяется в тоне камертона', 'A', 'L-12', 'CH-0002', '', '', 'профиль влево', reuse='ione_fork'),
-    S(4, 'WS', 'нижний ракурс, подъём', 'Пазы лестницы вьются вверх мимо неё', 'SFX: камень лестницы звенит от шага', 'A', 'L-03', 'D-08 S3; CH-0002',
+    S(3, 'WS', 'нижний ракурс, подъём', 'Пазы лестницы вьются вверх мимо неё', 'SFX: камень лестницы звенит от шага', 'A', 'L-03', 'D-08 S3; CH-0002',
       'Afternoon, low-angle wide shot: {IONE} small at the bottom of a ' + ST + ', looking up, her white robe the only pale thing.',
       '', 'вверх-влево по спирали'),
-    S(3.5, 'insert', 'eye-level, статика', 'Щель-окно в стене спирали: холодный белый луч', 'SFX: ветер далеко наверху', 'A', 'L-07 (пыль в луче) + L-01 0.03', 'D-08 S3',
+    S(3, 'insert', 'eye-level, статика', 'Щель-окно в стене спирали: холодный белый луч', 'SFX: ветер далеко наверху', 'A', 'L-07 (пыль в луче) + L-01 0.03', 'D-08 S3',
       'Afternoon, insert of a narrow light slit in a curved wall of glassy black stone grooved with spirals, a cold white beam falling across black steps, dust in the beam. No people.',
       '', '—', nochar=True),
     S(3, 'WS', 'сверху по спирали, статика', 'Иона поднимается по спирали — маленькая фигура', 'SFX: шаги', 'B', 'резерв: L-04 (фигура-слой)', 'CH-0002; D-08 S3',
@@ -76,7 +76,7 @@ SHOTS = [
     S(3, 'MS', 'со спины, статика', 'Кантор остаётся внизу, рука на горле, смотрит ей вслед', '—', 'A', 'L-01 0.02', 'B-11; D-08 S3',
       'Afternoon, medium shot from behind of a very old stocky man in a greyed linen robe with a black throat-band, standing on a black spiral step, looking up after someone, one hand at his throat.',
       '', 'смотрит вверх-влево'),
-    S(4.5, 'WS', 'вверх, наезд', 'Шаги по спирали → ветер → открытый воздух: свет сверху растёт, лестница открывается в небо', 'SFX: шаги → ветер → открытый воздух', 'A', 'L-01 0.08 + L-07 + наплыв в белое 8 кадров', 'D-08 S3/S4',
+    S(3.5, 'WS', 'вверх, наезд', 'Шаги по спирали → ветер → открытый воздух: свет сверху растёт, лестница открывается в небо', 'SFX: шаги → ветер → открытый воздух', 'A', 'L-01 0.08 + L-07 + наплыв в белое 8 кадров', 'D-08 S3/S4',
       'Afternoon, looking up the last turn of a black spiral stair to an open arch full of bright sky, wind-blown dust in the light. No people.',
       '', 'вверх', nochar=True),
 ]

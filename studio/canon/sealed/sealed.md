@@ -2,7 +2,7 @@
 
 > **CLOSED FILE - FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper, studio director. Writer-helpers, marketing, art and sound receive only excerpts decided by the director (`studio/status.md`). Never quote in public material, openings, previews or reports to the investor. Format: `README.md` §8a.
 
-Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings (J.1) and of the r6 rulings DEC-66…70 (J.2, J.3); §K = restricted side of the love lines, r7, DEC-71…76; transfer by lore-keeper)
+Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; §J = restricted side of the v0.5 keeper rulings (J.1) and of the r6 rulings DEC-66…70 (J.2, J.3); §K = restricted side of the love lines, r7, DEC-71…76; v0.8: r8 rulings DEC-77…87 checked, §H table and §K.6; transfer by lore-keeper)
 
 Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6), r3 (§10), r6 (§11) and r7 (§12). Role excerpts decided by the director: `../excerpts/` (v0.4).
 
@@ -577,8 +577,10 @@ Public cover: the Dry Queen "did not deny it".
 | DEC-73, DEC-74 | SEC-010, SEC-011, SEC-011b, SEC-024, SEC-027 | Love lines L1-L5, A-C: restricted halves in §K (L2 after S06E09; L3 terms; L4 notes; L1 price; the clip). Answers unchanged (§K.6). |
 | DEC-75 | SEC-027 | S1 additions: Ruel gives Jaro the right hand (the ring stays out of L1). |
 | DEC-76 | SEC-011 | What SEC-047 and SEC-048 may not say in open records: the line after S06E09 and the terms (§K.1, §K.2). |
-| DEC-77 | — | Keeper's question: the S3 episode of SEC-047 and the episodes for Nell and Jaro (open). |
-| DEC-78 | — | Keeper's question: the day of Bede's purchase (open). |
+| DEC-77 | SEC-011 | Ruled r8: SEC-047 reveal S03E06, Nell @S03E06, Jaro @S04E12. Restricted half (§K.1, after S06E09) untouched; Jaro's silence S04E12 → S5 does not touch K.4 (the S10 price stays the lamp and the name). |
+| DEC-78 | — | Ruled r8: EV-0340 Still 2, CY 312-11-02; SEC-051 Wren @S02E04. No restricted side. |
+| DEC-79…82 | SEC-012 (DEC-80) | Ruled r8: rename Wren Roan; Elm partial on SEC-004 (his place inside SEC-012 lets him suspect, not confirm, before S04E10); Whitlow ladder S2E11 / S3E6 / S10; Jaro's "loyal" once. No answer changed. |
+| DEC-83…87 | SEC-011, SEC-048 (DEC-83) | Ruled r8 for the dossiers: Zev's open facts after S6E9 match SEC-048 and §K.2; everything else stays restricted (§K). Elm's Lows street-sign from S2, at most once a season - each use logged by the keeper as a clue of SEC-012. |
 
 All DEC items DEC-01…64 were ruled in r3; the restricted side of the rulings is §I. DEC-65…70 were ruled in r6 (`studio/story/decisions_resolved.md` Part 5); their restricted side is §J.2 (DEC-65 has none).
 
@@ -745,3 +747,5 @@ Complete custody: §G. The seal of Quire is the clip of two clerks who forged fo
 | SEC-025, SEC-026, SEC-027 | none (guards K.1, K.4) | untouched |
 
 Keeper's findings (v0.7): no contradiction between §12 of the master file and the sealed canon. Validator: knowers of the overlays are alive at their episodes (Zev @S07E02, Maren @S10E05).
+
+**Keeper's check v0.8 (r8, DEC-77…87):** no closed answer, `reveal` or knower of a restricted secret changed. SEC-047 gains open episodes only (S03E06, S04E12); the overlay knower Zev @S07E02 stands. Jaro learning SEC-047 @S04E12 is consistent with K.4 (he does not sell it; the S10 price is not money). Elm's partial knowledge (DEC-80) leaves SEC-012 (exposure S07E07, death S08E09) and SEC-004 (S04E10) unchanged.

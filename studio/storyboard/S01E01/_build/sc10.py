@@ -91,7 +91,7 @@ SHOTS = [
       'Late afternoon, medium close-up of {LUCAN}, three-quarter view facing right, square white beard, faded grey-green eyes, mouth closed, golden backlight. ' + H,
       '', 'смотрит вправо', key='lucan_mcu'),
     S(3, 'MCU', 'eye-level, статика', 'Хелм, не зло', 'THE HELM [MS] (не зло): «And you will lose this one.»', 'A', 'L-12', 'B-01', '', '', 'смотрит вправо', reuse='lucan_mcu', l12=1),
-    S(3, 'MCU', '¾, статика', 'Руэл смотрит на него мгновение. Потом большая улыбка возвращается — для зала не меньше, чем для старика', '—', 'A', 'L-12 (без улыбки → улыбка, наплыв 0,5 с)', 'CH-0005', '', '', 'смотрит влево', reuse='ruel_mcu', l12=1),
+    S(3, 'MCU', '¾, статика', 'Руэл смотрит на него мгновение. Потом большая улыбка возвращается — для зала не меньше, чем для старика', '—', 'B', 'резерв: L-12 (без улыбки → улыбка, наплыв 0,5 с)', 'CH-0005', '', 'static camera; for a moment his face is still and unreadable, then a broad warm smile returns, slowly, eyes first; no speech, mouth closed or barely parted.', 'смотрит влево', reuse='ruel_mcu'),
     S(3, 'MS', '¾, статика', 'Руэл', 'RUEL [MS] FIXED: «We go under and come up.»', 'A', 'L-12', 'CH-0005', '', '', 'смотрит влево', reuse='two_shot', l12=1),
     S(4, 'MS', 'двухплан, статика', 'Петиция ушла; он протягивает ЛЕВУЮ и берёт руку Хелма. Долгое тёплое пожатие, старая рука почти скрыта в большой', 'SFX: ткань. Музыки нет', 'C', 'резерв: два кадра (рука протянута / пожатие)', 'B-01; CH-0005; D-10 T2',
       'Late afternoon, medium two-shot at a map table: {RUEL} on the right holding out his LEFT hand to {LUCAN} on the left; the old man\'s right hand coming to meet it. Golden backlight. ' + H,

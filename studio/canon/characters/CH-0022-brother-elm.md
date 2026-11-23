@@ -34,7 +34,7 @@ relations: [CH-0045:rival, CH-0060:ally, CH-0065:fellow_quiet]
 Vesna's "Voice" and interpreter; officially a foundling novice. Executed by the Choir (S08E09).
 
 ## Love (r7, approved DEC-73; `story/romance_lines.md`)
-- **L5 "The Voice"** with Ione Ilvane - relation in CH-0002 (`beloved_of@CY 313`); unspoken love compromised by a lie of omission. S1E11 seed (her name, and he never speaks aloud); S2 sign lessons (she 19, he 23); S2E10 the two notes - from that night he understands what she is and does not tell her (SEC-012); S3 keeper of her journal; S4E10 *"You knew. Since the two notes."* - he signs yes; forehead to forehead; S4E11 she dies; S5E6 he cuts the pages that name him and leaks the journal (SEC-049); S7E7 Daro finds them; S8E9 his last words are the first sentence he speaks aloud as himself (fixed line with the S8 outline).
+- **L5 "The Voice"** with Ione Ilvane - relation in CH-0002 (`beloved_of@CY 313`); unspoken love compromised by a lie of omission. S1E11 seed (her name, and he never speaks aloud); S2 sign lessons (she 19, he 23); S2E10 the two notes - from that night he understands what she is and does not tell her (SEC-012); **S02E10 - Elm: partial (gleaned, Lows, the lullaby; not who)** - not a knower of SEC-004 (DEC-80, r8): he does not know her name, her parents or that she has a sister, and may not confirm, name or act on a suspicion before S04E10; S3 keeper of her journal; S4E10 *"You knew. Since the two notes."* - he signs yes; forehead to forehead; S4E11 she dies; S5E6 he cuts the pages that name him and leaks the journal (SEC-049); S7E7 Daro finds them; S8E9 his last words are the first sentence he speaks aloud as himself (fixed line with the S8 outline).
 
 ## Arc by season (foundation)
 

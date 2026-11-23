@@ -1,6 +1,6 @@
 # World
 
-Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; v0.7: love lines r7, DEC-71…76, Part 6 - §1 love rule, §6 objects, §7.4 and §8.2 the walker's bond; transfer by lore-keeper)
+Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; v0.7: love lines r7, DEC-71…76, Part 6 - §1 love rule, §6 objects, §7.4 and §8.2 the walker's bond; v0.8: r8, DEC-78/79/81, Part 7 - §7.4, §8.2 Wren Roan and when a bond is bought out, §7.9 row 12 proven S3E6; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -1306,7 +1306,7 @@ The reading names the tiers in order, sluice by sluice; the Let Go tier is read 
 | a barrel of powder (50 kg) | ~30 marks in Highwater | | Gleaner (ear-money) | 3 marks a head + 10 if the child takes the ear |
 | saltpeter | 1 mark / 10 kg at the Rim, 4 at the Arsenal | | free-company sword | 3 marks a month in notes |
 | at a Lows fence (v0.5, R-12): a small unlicensed echo-shard | ~6 coppers | | a morning's buttons | ~4 coppers |
-| buying out a walker's bond (v0.7, keeper's figure for SEC-051) | the holder's price for the remaining debt-paper: **~80 marks** for a six-year walker like Sibby Roan (the face of the debt is higher; interest outruns the wheel) | | a leak sold by a relay-keeper (Tithe Map news, CY 312) | **40 marks** a sale (EV-0262: one sale = half a bond) |
+| buying out a walker's bond (v0.7, keeper's figure for SEC-051) | the holder's price for the remaining debt-paper: **~80 marks** for a six-year walker like Wren Roan (the face of the debt is higher; interest outruns the wheel) | | a leak sold by a relay-keeper (Tithe Map news, CY 312) | **40 marks** a sale (EV-0262: one sale = half a bond) |
 
 **Arrears of the dry-tithe (v0.5, R-10):** the collector may take arrears **in goods** (nets, pots, tools) at his own valuation; the household keeps its place on the map. S01E01: two months owed (6 coppers at Last Song).
 
@@ -1422,7 +1422,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 9 | **† Gate passes** (three floors, DEC-55) | Dunmore warden's clerk issues (5 marks a family); the Rusk quartermaster's office strikes extra copies | guardsman Ansel Fray sells them at the gate (S1E4) | families without passes | Kes (S1E4, E10) | S1E4, S1E10 | Kes opens the gate → stripped, sent to the Stair (**S1E12 → S3**) |
 | 10 | **Relief bread** at triple price | Garrick, Orsley | barge-masters (Gillam), Undertow middlemen | the Lows | Pell (S1E5) | S1E5 | Dask's vote is bought with bread → **Odo Helm** (**S1**) |
 | 11 | **Flag-hiring** (other houses' seals on barges) | Gillam | lock-keepers who look away | rival convoys | Maren (S2) | S1E5, S2E11 | Dask barges block the canal → Maren loses the Sluice Gates (**S2**) |
-| 12 | **† Storm-berths and padded powder** | Corvane flag-captains (Whitlow) | pursers, gunners' mates | wrecked merchant crews; Lows gunners | Nell Tern, Maren (S2E11) | S2E11 | guns silent → Maren loses the Helm's War; the Sovereign's war on small thieves (**S2 → S10**) |
+| 12 | **† Storm-berths and padded powder** | Corvane flag-captains (Whitlow) | pursers, gunners' mates | wrecked merchant crews; Lows gunners | Nell Tern, Maren (S2E11); Hollis proves it (S3E6) | discovered S2E11, **proven S3E6** (v0.8, DEC-81: the senior Whitlow flag-captains dismissed) | guns silent → Maren loses the Helm's War; the Sovereign's war on small thieves (**S2 → S10**) |
 | 13 | **† A regent tidies a crime** (SEC-023) | Lady Ysa | her household; Skarra pilots (SEC-038) | Sister Marl; Maren's war | Maren (S2E10) | S1E7 → S2E10 | Gullmouth opened to Fennick (**S2E11**) |
 | 14 | **† Ledger kept as insurance** | Fossett | Fossett | — | Hollis | S2E7 | names Ruel's killers (**S2E11**); testifies (**S6**) |
 | 15 | **† Saltpeter sold twice** | Grell quartermasters | clerks, Hadden guides (Goat Stair), Varra sloops, Undertow fences | Rusk pikemen; powder-mill workers | Kes, Ottar, Brenna (knows) | S3E10–11; S4 | Ossari guns fire Rusk powder → **the Stair falls** (**S3**); a second sale in CY 314 (SEC-024, sealed) |
@@ -1494,7 +1494,7 @@ Status: **approved** by the lead screenwriter in r3 (writer-characters, `studio/
 - **Dry-notes** — Lantry paper "promise of dry ground", in ones, fives and tens ("a one-dry", "a fiver", "a tenner"). The Lows take them at a discount and call notes backed by low land **"wet notes"** (proposal: you can see it in the serial — every note names the deed-district; Lows people check it before accepting).
 - **The dry-tithe** — paid per household, per month, to the house of the nearest Spire (the Ninth pays Fennick); the tithe-collector's box is chained to his wrist.
 - **Dry-pledges** — the Undertow's protection racket: pay and your lane gets sandbags first in a flood; don't, and your sandbags go missing.
-- **Debts** — the Lows run on debt-paper. A debt can be **"walked"** (on a treadmill; *v0.7:* a mark off the debt a walk while the interest runs faster, so a walker is freed only when someone **buys out the bond** - the holder's price for the remaining paper, ~80 marks for a six-year walker, §7.4; Bede Lark and Sibby Roan, SEC-051), **"sold"** (to an under-boss), or **"drowned on paper"** (Widow Pruitt's trick: you are entered as drowned in the flood-roll and start again under another name — see S2E3, S6E9).
+- **Debts** — the Lows run on debt-paper. A debt can be **"walked"** (on a treadmill; *v0.7:* a mark off the debt a walk while the interest runs faster, so a walker is freed only when someone **buys out the bond** - the holder's price for the remaining paper, ~80 marks for a six-year walker, §7.4; Bede Lark and Wren Roan, SEC-051; *v0.8, keeper's rule for DEC-78:* on any day the holder parts with the paper only at its face; the lower buy-out price is struck when he tallies the year's walks against the interest, as the year closes on Still 1 - so a walker is bought out in the Still Days, EV-0340), **"sold"** (to an under-boss), or **"drowned on paper"** (Widow Pruitt's trick: you are entered as drowned in the flood-roll and start again under another name — see S2E3, S6E9).
 - **Salt** — small change of the poor and the Lady's offering; a pinch of salt settles a bet.
 
 

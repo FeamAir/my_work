@@ -39,7 +39,7 @@ Captain-lord of the island clans; S1 vote-broker, POV from S2. Breaks with the m
 - **L1 "The Second Lamp"** with Ruel Corvane - relation in CH-0005 (`lover@CY 305`); SEC-046. S1: E4 the second lamp and *"You're halfway there."*; E6 the corridor; E8 waiting at the rail; E9 barred from the ship, the alibi he cannot give (*"On a deck. Waiting on the weather."* - why the Quell frame of SEC-013 holds), alone at the wake: he puts out the second lamp and takes the dead man's right hand; E12 *"Calm is bought. This one was paid for."* After: S2 the war is his mourning; S2E11 his letters pass to Odo (blackmail: the cause of "trades with both sides", S3-S5); S06E02 Zev returns them unopened; S06E08 Ruel's Longdark 5 note; S07E03 witness at the Helm's wedding; S9E5 the break; S10 the price (restricted); S11E8 dies.
 - **S01E01:** the still figure in the sea-green block in Sc 12, from behind, unnamed (director's decision on r7) - not a casting appearance: first face and name S01E04.
 - **Lio (CH-0043): patronage only** (DEC-71); never romantic.
-- Learns SEC-047 (Maren and Hollis) in S4 (episode: DEC-77).
+- **SEC-047 (Maren and Hollis): knower @S04E12** (DEC-77, r8). At the Weir Terms he sees the purser leave the Admiral's cabin and reads it at a glance - he kept a second lamp for seven years. He says nothing. From here he holds the one fact that could buy back his own letters from the Listener (S2E11 → S5E12), and through the five-year skip he does not sell it: the first proof of "one thing he will not sell, found again" (function test, DEC-72). What he works out in S5 is for the S5 outline.
 - **Never handles Ruel's ring** (staging rule, v0.7).
 
 ## Arc by season (foundation)
@@ -66,6 +66,7 @@ Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded 
 - **Eyes:** green-brown, laughing.
 - **Distinctive mark:** three small tattooed dots under the RIGHT eye (one per wreck he survived — proposal).
 - **Usual clothes and colours:** **sea-green long coat** with bone buttons, open over a bare-throated bone-white shirt, salt-stained boots. Main colour: sea-green.
+- **Formal (v0.8, DEC-86):** + the **Quell captains' green sash with the iron ring** (HS-005 "Dress"), worn over the long coat, **iron ring at the left hip** - house dress for musters and processions (S1E8: he comes from the procession's muster). Not a new costume. From behind (S1E8 object shot) he is read by three things: the long coat, the sash knot with the iron ring at the hip, the dyed hair ends. Guard: the sash's iron ring must not look like the "Quell token" that falls from the assassin's hand in the same episode (EV-0302).
 - **Signature item:** a **green-glass wrecker's lantern lens** on a leather cord, worn as a pendant (the false lights of House Quell — he jokes that it is "a reminder to stay honest").
 - **Changes:** S9 the lens is missing (he throws it into the sea when he breaks with the movement — proposal); S11 back on.
 
@@ -73,8 +74,8 @@ Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded 
 - **Voice character:** easy, lazy tenor; island drawl (long vowels, dropped endings); a laugh in it even when he threatens.
 - **Speech habits:** prices everything with a smile; quotes his house words as a joke and means them; switches sides mid-sentence and explains why it was always the same side.
 - **Catch-phrase:** "Calm is bought." (S1E4, with a grin)
-- **Never says:** "I promise"; "loyal".
-- **Sample line:** *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."*
+- **Never says:** "I promise"; "loyal" - **except once, in private, to Ruel (S01E04, fixed line)** (DEC-82, r8). After S1E4 no script gives him the word again, in any season, in earnest or in jest.
+- **Fixed line, S01E04** (stern gallery, in private - not at the public bargaining): *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."*
 - **Delivery:** `[LIPSYNC-CU]` max 2 in S1 (E4, E12 vote); ≤5 per season after.
 
 ### Goals

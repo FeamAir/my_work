@@ -41,7 +41,7 @@ SHOTS = [
     S(4.5, 'CU', 'eye-level, статика', 'Немо. Рука идёт к вороту. На этот раз она знает, что делает. Пальцы смыкаются на шнурке сквозь плащ — и не разжимаются. Камня не видно. Она решила', '—', 'B', 'резерв: L-12 (рука у ворота / пальцы сжаты)', 'CH-0001',
       'Close-up of {PELL}, her mud-dark hand at the collar of her oilskin gripping a thin cord through the cloth, the stone not visible, stubborn defiance, jaw set, eyes level, low gold rim light. ' + L,
       'static camera; her fingers slowly close tight on the cord through the cloth and stay closed; her jaw sets.', 'смотрит вправо', tags=('cord',)),
-    S(5, 'WS', 'снизу на СВ, статика', 'Вверх по холму, маленький на последнем солнце, — дворец', 'SFX: тишина переулка', 'A', 'L-01 0.03', 'D-01 A LATE-AFT',
+    S(5, 'EWS', 'снизу на СВ, статика', 'Вверх по холму, маленький на последнем солнце, — дворец', 'SFX: тишина переулка', 'A', 'L-01 0.03', 'D-01 A LATE-AFT',
       'View from a stilt town up a hill to the northeast: a pale granite palace on the summit small against the last gold sunlight, a dark colossal spire beside it, no glow, brick dike below in shade. No people. ' + L,
       '', 'дворец по центру', nochar=True),
 ]

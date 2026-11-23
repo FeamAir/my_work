@@ -20,8 +20,8 @@ The canon is the single source of truth for the saga: world laws, chronology, ho
 | `glossary.md` | Spelling and pronunciation of every name for voice synthesis | `term` |
 | `sealed/sealed.md` | **Restricted** part of the canon: answers of restricted secrets, sealed characters, overlays, true versions of events, sealed rules and names (§8a) | any type; `overlay: true` |
 | `checklist.md` | Checklist for reviewing script materials against the canon | — |
-| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 ruled in r6 (Part 5 of the same file; canon v0.6); DEC-71…76 ruled in r7 (Part 6; canon v0.7); **DEC-77, DEC-78 open** (keeper's questions, r7) | — |
-| `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director; v0.6: `for_vfx_S3-S4.md` prepared, **not issued** until the S3 storyboards; v0.7: director and artist §6, composer §3 item 12 - love lines of S1, nothing from `sealed/` §K). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
+| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 ruled in r6 (Part 5 of the same file; canon v0.6); DEC-71…76 ruled in r7 (Part 6; canon v0.7); DEC-77…87 ruled in r8 (Part 7; canon v0.8; numbering of DEC-79…87 by the lead, kept) | — |
+| `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director; v0.6: `for_vfx_S3-S4.md` prepared, **not issued** until the S3 storyboards; v0.7: director and artist §6, composer §3 item 12 - love lines of S1, nothing from `sealed/` §K; v0.8: director and artist §6 - Wren Roan, Jaro's formal sash). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
 | `tools/validate.py` | Automatic consistency checker | — |
 | `*/_template.md`, examples | Empty templates + one EXAMPLE each (`example: true`) | ignored by the normal run |
 
@@ -68,7 +68,7 @@ Allocation (v0.3):
 | Kind | Range | Who |
 |---|---|---|
 | Characters | CH-0001…0065 | the lead (foundation) |
-| | CH-0066…0099 | keeper and writer-characters (second circle, new people); CH-0070 was never issued (proposal = CH-0067); v0.4: CH-0078 Akko of Kitsa (keeper, DEC-33); v0.7: CH-0079 Sibby Roan (r7); next free: CH-0080 |
+| | CH-0066…0099 | keeper and writer-characters (second circle, new people); CH-0070 was never issued (proposal = CH-0067); v0.4: CH-0078 Akko of Kitsa (keeper, DEC-33); v0.7: CH-0079 Wren Roan (r7; named "Sibby Roan" until v0.8, renamed r8, DEC-79); next free: CH-0080 |
 | | CH-0100…0199 | reserved for future cast (S2-S12 outlines) |
 | | CH-0200…0299 | house lineages (writer-houses: founders, last heads, the last three generations) |
 | Houses | HS-001…012 great and fallen · HS-013…089 minor houses and clans (writer-houses: HS-013…033) · HS-090…099 non-house powers | |

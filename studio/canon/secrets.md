@@ -1,6 +1,6 @@
 # Secrets registry
 
-Canon: v0.7 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; v0.7: SEC-046…051 and the additions to SEC-001, 006, 012, 013, 016, 023, 031 from the love lines, r7, DEC-73; transfer by lore-keeper)
+Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; v0.7: SEC-046…051 and the additions to SEC-001, 006, 012, 013, 016, 023, 031 from the love lines, r7, DEC-73; v0.8: SEC-047 episodes, SEC-051 knower, Elm's partial knowledge in SEC-004/049, rename Wren Roan - r8, DEC-77…80; transfer by lore-keeper)
 
 **Full spoilers - never use in public material before the reveal episode.**
 
@@ -91,7 +91,7 @@ Below each block: **Clues** (episode - what is shown). Full clue tables and red 
 | SEC-044 | Ottar's tongue | episode | S01E04 | S03E05 | sealed | here |
 | SEC-045 | One copper | episode | S01E02 | S02E09 | sealed | here |
 | SEC-046 | The second lamp | season | S01E01 | S01E09 | sealed | here |
-| SEC-047 | The purser | saga | S01E07 | TODO(DEC-77) (S3) | sealed | here (+ overlay in `sealed/`) |
+| SEC-047 | The purser | saga | S01E07 | S03E06 | sealed | here (+ overlay in `sealed/`) |
 | SEC-048 | The paper marriage | season | S07E03 | S12E12 | sealed | here (+ overlay in `sealed/`) |
 | SEC-049 | The cut pages | season | S05E06 | S07E07 | sealed | here |
 | SEC-050 | A beautiful hand | season | S01E01 | S06E08 | sealed | here |
@@ -204,7 +204,7 @@ min_seasons_hidden: 1
 related: [CH-0002, CH-0023, CH-0024, CH-0056, CH-0068, EV-0201]
 ```
 
-Clues: S01E02 "I had a sister. The water took her before I was born." · S01E03 the Cantor's rinse · S01E05 Ione hums two notes back · S02E05 infant grave dated Reedmonth CY 294 · S02E10 Ione hums two notes in her sleep; Elm goes pale · S03E07 Gleaner ledger "Ninth Sluice, female, one year, ear true - mother Liss" · S03E12 Venn tells Ione she was gleaned; dark roots · S04E04 Nan's sketch of Liss. Ione knows she was gleaned from S03E12; the full truth S04E10.
+Clues: S01E02 "I had a sister. The water took her before I was born." · S01E03 the Cantor's rinse · S01E05 Ione hums two notes back · S02E05 infant grave dated Reedmonth CY 294 · S02E10 Ione hums two notes in her sleep; Elm goes pale · S03E07 Gleaner ledger "Ninth Sluice, female, one year, ear true - mother Liss" · S03E12 Venn tells Ione she was gleaned; dark roots · S04E04 Nan's sketch of Liss. Ione knows she was gleaned from S03E12; the full truth S04E10. S02E10 - Elm: partial (gleaned, Lows, the lullaby; not who) - not a knower (DEC-80, r8): he does not know her name, her parents or that she has a sister; his place inside SEC-012 lets him suspect more, and no script lets him confirm, name or act on it before S04E10, where her *"You knew."* and his yes mean exactly this.
 
 ### SEC-005 - The songblood lie
 
@@ -890,16 +890,16 @@ tier: saga
 truth: Maren Corvane and Hollis Kett love each other from S2 and are lovers from S04E12; she trusts his columns before she trusts him, and each time she must choose between him and the name she chooses the name.
 cover_story: The Admiral's purser; later Odo's treasury secretary.
 status: sealed
-known_by: [CH-0003@S02E11, CH-0006@S02E11, CH-0044@TODO(DEC-77), CH-0019@TODO(DEC-77)]
+known_by: [CH-0003@S02E11, CH-0006@S02E11, CH-0044@S03E06, CH-0019@S04E12]
 hints: [S01E07, S01E11, S02E11]
-reveal: TODO(DEC-77)
+reveal: S03E06
 public_on_reveal: false
 min_seasons_hidden: 1
 related: [CH-0003, CH-0006, CH-0044, CH-0019, EV-0345, SEC-001, SEC-010]
 ```
 
 Why hidden: the heir (later head) of Corvane and a charity clerk of the bank, then a fugitive, then her spy in the enemy's treasury - each of his positions is one in which a known tie to her would kill him. Never public before S06E09.
-Clues and beats: S01E07 seed (not a romantic beat): she checks his sum and finds nothing to correct - *"You could sell this to Fennick for a house on the Steps." - "I would have to keep the house dry."* · S01E11 seed: he gives her the page - *"You could have burned it." - "Twice, by now."* · S2 the proofs travel by Undertow boat as ledger entries; the entries grow a second column that is not accounts · S02E11 his letter with the names of her father's killers - the first letter with no columns (both knowers from here) · **S3 (audience, episode: DEC-77)** purser of Corvane; he proves the powder fraud on the Whitlow flag-captains, her mother's kin, and she breaks them on a clerk's word; the fleet learns the purser has the Admiral's ear and Nell Tern learns why · S4 Jaro learns (episode: DEC-77) · S04E12 the first kiss and, in the same scene, the order to go into Odo's treasury (EV-0345) · S5 they meet rarely and badly; S05E11 he kills Odo; S05E12 *"I never asked you." - "No. You never do."* · S06E07 she asks him to cut one page (the sight-draft) and he will not - SEC-001 becomes public by the hand of the man who loves her · S06E09 the fire; their last words were a quarrel · S06E12 she puts on her father's ring. **After S06E09: `sealed/` §K only.** Marketing: the line may be shown as a love story through S06E09 and as Maren's grief after it.
+Clues and beats: S01E07 seed (not a romantic beat): she checks his sum and finds nothing to correct - *"You could sell this to Fennick for a house on the Steps." - "I would have to keep the house dry."* · S01E11 seed: he gives her the page - *"You could have burned it." - "Twice, by now."* · S2 the proofs travel by Undertow boat as ledger entries; the entries grow a second column that is not accounts · S02E11 his letter with the names of her father's killers - the first letter with no columns (both knowers from here) · **S03E06 (audience reveal; DEC-77, r8)** purser of Corvane; he proves the powder fraud on the Whitlow flag-captains, her mother's kin, on paper, and she strikes their flags on a clerk's word (DEC-81: dismissed, nobody dies); the fleet learns the purser has the Admiral's ear and Nell Tern learns why (knower @S03E06) · S04E12 the first kiss and, in the same scene, the order to go into Odo's treasury (EV-0345) · **S04E12** (DEC-77) Jaro, at the Weir Terms, sees the purser leave the Admiral's cabin and reads it at a glance - he kept a second lamp for seven years; he says nothing. From here he holds the one fact that could buy back his own letters from the Listener (SEC-046, S2E11 → S5E12) and through the five-year skip he does not sell it: the first proof of "one thing he will not sell, found again". What he works out in S5 is for the S5 outline · S5 they meet rarely and badly; S05E11 he kills Odo; S05E12 *"I never asked you." - "No. You never do."* · S06E07 she asks him to cut one page (the sight-draft) and he will not - SEC-001 becomes public by the hand of the man who loves her · S06E09 the fire; their last words were a quarrel · S06E12 she puts on her father's ring. **After S06E09: `sealed/` §K only.** Marketing: the line may be shown as a love story through S06E09 and as Maren's grief after it.
 
 ### SEC-048 - The paper marriage
 
@@ -939,7 +939,7 @@ public_on_reveal: false
 related: [CH-0022, CH-0002, CH-0021, CH-0045, EV-0318, EV-0328, SEC-012]
 ```
 
-Line L5 (Elm and Ione): S01E11 seed - the first sign he teaches her is her own name, and the Voice does not speak aloud once · S2 sign lessons (she is 19); a language with words only the two of them use · S02E10 she hums two notes in her sleep and he goes pale: from that night he understands what she is and does not tell her, because his place in the Choir depends on silence (SEC-012) · S3 he carries her journal out past the Pale Crag wardens · S04E08 the break-out; the spiral to Pell · S04E10 she signs *"You knew. Since the two notes."*; he signs yes; forehead to forehead, her hand closed over his signing hand · S04E11 she dies · S05E06 he cuts the pages, then leaks the journal to Cressa · S07E07 Daro finds the pages in his cell - the Choir's proof against him is her love of him, in her own hand · S08E09 executed; the Choir as a body holds the pages from his trial (no single knower recorded); his last words are the first sentence he speaks aloud as himself (fixed line to be written with the S8 outline). Journal and pages custody: `world.md` §6.
+Line L5 (Elm and Ione): S01E11 seed - the first sign he teaches her is her own name, and the Voice does not speak aloud once · S2 sign lessons (she is 19); a language with words only the two of them use · S02E10 she hums two notes in her sleep and he goes pale: from that night he understands what she is and does not tell her, because his place in the Choir depends on silence (SEC-012) (S02E10 - Elm: partial (gleaned, Lows, the lullaby; not who); not a knower of SEC-004, DEC-80) · S3 he carries her journal out past the Pale Crag wardens · S04E08 the break-out; the spiral to Pell · S04E10 she signs *"You knew. Since the two notes."*; he signs yes; forehead to forehead, her hand closed over his signing hand · S04E11 she dies · S05E06 he cuts the pages, then leaks the journal to Cressa · S07E07 Daro finds the pages in his cell - the Choir's proof against him is her love of him, in her own hand · S08E09 executed; the Choir as a body holds the pages from his trial (no single knower recorded); his last words are the first sentence he speaks aloud as himself (fixed line to be written with the S8 outline). Journal and pages custody: `world.md` §6.
 
 ### SEC-050 - A beautiful hand
 
@@ -969,17 +969,17 @@ type: secret
 canon: approved
 title: Twice
 tier: episode
-truth: Bede Lark sold the Tithe Map leak twice, to Ruel and to Ursel, because one sale was half the price of a debt-walker's bond and two bought Sibby Roan off the treadmill.
+truth: Bede Lark sold the Tithe Map leak twice, to Ruel and to Ursel, because one sale was half the price of a debt-walker's bond and two bought Wren Roan off the treadmill.
 cover_story: A keeper's greed.
 status: sealed
-known_by: [CH-0052@origin, CH-0079@TODO(DEC-78), CH-0003@S02E06]
+known_by: [CH-0052@origin, CH-0079@S02E04, CH-0003@S02E06]
 hints: [S01E07, S02E04]
 reveal: S02E06
 public_on_reveal: false
 related: [CH-0052, CH-0079, CH-0003, CH-0048, PL-0084, EV-0262, EV-0278, EV-0279, EV-0340, SEC-001, SEC-013]
 ```
 
-Sibby Roan (CH-0079) has walked off her dead husband's debt on Corr's wheel at the Ninth Sluice treadmill pump since CY 306 (EV-0278); Bede has saved for her since CY 308 (EV-0279). Price: `world.md` §7.4 (keeper's figure, v0.7: the buy-out of her bond 80 marks; each sale of the leak 40). Clues: S01E07 counting Hollis's coin he says he sold "the same news, twice"; asked why, he nods at the treadmill across the canal - *one sale is half a walker's bond; two is a woman off the wheel* (Sibby: a back on Corr's wheel, no face) · S02E04 the line's second beat (content with the S2 outline; `romance_lines.md` §6) · S02E06 Hollis proves that the double sale caused both murders of S1; Bede must choose between the woman and the confession. The day Bede buys the bond: DEC-78 (EV-0340). The smallest love in the city sets off both murders of S1.
+Wren Roan (CH-0079) has walked off her dead husband's debt on Corr's wheel at the Ninth Sluice treadmill pump since CY 306 (EV-0278); Bede has saved for her since CY 308 (EV-0279). Price: `world.md` §7.4 (keeper's figure, v0.7: the buy-out of her bond 80 marks; each sale of the leak 40). Clues: S01E07 counting Hollis's coin he says he sold "the same news, twice"; asked why, he nods at the treadmill across the canal - *one sale is half a walker's bond; two is a woman off the wheel* (Wren: a back on Corr's wheel, no face) · S02E04 the line's second beat (content with the S2 outline; `romance_lines.md` §6) · S02E06 Hollis proves that the double sale caused both murders of S1; Bede must choose between the woman and the confession. The day Bede buys the bond: **Still 2, CY 312-11-02** (EV-0340, DEC-78, r8) - the day the Lord Admiral dies. From CY 312-11-02 she knows of the purchase, not of the money (partial, not a knower); she learns the source in **S02E04** (`CH-0079@S02E04`), before Hollis proves it in S02E06, so that Bede chooses between the woman and the confession in front of someone who already knows. The smallest love in the city sets off both murders of S1.
 
 ### Additions to approved secrets (folded in v0.4)
 

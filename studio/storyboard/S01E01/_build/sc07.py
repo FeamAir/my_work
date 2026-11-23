@@ -2,7 +2,7 @@ from lib import S
 
 SCENE = dict(
     title='SC 7 — Мост: карта', short='Карта',
-    start=434, length=40,
+    start=440, length=37.5,
     loc='PL-0078 картографическая контора, только стол (D-07 M1/M2; NOON)',
     time='полдень',
     chars='руки картографа (спина, обшлага ливреи Инчли) · Летописец [VO]',
@@ -20,7 +20,7 @@ SCENE = dict(
 )
 
 SHOTS = [
-    S(3.5, 'insert', 'строго сверху, отъезд', 'Компас-роза тушью: спираль тонких линий по часовой', 'MUSIC: M05 Archive, часть B (легче)', 'A', 'L-01 отъезд 0.15', 'E-05 M-MAP',
+    S(2.5, 'insert', 'строго сверху, отъезд', 'Компас-роза тушью: спираль тонких линий по часовой', 'MUSIC: M05 Archive, часть B (легче)', 'A', 'L-01 отъезд 0.15', 'E-05 M-MAP',
       '— (деталь мастер-плиты карты E-05)', '', 'спираль по часовой', refplate=True, nochar=True, key='map'),
     S(6, 'top', 'строго сверху, медленный наезд', 'Большой лист под руками картографа (спина, обшлага Инчли). Дельта и её рукава. Хайуотер: Ступени, Средние, Низы под дамбой. Девять чёрных башен, каждая в кольце цвета держателя', 'CHRONICLER [VO] FIXED: «The Tithe Map sets down who is sung first when the storm comes, and who after.»', 'A', 'L-01 0.04 + слои карты (монтаж)', 'E-05; D-07 M1 NOON',
       'Top-down view of a large cartographer\'s table of dark polished wood with a big hand-drawn parchment map of a river delta laid flat, brass map-weights, ink pots, dividers; two hands in dark cuffs with a narrow livery trim resting flat at the bottom edge of the map. {DOCUMENT}',
@@ -39,7 +39,7 @@ SHOTS = [
     S(3, 'MS', 'низко через стол на дверь (M2), статика', 'Тубус поднимают и уносят из кадра — вверх по лестнице', 'SFX: шаги по каменной лестнице', 'B', 'резерв: L-04', 'D-07 M2',
       'Noon, low view across a cartographer\'s table toward an open door with a spiral stone stair beyond; a leather map case being lifted from the table by a hand in a dark cuff at the top edge. {MIDS_INTERIOR}',
       'static camera; the case is lifted and carried out of frame toward the door.', 'уносят вправо-вглубь к двери'),
-    S(4.5, 'WS', 'в дверь, вверх, медленный подъём', 'Пустая винтовая лестница за дверью; шаги уходят вверх', 'SFX: шаги затихают', 'A', 'L-03 (вверх) ; склейка по форме → sc08-sh010', 'D-07 M2',
+    S(3, 'WS', 'в дверь, вверх, медленный подъём', 'Пустая винтовая лестница за дверью; шаги уходят вверх', 'SFX: шаги затихают', 'A', 'L-03 (вверх) ; склейка по форме → sc08-sh010', 'D-07 M2',
       'Noon, view through a doorway up a narrow spiral stone stair winding upward out of sight, soft light from above, no people. {MIDS_INTERIOR}',
       '', 'спираль вверх', nochar=True),
 ]
