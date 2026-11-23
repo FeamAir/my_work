@@ -1,0 +1,51 @@
+{
+ "d1": {
+  "prompt": "Image 1 is the location plate (keep the room exactly: table by the window, net-chest in the left corner, nets on the beams, camera). Images 2–3 are the girl (master and turnaround), images 4–5 the small boy, images 6–7 the old woman. Place all three into the room at the same scale relation as their sheets (the boy reaches about the girl's shoulder, the old woman is tiny and bent): medium-wide shot. The old woman sits on a stool at the table mending a net in her lap, eyes on her work; the girl stands by the table on the right side of the room, body three-quarters toward the camera, her single braid hanging on the RIGHT side of the picture with the small blue tin tag at its tip; the boy sits on a stool at the left end of the table, facing the camera, the single tuft of hair at his temple on the LEFT side of the picture, reaching for the loaf. The old woman wears exactly one small spiral-shell earring in the ear on the RIGHT side of the picture. Same faces, hair colours, outfits and proportions as their sheets. Lighting match: all three are lit by the same soft cool morning light from the small window as the room — same values and colour temperature as the surroundings, cool violet-blue shadows on the side away from the window, their colours not brighter or warmer than the room. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, detailed painterly background, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: braid on the left side of the picture, two braids, cap on the boy, earrings on the girl, earring in both ears, extra people, characters brighter than the room.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0019/D06_N1_morning_v1.png",
+   "studio/direction/refs/CH-0001/A01_00_master_v1.png",
+   "studio/direction/refs/CH-0001/A01_01_turnaround_v1.png",
+   "studio/direction/refs/CH-0007/A02_00_master_v1.png",
+   "studio/direction/refs/CH-0007/A02_01_turnaround_v1.png",
+   "studio/direction/refs/CH-0015/A03_00_master_v1.png",
+   "studio/direction/refs/CH-0015/A03_01_turnaround_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 371033,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Image 1 is the location plate (keep the room exactly: table by the window, net-chest in the left corner, nets on the beams, camera). Images 2–3 are the girl (master and turnaround), images 4–5 the small boy, images 6–7 the old woman. Place all three into the room at the same scale relation as their sheets (the boy reaches about the girl's shoulder, the old woman is tiny and bent): medium-wide shot. The old woman sits on a stool at the table mending a net in her lap, eyes on her work; the girl stands by the table on the right side of the room, body three-quarters toward the camera, her single braid hanging on the RIGHT side of the picture with the small blue tin tag at its tip; the boy sits on a stool at the left end of the table, facing the camera, the single tuft of hair at his temple on the LEFT side of the picture, reaching for the loaf. The old woman wears exactly one small spiral-shell earring in the ear on the RIGHT side of the picture. Same faces, hair colours, outfits and proportions as their sheets. Lighting match: all three are lit by the same soft cool morning light from the small window as the room — same values and colour temperature as the surroundings, cool violet-blue shadows on the side away from the window, their colours not brighter or warmer than the room. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, detailed painterly background, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: braid on the left side of the picture, two braids, cap on the boy, earrings on the girl, earring in both ears, extra people, characters brighter than the room.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0019/D06_N1_morning_v1.png",
+   "studio/direction/refs/CH-0001/A01_00_master_v1.png",
+   "studio/direction/refs/CH-0001/A01_01_turnaround_v1.png",
+   "studio/direction/refs/CH-0007/A02_00_master_v1.png",
+   "studio/direction/refs/CH-0007/A02_01_turnaround_v1.png",
+   "studio/direction/refs/CH-0015/A03_00_master_v1.png",
+   "studio/direction/refs/CH-0015/A03_01_turnaround_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 568260,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved draft of this frame; keep its composition, room, camera and the positions of the three people. Images 2–8: the room plate, then the girl, the boy and the old woman sheets as before (image 2 = plate, 3–4 girl, 5–6 boy, 7–8 old woman). Fix: the girl wears exactly her outfit from images 3–4: a patched tar-brown oilskin jacket, a salvage net bag on a cord across her chest, mud-grey wading leggings rolled to the knee, rag-wrapped bare feet, hands mud-dark; the small blue tin tag is only on the tip of her braid, never on the jacket; her braid hangs on the RIGHT side of the picture; the boy's face is turned toward the camera so the single tuft at his temple shows on the LEFT side of the picture; the net-chest in the left corner is plain wood with rope handles; the room keeps the soft cool morning light, the three people darker and cooler to match it. Place all three into the room at the same scale relation as their sheets (the boy reaches about the girl's shoulder, the old woman is tiny and bent): medium-wide shot. The old woman sits on a stool at the table mending a net in her lap, eyes on her work; the girl stands by the table on the right side of the room, body three-quarters toward the camera, her single braid hanging on the RIGHT side of the picture with the small blue tin tag at its tip; the boy sits on a stool at the left end of the table, facing the camera, the single tuft of hair at his temple on the LEFT side of the picture, reaching for the loaf. The old woman wears exactly one small spiral-shell earring in the ear on the RIGHT side of the picture. Same faces, hair colours, outfits and proportions as their sheets. Lighting match: all three are lit by the same soft cool morning light from the small window as the room — same values and colour temperature as the surroundings, cool violet-blue shadows on the side away from the window, their colours not brighter or warmer than the room. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, detailed painterly background, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: braid on the left side of the picture, two braids, cap on the boy, earrings on the girl, earring in both ears, extra people, characters brighter than the room.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/_together/d1.png",
+   "studio/direction/refs/PL-0019/D06_N1_morning_v1.png",
+   "studio/direction/refs/CH-0001/A01_00_master_v1.png",
+   "studio/direction/refs/CH-0001/A01_01_turnaround_v1.png",
+   "studio/direction/refs/CH-0007/A02_00_master_v1.png",
+   "studio/direction/refs/CH-0007/A02_01_turnaround_v1.png",
+   "studio/direction/refs/CH-0015/A03_00_master_v1.png",
+   "studio/direction/refs/CH-0015/A03_01_turnaround_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 114158,
+  "status": "ok"
+ }
+}
