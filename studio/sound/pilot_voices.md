@@ -80,7 +80,7 @@
 | Nan / Ursel | две старые женщины | Nan тонкая, громкая, быстрая, LOWS. Ursel низкая, тихая, очень медленная, STEPS |
 | Odo / Ursel | оба мягкие и медленные | разный пол и регистр; Odo почти шёпотом, Ursel полным тихим голосом |
 | Hollis / Ruel | два баритона | Hollis светлее (+4 полутона), сухой, быстрый, MIDS; Ruel круглый, тёплый, широкий, GULL |
-| Hollis / NARR-01 | мужские голоса «ровного» склада | Hollis быстрый, нервный, светлый; NARR-01 медленный, ниже, суше, с хрипотцой. Различимость с первого прослушивания обязательна (`production_notes` §7). Проверяем в общем слепом тесте наравне с остальными парами |
+| Hollis / NARR-01 | мужские голоса «ровного» склада | Hollis быстрый, нервный, светлый; NARR-01 старый, медленный, ровный. Различимость с первого прослушивания обязательна (`production_notes` §7). Проверяем в общем слепом тесте наравне с остальными парами |
 | Ione / служительница | два голоса Хора в Sc 8 | служительница ниже, полушёпотом, суетится; Ione — ясная, полная фраза |
 | Wick / Pell | дети одной улицы | Wick на октаву-полторы выше, захлёбывается, акцент гуще |
 
@@ -120,7 +120,7 @@
 Young adult female voice with a youthful, teenage sound, around 18 to 20, performing a tough fifteen-year-old street girl. Light alto, lower than most girls her age; dry and slightly grainy, with no breathiness. Fast, clipped delivery: short phrases, hard stops, endings swallowed, and a quick dry laugh through the nose. Rough working-class English dock accent with dropped "g" endings, glottal "t" in the middle of words and flat short vowels. Wary, sharp and unsentimental; she jokes instead of showing fear. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~520 симв.):**
+**Тестовая фраза (EN, 431 симв.):**
 ```text
 You want it found, you pay the mud. Mud doesn't do favours. Six coppers by dusk? Fine. I've pulled more than that out of worse water than this. No, don't look at me like that, I'm not scared of a puddle. Just hold the rope, Wick. Hold it with both hands and don't say a word. Not one. Buttons! It's all buttons over here, Mags, go on, have a laugh! ... Water doesn't care who you are. That's the only fair thing in this whole city.
 ```
@@ -153,7 +153,7 @@ You want it found, you pay the mud. Mud doesn't do favours. Six coppers by dusk?
 Adult female voice performing a boyish eleven-year-old, as in animation dubbing: high, bright and quick, slightly scratchy, with an excited crack when he gets carried away. Talks fast, tumbling over his own words, cheeky and curious, always asking why. Thick working-class English dock accent, broader than a city child's: dropped "g" endings, glottal "t", flat vowels. Can drop instantly into a hushed, awed whisper. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~470 симв.):**
+**Тестовая фраза (EN, 331 симв.):**
 ```text
 Nan drowned! Twice! And the second time she took the money with her, honest, I saw it. ... No I didn't. Pell! Pell, wait for me! Why's everyone go quiet when the tower sings? Why do we always have to cover our mouths? Nobody ever says. ... I'm not scared. I'm cold. That's different. ... Pell. Mouth. ... Pell... it's singing back.
 ```
@@ -183,7 +183,7 @@ Nan drowned! Twice! And the second time she took the money with her, honest, I s
 Elderly woman around seventy, tiny and fierce. Thin, cracked, reedy voice that is surprisingly loud for her size. Quick scolding rhythm, words snapped off at the ends; love expressed as nagging. Broad, old-fashioned working-class English dock accent, older and rougher than the young people around her. When frightened she goes low, tight and very quiet instead of shouting. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~470 симв.):**
+**Тестовая фраза (EN, 391 симв.):**
 ```text
 Did you eat? Don't tell me you ate, I can see the bread from here. Sit. Sit! And you, stop wriggling, chick, you'll have the table over. Bare, he says. The old sill, bare. Not in my floods it wasn't. Not since... Never mind since. Eat your bread. ... Salt for the Lady, a shell for the dead, and your mouth shut for the living. ... Never sing, chick. Hum if you must, and only for the house.
 ```
@@ -214,7 +214,7 @@ Did you eat? Don't tell me you ate, I can see the bread from here. Sit. Sit! And
 Young woman around eighteen to twenty, a trained young singer from an old, formal family. Clear, light, high-mid soprano speaking voice, pure and unhurried, with a singer's breath control: she never runs out of air in the middle of a sentence. Precise, cool, formal diction with long pure vowels and complete sentences, an almost scriptural cadence. Serious and composed, with curiosity underneath; never coy, never breathy. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~440 симв.):**
+**Тестовая фраза (EN, 337 симв.):**
 ```text
 Is that what the song is for? Forgive me. I ask only because no one answers. If the song is a gift, then whom is it given to? ... The water lies flat, Your Steadiness. The Cantor sends her word. ... I am well. It is only the throat; it always passes. ... Hear, and be still. The people of the Ninth will hear it too, though not as we do.
 ```
@@ -246,7 +246,7 @@ Is that what the song is for? Forgive me. I ask only because no one answers. If 
 Man in his mid-twenties, a junior bank clerk who thinks in figures. Light, dry baritone, bright rather than deep. Quick, exact speech with crisp consonants; he finishes every word even when he is in a hurry. Clear, neutral, educated city accent. Nervous energy and self-deprecating humour; he speeds up and runs short of breath when anxious, and slows right down, word by word, when he is about to do something brave. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~470 симв.):**
+**Тестовая фраза (EN, 398 симв.):**
 ```text
 Twelve, carry the four, nineteen... It balances. Which is exactly why I don't trust it. No street, no district, no name. Just a heading: Account Nine. ... Not yet reconciled. ... Is it damp in here, or is it me? It's the damp. Definitely the damp. Columns. ... Dame Ursel. I can balance it. I can't tell you what it is. ... Money doesn't lie. People lie, and money keeps very careful records of it.
 ```
@@ -276,7 +276,7 @@ Twelve, carry the four, nineteen... It balances. Which is exactly why I don't tr
 Man around fifty, a beloved sea-lord and admiral. Warm, round, big baritone that carries across a harbour without effort. Easy, generous, smiling delivery, unhurried but never slow; a ready laugh. Warm coastal English accent with broad open vowels. Charismatic and kind-sounding: the voice of a man you would follow into a boat in a storm. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~460 симв.):**
+**Тестовая фраза (EN, 373 симв.):**
 ```text
 Warden! And how's that daughter of yours, still beating you at dice? Good. Somebody should. ... Read it differently, old friend. Just this once. ... I know. I know it's drawn. We go under and come up. ... My lady, you've flattened my whole harbour. My captains will be bored to tears. ... No. Thank you. I don't drink before a storm. ... A physician! Now! Get him here now!
 ```
@@ -307,7 +307,7 @@ Warden! And how's that daughter of yours, still beating you at dice? Good. Someb
 Elderly man around seventy, an old ruler worn down by office. Deep, heavy, rasping voice with a dry wheeze at the end of long phrases; slow, weighty and dignified. Refined old court accent with long rounded vowels. He speaks as if every sentence costs him breath, and he reads lists in the flat tone of a man reading out a bill. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~400 симв.):**
+**Тестовая фраза (EN, 323 симв.):**
 ```text
 It is drawn, Ruel. I only read it. ... You will lose this one. You know you will. ... First Song: the Steps, the harbour, the First Sluice through the Fourth. Second Song... forgive me. Where was I. Second Song. ... Last Song. ... And the Ninth Sluice, and the Ninth Sluice is... ... Leave it. The hall is waiting. Read on.
 ```
@@ -337,7 +337,7 @@ It is drawn, Ruel. I only read it. ... You will lose this one. You know you will
 Woman in her early sixties, the gentle-seeming head of a great bank. Soft, low, warm mezzo, grandmotherly; very slow and very still, and she never raises her voice. Refined formal accent with long, smooth vowels and perfect diction. Endearments like "my dear" and "child" sound kind and completely certain. Calm, intimate and unhurried, with an undertone of total control. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~420 симв.):**
+**Тестовая фраза (EN, 303 симв.):**
 ```text
 No, my dear, finish the line first. Always finish the line. ... You found it balanced, and you checked it again because it balanced. That is a rare habit, child. Rarer than you know. Then you have done exactly what was asked of you. ... A clerk who is trusted gets a clip. ... All water finds its level.
 ```
@@ -365,7 +365,7 @@ No, my dear, finish the line first. Always finish the line. ... You found it bal
 Man in his mid-fifties, a soft-spoken master of informers. Mid-low voice kept almost at a whisper, never hurried; soft consonants and precise, old-fashioned clerkly diction with a refined accent. Gentle, patient, faintly tender; people have to lean in to hear him. Intimate, close-microphone delivery: quiet and clear, not raspy, not seductive. Clean studio recording, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~380 симв.):**
+**Тестовая фраза (EN, 238 симв.):**
 ```text
 The tone came quickly? ... Quickly. Yes. ... Order is a kindness, my dear. The flood is not cruel; it is only untidy. Did you hear the hall? Did you hear who left it first, and who stayed? ... Not yet. ... Steadiness. ... Nothing unheard.
 ```
@@ -387,7 +387,7 @@ The tone came quickly? ... Quickly. Yes. ... Order is a kindness, my dear. The f
 Man around fifty, the boss of a gang of treadmill labourers. Deep, heavy bass voice, slow and steady; every sentence lands like a footstep, with a pause after it. Rough working-class English dock accent, plain words, not unkind. The calm authority of a lifetime of hard physical work. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~330 симв.):**
+**Тестовая фраза (EN, 260 симв.):**
 ```text
 No half-walks today. ... Short a pin. Two wheels, half the walks, and grown backs first. ... A wheel doesn't care who walks it. ... Reading's today, girl. Come dusk, they'll all know what the Ninth is worth. ... Keep the count. Keep it flat. One note, no more.
 ```
@@ -409,7 +409,7 @@ No half-walks today. ... Short a pin. Two wheels, half the walks, and grown back
 Young adult female voice with a youthful teenage sound, performing a loud fifteen-year-old street scavenger. Hoarse, raspy mid-high voice and a big cackling laugh; brash and broad, a little drawling, she loves an audience. Rough working-class English dock accent, broader and slower than her friends'. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~330 симв.):**
+**Тестовая фраза (EN, 255 симв.):**
 ```text
 Oi, Pell! Your lane's all buttons again! Ha! Buttons and bent spoons, you'll be rich by the Still! ... What've you got there? Go on, show us. ... Finders keep, losers weep, that's the rule, innit? ... Wick, you little eel, I can see you hiding behind her!
 ```
@@ -431,7 +431,7 @@ Oi, Pell! Your lane's all buttons again! Ha! Buttons and bent spoons, you'll be 
 Middle-aged man, a petty tax collector. Nasal, reedy tenor; officious, bored and a little self-important; he reads amounts out like a list. Clear city accent, slightly pinched. When frightened his voice goes thin, quiet and uncertain. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~330 симв.):**
+**Тестовая фраза (EN, 256 симв.):**
 ```text
 Last Song, three coppers the month. Two months owing. That's six. ... Six coppers by dusk, or I take it in goods. Nets will do. ... Four. That's four. You're two short, girl. ... Helm's dead. ... The Helm. He's... I don't... Never mind. Never mind the box.
 ```
@@ -452,7 +452,7 @@ Last Song, three coppers the month. Two months owing. That's six. ... Six copper
 Woman in her forties, a fussy temple attendant. Mid-alto, soft but hurried, half-whispered urgency; precise formal diction with long vowels. She fusses constantly and worries about appearances, never about meaning. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~310 симв.):**
+**Тестовая фраза (EN, 259 симв.):**
 ```text
 Stand still, my lady, your stole is crooked. There. No, there. ... Sing it flat for the lords, please. Nothing clever. They don't want clever, they want the water quiet and the hall on time. ... Throat-band. Where is your... ah. Good. Go, go, they're waiting.
 ```
@@ -473,7 +473,7 @@ Stand still, my lady, your stole is crooked. There. No, there. ... Sing it flat 
 Young man in his early twenties, a junior signals keeper. Light tenor, a little breathless; respectful, quick and nervous, eager to report correctly. Clear, neutral city accent. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~260 симв.):**
+**Тестовая фраза (EN, 194 симв.):**
 ```text
 My lord. The tone. It came very quickly, my lord. Three long, and the rest. From the Crown. ... Should I log it? I'll log it. I'll log the time, my lord. Every stone on the wall took it at once.
 ```
@@ -494,7 +494,7 @@ My lord. The tone. It came very quickly, my lord. Three long, and the rest. From
 Man in his thirties, a hill-country soldier on gate duty. Gruff, rough mid-low voice, blunt and tired; rural accent with a rolled "r" and long "o" vowels. Speaks in short lines and expects no answer. Clean studio recording, close microphone, no background noise, no music.
 ```
 
-**Тестовая фраза (EN, ~250 симв.):**
+**Тестовая фраза (EN, 178 симв.):**
 ```text
 Bar's down, Sergeant. ... Thirty days of this, then. Thirty days of the gate shut and that lot down there shouting at it. ... Right. Not my business. Never is. Roll on the Still.
 ```
@@ -525,7 +525,7 @@ Elderly man over eighty, a record-keeper reading aloud from an official chronicl
 
 **NARR-01b (с S7E1):** тот же промпт, но вместо «A light natural hoarseness» стоит «A clearly hoarser, rougher voice than before, the same precision». Способ получения — по протоколу SD-R1.
 
-**Тестовая фраза (EN, ~520 симв.):**
+**Тестовая фраза (EN, 432 симв.):**
 ```text
 The Chronicle of the Dry Years. In the matter of the tithe, the following is set down, as written. Neveh Ashare. House Ilvane. Oshra. Highwater. The Ninth Sluice. ... The First Voices raised the Spires. They are not heard now. ... Of the nine Spires, eight still answered. One of the eight answered badly. ... Three hundred and twelve years, each with its tithe, and each balance carried forward. ... and the water kept its counsel.
 ```
