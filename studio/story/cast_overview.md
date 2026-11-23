@@ -8,7 +8,7 @@ Ages are given **at the saga start, CY 312 (Longdark)**. Proposed IDs in bracket
 
 > **Revision r3 (2026-11-22, final ruling):** saga title HOLLOWSTONE. From `decisions_resolved.md`: full list of minors (DEC-59); Esk is in Highwater in S1 and has been a hostage three years (DEC-20, DEC-25); Maren's short jacket (DEC-60); secret numbering follows the canon — SEC-011 and SEC-011b (DEC-51); the dossiers in `characters/` are approved with the corrections listed in `decisions_resolved.md` Part 3 and take precedence over this overview in detail.
 
-> **Revision r7 (2026-11-22, love lines):** by the investor's decision the saga has love lines — five main and three of the second circle (new **§6**; design in `romance_lines.md`). "Love (r7)" notes added to Ruel, Maren, Hollis, Ione and Pell, and to nine second-circle rows; one new minor (Sibby Roan). The sentence "Romance in this saga is rare, adult and political" is replaced. Nobody enters, leaves or dies in a different episode; the S1 main faces are unchanged (9 + Vesna).
+> **Revision r7 (2026-11-22, love lines):** by the investor's decision the saga has love lines — five main and three of the second circle (new **§6**; design in `romance_lines.md`). "Love (r7)" notes added to Ruel, Maren, Hollis, Ione and Pell, and to nine second-circle rows; one new minor (Wren Roan — r8 name; was "Sibby"). The sentence "Romance in this saga is rare, adult and political" is replaced. Nobody enters, leaves or dies in a different episode; the S1 main faces are unchanged (9 + Vesna).
 
 ## 0. Principles (director's frame, 2026-11-22)
 
@@ -114,7 +114,7 @@ Each has: a function, one secret, and a link to the past that will surface later
 | 18 | **Mags** (CH-0049), 15 | Pell's mudlark friend | steals for Mother Silt | dies S1E10 (the Lows' loss) |
 | 19 | **Sister Marl** (CH-0050), 60 | Choir apothecary | sold Ruel the poison | killed S1E7 (clue body) |
 | 20 | **Doctor Ambry** (CH-0051), 50 | Helm's physician | paid by Fennick to stay silent, speaks anyway | declares poison S1E6 |
-| 21 | **Bede Lark** (CH-0052), 40 | relay-keeper | sells messages early; r7: sold the leak twice to buy Sibby Roan off the wheel (SEC-051) | Hollis's source; holds the S1 relay-code clue |
+| 21 | **Bede Lark** (CH-0052), 40 | relay-keeper | sells messages early; r7: sold the leak twice to buy Wren Roan off the wheel (SEC-051) | Hollis's source; holds the S1 relay-code clue |
 | 22 | **Captain Fitch** (CH-0053), 45 | captain of Fennick's Listeners | Lows-born informer turned hunter | hunts Pell S1–S5 |
 | 23 | **Widow Pruitt** (CH-0054), 65 | Hollis's landlady | Undertow informer | hides Hollis S2 |
 | 24 | **Fossett** (CH-0055), 30 | rival clerk at Lantry | Ursel's spy on Hollis | testifies S6 |
@@ -169,10 +169,10 @@ Full design, rules and beats: `romance_lines.md`. Restricted halves: `sealed/mas
 | L4 | **Pell — Esk** (and Lio's unrequited suit, S6–S8) | love across the delta–upland quarrel | S7 → S12 (Pell 25, Esk 23 at the start) | both survive |
 | L5 | **Brother Elm → Ione Ilvane** | unspoken (SEC-049) | seed S1E11; S2 → S4E11; aftermath to S8E9 | Ione dies S4E11; Elm S8E9 |
 | A | Ursel Lantry — Teodor Kett | backstory, CY 291–296 (SEC-050) | S1E1 (the clip), S1E11, S4E6, S6E8 | she had him killed, CY 296 |
-| B | Bede Lark — Sibby Roan | why the leak was sold twice (SEC-051) | S1E7 → S2E6 | the S2 outline decides |
+| B | Bede Lark — Wren Roan | why the leak was sold twice (SEC-051) | S1E7 → S2E6 | the S2 outline decides |
 | C | Aurin — Cressa Ilvane | an arranged marriage that becomes love too late | S1E3 → S5 → S6E12 | Cressa murdered S6E12 |
 | D (reserve) | Kes Mabry — Eirik Rusk | across rank | S2–S7, if adopted | Kes dies S7E11 |
 
-**New second-circle role (r7):** #41 **Sibby Roan** (new, ~33) — debt-walker on Corr's wheel; seen from behind only; Bede Lark buys her bond on the day the Helm dies. Secret: she does not know what the money was.
+**New second-circle role (r7):** #41 **Wren Roan** (new, ~33; r8: renamed from "Sibby", DEC-79) — debt-walker on Corr's wheel; seen from behind only; Bede Lark buys her bond on Still 2, the day the Lord Admiral dies (r8, DEC-78). Secret: she does not know what the money was.
 
 Name check for `writer-characters`: main heroes' first letters are deliberately distinct within each season; second-circle names must not repeat the first three letters of any main hero (glossary rule 1).

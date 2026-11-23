@@ -5,6 +5,8 @@ Status: **approved framework** for the season outlines, `writer-characters`, `wr
 Spoiler level: **internal**. This file names deaths and open-internal secrets, as `saga_arc.md` does. Everything that touches a restricted answer is cut out and kept in `sealed/master_mystery.md` §12; here it is marked *restricted — sealed §12*.
 New secret numbers **SEC-046 … SEC-051 are proposals** — the keeper confirms or renumbers.
 
+> **Revision r8 (2026-11-22, rulings DEC-77…87 — `decisions_resolved.md` Part 7):** the debt-walker of line B is renamed **Wren Roan** (was "Sibby": two syllables against the Lows rule, and too close in sound to Tibb and Cantor Sabin); Bede buys her bond on **Still 2**, the day the Lord Admiral dies (was "the day the Helm dies / Longdark 6", which contradicted E7); SEC-047 gets episodes — audience and Nell Tern **S3E6**, Jaro **S4E12** (one new row in L2); the "green sash" of S1E8 is the Quell captains' sash; Ilse is named in line C. Secret numbers SEC-046…051 are confirmed by the keeper (v0.7). No death, reveal, vote or cliffhanger moves.
+
 ---
 
 ## 0. Rules of the house
@@ -53,7 +55,7 @@ Pell and Esk never meet in S1–S4. Pell and Lio in S1 are friends of 15 and 17 
 **S1 (seen).**
 - **E4** — after the public bargaining (*"Calm is bought."*), the stern gallery of the *Patient Gull*: a steward hangs the second lamp. Jaro: *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."* He reaches for Ruel's left hand; Ruel gives him the right, and keeps the ringed hand behind his back. Reads as an admiral's reserve. After E11 it reads twice more: he will not let the needle near this man — and he has not told him.
 - **E6** — in the Ring's corridor after the accusation. Jaro, low: *"You were very good in there. Very ready."* Ruel: *"A storm is coming. Be ready too."* The lover is the first person to feel that something is wrong, and lets it go.
-- **E8** — as the night procession sets out: two stern lamps over still water; a man in a green sash waiting at the rail, back to us. Nobody comes.
+- **E8** — as the night procession sets out: two stern lamps over still water; a man in a green sash waiting at the rail, back to us. Nobody comes. *(r8: the sash is the Quell captains' green sash with the iron ring, HS-005, worn over his sea-green coat — house dress, not a new costume.)*
 - **E9** — Lady Ysa keeps him off the ship: *"House only tonight, Captain-Lord."* He stands on the mole all night. Ysa empties the cabin locker: a packet tied in tarred twine (first reading: evidence of the poison, SEC-023). At the wake he is let in last, alone. He puts out the second lamp and takes the dead man's **right** hand. Ysa is in the doorway; she has always known. This is where the audience learns it — after the man is dead. The Chronicler: *"The Captain-Lord of the Shoals paid his respects last."*
 - **E9 (O-line)** — the Quell token. Asked where he was on the night of Still 1: *"On a deck. Waiting on the weather."* His alibi is the one thing he cannot say; the frame (SEC-013) holds for a season because of it.
 - **E12** — Quell votes Corvane with the token still hanging over him. *"Calm is bought. This one was paid for."* The 4–4 is unchanged. When Maren sails, Quell hulls take station astern.
@@ -89,8 +91,9 @@ Pell and Esk never meet in S1–S4. Pell and Lio in S1 are friends of 15 and 17 
 | S1E11 | he gives her the page. *"You could have burned it." — "Twice, by now."* She hides page and ring | the first thing between them is a truth he would not bury and she did |
 | S2 | he is hidden in the Undertow, she is on the blockade; proofs travel by Undertow boat, written as ledger entries. The entries grow a second column that is not accounts | the letters are how SEC-015 and SEC-013 reach the fleet |
 | S2E11 | after the Sluice Gates his letter arrives with the names of her father's killers (canon reveal) — the first letter with no columns in it | she is defeated and loved in the same hour |
-| S3 | the pardon carries him aboard as "purser of Corvane" (canon). He proves the powder fraud on the **Whitlow** flag-captains — her dead mother's family. She breaks them on a clerk's word | the fleet learns that the purser has the Admiral's ear; Nell Tern learns why |
+| S3 | the pardon carries him aboard as "purser of Corvane" (canon). He proves the powder fraud on the **Whitlow** flag-captains — her dead mother's family. She breaks them on a clerk's word (**r8: S3E6**; "breaks" = strips them of their flags — dismissed, not hanged; S2E11 showed only the empty lockers, S3E6 names the men) | the fleet learns that the purser has the Admiral's ear; Nell Tern learns why (S3E6) |
 | S4E12 | after Ione's death and the Weir Terms: the first kiss — and, in the same scene, she asks him to go into Odo's treasury | the kiss and the order together: her way of loving, stated once |
+| S4E12 (r8) | Jaro, who kept a second lamp for seven years, sees the purser leave the Admiral's cabin, reads it at a glance and says nothing | he now holds the one fact that could buy his letters back from the Listener — and through the five years of the skip he does not sell it |
 | skip | five years of a secret kept across the enemy's house | — |
 | S5 | he is Odo's treasury secretary and hers; they meet rarely and badly. E11: he kills Odo (canon). E12: *"I never asked you." — "No. You never do."* | he has done the one deed she needed and could not order; it sits between them |
 | S6E7 | Account Nine is exposed (canon). The file holds every Corvane draft — to publish the bank is to publish Ruel's sight-draft. The night before, she asks him to cut **one page**, as her father burned one and she hid one. He will not | SEC-001 becomes public by the hand of the man who loves her. They part in anger |
@@ -178,11 +181,11 @@ Pell and Esk never meet in S1–S4. Pell and Lio in S1 are friends of 15 and 17 
 ### A — "A Beautiful Hand": Dame Ursel Lantry and Teodor Kett *(backstory CY 291–296; surfaces S1E11 → S4E6 → S6E8; proposed **SEC-050**)*
 The Counting Widow and her clerk were lovers after her husband's death (CY 291). He forged the Dry Charter (CY 295) because she asked. A year later the bank needed the forger gone, and she chose the bank (SEC-006). She raised his son and has been kind to him every day since: that kindness was never a mask. **Plants, at no cost:** S1E11 *"His father had a beautiful hand."* (already in the outline) — after S6E8 it is a lover's sentence. S4E6 — the "second document in his father's hand" that Hollis puts away unread (already in his dossier) is a letter that begins *"U. —"*. **And the clip:** the brass ledger-clip she takes from her sleeve in S1E1 was Teodor's; she has carried it for sixteen years (the pilot's own direction — he picks it up "as one picks up something warm" — already plays it). **Function:** it gives Ursel's POV season (S6) its heart, and it sets Hollis's own love (L2) against his father's: the same story, with the chance to end it differently.
 
-### B — "Twice": Bede Lark and Sibby Roan *(S1E7 → S2E4 → S2E6; proposed **SEC-051**)*
-Why does a relay-keeper sell one message twice? Because the price of a debt-walker's bond is two sales. **Sibby Roan** (33; new minor, seen only from behind on Corr's wheel — no face reference) has been walking off her dead husband's debt for six years. Bede (40) has been saving for four. In S1E7, counting Hollis's coin, he says what it is for. He buys her off the wheel on the day the Helm dies — and by S2E6, when Hollis proves that the double sale caused two murders, Bede must choose between the woman and the confession. **Function:** the smallest love in the city sets off both murders of S1 — the intrigue ladder's first rung gets a human reason. The keeper sets the bond price against `world.md` §7.
+### B — "Twice": Bede Lark and Wren Roan *(S1E7 → S2E4 → S2E6; proposed **SEC-051**)*
+Why does a relay-keeper sell one message twice? Because the price of a debt-walker's bond is two sales. **Wren Roan** (33; new minor, seen only from behind on Corr's wheel — no face reference) has been walking off her dead husband's debt for six years. Bede (40) has been saving for four. In S1E7, counting Hollis's coin, he says what it is for. He buys her off the wheel on **Still 2** — the day the Lord Admiral dies, three weeks after E7 and one night before the Ninth floods (r8, DEC-78) — and by S2E6, when Hollis proves that the double sale caused two murders, Bede must choose between the woman and the confession. **Function:** the smallest love in the city sets off both murders of S1 — the intrigue ladder's first rung gets a human reason. The keeper sets the bond price against `world.md` §7.
 
 ### C — "The Other Thing": Aurin and Cressa Ilvane *(S1E3 → S6E12 → S12)*
-A cloister marriage ("keep the blood true"), twenty years of courtesy over a dead child and a borrowed one. It becomes a marriage only after Ione's death: in S5 he gives her the Gleaner rolls (canon) — the first thing he has ever done for her and against his mother. She publishes; she is murdered (S6E12); he is shut in Pale Crag "for his nerves" (S6–S9, canon). **Function:** the arranged marriage that turns into love too late; his decision for Pale Crag in S12 (canon) is made between two graves — Ilse's and Cressa's. No new fact; only the reading of existing ones.
+A cloister marriage ("keep the blood true"), twenty years of courtesy over a dead child and a borrowed one. It becomes a marriage only after Ione's death: in S5 he gives her the Gleaner rolls (canon) — the first thing he has ever done for her and against his mother. She publishes; she is murdered (S6E12); he is shut in Pale Crag "for his nerves" (S6–S9, canon). **Function:** the arranged marriage that turns into love too late; his decision for Pale Crag in S12 (canon) is made between two graves — Ilse's and Cressa's (r8: **Ilse** is Cressa's own daughter, CH-0068, dead at two months in CY 294). No new fact; only the reading of existing ones.
 
 ### D (reserve, for the S2 outline) — Kes Mabry and Eirik Rusk
 The demoted pike sergeant and the lady's brother, Castellan of the Voice at the Stair (S2–S3; he is 51, she 35). Nothing is said until Brenna is dead and he is regent for a child; then he cannot marry a commoner without costing the boy his regency. Kes's "dry farm" gets a second name on the lease that never gets used (she dies S7E11). **Function:** it would give the exiled Rusk voice a personal reason to stand with the gate-opener's people in S9–S12. **Not adopted in r7** — Eirik has no dossier yet; decide with the S2 outline.
@@ -225,8 +228,8 @@ Proposals inside the existing season paragraphs; **no death, battle or reveal ep
 | Season | L1 | L2 | L3 | L4 | L5 | A / B / C |
 |---|---|---|---|---|---|---|
 | S2 | war as mourning; E10 the packet; E11 the packet to Odo | ledger-letters; E11 the letter with no columns | — | — | sign lessons; E10 the two notes | B: E4, E6 |
-| S3 | "both sides" | purser; the Whitlow captains | — | — | Pale Crag | — |
-| S4 | — | E12 the kiss and the order | — | — | E8, E10, E11 | A: E6 the letter "U. —" |
+| S3 | "both sides" | purser; E6 the Whitlow captains | — | — | Pale Crag | — |
+| S4 | E12 he sees, and does not sell it | E12 the kiss and the order | — | — | E8, E10, E11 | A: E6 the letter "U. —" |
 | S5 | E12 the packet changes hands | E11–E12 | — | — | E6 the cut pages | C: the rolls |
 | S6 | E2 returned; E7–E8 the Longdark 5 note | E7 the one page; E9; E12 the ring | — | E5–E6 Lio's suit | — | A: E8 · C: E12 |
 | S7 | witness at the wedding | *sealed* | E2–E3 | E4–E6, E10, E11–E12 | E7 the pages found | — |
@@ -243,20 +246,20 @@ Proposals inside the existing season paragraphs; **no death, battle or reveal ep
 | ID | Title | Tier | Truth (open-internal) | Cover | First hint | Reveal (audience) | Known by |
 |---|---|---|---|---|---|---|---|
 | SEC-046 | The second lamp | season | Ruel Corvane and Jaro Quell were lovers from CY 305 to Ruel's death; the wrecker silver (SEC-031) followed the love | "an old friendship of sailors" | S1E4 | **S1E9** | Ruel, Jaro, Ysa @origin; Maren @S2E10; Odo @S2E11; Zev @S5E12 (packet unopened — knows *that*, not *what*) |
-| SEC-047 | The purser | saga | Maren Corvane and Hollis Kett love each other from S2; lovers from S4E12 | "the Admiral's purser"; later "Odo's secretary" | S1E7 | S3 (audience); never public before S6E9 | Nell Tern @S3; Jaro @S4. After S6E9: sealed §12 |
+| SEC-047 | The purser | saga | Maren Corvane and Hollis Kett love each other from S2; lovers from S4E12 | "the Admiral's purser"; later "Odo's secretary" | S1E7 | **S3E6** (audience; r8, DEC-77); never public before S6E9 | Nell Tern @S3E6; Jaro @S4E12 (r8). After S6E9: sealed §12 |
 | SEC-048 | The paper marriage | season | the Corvane–Fennick marriage contract of CY 322 has terms beyond the public ones | a marriage of peace | S7E3 | sealed §12 | Maren, Zev |
 | SEC-049 | The cut pages | season | Elm cut the pages that name him from Ione's journal before it was published, and kept them | the journal is complete | S5E6 | S7E7 | Elm; Daro @S7E7; the Choir @S8E9 |
 | SEC-050 | A beautiful hand | season | Ursel Lantry and Teodor Kett were lovers (CY 291–296); the clip Hollis carries was his father's | benefactress and ward | S1E1 | S6E8 | Ursel; Hollis @S6E8 |
-| SEC-051 | Twice | episode | Bede Lark sold the Tithe Map leak twice to buy Sibby Roan's bond off the wheel | a keeper's greed | S1E7 | S2E6 | Bede, Sibby; Hollis @S2E6 |
+| SEC-051 | Twice | episode | Bede Lark sold the Tithe Map leak twice to buy Wren Roan's bond off the wheel | a keeper's greed | S1E7 | S2E6 | Bede; Wren @S2E4 (r8: from Still 2 she knows of the purchase, not of the money); Hollis @S2E6 |
 
 **Amend existing secrets (add, do not rewrite):** SEC-031 — `related: SEC-046`; note "the silver begins the year the liaison does". SEC-023 — S1E9 clue: "Ysa empties the cabin locker: a packet in tarred twine" (double reading). SEC-013 — note: "the Quell frame holds because Jaro's alibi cannot be spoken (SEC-046)". SEC-001 — S1E4 clue: "Ruel withholds the ringed hand from Jaro"; S6: public "through the Account Nine file (the sight-draft)". SEC-006 — `related: SEC-050`. SEC-012 — `related: SEC-049`. SEC-016 — S6E5–E6 "the Pearl and the Singer" betrothal scheme.
 
 **New events for `timeline.md`:**
 - CY 291 — Bastian Lantry dies (existing); *add:* Ursel and Teodor Kett (from that year).
 - CY 305 — the liaison of Ruel Corvane and Jaro Quell begins (same year as the first wrecker silver).
-- CY 306 — Sibby Roan goes on the wheel (her husband's debt). CY 308 — Bede begins to save.
+- CY 306 — Wren Roan goes on the wheel (her husband's debt). CY 308 — Bede begins to save.
 - CY 312, Longdark 5 — Ruel writes and does not send a note to Jaro; tells Ysa (existing: "she has known since Longdark 5").
-- CY 312, Longdark 6 — Bede buys Sibby's bond.
+- CY 312, Still 2 (CY 312-11-02) — Bede buys Wren's bond (r8, DEC-78; was "Longdark 6" — an error of r7).
 - CY 312, Still 2–3 — Ysa takes the packet; Jaro at the wake.
 - CY 313 (S2E11) — the packet passes to Odo. CY 320, Still (S5E12) — to Zev. CY 321 (S6E2) — returned to Jaro unopened.
 - CY 314, Still 5 (S4E12) — Maren and Hollis.
@@ -269,7 +272,7 @@ Proposals inside the existing season paragraphs; **no death, battle or reveal ep
 - CH-0003 Hollis: `secrets: +SEC-047, +SEC-050`; ledger-clip provenance: Teodor Kett → Ursel (CY 296) → Hollis (S1E1) — prepend to the custody chain of DEC-48.
 - CH-0001 Pell / CH-0040 Esk: `relations: partner@S07E12`; CH-0043 Lio: `suitor_of: CH-0001@S06E05`. Lio's record keeps "Jaro: patron" and gains the note "patronage only".
 - CH-0022 Elm / CH-0002 Ione: relation kind `beloved` (one-directional records allowed); object record: **Ione's journal** — custody: Ione → Elm (S3) → Cressa (S5E6, minus the cut pages) → published; cut pages: Elm → Daro (S7E7) → the Choir.
-- New minor: **Sibby Roan** (b. ~CY 279), treadmill debt-walker of the Ninth, freed CY 312; name check against glossary rule 1 (no clash found with main heroes' first three letters).
+- New minor: **Wren Roan** (b. ~CY 279), treadmill debt-walker of the Ninth, freed CY 312; name check against glossary rule 1 (no clash found with main heroes' first three letters).
 - New objects: the second stern lamp of the *Patient Gull*; the packet in tarred twine (custody above).
 - `world.md` rating line / `cast_overview.md` §0: replace "Romance in this saga is rare, adult and political" with the rule of §0 here (done in cast_overview r7).
 - Checklist: add the age gate (§1) as a check for every script — "romantic beat → both characters ≥18 in that season's year".

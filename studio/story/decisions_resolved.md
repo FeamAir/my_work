@@ -1,7 +1,7 @@
-# HOLLOWSTONE — Decisions Resolved (DEC-01 … DEC-76) and Approval of the Draft Canon
+# HOLLOWSTONE — Decisions Resolved (DEC-01 … DEC-87) and Approval of the Draft Canon
 
 Version 1.0 · 2026-11-22 · author: lead-screenwriter · **Revision r3** (step 6 of the story chain: final ruling)
-Answers: `studio/canon/decisions_for_lead.md` (canon v0.3, 64 items, 17 block S1). **Revision r6 (2026-11-22):** Part 5 added — DEC-65…70 (canon v0.5, group G).
+Answers: `studio/canon/decisions_for_lead.md` (canon v0.3, 64 items, 17 block S1). **Revision r6 (2026-11-22):** Part 5 added — DEC-65…70 (canon v0.5, group G). **Revision r7:** Part 6 — DEC-71…76 (love lines). **Revision r8:** Part 7 — DEC-77…87 (canon v0.7 questions and the dossier questions of `writer-characters` r2).
 Spoiler level: **internal, helper-readable.** Restricted secrets are not named here, not even by code: where a ruling touches one, it says *restricted — see sealed §10* (= `studio/story/sealed/master_mystery.md` §10, readable by lead, keeper and director only).
 
 **How to read.** Each item: **Ruling** · *Why* (1–2 sentences) · **Keeper** (what to change in which canon records). "Approve amend" = merge the draft `amend` block into the approved record. Wherever this file and an older foundation file disagree, this file wins; the foundation files were corrected in the same revision (r3).
@@ -428,3 +428,88 @@ Lead's own rulings on the investor's decision of 2026-11-22 ("the saga needs lov
 
 **DEC-76 — relation kinds.** **Ruling:** add `lover`, `betrothed`, `suitor`, `beloved` to the recommended kinds in `canon/README.md`. *Restricted — see sealed §12* for what two of the new secrets may not say in open records.
 
+## Part 7 — Revision r8: DEC-77 … DEC-87 (canon v0.7, group H; dossier questions of `writer-characters` r2)
+
+Answers: `studio/canon/decisions_for_lead.md` group H (DEC-77, DEC-78 and the keeper's remarks without stubs; `reports/lore-keeper-2026-11-22-r7.md`) and the open questions of `reports/writer-characters-2026-11-22-r2.md`. DEC-79…87 are numbered here by the lead; the keeper may renumber. The secret numbers SEC-046…051 are taken as confirmed (canon v0.7). Applied in the same revision to `romance_lines.md`, `season01_outline.md`, `cast_overview.md`, `saga_arc.md` (all marked r8). **No death, battle, reveal, vote or cliffhanger moves.**
+
+### A. From the canon
+
+**DEC-77 — SEC-047: the episodes.**
+- **Ruling.** Audience reveal: **S03E06**. Nell Tern learns it in the same episode: `CH-0044@S03E06`. Jaro Quell: **`CH-0019@S04E12`**.
+- **S3E6** is the episode in which Hollis, as purser of Corvane, proves the padded powder on paper and Maren breaks the Whitlow flag-captains on a clerk's word. It sits after the pardon (E1–E2) and before the eve of the Stair (E9–E11); no existing S3 reveal or clue episode is displaced.
+- **S4E12** — Jaro does not wait for the S4 outline. He sees the purser leave the Admiral's cabin after the Weir Terms and reads it at a glance: he kept a second lamp for seven years. He says nothing. *Why:* the function test (DEC-72). The Listener holds Jaro's letters (S2E11 → S5E12); from S4E12 Jaro holds the one fact that could buy them back — and through the five-year skip he does not sell it. It is the first proof of "one thing he will not sell, found again", and it costs no screen time beyond one look.
+- **Constraint for the S4 outline:** Jaro is present at the Weir Terms (E12). What he works out in S5, when the purser turns up as Odo's secretary, is decided with the S5 outline; no `known_by` of any other secret changes now.
+- **Keeper.** SEC-047: `reveal: S03E06`; `known_by: [… CH-0044@S03E06, CH-0019@S04E12]`; add S03E06 and S04E12 to the beats. Create the episode records if missing. Remove both stubs. CH-0019: add SEC-047 to `secrets` with the moment in prose.
+
+**DEC-78 — the day Bede buys the bond.**
+- **Ruling: A, the keeper's recommendation — Still 2, CY 312-11-02.** "The day the Helm dies / Longdark 6" in `romance_lines.md` r7 was my error; the intended line is **"on the day the Lord Admiral dies"**. The irony is kept and sharpened: he buys her free on the day the second death his double sale helped to cause is completed. The approved E7 stands unchanged (she is still walking; he has the coin and names what it is for).
+- **Why the three weeks between E7 and the purchase (proposal, no scene depends on it):** debt-paper is bought out only at the holder's year-end reckoning, which opens with the Still Days. If this clashes with `world.md` §7–§8, the keeper may replace the reason with any other; the date stands.
+- She is off the wheel one night before the pumps of the Ninth stand still (S1E10). Not shown in S1; S2E4 and S2E6 pay it.
+- **What she knows.** From Still 2 she knows only that he bought her bond — not what the money was (as `cast_overview.md` has it). That is partial knowledge and is not a `known_by` entry (same rule as DEC-80). She learns the source in **S02E04** — before Hollis proves it in S02E06, so that Bede's choice between the woman and the confession is made in front of someone who already knows.
+- **Keeper.** EV-0340 `date: CY 312-11-02`; SEC-051 `known_by: CH-0079@S02E04`, with the prose line "from CY 312-11-02 she knows of the purchase, not of the money". Remove both stubs. Correct "Longdark 6 / the day the Helm dies" wherever it was copied.
+
+**DEC-79 — the debt-walker's name (DEC-58 and sound).**
+- **Ruling: renamed. "Sibby Roan" → `Wren Roan`**, say `REN ROHN`. No third exception to DEC-58 is granted.
+- *Why.* (1) Two syllables against the Lows palette. (2) Sound: "Sibby" sits one consonant from **Tibb** (a Lows child on screen in S1) and close to **Cantor Sabin** (E3, E9, E10) — a real TTS risk. The short form "Sib" fails on Tibb for the same reason.
+- **Check made against the full glossary and the character list (v0.7):** no important name begins "Wre-"; one syllable; the bird-name fits names already in the lanes (Rook, Lark, Tern). Nearest sounds: Sister Venn and Wenna Corvane (neither shares a scene with her), the surname Tern (different vowel). "Roan" stays as the keeper checked it (a married name kept; Lows surnames exist: Sal Tern). The smallest love in the city now carries the name of the smallest bird; nobody says so on screen.
+- **Keeper.** CH-0079 `name: Wren Roan` (ID unchanged); TERM-0497 `term: Wren Roan`, `say: REN ROHN`; replace in `secrets.md`, `timeline.md`, `world.md` §7.4/§8.2, CH-0052, excerpts; one CHANGELOG line. Glossary rule 1 gains **no** new exception. Sound director: add the name to the first TTS probe (the silent W).
+- **`writer-characters`.** Rename in `_minor-lows.md`, `_minor-mids.md`, `relationships_s1.md`, `voice_fingerprints.md`, `_anchors_matrix.md`; the proposed ID CH-0078 becomes the keeper's **CH-0079**.
+
+**DEC-80 — Elm and SEC-004 (keeper's remark 1).**
+- **Ruling: partial knowledge; the keeper's reading stands.** From S02E10 Elm knows only this: she is not Ilvane-born — a gleaned child of the Lows who carries the old lullaby. He does not know her name, her parents or that she has a sister. In S04E10 her *"You knew."* and his *yes* mean exactly that and no more.
+- He is **not** added to `known_by` of SEC-004. His position inside SEC-012 lets him *suspect* more; a suspicion is not a knower, and no script may let him confirm, name or act on it before S04E10.
+- **Keeper.** SEC-004: no change to `known_by`; one prose line under the clues: "S02E10 — Elm: partial (gleaned, Lows, the lullaby; not who)". The same line in CH-0022 and under SEC-049.
+
+**DEC-81 — Whitlow in S3 and in S10 (keeper's remark 2).**
+- **Ruling: both stand, as three steps of one ladder.** S2E11 — the lockers are empty: the effect, no names. **S3E6** — the proof: Hollis names the men; Maren, as Lord Admiral, **strips the senior Whitlow flag-captains of their flags** — dismissal under fleet custom, nobody dies. S10 — the Sovereign's decree makes the same fraud a hanging matter, and the war on "small thieves" begins with her mother's kin: **a Whitlow is hanged** (HS-028, unchanged).
+- *Why.* The same family, the same offence, two answers ten years apart: it measures how far her justice has travelled. Proposal for the S10 outline (not canon yet): the man hanged is one of those she only dismissed in S3.
+- **Keeper.** HS-028 "Use": add "S3E6 (the proof; the flags struck — dismissed)". World §8 racket row 12: discovered S2E11, **proven S3E6**. No date or death changes.
+
+**DEC-82 — Jaro and the word "loyal" (keeper's remark 3).**
+- **Ruling.** Voice note for all records: **Never says: "I promise"; "loyal" — except once, in private, to Ruel (S01E04, fixed line).** The line *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."* is spoken in the stern gallery, not at the public bargaining (as r7 placed it). After S1E4 no script gives him the word again, in any season, in earnest or in jest.
+- **Keeper.** CH-0019 "Never says" as above; mark the line as a fixed line of S01E04. The dossier and `voice_fingerprints.md` already agree (writer-characters r2) — approved.
+
+### B. From the dossiers (`writer-characters` r2, open questions 1–9)
+
+Questions 1 and 2 are DEC-78 and DEC-79 above.
+
+**DEC-83 — Zev Fennick after S6E9 (question 3).**
+- **Ruling: confirmed as the writer did it.** Open in his dossier, as facts without motive: he is alive after S6E9; S5E12 → S6E2 the packet returned unopened; betrothal S7E2 and marriage S7E3; the public terms of the marriage; S7E4–E5 he hears the Kilbride suit and rules against the Helm's convenience; S9E12 a consort and no heir; S12 the consort opens the Relay to the Great Chorus; he survives the saga. Everything else stays `[SEALED — ask lead]`, including what he did in the fire, why he consents to the marriage, and by what right he opens the Relay. *Restricted — see sealed §12.*
+- No romantic or near-romantic beat for him in S1–S4 (DEC-71). L3 is never written as a love.
+
+**DEC-84 — Maren after S8 (question 4).**
+- **Ruling: the reference lines stay, on three conditions.** (1) Only inside the section "Love lines", verbatim from `romance_lines.md` §2 L3, marked *for reference only*. (2) Facts only — S9E12 crowned with a consort and no heir; S10–S11 the cadet line is courted; S12E11 the marriage ends with her death — no motive, no inner life, no scene. (3) The arc table stays `sealed` after S8, and the L2 row "S7 → S12: restricted" is not expanded by anyone.
+
+**DEC-85 — "Ilse" in line C (question 5).**
+- **Ruling.** Ilse is **Ilse Ilvane, CH-0068** — Cressa's own daughter, dead at two months in CY 294-04, buried secretly at Pale Crag (EV-0257; the infant grave is the S2 clue). Already canon; the name simply had not reached the dossier.
+- **`writer-characters`.** CH-0021: the dead child is named Ilse (CH-0068). In Cressa's own mouth the name is spoken **never in S1–S3** and once in S4 (the episode is set with the S4 outline). Line C may read "between two graves — Ilse's and Cressa's".
+- **Keeper.** No new record. Proposal to hold for the S6 outline: Cressa is buried at Pale Crag beside the infant grave — which is what puts Aurin between the two. Not canon until that outline.
+
+**DEC-86 — the "green sash" of S1E8 (question 6).**
+- **Ruling: not a new costume.** It is the **Quell captains' green sash with the iron ring** (HS-005, "Dress" and the five recognisers), worn over his sea-green long coat as formal house dress — he came from the procession's muster. From behind in the E8 object shot he is read by three things: the long coat, the sash knot with the iron ring at the hip, the dyed hair ends.
+- **Concept artist / director (through the director of the studio):** one line on Jaro's sheet — "formal: + captains' sash, iron ring at the left hip". No new reference image is ordered for it. Guard: the iron ring of the sash is **not** the "Quell token" that falls from the assassin's hand in E8; the two must not look alike in the same episode.
+- **Keeper.** CH-0019 "Usual clothes": add the formal sash. Excerpt for director and artist §6: the same line.
+
+**DEC-87 — the writer's own proposals (questions 7–9).**
+- **Machine-block proposals (q. 7):** superseded by the keeper's v0.7 records, which are approved as entered (relation kinds, moments, where each relation lives, the 80-mark bond). The dossiers follow the canon blocks, not the reverse.
+- **Line D (q. 8):** stays a reserve until the S2 outline (director's decision). Nothing is written.
+- **Behaviour and speech proposals (q. 9) — accepted as direction, none as a fixed line:**
+  - Jaro says "the Admiral" in public and never the given name on screen before S6E8; in S2–S5 he keeps nothing on paper. **Accepted.**
+  - Maren's ledger-letters grow a second column. **Accepted** (it is L2's own design).
+  - Elm watches Ione's face, not her hands. **Accepted.** A Lows street-sign slipping into his signing with her: **accepted with a limit** — not in S1, at most once a season from S2, and each use is reported to the keeper, who logs it as a clue of SEC-012.
+  - Private signs of L5 flagged in the sign glossary. **Accepted** — keeper: a `private: L5` note on those entries when the S2 sign list is made.
+  - Ursel's hand to the empty sleeve — twice in the saga and no more: S1E11 and S6E8. **Accepted.**
+  - Aurin stops stammering with Cressa from S5. **Accepted.**
+  - Zev "does not stammer with Maren". **Amended:** his stammer is "near his father" and ends with his father (S5E11). It is not a tell of L3 and must not be played as warmth.
+  - Esk's knot-code "I am alive", flown every dusk of the siege. **Accepted** — and reserved: the dusk it does not fly belongs to the S8 outline.
+  - Bede speaks of the walker plainly, without his jokes. **Accepted.**
+  - Lio courts in public, in the manner of a rally. **Accepted.**
+  - Wren Roan's look and voice as drafted: **accepted**; back only, no face reference, no voice in S1.
+  - Tsura's knot on Pell's wrist (S11E10) stays a proposal for the S11 outline.
+
+### Standing instructions after r8
+
+- **Keeper:** DEC-77…82 and the keeper lines of DEC-85, 86 → canon v0.8; the two stubs of DEC-77 and the two of DEC-78 are closed (TODO count back to the three kept by design). Group H in `decisions_for_lead.md`: mark all as ruled (r8).
+- **`writer-characters`:** DEC-79 (rename, ID), DEC-83…87 in the dossiers, marked **Revision r8**; reads only this Part 7 and `romance_lines.md` §0–§3, §5.
+- **Sound director:** "Wren Roan" into the first TTS probe.
+- **Lead (mine):** S3 outline — E6 carries the Whitlow proof and the audience reveal of SEC-047; S4 outline — Jaro at the Weir Terms (E12); S10 outline — which Whitlow.
