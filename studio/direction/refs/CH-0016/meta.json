@@ -1,0 +1,66 @@
+{
+ "m_d1": {
+  "prompt": "[ID: LUCAN] old man of 71, tall, stooped and frail; fair weathered skin with age spots; white beard cut square, thin white hair combed back; eyes: faded grey-green; a heavy bronze sickle-shaped ring on his own RIGHT hand only; outfit: the robe of state — a floor-length matte ochre robe under a storm-grey mantle with a high collar. Waist-up portrait, cropped at the waist, three-quarter view with his face turned toward the RIGHT edge of the picture, tired dignified neutral expression, mouth closed, his RIGHT hand resting on a rolled map at the bottom of the frame, on the LEFT side of the picture, so the bronze sickle ring is clearly visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 667764,
+  "status": "ok"
+ },
+ "m_d2": {
+  "prompt": "[ID: LUCAN] old man of 71, tall, stooped and frail; fair weathered skin with age spots; white beard cut square, thin white hair combed back; eyes: faded grey-green; a heavy bronze sickle-shaped ring on his own RIGHT hand only; outfit: the robe of state — a floor-length matte ochre robe under a storm-grey mantle with a high collar. Waist-up portrait, cropped at the waist, three-quarter view with his face turned toward the RIGHT edge of the picture, tired dignified neutral expression, mouth closed, his RIGHT hand resting on a rolled map at the bottom of the frame, on the LEFT side of the picture, so the bronze sickle ring is clearly visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 533397,
+  "status": "ok"
+ },
+ "m_d3": {
+  "prompt": "[ID: LUCAN] old man of 71, tall, stooped and frail; fair weathered skin with age spots; white beard cut square, thin white hair combed back; eyes: faded grey-green; a heavy bronze sickle-shaped ring on his own RIGHT hand only; outfit: the robe of state — a floor-length matte ochre robe under a storm-grey mantle with a high collar. Waist-up portrait, cropped at the waist, three-quarter view with his face turned toward the RIGHT edge of the picture, tired dignified neutral expression, mouth closed, his RIGHT hand resting on a rolled map at the bottom of the frame, on the LEFT side of the picture, so the bronze sickle ring is clearly visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "3:4",
+  "seed": 287054,
+  "status": "ok"
+ },
+ "m_f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout, poses and design. Fix: his RIGHT hand (on the LEFT side of the picture) rests on the rolled map with the heavy bronze sickle-shaped ring clearly on it; the left hand has no ring; the mantle is storm-grey, the robe matte ochre. [ID: LUCAN] old man of 71, tall, stooped and frail; fair weathered skin with age spots; white beard cut square, thin white hair combed back; eyes: faded grey-green; a heavy bronze sickle-shaped ring on his own RIGHT hand only; outfit: the robe of state — a floor-length matte ochre robe under a storm-grey mantle with a high collar. Waist-up portrait, cropped at the waist, three-quarter view with his face turned toward the RIGHT edge of the picture, tired dignified neutral expression, mouth closed, his RIGHT hand resting on a rolled map at the bottom of the frame, on the LEFT side of the picture, so the bronze sickle ring is clearly visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0016/m_d2.png"
+  ],
+  "aspect": "3:4",
+  "seed": 423554,
+  "status": "ok"
+ },
+ "full_f1": {
+  "prompt": "Use the character from image 1 exactly: same face, beard, robe colours and proportions. [ID: LUCAN] old man of 71, tall, stooped and frail; fair weathered skin with age spots; white beard cut square, thin white hair combed back; eyes: faded grey-green; a heavy bronze sickle-shaped ring on his own RIGHT hand only; outfit: the robe of state — a floor-length matte ochre robe under a storm-grey mantle with a high collar. Exactly two full-body views side by side: 1) front view standing, stooped, the bronze sickle ring on his RIGHT hand on the LEFT side of the picture; 2) back view showing the storm-grey mantle with its high collar over the floor-length ochre robe. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0016/m_f1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 810072,
+  "status": "ok"
+ },
+ "mouth_f1": {
+  "prompt": "Use the character from image 1 exactly. [ID: LUCAN] old man of 71, tall, stooped and frail; fair weathered skin with age spots; white beard cut square, thin white hair combed back; eyes: faded grey-green; a heavy bronze sickle-shaped ring on his own RIGHT hand only; outfit: the robe of state — a floor-length matte ochre robe under a storm-grey mantle with a high collar. Mouth chart for lip-sync: exactly six cells in a 2 by 3 grid, six identical front-view head-and-shoulders portraits of the same person, only the mouth changes: 1) closed and relaxed; 2) open wide as for the vowel A; 3) rounded lips as for O; 4) lips stretched wide showing teeth as for EE; 5) lips pressed together as for M, B, P; 6) a small closed-mouth smile. Everything else identical in every cell. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, plain warm light-grey background, flat even neutral lighting, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0016/m_f1.png"
+  ],
+  "aspect": "3:2",
+  "seed": 374141,
+  "status": "ok"
+ },
+ "ring_f1": {
+  "prompt": "Use the character from image 1 exactly. Detail insert: his old age-spotted RIGHT hand seen from the back, fingers down, the thumb on the LEFT side of the picture, wearing one heavy bronze ring on the ring finger shaped like a small harvest sickle curling around the finger, its blade tip resting on the knuckle; the ochre sleeve edge at the wrist. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: ring on the left hand, pearl, gold, crown, sceptre, chain of office.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0016/m_f1.png"
+  ],
+  "aspect": "1:1",
+  "seed": 12677,
+  "status": "ok"
+ }
+}

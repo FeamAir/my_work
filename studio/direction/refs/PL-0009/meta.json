@@ -1,0 +1,74 @@
+{
+ "d_T1_1": {
+  "prompt": "High view from a stone gallery into a tall council hall of pale granite: at the far end a raised dais with a long map table in front of a tall arched window overlooking a harbour, eight seating places in a wide semicircle before the dais, each under a tall vertical cloth banner with a slanted cut at the bottom edge, each banner a different colour (cool white, deep blue, rust red, yellowish sea green, slate grey with acid yellow, black with copper, undyed linen, matte ochre), polished floor, a double door below the gallery, the hall empty of people. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: text on banners, throne, crown, people, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 860187,
+  "status": "ok"
+ },
+ "d_T1_2": {
+  "prompt": "High view from a stone gallery into a tall council hall of pale granite: at the far end a raised dais with a long map table in front of a tall arched window overlooking a harbour, eight seating places in a wide semicircle before the dais, each under a tall vertical cloth banner with a slanted cut at the bottom edge, each banner a different colour (cool white, deep blue, rust red, yellowish sea green, slate grey with acid yellow, black with copper, undyed linen, matte ochre), polished floor, a double door below the gallery, the hall empty of people. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: text on banners, throne, crown, people, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 96943,
+  "status": "ok"
+ },
+ "d_T1_3": {
+  "prompt": "High view from a stone gallery into a tall council hall of pale granite: at the far end a raised dais with a long map table in front of a tall arched window overlooking a harbour, eight seating places in a wide semicircle before the dais, each under a tall vertical cloth banner with a slanted cut at the bottom edge, each banner a different colour (cool white, deep blue, rust red, yellowish sea green, slate grey with acid yellow, black with copper, undyed linen, matte ochre), polished floor, a double door below the gallery, the hall empty of people. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: text on banners, throne, crown, people, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 108229,
+  "status": "ok"
+ },
+ "d_T1_4": {
+  "prompt": "High view from a stone gallery into a tall council hall of pale granite: at the far end a raised dais with a long map table in front of a tall arched window overlooking a harbour, eight seating places in a wide semicircle before the dais, each under a tall vertical cloth banner with a slanted cut at the bottom edge, each banner a different colour (cool white, deep blue, rust red, yellowish sea green, slate grey with acid yellow, black with copper, undyed linen, matte ochre), polished floor, a double door below the gallery, the hall empty of people. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: text on banners, throne, crown, people, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 146295,
+  "status": "ok"
+ },
+ "f_T1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout, poses and design. Fix: eight seats in a wide semicircle before the dais, one under each of eight tall vertical cloth banners with a slanted cut at the bottom edge; the banners plain coloured cloth with simple flat emblems, no text; the tall arched window behind the dais looks west over the harbour with the low sun; the hall empty of people. Full-bleed, no black bars. High view from a stone gallery into a tall council hall of pale granite: at the far end a raised dais with a long map table in front of a tall arched window overlooking a harbour, eight seating places in a wide semicircle before the dais, each under a tall vertical cloth banner with a slanted cut at the bottom edge, each banner a different colour (cool white, deep blue, rust red, yellowish sea green, slate grey with acid yellow, black with copper, undyed linen, matte ochre), polished floor, a double door below the gallery, the hall empty of people. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: text on banners, throne, crown, people, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0009/d_T1_3.png"
+  ],
+  "aspect": "16:9",
+  "seed": 666227,
+  "status": "ok"
+ },
+ "f_T2": {
+  "prompt": "Use the location from image 1 exactly: same hall, granite, banners, dais, map table, tall window and colours. New camera position: eye level beside the long map table on the dais, looking along the table toward the tall arched window; the window and the harbour far below behind the table, seen against the low sun (contre-jour), the table top empty for a map. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0009/f_T1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 251469,
+  "status": "ok"
+ },
+ "f_T3": {
+  "prompt": "Use the location from image 1 exactly: same hall, granite, banners, dais, map table, tall window and colours. New camera position: from the dais looking back down the hall toward the tall double door at the far end, the eight banners and seats on both sides, the gallery above the door, warm low sunlight from behind the camera falling along the floor. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0009/f_T1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 509885,
+  "status": "ok"
+ },
+ "f_T1_last": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the light to: last light — the sun is a low red disc sinking in the tall window, deep red-orange light in a long beam across the floor to the dais, the rest of the hall falling into cool violet shadow. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0009/f_T1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 428535,
+  "status": "ok"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "b_d1": {
+  "prompt": "[ID: MAREN] young woman of 19, tall, lean and long-legged; warm brown skin; hair: dark umber-brown curls tied high at the crown with a silver cord, a short bouncing tail; outfit: deep-blue SHORT riding coat cut at the hip, white shirt collar, grey breeches, sea boots; a brass spyglass on her belt at her own RIGHT hip; hands clasped behind her back, no rings. Back view only, face not visible: exactly two figures side by side — 1) full-body back view standing at attention with hands clasped behind her back, the spyglass at the hip on the RIGHT side of the picture; 2) a waist-up back view of the same woman. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: long coat, coat below the hip, visible face, rings on any finger, spyglass on the left side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 779412,
+  "status": "ok"
+ },
+ "b_d2": {
+  "prompt": "[ID: MAREN] young woman of 19, tall, lean and long-legged; warm brown skin; hair: dark umber-brown curls tied high at the crown with a silver cord, a short bouncing tail; outfit: deep-blue SHORT riding coat cut at the hip, white shirt collar, grey breeches, sea boots; a brass spyglass on her belt at her own RIGHT hip; hands clasped behind her back, no rings. Back view only, face not visible: exactly two figures side by side — 1) full-body back view standing at attention with hands clasped behind her back, the spyglass at the hip on the RIGHT side of the picture; 2) a waist-up back view of the same woman. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: long coat, coat below the hip, visible face, rings on any finger, spyglass on the left side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 293109,
+  "status": "ok"
+ },
+ "b_d3": {
+  "prompt": "[ID: MAREN] young woman of 19, tall, lean and long-legged; warm brown skin; hair: dark umber-brown curls tied high at the crown with a silver cord, a short bouncing tail; outfit: deep-blue SHORT riding coat cut at the hip, white shirt collar, grey breeches, sea boots; a brass spyglass on her belt at her own RIGHT hip; hands clasped behind her back, no rings. Back view only, face not visible: exactly two figures side by side — 1) full-body back view standing at attention with hands clasped behind her back, the spyglass at the hip on the RIGHT side of the picture; 2) a waist-up back view of the same woman. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: long coat, coat below the hip, visible face, rings on any finger, spyglass on the left side of the picture.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 589889,
+  "status": "ok"
+ },
+ "b_f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout, poses and design. Fix: in both views the brass spyglass hangs at the hip on the RIGHT side of the picture; the coat is SHORT, ending at the hip; curls tied high at the crown with a silver cord, a short tail; no rings, face not visible. [ID: MAREN] young woman of 19, tall, lean and long-legged; warm brown skin; hair: dark umber-brown curls tied high at the crown with a silver cord, a short bouncing tail; outfit: deep-blue SHORT riding coat cut at the hip, white shirt collar, grey breeches, sea boots; a brass spyglass on her belt at her own RIGHT hip; hands clasped behind her back, no rings. Back view only, face not visible: exactly two figures side by side — 1) full-body back view standing at attention with hands clasped behind her back, the spyglass at the hip on the RIGHT side of the picture; 2) a waist-up back view of the same woman. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: long coat, coat below the hip, visible face, rings on any finger, spyglass on the left side of the picture.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0006/b_d2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 741744,
+  "status": "ok"
+ }
+}

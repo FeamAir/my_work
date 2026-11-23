@@ -3,7 +3,7 @@
   "description": "Young man in his early twenties, a hill-country soldier on gate duty. Gruff, rough mid-low voice, blunt and tired beyond his years; rural accent with a rolled \"r\" and long \"o\" vowels. Speaks in short lines to fill an uneasy quiet and expects no answer. Clean studio recording, close microphone, no background noise, no music."
  },
  "V16": {
-  "description": "Man in his thirties, a short, round, well-groomed senior bank clerk. Smooth, oily light tenor; all courtesy, pleasant and smiling, with a faint condescension under the politeness. Clear, neutral, educated city accent with soft, precise consonants. He speaks lightly and quietly, as if to a friend across a desk. Clean studio recording, close microphone, no background noise, no music.",
+  "description": "Man in his thirties, a short, round, well-groomed senior bank clerk. Light, high, smooth tenor, oily and pleasant; all courtesy and smiles, with a faint condescension under the politeness. Clear, neutral, educated city accent with soft, precise consonants. He speaks lightly and quietly, as if to a friend across a desk. Clean studio recording, close microphone, no background noise, no music.",
   "text": "Yes, Kett? ... It gets into everything, the damp. The paper, the ink, the ledgers, the clerks. One learns to blot, and to smile. Of course, sir. I'll have the column on your desk before noon, sir."
  },
  "V17": {
@@ -18,5 +18,8 @@
  },
  "V11": {
   "description": "Young adult woman around twenty with a youthful sound, playing a loud street scavenger in an animated series. Hoarse, raspy mid-high voice and a big cackling laugh; brash and broad, a little drawling, she loves an audience. Rough working-class English dock accent, broader and slower than her friends'. Clean studio recording, close microphone, no background noise, no music."
+ },
+ "V06": {
+  "description": "Man around fifty, a beloved sea-lord and admiral. Deep, warm, round bass-baritone with a low, resonant chest voice, big enough to carry across a harbour without effort. Easy, generous, smiling delivery, unhurried but never slow; a ready, low laugh. Warm coastal English accent with broad open vowels. Charismatic and kind-sounding: the voice of a man you would follow into a boat in a storm. Clean studio recording, close microphone, no background noise, no music."
  }
 }

@@ -1,0 +1,43 @@
+{
+ "d1": {
+  "prompt": "Image 1 shows the eight flat emblems in order 1 to 8. Reference sheet for a council hall: eight groups in one row seen from behind and slightly above, each group a block of two or three standing stewards dressed in one house's colours under its tall vertical cloth banner with a slanted cut at the bottom edge (the long point on the pole side), each banner showing its emblem from image 1 in the same order: 1) cool silky white with pale violet; 2) deep blue with silver; 3) rust red with black; 4) yellowish sea-green with bone white; 5) slate grey with acid sulphur-yellow lining; 6) black with polished pinkish copper; 7) warm undyed linen with black and violet throat-bands; 8) matte ochre with bronze. Colour blocks clearly separated, faces not visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: readable faces, text on banners, teal, orange, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "output/refs_stage/C-06/emblem_strip.png"
+  ],
+  "aspect": "16:9",
+  "seed": 356071,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Image 1 shows the eight flat emblems in order 1 to 8. Reference sheet for a council hall: eight groups in one row seen from behind and slightly above, each group a block of two or three standing stewards dressed in one house's colours under its tall vertical cloth banner with a slanted cut at the bottom edge (the long point on the pole side), each banner showing its emblem from image 1 in the same order: 1) cool silky white with pale violet; 2) deep blue with silver; 3) rust red with black; 4) yellowish sea-green with bone white; 5) slate grey with acid sulphur-yellow lining; 6) black with polished pinkish copper; 7) warm undyed linen with black and violet throat-bands; 8) matte ochre with bronze. Colour blocks clearly separated, faces not visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: readable faces, text on banners, teal, orange, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "output/refs_stage/C-06/emblem_strip.png"
+  ],
+  "aspect": "16:9",
+  "seed": 220043,
+  "status": "ok"
+ },
+ "d3": {
+  "prompt": "Image 1 shows the eight flat emblems in order 1 to 8. Reference sheet for a council hall: eight groups in one row seen from behind and slightly above, each group a block of two or three standing stewards dressed in one house's colours under its tall vertical cloth banner with a slanted cut at the bottom edge (the long point on the pole side), each banner showing its emblem from image 1 in the same order: 1) cool silky white with pale violet; 2) deep blue with silver; 3) rust red with black; 4) yellowish sea-green with bone white; 5) slate grey with acid sulphur-yellow lining; 6) black with polished pinkish copper; 7) warm undyed linen with black and violet throat-bands; 8) matte ochre with bronze. Colour blocks clearly separated, faces not visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: readable faces, text on banners, teal, orange, shields. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "output/refs_stage/C-06/emblem_strip.png"
+  ],
+  "aspect": "16:9",
+  "seed": 155691,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved layout draft; image 2 shows the eight flat emblems in the required order 1 to 8. Redraw image 1 as the final sheet: exactly EIGHT banners in one row, each with its group of two or three stewards below, in this order and with these emblems copied from image 2: 1) pale violet banner with the white open hand, stewards in cool silky white with pale violet; 2) deep blue banner with the black diving cormorant over a silver wave, stewards in deep blue with silver; 3) black-and-rust banner with the rust-red gate, stewards in rust red over black; 4) bone-white banner with the green eel through an iron ring, stewards in yellowish sea-green with bone; 5) acid sulphur-yellow banner with the grey sitting hare, stewards in slate grey with acid yellow lining; 6) black banner with the copper balance, stewards in black with pinkish copper; 7) undyed linen banner with nine black strokes over a line, stewards in warm undyed linen with violet throat-bands; 8) ochre banner with the bronze sickle over furrows, stewards in matte ochre with bronze. Every banner is a tall vertical cloth hanging from a crossbar on a pole, its bottom edge cut on a slant, longer on the pole side. Stewards seen from behind, faces not visible. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: readable faces, text, shields, a missing banner, teal, orange. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/C-06/d3.png",
+   "output/refs_stage/C-06/emblem_strip.png"
+  ],
+  "aspect": "16:9",
+  "seed": 99317,
+  "status": "ok"
+ }
+}

@@ -53,7 +53,17 @@
      }
     ]
    }
-  ]
+  ],
+  "selected": {
+   "iter": 1,
+   "preview": 2,
+   "voice_id": "iXg6m3okqCpdUH3cAzLs",
+   "seed": 3101,
+   "model": "eleven_ttv_v3",
+   "guidance": 5.0,
+   "generated_voice_id": "iXg6m3okqCpdUH3cAzLs",
+   "file": "/home/user/my_work/output/S01E01/animatic/casting/V01/i1_p2.mp3"
+  }
  },
  "V02": {
   "name": "HS S1 V02",
@@ -162,6 +172,996 @@
       "f0_p10": 142.9,
       "f0_p90": 340.4,
       "f0_off_st": -0.8
+     }
+    ]
+   }
+  ]
+ },
+ "V04": {
+  "name": "HS S1 V04",
+  "f0_target": 255,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3131,
+    "guidance": 5.0,
+    "description": "Young woman around eighteen to twenty, a trained young singer from an old, formal family. Clear, light, high-mid soprano speaking voice, pure and unhurried, with a singer's breath control: she never runs out of air in the middle of a sentence. Precise, cool, formal diction with long pure vowels and complete sentences, an almost scriptural cadence. Serious and composed, with curiosity underneath; never coy, never breathy. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Is that what the song is for? Forgive me. I ask only because no one answers. If the song is a gift, then whom is it given to? ... The water lies flat, Your Steadiness. The Cantor sends her word. ... I am well. It is only the throat; it always passes. ... Hear, and be still. The people of the Ninth will hear it too, though not as we do.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "JDqVQUWrTkqKJUi5V0Xo",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p1.mp3",
+      "duration_secs": 29.23375,
+      "dur": 29.231,
+      "speech_start": 0.02,
+      "speech_end": 29.18,
+      "speech_dur": 29.16,
+      "f0_med": 266.7,
+      "f0_p10": 228.6,
+      "f0_p90": 340.4,
+      "f0_off_st": 0.8
+     },
+     {
+      "generated_voice_id": "TPZleOWRsdTlkALsuDVd",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p2.mp3",
+      "duration_secs": 23.2516875,
+      "dur": 23.249,
+      "speech_start": 0.12,
+      "speech_end": 23.24,
+      "speech_dur": 23.12,
+      "f0_med": 262.3,
+      "f0_p10": 225.4,
+      "f0_p90": 307.7,
+      "f0_off_st": 0.5
+     },
+     {
+      "generated_voice_id": "2q94v985YEmmI35iwmGf",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V04/i1_p3.mp3",
+      "duration_secs": 34.432125,
+      "dur": 34.429,
+      "speech_start": 0.08,
+      "speech_end": 34.42,
+      "speech_dur": 34.34,
+      "f0_med": 266.7,
+      "f0_p10": 238.8,
+      "f0_p90": 307.7,
+      "f0_off_st": 0.8
+     }
+    ]
+   }
+  ]
+ },
+ "V05": {
+  "name": "HS S1 V05",
+  "f0_target": 130,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3141,
+    "guidance": 5.0,
+    "description": "Man in his mid-twenties, a junior bank clerk who thinks in figures. Light, dry baritone, bright rather than deep. Quick, exact speech with crisp consonants; he finishes every word even when he is in a hurry. Clear, neutral, educated city accent. Nervous energy and self-deprecating humour; he speeds up and runs short of breath when anxious, and slows right down, word by word, when he is about to do something brave. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Twelve, carry the four, nineteen... It balances. Which is exactly why I don't trust it. No street, no district, no name. Just a heading: Account Nine. ... Not yet reconciled. ... Is it damp in here, or is it me? It's the damp. Definitely the damp. Columns. ... Dame Ursel. I can balance it. I can't tell you what it is. ... Money doesn't lie. People lie, and money keeps very careful records of it.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "2L4vEpruZ8M2GMcbLuuc",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p1.mp3",
+      "duration_secs": 30.357,
+      "dur": 30.354,
+      "speech_start": 0.06,
+      "speech_end": 30.26,
+      "speech_dur": 30.2,
+      "f0_med": 125.0,
+      "f0_p10": 106.7,
+      "f0_p90": 298.6,
+      "f0_off_st": -0.7
+     },
+     {
+      "generated_voice_id": "OUMlDMoSf99Qed0Fkzax",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p2.mp3",
+      "duration_secs": 36.2868125,
+      "dur": 36.284,
+      "speech_start": 0.02,
+      "speech_end": 36.28,
+      "speech_dur": 36.26,
+      "f0_med": 108.1,
+      "f0_p10": 96.4,
+      "f0_p90": 216.2,
+      "f0_off_st": -3.2
+     },
+     {
+      "generated_voice_id": "v0bxs05N6L36WwOa09ep",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V05/i1_p3.mp3",
+      "duration_secs": 26.9088125,
+      "dur": 26.906,
+      "speech_start": 0.06,
+      "speech_end": 26.9,
+      "speech_dur": 26.84,
+      "f0_med": 133.3,
+      "f0_p10": 117.6,
+      "f0_p90": 305.4,
+      "f0_off_st": 0.4
+     }
+    ]
+   }
+  ]
+ },
+ "V06": {
+  "name": "HS S1 V06",
+  "f0_target": 105,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3151,
+    "guidance": 5.0,
+    "description": "Man around fifty, a beloved sea-lord and admiral. Warm, round, big baritone that carries across a harbour without effort. Easy, generous, smiling delivery, unhurried but never slow; a ready laugh. Warm coastal English accent with broad open vowels. Charismatic and kind-sounding: the voice of a man you would follow into a boat in a storm. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Warden! And how's that daughter of yours, still beating you at dice? Good. Somebody should. ... Read it differently, old friend. Just this once. ... I know. I know it's drawn. We go under and come up. ... My lady, you've flattened my whole harbour. My captains will be bored to tears. ... No. Thank you. I don't drink before a storm. ... A physician! Now! Get him here now!",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "5K6Gh5Z5bmVZ7iVss8aF",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i1_p1.mp3",
+      "duration_secs": 33.8835625,
+      "dur": 33.881,
+      "speech_start": 0.02,
+      "speech_end": 33.82,
+      "speech_dur": 33.8,
+      "f0_med": 143.5,
+      "f0_p10": 93.6,
+      "f0_p90": 258.1,
+      "f0_off_st": 5.4
+     },
+     {
+      "generated_voice_id": "Rhzlv39V4MAAHwqCuGGJ",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i1_p2.mp3",
+      "duration_secs": 35.398625,
+      "dur": 35.396,
+      "speech_start": 0.04,
+      "speech_end": 35.38,
+      "speech_dur": 35.34,
+      "f0_med": 130.1,
+      "f0_p10": 88.4,
+      "f0_p90": 177.8,
+      "f0_off_st": 3.7
+     },
+     {
+      "generated_voice_id": "KPmUAzIFo2sESMydB0ST",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i1_p3.mp3",
+      "duration_secs": 32.1333125,
+      "dur": 32.131,
+      "speech_start": 0.08,
+      "speech_end": 32.0,
+      "speech_dur": 31.92,
+      "f0_med": 144.1,
+      "f0_p10": 100.0,
+      "f0_p90": 238.8,
+      "f0_off_st": 5.5
+     }
+    ]
+   },
+   {
+    "iter": 2,
+    "model": "eleven_ttv_v3",
+    "seed": 3152,
+    "guidance": 5.0,
+    "description": "Man around fifty, a beloved sea-lord and admiral. Deep, warm, round bass-baritone with a low, resonant chest voice, big enough to carry across a harbour without effort. Easy, generous, smiling delivery, unhurried but never slow; a ready, low laugh. Warm coastal English accent with broad open vowels. Charismatic and kind-sounding: the voice of a man you would follow into a boat in a storm. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Warden! And how's that daughter of yours, still beating you at dice? Good. Somebody should. ... Read it differently, old friend. Just this once. ... I know. I know it's drawn. We go under and come up. ... My lady, you've flattened my whole harbour. My captains will be bored to tears. ... No. Thank you. I don't drink before a storm. ... A physician! Now! Get him here now!",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "RRuf6gvWSMpWa9PREQvL",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p1.mp3",
+      "duration_secs": 26.67375,
+      "dur": 26.671,
+      "speech_start": 0.04,
+      "speech_end": 26.6,
+      "speech_dur": 26.56,
+      "f0_med": 83.8,
+      "f0_p10": 66.7,
+      "f0_p90": 115.9,
+      "f0_off_st": -3.9
+     },
+     {
+      "generated_voice_id": "WFG5Ms3p5WkToImSDDnd",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p2.mp3",
+      "duration_secs": 37.5668125,
+      "dur": 37.564,
+      "speech_start": 0.04,
+      "speech_end": 37.56,
+      "speech_dur": 37.52,
+      "f0_med": 108.8,
+      "f0_p10": 72.7,
+      "f0_p90": 166.7,
+      "f0_off_st": 0.6
+     },
+     {
+      "generated_voice_id": "Gwrc2u4spHXyLOtnwgJw",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V06/i2_p3.mp3",
+      "duration_secs": 39.6305,
+      "dur": 39.628,
+      "speech_start": 0.04,
+      "speech_end": 39.62,
+      "speech_dur": 39.58,
+      "f0_med": 89.6,
+      "f0_p10": 68.4,
+      "f0_p90": 134.8,
+      "f0_off_st": -2.7
+     }
+    ]
+   }
+  ]
+ },
+ "V07": {
+  "name": "HS S1 V07",
+  "f0_target": 95,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3161,
+    "guidance": 5.0,
+    "description": "Elderly man around seventy, an old ruler worn down by office. Deep, heavy, rasping voice with a dry wheeze at the end of long phrases; slow, weighty and dignified. Refined old court accent with long rounded vowels. He speaks as if every sentence costs him breath, and he reads lists in the flat tone of a man reading out a bill. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "It is drawn, Ruel. I only read it. ... You will lose this one. You know you will. ... First Song: the Steps, the harbour, the First Sluice through the Fourth. Second Song... forgive me. Where was I. Second Song. ... Last Song. ... And the Ninth Sluice, and the Ninth Sluice is... ... Leave it. The hall is waiting. Read on.",
+    "credits": 1431,
+    "previews": [
+     {
+      "generated_voice_id": "LIeC3N4MoLMSPix4bwHb",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p1.mp3",
+      "duration_secs": 43.31375,
+      "dur": 43.311,
+      "speech_start": 0.1,
+      "speech_end": 43.3,
+      "speech_dur": 43.2,
+      "f0_med": 133.3,
+      "f0_p10": 89.2,
+      "f0_p90": 533.3,
+      "f0_off_st": 5.9
+     },
+     {
+      "generated_voice_id": "uNmfavZbTu2CebrpNl7l",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p2.mp3",
+      "duration_secs": 42.4516875,
+      "dur": 42.449,
+      "speech_start": 0.08,
+      "speech_end": 42.44,
+      "speech_dur": 42.36,
+      "f0_med": 242.4,
+      "f0_p10": 74.4,
+      "f0_p90": 516.1,
+      "f0_off_st": 16.2
+     },
+     {
+      "generated_voice_id": "H2ScA5AaNufRh2PPnMdi",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V07/i1_p3.mp3",
+      "duration_secs": 51.8035625,
+      "dur": 51.801,
+      "speech_start": 0.24,
+      "speech_end": 51.8,
+      "speech_dur": 51.56,
+      "f0_med": 126.0,
+      "f0_p10": 107.4,
+      "f0_p90": 444.4,
+      "f0_off_st": 4.9
+     }
+    ]
+   }
+  ]
+ },
+ "V08": {
+  "name": "HS S1 V08",
+  "f0_target": 175,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3171,
+    "guidance": 5.0,
+    "description": "Woman in her early sixties, the gentle-seeming head of a great bank. Soft, low, warm mezzo, grandmotherly; very slow and very still, and she never raises her voice. Refined formal accent with long, smooth vowels and perfect diction. Endearments like \"my dear\" and \"child\" sound kind and completely certain. Calm, intimate and unhurried, with an undertone of total control. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "No, my dear, finish the line first. Always finish the line. ... You found it balanced, and you checked it again because it balanced. That is a rare habit, child. Rarer than you know. Then you have done exactly what was asked of you. ... A clerk who is trusted gets a clip. ... All water finds its level.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "gJqY7rmo1VBmn4T2sk6K",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p1.mp3",
+      "duration_secs": 35.1635625,
+      "dur": 35.161,
+      "speech_start": 0.06,
+      "speech_end": 35.12,
+      "speech_dur": 35.06,
+      "f0_med": 179.8,
+      "f0_p10": 140.4,
+      "f0_p90": 333.3,
+      "f0_off_st": 0.5
+     },
+     {
+      "generated_voice_id": "13DluQRohu4MSSLEEvmD",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p2.mp3",
+      "duration_secs": 39.238625,
+      "dur": 39.236,
+      "speech_start": 0.06,
+      "speech_end": 39.22,
+      "speech_dur": 39.16,
+      "f0_med": 210.5,
+      "f0_p10": 166.7,
+      "f0_p90": 266.7,
+      "f0_off_st": 3.2
+     },
+     {
+      "generated_voice_id": "4NQbUoR4U0anhExNcJRR",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V08/i1_p3.mp3",
+      "duration_secs": 34.5888125,
+      "dur": 34.586,
+      "speech_start": 0.08,
+      "speech_end": 34.58,
+      "speech_dur": 34.5,
+      "f0_med": 175.8,
+      "f0_p10": 141.6,
+      "f0_p90": 225.4,
+      "f0_off_st": 0.1
+     }
+    ]
+   }
+  ]
+ },
+ "V09": {
+  "name": "HS S1 V09",
+  "f0_target": 115,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3181,
+    "guidance": 5.0,
+    "description": "Man in his mid-fifties, a soft-spoken master of informers. Mid-low voice kept almost at a whisper, never hurried; soft consonants and precise, old-fashioned clerkly diction with a refined accent. Gentle, patient, faintly tender; people have to lean in to hear him. Intimate, close-microphone delivery: quiet and clear, not raspy, not seductive. Clean studio recording, no background noise, no music.",
+    "text": "The tone came quickly? ... Quickly. Yes. ... Order is a kindness, my dear. The flood is not cruel; it is only untidy. Did you hear the hall? Did you hear who left it first, and who stayed? ... Not yet. ... Steadiness. ... Nothing unheard.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "vTOpWhjxLpog78QlfEuY",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p1.mp3",
+      "duration_secs": 29.8084375,
+      "dur": 29.806,
+      "speech_start": 0.08,
+      "speech_end": 29.8,
+      "speech_dur": 29.72,
+      "f0_med": 231.9,
+      "f0_p10": 105.3,
+      "f0_p90": 457.1,
+      "f0_off_st": 12.1
+     },
+     {
+      "generated_voice_id": "e9ThWiSgzdrjm1nS3rlb",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p2.mp3",
+      "duration_secs": 25.001875,
+      "dur": 24.999,
+      "speech_start": 0.08,
+      "speech_end": 24.98,
+      "speech_dur": 24.9,
+      "f0_med": 166.7,
+      "f0_p10": 98.3,
+      "f0_p90": 340.4,
+      "f0_off_st": 6.4
+     },
+     {
+      "generated_voice_id": "UmbFuACrLtlTZUAXLccZ",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V09/i1_p3.mp3",
+      "duration_secs": 27.1700625,
+      "dur": 27.167,
+      "speech_start": 0.04,
+      "speech_end": 27.14,
+      "speech_dur": 27.1,
+      "f0_med": 124.0,
+      "f0_p10": 90.4,
+      "f0_p90": 238.8,
+      "f0_off_st": 1.3
+     }
+    ]
+   }
+  ]
+ },
+ "V10": {
+  "name": "HS S1 V10",
+  "f0_target": 85,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3191,
+    "guidance": 5.0,
+    "description": "Man around fifty, the boss of a gang of treadmill labourers. Deep, heavy bass voice, slow and steady; every sentence lands like a footstep, with a pause after it. Rough working-class English dock accent, plain words, not unkind. The calm authority of a lifetime of hard physical work. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "No half-walks today. ... Short a pin. Two wheels, half the walks, and grown backs first. ... A wheel doesn't care who walks it. ... Reading's today, girl. Come dusk, they'll all know what the Ninth is worth. ... Keep the count. Keep it flat. One note, no more.",
+    "credits": 801,
+    "previews": [
+     {
+      "generated_voice_id": "ZHQmh5cWRscGgRRVVN5f",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p1.mp3",
+      "duration_secs": 30.7488125,
+      "dur": 30.746,
+      "speech_start": 0.04,
+      "speech_end": 30.74,
+      "speech_dur": 30.7,
+      "f0_med": 333.3,
+      "f0_p10": 99.4,
+      "f0_p90": 533.3,
+      "f0_off_st": 23.7
+     },
+     {
+      "generated_voice_id": "o9ZGurdeptJt0Vz7Ttr1",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p2.mp3",
+      "duration_secs": 32.838625,
+      "dur": 32.836,
+      "speech_start": 0.02,
+      "speech_end": 32.82,
+      "speech_dur": 32.8,
+      "f0_med": 333.3,
+      "f0_p10": 80.9,
+      "f0_p90": 421.1,
+      "f0_off_st": 23.7
+     },
+     {
+      "generated_voice_id": "PWqxdNZLI6s0YLJIi8fG",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V10/i1_p3.mp3",
+      "duration_secs": 27.0133125,
+      "dur": 27.011,
+      "speech_start": 0.06,
+      "speech_end": 26.98,
+      "speech_dur": 26.92,
+      "f0_med": 246.2,
+      "f0_p10": 73.4,
+      "f0_p90": 484.8,
+      "f0_off_st": 18.4
+     }
+    ]
+   }
+  ]
+ },
+ "V11": {
+  "name": "HS S1 V11",
+  "f0_target": 240,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3201,
+    "guidance": 5.0,
+    "description": "Young adult woman around twenty with a youthful sound, playing a loud street scavenger in an animated series. Hoarse, raspy mid-high voice and a big cackling laugh; brash and broad, a little drawling, she loves an audience. Rough working-class English dock accent, broader and slower than her friends'. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Oi, Pell! Your lane's all buttons again! Ha! Buttons and bent spoons, you'll be rich by the Still! ... What've you got there? Go on, show us. ... Finders keep, losers weep, that's the rule, innit? ... Wick, you little eel, I can see you hiding behind her!",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "Dac4C4KLxg2pJlsoYnoj",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p1.mp3",
+      "duration_secs": 22.9905,
+      "dur": 22.988,
+      "speech_start": 0.12,
+      "speech_end": 22.78,
+      "speech_dur": 22.66,
+      "f0_med": 271.2,
+      "f0_p10": 210.5,
+      "f0_p90": 381.0,
+      "f0_off_st": 2.1
+     },
+     {
+      "generated_voice_id": "jNRyxgZW6zewWisPTX5U",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p2.mp3",
+      "duration_secs": 21.475375,
+      "dur": 21.473,
+      "speech_start": 0.04,
+      "speech_end": 21.22,
+      "speech_dur": 21.18,
+      "f0_med": 390.2,
+      "f0_p10": 296.3,
+      "f0_p90": 500.0,
+      "f0_off_st": 8.4
+     },
+     {
+      "generated_voice_id": "SKfiwUfwW84UKvP2BBfz",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V11/i1_p3.mp3",
+      "duration_secs": 20.195375,
+      "dur": 20.193,
+      "speech_start": 0.02,
+      "speech_end": 20.02,
+      "speech_dur": 20.0,
+      "f0_med": 444.4,
+      "f0_p10": 285.7,
+      "f0_p90": 533.3,
+      "f0_off_st": 10.7
+     }
+    ]
+   }
+  ]
+ },
+ "V12": {
+  "name": "HS S1 V12",
+  "f0_target": 145,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3211,
+    "guidance": 5.0,
+    "description": "Middle-aged man, a petty tax collector. Nasal, reedy tenor; officious, bored and a little self-important; he reads amounts out like a list. Clear city accent, slightly pinched. When frightened his voice goes thin, quiet and uncertain. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Last Song, three coppers the month. Two months owing. That's six. ... Six coppers by dusk, or I take it in goods. Nets will do. ... Four. That's four. You're two short, girl. ... Helm's dead. ... The Helm. He's... I don't... Never mind. Never mind the box.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "X46TiRCrr2Xa1NETlUsu",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p1.mp3",
+      "duration_secs": 28.841875,
+      "dur": 28.839,
+      "speech_start": 0.02,
+      "speech_end": 28.82,
+      "speech_dur": 28.8,
+      "f0_med": 207.8,
+      "f0_p10": 133.8,
+      "f0_p90": 439.6,
+      "f0_off_st": 6.2
+     },
+     {
+      "generated_voice_id": "qG3cnlGxJgmMXqt4bbIm",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p2.mp3",
+      "duration_secs": 22.9905,
+      "dur": 22.988,
+      "speech_start": 0.02,
+      "speech_end": 22.98,
+      "speech_dur": 22.96,
+      "f0_med": 179.8,
+      "f0_p10": 139.1,
+      "f0_p90": 273.1,
+      "f0_off_st": 3.7
+     },
+     {
+      "generated_voice_id": "g5CSrCDTjZj3yl0LUuKs",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V12/i1_p3.mp3",
+      "duration_secs": 30.9316875,
+      "dur": 30.929,
+      "speech_start": 0.08,
+      "speech_end": 30.92,
+      "speech_dur": 30.84,
+      "f0_med": 129.6,
+      "f0_p10": 92.6,
+      "f0_p90": 500.0,
+      "f0_off_st": -1.9
+     }
+    ]
+   }
+  ]
+ },
+ "V13": {
+  "name": "HS S1 V13",
+  "f0_target": 200,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3221,
+    "guidance": 5.0,
+    "description": "Woman in her forties, a fussy temple attendant. Mid-alto, soft but hurried, half-whispered urgency; precise formal diction with long vowels. She fusses constantly and worries about appearances, never about meaning. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Stand still, my lady, your stole is crooked. There. No, there. ... Sing it flat for the lords, please. Nothing clever. They don't want clever, they want the water quiet and the hall on time. ... Throat-band. Where is your... ah. Good. Go, go, they're waiting.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "xN6C0EQzzGf3rro7bRv9",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p1.mp3",
+      "duration_secs": 21.8933125,
+      "dur": 21.891,
+      "speech_start": 0.04,
+      "speech_end": 21.88,
+      "speech_dur": 21.84,
+      "f0_med": 161.6,
+      "f0_p10": 137.9,
+      "f0_p90": 238.8,
+      "f0_off_st": -3.7
+     },
+     {
+      "generated_voice_id": "sq1bEpv2XWuWqzkm5PQq",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p2.mp3",
+      "duration_secs": 24.3488125,
+      "dur": 24.346,
+      "speech_start": 0.1,
+      "speech_end": 24.14,
+      "speech_dur": 24.04,
+      "f0_med": 172.0,
+      "f0_p10": 139.1,
+      "f0_p90": 231.9,
+      "f0_off_st": -2.6
+     },
+     {
+      "generated_voice_id": "PJX2NeYe2aBGqobdcWhI",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V13/i1_p3.mp3",
+      "duration_secs": 25.001875,
+      "dur": 24.999,
+      "speech_start": 0.06,
+      "speech_end": 24.78,
+      "speech_dur": 24.72,
+      "f0_med": 179.8,
+      "f0_p10": 142.9,
+      "f0_p90": 228.6,
+      "f0_off_st": -1.8
+     }
+    ]
+   }
+  ]
+ },
+ "V14": {
+  "name": "HS S1 V14",
+  "f0_target": 150,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3231,
+    "guidance": 5.0,
+    "description": "Young man in his early twenties, a junior signals keeper. Light tenor, a little breathless; respectful, quick and nervous, eager to report correctly. Clear, neutral city accent. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "My lord. The tone. It came very quickly, my lord. Three long, and the rest. From the Crown. ... Should I log it? I'll log it. I'll log the time, my lord. Every stone on the wall took it at once.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "s4699ZiTE5sCC0VMhgii",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p1.mp3",
+      "duration_secs": 17.792125,
+      "dur": 17.789,
+      "speech_start": 0.06,
+      "speech_end": 17.78,
+      "speech_dur": 17.72,
+      "f0_med": 118.5,
+      "f0_p10": 102.6,
+      "f0_p90": 155.3,
+      "f0_off_st": -4.1
+     },
+     {
+      "generated_voice_id": "C2a5Gz74EzO2Bp1f4Ibh",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p2.mp3",
+      "duration_secs": 13.481875,
+      "dur": 13.479,
+      "speech_start": 0.06,
+      "speech_end": 13.46,
+      "speech_dur": 13.4,
+      "f0_med": 132.2,
+      "f0_p10": 106.0,
+      "f0_p90": 160.0,
+      "f0_off_st": -2.2
+     },
+     {
+      "generated_voice_id": "YFZRbyIZyYTBQIAglqXJ",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V14/i1_p3.mp3",
+      "duration_secs": 14.6835625,
+      "dur": 14.681,
+      "speech_start": 0.02,
+      "speech_end": 13.98,
+      "speech_dur": 13.96,
+      "f0_med": 150.9,
+      "f0_p10": 121.2,
+      "f0_p90": 183.9,
+      "f0_off_st": 0.1
+     }
+    ]
+   }
+  ]
+ },
+ "V15": {
+  "name": "HS S1 V15",
+  "f0_target": 110,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3241,
+    "guidance": 5.0,
+    "description": "Young man in his early twenties, a hill-country soldier on gate duty. Gruff, rough mid-low voice, blunt and tired beyond his years; rural accent with a rolled \"r\" and long \"o\" vowels. Speaks in short lines to fill an uneasy quiet and expects no answer. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Bar's down, Sergeant. ... Thirty days of this, then. Thirty days of the gate shut and that lot down there shouting at it. ... Right. Not my business. Never is. Roll on the Still.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "ZDN5Tb0ubamjl6TWQGEZ",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p1.mp3",
+      "duration_secs": 13.795375,
+      "dur": 13.793,
+      "speech_start": 0.1,
+      "speech_end": 13.78,
+      "speech_dur": 13.68,
+      "f0_med": 136.8,
+      "f0_p10": 112.7,
+      "f0_p90": 228.6,
+      "f0_off_st": 3.8
+     },
+     {
+      "generated_voice_id": "RXQ8LUuf32EsyPh08ZAp",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p2.mp3",
+      "duration_secs": 13.795375,
+      "dur": 13.793,
+      "speech_start": 0.06,
+      "speech_end": 13.78,
+      "speech_dur": 13.72,
+      "f0_med": 128.0,
+      "f0_p10": 102.6,
+      "f0_p90": 173.9,
+      "f0_off_st": 2.6
+     },
+     {
+      "generated_voice_id": "wsnsRkBo3fRmnw5VGA2N",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V15/i1_p3.mp3",
+      "duration_secs": 14.997,
+      "dur": 14.994,
+      "speech_start": 0.12,
+      "speech_end": 14.98,
+      "speech_dur": 14.86,
+      "f0_med": 108.8,
+      "f0_p10": 90.4,
+      "f0_p90": 133.2,
+      "f0_off_st": -0.2
+     }
+    ]
+   }
+  ]
+ },
+ "V16": {
+  "name": "HS S1 V16",
+  "f0_target": 140,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3251,
+    "guidance": 5.0,
+    "description": "Man in his thirties, a short, round, well-groomed senior bank clerk. Smooth, oily light tenor; all courtesy, pleasant and smiling, with a faint condescension under the politeness. Clear, neutral, educated city accent with soft, precise consonants. He speaks lightly and quietly, as if to a friend across a desk. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Yes, Kett? ... It gets into everything, the damp. The paper, the ink, the ledgers, the clerks. One learns to blot, and to smile. Of course, sir. I'll have the column on your desk before noon, sir.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "p9FYeH4UQtU3fXHSofmn",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i1_p1.mp3",
+      "duration_secs": 16.6688125,
+      "dur": 16.666,
+      "speech_start": 0.02,
+      "speech_end": 16.58,
+      "speech_dur": 16.56,
+      "f0_med": 146.8,
+      "f0_p10": 118.5,
+      "f0_p90": 470.6,
+      "f0_off_st": 0.8
+     },
+     {
+      "generated_voice_id": "4RJ1AX4Mv4QjTQ64phEH",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i1_p2.mp3",
+      "duration_secs": 12.7505,
+      "dur": 12.748,
+      "speech_start": 0.08,
+      "speech_end": 12.74,
+      "speech_dur": 12.66,
+      "f0_med": 119.4,
+      "f0_p10": 87.9,
+      "f0_p90": 163.3,
+      "f0_off_st": -2.8
+     },
+     {
+      "generated_voice_id": "qoUN1QCqtlO2zCVv07KO",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i1_p3.mp3",
+      "duration_secs": 13.795375,
+      "dur": 13.793,
+      "speech_start": 0.06,
+      "speech_end": 13.78,
+      "speech_dur": 13.72,
+      "f0_med": 127.0,
+      "f0_p10": 100.1,
+      "f0_p90": 152.4,
+      "f0_off_st": -1.7
+     }
+    ]
+   },
+   {
+    "iter": 2,
+    "model": "eleven_ttv_v3",
+    "seed": 3252,
+    "guidance": 5.0,
+    "description": "Man in his thirties, a short, round, well-groomed senior bank clerk. Light, high, smooth tenor, oily and pleasant; all courtesy and smiles, with a faint condescension under the politeness. Clear, neutral, educated city accent with soft, precise consonants. He speaks lightly and quietly, as if to a friend across a desk. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "Yes, Kett? ... It gets into everything, the damp. The paper, the ink, the ledgers, the clerks. One learns to blot, and to smile. Of course, sir. I'll have the column on your desk before noon, sir.",
+    "credits": 569,
+    "previews": [
+     {
+      "generated_voice_id": "tluFNywYGYvhoP7jTV9J",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p1.mp3",
+      "duration_secs": 16.041875,
+      "dur": 16.039,
+      "speech_start": 0.08,
+      "speech_end": 16.02,
+      "speech_dur": 15.94,
+      "f0_med": 128.0,
+      "f0_p10": 93.0,
+      "f0_p90": 161.6,
+      "f0_off_st": -1.6
+     },
+     {
+      "generated_voice_id": "dyNeZENF5fQlqXA5g1uv",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p2.mp3",
+      "duration_secs": 17.557,
+      "dur": 17.554,
+      "speech_start": 0.08,
+      "speech_end": 17.54,
+      "speech_dur": 17.46,
+      "f0_med": 140.4,
+      "f0_p10": 105.3,
+      "f0_p90": 470.6,
+      "f0_off_st": 0.0
+     },
+     {
+      "generated_voice_id": "ezK9nLZpUgIsAhjVGvj1",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V16/i2_p3.mp3",
+      "duration_secs": 17.321875,
+      "dur": 17.319,
+      "speech_start": 0.1,
+      "speech_end": 17.22,
+      "speech_dur": 17.12,
+      "f0_med": 144.8,
+      "f0_p10": 90.3,
+      "f0_p90": 457.1,
+      "f0_off_st": 0.6
+     }
+    ]
+   }
+  ]
+ },
+ "V17": {
+  "name": "HS S1 V17",
+  "f0_target": 125,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3261,
+    "guidance": 5.0,
+    "description": "Man in his sixties, a palace steward who announces ceremonies. Measured, resonant mid-range voice, formal and impersonal, reciting a formula he has said every year of his life; refined court accent with long rounded vowels, unhurried and faintly sing-song, projecting to a large hall without effort. Clean studio recording, close microphone, no background noise, no music.",
+    "text": "The tithe cup. First the taster. Then the Helm. Then the guest of the reading. ... Be upstanding, my lords and ladies, for the reading of the Tithe Map. The hall will keep silence until the Helm has signed.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "3IeVnlQ7Cn67uf7nTumG",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p1.mp3",
+      "duration_secs": 22.0500625,
+      "dur": 22.047,
+      "speech_start": 0.08,
+      "speech_end": 22.04,
+      "speech_dur": 21.96,
+      "f0_med": 164.9,
+      "f0_p10": 124.0,
+      "f0_p90": 202.5,
+      "f0_off_st": 4.8
+     },
+     {
+      "generated_voice_id": "SFW17WFxzWHDITmtbsIm",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p2.mp3",
+      "duration_secs": 28.032125,
+      "dur": 28.029,
+      "speech_start": 0.12,
+      "speech_end": 28.02,
+      "speech_dur": 27.9,
+      "f0_med": 152.4,
+      "f0_p10": 101.4,
+      "f0_p90": 362.0,
+      "f0_off_st": 3.4
+     },
+     {
+      "generated_voice_id": "vm9sMv0OHshWuPzHXlA0",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/V17/i1_p3.mp3",
+      "duration_secs": 22.677,
+      "dur": 22.674,
+      "speech_start": 0.1,
+      "speech_end": 22.66,
+      "speech_dur": 22.56,
+      "f0_med": 125.0,
+      "f0_p10": 76.9,
+      "f0_p90": 290.9,
+      "f0_off_st": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "NARR01": {
+  "name": "HS NARR A cand",
+  "f0_target": 115,
+  "iterations": [
+   {
+    "iter": 1,
+    "model": "eleven_ttv_v3",
+    "seed": 3271,
+    "guidance": 5.0,
+    "description": "Elderly man over eighty, a record-keeper reading aloud from an official chronicle. Dry, precise, papery voice in a light baritone range: not deep, not booming, no trailer-voice colour. A light natural hoarseness. Every consonant clear and every word finished; unhurried, about one hundred and ten words a minute. Neutral and archival, emotionally even: he reads entries, he does not tell stories, and only numbers and dates get the faintest satisfaction. Educated, old-fashioned neutral accent. Very close, dry microphone, no room, no reverb, no music.",
+    "text": "The Chronicle of the Dry Years. In the matter of the tithe, the following is set down, as written. Neveh Ashare. House Ilvane. Oshra. Highwater. The Ninth Sluice. ... The First Voices raised the Spires. They are not heard now. ... Of the nine Spires, eight still answered. One of the eight answered badly. ... Three hundred and twelve years, each with its tithe, and each balance carried forward. ... and the water kept its counsel.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "P4hGQ23xpaGC6UX6cQPc",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p1.mp3",
+      "duration_secs": 46.6835625,
+      "dur": 46.681,
+      "speech_start": 0.08,
+      "speech_end": 46.68,
+      "speech_dur": 46.6,
+      "f0_med": 99.4,
+      "f0_p10": 78.8,
+      "f0_p90": 355.6,
+      "f0_off_st": -2.5
+     },
+     {
+      "generated_voice_id": "Kq376vQT4X9raogOKEpK",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p2.mp3",
+      "duration_secs": 43.00025,
+      "dur": 42.998,
+      "speech_start": 0.02,
+      "speech_end": 42.92,
+      "speech_dur": 42.9,
+      "f0_med": 106.0,
+      "f0_p10": 72.7,
+      "f0_p90": 254.0,
+      "f0_off_st": -1.4
+     },
+     {
+      "generated_voice_id": "0VM0VcmGJXrspqGpXBbe",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i1_p3.mp3",
+      "duration_secs": 46.761875,
+      "dur": 46.759,
+      "speech_start": 0.02,
+      "speech_end": 46.74,
+      "speech_dur": 46.72,
+      "f0_med": 120.3,
+      "f0_p10": 85.5,
+      "f0_p90": 340.4,
+      "f0_off_st": 0.8
+     }
+    ]
+   },
+   {
+    "iter": 2,
+    "model": "eleven_ttv_v3",
+    "seed": 3272,
+    "guidance": 5.0,
+    "description": "Elderly man over eighty, a record-keeper reading aloud from an official chronicle. Dry, precise, papery voice in a light baritone range: not deep, not booming, no trailer-voice colour. A light natural hoarseness. Every consonant clear and every word finished; unhurried, about one hundred and ten words a minute. Neutral and archival, emotionally even: he reads entries, he does not tell stories, and only numbers and dates get the faintest satisfaction. Educated, old-fashioned neutral accent. Very close, dry microphone, no room, no reverb, no music.",
+    "text": "The Chronicle of the Dry Years. In the matter of the tithe, the following is set down, as written. Neveh Ashare. House Ilvane. Oshra. Highwater. The Ninth Sluice. ... The First Voices raised the Spires. They are not heard now. ... Of the nine Spires, eight still answered. One of the eight answered badly. ... Three hundred and twelve years, each with its tithe, and each balance carried forward. ... and the water kept its counsel.",
+    "credits": 0,
+    "previews": [
+     {
+      "generated_voice_id": "d22lAK9H8TBFrJWAOr1g",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i2_p1.mp3",
+      "duration_secs": 39.081875,
+      "dur": 39.079,
+      "speech_start": 0.04,
+      "speech_end": 39.06,
+      "speech_dur": 39.02,
+      "f0_med": 131.1,
+      "f0_p10": 91.4,
+      "f0_p90": 301.9,
+      "f0_off_st": 2.3
+     },
+     {
+      "generated_voice_id": "y58a24ksWxpZ8vVIcfLC",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i2_p2.mp3",
+      "duration_secs": 46.84025,
+      "dur": 46.838,
+      "speech_start": 0.08,
+      "speech_end": 46.82,
+      "speech_dur": 46.74,
+      "f0_med": 108.8,
+      "f0_p10": 70.2,
+      "f0_p90": 201.0,
+      "f0_off_st": -1.0
+     },
+     {
+      "generated_voice_id": "jDdHffuKPhRjtYXNCWnL",
+      "file": "/home/user/my_work/output/S01E01/animatic/casting/NARR01/i2_p3.mp3",
+      "duration_secs": 43.00025,
+      "dur": 42.998,
+      "speech_start": 0.02,
+      "speech_end": 42.98,
+      "speech_dur": 42.96,
+      "f0_med": 126.0,
+      "f0_p10": 84.3,
+      "f0_p90": 432.4,
+      "f0_off_st": 1.6
      }
     ]
    }

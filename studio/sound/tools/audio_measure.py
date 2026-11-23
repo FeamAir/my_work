@@ -31,7 +31,7 @@ def trim_bounds(x, rel_db=-40.0, win=0.02):
     return idx[0] * win, (idx[-1] + 1) * win
 
 
-def f0_track(x, fmin=60, fmax=520, win=0.04, hop=0.01):
+def f0_track(x, fmin=60, fmax=520, win=0.05, hop=0.01):
     n, h = int(SR * win), int(SR * hop)
     lag_min, lag_max = int(SR / fmax), int(SR / fmin)
     peak = np.abs(x).max() + 1e-9
@@ -43,7 +43,7 @@ def f0_track(x, fmin=60, fmax=520, win=0.04, hop=0.01):
         ac = np.correlate(fr, fr, "full")[n - 1:]
         if ac[0] <= 0:
             continue
-        ac = ac / ac[0]
+        ac = ac / ac[0] * n / (n - np.arange(n))   # unbiased: no penalty for long lags
         seg = ac[lag_min:lag_max]
         k = int(np.argmax(seg))
         if seg[k] < 0.5:

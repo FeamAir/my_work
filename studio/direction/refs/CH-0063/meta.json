@@ -1,0 +1,36 @@
+{
+ "d1": {
+  "prompt": "[ID: JUNO] young woman of 19, short and plump, kitchen-pale skin; auburn hair tucked under a white taster's coif, only a few strands visible; eyes: green-brown, nervous; outfit: plain grey palace servant's dress with a white apron; a small silver taster's spoon on a chain at her chest. Exactly two views side by side: 1) waist-up three-quarter portrait with a polite nervous neutral face, mouth closed; 2) full-body front view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible hair beyond a few auburn strands, jewellery.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 388877,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "[ID: JUNO] young woman of 19, short and plump, kitchen-pale skin; auburn hair tucked under a white taster's coif, only a few strands visible; eyes: green-brown, nervous; outfit: plain grey palace servant's dress with a white apron; a small silver taster's spoon on a chain at her chest. Exactly two views side by side: 1) waist-up three-quarter portrait with a polite nervous neutral face, mouth closed; 2) full-body front view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible hair beyond a few auburn strands, jewellery.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 501139,
+  "status": "ok"
+ },
+ "d3": {
+  "prompt": "[ID: JUNO] young woman of 19, short and plump, kitchen-pale skin; auburn hair tucked under a white taster's coif, only a few strands visible; eyes: green-brown, nervous; outfit: plain grey palace servant's dress with a white apron; a small silver taster's spoon on a chain at her chest. Exactly two views side by side: 1) waist-up three-quarter portrait with a polite nervous neutral face, mouth closed; 2) full-body front view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible hair beyond a few auburn strands, jewellery.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 882124,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout, poses and design. Fix: the small silver taster's spoon hangs on its chain at the chest; only a few auburn strands show under the white coif. [ID: JUNO] young woman of 19, short and plump, kitchen-pale skin; auburn hair tucked under a white taster's coif, only a few strands visible; eyes: green-brown, nervous; outfit: plain grey palace servant's dress with a white apron; a small silver taster's spoon on a chain at her chest. Exactly two views side by side: 1) waist-up three-quarter portrait with a polite nervous neutral face, mouth closed; 2) full-body front view. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: visible hair beyond a few auburn strands, jewellery.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0063/d3.png"
+  ],
+  "aspect": "16:9",
+  "seed": 586930,
+  "status": "ok"
+ }
+}
