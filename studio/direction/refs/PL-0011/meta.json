@@ -1,0 +1,84 @@
+{
+ "d_L1_1": {
+  "prompt": "Long view down a great silent counting hall of black stone: rows and rows of identical tall standing desks receding into depth, each with an open ledger and a small glass of water, a felt-covered floor, high clerestory windows on the left letting in warm light, pinkish copper fittings and copper doors, a high desk on a step at the far end, a small brass cage holding a dark stone mounted on the far wall, a copper balance above the far door. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 736391,
+  "status": "ok"
+ },
+ "d_L1_2": {
+  "prompt": "Long view down a great silent counting hall of black stone: rows and rows of identical tall standing desks receding into depth, each with an open ledger and a small glass of water, a felt-covered floor, high clerestory windows on the left letting in warm light, pinkish copper fittings and copper doors, a high desk on a step at the far end, a small brass cage holding a dark stone mounted on the far wall, a copper balance above the far door. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 35542,
+  "status": "ok"
+ },
+ "d_L1_3": {
+  "prompt": "Long view down a great silent counting hall of black stone: rows and rows of identical tall standing desks receding into depth, each with an open ledger and a small glass of water, a felt-covered floor, high clerestory windows on the left letting in warm light, pinkish copper fittings and copper doors, a high desk on a step at the far end, a small brass cage holding a dark stone mounted on the far wall, a copper balance above the far door. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 104393,
+  "status": "ok"
+ },
+ "d_L1_4": {
+  "prompt": "Long view down a great silent counting hall of black stone: rows and rows of identical tall standing desks receding into depth, each with an open ledger and a small glass of water, a felt-covered floor, high clerestory windows on the left letting in warm light, pinkish copper fittings and copper doors, a high desk on a step at the far end, a small brass cage holding a dark stone mounted on the far wall, a copper balance above the far door. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 175393,
+  "status": "ok"
+ },
+ "f_L1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: full-bleed 16:9 with no black bars; the floor is grey felt; the small brass cage with a dark stone is mounted high on the far wall; the far high desk stands on a step; no people. Long view down a great silent counting hall of black stone: rows and rows of identical tall standing desks receding into depth, each with an open ledger and a small glass of water, a felt-covered floor, high clerestory windows on the left letting in warm light, pinkish copper fittings and copper doors, a high desk on a step at the far end, a small brass cage holding a dark stone mounted on the far wall, a copper balance above the far door. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0011/d_L1_2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 832682,
+  "status": "ok"
+ },
+ "f_L2": {
+  "prompt": "Use the location from image 1 exactly: same black stone hall, felt floor, standing desks, copper fittings, clerestory windows. New camera position: at the far end of the hall facing the high desk on its step: a tall dark desk with an inkstand and a closed ledger, behind it the black stone wall with a small brass cage holding a fist-sized faceted dark stone mounted high on the wall, a bronze evening-count bell hanging to one side, a copper balance above the door. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0011/f_L1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 524948,
+  "status": "ok"
+ },
+ "f_L1_evening": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the light to: toward evening: the sun lower, deep amber light beams reaching far across the desks, longer shadows, the far end of the hall dimmer. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0011/f_L1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 488323,
+  "status": "ok"
+ },
+ "f_L1_dusk": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the light to: dusk: the clerestory windows glow peach and violet, the hall in cool blue shadow, a few small oil lamps lit on the desks. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0011/f_L1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 768295,
+  "status": "ok"
+ },
+ "f_L2b": {
+  "prompt": "Use image 1 only as the material and colour reference (black stone, copper fittings, felt floor, warm clerestory light). New, different camera: a frontal medium shot standing close in front of the HIGH DESK at the far end of the hall: the tall dark wooden desk on a raised step fills the lower half of the frame, an inkstand and a closed ledger on it, behind it a plain black stone wall; mounted high on that wall, centred above the desk, a small ornate brass cage holding one fist-sized faceted black stone; to one side a bronze bell hanging from a bracket; above a copper-clad door at the side a copper balance with a level beam; no rows of desks visible. warm low late-afternoon sun from the west over the sea, long shadows pointing east, golden light. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9, no black bars. Avoid also: long view down the hall, rows of desks.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0011/f_L1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 81675,
+  "status": "ok"
+ }
+}

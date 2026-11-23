@@ -1,0 +1,36 @@
+{
+ "d1": {
+  "prompt": "[ID: FOSSETT] man of 30, short and round, pink complexion; pomaded chestnut hair with a sharp centre parting; small pleasant eyes; outfit: long light ash-grey clerk's coat, white stock, spotless WHITE sleeve-guards, a small copper pin on the lapel. Exactly two views side by side: 1) waist-up three-quarter portrait with a pleasant bland smile, mouth closed; 2) full-body back view standing at a tall standing desk. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: spectacles, ink stains, black sleeve-guards, tall figure.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 573214,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "[ID: FOSSETT] man of 30, short and round, pink complexion; pomaded chestnut hair with a sharp centre parting; small pleasant eyes; outfit: long light ash-grey clerk's coat, white stock, spotless WHITE sleeve-guards, a small copper pin on the lapel. Exactly two views side by side: 1) waist-up three-quarter portrait with a pleasant bland smile, mouth closed; 2) full-body back view standing at a tall standing desk. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: spectacles, ink stains, black sleeve-guards, tall figure.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 654609,
+  "status": "ok"
+ },
+ "d3": {
+  "prompt": "[ID: FOSSETT] man of 30, short and round, pink complexion; pomaded chestnut hair with a sharp centre parting; small pleasant eyes; outfit: long light ash-grey clerk's coat, white stock, spotless WHITE sleeve-guards, a small copper pin on the lapel. Exactly two views side by side: 1) waist-up three-quarter portrait with a pleasant bland smile, mouth closed; 2) full-body back view standing at a tall standing desk. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: spectacles, ink stains, black sleeve-guards, tall figure.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 372246,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: spotless WHITE sleeve-guards visible in both views; sharp centre parting; small copper pin on the lapel; short and round. [ID: FOSSETT] man of 30, short and round, pink complexion; pomaded chestnut hair with a sharp centre parting; small pleasant eyes; outfit: long light ash-grey clerk's coat, white stock, spotless WHITE sleeve-guards, a small copper pin on the lapel. Exactly two views side by side: 1) waist-up three-quarter portrait with a pleasant bland smile, mouth closed; 2) full-body back view standing at a tall standing desk. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, character model sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all figures at the same scale and evenly spaced, full body fully visible, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: spectacles, ink stains, black sleeve-guards, tall figure.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/CH-0055/d3.png"
+  ],
+  "aspect": "16:9",
+  "seed": 480328,
+  "status": "ok"
+ }
+}

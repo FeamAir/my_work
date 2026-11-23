@@ -1,0 +1,38 @@
+{
+ "d1": {
+  "prompt": "Prop reference: an open ledger book seen from directly above on a dark wooden desk, two cream pages with ruled columns in faded red and blue ink, neat handwriting-like ink scribbles that are illegible and contain no real letters or numbers, one heading line left blank at the top of the left page, a clear empty box for a carried figure at the bottom of each page, an ivory page-turning blade lying across the gutter, flat even light. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: readable text, real numbers, letters, photorealism.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 719383,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Prop reference: an open ledger book seen from directly above on a dark wooden desk, two cream pages with ruled columns in faded red and blue ink, neat handwriting-like ink scribbles that are illegible and contain no real letters or numbers, one heading line left blank at the top of the left page, a clear empty box for a carried figure at the bottom of each page, an ivory page-turning blade lying across the gutter, flat even light. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: readable text, real numbers, letters, photorealism.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 122600,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: every scribble must be illegible wavy ink marks with no real letters or digits; the heading line at the top of the left page is blank; a clear empty ruled box at the bottom of each page; an ivory page-turning blade lies across the gutter. Prop reference: an open ledger book seen from directly above on a dark wooden desk, two cream pages with ruled columns in faded red and blue ink, neat handwriting-like ink scribbles that are illegible and contain no real letters or numbers, one heading line left blank at the top of the left page, a clear empty box for a carried figure at the bottom of each page, an ivory page-turning blade lying across the gutter, flat even light. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: readable text, real numbers, letters, photorealism.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-LEDGER/d2.png"
+  ],
+  "aspect": "16:9",
+  "seed": 314444,
+  "status": "ok"
+ },
+ "f2": {
+  "prompt": "Use image 1 exactly — the same open ledger, same desk, same layout of columns and boxes. Change only the handwriting-like scribbles to a different hand, slightly rounder and neater, still illegible with no real letters or digits; the boxes at the bottom stay empty. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy. Avoid: readable text, real numbers, letters.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-LEDGER/f1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 263478,
+  "status": "ok"
+ }
+}

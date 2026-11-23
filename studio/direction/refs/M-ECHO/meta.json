@@ -1,0 +1,28 @@
+{
+ "d1": {
+  "prompt": "Prop reference sheet: a fist-sized cut stone of black glassy rock with smooth worked facets, set in an ornate brass cage mounted on a wall bracket; a small blank hanging tag plate. Exactly three views: 1) front; 2) side; 3) a wall of identical small iron cradles with such stones in a grid. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: glow, cracks, cords, tiny size, writing on the tag.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 149007,
+  "status": "ok"
+ },
+ "d2": {
+  "prompt": "Prop reference sheet: a fist-sized cut stone of black glassy rock with smooth worked facets, set in an ornate brass cage mounted on a wall bracket; a small blank hanging tag plate. Exactly three views: 1) front; 2) side; 3) a wall of identical small iron cradles with such stones in a grid. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: glow, cracks, cords, tiny size, writing on the tag.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 396121,
+  "status": "ok"
+ },
+ "f1": {
+  "prompt": "Image 1 is the approved draft. Redraw it as the final reference at production quality, keeping its layout and design. Fix: the stone is black glassy rock with smooth cut facets, no glow, no crack; the cage is brass; the tag plate is blank. Prop reference sheet: a fist-sized cut stone of black glassy rock with smooth worked facets, set in an ornate brass cage mounted on a wall bracket; a small blank hanging tag plate. Exactly three views: 1) front; 2) side; 3) a wall of identical small iron cradles with such stones in a grid. 2D anime-style TV series still, original character and world design, clean cel-shaded characters with crisp thin dark blue-black ink outlines of slightly varying weight, flat color fills with two shadow tones, cool violet-blue shadows, restrained highlights only on eyes, hair, metal and wet surfaces, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, prop reference sheet, plain warm light-grey background, flat even neutral lighting, no cast shadows on the background, all views at a consistent scale and evenly spaced, no text, no labels, no frames. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: glow, cracks, cords, tiny size, writing on the tag.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/M-ECHO/d1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 251696,
+  "status": "ok"
+ }
+}
