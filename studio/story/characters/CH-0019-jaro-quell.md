@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L1 "The Second Lamp"** added: Jaro and Ruel Corvane are lovers since CY 305 (proposed **SEC-046**); S1 beats E4, E6, E8, E9, E12; the line drives his S2–S11 choices (blackmail, "both sides", the debt to Zev). Correction to *Voice*: he says "loyal" exactly once, to Ruel, in the S1E4 sample line. Lio under his protection (S2–S6) is **patronage only**. Machine block not changed (relation and secret numbers for the keeper).
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **DEC-86:** the "green sash" of S1E8 is the **Quell captains' green sash with the iron ring** (HS-005) over the sea-green long coat — formal house dress, not a new costume; from behind: long coat, sash knot with the iron ring at the left hip, dyed hair ends; the ring must not resemble the Quell token of E8. **DEC-87 (direction, not fixed lines):** "the Admiral" in public, never the given name on screen before S6E8; nothing on paper in S2–S5. **DEC-82:** "loyal" — once, fixed line of S01E04, never again. For consistency with DEC-77: new S4E12 row (SEC-047). Machine block not changed (`secrets` and "Usual clothes" in the canon record are the keeper's).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Quell (clans, election of captain-lords, family).
 
@@ -35,7 +37,7 @@ first_episode: S01E04
 - **Hair:** **shoulder-length dark hair with the ends dyed sea-green**, a **single bone ring braided in on the RIGHT side**.
 - **Eyes:** green-brown, laughing.
 - **Distinctive mark:** three small tattooed dots under the RIGHT eye (one per wreck he survived — proposal).
-- **Usual clothes and colours:** **sea-green long coat** with bone buttons, open over a bare-throated bone-white shirt, salt-stained boots. Main colour: sea-green.
+- **Usual clothes and colours:** **sea-green long coat** with bone buttons, open over a bare-throated bone-white shirt, salt-stained boots. Main colour: sea-green. **Formal (r8, DEC-86):** + the **Quell captains' green sash with the iron ring** (HS-005), knotted with the ring at the **LEFT hip**, over the long coat — house dress (S1E8: he comes from the procession's muster).
 - **Signature item:** a **green-glass wrecker's lantern lens** on a leather cord, worn as a pendant (the false lights of House Quell — he jokes that it is "a reminder to stay honest").
 - **Changes:** S9 the lens is missing (he throws it into the sea when he breaks with the movement — proposal); S11 back on.
 
@@ -43,7 +45,7 @@ first_episode: S01E04
 - **Voice character:** easy, lazy tenor; island drawl (long vowels, dropped endings); a laugh in it even when he threatens.
 - **Speech habits:** prices everything with a smile; quotes his house words as a joke and means them; switches sides mid-sentence and explains why it was always the same side.
 - **Catch-phrase:** "Calm is bought." (S1E4, with a grin)
-- **Never says:** "I promise"; "loyal" — **except once**, to Ruel, alone, in the stern gallery (S1E4 sample line below; r7). The one word he never uses is the one he gives the one man.
+- **Never says:** "I promise"; "loyal" — **except once**, to Ruel, alone, in the stern gallery (S1E4 sample line below — a **fixed line of S01E04**, DEC-82). After S1E4 no script gives him the word again, in any season, in earnest or in jest. The one word he never uses is the one he gives the one man.
 - **Sample line:** *"I'm loyal to whoever pays and respects me, Admiral. You're halfway there."*
 - **Delivery:** `[LIPSYNC-CU]` max 2 in S1 (E4, E12 vote); ≤5 per season after.
 
@@ -75,6 +77,7 @@ Elected captain-lord by the island clans for luck and nerve. Natural friend of C
 | S2E10–E12 | Maren learns SEC-046 from Ysa; he becomes the nearest thing to family she has left and shelters her in exile | — |
 | S2E11 | Ysa gives the packet to Odo as her pledge | **blackmail**: Odo can unseat him at any moot |
 | S3–S5 | "trades with both sides" | now it has a cause; Maren reads it as a friend cooling |
+| S4E12 (r8) | after the Weir Terms he sees the purser leave the Admiral's cabin and reads it at a glance — he kept a second lamp for seven years. He says nothing (SEC-047, `CH-0019@S04E12`; DEC-77) | he now holds the one fact that could buy his letters back from the Listener — and through the five-year skip he does not sell it: "one thing he will not sell", found again |
 | S5E12→S6E2 | Zev Fennick sends the packet back **unopened** | free to back Maren in S6; owes Zev a debt |
 | S6E7–E8 | SEC-001 public: the man he loved was a poisoner; in the packet, Ruel's unsent note of Longdark 5: *"If I asked you to sail tomorrow and not ask why—"* | Ruel told his sister, not him |
 | S7E3 | stands witness for the bride at Maren's marriage to Zev and does not object | the debt to Zev paid |
@@ -82,9 +85,9 @@ Elected captain-lord by the island clans for luck and nerve. Natural friend of C
 | S10 | "neutral, for a price" — the price is not money (*restricted, sealed §12*) | — |
 | S11E8 | comes back to the losing side and dies | proposal for the S11 outline: two stern lamps going down at Lirenne |
 
-- **Speech:** the drawl and the price-tag jokes stay; the laugh goes out of the voice in **two places only** — at the rail (E8) and on the mole (E9), both without lines. After E9 his house words turn on himself: *"This one was paid for."* Proposal for the S2+ outlines: in public he goes on calling Ruel "the Admiral"; he never says the given name on screen before S6E8.
-- **Behaviour:** he gestures with the maimed **left** hand on purpose — and with Ruel he reaches for Ruel's left hand and is refused it. At the wake he takes the **right**. In S2–S5 he burns no letters and writes none (proposal): a man who has been blackmailed once keeps nothing on paper.
-- **Look note (E8 object shot):** identified from behind only — sea-green long coat, sea-green dyed hair ends, the bone ring on the RIGHT; the outline's "green sash" is read as his sea-green coat/sash at night (no new costume). The second stern lamp is a *Patient Gull* set prop (E4, E8, E9).
+- **Speech:** the drawl and the price-tag jokes stay; the laugh goes out of the voice in **two places only** — at the rail (E8) and on the mole (E9), both without lines. After E9 his house words turn on himself: *"This one was paid for."* **Accepted as direction (r8, DEC-87):** in public he goes on calling Ruel "the Admiral"; he never says the given name on screen before S6E8.
+- **Behaviour:** he gestures with the maimed **left** hand on purpose — and with Ruel he reaches for Ruel's left hand and is refused it. At the wake he takes the **right**. In S2–S5 he burns no letters and writes none (**accepted as direction, r8 DEC-87**): a man who has been blackmailed once keeps nothing on paper.
+- **Look note (E8 object shot):** identified from behind only by three things (r8, DEC-86): the **sea-green long coat**, the **sash knot with the iron ring at the LEFT hip** (the Quell captains' green sash, HS-005 — formal house dress, not a new costume; no new reference image), the **sea-green dyed hair ends**. **Guard:** the sash's iron ring must not look like the "Quell token" that falls from the assassin's hand in the same episode. The second stern lamp is a *Patient Gull* set prop (E4, E8, E9).
 - **Never romantic:** his protection of **Lio** (S2–S6) is patronage only (romance_lines §0.3).
 
 ## Arc by season

@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L5 "The Voice"** added (with Brother Elm; proposed **SEC-049**, the cut pages). S1 = **seed only** (E11: he teaches her her own name and never speaks aloud); feeling from S2 (19). She is also the witness of the second lamp (S1E4). Machine block not changed.
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **DEC-87:** private L5 signs flagged in the sign glossary — accepted (the keeper marks them when the S2 sign list is made). For consistency with DEC-80: Elm's "yes" in S4E10 means only what he knew from S2E10 (gleaned, Lows, the lullaby — not who). Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon
@@ -83,7 +85,7 @@ In S1 she serves the Sluice Spire nightly, notices that the Choir's novices incl
 | S4E11 | she dies | — |
 | after death | S5E6 he cuts out the journal pages that name him and cannot burn her handwriting; S7E7 the pages are found in his cell | the Choir's proof against him is her love of him, in her own hand |
 
-- **Speech and behaviour:** she "never lies — she withholds"; he does the same to her, and that symmetry is the line's wound. Her signs grow **bigger** in anger — in S4E10 they grow **smaller**: the answer is a hand closed over his, not a sign. Private signs used only with Elm are marked *"private (L5)"* in the sign glossary (proposal) and are never subtitled as love — subtitles give only their literal meaning.
+- **Speech and behaviour:** she "never lies — she withholds"; he does the same to her, and that symmetry is the line's wound. Her signs grow **bigger** in anger — in S4E10 they grow **smaller**: the answer is a hand closed over his, not a sign. Private signs used only with Elm are marked *"private (L5)"* in the sign glossary (**accepted, r8 DEC-87** — the keeper adds a `private: L5` note when the S2 sign list is made) and are never subtitled as love — subtitles give only their literal meaning.
 - **Journal:** the voice of the love is the journal, not the screen; the cut pages are its only full statement (keeper: custody of the pages follows Elm, then the Choir).
 - **Staging:** hands in frame, foreheads, silhouettes; no lip-sync (she has none after E10 anyway).
 

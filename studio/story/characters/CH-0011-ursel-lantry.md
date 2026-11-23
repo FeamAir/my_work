@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — A "A Beautiful Hand"** added: she and the clerk Teodor Kett were lovers (CY 291–296; proposed **SEC-050**); the ledger-clip she gives Hollis was Teodor's. S1 direction: E11 her fingers go to the empty sleeve on "a beautiful hand". No fact of the dossier changes. Machine block not changed.
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **DEC-87:** her hand to the empty sleeve — twice in the saga and no more: S1E11 and S6E8. Accepted. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon
@@ -65,7 +67,7 @@ In S1 she buys early news from relay-keeper Bede Lark — that Ruel knows of the
 - **The clip:** the brass ledger-clip she takes from her sleeve in S1E1 was **Teodor's**; she has carried it sixteen years (CY 296 → 312). *"A clerk who is trusted gets a clip"* is, on a rewatch, a sentence about him. The pilot needs no change — Hollis already picks it up "as one picks up something warm".
 - **Key beats:** S1E1 the clip · S1E11 *"His father had a beautiful hand."* — direction (r7): her fingers go to the **empty sleeve** the clip came from · S4E6 the "second document in his father's hand" that Hollis puts away unread is a letter that begins *"U. —"* · **S6E8** SEC-006 revealed: Hollis learns what his father was to her. The line gives her S6 POV season its heart.
 - **Speech:** she never says the name **Teodor** — now read as a lover's silence, not only a murderer's. Endearments are her weapons with everyone except Hollis; with him "my dear" is the only true thing she says (proposal).
-- **Behaviour:** the hand that touches the empty sleeve is the only unguarded gesture of a very still woman — keep it to two moments in the saga (S1E11 and S6E8, proposal). The copper widow's ring on the right hand is her husband's; nothing of Teodor's is worn — only carried.
+- **Behaviour:** the hand that touches the empty sleeve is the only unguarded gesture of a very still woman — keep it to two moments in the saga (S1E11 and S6E8 — **accepted, r8 DEC-87**; no more). The copper widow's ring on the right hand is her husband's; nothing of Teodor's is worn — only carried.
 
 ## Arc by season
 | Season | Where they are | What they do | State at season end |

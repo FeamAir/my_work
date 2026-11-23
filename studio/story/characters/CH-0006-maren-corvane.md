@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love lines** added: **L2** "The Clerk and the Admiral" with Hollis Kett (proposed **SEC-047**; S1 = seeds only, feeling from S2) and **L3** "The Paper Marriage" with Zev Fennick (S7; terms proposed **SEC-048**). L1 reaches her in S2E10 (SEC-046). Her arc limit stays S8; L2 after S6 is *restricted — sealed §12*. Machine block not changed.
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **DEC-84:** the reference lines after S8 stay only inside "Love lines", **verbatim** from `romance_lines.md` §2 L3, marked *for reference only*, facts only (S9E12 consort and no heir; S10–S11 the cadet line courted; S12E11 the marriage ends with her death) — no motive, no inner life, no scene. The arc table stays `sealed` after S8; the L2 row "S7 → S12: restricted" is not expanded. **DEC-87:** the second column of the ledger-letters — accepted. For consistency with Part 7: the Whitlow proof is **S3E6** (flags struck — dismissed). Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Arc limit:** written up to **S8**. After S8: `sealed` (death S12E11 is fixed by the frame; circumstances are not mine).
 
@@ -69,7 +71,7 @@ Only child of Ruel Corvane; a junior naval officer by choice, raised on decks mo
 | S1E11 | he gives her the page. *"You could have burned it." — "Twice, by now."* She hides page and ring | the first thing between them is a truth he would not bury and she did |
 | S2 | she is on the blockade, he is hidden in the Undertow; proofs travel by Undertow boat as ledger entries — the entries grow a second column that is not accounts | the letters carry SEC-015 and SEC-013 to the fleet |
 | S2E11 | after the Sluice Gates: his letter with the names of her father's killers — the first letter with no columns in it | defeated and loved in the same hour |
-| S3 | the pardon brings him aboard as "purser of Corvane"; he proves the powder fraud on the **Whitlow** flag-captains — her dead mother's family — and she breaks them on a clerk's word | the fleet learns that the purser has the Admiral's ear; Nell Tern learns why |
+| S3 | the pardon brings him aboard as "purser of Corvane"; he proves the powder fraud on the **Whitlow** flag-captains — her dead mother's family — and she breaks them on a clerk's word (**S3E6**, r8: "breaks" = strips them of their flags — dismissed, not hanged) | the fleet learns that the purser has the Admiral's ear; Nell Tern learns why (S3E6) |
 | S4E12 | after Ione's death and the Weir Terms: the **first kiss** — and, in the same scene, she asks him to go into Odo's treasury | her way of loving, stated once |
 | skip | five years of a secret kept across the enemy's house | — |
 | S5 | they meet rarely and badly; E11 he kills Odo; E12 *"I never asked you." — "No. You never do."* | the deed she needed and could not order sits between them |
@@ -84,12 +86,12 @@ S2E9 she learns of the wrecker silver and thinks she has understood the friendsh
 ### L3 — "The Paper Marriage" (with Lord Zev Fennick) — S7, a marriage of state against feeling
 - **Terms (public):** S7 (CY 322), she is 29, he 24. Betrothal S7E2, marriage **S7E3** in the Ring, without a song. The Relay is sworn to the Helm for her wars and stays in Fennick's keeping; the consort keeps the Listening House and the Hearings; **they do not share a roof**. Corvane and Fennick have been enemies since CY 251 — the marriage closes the Helm's War on paper. She has bought every vote with something; Fennick she buys with her hand. The secret terms (proposed SEC-048) are not in my brief.
 - **What it is:** never a love and never becomes one. Both are honest about what it is, and that honesty is the nearest thing to warmth in it — two people who each lost a father to the chair.
-- **Beats:** S7E3 Jaro stands witness and does not object · S7E4–E5 the consort, as Master of the Hearings, rules against her convenience (the Kilbride suit) · *beyond this dossier's arc limit, for reference only:* S9E12 crowned with a consort and **no heir**; S10–S11 the cadet line (Corvane of the Roads) becomes the lever against her; the marriage ends with her death (S12E11); Zev survives.
+- **Beats:** S7E3 Jaro stands witness and does not object · S7E4–E5 the consort, as Master of the Hearings, rules against her convenience (the Kilbride suit) · *For reference only — beyond this dossier's arc limit; facts only, verbatim from `romance_lines.md` §2 L3 (r8, DEC-84):* S9E12 — "the coronation: the Sovereign has a consort and **no heir**" · S10–S11 — "the heir-presumptive is the cadet line, Corvane of the Roads; every faction courts it" · "It ends with her death (S12E11). Zev survives." No motive, no inner life, no scene is written for her after S8 here.
 
 ### How the lines change her speech and behaviour
-- **With Hollis she lets the silence stand** — the one person for whom "she never fills a silence" becomes a kind of trust: she waits for his figure. Her orders do not soften; she **orders and loves in the same sentence** (S4E12). Through S6 she never says the words of love on screen; the second column of the S2 letters says them for her (proposal for the S2 outline: the column is written in his hand, answered in hers as "received" — her only reply).
+- **With Hollis she lets the silence stand** — the one person for whom "she never fills a silence" becomes a kind of trust: she waits for his figure. Her orders do not soften; she **orders and loves in the same sentence** (S4E12). Through S6 she never says the words of love on screen; the second column of the S2 letters says them for her (the second column — **accepted, r8 DEC-87**; proposal for the S2 outline: the column is written in his hand, answered in hers as "received" — her only reply).
 - **The page and the ring** are the props of the line: hidden together in S1E11; the page she asks him to cut in S6E7; the ring goes on at S6E12.
-- **With Zev:** plain, contractual, courteous; no endearments, no lies. Their scenes are played across a table or a Ring rail, never across a doorway.
+- **With Zev:** plain, contractual, courteous; no endearments, no lies. Their scenes are played across a table or a Ring rail, never across a doorway. Zev's old stammer is not a tell of L3 and is never played as warmth (r8, DEC-87).
 - **Staging:** letters, hands, the ring; two-shots from behind. Her S1 `[LIPSYNC-CU]` budget is unchanged (the E7/E11 seed exchanges are two-shots).
 
 ## Arc by season

@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — C "The Other Thing"** added (with Lord Aurin; no new fact — a reading of existing ones). S1 direction: E3, at the rinse, Aurin stands in the doorway and does not come in. Machine block not changed.
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **DEC-85:** the dead child is named — **Ilse Ilvane, CH-0068**, Cressa's own daughter, dead at two months in CY 294-04, buried secretly at Pale Crag (EV-0257). In Cressa's mouth the name is **never spoken in S1–S3** and **once in S4** (the episode is set with the S4 outline). Line C reads "between two graves — Ilse's and Cressa's"; Cressa's burial beside the infant grave is a proposal for the S6 outline, not canon. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Ilvane's tree and Cressa's birth-house.
 
@@ -27,7 +29,7 @@ secrets: [SEC-004, SEC-005]
 status_track: [S01E03:alive, S06E12:dead]
 first_episode: S01E03
 ```
-<!-- First seen S1E3 (proposal: at the rinse scene, she pours the water — mirrored by S4E1 when she pours it away). Main from S4. Murdered by the Choir, S6E12 (CY 321). Her own baby (unnamed, died CY 294) is buried at Pale Crag — a minor record may be needed for the grave (keeper's choice). Relation to Ione lives in CH-0002 (mother field); spouse (Aurin) and ally (Silt) live in the lower-ID records CH-0020 and CH-0014. -->
+<!-- First seen S1E3 (proposal: at the rinse scene, she pours the water — mirrored by S4E1 when she pours it away). Main from S4. Murdered by the Choir, S6E12 (CY 321). Her own baby — **Ilse Ilvane, CH-0068** (r8, DEC-85), dead at two months in CY 294-04 — is buried secretly at Pale Crag (EV-0257; the infant grave is the S2 clue). Proposal held for the S6 outline, not canon: Cressa is buried beside her. Relation to Ione lives in CH-0002 (mother field); spouse (Aurin) and ally (Silt) live in the lower-ID records CH-0020 and CH-0014. -->
 
 ## Look (story-level, for the art team)
 - **Age band and build:** woman of 40; slender, soft-shouldered, a stillness that looks like calm and is grief.
@@ -36,14 +38,14 @@ first_episode: S01E03
 - **Eyes:** grey, red-rimmed easily.
 - **Distinctive mark:** none.
 - **Usual clothes and colours:** **lavender-grey** gowns (Ilvane palette, but greyed — never Ione's white). Main colour: lavender-grey.
-- **Signature item:** a **child's silver teething-ring on a fine chain** at her throat — her own dead baby's.
+- **Signature item:** a **child's silver teething-ring on a fine chain** at her throat — her own dead baby's: **Ilse's** (r8).
 - **Changes:** S5: plain grey travelling coat over the gown when she goes into the Lows; S6 the teething-ring is in her hand when she is found (proposal).
 
 ## Voice (for the sound team)
 - **Voice character:** soft, low mezzo; well-bred Pale Crag diction; she speaks slowly because she has learned that every sentence in that house is overheard.
 - **Speech habits:** S1–S3 courtly, careful; from S4 blunt, almost rude, as grief makes her brave. Fluent in Choir sign from S2 (Ione's first interpreter at home).
 - **Catch-phrase:** "She was mine. Both of them were mine."
-- **Never says:** "my daughter's real mother"; the word "foundling".
+- **Never says:** "my daughter's real mother"; the word "foundling"; **the name "Ilse" in S1–S3** — she speaks it **once in S4** (the episode is set with the S4 outline; r8, DEC-85).
 - **Sample line:** *"I buried one child and was handed another, and I asked nothing. That was my sin. I am asking now."*
 - **Delivery:** `[LIPSYNC-CU]` ≤1 in S1–S3; ≤5 per season S4–S6.
 
@@ -54,15 +56,15 @@ first_episode: S01E03
 - **Heroism:** she **publishes** — Ione's journal, the Gleaner rolls and Silt's ledger (S5E6) — and is murdered for it.
 
 ## Biography
-Married into House Ilvane (birth-house: writer-houses), wife of Lord Aurin. Her own baby died in CY 294 and was buried at Pale Crag. In CY 295, after the Night of Still Water, the Choir placed a child in her nursery and she was told to call it her own. She did, and loved it. **What she knew in CY 295** — proposal: she knew her baby was dead and that the child was "a foundling of the Choir"; she did **not** know the child had a living mother in the Lows. Lead to confirm (it decides how S4 plays).
+Married into House Ilvane (birth-house: writer-houses), wife of Lord Aurin. Her own baby, **Ilse** (CH-0068), died at two months in CY 294-04 and was buried secretly at Pale Crag (EV-0257). In CY 295, after the Night of Still Water, the Choir placed a child in her nursery and she was told to call it her own. She did, and loved it. **What she knew in CY 295** — proposal: she knew her baby was dead and that the child was "a foundling of the Choir"; she did **not** know the child had a living mother in the Lows. Lead to confirm (it decides how S4 plays).
 
 She gives Ione the weekly rinse herself (S1E3, proposal). In S2 she learns Choir sign to talk to her mute daughter. In S3 she watches Vesna confine Ione at Pale Crag and does nothing. In S4 she pours the rinse away (E1) and investigates with Ione and Mother Silt; Ione dies in E11. In S5 Aurin gives her the Gleaner rolls; she publishes them with Ione's journal and Silt's ledger (E6, SEC-005). In S6 the Choir murders her (E12).
 
 ## Love line — C "The Other Thing" (Revision r7)
 *Both adults (Aurin 44, Cressa 40 in S1). S1E3 → S6E12 → S12. No new fact: only the reading of existing ones.*
 
-- **What it is:** a cloister marriage ("keep the blood true") — twenty years of courtesy over a dead child and a borrowed one. It becomes a marriage **only after Ione's death**: in S5 Aurin gives her the Gleaner rolls — the first thing he has ever done **for her and against his mother**. She publishes; she is murdered (S6E12); he is shut in Pale Crag "for his nerves" (S6–S9). The arranged marriage turns into love too late.
-- **Key beats:** S1E3 the rinse — Aurin stands in the doorway and **does not come in** (direction only) · S4 she is blunt with everyone, him included · S5 the rolls · S5E6 she publishes · S6E12 murdered · S12 his decision for Pale Crag is made "between two graves" (romance_lines §3 C).
+- **What it is:** a cloister marriage ("keep the blood true") — twenty years of courtesy over a dead child (Ilse) and a borrowed one. It becomes a marriage **only after Ione's death**: in S5 Aurin gives her the Gleaner rolls — the first thing he has ever done **for her and against his mother**. She publishes; she is murdered (S6E12); he is shut in Pale Crag "for his nerves" (S6–S9). The arranged marriage turns into love too late.
+- **Key beats:** S1E3 the rinse — Aurin stands in the doorway and **does not come in** (direction only) · S4 she is blunt with everyone, him included · S5 the rolls · S5E6 she publishes · S6E12 murdered · S12 his decision for Pale Crag is made "between two graves — Ilse's and Cressa's" (romance_lines §3 C, r8).
 - **Speech and behaviour:** S1–S3 courtly and careful with him — two people who know every sentence is overheard. From S5, proposal: she lets him **see her sign** (she learned it for Ione) and teaches him a few signs; the only private language of their marriage is their dead daughter's. The teething-ring at her throat is never touched in his presence before S5 (proposal).
 - **Staging:** doorways (he stands in them; from S5 he comes through one).
 

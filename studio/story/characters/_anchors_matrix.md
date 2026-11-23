@@ -2,7 +2,9 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a **working sheet** for the director and the concept artist; the colour and silhouette separations of §3 are approved (DEC-60). Renames: Tuck (ex Nim). To be confirmed at the style test.
 
-> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** Sibby Roan added to §2a (shown from behind only). Two continuity rules for love scenes: **Ruel gives Jaro the RIGHT hand, never the ringed LEFT** (S1E4, E6, E9); Jaro in the S1E8 object shot is read from behind by the sea-green coat and the sea-green hair ends.
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** Wren Roan (named "Sibby" until r8) added to §2a (shown from behind only). Two continuity rules for love scenes: **Ruel gives Jaro the RIGHT hand, never the ringed LEFT** (S1E4, E6, E9); Jaro in the S1E8 object shot is read from behind by the sea-green coat and the sea-green hair ends.
+
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **Rename (DEC-79):** Sibby Roan → **Wren Roan** (CH-0079); look accepted as drafted — back only, no face reference (DEC-87). **DEC-86 — Jaro in the S1E8 object shot:** the "green sash" is **not a new costume** but the **Quell captains' green sash with the iron ring** (HS-005), worn over the sea-green long coat as formal house dress. From behind he is read by three things: **the long coat, the sash knot with the iron ring at the LEFT hip, the dyed hair ends.** Line for Jaro's sheet: *"formal: + captains' sash, iron ring at the left hip"*; no new reference image. **Guard:** the sash's iron ring must not look like the "Quell token" that falls from the assassin's hand in the same episode (E8).
 
 Version 1.0 · 2026-11-22 · author: writer-characters · Story-level only: the director turns these into the fixed ID-blocks in `studio/direction/refs/<ID>/card.md`.
 Rule: every main hero has **a hair detail + a signature item**, side stated; no two main heroes on screen in the same season share a hair colour or main clothing colour. Conflicts that come from the frame files are listed at the end (questions for the lead/director, not fixed here).
@@ -37,7 +39,7 @@ People in the saga differ as in life — build, height, age, skin, faces of diff
 | CH-0011 | Ursel | small, upright, stick | iron-grey · tight coil · copper pins | black + copper | pince-nez on copper chain; scale-handled stick | copper widow's ring **RIGHT** | S1, S6 |
 | CH-0015 | Nan | tiny, hunched | hidden — indigo headscarf; white wisps | indigo | single spiral-shell earring **LEFT** | crooked **RIGHT** little finger | S1–S2 |
 | CH-0012 | Vesna | small, veiled, still | white, under veil — **face never shown** | violet veil; linen/white mantle | silver rings on every finger of the **RIGHT** (signing) hand | five taps | S1 (veiled, no face ref) |
-| CH-0019 | Jaro | tall, lanky, left hand two fingers short | dark, shoulder-length · **ends dyed sea-green** · bone ring braided **RIGHT** | sea-green long coat | green-glass wrecker's lens pendant | three dots under **RIGHT** eye | S2, S6, S9, S11 |
+| CH-0019 | Jaro | tall, lanky, left hand two fingers short | dark, shoulder-length · **ends dyed sea-green** · bone ring braided **RIGHT** | sea-green long coat · *formal (r8, DEC-86): + captains' green sash, iron ring at the LEFT hip* | green-glass wrecker's lens pendant | three dots under **RIGHT** eye | S2, S6, S9, S11 |
 | CH-0018 | Brenna | very tall, rawboned | steel-grey · jaw-length · black-iron ring at **RIGHT** temple | black cuirass, rust lining | the Key of the Stair at her belt | notch in **LEFT** ear | S2–S3 |
 | CH-0022 | Elm | short, slight, head bowed | ash-brown · cropped · shaved tonsure band ear to ear | undyed linen | violet cord on **LEFT** wrist | — | S2–S8 |
 | CH-0013 | Tsura | tall, long-limbed, staff | shaved, sun-dark · blue kite-line tattoo from **LEFT** temple over crown (proposal) | sand-orange | copper ring **LEFT** ear; kite-spar staff | — | S3–S4, S7–S8, S11 |
@@ -61,7 +63,7 @@ People in the saga differ as in life — build, height, age, skin, faces of diff
 | Gant | big, soft, slow | tattooed wheel on the back of the skull | chained debt-book |
 | Tuck | narrow, twitchy | gold-capped front tooth | loupe on a cord |
 | Bede Lark | short, round-shouldered; **half-deaf in the RIGHT ear** from years beside ringing stones | wool muff over the right ear | keeper's tone-fork |
-| Sibby Roan (r7) | walker's build — strong calves, straight back; **shown from behind only on Corr's wheel, no face reference** | faded ochre headscarf knotted at the nape | walker's tally-cord at the waist |
+| Wren Roan (r7; CH-0079, renamed r8) | walker's build — strong calves, straight back; **shown from behind only on Corr's wheel, no face reference** | faded ochre headscarf knotted at the nape | walker's tally-cord at the waist |
 | Fitch | lean, upright, moves like a cat; olive skin he keeps out of the sun | knotted grey-shot black hair | hare-ear pin |
 | Widow Pruitt | tiny, quick | dyed-black ringlets, lace cap | ring of thirty keys |
 | Fossett | short and round | pomaded centre parting | spotless sleeve-guards |

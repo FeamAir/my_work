@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L5 "The Voice"** added (with Ione Ilvane; proposed **SEC-049**: the journal pages he cuts out in S5E6). S1 = seed only (E11). His need — *to be someone, not a mouth* — is paid by his last words in S8E9 (fixed line to be written with the S8 outline). Machine block not changed.
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **Director's corrections (DEC-87):** he watches Ione's face, not her hands — accepted; the Lows street-sign in his signing with her — accepted **with a limit**: not in S1, at most once a season from S2, each use reported to the keeper (a clue of SEC-012); private L5 signs flagged in the sign glossary. For consistency with **DEC-80:** from S2E10 his knowledge is partial (gleaned, Lows, the lullaby — not who); he is not a knower of SEC-004. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon
@@ -60,12 +62,12 @@ Officially a foundling of the Choir, gleaned young and raised at Pale Crag; chos
 
 - **Type:** unspoken love, compromised by a lie of omission; it ends with her death and then kills him.
 - **Partner:** **Ione Ilvane** (CH-0002). He is the first to speak to her after the voice is gone — in sign, S1E11.
-- **Motivation:** his work is to be a mouth for another person; with Ione, and only with her, he is **someone in sign before he is someone in voice**. That is why he loves her and why he cannot tell her the truth: from **S2E10** (the two notes she hums in her sleep) he knows what she is — a Lows child who carries the lullaby — and he keeps it from her, because his own place in the Choir depends on silence (SEC-012).
+- **Motivation:** his work is to be a mouth for another person; with Ione, and only with her, he is **someone in sign before he is someone in voice**. That is why he loves her and why he cannot tell her the truth: from **S2E10** (the two notes she hums in her sleep) he knows what she is — a Lows child who carries the lullaby — and he keeps it from her, because his own place in the Choir depends on silence (SEC-012). **Partial knowledge (r8, DEC-80):** from S2E10 he knows only that she is not Ilvane-born — a gleaned child of the Lows who carries the old lullaby; not her name, not her parents, not that she has a sister. He is **not** in `known_by` of SEC-004; his place inside SEC-012 lets him *suspect* more, and no script lets him confirm, name or act on it before S4E10. In S4E10 *"You knew."* and his *yes* mean exactly that and no more.
 
 | When | Beat | Consequence |
 |---|---|---|
 | S1E11 | he teaches her first sign — her own name — and does not speak aloud once in the scene | seed; the first time we see him silent by choice |
-| S2 | sign lessons; private words only the two of them use | — |
+| S2 | sign lessons; private words only the two of them use (flagged `private: L5` in the sign glossary when the S2 list is made — r8, DEC-87) | — |
 | S2E10 | the two notes; he goes pale | his silence begins |
 | S3 | Pale Crag: "small mercies" — he reads her journal to carry it out past the wardens | keeper of the journal |
 | S4E8 | helps the break-out; signs the spiral to Pell | exposed to one person |
@@ -75,8 +77,8 @@ Officially a foundling of the Choir, gleaned young and raised at Pale Crag; chos
 | S7E7 | Daro Vey catches him mistranslating — and finds the pages in his cell | the Choir's proof against him is her love, in her own hand |
 | S8E9 | executed; his last words are the first sentence he speaks aloud **as himself** in the saga | the need is paid |
 
-- **Speech:** as the Voice — third person, no contractions, as before. With Ione he **never voices** anyone; he signs as himself, and the faint Lows vowel of his own speech has a sign-equivalent (proposal: a Lows street gesture he lets slip only to her — the same slip, in hands).
-- **Behaviour:** he watches hands, not faces — **with Ione he watches her face** (proposal; a direction note for every scene of the two). After S4E11 the violet cord on his wrist stays; her cut pages are kept in his cell, never burned.
+- **Speech:** as the Voice — third person, no contractions, as before. With Ione he **never voices** anyone; he signs as himself, and the faint Lows vowel of his own speech has a sign-equivalent (**accepted with a limit, r8 DEC-87:** a Lows street gesture he lets slip only to her — the same slip, in hands — **not in S1, at most once a season from S2**, and each use is reported to the keeper, who logs it as a clue of SEC-012).
+- **Behaviour:** he watches hands, not faces — **with Ione he watches her face** (**accepted, r8 DEC-87**; a direction note for every scene of the two). After S4E11 the violet cord on his wrist stays; her cut pages are kept in his cell, never burned.
 - **Staging:** hands, foreheads, silhouettes; his `[LIPSYNC-CU]` budget is unchanged.
 
 ## Arc by season

@@ -2,7 +2,9 @@
 
 > **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a working sheet. Read with these rulings: the assassin is a Lantern Company man supplied by Rook Danner and paid through Garrick's steward (DEC-36); the fence is Tuck (DEC-57); the passes run Dunmore's clerk → quartermaster's office → Ansel Fray (DEC-55).
 
-> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** map and tables extended with the S1 love lines: **L1** Ruel — Jaro (lovers, proposed SEC-046; the audience learns it in E9), **L2** Maren — Hollis (seed only), **L5** Elm — Ione (seed only), **A** Ursel — Teodor (past), **B** Bede — Sibby Roan (new minor), **C** Aurin — Cressa. New §6 (love lines in S1) and §7 (age gate). Relation kinds `lover` / `beloved` / `suitor` / `betrothed` follow DEC-76 (keeper).
+> **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** map and tables extended with the S1 love lines: **L1** Ruel — Jaro (lovers, proposed SEC-046; the audience learns it in E9), **L2** Maren — Hollis (seed only), **L5** Elm — Ione (seed only), **A** Ursel — Teodor (past), **B** Bede — Wren Roan (new minor; named "Sibby" until r8), **C** Aurin — Cressa. New §6 (love lines in S1) and §7 (age gate). Relation kinds `lover` / `beloved` / `suitor` / `betrothed` follow DEC-76 (keeper).
+
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **Rename (DEC-79):** Sibby Roan → **Wren Roan**, keeper's ID **CH-0079** (map node, §6 table, the S1 rows). For consistency with DEC-78: the bond is bought on **Still 2, CY 312-11-02** (off screen); she learns the source in **S2E4**. No relation kind changes.
 
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 State at **S1E12** unless an episode is given. Who-knows-what is a proposal for `secrets.md` `known_by` (the keeper decides). Sealed links are not drawn.
@@ -64,7 +66,7 @@ graph LR
   Kes ---|guards| Esk
   Jaro ===|"old friendship = lovers, SEC-046 - r7"| Ruel
   Ysa -.->|"keeps the packet, bars him - r7"| Jaro
-  Bede -.->|"two is a woman off the wheel - r7"| Sibby[Sibby Roan]
+  Bede -.->|"two is a woman off the wheel - r7"| Wren["Wren Roan, CH-0079"]
   Ursel -.->|"past lover, CY 291-296 - r7"| Teodor["Teodor Kett, dead"]
   Aurin ---|"spouse, line C - r7"| Cressa
   Elm -.->|"teaches her name, E11, seed - r7"| Ione
@@ -85,7 +87,7 @@ graph LR
 | Odo — Zev | always | love that cannot touch |
 | Ruel — Jaro (r7) | since CY 305; on screen E4 | lovers under "an old friendship of sailors"; Ruel keeps the crime and the ring from him; Jaro is left with a lamp to put out (E9) |
 | Ysa — Jaro (r7) | before S1; E9 | she has always known; she bars him, then lets him in last |
-| Bede — Sibby (r7) | before S1 (four years of saving) | he is buying her off the wheel with the double sale; she is a back on the wheel (E7) |
+| Bede — Wren (r7; renamed r8) | before S1 (four years of saving) | he is buying her off the wheel with the double sale; she is a back on the wheel (E7); he buys her bond on Still 2, CY 312-11-02 — off screen (DEC-78) |
 | Ursel — Hollis | since CY 296 | guardian and ward; he thinks she saved him |
 | Nan — Hollis | E7 | furious, then kind |
 | Silt — Pell | before S1 | buyer and mudlark; Silt is fond of her and would sell her |
@@ -104,7 +106,7 @@ graph LR
 | Patch | Gant (the Undertow) | a debt he never made | S4E2–E6 |
 | Kes | the Ninth | CY 295 | S1E10 (opens the gate), S3E9 |
 | Ruel | Bede Lark | forty-mark news | S1E1 (the Helm's death) |
-| Sibby Roan (r7) | the wheel (her dead husband's debt) | six years of steps; the bond Bede buys with two sales | S1 → S2E6 |
+| Wren Roan (r7; CH-0079, r8) | the wheel (her dead husband's debt) | six years of steps; the bond Bede buys with two sales | S1 → S2E6 |
 | Jaro (r7) | Ruel | his alibi — he will not sell it (E9) | the Quell frame holds until S2E11 |
 | Maren | Ysa | the Corvane vote "on one condition" | S2E11 |
 | Odo | Vesna | the Sunken Vote | S2–S5 |
@@ -159,7 +161,7 @@ Every S1 beat is staged on hands, lamps and backs (romance_lines §0.7); about t
 | L2 "The Clerk and the Admiral" | Maren (19) — Hollis (26) | **seed only**, not romantic | E7 "a house on the Steps" · E11 "Twice, by now" | — | S2 letters; S4E12 the first kiss |
 | L5 "The Voice" | Elm (22) — Ione (18) | **seed only**, not romantic | E11 the first sign: her name; he never speaks aloud | — | S2 lessons; S4E10 |
 | A "A Beautiful Hand" | Ursel — Teodor (dead CY 296) | past lovers (proposed SEC-050) | E1 the clip · E11 "a beautiful hand" + the empty sleeve | Ursel only | S4E6 "U. —"; S6E8 |
-| B "Twice" | Bede (40) — Sibby Roan (33) | his reason (proposed SEC-051) | E7 "two is a woman off the wheel" (her back on Corr's wheel) | Bede | S2E4, S2E6 |
+| B "Twice" | Bede (40) — Wren Roan (33) | his reason (SEC-051) | E7 "two is a woman off the wheel" (her back on Corr's wheel) | Bede; from Still 2 she knows of the purchase, not of the money | S2E4 (she learns the source), S2E6 |
 | C "The Other Thing" | Aurin (44) — Cressa (40) | marriage of courtesy | E3 he stands in the door at the rinse | — | S5 the rolls; S6E12 |
 
 ## 7. Age gate (DEC-71) — S1 cast

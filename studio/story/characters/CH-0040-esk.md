@@ -4,6 +4,8 @@
 
 > **Revision r7 (writer-characters, 2026-11-22 — love lines; `story/romance_lines.md` §0–§3, §5; `decisions_resolved.md` DEC-71…76; `season01_outline.md` r7):** section **Love line — L4 "Kites over the Wall"** added (with Pell, from S7). He and Pell never meet in S1–S4. Machine block not changed.
 
+> **Revision r8 (writer-characters, 2026-11-22 — rulings DEC-79, DEC-83…87; `story/decisions_resolved.md` Part 7; `romance_lines.md` r8 §0–§3, §5):** **DEC-87:** the knot-code "I am alive", flown every dusk of the siege — accepted and reserved: the dusk it does not fly belongs to the S8 outline. Tsura's knot on Pell's wrist (S11E10) stays a proposal for the S11 outline. Machine block not changed.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Teen rule:** 13 in S1. No romance or sexual content while under 18. **r7 age gate:** no romantic beat, hint or "almost" in **S1–S4**; allowed from S5 (21); used from **S7** (23). Kes and Esk are **guardian and ward — family**, never romantic.
 
@@ -69,7 +71,7 @@ His knotted cord of "stone-song days" (S3E8) is the first data anyone gathers on
 
 **Key beats:** S7E4–E6 parley over the Falls Spire, the reveal · S7E10 the three records — they carry the two halves across the lines · S7E11–E12 Kes dies; the first admitted feeling, over her white-striped helm · S8E2–E9 kite-code letters over the siege wall · S8E4–E6 Lio sells the code · S8E10–E11 Pell's warning on the blown code — he and part of the camp are out of the low ground: **he survives the drowning because of her** · S9E10–E11 his kite over the Ninth Bridge; suspected; cleared · S10 in hiding with the alliance; the clans' match · S11–S12 his kite-lines carry her pitch · S12E12 she loses her voice; they already speak in signs and kites. Both live.
 
-- **Speech:** slow in the Concord tongue; precise and literal. His letters over the wall are **counts and knots** — the same habit as his stone-song cord (proposal: one knot code for "I am alive", repeated every dusk of the siege). He never says "mother" about Tsura in public — and the first time he says it to Pell is a turning point for the S10–S11 outlines (proposal).
+- **Speech:** slow in the Concord tongue; precise and literal. His letters over the wall are **counts and knots** — the same habit as his stone-song cord (**accepted, r8 DEC-87:** one knot code for "I am alive", flown every dusk of the siege — the dusk it does not fly is **reserved for the S8 outline**). He never says "mother" about Tsura in public — and the first time he says it to Pell is a turning point for the S10–S11 outlines (proposal).
 - **Behaviour:** the kite is his voice; he flies for her in plain sight of two armies. The cord on his LEFT wrist stays his; the knot on Pell's wrist (S11E10, proposal) is tied by Tsura, not by him.
 
 ## Arc by season
