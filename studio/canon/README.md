@@ -1,6 +1,6 @@
 # Canon — how it works
 
-Canon version: **v0.5** (saga **HOLLOWSTONE**; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
+Canon version: **v0.6** (saga **HOLLOWSTONE**; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
 
 The canon is the single source of truth for the saga: world laws, chronology, houses, characters, bloodlines, secrets and names. Scripts, art, sound and marketing must follow it. If a script and the canon disagree, the canon wins until the keeper records a change.
 
@@ -20,8 +20,8 @@ The canon is the single source of truth for the saga: world laws, chronology, ho
 | `glossary.md` | Spelling and pronunciation of every name for voice synthesis | `term` |
 | `sealed/sealed.md` | **Restricted** part of the canon: answers of restricted secrets, sealed characters, overlays, true versions of events, sealed rules and names (§8a) | any type; `overlay: true` |
 | `checklist.md` | Checklist for reviewing script materials against the canon | — |
-| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 open (v0.5, questions of the roles after r3) | — |
-| `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
+| `decisions_for_lead.md` | The one list of decisions for the lead screenwriter (DEC-NN): DEC-01…64 ruled in r3 (`studio/story/decisions_resolved.md`), kept as history and as the address of the remaining TODO stubs (§6a); DEC-65…70 ruled in r6 (Part 5 of the same file; canon v0.6) | — |
+| `excerpts/` | **Restricted** role excerpts from `sealed/` made on the director's decision (composer, director and artist, sound director; v0.6: `for_vfx_S3-S4.md` prepared, **not issued** until the S3 storyboards). Each file starts with «Закрыто: не распространять за пределы роли». No machine records | — |
 | `tools/validate.py` | Automatic consistency checker | — |
 | `*/_template.md`, examples | Empty templates + one EXAMPLE each (`example: true`) | ignored by the normal run |
 
@@ -191,6 +191,6 @@ Some truths are kept even from the writer-helpers (the lead screenwriter's `seal
 8. Restricted secret IDs that writers put into their dossiers (e.g. SEC-024 on a house) are moved by the keeper into overlays in `sealed/`; `decisions_for_lead.md` names restricted secrets only as "закрытая" and maps them in `sealed/sealed.md` §H.
 4. **Restricted IDs may appear** in public records only as bare IDs (`secrets: [SEC-024]`, `related`), never with an explanation; their names and answers do not.
 5. **True versions** of public events whose truth is restricted are written in `sealed/` §D; the public event says "Truth: SEC-… (sealed)".
-6. Tool output can contain restricted truths: `--knows` and `--mermaid --spoilers` are for the keeper and the lead only. Excerpts for others (composer, director, sound) are made by the keeper on the director's decision: `excerpts/` (v0.4). An excerpt gives working rules, not answers; it is updated when a reveal airs or a later season needs more.
+6. Tool output can contain restricted truths: `--knows` and `--mermaid --spoilers` are for the keeper and the lead only. Excerpts for others (composer, director and artist, sound; VFX from S3) are made by the keeper on the director's decision: `excerpts/` (v0.4; v0.6). A prepared excerpt marked "not to be issued" stays with the keeper, the lead and the director until the director issues it. An excerpt gives working rules, not answers; it is updated when a reveal airs or a later season needs more.
 7. When a restricted secret's reveal airs, its record moves from `sealed/` to `secrets.md` (CHANGELOG line).
 

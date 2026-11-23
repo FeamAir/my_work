@@ -76,8 +76,14 @@ Write at the top of the review: material, version, canon version checked against
 - [ ] No romantic/sexual content involving characters under 18. **The restriction follows the character's age in the season being written** (DEC-59), not the age at the saga start. Under 18 at the saga start (CY 312): Pell 15, Wick 11, Esk 13, Zev 14, Daro 16, Lio 17, Mags 15, Patch 12, Tibb (infant). Later minors: Tibb through the whole saga (17 at the finale), Sindre Rusk (from S3, while under 18). Ione is 18, Juno Brisk 19. Check every age with `born` at the episode date.
 - [ ] Violence within TV 16+.
 - [ ] Spoilers: preview / opening / ending / marketing materials use nothing from a secret whose `reveal` has not aired.
-- [ ] Restricted excerpts (`excerpts/`): music, framing and voice obey the constraints given to the composer, the director and artist, and the sound director (v0.4; v0.5 additions: tapestry wording, groove turn, hands at the gate, old Cantors' black bands, marketing hum rule, Ashare theme).
+- [ ] Restricted excerpts (`excerpts/`): music, framing and voice obey the constraints given to the composer, the director and artist, and the sound director (v0.4; v0.5 additions: tapestry wording, groove turn, hands at the gate, old Cantors' black bands, marketing hum rule, Ashare theme; v0.6: Spire light and dark foot, prayer signs, compass/flag/banner/peoples, Ashare theme conditions and Sunken tone for the composer).
 - [ ] Spirals (v0.5, `world.md` §2): flat spirals clockwise from the centre outward as the viewer sees them; Spire grooves a right-hand thread (near face "/"); never fixed by mirroring.
+- [ ] Spire light (v0.6, `world.md` §2, DEC-69): light comes down from the crown and goes out from the top down; the echo-shard never glows; S1-S4: no glow and no bounce-light at the foot of a sung Spire; no "low sound never lights" line anywhere. From S3: the VFX excerpt (restricted) once issued.
+- [ ] Compass and heights (v0.6, DEC-65): sea and harbour west, the hill east, the Ninth south-west; Crown ~160 m, Choir ~120 m, Sluice ~90 m; light direction in the pilot's master shots.
+- [ ] Flag and banners (v0.6, DEC-66): Helm's storm-grey ≠ Fennick slate; nine plain silhouettes, outline at the foot; one banner shape, round seals, no shields.
+- [ ] Peoples (v0.6, `world.md` §3.5): nobody says "seven peoples"; look never proves descent or marks virtue; paleness = way of life.
+- [ ] Lows prayer signs (v0.6, DEC-68): only WATER and STILL match Choir sign (small, at the waist, from S1E8); SILENCE = palm on lips; no on-screen remark on the match in S1-S4.
+- [ ] Ashare (v0.6, DEC-70): no Ashare theme of any kind before S5E10; four recognisers; Sunken tone never stated in open files.
 - [ ] Terms on screen and in subtitles as in `glossary.md` (e.g. *echo-shard*, never *echo-chip*; *death-tone*, TERM-0495).
 
 ## 10. Output of the review
