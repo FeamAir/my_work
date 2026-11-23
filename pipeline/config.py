@@ -30,6 +30,7 @@ DEFAULTS = {
     # заголовок Authorization в запросы к queue.fal.run. В переменной — только заглушка.
     # Без прокси (локальный запуск) задайте настоящий FAL_KEY в .env.
     "FAL_KEY": "proxy-injected",
+    "ELEVENLABS_API_KEY": "proxy-injected",  # тоже сетевой секрет (заголовок xi-api-key)
     "OUTPUT_DIR": "output",
 }
 

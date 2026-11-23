@@ -20,7 +20,9 @@ _Обновлено: 2026-11-23._
 2. ✅ fal.ai (2026-11-23): аккаунт, баланс $100 (квитанция #1658-4950), ключ «Hollowstone» (пресет API, бессрочный, без IP-фильтра).
    Ключ сохранён **сетевым секретом** среды Default (форма request_credential, хост queue.fal.run, `Authorization: Key …`) — прокси сам подставляет заголовок. В коде `FAL_KEY` по умолчанию = заглушка `proxy-injected` (`pipeline/config.py`). `check_services --live`: «fal.ai — ключ принят».
    Замечание: проверка `fal (cdn)` на корневой `fal.media` даёт DNS fail — корень домена не резолвится, результаты отдаются с поддоменов (v3.fal.media и т.п.); поправить проверку при первом реальном вызове.
-3. ⏳ ElevenLabs: решение инвестора 2026-11-23 — **сейчас Creator** ($11 первый месяц, далее $22; 121k кредитов/мес; помесячно; pay-as-you-go выключен), **Pro — после одобрения пилота** (финальный звук 44.1 kHz). Оплачено 2026-11-23. Ключ тоже через форму request_credential (хост api.elevenlabs.io, заголовок `xi-api-key`, без префикса) + заглушка в config.py.
+3. ✅ ElevenLabs (2026-11-23): **Creator** помесячно ($11 первый месяц, далее $22; 131 000 кредитов вкл. 10k бесплатных; pay-as-you-go выключен). **Pro — после одобрения пилота** (финальный звук 44.1 kHz).
+   Ключ «Hollowstone»: ограниченный (TTS, STT, SFX, Music, Voices write, Voice Generation, Forced Alignment, Models, Pronunciation Dictionaries write, User, History read; остальное — нет), лимит 100 000 кредитов/мес, без IP-фильтра, авто-отключение при утечке. Сохранён сетевым секретом (хост api.elevenlabs.io, заголовок `xi-api-key`); в config.py заглушка `proxy-injected`. Проверено: /v1/user/subscription 200, tier creator, 0/131000.
+   Для дубляжа позже — добавить ключу право Dubbing.
 4. ⏳ Cloudflare R2 (S3-подпись SigV4 — сетевой секрет не подойдёт, нужны настоящие переменные среды): бакет anime-studio, токен → R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET=anime-studio.
 5. ⏳ BUDGET_LIMIT_USD=150 (предохранитель до просмотра аниматика).
 Инвестор просит вести **по одному шагу**, с подсказками по русскому интерфейсу (он на телефоне).
