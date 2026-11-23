@@ -1,10 +1,12 @@
 # Cast Overview
 
-Version 1.2 · 2026-11-22 · author: lead-screenwriter · status: **framework** for `writer-characters` (dossiers → `studio/story/characters/`) and the canon keeper.
+Version 1.3 · 2026-11-22 · author: lead-screenwriter · status: **framework** for `writer-characters` (dossiers → `studio/story/characters/`) and the canon keeper.
 Spoiler level: **internal**. "Hides" lines give the surface secret; deeper truths are only referenced as `SEC-…` (answers in `sealed/master_mystery.md`, shared with helpers only as their briefs allow).
 Ages are given **at the saga start, CY 312 (Longdark)**. Proposed IDs in brackets.
 
 > **Revision r2 (2026-11-22, stress-test pass):** Ione's place of death corrected (the **Crown** Spire, as in `saga_arc.md`); the shard, the ring, the ledger-clip and Nan's earring get exact custody lines; second-circle characters who had no load-bearing job (Zev, Daro, Kadu, Esk in the late saga, Aurin, Lucan's will, Lio, Piers Lantry, Ysa, Corr, Dorran, Bede Lark, Fitch, Patch, Orrie) now have one — see the new §5; three second-circle secrets changed (rows 2, 16, 27). No hero enters or leaves in a different episode.
+
+> **Revision r3 (2026-11-22, final ruling):** saga title HOLLOWSTONE. From `decisions_resolved.md`: full list of minors (DEC-59); Esk is in Highwater in S1 and has been a hostage three years (DEC-20, DEC-25); Maren's short jacket (DEC-60); secret numbering follows the canon — SEC-011 and SEC-011b (DEC-51); the dossiers in `characters/` are approved with the corrections listed in `decisions_resolved.md` Part 3 and take precedence over this overview in detail.
 
 ## 0. Principles (director's frame, 2026-11-22)
 
@@ -13,7 +15,7 @@ Ages are given **at the saga start, CY 312 (Longdark)**. Proposed IDs in bracket
 - **A wide second circle (~40)**, each with a secret and a link to the past; the surprise links between seasons run through them (§4).
 - **AI limit:** at most **8–10 main faces on screen per season** (with full reference sheets). Second-circle characters get lighter "costume + anchor" references; veiled, masked, helmeted or voiceless characters are favoured. Season-by-season face budget is in `saga_arc.md`.
 - **Every main hero has two visual anchors** (hair detail + signature item), a distinct voice and a distinct heroism.
-- Teens: Pell (15), Wick (11), Esk (13), Zev (14), Daro (16); Ione is 18 — **no romance or sexual content** with them, ever. Romance in this saga is rare, adult and political.
+- Minors at the saga start (r3, complete): Pell (15), Wick (11), Esk (13), Zev (14), Daro (16), Lio (17), Mags (15), Patch (12), the baby Tibb; Ione is 18. **No romance or sexual content** with anyone under 18 *in the season being written*; Tibb is a minor through the whole saga. Romance in this saga is rare, adult and political.
 
 ---
 
@@ -35,7 +37,7 @@ Ages are given **at the saga start, CY 312 (Longdark)**. Proposed IDs in bracket
 48, Lord Admiral, head of House Corvane, candidate for Helm: charismatic reformer who promises pumps for the Lows and an open Tithe Map. Loved by sailors and the Lows. **Wants:** the Helm's chair to save the delta from the bank. **Hides:** he poisoned the old Helm to force an early election (SEC-001). Murdered on the Steps in S1E8, dies S1E9 — the saga's first great shock; his crime is revealed S1E11 and becomes his daughter's inheritance. **Anchors:** grey-streaked dark beard; deep-blue admiral's coat with silver cormorant clasp; black pearl ring on the **left** hand. **Voice:** warm baritone, sea idioms. **Keeps acting after death:** the ring (a Corvane heirloom, "the Admiral's Pearl"; hinged and hollow), the burned ledger page, the debt to Lantry, his last words, and what his sister did to protect him (SEC-023).
 
 ### Maren Corvane [CH-0006] — the heir *(great house / politics; the saga's tragic pole)*
-19, Ruel's daughter, a junior naval officer who wanted the sea, not politics. Brilliant tactician, loyal, proud. **Wants (S1):** to protect her father's name. **Hides (from S1E11):** that she buried the proof of his crime — the page and the ring, which she takes from his hand at the wake. Over the saga she becomes the realm's strongest leader — and its greatest danger (SEC-010). **Anchors:** dark curly hair tied high with a silver cord; brass spyglass on her belt; from S6E12 her father's black pearl ring, worn openly. Deep-blue riding coat. **Voice:** crisp, commanding, short sentences. **Heroism:** never abandons her crews. **Fate:** dies S12E11.
+19, Ruel's daughter, a junior naval officer who wanted the sea, not politics. Brilliant tactician, loyal, proud. **Wants (S1):** to protect her father's name. **Hides (from S1E11):** that she buried the proof of his crime — the page and the ring, which she takes from his hand at the wake. Over the saga she becomes the realm's strongest leader — and its greatest danger (SEC-010). **Anchors:** dark curly hair tied high with a silver cord; brass spyglass on her belt; from S6E12 her father's black pearl ring, worn openly. Short deep-blue naval jacket (r3 — her father wears the long coat). **Voice:** crisp, commanding, short sentences. **Heroism:** never abandons her crews. **Fate:** dies S12E11.
 
 ### Lord Odo Fennick [CH-0010] — the Listener *(villain POV)*
 55, master of the Relay and the Hearings, candidate for Helm and, from S1E12, Helm. Soft-spoken, patient, sentimental about his son, genuinely believes order is mercy. **Wants:** the chair, and for his upstart house to be accepted. **Hides:** that he did *not* kill the old Helm (everyone thinks he did) — and what he is willing to do to keep power once he has it. **Anchors:** shaved head; silver brooch shaped like a hare's ear; slate-grey robe with sulphur-yellow lining. **Voice:** near-whisper, never hurried. **Fate:** killed S5E11.
@@ -67,7 +69,7 @@ Ages are given **at the saga start, CY 312 (Longdark)**. Proposed IDs in bracket
 | 9 | Brenna Rusk (CH-0018) | great house | S2 | promoted (S1 delegate) | dies S3E11 |
 | 10 | Brother Elm (CH-0022) | clergy | S2 | promoted (S1 "the Voice") — surprise POV inside the Choir | dies S8E9 |
 | 11 | Tsura Den (CH-0013) | Ossari ruler | S3 | enemy POV | dies S11E10 |
-| 12 | Esk (CH-0040) | Ossari youth | S3 | promoted (S1–S2 hostage at the Stair) | survives |
+| 12 | Esk (CH-0040) | Ossari youth | S3 | promoted (hostage: S1 in Highwater with the Rusk delegation, from S1E12 at the Stair — r3) | survives |
 | 13 | Cressa Ilvane (CH-0021) | great house | S4 | promoted (grieving "mother") — replaces Ione's house view | dies S6E12 |
 | 14 | Mother Silt (CH-0014) | Lows crime | S4 | promoted | dies S9E5 |
 | 15 | Wick (CH-0007) | Lows → soldier | S5 | grown up after the skip | dies S9E10 |
@@ -98,7 +100,7 @@ Each has: a function, one secret, and a link to the past that will surface later
 | 6 | **Brenna Rusk** (CH-0018), 57 | Lady of the Stair | sold saltpeter to Ossari | held Esk hostage; main S2 |
 | 7 | **Jaro Quell** (CH-0019), 36 | island captain-lord | wrecker money funds Corvane | main S2 |
 | 8 | **Brother Elm** (CH-0022), 22 | Vesna's Voice | sometimes *mistranslates* her on purpose | Quiet-born? (sealed, SEC-012); main S2 |
-| 9 | **Esk** (CH-0040), 13 | Ossari hostage at the Stair | sends kite-signals home | Tsura's nephew; main S3 |
+| 9 | **Esk** (CH-0040), 13 | Ossari hostage of House Rusk — given CY 309; in S1 at the Rusk barracks in Highwater (r3) | sends kite-signals home | Tsura's nephew; main S3 |
 | 10 | **Zev Fennick** (CH-0042), 14 | Odo's son | hates the Relay | main S6 |
 | 11 | **Nell Tern** (CH-0044), 22 | Maren's midshipwoman | Lows-born, hides it | main S7 |
 | 12 | **Daro Vey** (CH-0045), 16 | Gleaner novice | gleaned child himself (like Ione) | main S8 |
@@ -126,7 +128,7 @@ Each has: a function, one secret, and a link to the past that will surface later
 | 34 | **Teodor Kett** (CH-0025), dead | Hollis's father (died CY 296) | forged the Dry Charter | his handwriting = Hollis's (SEC-006) |
 | 35 | **Queen Neveh Ashare** (CH-0030), OS 700 | the "Sunken Queen" | (SEC-003) | tapestry S1E1; flashback S5 |
 | 36 | **Oshra** (CH-0031), OS 700 | servant girl at Lirenne | carried the last verse | Pell's ancestress (SEC-003) |
-| 37 | **The Chronicler** (no ID yet) | narrator voice | identity sealed (SEC-011) | every season |
+| 37 | **The Chronicler** (no ID yet) | narrator voice | identity sealed (SEC-011b) | every season |
 | 38 | **Helm's taster, Juno Brisk** (CH-0063), 19 | tasted the Helm's cup in E1 and lived | the poison was in the *ring*, not the cup | witness S1E11 |
 | 39 | **Treadmill boy "Patch"** (CH-0064), 12 | Wick's friend, debt-walker | owes the Undertow | becomes a chorus runner S5 |
 | 40 | **Saltwife Orrie** (CH-0065), 60 | Lady Below priestess in the Lows | Quiet member | hides Pell S2–S4 |

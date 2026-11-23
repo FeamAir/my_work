@@ -1,5 +1,7 @@
 # HS-008 House Ashare — "the Tide-Kings" (extinct OS 700)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Pronunciation: `ah-SHAH-reh`. The nine warden families were six Spire-wardens and three sword-families (DEC-01).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §2; `franchise.md` P2 (OS 380–420) and P3 (OS 690–700) — those windows are only **named** here, not filled.
 **Sealed limits:** where the Spires came from, what happened in the last hour of Lirenne beyond SEC-003, the origin of the Corvane ring beyond "won at Lirenne", what the Quiet keep besides "the old lullabies" — `[SEALED — ask lead]`.

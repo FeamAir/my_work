@@ -1,5 +1,7 @@
 # Tsura Den — the Dry Queen
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. Esk was given in CY 309: "three years" (DEC-20); his father is Akko of Kitsa (DEC-33). The Dry Queen is an office that ends when the wells rise (RULE-022, DEC-09). The kite-string tattoo is approved (DEC-60). First appearance stays S2E1 (DEC-24).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` writes Ossari power (clans, council, war); this dossier writes the person.
 
@@ -52,7 +54,7 @@ first_episode: S01E12
 ## Biography
 War-leader of the Ossari kite-clans, chosen by the clan council in the dust years (writer-houses: council, clans, date). Her people's rivers and wells have been dying for generations; the Concord says the stone is old and the rains are fickle. She knows the falls swell on days without rain and cannot prove why (SEC-008, believed from S3, proven S7E10).
 
-Esk is **her son**, given to the Stair as a hostage under a border truce as "her nephew" (SEC-019); his official mother is her sister Dakka (proposal). She has watched his kite from the rim for five years.
+Esk is **her son**, given to the Stair as a hostage under a border truce as "her nephew" (SEC-019); his official mother is her sister Dakka (proposal). She has watched his kite from the rim for three years (r3, DEC-20).
 
 In S4 her people build a weir at the lip of the falls; in council (E9) she threatens to breach it; on the third Still Day it goes, and the wave runs down the Aun. She **does not deny it** `[SEALED — ask lead]`, and takes the Weir Terms.
 

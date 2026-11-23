@@ -1,5 +1,7 @@
 # HS-009 House Harrow — "the Two Voices" (extinct CY 251)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. Anselm Harrow is renamed **Crispin Harrow** (DEC-57: clash with Ansel Fray, S1). The Hill Voice is approved (RULE-017, DEC-02). Votes: CY 251 is 5–3 with both Harrow voices cast by Harrow's stewards, the Fennicks; CY 252 is **5–2**, the Hill Voice itself being empty (DEC-06). The Kilbride suit is used in S7E4–E5 (DEC-39; SEC-036).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft (short dossier)
 
 ```canon
@@ -43,11 +45,11 @@ leitmotif: (historical) a plain hymn-like chord on the Crown Spire's home tone C
 | sluice-warden vassals (Dunmore, Cobbet) | Fennick | with the Spire |
 | a natural son's line | House Kilbride (HS-032) | not recognised |
 
-**Heads of house:** Aldous (~OS 690 – CY 17) · Thurstan (17–52) · Lambert (52–80; Helm 58–80) · Baldwin (80–118) · Hugo (118–150) · Anselm (150–183) · Jocelyn (183–209) · Tancred (209–249; Helm 221–249) · Osbert (249–251).
+**Heads of house:** Aldous (~OS 690 – CY 17) · Thurstan (17–52) · Lambert (52–80; Helm 58–80) · Baldwin (80–118) · Hugo (118–150) · Crispin (150–183) · Jocelyn (183–209) · Tancred (209–249; Helm 221–249) · Osbert (249–251).
 
 ## True history
 
-- **The deathbed will (proposal, new secret candidate SEC-C03).** Osbert Harrow's last will was drafted by Lantry clerks while he was in the fever, and witnessed by the Fennick Relay-Master; an earlier will, made in CY 247, left the Hill Voice to his natural son's line (Kilbride, HS-032). The Kilbrides still hold a copy. In law, a voice can be bequeathed (the Hill Voice was created as the house's property) — so the earlier will, if proven, would make the Purchased Seat a theft. Use: after the bank falls (S6E9–E10), the Purchased Seat is up for grabs; a Kilbride claim is a ready-made S7 complication (who votes the Hill Voice when Piers "inherits the ruins"?). Question to the lead (report Q-07).
+- **The deathbed will (proposal, new secret candidate SEC-036).** Osbert Harrow's last will was drafted by Lantry clerks while he was in the fever, and witnessed by the Fennick Relay-Master; an earlier will, made in CY 247, left the Hill Voice to his natural son's line (Kilbride, HS-032). The Kilbrides still hold a copy. In law, a voice can be bequeathed (the Hill Voice was created as the house's property) — so the earlier will, if proven, would make the Purchased Seat a theft. Use: after the bank falls (S6E9–E10), the Purchased Seat is up for grabs; a Kilbride claim is a ready-made S7 complication (who votes the Hill Voice when Piers "inherits the ruins"?). Question to the lead (report Q-07).
 - No great-house secret from the brief touches Harrow.
 
 ## Culture and look (for history montages)

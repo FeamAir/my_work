@@ -1,5 +1,7 @@
 # HS-005 House Quell — "the Shoals"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. After Jaro (S11E8) the Captain-Lord's seat is vacant until the Hull Moot of the next Still Days (DEC-32). SEC-031 revealed S2E9; SEC-038 revealed S3E2 (DEC-37, DEC-41).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1. The five island clans are minor houses HS-020…HS-024 in `minor_houses.md`.
 

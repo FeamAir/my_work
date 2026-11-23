@@ -1,5 +1,7 @@
 # Ione Ilvane — the novice Cantor
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. `born_official: CY 294-09` is the only birthday in public material (DEC-19). She dies on the evening of **Still 3, CY 314** (DEC-17). Cressa applies the rinse with her own hands in S1E3 (DEC-24).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon

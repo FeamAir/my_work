@@ -1,5 +1,7 @@
 # Hollis Kett — the clerk
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved**. His path in S3–S5 is accepted: he comes in under Maren's pardon as "purser of Corvane", stops the powder fraud, and is placed in Odo's treasury during the skip (DEC-52). Ash-grey coat (DEC-60).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Arc limit:** written up to **S6E9** (presumed dead in the bank fire). Everything after is `sealed`.
 

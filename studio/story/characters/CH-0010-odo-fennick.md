@@ -1,5 +1,7 @@
 # Lord Odo Fennick — the Listener
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with one correction**: he dies on the night of Still 3, CY 320 (`died: CY 320-11-03`, DEC-07).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon

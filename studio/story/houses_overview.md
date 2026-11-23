@@ -1,9 +1,11 @@
 # Houses and Powers — Overview
 
-Version 1.1 · 2026-11-22 · author: lead-screenwriter · status: **framework** for `writer-houses` (full dossiers go to `studio/story/houses/`) and for the canon keeper.
+Version 1.2 · 2026-11-22 · author: lead-screenwriter · status: **framework** for `writer-houses` (full dossiers go to `studio/story/houses/`) and for the canon keeper.
 Spoiler level: public-safe, except lines marked **[SEALED-REF]** — those only point to secrets the helper is briefed on separately (`briefs/writer-houses.md`).
 
 > **Revision r2 (2026-11-22, stress-test pass):** each great house's **scheme** now names the high-political consequence it will have (the "upward consequence" rule, `series_bible.md` §12.6); Corvane gains the heirloom "the Admiral's Pearl"; Ilvane/Choir gain the Cantor shortage; Rusk's vote after the fall of the Stair and the Ossari weir (S4) are stated; the Pumpwrights, the Undertow and the Quiet rows are sharpened. The board (§0), colours, sigils and words are unchanged.
+
+> **Revision r3 (2026-11-22, final ruling):** saga title HOLLOWSTONE. The dossiers in `houses/` are approved with the corrections of `decisions_resolved.md` Part 3 and take precedence over this overview in detail. Entered here: the Hill Voice (DEC-02); the Sea Right of Corvane (DEC-03); who heads Rusk, Corvane and Dask after their losses (DEC-30…32); six Spire-wardens and three sword-families (DEC-01).
 
 ## 0. The board at a glance (CY 312)
 
@@ -20,7 +22,7 @@ Spoiler level: public-safe, except lines marked **[SEALED-REF]** — those only 
 | Falls Spire | the Stair | House Rusk | Rusk |
 | Storm Spire | the Shoals | House Quell | Quell |
 | Sunken Spire (silent) | under the Sunk, Lirenne | nobody | **the Sunken Vote** (cast by the First Cantor in a tie) |
-| — | Highwater, the Steps | Lantry Counting House | **the Purchased Seat** (ex-Harrow) |
+| — | Highwater, the Steps | Lantry Counting House | **the Purchased Seat** (ex-Harrow: the **Hill Voice**, which since CY 1 has belonged to a house and not to a stone — r3) |
 
 **Main colours are exclusive** (no two great powers share a main colour): Corvane deep blue · Dask ochre · Ilvane white · Rusk rust red · Quell sea-green · Fennick slate grey · Lantry black · (Ashare pearl/teal, extinct) · the Choir undyed linen · Ossari sand-orange.
 
@@ -37,6 +39,7 @@ Spoiler level: public-safe, except lines marked **[SEALED-REF]** — those only 
 - **Relations:** old rival of Fennick (law vs. sea); uneasy friendship with Quell (sailors); in debt to Lantry for the fleet refit.
 - **Role in saga:** S1 Lord Admiral **Ruel Corvane** runs for Helm and dies; his daughter **Maren** carries the house through civil war, exile and power — the saga's great tragic arc. **[SEALED-REF: SEC-001, Maren's late-saga turn]**
 - **Scheme:** Corvane captains sell "storm-berths" (priority anchorage in storms) to merchant ships; the fleet's powder accounts are padded. *Consequence (r2):* the guns run dry at the Sluice Gates (S2E11).
+- **House law (r3):** the **Sea Right** — only one who has commanded a ship of the line becomes head; until then the eldest adult kin ashore holds the seal. After Ruel: Lady Ysa holds the seal; the headship is disputed through CY 313 and is Maren's from her pardon (S3).
 - **Heirloom (r2):** "the Admiral's Pearl" — the head of the house's black pearl ring, hinged and hollow, "won at Lirenne" by the founding admiral. The family does not know more than that. **[SEALED-REF: SEC-027]**
 
 ### HS-002 House Dask — "the Granary"
@@ -44,7 +47,7 @@ Spoiler level: public-safe, except lines marked **[SEALED-REF]** — those only 
 - **Power:** grain (most of the delta's bread), dike-labour, the polder levies (big but poorly trained infantry).
 - **Character:** cold, patient, transactional; marries for land; never forgets a debt. Conquered founding House Moll (CY 88) — the Moll polders are still restless.
 - **Relations:** supplies everyone, trusts no one; secretly tied to Lantry via grain-futures.
-- **Role in saga:** the dead Helm **Lucan Dask** (E1) was theirs; his nephew **Garrick Dask** is the swing vote and the saga's great survivor-traitor; POV in Act III. Dask polders are flooded deliberately in S10.
+- **Role in saga:** the dead Helm **Lucan Dask** (E1) was theirs; his nephew **Garrick Dask** is the swing vote and the saga's great survivor-traitor; POV in Act III. Dask polders are flooded deliberately in S10; after Garrick the house passes to his daughter Ylva (r3).
 - **Scheme:** cornering grain before flood seasons; selling "relief bread" to the Lows at triple price through Undertow middlemen. *Consequence (r2):* Dask's vote is always for sale for bread or water — to Odo in S1, to Maren in S7; when the Ossari weir dries the polders in CY 314 the house is desperate. **[SEALED-REF: SEC-024]**
 
 ### HS-003 House Ilvane — "the Songblood"
@@ -60,7 +63,7 @@ Spoiler level: public-safe, except lines marked **[SEALED-REF]** — those only 
 - **Power:** the best standing army (pike-and-shot), the only easy road from the uplands, saltpeter trade.
 - **Character:** soldier house, plain-spoken, poor in coin, rich in honour; a "sword house" among the founders that won its Spire by destroying House Vanth in the First Upland War (CY 141).
 - **Relations:** despises the Steps' politics; long border history with the Ossari (war, trade, hostages).
-- **Role in saga:** **Lady Brenna Rusk** and sergeant **Kes Mabry**; the Battle of the Stair (S3) is the first great land battle; the Stair falls.
+- **Role in saga:** **Lady Brenna Rusk** and sergeant **Kes Mabry**; the Battle of the Stair (S3) is the first great land battle; the Stair falls. After Brenna the head is her grandson Sindre, eleven, with his great-uncle Eirik as Castellan of the Voice (r3).
 - **Scheme:** the Rusk quartermasters sell Ossari saltpeter twice (to the Concord and back to the smugglers). *Consequence (r2):* at the Battle of the Stair the Ossari guns fire Rusk powder (S3). After the Stair falls, Rusk keeps its Conclave vote "in exile" at Highwater (the Spire is lost, the seat is not — a standing quarrel), and its quartermasters keep their trade.
 
 ### HS-005 House Quell — "the Shoals"
@@ -102,7 +105,7 @@ Spoiler level: public-safe, except lines marked **[SEALED-REF]** — those only 
 | HS-011 **Ostry** | absorbed ~CY 120 | by marriage into Corvane; Ostry's old harbour-forts |
 | HS-012 **Vanth** | destroyed CY 141 (First Upland War) | the Stair and Falls Spire → Rusk; survivors fled upland (link to Ossari) |
 
-Not every founder held a Spire in CY 1: **Rusk, Moll and Ostry were "sword houses"**; the Crown Spire went to the Helm's office and the Choir Spire to the Choir.
+Not every founder held a Spire in CY 1 (r3: of the nine warden families six were Spire-wardens — Corvane, Dask, Ilvane, Quell, Harrow, Vanth — and three sword-families): **Rusk, Moll and Ostry were "sword houses"**; the Crown Spire went to the Helm's office and the Choir Spire to the Choir.
 
 Minor houses: `writer-houses` proposes **15–25** (vassals of the great houses, sluice-wardens, merchant families), each with sigil, colour accent, liege and one secret or scheme.
 

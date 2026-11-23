@@ -1,5 +1,7 @@
 # Pell — the mudlark
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. She learns of Mags's copper in S2E9 (DEC-45) and hears Kes's confession only in S5 (DEC-54).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ lead-screenwriter's world package r2) · Spoiler level: **internal**
 Frame: `cast_overview.md` §1, `saga_arc.md`, `season01_outline.md`. Sealed items are marked `[SEALED — ask lead]`.
 

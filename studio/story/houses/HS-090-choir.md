@@ -1,5 +1,7 @@
 # HS-090 The Choir — the order of Cantors (a voting power)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved**. Quiller Ilvane is renamed **Pryor Ilvane** (DEC-57). The Cantor census and RULE-024 are approved; the numbers stay off screen (DEC-11). The retuning order of the Still Days is approved as public law, with one clarification: a Spire let fall silent for retuning answers no ordinary solo until the retuning song is sung (DEC-04).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `series_bible.md` §7.4, `houses_overview.md` §3. People of the Choir (Vesna, Elm, Venn, Ferro, Sabin, Marl, Daro) are `writer-characters`'. This file is the Choir as an institution: vote, money, numbers.
 
@@ -40,7 +42,7 @@ The Choir is a voting power because in CY 1 Ilvane gave it the **Bell Spire** of
 | 43 – 70 | Thandry of Brackwater | the last wreck-singer to rise in the Choir |
 | 70 – 98 | Saskia Ilvane | |
 | 98 – 131 | Ommen Ilvane | |
-| 131 – 160 | Quiller Ilvane | declared Vanth's under-singing treason (CY 140) |
+| 131 – 160 | Pryor Ilvane | declared Vanth's under-singing treason (CY 140) |
 | 160 – 192 | Beryl Ilvane | |
 | 192 – 221 | Idony Dask | the only Dask-born First Cantor |
 | 221 – 252 | Nolwen Ilvane | voted to raise Fennick for a stipend (CY 251) |

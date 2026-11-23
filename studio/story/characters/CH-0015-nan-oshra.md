@@ -1,5 +1,7 @@
 # Nan Oshra — the net-mender
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. She dies in the last scene of S2E8 (DEC-21).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Sealed:** Nan's sister Ves — one line only. Nan's mother and the Oshra line beyond SEC-003 (short) are not mine.
 

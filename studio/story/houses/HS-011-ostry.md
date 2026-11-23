@@ -1,5 +1,7 @@
 # HS-011 House Ostry — "the Roads" (absorbed ~CY 120)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**.
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft (short dossier)
 
 ```canon
@@ -34,7 +36,7 @@ A **sword house** of the river mouth: harbour forts on the sandbars of the **Ost
 
 ## True history
 
-**The fog (secret candidate SEC-C02; see `HS-001-corvane.md`).** Wystan Corvane's escort captain "lost" Weylin's ship on the bar on purpose. A family story of the Corvane-of-the-Roads cadets; no living main character knows it. Optional colour for S2 (the fall of Gullmouth: "your house has opened harbours before").
+**The fog (secret candidate SEC-035; see `HS-001-corvane.md`).** Wystan Corvane's escort captain "lost" Weylin's ship on the bar on purpose. A family story of the Corvane-of-the-Roads cadets; no living main character knows it. Optional colour for S2 (the fall of Gullmouth: "your house has opened harbours before").
 
 ## Notes for production
 

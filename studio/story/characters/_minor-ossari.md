@@ -1,5 +1,7 @@
 # Second circle — the Ossari (people of the kite-clans)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** set **approved with corrections**: Esk given CY 309 (DEC-20); Ottar given CY 297, his secret is SEC-044, revealed S3E5 (DEC-37); Akko of Kitsa is Esk's true father (DEC-33).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` writes Ossari power (clans, council, war-host, saltpeter trade); this file writes the people. Ossari names follow the ts/k/d palette.
 **New-character proposals** in this file: CH-0071 Dakka Den, CH-0072 Itsek.

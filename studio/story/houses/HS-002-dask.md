@@ -1,5 +1,7 @@
 # HS-002 House Dask — "the Granary"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. Two sentences of the CY 314 table were cut (DEC-46); the CY 314 line is not to be developed further before the S4 outline. After Garrick (S10E11) the head is his daughter **Ylva** (DEC-32). Garrick reads the Broken Dike song-journal in S7E8 (DEC-38; SEC-034, the final number of "C01"). The S4 wave: the weir goes before dawn on Still 3 and the bore reaches Highwater the same afternoon (DEC-17).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1.
 
@@ -60,7 +62,7 @@ At the Breaking (OS 700) Lord **Hemmet Dask** brought the polder levies to Liren
 
 ## True history
 
-- **The Broken Dike (proposal, new secret candidate SEC-C01).** In CY 87 the Moll lords did not cut their dikes. Wardel Dask's Cantors **sang the Sheaf Spire short** over the Moll polders for three nights in a storm — the song held Dask fields and let the river into Moll's. When Moll was ruined and starving, Dask offered bread and "rebuilding" for fealty. It is the first recorded *letting-go* in the Concord, 224 years before Account Nine. Who knows: the Kellow knights keep it as a grievance-song; the Dask archive at the Barrows has Wardel's song-log. Use: Garrick reads it in S7 (POV) — the founding crime of his own house — before he floods nothing and is flooded himself in S10 when Maren lets the Polders go (S10E11). Reveal is optional; the rhyme works even unstated.
+- **The Broken Dike (proposal, new secret candidate SEC-034).** In CY 87 the Moll lords did not cut their dikes. Wardel Dask's Cantors **sang the Sheaf Spire short** over the Moll polders for three nights in a storm — the song held Dask fields and let the river into Moll's. When Moll was ruined and starving, Dask offered bread and "rebuilding" for fealty. It is the first recorded *letting-go* in the Concord, 224 years before Account Nine. Who knows: the Kellow knights keep it as a grievance-song; the Dask archive at the Barrows has Wardel's song-log. Use: Garrick reads it in S7 (POV) — the founding crime of his own house — before he floods nothing and is flooded himself in S10 when Maren lets the Polders go (S10E11). Reveal is optional; the rhyme works even unstated.
 - **SEC-013.** Garrick Dask, with Ursel Lantry, ordered Ruel Corvane's murder (S1E8); the assassin wore Polder clay on his boots (S1E9). Revealed S2E11.
 - **Lucan's sealed chest.** Lucan knew about Account Nine and signed under the bank's pressure (he had signed the Dry Charter of CY 295 the same way). His sealed chest holds the unsigned CY 312 Tithe Map with Ursel's notes; Garrick withholds it (S1E12) — surfaces S2E6.
 
@@ -77,10 +79,10 @@ This is what Dask lives through in S4. It explains why everyone, later, can beli
 | Ember | Garrick petitions Helm Odo for the fleet and the Rusk-in-exile pikes to force the weir. Odo refuses — his treasury cannot pay a war, and the Ossari threat keeps Listener Law alive. Dask levies desert to Highwater to beg. Moll polders villages (Kellow knights) fly old Moll ribbons. |
 | Fallow 1 | second delivery fails. Dask is, on paper, bankrupt; the bank holds the right to foreclose on the Moll polders. Garrick signs the vote-lien "for one season". |
 | Mistcall | Tsura threatens in council to breach the weir herself (S4E9). The delta says "the Dry Queen stole the river." Garrick's steward, in public: *"Who pays for the dry? This year — we do."* |
-| Still 3 | the weir goes; the wave runs down the Aun (S4E11). The Barrows' own dikes hold (the Sheaf Spire was retuned on Still 2 — `power_and_money.md`, Still Days schedule). |
+| Still 3 | the weir goes before dawn; the wave runs down the Aun and reaches Highwater the same afternoon (S4E11). |
 | after | the Aun runs again; the salt tongue is pushed back; the CY 315 harvest is good; the vote-lien lapses at the Weir Terms. |
 
-Everyone in the delta had a reason in CY 314. Dask had the deepest.
+Everyone in the delta had a reason in CY 314.
 
 ## Culture and look
 

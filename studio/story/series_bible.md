@@ -1,8 +1,9 @@
-# Series Bible — THE LOW NOTE
+# Series Bible — HOLLOWSTONE
 
-Version 1.1 · 2026-11-22 · author: lead-screenwriter · status: **draft for canon** (Canon: v0.1 → to be recorded by lore-keeper)
+Version 1.2 · 2026-11-22 · author: lead-screenwriter · status: **approved foundation** (Canon: v0.3 → v0.4 after the keeper applies `decisions_resolved.md`)
 
 > **Revision r2 (2026-11-22, stress-test pass):** RULE-001 gains the *breath-tone* clarification (how a voiceless singer "sings out") and RULE-004 the keeper's lore about stones that "ring low"; geography gains the **Shelf lakes** on the plateau rim; the Chronicler is now defined as *never stating a false fact* (§9, §10, §12.4); the mystery balance for S7–S9 is loosened (§12.2); the motif table is corrected against the outlines (§12.3); new §12.6 — the `Pays:` line, the upward-consequence rule, the coincidence rule and the half-right rule. No world law is removed or reversed.
+> **Revision r3 (2026-11-22, final ruling):** the saga and the franchise are titled **HOLLOWSTONE** (director's decision); *The Low Note* remains the name of Act II and of Season 12. Consequences of `decisions_resolved.md` entered here: RULE-003 (hours, not days, for a failing Spire in a storm — DEC-05); the retuning order of the Still Days and what "retuning" means (RULE-010 — DEC-04); the Conclave's Hill Voice and the under-21 rule (RULE-009 — DEC-02, DEC-03); "nine warden families" = six Spire-wardens and three sword-families (DEC-01); the full list of minors (DEC-59); overland travel (DEC-64); "the Ember season" in dialogue (DEC-62). No world law is removed or reversed.
 Spoiler level: **public-safe** (no sealed truths here; sealed answers live in `sealed/master_mystery.md`). Where this file states something the world *believes*, it is marked **(belief)**.
 
 ---
@@ -11,15 +12,16 @@ Spoiler level: **public-safe** (no sealed truths here; sealed answers live in `s
 
 | | Title | Why |
 |---|---|---|
-| **Working title** | **THE LOW NOTE** | Triple meaning: a musical note missing from the world's magic; the "low" people of the flooded districts; a low moment of a civilisation. Short, searchable, musical — fits a saga whose mystery is literally hidden in the soundtrack. |
-| Alternative 1 | **HOLLOWSTONE** | The black singing stone of the Spires; strong brand, good for merch and the logo. |
-| Alternative 2 | **NINE SPIRES** | Clean "epic map" title; tells the viewer at once that there are nine seats of power. |
+| **Saga and franchise** | **HOLLOWSTONE** | The black singing stone of the Spires — the one material the whole world stands on, and the one thing the world believes can be neither carved, cast nor made (RULE-005). The title is that belief. It also holds every prequel era, including the one before there were towers. Final (director's decision, `studio/marketing/title.md`). |
+| Act II and Season 12 | **THE LOW NOTE** | Kept inside the saga, where it pays: the note missing from the world's song; the "low" people of the flooded districts; the low moment of a civilisation. |
+| Short-content rubric between seasons | **NINE SPIRES** | Houses, maps, breakdowns, theories. |
+| Reserve title | SPIRESONG | Only if the trademark check on HOLLOWSTONE fails. |
 
-Season subtitles follow the pattern `THE LOW NOTE — Book One: Dry Tithe`.
+Season subtitles follow the pattern `HOLLOWSTONE — Book One: Dry Tithe`. Prequels: `HOLLOWSTONE: The Breaking` (see `franchise.md`).
 
 ## 2. Logline
 
-> When the singing towers that keep a sinking delta empire dry begin to fall silent, a mudlark girl from the drowning slums, a novice of the singing nobility, a bank clerk who finds that the empire's money is a lie, a border sergeant and the heirs of rival lords are dragged into elections, floods and invasion — and into a three-hundred-year-old lie about who the song really belongs to.
+> **HOLLOWSTONE.** When the singing towers that keep a sinking delta empire dry begin to fall silent, a mudlark girl from the drowning slums, a novice of the singing nobility, a bank clerk who finds that the empire's money is a lie, a border sergeant and the heirs of rival lords are dragged into elections, floods and invasion — and into a three-hundred-year-old lie about who the song really belongs to.
 
 Short version (for thumbnails/Shorts): *An empire stays dry only while its nobles sing. The poor are forbidden to sing. Now the song is failing.*
 
@@ -27,7 +29,7 @@ Short version (for thumbnails/Shorts): *An empire stays dry only while its noble
 
 - **Genre:** political epic fantasy + long-form mystery ("low fantasy with one law of wonder"). No dragons, no prophecies, no chosen one, no levels.
 - **Tone:** *Shōgun*-level stakes and politics, *Apothecary Diaries*-style puzzle per episode, *Frieren*-style moments of quiet and memory. Grounded, wet, lamp-lit. Humour comes from people (Hollis's dry wit, Wick's mouth, the Lows' street culture), never from parody.
-- **Rating:** TV 16+. Battle violence shown through outcome, sound and silhouette; no torture porn; no sexual content; **no romance involving characters under 18** (Pell 15, Wick 11, Esk 13, Zev 14, Daro 16 at the start).
+- **Rating:** TV 16+. Battle violence shown through outcome, sound and silhouette; no torture porn; no sexual content; **no romance or sexual content involving characters under 18** — the rule follows a character's age *in the season being written* (r3). Under 18 at the start: Pell 15, Wick 11, Esk 13, Zev 14, Daro 16, Lio 17, Mags 15, Patch 12, the baby Tibb; Tibb stays a minor through the whole saga (17 at the finale).
 - **Core feeling:** water rising slowly; everyone knows the bill will come due — the question is who pays.
 
 ## 4. Setting — and why it is fresh
@@ -53,14 +55,14 @@ Each rule has a cost and a limit. Proposed canon IDs in brackets; the keeper may
 |---|---|---|---|---|---|
 | RULE-001 | magic | A person with **the ear**, singing a sustained true tone into a Spire, makes it *answer*: water within the Spire's sight-line is held back, turned or calmed. | **The singer's voice.** Every song roughens it; a long song leaves a Cantor hoarse for days; a **Great Song** (hours, against a storm or breach) can take the voice forever. Old Cantors are mute. **A singer with no voice left who keeps singing pays with breath: the stone takes their life** ("singing out"; first shown in S1E10). *r2 clarification:* a mute Cantor cannot speak or sing a melody, but can still force a single unvoiced **breath-tone** through the throat; the Spire answers it weakly — and takes the breath itself. | Moves and holds water only — never creates, destroys, heats or poisons it. Works only within sight of the Spire's crown (~30 km on a clear day; less in fog/rain). One voice can hold a Great Song for at most a few hours. | yes |
 | RULE-002 | biology | **The ear** — the ability to make a Spire answer — is rare. **(belief: it is inherited in the "songblood" of the great houses, above all House Ilvane.)** | Children found with the ear are taken into the Choir. | Without the ear, singing into a Spire does nothing. | yes (the belief) — truth sealed |
-| RULE-003 | magic | A Spire not sung each day, or sung badly, **detunes**: its answer weakens. A fully silent Spire lets the sea in within days. Over 312 years every Spire has lost some tone **(belief: because the stone is old)**. | Districts in the sight of a weak Spire flood more often. | Detuning is slow (years), except when a Spire is damaged or deliberately left unsung. | yes — cause sealed |
+| RULE-003 | magic | A Spire not sung each day, or sung badly, **detunes**: its answer weakens. A fully silent Spire lets the sea in within days — within hours on a storm tide, or where the Spire is already failing (r3). Over 312 years every Spire has lost some tone **(belief: because the stone is old)**. | Districts in the sight of a weak Spire flood more often. | Detuning is slow (years), except when a Spire is damaged or deliberately left unsung. | yes — cause sealed |
 | RULE-004 | technology | **Echo-stones**: chips of Spire stone ring in sympathy with a Spire's tone. The **Relay** sends coded tones from Spire to Spire across the delta in minutes. | Relay fees; stones crack after heavy use; possession of an echo-shard without licence is a crime. | Only simple tone-codes (no speech). Anyone with a stone and the codebook can read the message → ciphers, forgeries, false alarms. Line of sight only. Stones ring only on the Spires' known home-tones; relay-keepers hold that very old stones "ring low" and throw them back in the water as unlucky (r2). | yes |
 | RULE-005 | magic/tech | **Hollowstone cannot be carved, cast or made (belief).** No new Spire has been raised in recorded history. | — | — | yes — truth sealed |
 | RULE-006 | law | **The Hush Law** (since CY 1): no commoner may sing within sight of a Spire. Work-chants, clapping, whistling and wordless drumming are allowed. Punishment: the tide-post (a night tied to a post at low tide in the Lows). | Lows culture is percussive and whistled — a deliberate sonic identity for the composer. | Applies to commoners; Cantors and nobles are exempt. | yes |
 | RULE-007 | technology | **Pumps**: wind-pumps and treadmill pumps (walked by paid or indebted labourers) lift water one dike-step. | Huge labour; treadmill debt-workers are the poorest of the poor. | Cannot replace a Spire: a district needs ~400 treadmill walkers working for a day to undo one hour of a Spire's silence. | yes |
 | RULE-008 | technology | **Powder**: matchlock muskets, ship cannon, siege guns. | Saltpeter comes mainly from the Ossari uplands (trade leverage). | Delta damp and rain make powder unreliable; pike, crossbow and blade still decide most fights. | yes |
-| RULE-009 | law | **Conclave**: eight votes elect the Helm for life by majority (5 of 8). In a 4–4 tie the **Sunken Vote** — the ninth vote of the Spire of Lirenne, lost under the sea — is cast "by whoever holds Lirenne"; while Lirenne is under water, by ancient custom **the First Cantor speaks for the drowned**. | — | The Helm can be removed only by a unanimous Conclave or by death. | yes |
-| RULE-010 | calendar/ritual | **The Still Days**: five days at year's end when every Spire is retuned in turn by the Choir. During retuning a Spire is silent for hours. | The most dangerous days of the year — floods, sabotage, riots. Elections are by law held on the Still Days. | — | yes |
+| RULE-009 | law | **Conclave**: eight votes elect the Helm for life by majority (5 of 8). Seven voices belong to Spires and the houses that hold them; the eighth, the **Hill Voice**, has belonged since CY 1 to a house and not to a stone — which is why it could be bought (r3). A voice is cast by the head of the house or a bearer of the seal; a bearer under 21 must be confirmed by the eldest adult of the house (r3). In a 4–4 tie the **Sunken Vote** — the ninth vote of the Spire of Lirenne, lost under the sea — is cast "by whoever holds Lirenne"; while Lirenne is under water, by ancient custom **the First Cantor speaks for the drowned**. | — | The Helm can be removed only by a unanimous Conclave or by death. | yes |
+| RULE-010 | calendar/ritual | **The Still Days**: five days at year's end when every Spire is retuned in turn by the Choir. During retuning a Spire is let fall silent for hours and is then woken by the retuning song; until that song is sung it answers no ordinary solo. The order is fixed and public (r3): Still 1 Storm and Sentinel · Still 2 Sheaf and Pale · Still 3 Highwater's three — Choir at dawn, Crown at noon, Sluice at dusk · Still 4 Falls, and the Lament for the Drowned · Still 5 the Joining, every Spire sung together at dusk. | The most dangerous days of the year — floods, sabotage, riots. Elections are by law held on the Still Days. | — | yes |
 | RULE-011 | metaphysics | **Death is final.** No resurrection, no ghosts that act, no prophecy, no mind-reading, no shapeshifting. Visions are dreams or lies. | Keeps every death real and every mystery solvable by human means. | Return only from `missing`/`presumed_dead`. | yes |
 
 **How it looks on screen:** Spires are black, glassy, spiral-grooved towers (60–200 m), crowned by a ring of open "throats". When sung, a deep hum rolls out, the spiral grooves glow faint blue-white from inside, and the water within sight visibly *flattens* like glass. A singing Cantor stands in a throat at the crown, back to camera, robes snapping — **an iconic, repeatable, lip-sync-free shot**.
@@ -96,7 +98,7 @@ Each rule has a cost and a limit. Proposed canon IDs in brackets; the keeper may
 - **The Sunk** — shallow sea over drowned Lirenne; at very low tide the Sunken Spire's crown shows.
 - **Ossari Uplands** — dry, windy plateau of terraced towns; kites, gliders, saltpeter. Along its rim, in sight of the Stair, lie the **Shelf lakes** — the headwaters of the Aun and the plateau's last standing water (r2).
 
-Travel (for the keeper's table): Highwater↔Gullmouth 1 day by canal barge / 6 h by fast boat; Highwater↔the Stair 6 days by river upstream, 4 downstream; Highwater↔Pale Crag 1 day; Highwater↔Brackwater 2 days by sail; Highwater↔Lirenne shallows 3 days by sail. Relay message across the delta: minutes.
+Travel (for the keeper's table): Highwater↔Gullmouth 1 day by canal barge / 6 h by fast boat; Highwater↔the Stair 6 days by river upstream, 4 downstream; Highwater↔Pale Crag 1 day; Highwater↔Brackwater 2 days by sail; Highwater↔Lirenne shallows 3 days by sail. Relay message across the delta: minutes. Overland and river legs (r3): Highwater→Dask Barrows 2 days by barge, 3 by dike road; Dask Barrows→the Stair 4 days upstream; the Stair→the Rim half a day by the switchback road; Gullmouth↔Brackwater 1 day by sail; an army on dike roads ~20 km a day. A barge ties up at night and waits at locks; flood water does neither.
 
 Recurring **season-1 key locations (13)**: Ninth Sluice lanes; Nan's stilt-house; the Sluice Spire base & stair; Mother Silt's barge; Lantry Counting House hall; Hollis's garret; the Dry Palace tithe hall; the Ring (Conclave chamber); the Steps (grand stair); the Choir Spire crown; Ilvane townhouse; Corvane flagship *Patient Gull* at Highwater harbour; Fennick's Listening House.
 
@@ -138,7 +140,7 @@ week_days: 6
 
 - 10 months of 36 days + **Still** (the 5 Still Days, the retuning) = 365 days. The year begins on **Firstwater 1**, the morning after the last Still Day.
 - **Week (6 days):** Humday, Reedday, Bellday, Drumday, Hornday, Restday.
-- **Seasons:** the Wet (Firstwater–Silting), the Green (Reedmonth–Saltdry), the Ember (Ember–Fallow, hottest, low water), the Mist (Mistcall–Longdark, storms), then the Still Days.
+- **Seasons:** the Wet (Firstwater–Silting), the Green (Reedmonth–Saltdry), the Ember (Ember–Fallow, hottest, low water; in dialogue "the Ember season" against "the month of Ember" — r3), the Mist (Mistcall–Longdark, storms), then the Still Days.
 - Spoken dates: "the ninth of Fallow", "three days before the Still". Lows people count years by floods ("two floods after the Still Water").
 
 **Eras**
@@ -156,8 +158,8 @@ The abs scale leaves 400 years for the Builders' Age before OS 1 — room for pr
 |---|---|
 | ? (BA) | The Builders raise the Spires and vanish. |
 | OS 1 | The first Keeper of House Ashare takes the song of Lirenne (the Chronicle calls every Keeper a "Tide-King" from this date). |
-| ~OS 380–420 | The "Crowning of the Keepers": the Keepership becomes hereditary in House Ashare; nine Spire-warden families are sworn to it. |
-| OS 700, Still Days | **The Breaking**: Queen **Neveh Ashare**, "the Sunken Queen", goes mad and sings Lirenne into the sea. Nine Spire-warden families rise, kill her and found the Concord. |
+| ~OS 380–420 | The "Crowning of the Keepers": the Keepership becomes hereditary in House Ashare; nine warden families are sworn to it — six Spire-wardens and three sword-families (r3). |
+| OS 700, Still Days | **The Breaking**: Queen **Neveh Ashare**, "the Sunken Queen", goes mad and sings Lirenne into the sea. The nine warden families rise, kill her and found the Concord. |
 | CY 1 | Concord founded. Hush Law. Nine founding houses: Corvane, Dask, Ilvane, Rusk, Quell, Harrow, Moll, Ostry, Vanth. |
 | CY 88–141 | Three founders fall: Moll conquered by Dask (CY 88), Ostry absorbed by Corvane by marriage (~CY 120), Vanth destroyed in the First Upland War (CY 141) — Rusk takes the Stair and the Falls Spire. |
 | CY 220 | Lantry Counting House founded. |

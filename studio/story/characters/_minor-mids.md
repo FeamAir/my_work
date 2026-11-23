@@ -1,5 +1,7 @@
 # Second circle — the Mids (clerks, keepers, guilds, soldiers, the navy below the officers)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** set **approved with corrections**. Orm Hask is a Lantern Company pikeman, Moll-born, supplied by Rook Danner (DEC-36). Ansel Fray sells the quartermaster's extra copies of Dunmore's passes (DEC-55). First appearances as in DEC-24 (Fossett S1E1, Bede Lark S1E7, Dorran cameo S1E9).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **New-character proposals** in this file: CH-0075 Ansel Fray, CH-0076 Orm Hask.
 
@@ -145,7 +147,7 @@ epithet: midshipwoman
 class: soldier
 role: major
 born: ~CY 290
-relations: [CH-0046:aunt, CH-0070:sibling]
+relations: [CH-0046:aunt, CH-0067:sibling]
 secrets: [SEC-017, SEC-010]
 status_track: [S01E02:alive]
 first_episode: S01E02
@@ -198,7 +200,7 @@ secrets: []
 status_track: [S01E04:alive]
 first_episode: S01E04
 ```
-**Ansel Fray** (24; NEW — proposal) — Rusk guardsman under Kes. *Function:* sells a gate pass (S1E4) and is let off with a blow — "next flood I'll hang you"; in the E10 flood he is the man at the evacuation gate letting the pass-holders through (the payoff). *Secret:* the passes are printed by a Rusk quartermaster — the same office that sells Ossari saltpeter twice (link to Brenna's secret, proposal SEC-030). *Link:* in S3 he is the runner who carries the saltpeter tallies; Kes keeps her word at the Stair (lead's choice). *Look:* handsome, **red-blond moustache**, rust-red tabard, a fat purse on the LEFT hip. *Voice:* charming, quick. *"Everyone sells something in a flood, Sarge. I just sell the door."*
+**Ansel Fray** (24; NEW — proposal) — Rusk guardsman under Kes. *Function:* sells a gate pass (S1E4) and is let off with a blow — "next flood I'll hang you"; in the E10 flood he is the man at the evacuation gate letting the pass-holders through (the payoff). *Secret:* the passes are issued by the warden's clerk of House Dunmore; the ones Ansel sells are extra copies struck in the Rusk quartermaster's office (r3, DEC-55) — the same office that sells Ossari saltpeter twice (link to Brenna's secret, proposal SEC-030). *Link:* in S3 he is the runner who carries the saltpeter tallies; Kes keeps her word at the Stair (lead's choice). *Look:* handsome, **red-blond moustache**, rust-red tabard, a fat purse on the LEFT hip. *Voice:* charming, quick. *"Everyone sells something in a flood, Sarge. I just sell the door."*
 
 ```canon
 id: CH-0076
@@ -215,4 +217,4 @@ secrets: [SEC-013]
 status_track: [S01E08:dead]
 first_episode: S01E08
 ```
-**Orm Hask** (28; NEW — proposal) — the masked man who stabs Ruel on the Steps; killed by Kes. *Function:* the Quell token in his hand (red herring), the **Polder clay** on his boots (S1E9, SEC-013). *Secret:* a dike-hand from the rebel **Moll polders**, hired through Garrick Dask's steward; Fossett's ledger records "O. Hask". *Link:* proposal — his widow is in a Moll village flooded in the Battle of the Polders (S10). *Look:* masked; when unmasked: **shaven-headed, clay-grey skin, a Moll knot-tattoo on the LEFT hand**. *Voice:* none (one grunt). (Status: he appears and dies in S1E8 — recorded as `S01E08:dead`; relation to Garrick lives in CH-0017.)
+**Orm Hask** (28; NEW — proposal) — the masked man who stabs Ruel on the Steps; killed by Kes. *Function:* the Quell token in his hand (red herring), the **Polder clay** on his boots (S1E9, SEC-013). *Secret:* a dike-hand from the rebel **Moll polders** who took the Lantern Company's coin; supplied by Rook Danner and paid through Garrick Dask's steward (r3, DEC-36); Fossett's ledger records "O. Hask". *Link:* proposal — his widow is in a Moll village flooded in the Battle of the Polders (S10). *Look:* masked; when unmasked: **shaven-headed, clay-grey skin, a Moll knot-tattoo on the LEFT hand**. *Voice:* none (one grunt). (Status: he appears and dies in S1E8 — recorded as `S01E08:dead`; relation to Garrick lives in CH-0017.)

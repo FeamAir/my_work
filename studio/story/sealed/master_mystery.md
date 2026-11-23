@@ -1,10 +1,12 @@
-# SEALED — Master Mystery of THE LOW NOTE
+# SEALED — Master Mystery of HOLLOWSTONE
 
 > **CLOSED FILE — FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper (→ `canon/secrets.md`, `timeline.md`), studio director. Helpers receive only the excerpts listed in their briefs. Never quote in public material, marketing, previews or the opening before the `reveal` episode.
 
-Version 1.1 · 2026-11-22 · author: lead-screenwriter
+Version 1.2 · 2026-11-22 · author: lead-screenwriter
 
 > **Revision r2 (2026-11-22, stress-test pass):** (1) the answer gains a **second layer** — the Tenth Verse / the Queen's last song (SEC-025): §1a; (2) three new hero ↔ deep-past links — Vesna is Nan's gleaned sister (SEC-026), Ruel's ring and Pell's shard are two halves of the Keeper's ring (SEC-027), the shard was Liss's and lay where she was drowned; (3) four new lower/middle-layer secrets that move high politics (SEC-023, -024, -028, -029); (4) logic repairs: the SEC-001 ledger page, who killed Sister Marl, why relay stones never answered the lullaby, how the Spires drain the uplands (mechanism fixed to RULE-001/004), who broke the dam in S4, why the Choir cannot simply teach its own children the ear; (5) the Chronicler's rule is tightened to **"never a false fact"**; (6) SEC-010, -011a, -016, -017, -020, -021 re-motivated; clue plans extended; (7) new §9 thread audit. Nothing revealed in v1.0 changes its reveal episode. Changed rows are marked `r2`.
+
+> **Revision r3 (2026-11-22, final ruling):** the saga is titled **HOLLOWSTONE** (*The Low Note* = Act II and Season 12). New **§10** holds the restricted side of the rulings on `canon/decisions_for_lead.md` (open side: `story/decisions_resolved.md`). Clue wording corrected in §5 for DEC-21, DEC-49, DEC-54, DEC-63 and for Cressa's S1E3 scene (DEC-24); numbering note: the canon's SEC-011 is this file's SEC-011a. No answer and no reveal episode changes.
 
 ---
 
@@ -87,10 +89,10 @@ Tier: saga / season / episode. `reveal` = when the **audience** learns.
 | SEC-011a | Quire | season | The masked forger "Quire" is Hollis, alive — r2: and Zev Fennick, who saved him and prints and relays the pages; Hollis "died" by the Undertow's fake-drowning trade (seen S2). Quire's first pamphlets (S9E12–S10E4) genuinely serve the Sovereign — Hollis believes, like Maren, that the song drowned the camp — until S10E10 proves what the Tenth Verse is. | Hollis died in the fire. | S6E9 | S11E6 | no |
 | SEC-011b | The Chronicler | saga | The narrator is old Hollis reading the official Chronicle. | Anonymous court chronicler. | S1E1 | S12E13 | yes |
 | SEC-012 | The silenced mother / the Voice | season | Vesna ordered Liss's murder (CY 305); Brother Elm is a Quiet plant who mistranslates her on purpose. | Liss drowned; Elm is loyal. | S1E2 | S8E8 | no |
-| SEC-013 | Who killed Ruel | season | Ursel Lantry and Garrick Dask hired the assassin (Lantern Company man) because Ruel would expose Account Nine. | Fennick did it / a Quell token. | S1E4 | S2E11 | no |
+| SEC-013 | Who killed Ruel | season | Ursel Lantry and Garrick Dask hired the assassin (Lantern Company man — r3: Orm Hask, Moll-polder born, supplied by Rook Danner, paid through Garrick's steward) because Ruel would expose Account Nine. | Fennick did it / a Quell token. | S1E4 | S2E11 | no |
 | SEC-014 | The Builders | saga | The Spires were grown by the people's chorus over generations; hollowstone is sung limestone. | A vanished race. | S2E4 | S8E10 | yes (by S12) |
 | SEC-015 | The skipped song | season | Ursel bribed Fennick's steward to have Cantor Sabin "skip" the Still Day retuning of the Sluice Spire; Odo did not know. | An old Spire failing. | S1E3 | S2E6 | no |
-| SEC-016 | The Pearl Pretender | season | Lio is not of Ashare blood. r2: he was made up by Quell salvage-brokers and Piers Lantry to float **Lirenne salvage bonds** — paper "backed by the drowned city" — after the dry-note crash. The fraud splits the Lows' vote (giving Maren the Helm) and makes "raise Lirenne" a money interest; after Lio's death the lie becomes the movement's real aim. Lio himself believed it. | Last heir of the Tide-Kings. | S6E3 | S8E6 | yes |
+| SEC-016 | The Pearl Pretender | season | Lio is not of Ashare blood. r2: he was made up by Quell salvage-brokers and Piers Lantry to float **Lirenne salvage bonds** — paper "backed by the drowned city" — as the dry-notes begin to crack (S6E5; they boom after the crash, S6E9 — r3). The fraud splits the Lows' vote (giving Maren the Helm) and makes "raise Lirenne" a money interest; after Lio's death the lie becomes the movement's real aim. Lio himself believed it. | Last heir of the Tide-Kings. | S6E3 | S8E6 | yes |
 | SEC-017 | Tibb | episode/season | Tibb is the daughter of Nell Tern's drowned sister Sal; Nell is Lows-born. r2 function: Nell gives Maren the bridge tide-table (S9E4), then learns (E7) that her niece runs with the columns it will doom; she saves Tibb, not Wick, and her testimony reveals SEC-010. | Foundling. | S1E10 | S9E7 | no |
 | SEC-018 | Lirenne can rise | saga | A full chorus can re-tune the Sunken Spire and push the sea back from Lirenne. | Impossible. | S1E12 | S11E12 | yes |
 | SEC-019 | Esk's mother | season | Esk is Tsura's son, given as hostage under the name of her nephew. | Her nephew. | S1E12 | S7E6 | no |
@@ -167,7 +169,7 @@ Format: episode — what is shown/said — how it reads first time / after revea
 | Ep | Clue |
 |---|---|
 | S1E2 | Pell: *"I had a sister. The water took her before I was born."* |
-| S1E3 | A maid applies the weekly "Cantor's rinse" to Ione's hair — routine. |
+| S1E3 | Cressa herself applies the weekly "Cantor's rinse" to Ione's hair (hands, mirror) — routine. Pays S3E12 → S4E1, when she pours it away (r3). |
 | S1E5 ♪ | When Pell hums, Ione hums the first two notes back without knowing, stops, puzzled. |
 | S2E5 | Cressa at a tiny unmarked grave in Pale Crag; Ione reads a date: CY 294, Reedmonth — five months before her own official birthday (Mistcall CY 294). |
 | S2E10 | Ione cannot sleep without humming two notes; Brother Elm hears and goes pale. |
@@ -193,7 +195,7 @@ S1E3 "Account Nine closes on the third Still Day"; S1E6 Hollis sees notes issued
 S1E12 Ossari fires on the escarpment (why now?); S3E5 Ossari prisoner: *"Your stones drink our rivers"* — laughed at; S3E8 (r2) Kes and Esk watch the falls **swell with no rain** whenever the Falls Spire is sung; Esk keeps a knotted cord of "stone-song days"; S4 (r2) the Ossari silence the captured Falls Spire *and* build a weir — upland wells rise, the delta blames the weir (a deliberate confound that keeps the answer open until S7); S5E12 (r2) Tsura's letter: on the night of the Thousand Voices the falls ran thin and the Shelf wells rose a hand (no rain — the song moves water, it does not make it); S6E4 Ursel's ledger: upland grain futures dated by the Choir's song calendar; S7E3 Dorran's river gauges; S7E10 (r2) the proof is three records laid side by side — Dorran's gauges, the Choir's song logs, and the **Vanth river book** kept by Kadu's family since CY 141.
 
 ### SEC-009 (season) — Kes and the gate → S3E9
-S1E4 Kes avoids looking at the Ninth Sluice gate; S1E10 opens it: *"Not twice."*; S2E6 Kes drinks alone on the anniversary; S3E9 confession to Pell before the battle.
+S1E4 Kes avoids looking at the Ninth Sluice gate; S1E10 opens it: *"Not twice."*; S2E6 Kes drinks alone on the anniversary of her first stripe — Rains 12, CY 296, "for steadiness at the Ninth Sluice gate" (r3); S3E9 confession before the battle — to Esk, the hostage she guards (r3: Pell is in the Sunk; she hears it from Kes herself, not before S5).
 
 ### SEC-010 (season) — Maren's betrayal → S9E11
 S1E11 she buries her father's crime and pockets the ring (pattern of "protect the name"); S2E11 (r2) she loses the Sluice Gates partly to her own captains' padded powder accounts — the root of her hatred of "small thieves"; S6E12 her promise to Pell is worded "in Highwater"; S8E11 she drowns the camps; S9E4 she asks Nell for the bridge tide-table "for the parade"; S9E5 (r2) she watches the First Raising drown the camp from her flagship; S9E6 (r2) *"I have seen what her lullaby does."*; S9E8 Tibb intercepts a relay code from the Dry Palace. Planted suspects (r2): Esk's kite seen over the bridge (he was warning them); the code runs on Zev's Relay (he logged it, did not send it).
@@ -216,7 +218,7 @@ S1E11 she buries her father's crime and pockets the ring (pattern of "protect th
 S1E2 Nan: Liss "drowned in a dry year"; S1E2 (r2) Nan sees the shard, goes white, asks only *where* Pell found it — "the back-canal, by the old sluice" — and that night lays salt and a shell at that spot; S2E9 Vesna signs an order while Elm says "a blessing for the sick"; S4E4 (r2) Nan's charcoal sketch of Liss shows a small dark stone on a cord at her throat; S3E7 Gleaner ledger: "mother — silenced, CY 305"; S4E8 Elm secretly signs a spiral to Pell; S7E7 Daro catches Elm mistranslating.
 
 ### SEC-013 (season) — who killed Ruel → S2E11
-S1E4 Garrick and Ursel in the Counting House at night; S1E9 the assassin's boots: Polder clay; a Quell token planted in his hand (herring); S2E2 Rook Danner paid in Lantry notes; S2E6 (r2) Lucan Dask's sealed will: the unsigned Tithe Map with Ursel's marginal hand, which Garrick suppressed; S2E7 Fossett's private ledger.
+S1E4 Garrick and Ursel in the Counting House at night; S1E9 the assassin's boots: Polder clay; a Quell token planted in his hand (herring); S2E2 Rook Danner paid in Lantry notes; S2E6 (r2) Lucan Dask's sealed chest (r3: a chest — his will and the unsigned Tithe Map with Ursel's marginal hand), which Garrick withheld; S2E7 Fossett's private ledger.
 
 ### SEC-014 (saga) — the Builders → S8E10
 S2E4 Lime-pit workers in the Lows whistle the work-chant; the old wall they whistle at is glossy black at the bottom — background; S4E3 Pell's cracked shard closes a hairline crack after the sisters hum together; S4E11 the duet holds what no solo could; S5E10 Spiral Book: "we who are many raised it"; S5E11 Thousand Voices; S7E3 Dorran: hollowstone is limestone "with a pattern in it, like a fingerprint of a song".
@@ -265,8 +267,8 @@ S1E7 Marl dead, a Corvane coin in her fist (reads: Fennick framing Corvane); S1E
 |---|---|
 | S1E2 | Nan wears one spiral-shell earring, **left** only: "It had a mate." |
 | S1E12 | Casting the Sunken Vote, Vesna's ringed fingers tap five beats on the rail — the lullaby's rhythm, with no melody (♪ percussion only). |
-| S2E3 | Nan: *"I had a sister too. Ves. The robes took her before I could walk. In this family the water has always had help."* |
-| S2E9 | The night Nan dies, Vesna dismisses Elm, takes off her rings one by one and sits with her signing hand closed. Elm, outside, tells a novice it is "a headache". |
+| S2E3 | Nan: *"I had a sister too. Ves. The robes took her. I was too small to remember her face. In this family the water has always had help."* (r3: Nan was two.) |
+| S2E9 | Cold open, the same night (Nan dies in the last scene of S2E8 — r3): Vesna dismisses Elm, takes off her rings one by one and sits with her signing hand closed. Elm, outside, tells a novice it is "a headache". |
 | S3E12 | Sister Venn, to Ione: "The First Cantor chose your cradle herself. She has never done that for anyone." |
 | S4E7 | At Pale Crag Vesna sends Elm out and sits alone with captive Pell; touches the left braid; signs something we are not given subtitles for (the sign glossary, by then public, lets fans read: *"Hesh's hair."*). |
 | S5E6 | The published Gleaner rolls: a CY 244 entry, "Ninth Sluice, female, five years, ear true — placed: the Crag". No name. |
@@ -351,3 +353,28 @@ S1E5 the missing child found with a Gleaner novice "for testing" — the novice 
 
 ### 9.2 Every secret: planted → echoed → revealed (≥3 clues, ≥2 seasons for saga tier)
 All SEC-001…029 have a plan in §5. Season-tier secrets revealed inside S1–S2 (001, 013, 015, 023) carry ≥3 clues inside their span by design. The public-safe version of this audit (threads, not answers) is the table in `saga_arc.md` §"Thread ledger".
+
+
+## 10. Restricted side of the r3 rulings (DEC → sealed)
+
+Open rulings: `studio/story/decisions_resolved.md`. This section is what that file may not say. Keeper: record these in `canon/sealed/sealed.md` only.
+
+| DEC | Restricted ruling |
+|---|---|
+| DEC-04 | The public schedule is the arithmetic of SEC-024 (S6E4 draft "Still 2"; S7E8 POV). Approved as public law precisely because "it points at nobody". The new clarification (a Spire in mid-retuning answers no ordinary solo) is also the first on-screen working of RULE-014 in small: in S4E11 the Crown Spire, silent in mid-retuning, answers the **duet** — high part and Low Note — when no Cantor's solo can wake it. |
+| DEC-08, DEC-09 | The Terms and the office are what Tsura's silence buys. The irony of RULE-022 is hers: relief ends "the dry", so only the delta's *fear* keeps the power in her hand long enough to get terms — the reason she "does not deny it". |
+| DEC-13 | Fifth era: **MV — the Year of Many Voices.** MV 1 = the year after SY 3 (= CY 329), abs_start **1428**. The Great Chorus falls on the Still Days of SY 3; the new count begins the next morning, Firstwater 1. The epilogue (S12E13) is **MV 40** (abs 1467): Hollis is 82, Pell 71, Tibb 57. |
+| DEC-14 | Tolvar Corvane comes ashore when the city falls, climbs to the crown and takes the emptied ring from the dead Queen's hand (S5E10: "an admiral's hand closes on the ring"; P3: wide shot, uncommented). |
+| DEC-17 | The clock of SEC-024: the Dask draft is dated Still 2 (payment on the eve); the Sheaf Spire is retuned on Still 2; the charges go in the last dark hour before dawn on Still 3; the bore passes the Polders by mid-morning (the freshly retuned Sheaf Spire holds the Barrows) and reaches Highwater in the late afternoon, with the Crown Spire in mid-retuning. This timetable *is* Garrick's arithmetic in S7E8. |
+| DEC-21 | SEC-026 clue is the S2E9 cold open, "the same night" (table in §5 corrected). |
+| DEC-28, DEC-42 | Emeric Ilvane is the heir Ves married. The "of the Crag" entry in the Book of the Blood is her own device — it is closed to helpers so that no open file teaches the audience the trick before S5E6/S10E9. |
+| DEC-32 | Ylva Dask inherits in the episode in which Pell learns SEC-024 (S10E11). She is not told on screen before S11. Design intent for the S11 outline: the Dask levies who killed at the Ninth Bridge come into the chorus under her — the house's debt paid by the daughter. |
+| DEC-34 | **Hesh Oshra: b. ~CY 215, d. CY 263.** After Ves was taken (CY 244) Nan became the eldest daughter left and was taught the Oshra line at five (CY 247). Nan taught it to Liss (eldest daughter, CY 278). *Clarification that tightens SEC-012/020:* when Liss came to the Choir in CY 305 with the pitch-stone and said she would make the Choir Spire answer her, she was — whether she knew it or not — a woman carrying the Low Note, one line of the Tenth Verse and the Keeper's stone, standing at a living Spire. Vesna did not kill a grieving mother to hide a kidnapping; she killed the one person in the city who might have struck a Spire dumb. Nan never taught Pell the line (Pell was not the eldest; and after CY 305 Nan was afraid of it: "one you don't need"). Living holders of the Oshra line at S1E1: Nan and Vesna; after S2E8: Vesna alone. |
+| DEC-35 | Vesna is taken in S10E3, when the Sovereign seizes the archive and the school; held in the Dry Palace. It is from Vesna's notation (not from Vesna) that Maren learns what the Tenth Verse does — the basis of her S12 threat. |
+| DEC-38 | Garrick reads the Sheaf Spire's song-journal of CY 87 inside the S7E8 POV: his ancestor let a district go by singing short; he let one go by letting the water come. Two lettings-go in one episode; he closes the journal and says the house words. |
+| DEC-45 | Mags sells a lane and "a stone that sings back" — never where it was found, never its look beyond "black". Nobody in any season links the stone and the ring before S12E11. |
+| DEC-46 | Without knowing the answer, writer-houses built every element of SEC-024 in open files. Two sentences that point at it were removed from `houses/HS-002-dask.md` (r3): the note that the Barrows' dikes held because the Sheaf Spire was retuned on Still 2, and "Dask had the deepest [reason]". The facts stay true; the audience must do that sum itself in S7. |
+| DEC-48 | **Custody of the brass clip:** found melted in the ashes by Fossett (S6E9) → entered in evidence at the inquest of the Hearings (S6E10) → the Hearings' evidence chest, i.e. Zev's keeping → returned by Zev to Hollis in the Listening House (off screen) → pressed into Quire's wax (S10E5). Fair-play shots: S7E5, during the Kilbride suit (DEC-39), the tagged, melted clip lies in the open evidence chest; S8E3 (the second cot) the tag hangs empty on Zev's wall. A viewer who tracks the object finds Zev before S11E6. |
+| DEC-52 | Hollis in Odo's treasury is the position from which he "forged the record for Odo" (SEC-011b). |
+| DEC-23, DEC-53 | First Raising, Ember CY 324; Ninth Bridge, Longdark CY 325. In S8 and S12 Maren orders Spires sung or silenced; she never sings. |
+| DEC-56, DEC-57 | "Quire" is Hollis's joke and a fair clue: a quire is a gathering of paper — only a clerk would take that name — and it is chosen in the season the Sovereign prepares to break *the Choir*: the voice of the realm replaced by its paper. The homophone is kept on purpose; "Quiller" is renamed so that no other name begins *Qui-*. |

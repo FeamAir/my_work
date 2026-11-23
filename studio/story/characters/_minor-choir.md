@@ -1,5 +1,7 @@
 # Second circle — the Choir (Cantors, Gleaners, the archive)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Daro's origin is a case of SEC-005, with no secret of its own (DEC-44). Sabin is first seen in S1E3 (DEC-24).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **New-character proposal** in this file: CH-0077 Novice Sedge. **Teen:** Daro Vey (16) — no romance or sexual content.
 Production note: Choir robes and hoods make this whole group easy to show from behind, hooded or veiled.

@@ -1,5 +1,7 @@
 # Visual anchors matrix (for the director's ID-blocks, `direction/consistency.md` §2)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a **working sheet** for the director and the concept artist; the colour and silhouette separations of §3 are approved (DEC-60). Renames: Tuck (ex Nim). To be confirmed at the style test.
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Story-level only: the director turns these into the fixed ID-blocks in `studio/direction/refs/<ID>/card.md`.
 Rule: every main hero has **a hair detail + a signature item**, side stated; no two main heroes on screen in the same season share a hair colour or main clothing colour. Conflicts that come from the frame files are listed at the end (questions for the lead/director, not fixed here).
 
@@ -55,7 +57,7 @@ People in the saga differ as in life — build, height, age, skin, faces of diff
 | Orrie | very tall, gaunt; salt-cracked hands | salt-crusted grey hair, loose | spiral-shell necklace |
 | Sal Tern | thin, young; brown skin | straw-and-tar hat | navy-blue shawl |
 | Gant | big, soft, slow | tattooed wheel on the back of the skull | chained debt-book |
-| Nim | narrow, twitchy | gold-capped front tooth | loupe on a cord |
+| Tuck | narrow, twitchy | gold-capped front tooth | loupe on a cord |
 | Bede Lark | short, round-shouldered; **half-deaf in the RIGHT ear** from years beside ringing stones | wool muff over the right ear | keeper's tone-fork |
 | Fitch | lean, upright, moves like a cat; olive skin he keeps out of the sun | knotted grey-shot black hair | hare-ear pin |
 | Widow Pruitt | tiny, quick | dyed-black ringlets, lace cap | ring of thirty keys |

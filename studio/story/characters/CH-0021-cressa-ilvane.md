@@ -1,5 +1,7 @@
 # Lady Cressa Ilvane — the grieving mother
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. First seen S1E3, applying Ione's rinse herself (DEC-24). In CY 295 she knew her own child had died and that the baby was "a foundling of the Choir"; she did not know of a living mother in the Lows (DEC-43). Born a Pallis (DEC-27).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Ilvane's tree and Cressa's birth-house.
 

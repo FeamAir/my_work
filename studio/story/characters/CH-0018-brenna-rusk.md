@@ -1,5 +1,7 @@
 # Lady Brenna Rusk — the Lady of the Stair
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Her secret is SEC-030 (revealed S3E11); her heir is Sindre with Castellan Eirik (DEC-30).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Rusk's family tree; this dossier writes the person.
 

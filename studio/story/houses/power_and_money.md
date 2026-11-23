@@ -1,5 +1,7 @@
 # Power and Money — the machinery of the Concord
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved** (`world.md` §7): the Conclave procedure with RULE-015…017, the list of Helms, the Tithe Map tiers, prices and wages, the retuning order of the Still Days. Corrections: the CY 252 vote is 5–2 (DEC-06); Odo dies on Still 3, CY 320, so the election of CY 321 follows the thirty-day rule (DEC-07); retuning means a silence of hours ended by the retuning song, and a Spire in mid-retuning answers no ordinary solo (DEC-04); bonds from S6E5 (DEC-18).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Spoiler level: **internal**. §1–4 and §7–8 are public-safe mechanics (in-world law and prices); §5, §6 and §9 contain secrets (SEC-007, SEC-016 and others) and are for the writers' room only.
 Frame: `series_bible.md` §7, RULE-006…010; `houses_overview.md` §0; `saga_arc.md` (Intrigue ladder).
@@ -101,7 +103,7 @@ Ninth Sluice: Second Song until CY 295 · Last Song after the Night of Still Wat
 
 **How it is bought (all floors):**
 - **Steps:** seats trade map favours for votes (the S1 bread vote); the Choir sells **priority songs** that override the map on the crown; the bank asks for districts to be *Let Go* where it holds Account titles.
-- **Mids:** Inchley clerks sell drafts (SEC-C04); relay-keepers sell the map's tone-codes early (Bede Lark, CY 312); sluice-wardens (Cobbet) buy their own districts up a tier.
+- **Mids:** Inchley clerks sell drafts (SEC-037); relay-keepers sell the map's tone-codes early (Bede Lark, CY 312); sluice-wardens (Cobbet) buy their own districts up a tier.
 - **Lows:** a district can buy a **lift** (~500 marks a year to the Spire's holder) — the Undertow's dry-pledges are, in effect, a Lows savings club for lifts that never come.
 
 ---
@@ -197,7 +199,7 @@ Market sign: a 10-mark note buys 10 marks of silver in CY 312, 9 in CY 320, **2*
 
 Run by House Fennick since the Clerks' Ordinance (CY 160). Courts in the Listening House and in district halls.
 - **Who may testify:** nobles and Mids freely; a commoner against a noble only with a **Mids sponsor**.
-- **Speed and delay are for sale** (§4). A Hearing can sit on a file for years (the Kilbride will, SEC-C03).
+- **Speed and delay are for sale** (§4). A Hearing can sit on a file for years (the Kilbride will, SEC-036).
 - **Punishments:** fines, debt-walking (sentenced to the treadmills), the tide-post (Hush Law, RULE-006), exile upriver (Kes, S1E12), drowning for treason (rare, public).
 - **The Ring's challenges** go to the Hearings except when Fennick is party (§1.4).
 - After Odo (S5) and the bank (S6), **who runs the Hearings** becomes a political prize — Zev Fennick holds them in S7 and opens the Relay logs to Dorran.
@@ -226,7 +228,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 |---|---|---|---|---|---|---|---|
 | 1 | **Account Nine** — notes against land to be let go (SEC-007) | Ursel, the Table | clerks (Hollis, Fossett), Merriden notaries, Undertow pledge-sellers | Ninth Sluice (S1); Mids savers (S6) | Hollis (S1E3–E6), Pell, Merriden auction (S6) | S1 → S6E7 | Odo's first act declares Ninth "reclaimed" (S1E12); the crash makes Maren Helm (**S6**) |
 | 2 | **† A relay-keeper sells one message twice** | Bede Lark | Bede, on a Tennant tower | Ruel, Lucan (dead) | Hollis (S1E7), Zev (Relay logs) | S1E7 → S2E6 | Ruel poisons the Helm; Ursel has Ruel killed (**S1**) |
-| 3 | **Tithe Map drafts sold** (SEC-C04) | Inchley clerks | Map Office copyists | Lows households (dry-pledges priced to fail) | Hollis (S2E6, Lucan's chest), Silt | S1E1 → S2E6 | the bank knows the map before the Helm signs it → Account Nine timed to Still 3 (**S1**) |
+| 3 | **Tithe Map drafts sold** (SEC-037) | Inchley clerks | Map Office copyists | Lows households (dry-pledges priced to fail) | Hollis (S2E6, Lucan's chest), Silt | S1E1 → S2E6 | the bank knows the map before the Helm signs it → Account Nine timed to Still 3 (**S1**) |
 | 4 | **Bribed retuning** (SEC-015) | Ursel | Fennick's steward, Cantor Sabin | Ninth Sluice | Hollis (S2E6) | S1E9 → S2E6 | Odo's election is stained by a crime he didn't commit; he must give up his own steward to the Hearings (proposal) (**S2**) |
 | 5 | **Under-sung Sluice Spire** (Cantor-rent skim) | Odo's treasury | Choir rent clerks | Ninth Sluice | Ione (S1E3, E8) | S1 | one bribed retuning is enough to drown a district; Ione's Great Song (**S1E10**) |
 | 6 | **Priority songs** | Choir chapter | Cantors on the crown | districts that can't pay | Ione (S1), Elm | S1E7–E8 | the Choir's bank debt → **the Choir votes Fennick** (**S1E12**) |
@@ -236,7 +238,7 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 10 | **Relief bread** at triple price | Garrick, Orsley | barge-masters (Gillam), Undertow middlemen | the Lows | Pell (S1E5) | S1E5 | Dask's vote is bought with bread → **Odo Helm** (**S1**) |
 | 11 | **Flag-hiring** (other houses' seals on barges) | Gillam | lock-keepers who look away | rival convoys | Maren (S2) | S1E5, S2E11 | Dask barges block the canal → Maren loses the Sluice Gates (**S2**) |
 | 12 | **† Storm-berths and padded powder** | Corvane flag-captains (Whitlow) | pursers, gunners' mates | wrecked merchant crews; Lows gunners | Nell Tern, Maren (S2E11) | S2E11 | guns silent → Maren loses the Helm's War; the Sovereign's war on small thieves (**S2 → S10**) |
-| 13 | **† A regent tidies a crime** (SEC-023) | Lady Ysa | her household; Skarra pilots (SEC-C05) | Sister Marl; Maren's war | Maren (S2E10) | S1E7 → S2E10 | Gullmouth opened to Fennick (**S2E11**) |
+| 13 | **† A regent tidies a crime** (SEC-023) | Lady Ysa | her household; Skarra pilots (SEC-038) | Sister Marl; Maren's war | Maren (S2E10) | S1E7 → S2E10 | Gullmouth opened to Fennick (**S2E11**) |
 | 14 | **† Ledger kept as insurance** | Fossett | Fossett | — | Hollis | S2E7 | names Ruel's killers (**S2E11**); testifies (**S6**) |
 | 15 | **† Saltpeter sold twice** | Grell quartermasters | clerks, Hadden guides (Goat Stair), Varra sloops, Undertow fences | Rusk pikemen; powder-mill workers | Kes, Ottar, Brenna (knows) | S3E10–11; S4 | Ossari guns fire Rusk powder → **the Stair falls** (**S3**); a second sale in CY 314 (SEC-024, sealed) |
 | 16 | **Ember contracts and the vote-lien** | the bank's futures desk, Orsley | Dask stewards | Dask peasants (salt-burned harvest) | Garrick (POV S7) | S4 | Dask's voice pledged to the bank in the dry summer (**S4**); Maren buys Dask with water (**S7**) |
@@ -247,6 +249,6 @@ Columns: **who invents / who executes / who pays / who in the cast could discove
 | 21 | **† The Hum hires out singers** | Pell | Hum circles | — | the Choir, Maren | S6 | houses with failing Spires buy Lows voices → **Maren elected** (**S6**) |
 | 22 | **† Lirenne salvage bonds + a pretender** (SEC-016) | Tarrow brokers, Piers Lantry | barge-sellers, Lio | ruined savers | Pell, Jaro (who exposes it in S8E6 is the lead's) | S6E5 → S8E6 | splits the Lows' vote (**S6**); pays for the Raising (**S9**) |
 | 23 | **Notes for swords** — free companies paid in dry-notes | the bank, Helm Odo | company captains (Rook Danner) | the companies' men | Maren, Jaro | S6E11 | the mercenary fleet changes sides mid-battle → the Battle of the Shoals (**S6**) |
-| 24 | **The Purchased Seat's deathbed will** (SEC-C03) | Lantry clerks (CY 251), Fennick witness | — | Harrow's natural line (Kilbride) | Zev (Hearings, S7), Piers | S6–S7 (proposal) | who votes the Hill Voice after the bank falls (**S7**) — needs the lead's decision |
+| 24 | **The Purchased Seat's deathbed will** (SEC-036) | Lantry clerks (CY 251), Fennick witness | — | Harrow's natural line (Kilbride) | Zev (Hearings, S7), Piers | S6–S7 (proposal) | who votes the Hill Voice after the bank falls (**S7**) — needs the lead's decision |
 
 Rows 1–23 change a named decision of the Steps in the season given; row 24 is an offered hook. Every season S1–S9 has at least one Lows or Mids scheme in this table that moves the top (S1: 2, 8, 9, 10; S2: 11, 12, 19; S3: 15; S4: 16; S5: 8; S6: 18, 20, 21, 22; S7: 16; S8: 22; S9: 22); S10–S12 continue through rows 12 and 17 and the lead's own outlines.

@@ -1,8 +1,10 @@
 # Second circle — the Lows
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** set **approved with corrections**. Tibb is born **Longdark CY 311** — about a year old in S1E10, 9 in S5, 13 in S9 (DEC-22). Sal Tern is CH-0067. Silt's fence **Nim is renamed Tuck** (DEC-57). Mags's copper is approved; Pell learns it in S2E9 (DEC-45, SEC-045). Lio and Orrie keep their two-syllable names (DEC-58). Minors: Mags, Lio, Patch, Tibb — the restriction follows age in the season being written (DEC-59).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Format: one machine block + short dossier (function · secret · link to the past · look anchors · voice line). Places (PL) and events (EV) are pending; names of places are given in prose.
-**New-character proposals** in this file (need keeper IDs/approval): CH-0070 Sal Tern, CH-0073 Gant, CH-0074 Nim. Teens (Mags 15, Lio 17, Patch 12, Tibb): no romance or sexual content.
+**New-character proposals** in this file (need keeper IDs/approval): CH-0067 Sal Tern, CH-0073 Gant, CH-0074 Tuck. Teens (Mags 15, Lio 17, Patch 12, Tibb): no romance or sexual content.
 Lowfolk naming: one-syllable given name + "of the <sluice>"; a few families keep an old private surname (Oshra, Tern).
 
 Silhouettes (build, skin, gait, marks of work and war) for every entry are summarised in `_anchors_matrix.md` §2a; investor rule — traits come from the world and biography, never from morality.
@@ -24,7 +26,7 @@ secrets: []
 status_track: [S01E01:alive, S01E10:dead]
 first_episode: S01E01
 ```
-**Mags** (15) — Pell's mudlark friend and rival; the loudest laugh in the back-canal. *Function:* the Lows' first loss — drowns in the S1E10 flood. *Secret:* she steals for Mother Silt — and (proposal) in S1E2 she sells word of Pell's "singing stone" to Silt's fence Nim for one copper, which is how the Listeners get the lane, not just the log. Pell learns it in S2 from Nim, after Mags is dead (an episode puzzle with no one left to forgive). *Link:* her copper is the first small sale that moves the top (Fitch's hunt). *Look:* frizz of black hair tied up with a strip of red rag; a man's oversized waistcoat full of pockets. *Voice:* hoarse, cackling. *"Finders keep, losers weep, and Listeners pay double."* First seen E1 (proposal — mudlarking beside Pell).
+**Mags** (15) — Pell's mudlark friend and rival; the loudest laugh in the back-canal. *Function:* the Lows' first loss — drowns in the S1E10 flood. *Secret:* she steals for Mother Silt — and (proposal) in S1E2 she sells word of Pell's "singing stone" to Silt's fence Tuck for one copper, which is how the Listeners get the lane, not just the log. Pell learns it in S2 from Tuck, after Mags is dead (an episode puzzle with no one left to forgive). *Link:* her copper is the first small sale that moves the top (Fitch's hunt). *Look:* frizz of black hair tied up with a strip of red rag; a man's oversized waistcoat full of pockets. *Voice:* hoarse, cackling. *"Finders keep, losers weep, and Listeners pay double."* First seen E1 (proposal — mudlarking beside Pell).
 
 ```canon
 id: CH-0043
@@ -83,8 +85,8 @@ name: Tibb
 epithet:
 class: poor
 role: major
-born: ~CY 312-02
-true_mother: CH-0070
+born: CY 311-10
+true_mother: CH-0067
 parentage_secret: SEC-017
 relations: []
 secrets: [SEC-017]
@@ -161,7 +163,7 @@ first_episode: S01E01
 **Oshra** (OS 700) — a servant girl at Lirenne. *Function:* the tapestry figure with a **left braid** and a **closed fist** (a shell inside, S1E1); flashback S5E10. *Secret (SEC-003):* escaped the drowning of Lirenne carrying the last verse of the song; Pell's ancestress; the Oshra line keeps it in the Quiet. *Link:* Pell's left braid. *Look:* girl of about fourteen (no age-sensitive content), plain undyed shift, one braid left. *Voice:* none in S1; flashback lines S5 — lead's choice.
 
 ```canon
-id: CH-0070
+id: CH-0067
 type: character
 canon: draft
 name: Sal Tern
@@ -197,7 +199,7 @@ first_episode: S01E05
 id: CH-0074
 type: character
 canon: draft
-name: Nim
+name: Tuck
 epithet: of the Second
 class: outlaw
 role: minor
@@ -207,4 +209,4 @@ secrets: []
 status_track: [S01E02:alive]
 first_episode: S01E02
 ```
-**Nim** (28; NEW — proposal) — Mother Silt's fence for the mudlarks. *Function:* says the line *"Calm is bought, mudlark. So is everything."* (S1E2); buys and sells shards; the lane's link to the Listeners. *Secret:* sells to Fitch's Listeners as well as to Silt (Silt knows, and uses it to feed Fitch what she wants him to hear). *Link:* tells Pell in S2 who sold her stone's lane (Mags). *Look:* narrow, **one gold-capped front tooth**, a coat lined with dozens of little pockets, a jeweller's loupe on a cord. *Voice:* rapid, nasal patter.
+**Tuck** (28; NEW — proposal) — Mother Silt's fence for the mudlarks. *Function:* says the line *"Calm is bought, mudlark. So is everything."* (S1E2); buys and sells shards; the lane's link to the Listeners. *Secret:* sells to Fitch's Listeners as well as to Silt (Silt knows, and uses it to feed Fitch what she wants him to hear). *Link:* tells Pell in S2 who sold her stone's lane (Mags). *Look:* narrow, **one gold-capped front tooth**, a coat lined with dozens of little pockets, a jeweller's loupe on a cord. *Voice:* rapid, nasal patter.

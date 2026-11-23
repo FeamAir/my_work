@@ -1,5 +1,7 @@
 # Maren Corvane — the heir
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. First seen S1E1 from behind; face and first line S1E2 (DEC-24). Short deep-blue jacket (DEC-60). Her vote in S1 needs Ysa's confirmation under the under-21 rule; the seal stays with Ysa (DEC-03, DEC-31). In S8 she *orders* two Spires sung; she has no ear (DEC-53).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Arc limit:** written up to **S8**. After S8: `sealed` (death S12E11 is fixed by the frame; circumstances are not mine).
 

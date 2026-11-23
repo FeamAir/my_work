@@ -1,5 +1,7 @@
 # HS-091 The Ossari Uplands — the kite-clans as a power
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. The Weir Terms are approved as drafted and hold **seven** years, CY 315–321 (DEC-08). The Dry Queen as an office is approved (RULE-022, DEC-09). Esk is given as hostage in **CY 309**, after the Rim Skirmish, aged ten (DEC-20); his father is Akko of Kitsa, killed in that skirmish (DEC-33). The Goat Stair is used by a small party in S3E10 (DEC-40). Do not develop the events of CY 314 beyond this file before the S4 outline (DEC-46).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §3, `series_bible.md` §6. **Tsura Den, Esk, Kadu, Ottar are `writer-characters`'** — this file writes the power, not the people; coordination items are in the report.
 Secrets: the Ossari **believe** SEC-008 from S3 ("your stones drink our rivers"); this file never confirms it in public text. SEC-024: the Dry Queen "did not deny" the wave — `[SEALED — ask lead]` for who breached the weir.
@@ -95,7 +97,7 @@ Since the **Stair Treaty** (CY 142): each generation the clans send a child of a
 5. The Exchange of Sleeves is renewed both ways (the Concord must send a child to the Rim — a clause nobody in Highwater intends to keep).
 6. The Ossari claim **no voice in the Ring** ("we will not sit in your drowning-house").
 
-The Terms hold five years. Maren breaks them in S7 to buy Dask's vote with river water.
+The Terms hold seven years (CY 315–321). Maren breaks them in S7 (CY 322) to buy Dask's vote with river water.
 
 ## 9. Production
 

@@ -1,5 +1,7 @@
 # How the Lows and the Mids live
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved** as the picture of daily life (`world.md` §8). Its "hooks" for writers remain suggestions. Gate passes: Dunmore's clerk issues, the Rusk quartermaster's office strikes extra copies, a guardsman sells (DEC-55).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal** (no sealed answers; folk beliefs are marked **(belief)**)
 Frame: `series_bible.md` §5 (RULE-004, 006, 007), §7 (tiers, money, religion), `saga_arc.md` Intrigue ladder. Everything here not already in those files is a **proposal** for the canon keeper and lead. Each section ends with **story hooks**.
 
@@ -103,7 +105,7 @@ The Hush Law (RULE-006) forbids commoners to sing within sight of a Spire; work-
 ---
 
 ## 8. Crime and the Undertow
-- **Structure (proposal):** **Mother Silt** on her barge-palace; one **under-boss per sluice or trade** (Gant of the Fourth runs treadmills; others run moorings, the shard trade, the dry-pledges); **fences** (Nim) who buy from mudlarks; **mouths** who sell rumour; **runners** (children, paid in food).
+- **Structure (proposal):** **Mother Silt** on her barge-palace; one **under-boss per sluice or trade** (Gant of the Fourth runs treadmills; others run moorings, the shard trade, the dry-pledges); **fences** (Tuck) who buy from mudlarks; **mouths** who sell rumour; **runners** (children, paid in food).
 - **Trades:** smuggling (salt, echo-chips, powder in war); the **dry-pledge** racket; **salvage-rights** fights; the echo-shard black market; **fake drownings**; debt-buying and debt-walkers; hiring out men "with no questions" (S4E10, `[SEALED]` what for).
 - **Silt's law:** everything is sold; no child is. (SEC-029 breaks it from inside.)
 - **Undertow punishments:** "put on the wheel" (walk a debt you didn't owe); "given to the ebb" (drowned) for informers; the law's punishment is the **tide-post**.

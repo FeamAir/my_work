@@ -1,5 +1,7 @@
 # Voice fingerprints
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a **working sheet** for the sound director (voices are confirmed at the first TTS probe). Rename: Tuck (ex Nim). Ashare is pronounced `ah-SHAH-reh` everywhere (DEC-57).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · for the sound director, script writers and the canon keeper (`series_bible.md` §12.5)
 Distinguish voices on **five axes** (pitch · timbre · attack · tempo · delivery/accent), not by age alone — two "young women" will sound alike to a TTS model unless the axes differ.
 Accents: **Lows** (swallowed t, dropped g, flat vowels) · **Mids** (clear consonants, clerk's finish) · **Steps / Pale Crag** (long vowels, formal) · **Gullmouth** (open sea vowels) · **Upland/Rusk** (rolled r, long o) · **Island/Quell** (drawl, dropped endings) · **Ossari** (hard k and ts, short vowels, falling endings).
@@ -36,7 +38,7 @@ Accents: **Lows** (swallowed t, dropped g, flat vowels) · **Mids** (clear conso
 | Patch | squeaky, deadpan; Lows | *"I'm not poor, I'm owed."* |
 | Tibb (S9) | quick, serious, breathless | *"Everyone in this book was sold by someone who thought it didn't count."* |
 | Orrie | breathy sing-song speech that never becomes song | *"The Lady takes back what she's owed."* |
-| Nim | rapid nasal patter | *"Calm is bought, mudlark. So is everything."* |
+| Tuck | rapid nasal patter | *"Calm is bought, mudlark. So is everything."* |
 | Gant | friendly, fatherly | *"I bought a debt. Debts don't cry."* |
 | Bede Lark | fussy, quick, giggling | *"Old stones ring low. We throw them back."* |
 | Fitch | flat, accentless (Lows slips out under fear) | *"I know every lane you'll run down, girl. I ran them first."* |

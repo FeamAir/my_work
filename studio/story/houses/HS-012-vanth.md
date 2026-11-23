@@ -1,5 +1,7 @@
 # HS-012 House Vanth — "the Falls" (destroyed CY 141)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**.
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft (short dossier)
 CY 136–141 is the prequel window **P4 "The Stair"** — events are named here, not filled.
 

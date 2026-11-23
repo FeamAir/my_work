@@ -1,5 +1,7 @@
 # First Cantor Vesna Ilvane
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**.
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Sealed:** her life before the Choir, her parents, her early memories, her deeper motive. This dossier begins at the Choir. Where it would need them: `[SEALED — ask lead]`.
 

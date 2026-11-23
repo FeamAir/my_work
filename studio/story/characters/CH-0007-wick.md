@@ -1,5 +1,7 @@
 # Wick — Pell's brother
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with one correction**: the Ninth Bridge is Longdark **CY 325** (DEC-23).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Teen rule:** 11 in S1 (19 from S5). No romance or sexual content while under 18; none planned after either.
 
@@ -14,7 +16,7 @@ class: poor
 role: major
 born: CY 301-04
 born_at:
-died: CY 324
+died: CY 325
 died_at:
 father: CH-0024
 mother: CH-0023

@@ -1,5 +1,7 @@
 # Second circle — the Steps (great houses, the court, the dead of history)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Lucan's sealed *chest* holds his will and the unsigned Tithe Map (DEC-49). Piers is Bastian Lantry's grandson, Ursel's step-grandson (DEC-29).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns family trees (spouses, parents, cadet lines) of Dask, Ilvane, Fennick, Corvane, Lantry, Ashare. Where a parent is needed and not given, the field is empty.
 **Teen:** Zev Fennick (14) — no romance or sexual content.

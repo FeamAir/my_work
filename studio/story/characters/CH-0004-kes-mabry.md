@@ -1,5 +1,7 @@
 # Kes Mabry — the sergeant
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. In S2E6 she drinks on the anniversary of her first stripe — Rains 12, CY 296, "for steadiness at the Ninth Sluice gate" (DEC-16). Her confession in S3E9 is heard by Esk; Pell hears it from her in S5 (DEC-54). Esk has been a hostage three years in S1 (DEC-20).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 
 ```canon

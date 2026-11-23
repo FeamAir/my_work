@@ -1,5 +1,7 @@
 # Houses, Power and Money — index
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** the house dossiers are **approved** — in full or with the corrections listed in `story/decisions_resolved.md` Part 3. Final IDs: secrets SEC-034…040 (ex C01…C07), Sal Tern CH-0067. Renames: Crispin Harrow (ex Anselm), Tobin Moll (ex Ancel), Pryor Ilvane (ex Quiller), Tuck (ex Nim). Standing instructions: do not develop the events of CY 314 before the S4 outline; do not use the "of the Crag" entry of the Book of the Blood for any named Cantor. The saga is titled **HOLLOWSTONE**; *The Low Note* is Act II and Season 12.
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: **v0.2** (the keeper published the foundation while this package was being written; all IDs below are aligned to v0.2) · status: **draft for canon**
 Spoiler level: **internal**. Every dossier has a public part and a `True history` part. Public-facing teams (marketing, OP/ED, previews) use only *Public history* sections and `art_and_music_sheet.md`.
 
@@ -25,7 +27,7 @@ Spoiler level: **internal**. Every dossier has a public part and a `True history
 | Great / fallen houses | HS-001…012 | exist in canon (foundation); dossiers add fields |
 | Non-house powers | HS-090 Choir, HS-091 Ossari, HS-092 Guild, HS-093 Undertow, HS-094 Quiet, HS-095 Lantern Company | exist in canon |
 | Minor houses | **HS-013…HS-033** (new) | proposals |
-| Characters | **CH-0200…CH-0287** (new; house members and historic heads) | proposals — `writer-characters` uses CH-0070…0077, the keeper CH-0066…0068 |
+| Characters | **CH-0200…CH-0287** (new; house members and historic heads) | proposals — `writer-characters` uses CH-0067…0077, the keeper CH-0066…0068 |
 | Places | canon PL-0001…0065 + **new PL-0070…PL-0078** | proposals (table below) |
 | Events | canon EV-0050…0263, EV-0300+ + **new EV-0264…EV-0273** | proposals (table below) |
 

@@ -1,5 +1,7 @@
 # HS-010 House Moll — "the Levy" (conquered CY 88)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with one correction**: Ancel Moll is renamed **Tobin Moll** (DEC-57). The Broken Dike is SEC-034, revealed S7E8 (DEC-38). The man who stabs Ruel in S1E8, Orm Hask, is Moll-polder born and a pikeman of the Lantern Company (DEC-36).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft (short dossier)
 
 ```canon
@@ -30,13 +32,13 @@ A **sword house**: the dike-levy masters of the eastern river flats, sworn to Li
 
 **The Furrow War (CY 87–88, EV-0250).** In the flood year CY 87 the Moll dikes broke and the Moll polders drowned while the Dask polders held. The Chronicle: *"The lords of Moll cut their own dikes to drown their neighbours, and the sea drowned them instead."* Dask levies marched in to "rebuild the Reach"; Lord **Rawlin Moll** was killed at the dike of Hobb's Gate (CY 88). Helm Galen Corvane sanctioned the conquest. Rawlin's daughter **Thessa Moll** (CH-0276) was married to a Dask second son in CY 89 — the cadet line **Dask of the Reach** (HS-018).
 
-**Heads:** Ancel (~OS 690 – CY 30) · Yorath (30–61) · Rawlin (61–88, CH-0275).
+**Heads:** Tobin (~OS 690 – CY 30) · Yorath (30–61) · Rawlin (61–88, CH-0275).
 
 **Who took what:** the Moll polders, its levies and dike-courts → Dask. Moll blood survives in the Dask of the Reach cadets (Garrick Dask's mother was one — `lineages.md`) and in the rebel polder villages around the **Kellow** knights (HS-017), who still keep the straw-and-black ribbons.
 
 ## True history
 
-**The Broken Dike (secret candidate SEC-C01; see `HS-002-dask.md`).** Moll did not cut its dikes. Dask Cantors sang the Sheaf Spire short over the Reach for three nights in a storm. The Kellow knights' grievance-song says so; the Dask song-log of CY 87 proves it.
+**The Broken Dike (secret candidate SEC-034; see `HS-002-dask.md`).** Moll did not cut its dikes. Dask Cantors sang the Sheaf Spire short over the Reach for three nights in a storm. The Kellow knights' grievance-song says so; the Dask song-log of CY 87 proves it.
 
 ## Notes for production
 

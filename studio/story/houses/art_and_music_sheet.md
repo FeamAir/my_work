@@ -1,5 +1,7 @@
 # Sigils, colours, recognisers and home tones — sheet for the art team and the composer
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a **working sheet** for the concept artist, composer and sound director (to be confirmed at the style and voice tests; it is not a canon record). Colour corrections for Hadden and Tennant (DEC-61). The saga's title is HOLLOWSTONE.
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (house records HS-001…012, HS-090…095) · status: draft
 Spoiler level: **public-safe** (no secrets on this sheet). Sigils, colours and words of the great houses are fixed by `houses_overview.md` and canon; everything marked *(proposal)* is new.
 
@@ -55,12 +57,12 @@ Spoiler level: **public-safe** (no secrets on this sheet). Sigils, colours and w
 | Clan Skarra HS-022 | sea-green + white | green sounding-lead on a white line |
 | Clan Tarrow HS-023 | sea-green + pearl white | green net with one white pearl |
 | Clan Varra HS-024 | sea-green + tar black | black sloop on a green crescent |
-| Hadden HS-025 | rust red + sand-orange | black gate-tower with a sand-orange kite over it |
+| Hadden HS-025 | rust red, with one sand-orange sleeve (r3) | black gate-tower with a sand-orange kite over it |
 | Grell HS-026 | rust red + powder grey | black powder-barrel bound in red iron |
 | Corvane of the Roads HS-027 | deep blue + dark red | cormorant above a white lantern tower |
 | Whitlow HS-028 | deep blue + white | silver anchor through a blue ledger |
 | Pallis HS-029 | white + violet | white key over a violet book |
-| Tennant HS-030 | slate grey + sulphur yellow | grey relay-tower with three yellow rings |
+| Tennant HS-030 | slate grey + pale-yellow ring-stripe (r3) | grey relay-tower with three yellow rings |
 | Orsley HS-031 | black + wheat gold | copper scale-pan full of grain |
 | Kilbride HS-032 | moss green + grey | the Harrow harrow, broken |
 | Wray HS-033 | iron grey + white | black barrel with a white ring-stamp (the "Concord stamp") |

@@ -1,5 +1,7 @@
 # HS-007 House Lantry — "the Counting House"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. The Purchased Seat is the Hill Voice (RULE-017); the CY 252 vote is 5–2 (DEC-06). Piers is Bastian's grandson by his first wife; Ursel is his step-grandmother (DEC-29). "Account Five" may be named, with no detail beyond EV-0200 (DEC-10). Salvage bonds are sold from S6E5, before the crash of S6E9 (DEC-18). Piers casts the Purchased Seat from S6E12 under the Kilbride challenge (DEC-39).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1. Mechanics of money, dry-notes and Account Nine in numbers: `power_and_money.md` §4–6.
 

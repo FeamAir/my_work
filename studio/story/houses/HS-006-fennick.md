@@ -1,5 +1,7 @@
 # HS-006 House Fennick — "the Listeners"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. The CY 251 vote is 5–3 with Harrow's two voices cast by its Fennick stewards (DEC-06). Tennant's colours: slate grey with a pale-yellow ring-stripe (DEC-61).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1.
 
@@ -60,7 +62,7 @@ leitmotif: a ticking figure of muted pizzicato and tuned relay-stones on the hom
 
 ## True history
 
-- **The elevation was bought (no new secret — mechanics only).** Lantry paid the two swing votes of CY 251 and, in return, Fennick's Relay-Master witnessed the last will of Lord Osbert Harrow that left Harrow's *other* voice, the Hill Voice, to "the holder of his debts" — Lantry (see `HS-009-harrow.md`, secret candidate SEC-C03). Fennick and Lantry were born as great powers in the same week, from the same deathbed.
+- **The elevation was bought (no new secret — mechanics only).** Lantry paid the two swing votes of CY 251 and, in return, Fennick's Relay-Master witnessed the last will of Lord Osbert Harrow that left Harrow's *other* voice, the Hill Voice, to "the holder of his debts" — Lantry (see `HS-009-harrow.md`, secret candidate SEC-036). Fennick and Lantry were born as great powers in the same week, from the same deathbed.
 - **The Sluice Spire is under-sung.** Fennick pays its Sluice Spire's Cantors the lowest rent in the realm and books more Cantor-hours than it buys. By CY 312 the Sluice Spire has three Cantors, one of them mute (Sabin) — `HS-090-choir.md`, census.
 - **SEC-015.** Ursel Lantry bribed Fennick's steward so that the Sluice Spire was not retuned on Still Day 3, CY 312; Cantor Sabin took the purse. **Odo did not know.** Revealed S2E6 (Hollis matches the purse).
 - **Odo did not poison the Helm** — everyone thinks he did (SEC-001 is Ruel's).

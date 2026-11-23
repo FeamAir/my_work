@@ -1,5 +1,7 @@
 # HS-003 House Ilvane — "the Songblood"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Aurin's father is Emeric Ilvane (DEC-28). The Lows wet-nurses of the house's born Cantors are confirmed; numbers stay off screen (DEC-11). The "Breaking spears" in the Pale Crag crypt are a registered object (DEC-12).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1. The Choir as a voting body has its own file: `HS-090-choir.md` (Cantor census, First Cantors, priority songs, debts).
 

@@ -1,5 +1,7 @@
 # HS-001 House Corvane — "the Sentinel"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. The Sea Right (RULE-018) and the under-21 rule (RULE-015) are approved; in S1 only the Ring law is spoken, the Sea Right is named in S2 (DEC-03). Headship after Ruel: Lady Ysa holds the seal ashore; disputed through CY 313; Maren's from her pardon in S3 (DEC-31). Tolvar Corvane held the harbour in OS 700 and came ashore when the city fell (DEC-14). Maren's mother is Alis of Whitlow (DEC-27). The fog on the Ostry bar is SEC-035, revealed in one line of Ysa's, S2E10 (DEC-37).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1 (colours, sigil, words, scheme, heirloom are fixed there and repeated here unchanged).
 
@@ -69,7 +71,7 @@ Three Corvane Helms in 312 years — the most of any house; the Lows remember St
 - **The Admiral's Pearl.** "Won at Lirenne" by Tolvar — the family knows no more. `[SEALED — ask lead]` (SEC-027). Writers must not add any history to the ring.
 - **SEC-001.** Ruel used the hinged, hollow pearl to poison Helm Lucan Dask (Longdark CY 312) to stop a Tithe Map that would have let Ninth Sluice flood. Maren takes the ring and the page at the wake (S1E11).
 - **SEC-023.** Lady Ysa had Sister Marl killed to bury her brother's crime; it is why she opens Gullmouth to Fennick in S2E11 (revealed S2E10).
-- **Ostry (proposal, new secret candidate SEC-C02).** The fog of CY 119 was arranged: Wystan Corvane's escort captain "lost" Lord Weylin Ostry's ship on the Ostry bar. No great-house character alive knows this; the Corvane-of-the-Roads cadets keep a family story about it. Use: a Corvane-of-the-Roads captain throws it at Ysa in S2 — "your house has opened harbours before". Purely optional colour; not load-bearing.
+- **Ostry (proposal, new secret candidate SEC-035).** The fog of CY 119 was arranged: Wystan Corvane's escort captain "lost" Lord Weylin Ostry's ship on the Ostry bar. No great-house character alive knows this; the Corvane-of-the-Roads cadets keep a family story about it. Use: a Corvane-of-the-Roads captain throws it at Ysa in S2 — "your house has opened harbours before". Purely optional colour; not load-bearing.
 
 ## Culture and look
 

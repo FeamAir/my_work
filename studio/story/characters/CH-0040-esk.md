@@ -1,5 +1,7 @@
 # Esk — the hostage with the kite
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. Hostage since **CY 309** (aged ten), not CY 307 (DEC-20); in S1 at the Rusk barracks in Highwater, from S1E12 at the Stair (DEC-25). True father: Akko of Kitsa, glider captain, killed in the Rim Skirmish of CY 309 (DEC-33). He is the first to hear Kes's confession, S3E9 (DEC-54).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 **Teen rule:** 13 in S1. No romance or sexual content while under 18.
 
@@ -52,7 +54,7 @@ first_episode: S01E04
 - **Heroism:** he **keeps the record nobody else will keep**, and later carries the pitch when every other line is cut (S11).
 
 ## Biography
-Given to the Stair as a hostage under a border truce, as "the Dry Queen's nephew" (SEC-019: he is her son). He has lived at the Stair since he was eight (CY 307, proposal) and in S1 is in Highwater with the Rusk delegation. He flies a kite from the barracks roof (S1E4); Kes teases him; he teaches her to read kites. In the S1E12 tag his kite answers the signal-fires on the escarpment: "home".
+Given to the Stair as a hostage under a border truce, as "the Dry Queen's nephew" (SEC-019: he is her son). He has lived with House Rusk since he was ten (given in CY 309 after the Rim Skirmish — r3, DEC-20) and in S1 is in Highwater with the Rusk delegation. He flies a kite from the barracks roof (S1E4); Kes teases him; he teaches her to read kites. In the S1E12 tag his kite answers the signal-fires on the escarpment: "home".
 
 His knotted cord of "stone-song days" (S3E8) is the first data anyone gathers on the thirst (SEC-008). In S9 he is suspected of a betrayal he tried to prevent; in S11, with the Relay in the Sovereign's hands, his kite-lines carry the pitch from boat to boat.
 

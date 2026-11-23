@@ -1,5 +1,7 @@
 # HS-004 House Rusk — "the Stair"
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** dossier **approved with corrections**. After Brenna the head is her grandson **Sindre** (11) with his great-uncle **Eirik** as Castellan of the Voice (DEC-30). Esk is given as hostage in CY 309 (DEC-20). The quartermaster's office also strikes the extra flood passes sold at the Highwater gate in S1 (DEC-55). The Goat Stair is used in S3E10 (DEC-40). Do not develop the CY 314 stores beyond this file before the S4 outline (DEC-46).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §1 (r2: Rusk keeps its vote "in exile" after the Stair falls).
 

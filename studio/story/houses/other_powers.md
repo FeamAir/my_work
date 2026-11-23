@@ -1,5 +1,7 @@
 # Other powers — the Guild, the Undertow, the free companies, the Listeners, the Quiet
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. Silt's fence is named Tuck (DEC-57). The Pumpwrights' claim to a voice rests on the Hill Voice precedent (DEC-02).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Frame: `houses_overview.md` §3. People (Dorran, Corr, Silt, Pruitt, Fitch, Rook Danner…) are `writer-characters`'; this file is the institutions. The Choir: `HS-090-choir.md`. The Ossari: `ossari.md`.
 
@@ -70,7 +72,7 @@ secrets: [SEC-029, SEC-024]
 leitmotif: low clarinet and a barge's creak, swung; whistled hooks from the Lows' street culture
 ```
 
-> "Words" are Silt's fence's line (S1E2), adopted as the syndicate's saying (proposal). Founded by Mother Silt (CH-0014), who built it over thirty years from the Lows' older gangs (`writer-characters`: born in the Third Sluice, a debt-walker at nine). Structure (writer-characters' proposal, kept): one under-boss per sluice or trade (Gant of the Fourth runs treadmills), fences (Nim), "mouths", child runners.
+> "Words" are Silt's fence's line (S1E2), adopted as the syndicate's saying (proposal). Founded by Mother Silt (CH-0014), who built it over thirty years from the Lows' older gangs (`writer-characters`: born in the Third Sluice, a debt-walker at nine). Structure (writer-characters' proposal, kept): one under-boss per sluice or trade (Gant of the Fourth runs treadmills), fences (Tuck), "mouths", child runners.
 
 - **What:** the Lows' syndicate, run from a barge-palace in the Lows (PL-0023) by Mother Silt. Smuggling (echo-shards, saltpeter, foreign silver via Quell's Varra clan), the dry-pledge racket, the rumour network ("the mouths"), the echo-shard black market, men hired out with no questions.
 - **Dry-pledges:** sandbag-and-bucket "protection" for a lane in a flood — a household pays ~1 copper a week; the Undertow prices pledges by **leaked drafts of the Tithe Map** (bought from Map Office clerks, House Inchley, HS-015). When the bank wants a district's pledges, the Undertow sells them to the Counting House (Account Nine buys Ninth Sluice's pledges in CY 312) — the Lows' own insurance becomes the bank's collateral.

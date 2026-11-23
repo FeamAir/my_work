@@ -1,5 +1,7 @@
 # Minor houses and clans (21)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** minor houses **approved**, with these corrections. Secret numbers are final: SEC-034…040 replace the candidates C01…C07; reveals are set in DEC-37. Colours (DEC-61): **Hadden** — rust red with one sand-orange sleeve (the Exchange of Sleeves worn as livery); **Tennant** — slate grey with a pale-yellow ring-stripe. Gate passes are a three-floor scheme: Dunmore's clerk issues, the Rusk quartermaster's office strikes extra copies, a guardsman sells (DEC-55). Ruel's killer is a Lantern Company pikeman, Moll-born (DEC-36). Silt's fence is named **Tuck** (was Nim, DEC-57).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Each block: machine record + sigil/colour accent, liege, seat, one secret or scheme, plot use. **[S1–S3]** marks the 12 houses usable in the first three seasons.
 Colour accents are always shown **with** the liege's main colour (a minor house never takes a great house's main colour as its own field). Secrets marked `SEC-C..` are **new secret candidates** (proposals, listed in the report); the rest are schemes or facts.
@@ -50,7 +52,7 @@ founded: ~OS 400
 secrets: []
 ```
 - **What:** hereditary wardens of the Seventh to Twelfth sluices — they work the sluice-gates, keep the dry-tithe rolls of the lower Lows, and hold the keys of the **evacuation gates** to the Mids. Ex-Harrow vassals, Fennick's since CY 251. A small grey house on a stone dike above Ninth Sluice.
-- **Scheme — the pass list:** in every flood the warden's clerk sells **gate passes** (5 marks a family) to whoever can pay; Rusk guardsmen on gate contracts take a share. Holders of passes go through first. *Upward consequence:* S1E10 — Kes opens the gate against orders ("Not twice"); S1E12 she is stripped of rank and sent to the Stair — where S3 needs her.
+- **Scheme — the pass list:** in every flood the warden's clerk sells **gate passes** (5 marks a family) to whoever can pay; the Rusk quartermaster's office strikes extra copies, and Rusk guardsmen on gate contracts (Ansel Fray, S1E4) sell those at the gate (r3, DEC-55). Holders of passes go through first. *Upward consequence:* S1E10 — Kes opens the gate against orders ("Not twice"); S1E12 she is stripped of rank and sent to the Stair — where S3 needs her.
 - **Use:** S1 — the warden's clerk counting passes at the gate (a face for the scheme); S2 — the Dunmores collect the dry-tithe from a district that no longer exists ("reclaimed").
 
 ## HS-014 House Cobbet — wardens of the upper sluices **[S1–S3]**
@@ -89,10 +91,10 @@ seat: PL-0078
 lands: []
 liege:
 founded: CY 2
-secrets: [SEC-C04]
+secrets: [SEC-037]
 ```
 - **What:** hereditary cartographers of the Helm's **Map Office** in the Dry Palace since CY 2: they draw the yearly **Tithe Map** from the Choir's song-reckoning and the dike-wardens' reports, and copy it fair for the Helm's signature. Sworn to the Helm's office, not to a house.
-- **Secret / scheme (SEC-C04, episode-tier):** Inchley clerks sell **drafts** of the map weeks before the reading — to the Undertow (who price dry-pledges by them), to the Cobbets, to the bank. The draft of CY 312 already showed Ninth Sluice "let go" in Inchley's hand. *Upward consequence:* the Undertow's pledges for the Ninth were priced to fail; the bank bought them cheap for Account Nine.
+- **Secret / scheme (SEC-037, episode-tier):** Inchley clerks sell **drafts** of the map weeks before the reading — to the Undertow (who price dry-pledges by them), to the Cobbets, to the bank. The draft of CY 312 already showed Ninth Sluice "let go" in Inchley's hand. *Upward consequence:* the Undertow's pledges for the Ninth were priced to fail; the bank bought them cheap for Account Nine.
 - **Use:** S1E1 — the scribe holding the map at the tithe-reading; S2E6 — the unsigned map in Lucan's chest bears Inchley's draft marks next to Ursel's notes; S4 — Odo's "Listener map" is drawn by the same hand.
 
 ## HS-016 House Merriden — notaries of the Dry Book **[S1–S3]**, S6
@@ -131,11 +133,11 @@ seat: PL-0038
 lands: [PL-0038]
 liege: HS-002
 founded: CY 1
-secrets: [SEC-C01]
+secrets: [SEC-034]
 ```
 - **What:** mounted dike-wardens (polder knights, "Dikeriders") of the Moll polders — Moll's old vassals, Dask's since CY 88. They wear Dask ochre with **a straw-yellow ribbon** — Moll's colour, tolerated as "a local custom".
-- **Secret (SEC-C01):** they keep the **grievance-song** of the Broken Dike (CY 87): Dask's Cantors sang Moll under. The song is clapped and stamped, never sung (Hush-Law-legal), and its rhythm is their marching step.
-- **Link to S1:** the masked man who stabs Ruel (Orm Hask, `writer-characters`' proposal) is a Moll-polder dike-hand with the Moll knot-tattoo, hired through Garrick's steward (SEC-013) — Moll grievance used as a Dask weapon. The Kellows know whose man he was and say nothing.
+- **Secret (SEC-034):** they keep the **grievance-song** of the Broken Dike (CY 87): Dask's Cantors sang Moll under. The song is clapped and stamped, never sung (Hush-Law-legal), and its rhythm is their marching step.
+- **Link to S1:** the masked man who stabs Ruel (Orm Hask, `writer-characters`' proposal) is a Moll-polder dike-hand with the Moll knot-tattoo who took the Lantern Company's coin — supplied by Rook Danner, paid through Garrick's steward (SEC-013; r3, DEC-36) — Moll grievance used as a Dask weapon. The Kellows know whose man he was and say nothing.
 - **Use:** S2E11 — Kellow riders escort the Dask barges that block the canal (they hate the job); S4 (the dry summer) — Moll ribbons fly in the cracked Reach; S10 — at the Battle of the Polders, when Maren drowns the Polders, the Kellows are the first to change sides.
 
 ## HS-018 House Dask of the Reach — the Moll-blood cadets
@@ -238,10 +240,10 @@ seat: PL-0030
 lands: []
 liege: HS-005
 founded: ~OS 400
-secrets: [SEC-C05]
+secrets: [SEC-038]
 ```
 - **What:** by the Pilots' Peace (CY 40) every pilot over the Gullmouth bar is a Skarra. They live in Gullmouth, under Corvane's eyes, but answer to Quell.
-- **Secret (SEC-C05, episode-tier):** in S2 Skarra pilots bring Fennick's ships over the bar the night Lady Ysa opens Gullmouth — paid by Ysa through the Ostry Roads cadets, not by Fennick. It looks like Quell's treachery; Jaro is blamed in Maren's camp until SEC-023 is revealed (S2E10). *Upward consequence:* a red herring that nearly breaks the Corvane–Quell alliance in S2.
+- **Secret (SEC-038, episode-tier):** in S2 Skarra pilots bring Fennick's ships over the bar the night Lady Ysa opens Gullmouth — paid by Ysa through the Ostry Roads cadets, not by Fennick. It looks like Quell's treachery; Jaro is blamed in Maren's camp until SEC-023 is revealed (S2E10). *Upward consequence:* a red herring that nearly breaks the Corvane–Quell alliance in S2.
 - **Use:** S2E10–E11.
 
 ## HS-023 Clan Tarrow — the fishing fleet and the salvage-brokers
@@ -301,10 +303,10 @@ seat: PL-0072
 lands: [PL-0072, PL-0073]
 liege: HS-004
 founded: CY 206
-secrets: [SEC-C06]
+secrets: [SEC-039]
 ```
 - **What:** given **Rimgate** (the one terrace fort Rusk kept after the Kite War) in CY 206; in the same year the first Hadden married a **Tekka** clanswoman under the peace — Ossari blood in every generation since. Translators, guides, wardens of the upper road. **Dagny Hadden** married Brenna's son Ardo — the Rusk heir Sindre is part Ossari (`lineages.md`, proposal).
-- **Secret (SEC-C06, season-tier):** the Haddens guide the quartermasters' **back-trade** up the **Goat Stair** (PL-0073) — an unguarded goat-path up the escarpment two miles from the Stair. *Upward consequence:* whoever knows the Goat Stair can move men or powder past the Stair. Question to the lead whether the Ossari use it in the Battle of the Stair (report Q-08).
+- **Secret (SEC-039, season-tier):** the Haddens guide the quartermasters' **back-trade** up the **Goat Stair** (PL-0073) — an unguarded goat-path up the escarpment two miles from the Stair. *Upward consequence:* whoever knows the Goat Stair can move men or powder past the Stair. Question to the lead whether the Ossari use it in the Battle of the Stair (report Q-08).
 - **Use:** S1E4 — a Hadden officer laughing with the hostage boy in his own language; S3 — divided loyalties in the siege; S4 — the river route under occupation.
 
 ## HS-026 House Grell — Captain-Quartermasters of the Stair **[S1–S3]**, S4
@@ -344,10 +346,10 @@ lands: [PL-0032]
 liege: HS-001
 cadet_of: HS-001
 founded: CY 131
-secrets: [SEC-C02]
+secrets: [SEC-035]
 ```
 - **What:** a cadet line from Rendal Corvane's younger son (CY 131); keeps the **Ostry Roads** harbour forts and lantern towers; keeps Ostry's words. Ruel's mother Wenna was born one (proposal).
-- **Secret (SEC-C02):** the family story of the fog of CY 119 (`HS-011-ostry.md`).
+- **Secret (SEC-035):** the family story of the fog of CY 119 (`HS-011-ostry.md`).
 - **Use:** S2 — the forts' commander is Ysa's man; the forts are silent the night Gullmouth is opened.
 
 ## HS-028 House Whitlow — flag-captains and pursers **[S1–S3]**
@@ -407,10 +409,10 @@ seat: PL-0004
 lands: []
 liege: HS-006
 founded: CY 9
-secrets: [SEC-C07]
+secrets: [SEC-040]
 ```
 - **What:** hereditary Relay-Wardens of the Highwater towers under the Fennick Relay-Masters; they hire and pay keepers like **Bede Lark** (CH-0052).
-- **Secret / scheme (SEC-C07, episode-tier):** the Tennants **sell codebooks** (the old ones, "retired" — but codes are changed slowly), and look away from keepers' private sales for a cut. Hollis's "bought codebook" in S1E7 came down this chain. *Upward consequence:* the Bede Lark double sale (both murders of S1) happened on a Tennant tower; Fennick blames the Tennants in S2 to cover itself.
+- **Secret / scheme (SEC-040, episode-tier):** the Tennants **sell codebooks** (the old ones, "retired" — but codes are changed slowly), and look away from keepers' private sales for a cut. Hollis's "bought codebook" in S1E7 came down this chain. *Upward consequence:* the Bede Lark double sale (both murders of S1) happened on a Tennant tower; Fennick blames the Tennants in S2 to cover itself.
 - **Use:** S1E2 (the keeper's log of the "wrong-ringing" stone), S1E7, S2E6.
 
 ## HS-031 House Orsley — grain-factors
@@ -449,10 +451,10 @@ seat: PL-0004
 lands: []
 liege:
 founded: CY 240
-secrets: [SEC-C03]
+secrets: [SEC-036]
 ```
 - **What:** descended from Lord Osbert Harrow's unrecognised son (b. CY 240); minor Mids gentry — lawyers in the Hearings.
-- **Secret (SEC-C03):** they hold a copy of Osbert's **CY 247 will** leaving the Hill Voice to his son's line, not to "the holder of his debts" (`HS-009-harrow.md`).
+- **Secret (SEC-036):** they hold a copy of Osbert's **CY 247 will** leaving the Hill Voice to his son's line, not to "the holder of his debts" (`HS-009-harrow.md`).
 - **Use:** S6–S7 — when the bank falls, the Purchased Seat is up for grabs; a Kilbride claim in the Hearings (Zev's Hearings, after S6) is a ready-made fight over a vote. Question to the lead (report Q-07).
 
 ## HS-033 House Wray — keepers of the Concord Arsenal

@@ -1,5 +1,7 @@
 # Lineages — the last three generations, and where the official trees lie
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** lineages **approved as a package** (DEC-27, DEC-28, DEC-29), with the renames Crispin Harrow, Tobin Moll, Pryor Ilvane (DEC-57). Heads after losses: Rusk — Sindre with Castellan Eirik (DEC-30); Corvane — Ysa as seal-holder, then Maren (DEC-31); Dask — Ylva (DEC-32). Secret numbers are final (SEC-034…036, 039).
+
 Author: writer-houses · 2026-11-22 · brief r2 · Canon: v0.2 (IDs aligned) · status: draft
 Spoiler level: **internal**.
 
@@ -706,13 +708,13 @@ Only the lies listed in the brief (§4) are used for main characters. Everything
 |---|---|---|---|
 | **Corvane** | Tolvar "took from the water all that could be taken" at the Breaking; the pearl "won at Lirenne" | Tolvar's ships sealed Lirenne's harbour during the massacre. The ring's history beyond "won at Lirenne": `[SEALED — ask lead]`. **No parentage lie** in the last three generations. | SEC-003; SEC-027 (sealed) |
 | | *proposal:* Maren's mother Alys was a Whitlow (the purser family) | — | makes the S2E11 powder fraud a family betrayal |
-| **Dask** | Garrick's mother Hilde was "of the Reach" (Moll blood, public) | as stated. **No parentage lie.** The founding lie is the *Broken Dike* (CY 87), not a birth | SEC-C01 (candidate) |
+| **Dask** | Garrick's mother Hilde was "of the Reach" (Moll blood, public) | as stated. **No parentage lie.** The founding lie is the *Broken Dike* (CY 87), not a birth | SEC-034 (candidate) |
 | **Ilvane** | Ione, daughter of Aurin and Cressa, born CY 294; "the songblood"; Ilvane-born Cantors in the Book of the Blood | Ione is Ama of Ninth Sluice (true parents Liss and Dov), gleaned CY 295; Cressa's own daughter Ilse died CY 294-04. Of 31 "Ilvane-born" Cantors CY 250–312, at least 19 were gleaned (names not given; never on screen as a list). Vesna: official entry only. | SEC-004, SEC-005; Vesna `[SEALED]` |
 | **Fennick** | Barnet → Sefton → Odo → Zev | **true.** The lie about Fennick is political (the bought elevation of CY 251), not genealogical | — |
 | **Lantry** | Piers is "Dame Ursel's grandson" | true **by marriage**: Ursel (b. 250) is Bastian's second wife; Piers (b. 282) is Bastian's grandson by his first wife Annick. Not a secret — it is why the Table, not blood, chose Ursel, and why Piers "wants out" | (arithmetic note for the lead: a blood grandson is impossible at these ages) |
 | **Ashare** | the Tide-Kings from OS 1; Neveh mad; the line ended with her | Neveh was not mad (SEC-003). Keepers before ~OS 400 were elected, not all Ashare (P2 ground). Whether any Ashare child survived: `[SEALED — ask lead]`. The Pretender (S6) is false (SEC-016). | SEC-003, SEC-016 |
 
 ### Minor-house genealogy secrets (allowed: new candidates)
-- **SEC-C02 (Ostry):** the fog of CY 119 that made Elowen Ostry an heiress was arranged by Wystan Corvane's escort.
-- **SEC-C03 (Harrow/Kilbride):** Osbert Harrow's natural son (b. CY 240) was named heir of the Hill Voice in the CY 247 will; the CY 251 deathbed will replaced him with "the holder of my debts".
-- **SEC-C06 (Hadden):** besides the known Tekka marriage of CY 206, the Haddens guide the back-trade on the Goat Stair (a scheme, not parentage).
+- **SEC-035 (Ostry):** the fog of CY 119 that made Elowen Ostry an heiress was arranged by Wystan Corvane's escort.
+- **SEC-036 (Harrow/Kilbride):** Osbert Harrow's natural son (b. CY 240) was named heir of the Hill Voice in the CY 247 will; the CY 251 deathbed will replaced him with "the holder of my debts".
+- **SEC-039 (Hadden):** besides the known Tekka marriage of CY 206, the Haddens guide the back-trade on the Goat Stair (a scheme, not parentage).

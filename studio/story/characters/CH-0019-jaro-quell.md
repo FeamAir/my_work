@@ -1,5 +1,7 @@
 # Captain-Lord Jaro Quell — the vote-broker
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** **approved**. The wreckers' wages are SEC-031: he tells Maren in S2E9 (DEC-37); he is blamed for the pilots' night from S2E11 to S3E2 (DEC-41). After him the seat is vacant until the Hull Moot (DEC-32).
+
 Dossier v1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 Coordination: `writer-houses` owns House Quell (clans, election of captain-lords, family).
 

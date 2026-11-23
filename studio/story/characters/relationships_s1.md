@@ -1,5 +1,7 @@
 # Relationship map — Season 1 (*Dry Tithe*)
 
+> **Revision r3 (lead-screenwriter, 2026-11-22 — rulings of `story/decisions_resolved.md`):** accepted as a working sheet. Read with these rulings: the assassin is a Lantern Company man supplied by Rook Danner and paid through Garrick's steward (DEC-36); the fence is Tuck (DEC-57); the passes run Dunmore's clerk → quartermaster's office → Ansel Fray (DEC-55).
+
 Version 1.0 · 2026-11-22 · author: writer-characters · Canon: v0.1 (+ world package r2) · Spoiler level: **internal**
 State at **S1E12** unless an episode is given. Who-knows-what is a proposal for `secrets.md` `known_by` (the keeper decides). Sealed links are not drawn.
 
@@ -14,10 +16,10 @@ graph LR
     Pell ---|friend| Lio
     Wick ---|friend| Patch
     Corr ---|reedmaster of| Patch
-    Silt ---|employs| Nim
+    Silt ---|employs| Tuck
     Silt ---|buys from| Pell
-    Mags -.->|sells word of the stone| Nim
-    Nim -.->|sells to| Fitch
+    Mags -.->|sells word of the stone| Tuck
+    Tuck -.->|sells to| Fitch
     Gant -.->|buys children from| Sedge
     Orrie ---|Quiet cell| Nan
     Pell ==>|pulls from the flood| Tibb
