@@ -55,7 +55,7 @@ abs_start: 1425
 - **OS** - reckoning of the Tide-Kings; OS 1 = first Keeper; ended by the Breaking (EV-0100), OS 700.
 - **CY** - Concord Year; CY 1 = first year of the Concord; the saga opens in **CY 312**; ended by Maren's coronation (EV-0332) on the Still Days of CY 325.
 - **SY** - Sovereign Years, SY 1 = CY 326 (SEC-022; announced on screen S09E12).
-- A fifth era ("the Year of Many Voices") begins in the S12 epilogue, decades later; its `abs_start` waits for the epilogue date (open question in the keeper's report).
+- A fifth era ("the Year of Many Voices") begins after S12; it is decided (DEC-13), but its start and the epilogue year are restricted until S12 (`sealed/`).
 
 ## 2. Events
 
@@ -1839,6 +1839,14 @@ date_end: CY 325-11-05
 ```
 
 ```canon
+id: S10E03
+type: episode
+canon: approved
+date_start: SY 1-01-01
+date_end: SY 1-11-05
+```
+
+```canon
 id: S10E05
 type: episode
 canon: approved
@@ -1933,7 +1941,7 @@ canon: approved
 date_start: ?
 ```
 
-S12E13 (epilogue): decades after S12; date sealed / not fixed.
+S12E13 (epilogue): decades after S12; date restricted (DEC-13, `sealed/`).
 
 ## 4. Season overview
 

@@ -65,7 +65,7 @@ Not merged — the approved value is kept: `class: noble` (kept canon).
 - **Hair:** **salt-and-pepper (dark, grey-streaked) hair in a short sailor's queue**, and a **grey-streaked dark beard**, trimmed square.
 - **Eyes:** warm hazel, laugh-lines.
 - **Distinctive mark:** a white rope-scar across the back of the right hand.
-- **Usual clothes and colours:** **deep-blue admiral's long coat** with silver braid and the **silver cormorant clasp** at the collar. Main colour: deep blue (long coat — Maren's blue is the *short* riding coat; see the report).
+- **Usual clothes and colours:** **deep-blue admiral's long coat** with silver braid and the **silver cormorant clasp** at the collar. Main colour: deep blue (long coat — Maren's blue is the *short jacket*, DEC-60).
 - **Signature item:** **black pearl ring on the LEFT hand** — the Admiral's Pearl, a Corvane heirloom, hinged and hollow (as `cast_overview.md`; no further history here). He shakes hands **left-handed** with men he means to charm.
 - **Changes:** S1E8 stabbed — bloodied coat; S1E9 wake — the ring still on his hand; it is gone after S1E11.
 

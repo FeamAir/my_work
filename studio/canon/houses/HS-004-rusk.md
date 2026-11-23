@@ -36,7 +36,7 @@ secrets: [SEC-008, SEC-009]
 Status: **approved** (writer-houses dossier, brief r2, 2026-11-22; merged by lore-keeper in v0.3; approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; the `amend` block was folded into the record above in v0.4). Values that differ from the approved block (`leitmotif`) stay as approved; the dossier wording is in the text below.
 
 
-> Note for the keeper: from Mistcall CY 313 (fall of the Stair, S3E11; the Battle of the Stair is dated Mistcall CY 313 in `saga_arc.md`) the seat is in exile at Highwater (PL-0077); the Falls Spire is held by the Ossari. After Brenna's death (S3E11) the head is her grandson **Sindre Rusk** (CH-0235, 11), with his great-uncle **Eirik** (CH-0232) as Castellan of the Voice - regent in all but name (DEC-30, approved). Sindre is a minor through S3-S5 (brief restriction: checklist).
+> Note for the keeper: from Mistcall CY 313 (fall of the Stair, S3E11; the Battle of the Stair is dated Mistcall CY 313 in `saga_arc.md`) the seat is in exile at Highwater (PL-0077); the Falls Spire is held by the Ossari. After Brenna's death (S3E11) the head is her grandson **Sindre Rusk** (CH-0235, 11), with his great-uncle **Eirik** (CH-0232) as Castellan of the Voice - regent in all but name (DEC-30, approved). Sindre is a minor while under 18 in the season being written (DEC-59; checklist).
 
 ### Public history
 

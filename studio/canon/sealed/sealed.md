@@ -2,9 +2,9 @@
 
 > **CLOSED FILE - FULL SPOILERS.** Readers: lead-screenwriter, lore-keeper, studio director. Writer-helpers, marketing, art and sound receive only excerpts decided by the director (`studio/status.md`). Never quote in public material, openings, previews or reports to the investor. Format: `README.md` §8a.
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §H overlays approved by the lead screenwriter in r3; §I = restricted side of the r3 rulings; transfer by lore-keeper)
 
-Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6).
+Source: `studio/story/sealed/master_mystery.md` r2 (§1, §1a, §2, §3, §4, §5, §6) and r3 (§10). Role excerpts decided by the director: `../excerpts/` (v0.4).
 
 ## A. Restricted secrets
 
@@ -218,7 +218,7 @@ min_seasons_hidden: 1
 related: [CH-0012, CH-0015, CH-0066, CH-0020, CH-0002, EV-0255]
 ```
 
-Clues: S01E02 Nan's single left earring: "It had a mate." · S01E12 five taps on the rail · S02E03 "I had a sister too. Ves." · S02E09 the night Nan dies Vesna takes off her rings · S03E12 Venn: "The First Cantor chose your cradle herself." · S04E07 she touches Pell's left braid and signs (unsubtitled) "Hesh's hair." · S05E06 Gleaner roll CY 244, "five years, ear true - placed: the Crag" · S08E08 Venn: her hand shook · S10E09 she lifts the veil: the right earring. Aurin learns in S11 (episode not fixed). Never in marketing before S10E10.
+Clues: S01E02 Nan's single left earring: "It had a mate." · S01E12 five taps on the rail · S02E03 "I had a sister too. Ves. The robes took her. I was too small to remember her face." (DEC-63) · S02E09 cold open, the same night Nan dies (last scene of S02E08; DEC-21): Vesna takes off her rings · S03E12 Venn: "The First Cantor chose your cradle herself." · S04E07 she touches Pell's left braid and signs (unsubtitled) "Hesh's hair." · S05E06 Gleaner roll CY 244, "five years, ear true - placed: the Crag" · S08E08 Venn: her hand shook · S10E09 she lifts the veil: the right earring. Aurin learns in S11 (episode not fixed). Never in marketing before S10E10.
 
 ### SEC-027 - The Keeper's ring
 
@@ -278,7 +278,7 @@ died: CY 263
 secrets: [SEC-026]
 ```
 
-Mother of Ves (Vesna, b. CY 239) and Nan (b. CY 242); an Oshra woman of Ninth Sluice who taught her eldest daughter the Oshra line of the Tenth Verse. When the Gleaners took Ves (EV-0255) she split a pair of spiral-shell earrings: one in the child's fist, one kept for baby Nan. Name check (glossary rule 1): "Hes-" clashes with no important name (Helm is a title: "Hel-"). Dates not fixed by the foundation.
+Mother of Ves (Vesna, b. CY 239) and Nan (b. CY 242); an Oshra woman of Ninth Sluice who taught her eldest daughter the Oshra line of the Tenth Verse. When the Gleaners took Ves (EV-0255) she split a pair of spiral-shell earrings: one in the child's fist, one kept for baby Nan. Name check (glossary rule 1): "Hes-" clashes with no important name (Helm is a title: "Hel-"). Dates (DEC-34): b. ~CY 215, d. CY 263. After Ves was taken (CY 244) Nan became the eldest daughter left and was taught the Oshra line at five (CY 247); Nan taught it to Liss (eldest daughter, CY 278). Nan never taught it to Pell (not the eldest; after CY 305 Nan was afraid of it: "one you don't need"). Living holders of the Oshra line at S01E01: Nan and Vesna; after S02E08: Vesna alone.
 
 ```canon
 id: CH-0012
@@ -390,13 +390,13 @@ secrets: [SEC-026]
 The Gleaners take Ves Oshra (5), already taught the Oshra line of the Tenth Verse (as eldest daughters are). Her ear is the truest in a generation; she is entered in the Ilvane rolls as a cadet-branch daughter, "Vesna". Nan (2) grows up knowing only "the robes took my sister".
 
 ### True versions of public events (additions to `timeline.md`)
-- **EV-0100 the Breaking, last hour (SEC-025, SEC-027):** wounded Neveh teaches the closing verse to Oshra, prises the pitch-stone out of the hollow black pearl of the Keeper's ring and gives it to her; Oshra escapes by reed boat with the stone and a spiral shell. Neveh then sings the Tenth Verse and seals the Lirenne Spire so that the Nine can never sing it; the sea takes the city. The Corvane admiral takes the emptied ring from the dead Queen's hand - it descends in House Corvane as "the Admiral's Pearl".
+- **EV-0100 the Breaking, last hour (SEC-025, SEC-027):** wounded Neveh teaches the closing verse to Oshra, prises the pitch-stone out of the hollow black pearl of the Keeper's ring and gives it to her; Oshra escapes by reed boat with the stone and a spiral shell. Neveh then sings the Tenth Verse and seals the Lirenne Spire so that the Nine can never sing it; the sea takes the city. The Corvane admiral, Tolvar Corvane (CH-0203), comes ashore when the city falls, climbs to the crown and takes the emptied ring from the dead Queen's hand (S05E10: "an admiral's hand closes on the ring"; P3: wide shot, uncommented; DEC-14) - it descends in House Corvane as "the Admiral's Pearl". Open records say only "held the harbour; came ashore when the city fell".
 - **EV-0102 the Quiet:** Oshra splits the Tenth Verse into three lines kept by three elder lines ("three keep it, none sings it"); one line is the Oshra women's.
 - **EV-0256 after the Great Song:** as First Cantor, Vesna reads the sealed archive, learns the whole truth (SEC-014, SEC-025) and recognises the verse her mother taught her (date of her election as First Cantor not fixed).
 - **EV-0201 the gleaning of Ama:** Vesna hears the baby hum the *Oshra* form of the lullaby, has Venn trace the family, learns that her sister Nan is alive in Ninth Sluice, installs Ama in her own house as Cressa's daughter Ione ("born CY 294-09") and from that day keeps the Gleaners away from Nan's lane.
-- **EV-0261 the drowning of Liss:** Liss went to the Choir carrying the Oshra pitch-stone and said she would make the Choir Spire answer her before the whole city; Vesna, her aunt, signed the order; Liss went into the back-canal with the stone on its cord. Seven years of silt later, at the lowest ebb, Pell mudlarks it out (S01E01); Nan recognises it at once (S01E02).
+- **EV-0261 the drowning of Liss:** Liss went to the Choir carrying the Oshra pitch-stone and said she would make the Choir Spire answer her before the whole city; Vesna, her aunt, signed the order - she was not hiding a kidnapping: Liss was, knowingly or not, a woman carrying the Low Note, one line of the Tenth Verse and the Keeper's stone, standing at a living Spire, the one person in the city who might have struck a Spire dumb (DEC-34, tightens SEC-012/020); Liss went into the back-canal with the stone on its cord. Seven years of silt later, at the lowest ebb, Pell mudlarks it out (S01E01); Nan recognises it at once (S01E02).
 - **EV-0315 the breach of the weir:** see SEC-024.
-- **S12E13 epilogue:** decades later; old Hollis reads the official Chronicle aloud to Lows children and voiceless Pell, closes the book: "That is what they wrote. Now - here is what happened." A new count of years begins (the Year of Many Voices).
+- **S12E13 epilogue:** MV 40 (abs 1467; DEC-13, §I); old Hollis reads the official Chronicle aloud to Lows children and voiceless Pell, closes the book: "That is what they wrote. Now - here is what happened." A new count of years begins (the Year of Many Voices).
 
 ## E. Restricted world rules
 
@@ -455,14 +455,16 @@ meaning: Vesna's birth name
 | Keeper's ring (Ruel's pearl) | made for Keeper Isembar (~OS 380-420, prequel P2) → Neveh → Corvane admiral (OS 700) → heads of House Corvane → Ruel |
 | Nan's earring and its mate | Hesh splits the pair CY 244: Ves (Vesna) keeps the right one; Nan the left |
 
-## H. v0.3 additions (draft overlays and keeper notes)
+**Custody of the brass ledger-clip after S06E09 (DEC-48; the open table in `world.md` §6 stops at the fire):** found melted in the ashes by Fossett (S06E09) → entered in evidence at the Hearings' inquest (S06E10) → the Hearings' evidence chest, i.e. Zev's keeping → returned by Zev to Hollis in the Listening House (off screen) → pressed into Quire's wax (S10E05). Fair-play shots: S07E05, during the Kilbride suit, the tagged, melted clip lies in the open evidence chest; S08E03 (the second cot) the tag hangs empty on Zev's wall. A viewer who tracks the object finds Zev before S11E06.
+
+## H. v0.3 additions (overlays approved in r3; keeper notes)
 
 Restricted tags found in the writer dossiers (v0.3). Helpers wrote some of these IDs into their own files; in the canon they live only here (README §8a). Overlay lists are added to the base lists.
 
 ```canon
 id: CH-0013
 type: character
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-024]
 ```
@@ -472,7 +474,7 @@ Tsura: the world believes she broke the weir (cover of SEC-024); her knowledge i
 ```canon
 id: CH-0014
 type: character
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-024]
 ```
@@ -482,7 +484,7 @@ Silt: she sold the six men (SEC-024); her book of sold men.
 ```canon
 id: CH-0044
 type: character
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-010]
 ```
@@ -492,7 +494,7 @@ Nell: her testimony ends SEC-010 (S09E11).
 ```canon
 id: HS-001
 type: house
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-027]
 ```
@@ -502,7 +504,7 @@ The Admiral's Pearl.
 ```canon
 id: HS-004
 type: house
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-024]
 ```
@@ -522,7 +524,7 @@ Grell: the 60 + 40 Concord-stamped barrels written off in CY 314 (dossier HS-004
 ```canon
 id: HS-093
 type: house
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-024]
 ```
@@ -532,7 +534,7 @@ The Undertow hired out the men.
 ```canon
 id: HS-091
 type: house
-canon: draft
+canon: approved
 overlay: true
 secrets: [SEC-024]
 ```
@@ -541,9 +543,9 @@ Public cover: the Dry Queen "did not deny it".
 
 ### Keeper's check of the dossiers against this file (v0.3)
 
-- **Consistent:** Vesna "entered as a cadet-branch daughter and later married to the heir" = writer-houses' Emeric Ilvane (CH-0220), Aurin's father (DEC-28). Liss is Nan's daughter (approved CH-0023) = SEC-026 "her niece Liss". Ione's official birthday CY 294-09 (EV-0201 above) = the S2E5 grave clue "five months before her official birthday": entered in CH-0002 as a draft `born_official` (DEC-19); it reveals nothing beyond SEC-004. The Corvane admiral of OS 700 is now named (Tolvar Corvane, CH-0203); writer-houses keeps him "holding the fleet off the harbour" - the contradiction with the ring taken from the Queen's hand is DEC-14 (SEC-027). Writer-houses' "Book of the Blood, of the Crag" device (DEC-42) is exactly the SEC-026 mechanism; not used in helper files.
-- **Pointer risk, SEC-024 (DEC-46):** without knowing the answer, writer-houses built every element of it in helper-readable files: the Still Days schedule with the Sheaf Spire retuned on Still 2 and Highwater silent on Still 3 (world.md RULE-019), Dask's desperation and the vote-lien (HS-002), 60 + 40 Concord-stamped barrels "lost" from the Rusk exile stores (HS-004/HS-026), the Undertow's hiring. Two sentences that point straight at the answer ("Dask had the deepest [reason]"; "the Barrows' own dikes hold - the Sheaf Spire was retuned on Still 2") were **not** merged into the canon. The schedule itself is needed for S7E8 and the S6E4 clue.
-- **Nan's death:** the SEC-026 clue "S02E09 - the night Nan dies" vs Nan dead at S02E08 (approved CH-0015, EV-0307, saga_arc) - DEC-21.
+- **Consistent:** Vesna "entered as a cadet-branch daughter and later married to the heir" = writer-houses' Emeric Ilvane (CH-0220), Aurin's father (DEC-28). Liss is Nan's daughter (approved CH-0023) = SEC-026 "her niece Liss". Ione's official birthday CY 294-09 (EV-0201 above) = the S2E5 grave clue "five months before her official birthday": entered in CH-0002 as a draft `born_official` (DEC-19); it reveals nothing beyond SEC-004. The Corvane admiral of OS 700 is now named (Tolvar Corvane, CH-0203); writer-houses kept him "holding the fleet off the harbour"; resolved by DEC-14: open records say "held the harbour; came ashore when the city fell", the restricted detail is in §D. Writer-houses' "Book of the Blood, of the Crag" device (DEC-42) is exactly the SEC-026 mechanism (Vesna's own device): closed to helpers by the lead (rejected as a helper tool, decisions_resolved 3.3), so that no open file teaches the trick before S05E06 / S10E09.
+- **Pointer risk, SEC-024 (DEC-46):** without knowing the answer, writer-houses built every element of it in helper-readable files: the Still Days schedule with the Sheaf Spire retuned on Still 2 and Highwater silent on Still 3 (world.md RULE-019), Dask's desperation and the vote-lien (HS-002), 60 + 40 Concord-stamped barrels "lost" from the Rusk exile stores (HS-004/HS-026), the Undertow's hiring. Two sentences that point straight at the answer ("Dask had the deepest [reason]"; "the Barrows' own dikes hold - the Sheaf Spire was retuned on Still 2") were **not** merged into the canon; the lead removed them from the helper dossier as well (r3, DEC-46). The schedule itself is needed for S7E8 and the S6E4 clue; the audience must do that sum itself in S7.
+- **Nan's death:** resolved (DEC-21): Nan dies in the last scene of S02E08; the SEC-026 clue is the S02E09 cold open, "the same night".
 
 ### DEC → restricted secrets (for `decisions_for_lead.md`, which helpers may read)
 
@@ -561,4 +563,49 @@ Public cover: the Dry Queen "did not deny it".
 | DEC-38 | SEC-024 | If Garrick reads the Broken Dike in S7, put it in the same POV as S7E8 (the rhyme of two lettings-go). |
 | DEC-45 | SEC-027 | Mags sells the lane of a "singing stone", not its origin; no conflict as long as nobody links stone and ring before S12E11. |
 | DEC-46 | SEC-024 | See §H above: two pointer sentences not merged. |
-| DEC-48, DEC-51, DEC-52, DEC-56, DEC-57 | SEC-011, SEC-011b | Hollis in Odo's treasury (DEC-52) fits SEC-011b ("forged the record for Odo, S5"). Quire/Quiller clash. |
+| DEC-48, DEC-51, DEC-52, DEC-56, DEC-57 | SEC-011, SEC-011b | Hollis in Odo's treasury (DEC-52) fits SEC-011b ("forged the record for Odo, S5"). Quire/Quiller clash: resolved, Quiller → Pryor (DEC-57). |
+
+All DEC items above were ruled in r3; the restricted side of the rulings is §I.
+
+## I. Restricted side of the r3 rulings (v0.4)
+
+Source: `studio/story/sealed/master_mystery.md` §10. The open side of every ruling is in `studio/story/decisions_resolved.md` and in the open canon; only what that file may not say is here.
+
+### I.1 The fifth era (DEC-13)
+
+```canon
+id: ERA-MV
+type: era
+canon: approved
+abbr: MV
+name: the Year of Many Voices
+abs_start: 1428
+```
+
+MV 1 = the year after SY 3 (= CY 329). The Great Chorus falls on the Still Days of SY 3; the new count begins the next morning, Firstwater 1. The epilogue (S12E13) is **MV 40** (abs 1467): Hollis is 82, Pell 71, Tibb 57. Open records: "decided, restricted until S12" (`timeline.md` §1). SEC-022 is unchanged.
+
+### I.2 Rulings
+
+| DEC | Restricted ruling |
+|---|---|
+| DEC-04 | The public schedule is the arithmetic of SEC-024 (S06E04 draft "Still 2"; S07E08 POV). Approved as public law because it points at nobody. The clarification (a Spire in mid-retuning answers no ordinary solo) is the first on-screen working of RULE-014 in small: in S04E11 the Crown Spire, silent in mid-retuning, answers the **duet** - high part and Low Note - when no Cantor's solo can wake it. |
+| DEC-08, DEC-09 | The Terms and the office are what Tsura's silence buys. The irony of RULE-022 is hers: relief ends "the dry", so only the delta's *fear* keeps the power in her hand long enough to get terms - the reason she "does not deny it". |
+| DEC-13 | §I.1. |
+| DEC-14 | Tolvar comes ashore when the city falls, climbs to the crown and takes the emptied ring from the dead Queen's hand (§D, EV-0100). |
+| DEC-17 | The clock of SEC-024: the Dask draft is dated Still 2 (payment on the eve); the Sheaf Spire is retuned on Still 2; the charges go in the last dark hour before dawn on Still 3; the bore passes the Polders by mid-morning (the freshly retuned Sheaf Spire holds the Barrows) and reaches Highwater in the late afternoon, with the Crown Spire in mid-retuning. This timetable *is* Garrick's arithmetic in S07E08. |
+| DEC-21 | SEC-026 clue = the S02E09 cold open, "the same night" (SEC-026 clues above). |
+| DEC-28, DEC-42 | Emeric Ilvane (CH-0220) is the heir Ves married. The "of the Crag" entry in the Book of the Blood is her own device - closed to helpers so that no open file teaches the audience the trick before S05E06 / S10E09. |
+| DEC-32 | Ylva Dask inherits in the episode in which Pell learns SEC-024 (S10E11); she is not told on screen before S11. Design intent for the S11 outline: the Dask levies who killed at the Ninth Bridge come into the chorus under her - the house's debt paid by the daughter. Open record: HS-002 `heads` CH-0215@SY 1. |
+| DEC-34 | Hesh Oshra: b. ~CY 215, d. CY 263 (CH-0066). Oshra line: Hesh → Ves (CY 239…244) → Nan (taught CY 247) → Liss (CY 278); never to Pell. Holders at S01E01: Nan and Vesna; after S02E08: Vesna alone. Liss in CY 305: see §D, EV-0261. |
+| DEC-35 | Vesna is taken in S10E03, when the Sovereign seizes the archive and the school; held in the Dry Palace. It is from Vesna's **notation** (not from Vesna) that Maren learns what the Tenth Verse does - the basis of her S12 threat. Open record: CH-0012 `status_track` S10E03:captive (provisional until the S10 outline). |
+| DEC-38 | Garrick reads the Sheaf Spire's song-journal of CY 87 inside the S07E08 POV: his ancestor let a district go by singing short; he let one go by letting the water come. Two lettings-go in one episode; he closes the journal and says the house words. (SEC-034 reveal S07E08.) |
+| DEC-45 | Mags sells a lane and "a stone that sings back" - never where it was found, never its look beyond "black". Nobody in any season links the stone and the ring before S12E11. |
+| DEC-46 | Two pointer sentences removed from the helper dossier HS-002 (the Barrows' dikes held because the Sheaf Spire was retuned on Still 2; "Dask had the deepest [reason]"); they were never in the canon. The facts stay true; the audience does that sum itself in S7. |
+| DEC-48 | Custody of the brass clip: §G. |
+| DEC-52 | Hollis in Odo's treasury (the skip) is the position from which he "forged the record for Odo" (SEC-011b). |
+| DEC-23, DEC-53 | First Raising, Ember CY 324; Ninth Bridge, Longdark CY 325. In S8 and S12 Maren orders Spires sung or silenced; she never sings. |
+| DEC-56, DEC-57 | "Quire" is Hollis's joke and a fair clue: a quire is a gathering of paper - only a clerk would take that name - chosen in the season the Sovereign prepares to break *the Choir*: the voice of the realm replaced by its paper. The homophone is kept on purpose; "Quiller" was renamed (Pryor) so that no other name begins *Qui-*. |
+
+### I.3 Role excerpts (director's decision, v0.4)
+
+`studio/canon/excerpts/`: `for_composer.md`, `for_director_and_artist.md`, `for_sound_director.md`. Each gives only the working rules a role needs for S1 and the standing constraints, without answers beyond what the work requires. The keeper updates them when a reveal airs or a later season's outline needs more.

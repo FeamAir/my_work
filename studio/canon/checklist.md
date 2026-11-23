@@ -9,14 +9,14 @@ Write at the top of the review: material, version, canon version checked against
 - [ ] `python3 studio/canon/tools/validate.py` — 0 errors on the current canon (with the proposed changes applied in draft).
 - [ ] `--cast SxxEyy <all CH ids in the episode>` — nobody dead, unborn, missing or captive appears unless the script means it (flashback, vision, corpse, rumour).
 - [ ] For each POV character: `--knows CH-… SxxEyy` printed and kept next to the script.
-- [ ] `--todo`: the script depends on no TODO stub; every `draft` record or `amend` field the script uses is listed for the lead (README §4, §6a); open DEC items that block the season (`decisions_for_lead.md`) are closed.
+- [ ] `--todo`: the script depends on no TODO stub; every `draft` record or `amend` field the script uses is listed for the lead (README §4, §6a); open DEC items that block the season (`decisions_for_lead.md`) are closed. Since v0.4 all 64 DEC items are ruled (`studio/story/decisions_resolved.md`); three stubs stay by design (DEC-32 Quell after SY 2, DEC-33 name of Dakka's husband, DEC-54 the S5 episode in which Pell learns SEC-009).
 
 ## 1. Identity and names
 
 - [ ] Every named character, house, place, title is in the canon (has an ID) or is listed as a **new** proposal.
 - [ ] Spelling matches `glossary.md` exactly (also in on-screen text and subtitles).
 - [ ] Forms of address fit rank and relationship (lord/lady, titles after a change of status, nicknames only between those who use them).
-- [ ] No new name clashes with an existing one (same first 3 letters, one-letter difference, same name without epithet).
+- [ ] No new name clashes with an existing one (same first 3 letters, one-letter difference, same name without epithet); listed exceptions only (`glossary.md` naming rule 1, DEC-57/58).
 - [ ] No names or elements recognisable from other works or real people.
 
 ## 2. Time, dates, ages
@@ -73,9 +73,10 @@ Write at the top of the review: material, version, canon version checked against
 
 ## 9. Brief constraints
 
-- [ ] No romantic/sexual content involving characters under 18 (check ages at episode date).
+- [ ] No romantic/sexual content involving characters under 18. **The restriction follows the character's age in the season being written** (DEC-59), not the age at the saga start. Under 18 at the saga start (CY 312): Pell 15, Wick 11, Esk 13, Zev 14, Daro 16, Lio 17, Mags 15, Patch 12, Tibb (infant). Later minors: Tibb through the whole saga (17 at the finale), Sindre Rusk (from S3, while under 18). Ione is 18, Juno Brisk 19. Check every age with `born` at the episode date.
 - [ ] Violence within TV 16+.
 - [ ] Spoilers: preview / opening / ending / marketing materials use nothing from a secret whose `reveal` has not aired.
+- [ ] Restricted excerpts (`excerpts/`): music, framing and voice obey the constraints given to the composer, the director and artist, and the sound director (v0.4).
 
 ## 10. Output of the review
 

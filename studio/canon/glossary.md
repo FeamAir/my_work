@@ -1,6 +1,6 @@
 # Glossary and pronunciation
 
-Canon: v0.2 · Status: **draft** (respellings proposed by the keeper; to be confirmed by the lead screenwriter and tested with the TTS voice) (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: foundation terms TERM-0001…0211 are still **draft** (respellings proposed by the keeper; not on the lead's approval list of r3 - see the keeper's report r4), except nine terms ruled on in r3 (Neveh/House/Isembar Ashare, Lio, Corr, Sister Marl, Saltwife Orrie, Quire, Ember - DEC-56…58, 62), which are approved. TERM-0212 onward: **approved** (r3) as text. All respellings are still to be tested with the TTS voice (sound director's first probe). (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
 
 Every name spoken on screen has one entry. Voice synthesis reads `say` (stressed syllable in CAPS); subtitles and on-screen text use `term`. Entries for restricted names are in `sealed/`.
 
@@ -20,7 +20,7 @@ meaning:       # for invented words
 
 ## Naming rules
 
-1. **No two important names start with the same 3 letters** within one region or house generation; avoid names differing by one letter. Known exceptions in the foundation are listed in the keeper's report 2026-11-22-r2 (Corr/Corvane, Marl/Maren, Lantern/Lantry; Quire = Choir by sound).
+1. **No two important names start with the same 3 letters** within one region or house generation; avoid names differing by one letter. Listed exceptions (DEC-57, DEC-58, approved): foundation pairs Corr / Corvane, Sister Marl / Maren (Marl is always "Sister Marl"), Lantern / Lantry; Quire = Choir by sound, intended (DEC-56); historical pairs in different eras Bertil / Beryl, Ithel / Itsek; near pairs Rook / Rourke, Dagny / Dakka, Gant / Garrick; Lows names of more than one syllable: Lio, Orrie ("Saltwife Orrie"). Renamed in v0.4 to keep the rule: Anselm Harrow → Crispin Harrow, Ancel Moll → Tobin Moll, Quiller Ilvane → Pryor Ilvane, Nim → Tuck. "Godric" is not to be used (too close to a famous name from another franchise). Ashare = `ah-SHAH-reh` everywhere.
 2. Each culture has its own sound palette (below).
 3. No names from existing well-known works, no real historical figures, no real brands.
 4. Spelling must be pronounceable by an English TTS voice from the respelling alone; test the `say` line before approval.
@@ -273,7 +273,7 @@ ref: CH-0025
 ```canon
 id: TERM-0024
 type: term
-canon: draft
+canon: approved
 term: Neveh Ashare
 say: NEH-veh ah-SHAH-reh
 kind: person
@@ -323,7 +323,7 @@ ref: CH-0042
 ```canon
 id: TERM-0029
 type: term
-canon: draft
+canon: approved
 term: Lio
 say: LEE-oh
 kind: person
@@ -373,7 +373,7 @@ ref: CH-0047
 ```canon
 id: TERM-0034
 type: term
-canon: draft
+canon: approved
 term: Corr
 say: KOR
 kind: person
@@ -393,7 +393,7 @@ ref: CH-0049
 ```canon
 id: TERM-0036
 type: term
-canon: draft
+canon: approved
 term: Sister Marl
 say: SIS-ter MARL
 kind: person
@@ -543,7 +543,7 @@ ref: CH-0064
 ```canon
 id: TERM-0051
 type: term
-canon: draft
+canon: approved
 term: Saltwife Orrie
 say: SALT-wife OR-ee
 kind: person
@@ -645,7 +645,7 @@ ref: HS-007
 ```canon
 id: TERM-0061
 type: term
-canon: draft
+canon: approved
 term: House Ashare
 say: HOWSS ah-SHAH-reh
 kind: house
@@ -1729,11 +1729,11 @@ meaning: the official record the narrator reads
 ```canon
 id: TERM-0169
 type: term
-canon: draft
+canon: approved
 term: Quire
 say: KWIRE
 kind: person
-meaning: the masked forger of S9-S11 (homophone of Choir - see the keeper's report)
+meaning: the masked forger of S9-S11; homophone of Choir, intended (DEC-56): first met written (S9E12, the sheet on the tide-post); in dialogue never takes an article ("Quire says", against "the Choir says"); subtitles always spell it
 ```
 
 ```canon
@@ -1869,7 +1869,7 @@ meaning: a free company
 ```canon
 id: TERM-0183
 type: term
-canon: draft
+canon: approved
 term: Isembar Ashare
 say: IZ-em-bar ah-SHAH-reh
 kind: person
@@ -1995,11 +1995,11 @@ meaning: month 6
 ```canon
 id: TERM-0195
 type: term
-canon: draft
+canon: approved
 term: Ember
 say: EM-ber
 kind: word
-meaning: month 7 (season: the Ember)
+meaning: month 7 (season: the Ember); dialogue says "the month of Ember" / "the Ember season" (DEC-62)
 ```
 
 ```canon
@@ -2164,9 +2164,9 @@ meaning: the Chronicler's sign-off (changes only in S12E13)
 
 ---
 
-## v0.3 additions (draft)
+## v0.3 additions (approved v0.4)
 
-Status: **draft** (respellings proposed by writer-houses and writer-characters, normalised by the keeper; stressed syllable in CAPS; to be tested with the TTS voice). Names of older heads without a character ID are entries without `ref`; `meaning` says who they were. Name clashes against the 3-letter rule: DEC-57.
+Status: **approved** as text by the lead screenwriter in r3 (respellings proposed by writer-houses and writer-characters, normalised by the keeper; stressed syllable in CAPS; to be tested with the TTS voice). Names of older heads without a character ID are entries without `ref`; `meaning` says who they were. Name clashes against the 3-letter rule: resolved by DEC-57 (four renames, rule 1).
 
 ### People (v0.3)
 
@@ -5011,6 +5011,16 @@ term: columns!
 say: KOL-umz
 kind: word
 meaning: clerk's oath (Hollis)
+```
+
+```canon
+id: TERM-0494
+type: term
+canon: approved
+term: the Breaking spears
+say: thuh BRAY-king SPEERZ
+kind: object
+meaning: white-bronze spearheads stamped with the open hand of Ilvane, kept as relics in the Pale Crag crypt; also "the Ilvane spearheads"; public reading "the spears that ended the mad Queen's guard" (DEC-12; world.md §6)
 ```
 
 ## EXAMPLE (placeholder, not canon)

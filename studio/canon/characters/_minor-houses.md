@@ -171,7 +171,7 @@ father: CH-0017
 mother: CH-0214
 ```
 
-> Hilde was born into Dask of the Reach (HS-018, Moll blood) — public. Thyra was born an Orsley (HS-031) — proposal. Ylva (11 in CY 312) is a possible Dask heir after Garrick drowns (S10E11); no plot is assigned to her here.
+> Hilde was born into Dask of the Reach (HS-018, Moll blood) — public. Thyra was born an Orsley (HS-031) — approved (DEC-27). Ylva (11 in CY 312) heads House Dask from SY 1, after Garrick drowns (S10E11) (DEC-32); no plot is assigned to her here.
 
 ## Ilvane
 
@@ -340,7 +340,7 @@ mother: CH-0234
 ```
 
 > `first_episode` left empty for living stubs (Thyra, Ylva, Eirik, Dagny, Sindre, Jinna): the lead places them.
-> Dagny was born a Hadden of Rimgate (HS-025; a Tekka great-grandmother) — proposal. Sindre and Eirik are **proposals** for who carries the Rusk voice in exile (S4–S12); both are designed to be shown helmeted/at a distance. Question to the lead (report Q-04).
+> Dagny was born a Hadden of Rimgate (HS-025; a Tekka great-grandmother) — approved (DEC-27). Sindre is head of Rusk from CY 313-09 with Eirik as Castellan of the Voice (DEC-30) — they carry the Rusk voice in exile (S4–S12); Sindre is a minor while under 18 (age in the season being written, DEC-59; checklist); both are designed to be shown helmeted/at a distance. Decided: DEC-30.
 
 ## Quell
 

@@ -32,7 +32,7 @@ Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded 
 Not merged — the approved value is kept: `role: supporting` (kept canon).
 
 
-**Ottar** (25) — Kes's corporal. *(Listed here as a Rusk soldier; his people are in `_minor-ossari.md`.)* *Function:* at Kes's side from the S1E2 quay; translator in S3. *Secret (proposal, new SEC):* **Ossari-born** — a hostage-child raised at the Stair, who hides his birth in the ranks and has not spoken his own tongue in fifteen years; proposal: Kadu is his cousin. *Link:* he and Esk are the same story twelve years apart. *Look:* helmeted in most shots; **a braided sand-coloured cord inside his Rusk helm** (only seen when he takes it off); rust-red tabard like Kes's, without the stripe. *Voice:* careful Concord speech, too correct. *"I'm from the Stair, Sergeant. Same as you."*
+**Ottar** (25) — Kes's corporal. *(Listed here as a Rusk soldier; his people are in `_minor-ossari.md`.)* *Function:* at Kes's side from the S1E2 quay; translator in S3. *Secret (SEC-044):* **Ossari-born** — a hostage-child raised at the Stair, who hides his birth in the ranks and has not spoken his own tongue in fifteen years; proposal: Kadu is his cousin. *Link:* he and Esk are the same story twelve years apart: Ottar was given in CY 297, Esk in CY 309 (DEC-20). SEC-044 reveal S3E5: he translates the prisoner and gives himself away (hint S1E4). *Look:* helmeted in most shots; **a braided sand-coloured cord inside his Rusk helm** (only seen when he takes it off); rust-red tabard like Kes's, without the stripe. *Voice:* careful Concord speech, too correct. *"I'm from the Stair, Sergeant. Same as you."*
 
 ---
 

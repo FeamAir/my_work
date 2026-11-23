@@ -1,6 +1,6 @@
 # Secrets registry
 
-Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; transfer by lore-keeper)
+Canon: v0.4 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; transfer by lore-keeper)
 
 **Full spoilers - never use in public material before the reveal episode.**
 
@@ -75,21 +75,23 @@ Below each block: **Clues** (episode - what is shown). Full clue tables and red 
 | SEC-027 | (restricted) | saga | S01E01 | S12E11 | sealed | `sealed/` |
 | SEC-028 | The broken pumps | season | S01E05 | S05E08 | sealed | here |
 | SEC-029 | Ear-money | season | S01E05 | S04E06 | sealed | here |
-| SEC-030 | The saltpeter sold twice | season | S01E04 | S03E11 | sealed | here (draft) |
-| SEC-031 | The wreckers' wages | season | S01E04 | open (DEC-37) | sealed | here (draft) |
-| SEC-033 | The Lows-born hunter | episode | S01E02 | S05E12 | sealed | here (draft) |
-| SEC-034 | The Broken Dike | season | — | open (DEC-38) | sealed | here (draft) |
-| SEC-035 | The fog on the Ostry bar | episode | — | open (DEC-37) | sealed | here (draft) |
-| SEC-036 | Harrow's deathbed will | season | — | open (DEC-39) | sealed | here (draft) |
-| SEC-037 | The map before the map | episode | S01E01 | S02E06 | sealed | here (draft) |
-| SEC-038 | The pilots' night | episode | — | open (DEC-41) | sealed | here (draft) |
-| SEC-039 | The Goat Stair | season | — | open (DEC-40) | sealed | here (draft) |
-| SEC-040 | Retired codebooks | episode | S01E07 | open (DEC-37) | sealed | here (draft) |
-| SEC-041 | The walkers' union | season | S01E05 | open (DEC-37) | sealed | here (draft) |
-| SEC-042 | Two retainers | episode | S02E02 | S06E11 | sealed | here (draft) |
-| SEC-043 | Ferro's bindings | episode | — | open (DEC-37) | sealed | here (draft) |
-| SEC-044 | Ottar's tongue | episode | — | open (DEC-37) | sealed | here (draft) |
-| SEC-045 | One copper | episode | S01E02 | open (DEC-45) | sealed | here (draft) |
+| SEC-030 | The saltpeter sold twice | season | S01E04 | S03E11 | sealed | here |
+| SEC-031 | The wreckers' wages | season | S01E04 | S02E09 | sealed | here |
+| SEC-033 | The Lows-born hunter | episode | S01E02 | S05E12 | sealed | here |
+| SEC-034 | The Broken Dike | season | — | S07E08 | sealed | here |
+| SEC-035 | The fog on the Ostry bar | episode | — | S02E10 | sealed | here |
+| SEC-036 | Harrow's deathbed will | season | — | S07E05 | sealed | here |
+| SEC-037 | The map before the map | episode | S01E01 | S02E06 | sealed | here |
+| SEC-038 | The pilots' night | episode | — | S03E02 | sealed | here |
+| SEC-039 | The Goat Stair | season | — | S03E10 | sealed | here |
+| SEC-040 | Retired codebooks | episode | S01E07 | S02E06 | sealed | here |
+| SEC-041 | The walkers' union | season | S01E05 | S05E08 | sealed | here |
+| SEC-042 | Two retainers | episode | S02E02 | S06E11 | sealed | here |
+| SEC-043 | Ferro's bindings | episode | S05E03 | S05E10 | sealed | here |
+| SEC-044 | Ottar's tongue | episode | S01E04 | S03E05 | sealed | here |
+| SEC-045 | One copper | episode | S01E02 | S02E09 | sealed | here |
+
+SEC-032 was never issued (DEC-49: Lucan's sealed chest is already an approved fact).
 
 ## Restricted secrets - what may be shared
 
@@ -99,15 +101,15 @@ Answers are in `sealed/sealed.md` (readers: lead-screenwriter, lore-keeper, stud
 |---|---|
 | SEC-010 | keep Maren sympathetic through S7 and arguable through S9 |
 | SEC-011 | Hollis after S06E09 and Zev after S06E09 are not for helpers or marketing |
-| SEC-011b | Chronicler voice design: excerpt to the sound director by the director's decision |
+| SEC-011b | Chronicler voice design: excerpt for the sound director - `excerpts/for_sound_director.md` (v0.4, director's decision) |
 | SEC-014 | no clue before S2, none explicit before S5; public material uses the official belief only |
 | SEC-018 | — |
 | SEC-020 | — |
 | SEC-021 | — |
 | SEC-024 | public line until S10: "the Dry Queen did not deny it"; dossiers name no culprit |
-| SEC-025 | never in marketing, openings or previews before S10E10; the reversed lullaby in the S2 opening is the only planted audio clue (composer excerpt by the director's decision) |
+| SEC-025 | never in marketing, openings or previews before S10E10; the reversed lullaby in the S2 opening is the only planted audio clue (composer excerpt: `excerpts/for_composer.md`, v0.4) |
 | SEC-026 | never in marketing, openings or previews before S10E10; nothing about Vesna's life before the Choir |
-| SEC-027 | Ruel's ring and Pell's shard never share a frame before S12E11 (director excerpt) |
+| SEC-027 | Ruel's ring and Pell's shard never share a frame before S12E11 (director and artist excerpt: `excerpts/for_director_and_artist.md`, v0.4) |
 
 ---
 
@@ -296,7 +298,7 @@ public_on_reveal: false
 related: [CH-0004, PL-0021, EV-0200]
 ```
 
-Clues: S01E04 Kes avoids looking at the gate · S01E10 she opens it: "Not twice." · S02E06 she drinks alone "on the anniversary" (see report: date conflict) · S03E09 confession to Pell before the battle.
+Clues: S01E04 Kes avoids looking at the gate · S01E10 she opens it: "Not twice." · S02E06 she drinks alone on the anniversary of her **first stripe** (Rains 12, CY 296, "for steadiness at the Ninth Sluice gate") - she does not drink to it, she drinks at it (DEC-16) · S03E09 confession before the battle, heard first by Esk (DEC-54). Pell learns it later from Kes herself, not before S5: `CH-0001@TODO(DEC-54)` stays until the S5 outline fixes the episode.
 
 ### SEC-012 - The silenced mother / the Voice
 
@@ -326,7 +328,7 @@ type: secret
 canon: approved
 title: Who killed Ruel
 tier: season
-truth: Ursel Lantry and Garrick Dask hired the assassin (a Lantern Company man) because Ruel would expose Account Nine.
+truth: Ursel Lantry and Garrick Dask hired the assassin because Ruel would expose Account Nine: Orm Hask, a Moll-born pikeman of the Lantern Company, chosen and handed over by Rook Danner and paid through Garrick Dask's steward (DEC-36).
 cover_story: Fennick did it; or Quell (the token).
 status: sealed
 known_by: [CH-0011@S01E04, CH-0017@S01E04, CH-0059@S01E08, CH-0055@S02E07, CH-0006@S02E11, CH-0003@S02E11, CH-0076@origin]
@@ -336,7 +338,7 @@ public_on_reveal: false
 related: [CH-0005, CH-0011, CH-0017, CH-0059, HS-095, EV-0302]
 ```
 
-Clues: S01E04 Garrick leaves Ursel's office by the back stair · S01E08 the Quell token (herring) · S01E09 Polder clay on the assassin's boots · S02E02 Rook Danner paid in Lantry notes · S02E06 Lucan's sealed will: the unsigned Tithe Map in Ursel's hand, suppressed by Garrick · S02E07 Fossett's private ledger.
+Clues: S01E04 Garrick leaves Ursel's office by the back stair · S01E08 the Quell token (herring) · S01E09 Polder clay on the assassin's boots · S02E02 Rook Danner paid in Lantry notes · S02E06 Lucan Dask's sealed chest: his will and the unsigned Tithe Map, suppressed by Garrick (DEC-49) · S02E07 Fossett's private ledger. Proof in S2 needs two paper trails added together: Danner's notes and the steward's purse (DEC-36).
 
 ### SEC-015 - The skipped song
 
@@ -366,7 +368,7 @@ type: secret
 canon: approved
 title: The Pearl Pretender
 tier: season
-truth: Lio is not of Ashare blood; Quell salvage-brokers and Piers Lantry made his claim up to sell Lirenne salvage bonds; the fraud splits the Lows' vote (giving Maren the Helm) and makes raising Lirenne a money interest; Lio himself believes it.
+truth: Lio is not of Ashare blood; Quell salvage-brokers and Piers Lantry made his claim up to sell Lirenne salvage bonds as the dry-notes begin to crack (from S6E5, DEC-18); the fraud splits the Lows' vote (giving Maren the Helm) and makes raising Lirenne a money interest; Lio himself believes it.
 cover_story: Last heir of the Tide-Kings.
 status: sealed
 known_by: [CH-0061@S06E01, CH-0060@S06E10, CH-0019@S07E05, CH-0001@S08E06]
@@ -446,7 +448,7 @@ type: secret
 canon: approved
 title: Esk's mother
 tier: season
-truth: Esk is Tsura Den's son, given as hostage under the name of her nephew.
+truth: Esk is Tsura Den's son by Akko of Kitsa, her glider-captain companion killed in the Rim Skirmish (CY 309); he was given as hostage that season under the name of her nephew (DEC-20, DEC-33).
 cover_story: Her nephew.
 status: sealed
 known_by: [CH-0013@origin, CH-0040@origin, CH-0071@origin]
@@ -495,7 +497,7 @@ public_on_reveal: false
 related: [CH-0058, CH-0050, EV-0301, EV-0308]
 ```
 
-Clues: S01E07 Corvane coin in Marl's fist · S01E09 Ysa arrives a day before the Relay could have called her · S01E11 her unspoken "condition" · S02E04 her boatswain pays for a Choir funeral · S02E10 "I have been burying your father for a year."
+Clues: S01E07 Corvane coin in Marl's fist · S01E09 Ysa arrives a day before the Relay could have called her · S01E11 her unspoken "condition": Ysa confirms - and keeps the seal (DEC-03) · S02E04 her boatswain pays for a Choir funeral · S02E10 "I have been burying your father for a year."
 
 ### SEC-028 - The broken pumps
 
@@ -539,9 +541,9 @@ Clues: S01E05 the Gleaner novice counting coins · S03E07 a price column in the 
 
 ---
 
-## New secrets v0.3 (draft)
+## New secrets v0.3 (approved v0.4)
 
-Status: **draft** (the lead screenwriter approves numbering, tier and reveal: DEC-37). Final numbers given by the keeper: writer-characters' SEC-030 and SEC-031 kept; their SEC-032 (Lucan's chest) is **not issued** - the chest's content is already an approved fact (CH-0016, `world.md` §6) and its wording is DEC-49; writer-houses' candidates SEC-C01...C07 became SEC-034...040; the writer-characters minor secrets became SEC-033 and SEC-041...045. None touches the origin of a main hero or a restricted answer.
+Status: **approved** by the lead screenwriter in r3 (numbers, tiers and reveals: DEC-37, DEC-38…41, DEC-45). Final numbers given by the keeper: writer-characters' SEC-030 and SEC-031 kept; their SEC-032 (Lucan's chest) is **not issued** - the chest's content is already an approved fact (CH-0016, `world.md` §6) and its wording is DEC-49; writer-houses' candidates SEC-C01...C07 became SEC-034...040; the writer-characters minor secrets became SEC-033 and SEC-041...045. None touches the origin of a main hero or a restricted answer.
 
 ### SEC-030 - The saltpeter sold twice
 
@@ -701,7 +703,7 @@ public_on_reveal: false
 related: [HS-022, HS-027, CH-0058, CH-0019, EV-0308]
 ```
 
-Source: writer-houses candidate SEC-C05. Timing against SEC-023 (S02E10) to be fixed: DEC-41.
+Source: writer-houses candidate SEC-C05. Timing (DEC-41): Jaro is blamed from S2E11 until S3E2; Ysa knows from S2E10.
 
 ### SEC-039 - The Goat Stair
 
@@ -831,7 +833,7 @@ type: secret
 canon: approved
 title: One copper
 tier: episode
-truth: In S1E2 Mags sold word of Pell's singing stone to Silt's fence Tuck for one copper; that is how the Listeners learned the lane, not just the relay log.
+truth: In S1E2 Mags sold Silt's fence Tuck "a stone that sings back" and the lane, for one copper - nothing about where it was found; that is how the Listeners learned the lane, not just the relay log.
 cover_story: The Listeners traced the stone by the relay log.
 status: sealed
 known_by: [CH-0049@S01E02, CH-0074@S01E02, CH-0001@S02E09]
@@ -841,11 +843,11 @@ public_on_reveal: false
 related: [CH-0049, CH-0074, CH-0053, CH-0001]
 ```
 
-Source: writer-characters (minor). Pell learns it from Tuck in S2.
+Source: writer-characters (minor). Pell learns it in S2E9, the episode after Nan's death (DEC-45).
 
-### Additions to approved secrets (draft)
+### Additions to approved secrets (folded in v0.4)
 
-`amend` blocks (README §6): new knowers proposed by the dossiers; the approved records above are unchanged.
+The v0.3 `amend` blocks (new knowers: Dakka Den in SEC-019; Gant and Novice Sedge in SEC-029; Orm Hask in SEC-013) were approved in r3 and folded into the records above.
 
 
 Dakka Den, the official mother (writer-characters).

@@ -972,7 +972,7 @@ Exact owners by episode. The objects' origins before the saga, where restricted,
 |---|---|---|
 | **Pell's echo-shard** | cracked black stone no bigger than a thumbnail, on a cord | found by Pell in the back-canal (PL-0020) S01E01 → hidden in Nan's net-chest S01E03 → Pell → Ione S04E08 → Pell S04E11 → Pell to the end (cracks further S09E05) |
 | **Ruel's black pearl ring** ("the Admiral's Pearl") | black pearl, hinged and hollow, on Ruel's **left** hand | Ruel to S01E09 (on his hand at the wake) → Maren takes it at the wake and hides it S01E11 → hidden S2-S6 (Ysa knows she has it, S02E10) → worn openly by Maren from S06E12 → coronation S09E12 → Maren to S12E11 |
-| **Hollis's brass ledger-clip** | brass clerk's clip | Ursel → Hollis S01E01 → Hollis (on every copy S2-S4) → found melted in the fire S06E09 → (S06E10 → S10E05: `sealed/`, DEC-48) → seen again S10E05, S11E06, S12E13 |
+| **Hollis's brass ledger-clip** | brass clerk's clip | Ursel → Hollis S01E01 → Hollis (on every copy S2-S4) → found melted in the fire S06E09 → (S06E10 → S10E05: `sealed/`, DEC-48) → seen again S10E05 (Quire's seal), S11E06, S12E13 |
 | **Ione's tuning fork** | silver tuning-fork pendant | Ione S01E01 → Pell S04E12 → struck on a tide-post S05E01 → gives the Great Chorus its pitch S12E12 |
 | **Nan's spiral-shell earring** | single spiral-shell earring, left ("it had a mate") | Nan S01E02 → Pell wears it from S02E08 (left ear) |
 | **Wick's cap** | Maren's Corvane cadet cap | stolen by Wick S01E02 → worn on watch (S2, S5) → Maren finds it on his body at the Ninth Bridge S09E10 |

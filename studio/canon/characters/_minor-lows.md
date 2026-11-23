@@ -119,7 +119,7 @@ first_episode: S01E02
 died_at: PL-0008
 ```
 
-Nell Tern's younger sister, Lows-born; mother of Tibb (born CY 311); drowned (date not fixed by the foundation; a grave "Sal" appears S08E04). (Name from the sealed file; record added by the keeper.)
+Nell Tern's younger sister, Lows-born; mother of Tibb (born CY 311-10); born ~CY 293, drowned in the S1E10 flood (CY 312-11-03; DEC-34); first seen S1E2 (DEC-24); a grave "Sal" appears S08E04. Secrets: SEC-017a, SEC-017b (DEC-47). (Name from the sealed file; record added by the keeper.)
 
 
 ---
@@ -148,7 +148,7 @@ Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded 
 Not merged — the approved value is kept: `status_track: [S01E01:alive, S01E10:dead]` (kept canon).
 
 
-**Mags** (15) — Pell's mudlark friend and rival; the loudest laugh in the back-canal. *Function:* the Lows' first loss — drowns in the S1E10 flood. *Secret:* she steals for Mother Silt — and (proposal) in S1E2 she sells word of Pell's "singing stone" to Silt's fence Tuck for one copper, which is how the Listeners get the lane, not just the log. Pell learns it in S2 from Tuck, after Mags is dead (an episode puzzle with no one left to forgive). *Link:* her copper is the first small sale that moves the top (Fitch's hunt). *Look:* frizz of black hair tied up with a strip of red rag; a man's oversized waistcoat full of pockets. *Voice:* hoarse, cackling. *"Finders keep, losers weep, and Listeners pay double."* First seen E1 (proposal — mudlarking beside Pell).
+**Mags** (15) — Pell's mudlark friend and rival; the loudest laugh in the back-canal. *Function:* the Lows' first loss — drowns in the S1E10 flood. *Secret:* she steals for Mother Silt — and in S1E2 she sells word of Pell's "singing stone" to Silt's fence Tuck for one copper, which is how the Listeners get the lane, not just the log. Pell learns it in S2E9 (DEC-45), after Mags is dead (an episode puzzle with no one left to forgive). *Link:* her copper is the first small sale that moves the top (Fitch's hunt). *Look:* frizz of black hair tied up with a strip of red rag; a man's oversized waistcoat full of pockets. *Voice:* hoarse, cackling. *"Finders keep, losers weep, and Listeners pay double."* First seen E1 (proposal — mudlarking beside Pell).
 
 ---
 
@@ -177,7 +177,7 @@ Status: **approved** (lead screenwriter, r3). The v0.3 `amend` block was folded 
 Writer-characters proposed this person as new CH-0070; she is the keeper's CH-0067 (one person, one ID). CH-0070 was never issued.
 
 
-**Sal Tern** (19; NEW — proposal) — Nell Tern's younger sister, Tibb's mother. *Function:* drowns in the E10 flood after tying her baby's cradle with the **navy knot** her sister taught her (SEC-017). Proposal: a fair clue — in S1E2 she is in Ruel's rally crowd, a baby in a shawl tied with the same knot; Nell, at Maren's side, does not look at her. *Secret:* Nell sends her dry-notes every month and has forbidden her to say they are sisters. *Link:* the knot (S1E10 → S7E2 → S8E4 → S9E7). *Look:* thin, **straw-and-tar hat**, a navy-blue shawl too good for the Lows (Nell's). *Voice:* one line, E2: *"She'll come. She always says she'll come."*
+**Sal Tern** (19; approved) — Nell Tern's younger sister, Tibb's mother. *Function:* drowns in the E10 flood after tying her baby's cradle with the **navy knot** her sister taught her (SEC-017). Proposal: a fair clue — in S1E2 she is in Ruel's rally crowd, a baby in a shawl tied with the same knot; Nell, at Maren's side, does not look at her. *Secret:* Nell sends her dry-notes every month and has forbidden her to say they are sisters. *Link:* the knot (S1E10 → S7E2 → S8E4 → S9E7). *Look:* thin, **straw-and-tar hat**, a navy-blue shawl too good for the Lows (Nell's). *Voice:* one line, E2: *"She'll come. She always says she'll come."*
 
 ---
 
@@ -227,4 +227,4 @@ status_track: [S01E02:alive]
 first_episode: S01E02
 ```
 
-**Tuck** (28; NEW — proposal) — Mother Silt's fence for the mudlarks. *Function:* says the line *"Calm is bought, mudlark. So is everything."* (S1E2); buys and sells shards; the lane's link to the Listeners. *Secret:* sells to Fitch's Listeners as well as to Silt (Silt knows, and uses it to feed Fitch what she wants him to hear). *Link:* tells Pell in S2 who sold her stone's lane (Mags). *Look:* narrow, **one gold-capped front tooth**, a coat lined with dozens of little pockets, a jeweller's loupe on a cord. *Voice:* rapid, nasal patter.
+**Tuck** (28; approved; renamed from Nim, DEC-57 — Nim and Nan share scenes in S1E2 and are one vowel apart in TTS) — Mother Silt's fence for the mudlarks. *Function:* says the line *"Calm is bought, mudlark. So is everything."* (S1E2); buys and sells shards; the lane's link to the Listeners. *Secret:* sells to Fitch's Listeners as well as to Silt (Silt knows, and uses it to feed Fitch what she wants him to hear). *Link:* Pell learns in S2E9, the episode after Nan's death, who sold her stone's lane (Mags) (SEC-045, DEC-45). Mags sold only "a stone that sings back" and the lane, for one copper - nothing about where it was found. *Look:* narrow, **one gold-capped front tooth**, a coat lined with dozens of little pockets, a jeweller's loupe on a cord. *Voice:* rapid, nasal patter.
