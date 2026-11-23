@@ -1,0 +1,84 @@
+{
+ "d_N1_1": {
+  "prompt": "Interior of a poor one-room stilt-house home seen from the doorway: low dark timber walls and roof beams hung with fishing nets and cork floats, a dry-shelf high under the roof ridge stacked with wrapped bundles, a rough table in the centre by a small window with a grey loaf, a clay water bowl and an oil lamp, three-legged stools, a plain old wooden net-chest with rope handles standing on the floor in the LEFT corner, worn plank floor, a trapdoor to a ladder near the door in the foreground. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 765319,
+  "status": "ok"
+ },
+ "d_N1_2": {
+  "prompt": "Interior of a poor one-room stilt-house home seen from the doorway: low dark timber walls and roof beams hung with fishing nets and cork floats, a dry-shelf high under the roof ridge stacked with wrapped bundles, a rough table in the centre by a small window with a grey loaf, a clay water bowl and an oil lamp, three-legged stools, a plain old wooden net-chest with rope handles standing on the floor in the LEFT corner, worn plank floor, a trapdoor to a ladder near the door in the foreground. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 810236,
+  "status": "ok"
+ },
+ "d_N1_3": {
+  "prompt": "Interior of a poor one-room stilt-house home seen from the doorway: low dark timber walls and roof beams hung with fishing nets and cork floats, a dry-shelf high under the roof ridge stacked with wrapped bundles, a rough table in the centre by a small window with a grey loaf, a clay water bowl and an oil lamp, three-legged stools, a plain old wooden net-chest with rope handles standing on the floor in the LEFT corner, worn plank floor, a trapdoor to a ladder near the door in the foreground. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 499250,
+  "status": "ok"
+ },
+ "d_N1_4": {
+  "prompt": "Interior of a poor one-room stilt-house home seen from the doorway: low dark timber walls and roof beams hung with fishing nets and cork floats, a dry-shelf high under the roof ridge stacked with wrapped bundles, a rough table in the centre by a small window with a grey loaf, a clay water bowl and an oil lamp, three-legged stools, a plain old wooden net-chest with rope handles standing on the floor in the LEFT corner, worn plank floor, a trapdoor to a ladder near the door in the foreground. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 716699,
+  "status": "ok"
+ },
+ "f_N1": {
+  "prompt": "Image 1 is the approved draft of this background plate. Redraw it as the final production background at full quality, keeping its composition, camera and layout. Fix: the net-chest is plain wood with rope handles (no metal corners, no carvings, not a treasure chest) on the floor in the left corner; a clay water bowl, grey loaf and oil lamp on the table; soft morning light through the small window.  Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox, no border. Original description: Interior of a poor one-room stilt-house home seen from the doorway: low dark timber walls and roof beams hung with fishing nets and cork floats, a dry-shelf high under the roof ridge stacked with wrapped bundles, a rough table in the centre by a small window with a grey loaf, a clay water bowl and an oil lamp, three-legged stools, a plain old wooden net-chest with rope handles standing on the floor in the LEFT corner, worn plank floor, a trapdoor to a ladder near the door in the foreground. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: black bars, letterbox.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0019/d_N1_4.png"
+  ],
+  "aspect": "16:9",
+  "seed": 736077,
+  "status": "ok"
+ },
+ "f_N2": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks. New camera position: the reverse view, from beside the window looking back across the room toward the door to the lane and the corner where the plain wooden net-chest stands on the floor; the trapdoor near the door, nets on the beams. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0019/f_N1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 376809,
+  "status": "ok"
+ },
+ "f_N3": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks. New camera position: high over the table, looking down at the clay water bowl, the grey loaf and the oil lamp on the rough table top, the small window at the top of the frame; the water in the bowl perfectly still. soft low-contrast morning light from the east, pale turquoise sky. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0019/f_N1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 493611,
+  "status": "ok"
+ },
+ "f_N_night": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the time of day and weather to: night, the room lit only by the single oil lamp on the table, warm small pool of light, deep blue darkness in the corners, the window black. . 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0019/f_N1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 613862,
+  "status": "ok"
+ },
+ "f_N_dusk": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the time of day and weather to: dusk, the sun just set over the sea to the west, peach-to-violet sky, cool shadows, violet light through the window, the lamp not yet lit. . 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0019/f_N1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 207278,
+  "status": "ok"
+ }
+}

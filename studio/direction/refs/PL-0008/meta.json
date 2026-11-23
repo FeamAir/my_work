@@ -1,0 +1,176 @@
+{
+ "d_C2_1": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: medium shot facing the door with the carved doorpost, camera perpendicular to the door: the plank door of a stilt-house, its thick right-hand wooden doorpost (on the RIGHT side of the door) carved with a ladder of knife-cut tide marks and dark water bands, one mark far above all the others near the lintel; a short wooden stair going down from the plank-walk to the wet silt; old chests and a small boat stored in the shadow under the raised floor between the piles. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 395731,
+  "status": "ok"
+ },
+ "d_C2_2": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: medium shot facing the door with the carved doorpost, camera perpendicular to the door: the plank door of a stilt-house, its thick right-hand wooden doorpost (on the RIGHT side of the door) carved with a ladder of knife-cut tide marks and dark water bands, one mark far above all the others near the lintel; a short wooden stair going down from the plank-walk to the wet silt; old chests and a small boat stored in the shadow under the raised floor between the piles. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 590098,
+  "status": "ok"
+ },
+ "d_C3_1": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: the reverse view: standing in the middle of the same lane looking the other way, toward the back canal and the open sea at the far end of the lane; the lane is full of dark water again, the sun has just set over the sea at the end of the lane, glowing peach-to-violet sky framed by the houses, lanterns lit at the doors, reflections on the water; no towers in this direction. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 844970,
+  "status": "ok"
+ },
+ "d_C3_2": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: the reverse view: standing in the middle of the same lane looking the other way, toward the back canal and the open sea at the far end of the lane; the lane is full of dark water again, the sun has just set over the sea at the end of the lane, glowing peach-to-violet sky framed by the houses, lanterns lit at the doors, reflections on the water; no towers in this direction. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 714238,
+  "status": "ok"
+ },
+ "d_C4_1": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: high view from the middle of the sagging rope-bridge over the lane, looking down and along the lane toward the dike: the plank-walks on both sides, the wet silt bed of the lane far below with puddles, the lantern post, the door with the tide-marked doorpost on the left below. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 516117,
+  "status": "ok"
+ },
+ "d_C4_2": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: high view from the middle of the sagging rope-bridge over the lane, looking down and along the lane toward the dike: the plank-walks on both sides, the wet silt bed of the lane far below with puddles, the lantern post, the door with the tide-marked doorpost on the left below. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 787501,
+  "status": "ok"
+ },
+ "f_C2": {
+  "prompt": "Image 1 is the approved draft of this background plate. Redraw it as the final production background at full quality, keeping its composition, camera and layout. Fix: the carved tide-mark ladder is on the RIGHT-hand doorpost of the door (right side of the picture next to the door), clearly visible knife-cut notches and dark water bands, one mark far above the others near the lintel; keep the materials of the lane exactly as in image 2.  Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox, no border. Original description: Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: medium shot facing the door with the carved doorpost, camera perpendicular to the door: the plank door of a stilt-house, its thick right-hand wooden doorpost (on the RIGHT side of the door) carved with a ladder of knife-cut tide marks and dark water bands, one mark far above all the others near the lintel; a short wooden stair going down from the plank-walk to the wet silt; old chests and a small boat stored in the shadow under the raised floor between the piles. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: black bars, letterbox.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008/d_C2_2.png",
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 700734,
+  "status": "ok"
+ },
+ "f_C3": {
+  "prompt": "Image 1 is the approved draft of this background plate. Redraw it as the final production background at full quality, keeping its composition, camera and layout. Fix: the lane between the houses is filled with dark still water reflecting the sunset (the tide has returned), lanterns lit at the doors; match the houses and plank-walks of image 2.  Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox, no border. Original description: Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: the reverse view: standing in the middle of the same lane looking the other way, toward the back canal and the open sea at the far end of the lane; the lane is full of dark water again, the sun has just set over the sea at the end of the lane, glowing peach-to-violet sky framed by the houses, lanterns lit at the doors, reflections on the water; no towers in this direction. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: black bars, letterbox.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008/d_C3_1.png",
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 59964,
+  "status": "ok"
+ },
+ "f_C4": {
+  "prompt": "Image 1 is the approved draft of this background plate. Redraw it as the final production background at full quality, keeping its composition, camera and layout. Fix: the camera is HIGH on the rope-bridge, looking down at a steep angle into the lane, the silt bed and puddles far below; the door with the tide-marked doorpost on the left, the lantern post on the right, the dike and distant towers at the top of the frame, as in image 2.  Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox, no border. Original description: Use the location from image 1 exactly: same architecture, materials, colours and landmarks (tarred timber stilt-houses, plank-walks, rope-bridge, lantern post, the door with the tide-mark doorpost, brick dike with gate, distant towers). New camera position: high view from the middle of the sagging rope-bridge over the lane, looking down and along the lane toward the dike: the plank-walks on both sides, the wet silt bed of the lane far below with puddles, the lantern post, the door with the tide-marked doorpost on the left below. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: black bars, letterbox.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008/d_C4_2.png",
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 220481,
+  "status": "ok"
+ },
+ "f_C2b": {
+  "prompt": "Image 1 is the approved draft: a frontal view of one stilt-house facade. Redraw it as the final production background, keeping this frontal camera (perpendicular to the house front, the door in the centre) and layout. Fix: the thick wooden post on the RIGHT side of the door (right side of the picture) is carved from bottom to top with a ladder of short horizontal knife-cut tide notches and dark water stains, one notch far above all others just under the lintel; the house stands on thick tarred piles; a short wooden stair goes down from the plank-walk to the wet grey-brown silt; old wooden chests and a small upturned boat are stored in the shadow under the raised floor between the piles; tarred dark timber as in image 2 (same district). cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox. ",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008/d_C2_2.png",
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 439205,
+  "status": "ok"
+ },
+ "f_C4b": {
+  "prompt": "Image 1 shows a lane. Draw the SAME lane (same houses, plank-walks, lantern post, door with tide-marked doorpost on the left, dike with gate and distant towers) from a completely different camera: a HIGH ANGLE view from the middle of the rope-bridge about six metres above the lane, the camera tilted steeply down about 45 degrees: we look down onto the wet silt bed of the lane with its puddles, the tops of the plank-walks and the boats under the houses, the house roofs and walls rising at the sides of the frame, the rope-bridge ropes visible at the very bottom edge of the frame, the dike and towers small at the top of the frame. cold blue-grey dawn, the sun not yet over the hill to the east, the district in deep shadow, pale sky behind the towers, mist over wet silt. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox.  Avoid also: eye-level camera, horizon in the middle of the frame.",
+  "model": "nano-banana-2",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 785297,
+  "status": "ok"
+ },
+ "f_C1_flood": {
+  "prompt": "Use image 1 exactly — same lane, same houses, same lantern post. Change only to: night flood, the whole lane full of black still water up to the door-lintels, one lantern still burning on the post on the right, the other lanterns along the plank-walks dark, heavy rain, the empty middle of the lane clear for a floating object. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 686550,
+  "status": "ok"
+ },
+ "f_C1_dusk": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the time of day and weather to: dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. The tide is back: dark water fills the lane between the houses, a lit lantern at every door and on the post on the right, warm amber lantern light against cold blue dusk, reflections on the water. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 706747,
+  "status": "ok"
+ },
+ "f_C2_flood": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the time of day and weather to: night flood, black water up to the door-lintels, lanterns half drowned, rain. Black still water up to just below the lintel of the door, covering the stair and the space under the house; only the top of the doorpost with the highest tide notch stays above the water; heavy rain; one lantern. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008/f_C2b.png"
+  ],
+  "aspect": "16:9",
+  "seed": 609825,
+  "status": "ok"
+ },
+ "f_C2_dusk": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only the time of day and weather to: dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. The tide is back: dark water under the house and over the lower steps of the stair; a lit lantern by the door. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0008/f_C2b.png"
+  ],
+  "aspect": "16:9",
+  "seed": 506551,
+  "status": "ok"
+ },
+ "f_C1_flood2": {
+  "prompt": "Use image 1 exactly — same lane, same houses, same lantern post, same camera. Change only to: night flood at its highest: the plank-walks, the lower storeys and the piles are completely submerged, black still water stands as high as the tops of the doors (up to the door-lintels) all along the lane, the camera just above the water surface; one lantern still burning on the post on the right of the picture, its long reflection broken by ripples, the other lanterns dark; heavy rain; the empty middle of the lane clear for a floating object. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars. Avoid also: visible plank-walks, water below the doors.",
+  "model": "nano-banana-2",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 480627,
+  "status": "ok"
+ },
+ "f_C1_dusk2": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place. Change only to: dusk after sunset; the sunset is BEHIND the camera, so the sky above the dike and the towers at the far end is cool blue-violet with only a faint peach glow, the dike gate is closed and dark (no light through it); the tide is back: dark water fills the lane between the houses, a lit lantern at every door and on the post on the right, warm amber lantern light against cold blue dusk, reflections on the water. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars. Avoid also: sun or bright glow at the end of the lane, light through the gate.",
+  "model": "nano-banana-2",
+  "refs": [
+   "studio/direction/refs/PL-0008/D02_C1_dawn-ebb_v1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 81610,
+  "status": "ok"
+ }
+}

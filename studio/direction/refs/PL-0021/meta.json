@@ -1,0 +1,74 @@
+{
+ "d_G1_1": {
+  "prompt": "Low-angle view from a flooded lane up at a huge iron-bound oak double gate set into the arch of a tall brick dike, the gate shut, stone steps disappearing into black water, dents and scrapes on the planks, tide stains and old water marks on the brick, iron straps and big rivets. night flood, black water up to the door-lintels, lanterns half drowned, rain. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 439514,
+  "status": "ok"
+ },
+ "d_G1_2": {
+  "prompt": "Low-angle view from a flooded lane up at a huge iron-bound oak double gate set into the arch of a tall brick dike, the gate shut, stone steps disappearing into black water, dents and scrapes on the planks, tide stains and old water marks on the brick, iron straps and big rivets. night flood, black water up to the door-lintels, lanterns half drowned, rain. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 17171,
+  "status": "ok"
+ },
+ "d_G1_3": {
+  "prompt": "Low-angle view from a flooded lane up at a huge iron-bound oak double gate set into the arch of a tall brick dike, the gate shut, stone steps disappearing into black water, dents and scrapes on the planks, tide stains and old water marks on the brick, iron straps and big rivets. night flood, black water up to the door-lintels, lanterns half drowned, rain. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 649481,
+  "status": "ok"
+ },
+ "d_G1_4": {
+  "prompt": "Low-angle view from a flooded lane up at a huge iron-bound oak double gate set into the arch of a tall brick dike, the gate shut, stone steps disappearing into black water, dents and scrapes on the planks, tide stains and old water marks on the brick, iron straps and big rivets. night flood, black water up to the door-lintels, lanterns half drowned, rain. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people.",
+  "model": "nano-banana",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 553765,
+  "status": "ok"
+ },
+ "f_G1": {
+  "prompt": "Image 1 is the approved draft of this background plate. Redraw it as the final production background at full quality, keeping its composition, camera and layout. Fix: lower camera looking up so the gate and arch tower over the viewer; the dike is very tall; black flood water covers the lower steps; rain; only two small lanterns.  Full-bleed 16:9 image filling the whole frame, no black bars, no letterbox, no border. Original description: Low-angle view from a flooded lane up at a huge iron-bound oak double gate set into the arch of a tall brick dike, the gate shut, stone steps disappearing into black water, dents and scrapes on the planks, tide stains and old water marks on the brick, iron straps and big rivets. night flood, black water up to the door-lintels, lanterns half drowned, rain. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Avoid also: black bars, letterbox.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0021/d_G1_3.png"
+  ],
+  "aspect": "16:9",
+  "seed": 505074,
+  "status": "ok"
+ },
+ "f_G2": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks. New camera position: the OTHER side of the same gate, from the higher town side: a medium shot from a brick street at the top of the dike, looking at the back of the same huge iron-bound oak gate in its brick arch; a heavy iron bar lying across the gate at chest height in big iron brackets, a small guard niche in the brick beside the gate, a few stone steps; no water on this side. dusk, the sun just set over the sea to the west, peach-to-violet sky, first lanterns lit, cool shadows. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0021/f_G1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 530316,
+  "status": "ok"
+ },
+ "f_G3": {
+  "prompt": "Use the location from image 1 exactly: same architecture, materials, colours and landmarks. New camera position: insert close-up on the town side of the gate at the height of the heavy horizontal iron bar, normal lens, camera exactly perpendicular to the gate: the thick iron bar runs across the upper third of the frame, an iron bracket at the LEFT edge of the frame that the bar slides into, the oak planks with iron straps behind, an empty space for two hands on the bar at the left third and centre. night rain, wet iron, warm lantern light from the upper right of the frame. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition, background art plate, empty of people unless stated, wide 16:9 frame, consistent architecture, clear readable depth layers for parallax (foreground, midground, background). Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0021/f_G1.png"
+  ],
+  "aspect": "16:9",
+  "seed": 793923,
+  "status": "ok"
+ },
+ "f_G3_dusk": {
+  "prompt": "Use image 1 exactly — same composition, camera and every object in place, the iron bar and the left bracket unchanged. Change only the time and weather to: dry dusk, no rain, cool blue-violet dusk light with warm low light from the upper right of the frame, dry iron and wood. 2D anime-style TV series background, original world design, detailed painterly matte-painting background with atmospheric haze, wet reflective stone and water, motivated cinematic lighting, muted desaturated palette with deep teal-black shadows, subtle film grain, grounded epic fantasy, 16:9 widescreen composition. Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, letters, labels, captions, watermark, logo, signature, extra fingers, fused hands, extra limbs, accessories switching sides, mirrored image, magical glow, extra people. Full-bleed 16:9 image, no black bars.",
+  "model": "nano-banana-2",
+  "refs": [
+   "output/refs_stage/PL-0021/f_G3.png"
+  ],
+  "aspect": "16:9",
+  "seed": 125502,
+  "status": "ok"
+ }
+}
