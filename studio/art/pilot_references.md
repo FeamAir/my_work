@@ -134,6 +134,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 [ID: IONE] 18-year-old young woman, tall and slender, very upright singer's posture, long neck; pale indoor skin with a faint warm olive undertone; hair: long straight pale-silver hair to the waist, silver from the roots, two thin side-plaits joined at the back of the head; eyes: dark brown; outfit: layered white robes with pale-violet trim, sleeves long enough to cover the hands, a narrow undyed-linen stole over the shoulders, soft white boots; violet silk band around the throat; a small silver tuning-fork pendant on a fine chain at the breastbone
 ```
 - **Промпт `00_master`:** `[ID: IONE] … verbatim. Waist-up portrait, three-quarter view, neutral serene expression, mouth closed, looking at the viewer, hands hidden in her long sleeves. {STYLE}, plain warm light-grey background, flat even neutral lighting. Avoid: dark roots, blonde or white-yellow hair, blue or violet eyes, short hair, bare hands, jewellery other than the fork pendant, earrings, photorealism, 3D render look, text, watermark.`
+- **Кадр 9B (sc09-sh030, фирменный, обложка A):** ключевой кадр делается в **2K и выше** (финал — модель/режим с выходом ≥ 2048 px по длинной стороне; иначе апскейл до 2K+ до оживления) и с **запасом по краям ≥ 10%** под кроп обложки; фигура не у края. Солнце **впереди** Ионы (DEC-65). Референсы: этот лист, D-08 S4, D-09 H1.
 - **`08_back_hero`:** `Use the character from image 1 exactly. Full-body back view: she stands in a tall arched stone opening, facing away from the viewer toward open sky, robes and silver hair snapping in a strong wind to the right, arms slightly away from the body, head level. {STYLE}, {SHEET}. {AVOID}`
 - **`06_details`:** камертон (крупно, на цепочке; удар о костяшку — поза руки); лента на горле; соединённые сзади косички; кисть, выходящая из рукава.
 - **Модели (весь лист):** D — NB × 20 · F — NB Pro × 6.
@@ -264,7 +265,8 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 [ID: KES] woman of 34, medium height, broad and compact, heavy forearms, stiff right knee; ruddy weathered upland skin; hair: jet-black, short, both sides shaved, top swept back; eyes: dark grey; a burn scar along HER RIGHT jaw; outfit: rust-red Rusk tabard over a black gambeson, black breeches, upland boots; a dented half-helm with a painted white stripe front to back, carried under HER LEFT arm
 ```
 - **Промпт (спина):** `[ID: KES] … verbatim. Back view only, face not visible: full-body back view, square stance, the dented half-helm tucked under her left arm (on the LEFT side of the image in the back view). {STYLE}, {SHEET}. Avoid: visible face, helmet on the head, long hair, scarlet red, photorealism, 3D render look, text, watermark.`
-- **Промпт (руки, пара листов):** `Close-up insert reference: two hands gripping a heavy iron gate bar from below and pushing it upward-and-across into its bracket, seen from slightly below at a three-quarter angle, the left hand nearer the camera, black padded gambeson cuffs at the wrists. Version A: young hands of a 17-year-old, smooth, rain-wet, night lantern light. Version B: the same grip and same framing, hands of a 34-year-old soldier, broader, scarred knuckles, dusk light. {STYLE}, {SHEET}. Avoid: faces, rings, gloves, different hand positions between versions, photorealism, 3D render look, text, watermark, extra fingers.`
+- **Рамка S1-SC01-HANDS** (приёмка раскадровки, `direction/S01E01_storyboard_acceptance.md` §4.1 п. 1; кадры sc01-sh050/sh080 и sc18): крупно, на высоте засова, **перпендикулярно воротам**, нормальный объектив ~50 мм, засов поперёк **верхней трети**, левая рука на левой трети, правая в центре, руки тащат засов **справа налево** к скобе у левого края, свет **сверху справа**. Обшлага — **чёрная стёганка**; без табарда, цветов дома, знаков ранга, колец и перчаток.
+- **Промпт (руки, пара листов):** `Close-up insert reference at the height of a heavy horizontal iron gate bar, normal lens, camera perpendicular to the gate: two hands in black padded gambeson cuffs grip the thick iron bar that runs across the upper third of the frame, the left hand at the left third, the right hand in the centre, both pulling the bar from right to left toward an iron bracket at the left edge of the frame; beyond the vertical gate bars, out-of-focus darkness; light from the upper right. Version A: young slender but strong hands of a 17-year-old, smooth, rain-wet, warm lantern light from the upper right, night rain. Version B: the same grip, the same framing and the same light direction, hands of a 34-year-old soldier, broader, scarred knuckles, dusk light. {STYLE}, {SHEET}. Avoid: faces, tabard, rust red or any house colour, rank insignia, rings, gloves, different hand positions between versions, photorealism, 3D render look, text, watermark, extra fingers.`
 - **Правило:** версия B делается **edit-ом от финала версии A** (кадрирование совпадает — фиксированное правило сц. 18).
 - **Модели:** D — NB × 6 · F — **NB Pro** × 3 (спина, руки A, руки B).
 
@@ -279,9 +281,9 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 
 ## B-11 Старый Кантор на лестнице (без имени, сц. 8)
 - **Виды:** в рост 3/4 сбоку (уступает дорогу), кисть, делающая знак благословения (знак — из глоссария жестов режиссёра; до него — нейтральная поза кисти).
-- **ID-блок:** `[ID: OLD-CANTOR] very old man, stocky and bowed, round soft face, bald with a white fringe, mouth closed and slack; a yellowed linen band wrapped around his throat; outfit: a worn undyed-linen Choir robe greyed with age, rope belt; one hand resting at his throat, the other raised in a small formal sign`
-- **Промпт:** `[ID: OLD-CANTOR] … verbatim. Full-body three-quarter side view stepping aside on a curving stone stair, plus a close-up of his raised signing hand. {STYLE}, {SHEET}. Avoid: violet band, singing mouth, skeletal thinness, photorealism, 3D render look, text, watermark, extra fingers.`
-- **Вопрос:** в каноне Кантор Сабин (немой, «скелет», жёлтая лента) впервые появляется в E3. Чтобы зритель не принял этого старика за Сабина, я сделал его **плотным и круглолицым**. Если сценарист задумывал здесь Сабина — заменить лист на Сабина (CH-0057).
+- **ID-блок:** `[ID: OLD-CANTOR] very old man, stocky and bowed, round soft face, bald with a white fringe, mouth closed and slack; a black band wrapped around his throat; outfit: a worn undyed-linen Choir robe greyed with age, rope belt; one hand resting at his throat, the other raised in a small formal sign`
+- **Промпт:** `[ID: OLD-CANTOR] … verbatim. Full-body three-quarter side view stepping aside on a curving stone stair, plus a close-up of his raised signing hand. {STYLE}, {SHEET}. Avoid: violet band, yellowed throat band, linen-coloured throat band, skeletal thinness, singing mouth, photorealism, 3D render look, text, watermark, extra fingers.`
+- **Закрыто (приёмка раскадровки §4.1 п. 2, выдержка §3 v0.5):** это **не Сабин**. Повязка — **чёрная**; облик — плотный, круглолицый, чтобы не путать с Сабином (CH-0057, E3).
 - **Модели:** D — NB × 4 · F — NB2 × 1.
 
 ## B-12 *(необязательно)* Весна — CH-0012 · **лица нет никогда**
@@ -314,7 +316,7 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 
 # D. Локации — 12
 
-## D-0. Общая география Хайуотера *(предложение — на сверку хранителю: в каноне сторон света нет)*
+## D-0. Общая география Хайуотера — **утверждено DEC-65** (`story/decisions_resolved.md`, окончательно для арта пилота)
 
 Ориентация нужна, чтобы солнце и Шпили стояли на своих местах во всех кадрах.
 
@@ -333,8 +335,9 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
 ```
 - **Море и гавань — на западе и северо-западе.** Закат — над морем: «низкое солнце» в окне зала десятины (окно смотрит на гавань), контражур Шпиля Короны с лестницы Счётного дома (сц. 16).
 - **Рассвет — с востока, из-за гранитного холма:** Низы на рассвете **в тени холма** («stilt-town in its own shadow», сц. 2), Шпили — силуэтами на светлеющем небе.
-- **Девятый шлюз — юго-запад, у моря.** С конька крыши в Девятом (сц. 9) Шпиль Короны виден **на северо-северо-востоке**, освещённый закатным солнцем с запада.
-- **Шпили:** Корона ~160 м (на западной бровке вершины, внутри Дворца); Хор ~120 м (восточнее, круглый храм у подножия); Шлюз ~90 м (на нижней дамбе, ближе всех к Девятому, звучит «фальшиво»). Высоты — предложение в пределах канона (60–200 м).
+- **Девятый шлюз — юго-запад, у моря.** С конька крыши в Девятом (сц. 9) Шпиль Короны виден **на северо-востоке**, вверх по холму, **освещённый в лоб** закатным солнцем с запада — читается белым без приёмов. На рассвете (сц. 2–3) Девятый в тени холма: первое солнце приходит в гавань раньше, чем в переулок; прямого солнца в Низах на рассвете нет. Сц. 1: открытая вода за воротами — на юго-западе.
+- **Сц. 9:** Иона в горле короны смотрит **на запад, в низкое солнце**; камера за ней видит её **на просвет** (солнце впереди неё). **Сц. 10–12:** «последний свет» — через **западные** окна зала.
+- **Шпили:** Корона ~160 м (на западной бровке вершины, внутри Дворца); Хор ~120 м (восточнее, круглый храм у подножия); Шлюз ~90 м (на нижней дамбе, ближе всех к Девятому, звучит «фальшиво»). Высоты утверждены DEC-65.
 - **Шпиль (общий облик):** стеклянно-чёрный камень, спиральные бороздки, восходящие **по часовой стрелке** (если смотреть сверху) — *вопрос хранителю: для бороздок Шпилей направление в выдержке не задано; ставлю по солнцу, как все спирали*; корона — кольцо открытых арочных «горл»; при пении бороздки светятся бледным сине-белым виток за витком; вода в пределах видимости — стекло.
 
 Общий шаблон финала ракурса (edit от мастер-плана, NB2): `Use the location from image 1 exactly: same architecture, materials, colours and landmarks. New camera position: {ракурс}. {свет}. {STYLE}, {LOC}. {AVOID}`
@@ -467,8 +470,8 @@ Avoid: photorealism, 3D render look, chibi or super-deformed proportions, text, 
    Дворец ──────╨── S1/S2 ● терраса у основания, смотрит вверх
 ```
 - **Промпт S1:** `Low-angle view from a granite palace terrace up the full height of a colossal tower of black glassy stone, about 160 metres tall, its surface wrapped in deep spiral grooves rising clockwise (as seen from above), the top crowned by a ring of tall open arched throats against the sky; the base merges into granite walls and a carved doorway. {LATE-AFT}. {STYLE}, {LOC}. {AVOID}`
-- **Промпт S2 (edit от S1):** `Use image 1 exactly. Change only: the spiral grooves now glow from inside with a pale blue-white light, brightest near the crown and fading downward turn by turn, the stone itself stays black, a faint shimmer in the air at the crown. {STYLE}. Avoid: fire, sparks, lightning, rainbow colours, glow outside the grooves.`
-- **Промпт S4:** `View from inside one of the open arched throats at the crown of a black glassy stone tower, looking out through the tall arch at a vast harbour far below and the open sea beyond, the arch edges grooved with spirals, wind, open sky, a clear standing place on the stone lip in the centre foreground. {LATE-AFT}. {STYLE}, {LOC}. {AVOID}`
+- **Промпт S2 (edit от S1):** `Use image 1 exactly. Change only: the spiral grooves now glow from inside with a pale blue-white light, brightest near the crown and fading downward turn by turn to its lowest turns, the foot of the tower stays dark unlit stone, the stone itself stays black, a faint shimmer in the air at the crown. {STYLE}. Avoid: fire, sparks, lightning, rainbow colours, glow outside the grooves, glow at the foot of the tower.` (выдержка §3 v0.6: подножие тёмное)
+- **Промпт S4:** `View from inside one of the open arched throats at the crown of a black glassy stone tower, looking out west through the tall arch at a vast harbour far below and the open sea beyond, the low golden sun ahead over the sea so the arch is seen against the light, the arch edges grooved with spirals, wind, open sky, a clear standing place on the stone lip in the centre foreground. {LATE-AFT}. {STYLE}, {LOC}. {AVOID}`
 - **Модели:** S1 — D NB × 6, F NB Pro × 1; S3, S4 — D NB × 3, F NB Pro × 1 (ключевой образ сезона); S2 и DUSK — D NB × 1, F NB2 × 1.
 
 ## D-09 Гавань Хайуотера сверху — PL-0018 · флагман *Patient Gull*
@@ -579,13 +582,14 @@ A large hand-drawn antique map on heavy cream parchment of a wide river delta an
 |---|---|---|---|
 | (0) *необяз.* | Шпили встают из моря; строителей нет | `{WEAVE}. Black towers rising out of a stylised sea, waves around their bases, no people, no builders, no hands.` | внутри серии |
 | 1 | Королева Невэ поёт; **за ней толпы** с открытыми ртами | `{WEAVE}. A queen in pearl and teal robes with a spiral-shell circlet, standing and singing with her right hand raised, and behind her great crowds of common people with open mouths, rows upon rows, filling the panel.` | маркетинг ✔ |
-| 2 | Девять семей-хранителей, основание Конкорда (официальная версия) | `{WEAVE}. Nine noble figures standing in a row on a shore, each beneath a tall vertical banner with a flat emblem (cormorant, sickle, open hand, eel in a ring, harrow, waterfall, gate, spade and reed, lantern tower), raising their hands in an oath.` — детали оружия и знамён **на сверку хранителю** | маркетинг ✔ |
+| 2 | Девять семей-хранителей, основание Конкорда (официальная версия) | `{WEAVE}. Nine noble figures standing in a row on a shore, each beneath a tall vertical banner with a slanted cut at the foot, the long point on the pole side, bearing a flat emblem (cormorant, sickle, open hand, eel in a ring, harrow, waterfall, gate, spade and reed, lantern tower), raising their hands in an oath.` — детали оружия и знамён **на сверку хранителю** | маркетинг ✔ |
 | 3 | Крупно: **чёрная жемчужина на поющей руке** Королевы | `{WEAVE}. A close woven detail of a raised woman's hand, open, with a ring bearing one black pearl, sleeve of pearl and teal.` | **только в серии** |
 | 4 | Служанка с **косой слева** и **спиральной раковиной**; **кулак сжат** | `{WEAVE}. A slight servant girl half hidden behind a pillar, one long braid on her own left side, holding a spiral seashell against her chest with one arm, her other hand clenched in a closed fist.` | **только в серии** |
 | 5 | **Парус с бакланом** поперёк гавани — корабли **в море** | `{WEAVE}. Ships at sea across a harbour mouth, the largest sail bearing a black diving cormorant, the ships out on the water, no shore, no people ashore.` | маркетинг ✔ |
 | 6 | Королева поёт **одна на вершине Шпиля**; толпа внизу **уже лежит** | `{WEAVE}. A queen alone at the very top of a tall black tower, singing, nobody beside her, and far below at the foot of the tower the crowd lying fallen, stylised and still, the sea rising behind.` | **только в серии** |
 
 - **Чего на гобелене нет (проверять):** что в кулаке у служанки; открытой жемчужины; руки Королевы у перстня; кого-либо рядом с Королевой на вершине (ни адмирала, ни моряков на берегу); лодки, уходящей из города; Феннике и Лантри среди знамён. Жемчужина и кулак — **в разных панелях**. Новые фигуры — только после проверки хранителем.
+- **Панель 2 — плита с запасом ≥ 1,25× по ширине и высоте** (приёмка §4.1 п. 3): работает в двух кадрах (панорама 11 с и наезд 0.08 на середину ряда). Генерировать на максимальном разрешении модели, кадр шире ряда знамён; при нехватке — апскейл до запаса. **Пыль перед тканью — отдельным слоем** на монтаже, не в ткани. Знамёна панели — форма DEC-66 (вертикальное, косой срез, длинный угол у древка).
 - **Модели:** стиль-тест D NB × 4; каждая панель — D NB × 3, F NB Pro × 1 (edit с финалом панели 1 как стилевым референсом).
 
 ## E-07 Чаша десятины
@@ -629,3 +633,9 @@ A large hand-drawn antique map on heavy cream parchment of a wide river delta an
 - [ ] Цвета домов — по плашкам (`peoples_and_costume.md` §3), опасные пары различимы.
 - [ ] Нет текста (кроме «IX» на бирке и «117» на зажиме).
 - [ ] Записаны промпт, модель, seed, дата, стоимость в `card.md`.
+
+---
+
+## G. Строки к листам вне пилота (по решениям)
+- **CH-0019 Яро (DEC-86):** в лист и ID-блок добавить строку `formal: + Quell captains' green sash knotted at HIS LEFT hip with a plain dark iron ring through the knot, over the sea-green long coat`. Новый референс не заказан. Со спины (S1E8) читается по трём признакам: длинный сюртук, узел кушака с кольцом у **левого** бедра, концы волос в морской зелени. **Защита:** кольцо кушака — гладкое, толстое, тёмное железо, **без знаков и узоров**, крупнее ладони в обхвате кушака; оно **не должно походить на «жетон Квелл»** из той же серии (жетон делать мелким и иным по форме — согласовать с режиссёром, когда дойдёт до E8).
+

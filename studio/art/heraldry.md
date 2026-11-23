@@ -10,7 +10,7 @@
 3. **Модели:** черновик — Nano Banana ($0.04), финал мастер-эмблемы — Nano Banana Pro ($0.15) (лучше держит симметрию и плоскую графику). Варианты (знамя, сургуч) — Nano Banana 2 edit ($0.08).
 4. **Приёмка:** форма фигуры по описанию, цвета поля/фигуры, нет текста и девизов, спирали по часовой от центра, нет лишних элементов (короны, щитодержатели, ленты с надписями — у нас **их нет**: гербы дельты — знаки на поле, без европейского щита).
 
-**Форма носителя** *(предложение)*: гербы мира — не щиты, а **прямоугольное вертикальное полотнище с косым срезом внизу** (знамя-«вымпел шлюза») для знамён и простой **круг** для печатей и брошей. Это отличает мир от узнаваемой европейской геральдики.
+**Форма носителя — утверждено DEC-66:** высокое **вертикальное знамя с косым срезом внизу, длинный угол — со стороны древка**; одинаково для всех домов, Хора и Гильдии; печати — **круглые**. **Щитов в мире нет нигде.** Гобелен (сц. 5, панель 2) использует ту же форму знамени.
 
 ### Общие блоки промпта
 
@@ -23,7 +23,7 @@ flat heraldic emblem design, bold simple shapes, clean hand-inked outlines in da
 Avoid: text, letters, mottos, banners with words, shield outline, crown, gradients, 3D bevel, metallic chrome shine, photorealism, extra figures, watermark.
 ```
 Варианты от мастер-эмблемы (edit, Nano Banana 2):
-- **Знамя:** `Use the emblem from image 1 exactly. Show it as a tall vertical cloth banner with a slanted cut at the bottom edge, hanging from a dark wooden crossbar in a stone hall, soft side light, cloth folds, same colours, emblem undistorted. {EMBLEM_AVOID}`
+- **Знамя:** `Use the emblem from image 1 exactly. Show it as a tall vertical cloth banner with a slanted cut at the bottom edge, the long point on the pole side, hanging from a dark wooden crossbar in a stone hall, soft side light, cloth folds, same colours, emblem undistorted. {EMBLEM_AVOID}`
 - **Табард/вышивка:** `Use the emblem from image 1 exactly, embroidered in thread on the chest of a {colour} tabard, flat front view, fabric texture visible.`
 - **Печать/брошь:** `Use the emblem from image 1 exactly, simplified to one colour, as a round {metal} brooch / as an impression in red sealing wax, top view.`
 
@@ -56,6 +56,7 @@ Avoid: text, letters, mottos, banners with words, shield outline, crown, gradien
 ### H-05 Квелл (HS-005) — «Буря»
 - **Описание:** поле **кость** (тёплый белый); **морско-зелёный угорь** (виден гребень плавника) делает **один полный виток сквозь тёмное железное кольцо**, голова вверх, пасть закрыта. Не змея.
 - **Цвета:** `#E8DFC8` · зелень `#5E8A4E` (с жёлтым, **никогда не бирюза**) · железо `#3B3D40`.
+- **Капитанский кушак (DEC-86):** зелёный кушак с железным кольцом — парадная одежда капитанов Квеллов, поверх сюртука морской зелени; узел с кольцом у **левого** бедра (Яро, S1E8). Кольцо кушака — **гладкое, толстое, тёмное железо, без знаков**; оно **не должно походить на «жетон Квелл»** той же серии (E8). Отдельного референса не заказано — строка в листе Яро (`pilot_references.md` §G).
 - **Промпт:** `{EMBLEM_STYLE}, warm bone-white field, a sea-green eel with a visible dorsal fin ridge along its back, making one full coil through a dark iron ring, head raised upward, mouth closed, yellowish sea-green not teal, clearly an eel not a snake. {EMBLEM_AVOID}`
 
 ### H-06 Феннике (HS-006) — «Слушающий дом»
@@ -78,12 +79,12 @@ Avoid: text, letters, mottos, banners with words, shield outline, crown, gradien
 - **Внимание:** в зале десятины блок Хора в `production_notes.md` §4 назван «фиолетовый и лён». Предлагаю: знамя — лён с чёрными штрихами (как здесь), фиолетовый — только ленты на горле стюардов Хора. Фиолетовое **поле** — у Илвейнов; два фиолетовых блока рядом в зале смешаются. Вопрос режиссёру.
 - **Промпт:** `{EMBLEM_STYLE}, warm undyed coarse linen field with visible weave, nine short vertical black brush strokes arranged in a gentle upward arc, above one straight horizontal black line, austere and calm. {EMBLEM_AVOID}`
 
-### H-09 Должность Хелма и флаг Конкорда *(предложение — на сверку хранителю; в каноне флаг упомянут, но не описан)*
-- **Описание:** поле **штормово-серое**; **кольцо из девяти чёрных силуэтов Шпилей**, восемь залиты чёрным, **девятый — только контур** (Затонувший); в центре кольца — **белый круг** (гладь воды).
+### H-09 Должность Хелма и флаг Конкорда — **утверждено DEC-66**
+- **Описание:** поле **штормово-серое**; **кольцо из девяти силуэтов Шпилей** вокруг **простого белого круга**; восемь залиты чёрным, **девятый — только контур, внизу кольца**. Все девять силуэтов **одинаковые и простые**: без бороздок, без спирали, без разницы в высоте. **Ни на флаге, ни на любом знаке должности Хелма спирали нет.** Белый круг — просто круг: не жемчужина, без бликов и шарниров, никогда не чёрный.
 - **Цвета:** `#8A9097` · чёрный · белый.
 - **Почему так:** публичная структура мира (восемь голосов и девятый пустой) читается с одного взгляда, работает на фанатские карты; серый совпадает с «серой» частью мантии Лукана и «серо-синей мантией Хелма» Марен (S7).
-- **Опасность:** не путать с сланцем Феннике — серый Хелма светлее и теплее.
-- **Промпт:** `{EMBLEM_STYLE}, storm-grey field, a ring of nine slender tower silhouettes standing upright around a plain white disc in the centre, eight towers filled solid black, one tower at the bottom of the ring drawn only as a black outline with an empty interior, evenly spaced. {EMBLEM_AVOID}`
+- **Серый Хелма (DEC-66)** — цвет **должности**, а не дома Хелма: штормово-серый, **светлее и теплее** сланца Феннике, и должен отличаться от него, когда они висят или стоят рядом (с S1E11 — обязательно). Проверка при приёмке: плашки `#8A9097` и `#4F5A63` рядом.
+- **Промпт:** `{EMBLEM_STYLE}, storm-grey field, a ring of nine identical plain slender tower silhouettes of equal height standing upright around a plain flat white disc in the centre, eight towers filled solid black, the one tower at the bottom of the ring drawn only as a black outline with an empty interior, evenly spaced, no grooves, no spirals. Avoid: spirals, grooves on the towers, towers of different heights, shine or highlight on the disc, pearl, text, letters, shield outline, crown, gradients, 3D bevel, photorealism, watermark.`
 
 ## 2. Силы вне Кольца
 

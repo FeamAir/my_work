@@ -1,11 +1,11 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Script
 
-Version 1.0.1 · 2026-11-22 · author: lead-screenwriter · status: **full script for approval**
+Version 1.0.2 · 2026-11-22 · author: lead-screenwriter · status: **full script for approval**
 Built on: `beat_sheet.md` v2 (same scene numbers) · canon v0.4 + `decisions_resolved.md` · analyst's review `research/pilot_hook_review.md` (O-1…O-11 applied; see the check at the end of this file)
 Spoiler level: **safe for the production team.** This file says what is seen and heard and which wording is binding. It never says why a detail matters. Where a note reads *fixed — ask the lead*, do not change it and do not guess.
 
 **Running time:** 26:39 of story · 21 scenes · one day in the world: CY 312, Longdark 6 (Hornday), dawn ebb → dark · pre-title: CY 295, the night of Still 3.
-**Delivered length:** ≈ 29 min with the ending (the opening theme, first full statement) and the next-episode preview. No opening sequence in the pilot; the only title is 12 seconds at 6:02, after the cold open.
+**Delivered length:** ≈ 29 min with the ending (the opening theme, first full statement) and the next-episode preview. No opening sequence in the pilot; the only title is 9 seconds at 6:11.5, after the cold open.
 
 ## How to read this script
 
@@ -275,7 +275,7 @@ SOUND: a dry page turns.
 
 # TITLE
 
-## SC 5 — THE BREAKING TAPESTRY · TITLE — NO TIME (THE CHRONICLE) `LA` [5:20–6:14]
+## SC 5 — THE BREAKING TAPESTRY · TITLE — NO TIME (THE CHRONICLE) `LA` [5:20–6:20.5]
 
 *Document sequence. Woven textile, flat, a style of its own: this is the look of every later "Chronicle" sequence. Camera moves only; nothing moves inside the weave. Six panels, about seven seconds each. The tapestry hangs in PL-0013; we see details, never the room.*
 
@@ -313,15 +313,15 @@ The Nine made their Concord on what stayed dry. This is the three hundred and tw
 
 The last panel's black tower fills the frame.
 
-**TITLE: HOLLOWSTONE** [6:02–6:14]
-MUSIC: the saga theme, first statement: twelve seconds, one phrase, built to open into the full theme at the end credits.
+**TITLE: HOLLOWSTONE** [6:11.5–6:20.5]
+MUSIC: the saga theme, first statement: nine seconds, one phrase, built to open into the full theme at the end credits.
 (Any AI badge or studio mark appears from here on as a small corner bug, and on the end card. Never before this point.)
 
 MATCH CUT (the title's last frame → the hub of a great wooden wheel, turning).
 
 # THE DAY
 
-## SC 6 — EXT. PL-0008 THE NINTH SLUICE TREADMILL PUMP — LATE MORNING `LA` [6:14–7:14]
+## SC 6 — EXT. PL-0008 THE NINTH SLUICE TREADMILL PUMP — LATE MORNING `LA` [6:20.5–7:20]
 
 Three great wooden wheels in a row over a sump, each taller than a house. Inside each, twenty backs walking uphill and getting nowhere. Two wheels turn. **The third stands still.** Nobody is looking at it.
 
@@ -371,7 +371,7 @@ The whistle fades. The third wheel stands still.
 
 MATCH CUT (the turning hub → a compass rose in ink).
 
-## SC 7 — INT. PL-0078 THE MAP OFFICE, TABLE-TOP ONLY — MIDDAY `LA` [7:14–7:54]
+## SC 7 — INT. PL-0078 THE MAP OFFICE, TABLE-TOP ONLY — MIDDAY `LA` [7:20–7:57.5]
 
 *Document sequence on the Tithe Map itself: the season's map. Legible, designed, kept as a master file.*
 
@@ -399,7 +399,7 @@ The case is lifted and carried out of frame, up a stair.
 
 MATCH CUT (the stair → a spiral of black stone, climbing).
 
-## SC 8 — INT. PL-0014 THE CROWN SPIRE, BASE AND INNER STAIR (inside PL-0009) — AFTERNOON [7:54–9:04]
+## SC 8 — INT. PL-0014 THE CROWN SPIRE, BASE AND INNER STAIR (inside PL-0009) — AFTERNOON [7:57.5–9:04]
 
 Black stone, spiral-grooved, curving up out of sight. Light from above, cold and white.
 
@@ -453,7 +453,7 @@ Hold it. Four seconds of a city that has stopped moving.
 WICK [MS] (to the coins)
 Four. The rag-man robbed us.
 
-Pell is not looking at the coins. Far up the hill the black tower is burning white from crown to foot.
+Pell is not looking at the coins. Far up the hill the black tower is burning white from the crown down to its lowest turns; the foot stays dark stone.
 CLOSE on Pell, silent: for one unguarded second she is simply looking at the most beautiful thing she has ever seen. Then it goes out of her face.
 
 Below their roof the water in the lane has only **slowed**. It still moves. A bucket turns in it.
@@ -808,7 +808,7 @@ SOUND: boots. The tone. No order is spoken; a hand signal is enough.
 
 The leaves swing in.
 
-INSERT, **framed exactly as Sc 1 [0:14]: same lens, same angle, same side of frame** (*fixed*): a pair of hands on the gate bar. Older hands; a soldier's cuffs in rust-red; the same grip. They drag the bar across.
+INSERT, **framed exactly as Sc 1 [0:14]: same lens, same angle, same side of frame** (*fixed*): a pair of hands on the gate bar. Older hands; black quilted cuffs, no tabard, no house colour; the same grip. They drag the bar across.
 The bar drops into its iron. The same sound.
 
 The sergeant does not look at the gate once it is shut. She looks at the wall beside it.
@@ -953,10 +953,10 @@ It holds **one second** into the dark, alone.
 | 2 | The same lane: six coppers by dusk | P | 0:50 | 2:00 |
 | 3 | The back-canal: the find and the answer | P | 2:00 | 4:00 |
 | 4 | Nan's rule | P | 1:20 | 5:20 |
-| 5 | The Breaking tapestry (0:42) + TITLE (0:12) | — | 0:54 | 6:14 |
-| 6 | The wheel | P | 1:00 | 7:14 |
-| 7 | Bridge: the map | — | 0:40 | 7:54 |
-| 8 | Ione takes her pitch | I | 1:10 | 9:04 |
+| 5 | The Breaking tapestry (0:51.5) + TITLE (0:09) | — | 1:00.5 | 6:20.5 |
+| 6 | The wheel | P | 0:59.5 | 7:20 |
+| 7 | Bridge: the map | — | 0:37.5 | 7:57.5 |
+| 8 | Ione takes her pitch | I | 1:06.5 | 9:04 |
 | 9 | The crown (+ the roof) | I + P | 1:50 | 10:54 |
 | 13 | The Counting House: a column called Nine | H | 1:15 | 12:09 |
 | 10 | The tithe hall: the clasp | I | 2:05 | 14:14 |
@@ -972,9 +972,9 @@ It holds **one second** into the dark, alone.
 | 20 | Cliffhanger: "It's singing back" | P | 1:30 | **26:39** |
 
 **Total: 21 scenes, 26:39.** Scene numbers are those of the beat sheet; the bank scenes (13–16) are woven into the hall scenes (10–12), so the numbers no longer run in order.
-Pell is on screen 1:10–5:20, 6:14–7:14, 9:58–10:36, 17:44–18:19 and 23:24–26:39. Her longest absence is 7:08 (10:36 → 17:44).
+Pell is on screen 1:10–5:20, 6:20.5–7:20, 9:58–10:36, 17:44–18:19 and 23:24–26:39. Her longest absence is 7:08 (10:36 → 17:44).
 Lip-sync close-ups: 5 (Sc 4, 11, 12, 15, 20). If the style test allows four: Sc 12's line goes to `[MS]` over the map, the close-up to the reading hand.
-The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:20 of speech inside 1:37 of screen time, none before 5:20, none over a face.
+The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:25 of speech inside 1:44 of screen time, none before 5:20, none over a face.
 Without spoken dialogue: Sc 1 entire; the song and the glass in Sc 9; the fall and four seconds after it; the pens in Sc 16; the last forty seconds of Sc 20 but for one line. About nine minutes in all.
 
 ---
@@ -997,7 +997,7 @@ Source of the criteria: `research/pilot_hook_review.md` §1 (thresholds: a stop-
 
 A viewer with the sound off, in the first ten seconds, sees: an empty cradle in a drowned street; a gate; a crowd in water on one side of it and dry steps on the other. That is a question without a word of sound.
 
-## Minute by minute, 0:00–6:14
+## Minute by minute, 0:00–6:20.5
 
 | Window | On screen | Why the viewer stays | Analyst's exit point | Result |
 |---|---|---|---|---|
@@ -1006,7 +1006,7 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 | 2:00–3:00 | one shout from the next lane; **the bare sill at 2:14**; the rope; black water she will not step into; she hums; "Pell. Mouth." | her fear; a law against her own voice; something is in that pool | 2:05–2:30, the quarrel over lanes | cut to one line each way; the sill arrives fifteen seconds earlier |
 | 3:00–4:00 | the stone hums back; the pool rings; only the boy sees; "It sang." / "Stones don't sing. That's six coppers, that is." / "Buttons!" | the first mystery on the three-minute mark; the viewer knows more than the heroine, and knows she means to sell it | 3:30–4:15, the lore of chips, licences and the fence | all of it removed; no new term is spoken in this minute. The answer is written to be audible on a phone |
 | 4:00–5:20 | the kitchen: her bread goes to the boy; "Not in Ninth Sluice since —"; a child sings one note; the hand; "Never sing, chick"; the stone goes round her neck | a secret at a table and a second one behind it; the rule of the world as fear in a face | scene too long (1:40) | 1:20; one silent act of care added; the three-second silence kept |
-| 5:20–6:14 | the tapestry (42 s, six panels) and the title (12 s) | the first line is about the black stone we have just seen at her throat; a queen, a crowd, a closed fist, a city under the sea | 6:00–6:40 on v1.1 (58 s of narrator) | 42 s; no sentence lost; title at 6:02 |
+| 5:20–6:20.5 | the tapestry (51.5 s, six panels) and the title (9 s) | the first line is about the black stone we have just seen at her throat; a queen, a crowd, a closed fist, a city under the sea | 6:00–6:40 on v1.1 (58 s of narrator) | 51.5 s at a readable pace; no sentence lost; title at 6:11.5 |
 
 ## The eleven required changes
 
@@ -1016,7 +1016,7 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 | O-2 | one geography shot at the gate | Sc 1 [0:10] |
 | O-3 | "Ninth Sluice" aloud at least twice before 6:00; IX on the doorpost | spoken at 1:15 (the collector), 2:03 (the girl in the next lane), 4:40 (Nan), and again at about 7:00 (the reedmaster); IX in Sc 1 [0:06], the match cut, Pell's tag, and the map in Sc 12 |
 | O-4 | no jargon before 6:00 | Sc 2–3. Terms spoken before the title: *Ninth Sluice, coppers, dusk, nets, the old sill*. Nothing else |
-| O-5 | 5:55–9:15 cut to about two minutes; a Listeners' whistle and the hand on the cord in Sc 6 | tapestry + title + wheel + map = 2:34 (was 3:20), of which narrator 1:22; the crown now begins at **9:04** (was 10:30). The whistle and the hand: end of Sc 6 |
+| O-5 | 5:55–9:15 cut to about two minutes; a Listeners' whistle and the hand on the cord in Sc 6 | tapestry + title + wheel + map = 2:37.5 (was 3:20), of which narrator 1:29; the crown now begins at **9:04** (was 10:30). The whistle and the hand: end of Sc 6 |
 | O-6 | the bank woven into the hall | 9 → 13 → 10 → 14 → 11 → 15 → (15a) → 12 → 16. The death-tone follows the fall on a hard cut |
 | O-7 | a Pell beat of 30–40 s in the middle | Sc 15a, 0:35, placed immediately before the reading |
 | O-8 | Pell chooses to pay with the stone; it sings in her hand | Sc 19 ("Wait. I can pay.", the closed fist; the collector never looks at it) and Sc 20 (the fist opens) |
@@ -1030,10 +1030,10 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 - Hook legible with the sound off: **yes** by 0:10; the lullaby and the stone's answer rely on the SDH lines listed above.
 - A wrong the viewer wants answered by 0:30: **yes** (the bar drops at 0:25).
 - Heroine, stake and deadline by 2:00: **yes**. First mystery at 3:00: **yes**, to the second.
-- No logo, card, title or narrator before the hook: **yes**; first narrator at 5:20, title at 6:02.
-- Each minute ends on an open question: **yes** (1:10 who took the child; 2:00 can she find six; 3:00 what answered; 4:00 will she sell it; 5:20 why may they not sing; 6:14 what did the Queen do).
-- Remaining soft spot inside six minutes: **5:20–6:02**. Forty-two seconds of narrator directly after the kitchen is still the lowest-energy stretch of the opening. It is as short as its five binding sentences allow, and it now opens on the stone. If the retention curve after release shows a step here, the remedy is in the edit (panel pace), not in the text.
-- Remaining soft spot outside six minutes: **7:14–9:04** (the map, then Ione's stair) is quiet by design, and ends in the crown at 9:04.
+- No logo, card, title or narrator before the hook: **yes**; first narrator at 5:20, title at 6:11.5.
+- Each minute ends on an open question: **yes** (1:10 who took the child; 2:00 can she find six; 3:00 what answered; 4:00 will she sell it; 5:20 why may they not sing; 6:20.5 what did the Queen do).
+- Remaining soft spot inside six minutes: **5:20–6:11.5**. Fifty-one and a half seconds of narrator directly after the kitchen is still the lowest-energy stretch of the opening. It is as short as its five binding sentences allow, and it now opens on the stone. If the retention curve after release shows a step here, the remedy is in the edit (panel pace), not in the text.
+- Remaining soft spot outside six minutes: **7:20–9:04** (the map, then Ione's stair) is quiet by design, and ends in the crown at 9:04.
 
 ## Change log
 
@@ -1041,3 +1041,4 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 |---|---|---|
 | 1.0 | 2026-11-22 | Full script on beat sheet v2; the analyst's O-1…O-11 applied. |
 | 1.0.1 | 2026-11-22 | Sc 8: the old Cantor wears **a black throat-band** (was "a yellowed throat-band"). Canon HS-090: a Cantor without a voice wears black. He is a background figure with his own silhouette and is nobody the viewer meets later under a name. Nothing else in the scene changes; timings unchanged. Source: keeper's report r5; `decisions_resolved.md` Part 5. |
+| 1.0.2 | 2026-11-23 | After the director's storyboard acceptance (`direction/S01E01_storyboard_acceptance.md` §5). (1) Timecodes: Sc 5 5:20–6:20.5 (tapestry 51.5 s at a readable pace for the unchanged Chronicler text; title 9 s at 6:11.5–6:20.5), Sc 6 6:20.5–7:20, Sc 7 7:20–7:57.5, Sc 8 7:57.5–9:04. Everything from 9:04 and the total of 26:39 are unchanged. (2) Sc 18: the hands wear black quilted cuffs, no tabard, no house colour (was "a soldier's cuffs in rust-red"); the file of guards behind keeps its rust-red. (3) Sc 9: the tower burns white from the crown down to its lowest turns; the foot stays dark stone (was "from crown to foot"). No line of dialogue changes. |

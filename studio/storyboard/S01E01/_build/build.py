@@ -182,7 +182,7 @@ def main():
 def write_scene(name, sc, shots, ids):
     L = []
     L.append(f"# S01E01 · {sc['title']}\n")
-    L.append(f"Версия 1.0 · 2026-11-22 · раскадровщик · статус: **план, на утверждение режиссёру** · основа: `script.md` v1.0.1\n")
+    L.append(f"Версия 1.0 · 2026-11-22 · раскадровщик · статус: **принято режиссёром с правками r4, 2026-11-22** · основа: `script.md` v1.0.1\n")
     L.append('```')
     L.append(f"Эпизод: S01E01 · Сцена: {name} · Локация: {sc['loc']} · Время суток: {sc['time']}")
     L.append(f"Персонажи: {sc['chars']}")
@@ -229,7 +229,7 @@ def write_scene(name, sc, shots, ids):
 def write_index(scenes, seq, found, errors, warns, ids):
     L = []
     L.append('# S01E01 «The Ninth Sluice» — раскадровка, сводка\n')
-    L.append('Версия 1.0 · 2026-11-22 · раскадровщик · статус: **план, на утверждение режиссёру** · основа: `story/episodes/S01E01/script.md` v1.0.1\n')
+    L.append('Версия 1.0 · 2026-11-22 · раскадровщик · статус: **принято режиссёром с правками r4, 2026-11-22** · основа: `story/episodes/S01E01/script.md` v1.0.1\n')
     L.append('Файлы сцен: `sc01.md` … `sc20.md` (порядок монтажа ниже). Генератор: `_build/build.py` (данные кадров — `_build/sc*.py`; пересборка `python3 -I _build/build.py`, без сети). Генерация не запускалась, $0 потрачено.\n')
     total = sum(s.dur for s in seq)
     L.append('## 1. Хронометраж\n')
