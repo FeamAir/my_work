@@ -20,11 +20,12 @@ What changes against v1.1 (op_saga_build_c.py, kept as is for v1.1):
      zoom and the keeper's top anchor (R8.3 #2) are unchanged after frame 5.
   3. C13 letter jitter (gate И10): the logo layer had its own integer scale (1 + 1.5 % over the cut) -> its width stepped
      2 px every ~11 frames, the word jumped 1 px. Removed: after the landing the logo keeps one size; the slow push is
-     only the sub-pixel whole-frame push (subpix_push, 3 %). The glint stays 2000-2040 (LOGO.md §4 updated, И11).
+     only the sub-pixel whole-frame push (subpix_push), now 4.5 % (3 % + the logo's former 1.5 %). The glint stays
+     2000-2040 (LOGO.md §4 updated, И11).
   4. Unified finish over every shot (analyst top 2): per-shot sharpness match toward the median (soft crops get a mild
-     unsharp, the crisp 3D renders a light blur), one static paper texture (soft light, luma only) and one moving grain
-     (soft light, luma only, 2-px grain). Both are neutral at 50 % grey, so the per-land colour keys stay, and soft light
-     does almost nothing to near-black: the Spires stay dark, no glow. B16 (planned black) gets no finish.
+     unsharp, the crisp 3D renders a light blur), one static paper texture and one moving 2-px grain, both luma only,
+     added midtone-weighted (x 4A(1-A)): neutral on average, zero at black and white, so the per-land colour keys and
+     the brightness stay and near-black does not move: the Spires stay dark, no glow. B16 (planned black) gets no finish.
   5. The AI label: "AI-ANIMATED", bold, 30 px, white 92 % on a 40 % black box, bottom right above the player bar.
   6. Audio: op_saga_audio_v12.py (hit at 0:00 from the v1a stems, intro +5 dB, -14 LUFS, TP <= -1).
   7. Deliverables (gate И8): master H.264 with the label; ProRes 422 HQ master (same picture, the label in); textless
@@ -62,6 +63,10 @@ CUTS, START, NFR = sa.CUTS, an.START, an.NFR
 L_ = an.loc
 CHANGED = ["A01a", "A01b", "A02", "A03", "A04a", "A04b", "B06b", "B07a", "C13"]
 BLACK = (1360, 1368)
+# И10: the logo no longer grows on its own (+1.5 % through an integer scale); the whole-frame sub-pixel push takes that
+# share: 3 % + 1.5 % = 4.5 %, so the letters keep v1.1's growth without the step (and default mpdecimate keeps every
+# frame of the hold even before the grain).
+bc.C13_PUSH = 1.045
 
 
 def setup():
@@ -316,8 +321,12 @@ def finish_graph(plan):
     paper = f"[1:v]format=gray,format=yuv420p,setsar=1[p]"
     grain = (f"color=c=0x808080:s=960x540:r={FPS},format=yuv420p,noise=c0s=42:c0f=t:c0_seed=777,"
              f"scale={W}:{H}:flags=bicubic,setsar=1[gr]")
-    b1 = f"[s][p]blend=c0_mode=softlight:c0_opacity=0.16:c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}'[sp]"
-    b2 = f"[sp][gr]blend=c0_mode=softlight:c0_opacity=0.22:c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}',format=yuv422p10le[fin]"
+    # midtone-weighted add, exactly neutral on average (B averages 128) and zero at black and white: the per-land keys
+    # and the mean brightness stay; near-black (the Spires) moves by < 1 level. (ffmpeg's softlight is NOT neutral at
+    # B = 128: it darkened the hook by ~9 levels in the first try.)
+    mt = "4*(A/255)*(1-A/255)"
+    b1 = f"[s][p]blend=c0_expr='A+(B-128)*0.16*{mt}':c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}'[sp]"
+    b2 = f"[sp][gr]blend=c0_expr='A+(B-128)*0.22*{mt}':c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}',format=yuv422p10le[fin]"
     return ";".join([base, paper, grain, b1, b2])
 
 
@@ -410,9 +419,30 @@ def jitter(path, f0=1990, f1=2087):
             "max_abs_dx": round(float(np.abs(dx).max()), 3), "jumps_over_0.5px": big}
 
 
+def probe(path):
+    """§12 p. 7 at frame 2028 (v1.2 geometry: no own logo scale, whole-frame push C13_PUSH about the centre)."""
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-vf", "select='eq(n\\,2028)'", "-vsync", "0", "-f",
+                          "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
+    f = np.frombuffer(raw, np.uint8).reshape(H, W, 3).astype(np.float32).mean(-1)
+    lp, tide, lh = bc.logo_c()
+    al = np.asarray(Image.open(lp))[..., 3].astype(np.float32) / 255
+    P = 1 + (bc.C13_PUSH - 1) * (2028 - 1980) / 107
+    al = cv2.resize(al, (int(1300 * P), int(lh * P)))
+    y0, x0 = int(540 + (660 - 540) * P - al.shape[0] / 2), int((W - al.shape[1]) / 2)
+    m = np.zeros((H, W), np.float32)
+    m[y0:y0 + al.shape[0], x0:x0 + al.shape[1]] = al
+    below = m.copy()
+    below[:y0 + int(tide * P)] = 0
+    letters = f[below > 0.9].mean()
+    ring = cv2.dilate((below > 0.1).astype(np.uint8), np.ones((25, 25), np.uint8)) & (m < 0.05)
+    plate = f[ring > 0].mean()
+    return {"frame": 2028, "letters_below_line": round(float(letters), 1), "plate": round(float(plate), 1),
+            "contrast": round(float(letters - plate), 1), "pass": bool(letters - plate >= 60)}
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["build", "finish", "master", "check", "jitter"])
+    ap.add_argument("cmd", choices=["build", "finish", "master", "check", "jitter", "probe"])
     ap.add_argument("file", nargs="?")
     ap.add_argument("--only", default="")
     ap.add_argument("--audio", default=None, help="one audio input path (default: the v1a v1.2 mix)")
@@ -436,6 +466,8 @@ def main():
     elif a.cmd == "check":
         sa.check(a.file)
         print(json.dumps(dict(zip(("integrated_LUFS", "true_peak_dBFS"), bc.loudness(a.file)))))
+    elif a.cmd == "probe":
+        print(json.dumps(probe(a.file)))
     elif a.cmd == "jitter":
         print(json.dumps(jitter(a.file)))
 
