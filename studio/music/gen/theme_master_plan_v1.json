@@ -25,7 +25,11 @@
         "low drone",
         "pedal tone",
         "synth pad",
-        "drums"
+        "drums",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third"
       ],
       "context_adherence": "high"
     },
@@ -50,7 +54,13 @@
         "drum kit",
         "electronic beat",
         "5/4",
-        "quintuplets"
+        "quintuplets",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -75,7 +85,12 @@
         "sub bass",
         "low drone",
         "electric guitar",
-        "EDM"
+        "EDM",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -97,7 +112,13 @@
         "sub bass",
         "808",
         "riser synth",
-        "EDM build"
+        "EDM build",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -121,7 +142,12 @@
         "sub bass",
         "808",
         "electric guitar",
-        "low drone"
+        "low drone",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -141,7 +167,13 @@
         "vocals",
         "choir",
         "sub bass",
-        "fade out too early"
+        "fade out too early",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -163,7 +195,13 @@
         "drums",
         "sub bass",
         "new melody",
-        "abrupt cut"
+        "abrupt cut",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     }

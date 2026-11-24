@@ -20,7 +20,13 @@
         "humming",
         "operatic",
         "auto-tune",
-        "reverb wash"
+        "reverb wash",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -44,7 +50,13 @@
         "808",
         "synth pad",
         "EDM drop",
-        "5/4"
+        "5/4",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high",
       "conditioning_ref": {
@@ -74,7 +86,13 @@
         "rap",
         "humming",
         "sub bass",
-        "distorted guitar"
+        "distorted guitar",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -94,7 +112,13 @@
         "riser synth",
         "EDM build",
         "key change",
-        "sub bass"
+        "sub bass",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "major key"
       ],
       "context_adherence": "high"
     },
@@ -118,7 +142,12 @@
         "key change",
         "sub bass",
         "808",
-        "major ending"
+        "major ending",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high",
       "conditioning_ref": {
@@ -131,7 +160,7 @@
       }
     },
     {
-      "text": "[Bridge]\nThey can buy the calm and the quiet,\nand the water keeps its counsel —\n{band drops out, only stamps and claps}\n(Who's gonna pay?)",
+      "text": "[Bridge]\nThey can buy the calm and the quiet,\nthey can buy the dry and the high ground —\n{band drops out, only stamps and claps}\n(Who's gonna pay?)",
       "duration_ms": 9000,
       "positive_styles": [
         "sudden drop to near silence",
@@ -146,7 +175,13 @@
         "drone",
         "sub bass",
         "humming",
-        "guitar"
+        "guitar",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     },
@@ -166,7 +201,12 @@
         "choir",
         "fade out",
         "sub bass",
-        "major chord"
+        "major chord",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high",
       "conditioning_ref": {
@@ -192,7 +232,13 @@
         "new melody",
         "major chord",
         "abrupt cut",
-        "sub bass"
+        "sub bass",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
       ],
       "context_adherence": "high"
     }

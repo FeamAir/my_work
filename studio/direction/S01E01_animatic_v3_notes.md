@@ -53,12 +53,12 @@ All rows of §9.1 and §9.2 applied exactly; `cut_v3.py` asserts every v2 durati
 The writer's rule "final = max(1.75, speech + 0.55)" gives **1.75 s** (the take is shorter than the old one), so sc03-sh110 keeps its v2 length and the cut is 19:51.00, not 19:51.50. *Not checked by STT (that is another paid call) — the sound director should listen.*
 
 ### 3.3 Sc 15a split (§9.3)
-The condition was checked first: `sc15a-sh050_a.png` shows a braided cord around her collar running down the chest (her net-bag cord, but it reads as a cord at the collar). By the writer's rule **sh050 stays in 15a-2 (before sh060)** and **Sc 15a-1 = sh020, sh030, sh040 (10.75 s)** after sc10-sh360 / L068. sh020 shows only the net bag on her front, no cord at the collar. 15a-2 = sh010 (L080 echo) · sh050 · sh060 · sh070 (L081) · sh080 (L082) · sh090 · sh100 (3.5). Pell off screen (v3): 9:11.3 → 11:21.0, 11:31.8 → 13:50.8, 14:11.8 → 17:20.8 (longest 3:09).
+The condition was checked first: `sc15a-sh050_a.png` shows a braided cord around her collar running down the chest (her net-bag cord, but it reads as a cord at the collar). By the writer's rule **sh050 stays in 15a-2 (before sh060)** and **Sc 15a-1 = sh020, sh030, sh040 (10.75 s)** after sc10-sh360 / L068. sh020 shows only the net bag on her front, no cord at the collar. 15a-2 = sh010 (L080 echo) · sh050 · sh060 · sh070 (L081) · sh080 (L082) · sh090 · sh100 (3.5). Pell off screen (v3, from shots with her ref): 9:11.3 → 11:21.0 (2:10), 11:28.5 → 13:54.5 (2:26; 2:19 in §9.3 before the sh050 condition), 14:08.3 → Sc 19 at 17:20.8 (3:12). v2: 5:00 and 3:58.
 
 ### 3.4 Sc 10 (§9.5, §9.6)
 - sc10-sh100 restored after sh080: 5.25 s, frame `sc10-sh090_a.png` (Ruel, door-warden's back), L058 `[MS]` warm. Sound director: L058 back in the manifest as "restored in v3".
 - Ring insert sh290 1.5 s, blood bead sh330 1.75 s, Ione sees sh350 2.5 s, no sting; sh340 unchanged.
-- Quarrel frames: sh190 = Lucan MCU (`sc10-sh230_a`), sh200 = Ruel (`sc10-sh190_a`), sh230 = Ruel (`sc10-sh190_a`), sh240 = Lucan (`sc10-sh230_a`). Sequence H, R, insert, H-OTS, R, H, two-shot; L060 and L064 marked `[MS]` in the shot data. Ring-insert → cup distance now 10:58 → 12:3x with Sc 15a-1 and Sc 14 between.
+- Quarrel frames: sh190 = Lucan MCU (`sc10-sh230_a`), sh200 = Ruel (`sc10-sh190_a`), sh230 = Ruel (`sc10-sh190_a`), sh240 = Lucan (`sc10-sh230_a`). Sequence H, R, insert, H-OTS, R, H, two-shot; L060 and L064 marked `[MS]` in the shot data. Ring insert (10:58.25) → the Helm drinks (sc11-sh080, 12:31.75) = 93.5 s, with Sc 15a-1 and Sc 14 between.
 
 ### 3.5 Steward frame in Sc 11 (§9.5)
 sc11-sh060 (1.75 s) re-uses `sc10-sh040_a.png`: the man by the door, back to camera, waiting with the hall. No action, no line. (Keeper: presence only, no new fact.)

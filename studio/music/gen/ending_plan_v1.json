@@ -1,0 +1,136 @@
+{
+  "chunks": [
+    {
+      "text": "[Page - the call]\n{instrumental, solo cello alone, very soft, under a page of text}",
+      "duration_ms": 24000,
+      "positive_styles": [
+        "instrumental",
+        "intimate chamber elegy",
+        "F-sharp minor",
+        "80 BPM",
+        "4/4",
+        "solo cello in its high register, expressive and vocal-like, unhurried",
+        "a short note then a long upward leap of a minor sixth, settling down by steps",
+        "soft harp touches on the downbeats only",
+        "very quiet, close, dry small hall",
+        "grief held back, a page being read in silence"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "humming",
+        "singing",
+        "drums",
+        "percussion",
+        "body percussion",
+        "hand claps",
+        "brass",
+        "sub bass",
+        "synth pad",
+        "electric guitar",
+        "octave leap climax",
+        "epic",
+        "new melody",
+        "fade in",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 0,
+          "end_ms": 12000
+        },
+        "condition_strength": "high"
+      }
+    },
+    {
+      "text": "[Answer - phrase B]\n{instrumental, the cello sings the answering phrase}",
+      "duration_ms": 24000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor",
+        "80 BPM",
+        "the solo cello sings the answering phrase, rising to a high F-sharp and settling on a long C-sharp",
+        "harp in slow broken chords F-sharp minor, D major, E major",
+        "a thin bed of muted violins and violas, very soft, middle register",
+        "tender, restrained hope"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "humming",
+        "singing",
+        "drums",
+        "percussion",
+        "body percussion",
+        "hand claps",
+        "brass",
+        "sub bass",
+        "synth pad",
+        "electric guitar",
+        "octave leap climax",
+        "epic",
+        "new melody",
+        "crescendo to climax",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 24000,
+          "end_ms": 48000
+        },
+        "condition_strength": "medium"
+      }
+    },
+    {
+      "text": "[Close - the water]\n{instrumental, the cello alone again}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor",
+        "solo cello repeats the opening leap alone",
+        "ends on an open fifth F-sharp and C-sharp, no third",
+        "clean natural decay to silence",
+        "lonely, unresolved"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "humming",
+        "singing",
+        "drums",
+        "percussion",
+        "body percussion",
+        "hand claps",
+        "brass",
+        "sub bass",
+        "synth pad",
+        "electric guitar",
+        "octave leap climax",
+        "epic",
+        "new melody",
+        "abrupt cut",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone"
+      ],
+      "context_adherence": "high"
+    }
+  ]
+}

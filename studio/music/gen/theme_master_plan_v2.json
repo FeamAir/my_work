@@ -1,0 +1,223 @@
+{
+  "chunks": [
+    {
+      "text": "[Intro - the call]\n{instrumental, solo cello alone}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "cinematic anime main title",
+        "F-sharp minor (tonic F-sharp, key signature three sharps)",
+        "80 BPM",
+        "4/4",
+        "solo cello in its high register, expressive and vocal-like",
+        "a short note then a long upward leap of a minor sixth, settling down by steps",
+        "soft open-fifth string bed in the middle register",
+        "dark water, restrained hope",
+        "no percussion yet"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "humming",
+        "singing",
+        "lyrics",
+        "sub bass",
+        "low drone",
+        "pedal tone",
+        "synth pad",
+        "drums",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Groove - the Lows]\n{instrumental, body percussion enters}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor (tonic F-sharp, key signature three sharps)",
+        "80 BPM",
+        "body percussion: foot stamps on wooden planks, hand claps, barrel drum, upturned boat hull hits",
+        "harp and string pizzicato ostinato in eighth notes grouped 3+3+2",
+        "one sharp two-finger whistle accent at the end of the phrase",
+        "stubborn, alive, street energy, not sad"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "melody",
+        "sub bass",
+        "808",
+        "drum kit",
+        "electronic beat",
+        "5/4",
+        "quintuplets",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Theme]\n{instrumental, the full melody}",
+      "duration_ms": 24000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor (tonic F-sharp, key signature three sharps)",
+        "80 BPM",
+        "violins and violas in unison carry a broad singing melody in the middle register",
+        "each phrase starts with a short note and leaps upward to a long note, the leap wider each time",
+        "cellos in tenor register play a countermelody",
+        "trombones hold soft supporting chords",
+        "body percussion and harp ostinato continue",
+        "memorable, hummable, building"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "humming",
+        "sub bass",
+        "low drone",
+        "electric guitar",
+        "EDM",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "pedal tone",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Rise - the Steps]\n{instrumental, brass answers, build}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "80 BPM",
+        "French horns and trumpets answer with proud descending calls",
+        "harmony climbs D major, E major, C-sharp suspended, C-sharp major",
+        "snare drum rolls",
+        "rising tension",
+        "grand but grounded"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "sub bass",
+        "808",
+        "riser synth",
+        "EDM build",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Hook]\n{instrumental, climax, the octave leap on the first beat}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor (tonic F-sharp, key signature three sharps)",
+        "80 BPM",
+        "climax: the main melody returns with a leap of a full octave on the downbeat",
+        "strings and French horns in unison, middle register",
+        "full hand claps and foot stamps",
+        "big frame drums and barrel drums",
+        "epic, triumphant and desperate at once",
+        "catchy"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "sub bass",
+        "808",
+        "electric guitar",
+        "low drone",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "pedal tone",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Answer - cadence]\n{instrumental, resolution}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor (tonic F-sharp, key signature three sharps)",
+        "80 BPM",
+        "the answering phrase rises to F-sharp and falls home",
+        "strong final cadence in F-sharp minor",
+        "one big orchestral hit with drums",
+        "short ringing tail"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "sub bass",
+        "fade out too early",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Outro - the water]\n{instrumental, sudden quiet, solo cello}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "F-sharp minor (tonic F-sharp, key signature three sharps)",
+        "sudden drop to near silence",
+        "solo cello repeats the opening leap alone",
+        "ends on an open fifth F-sharp and C-sharp",
+        "clean natural decay to silence",
+        "lonely, unresolved"
+      ],
+      "negative_styles": [
+        "vocals",
+        "choir",
+        "drums",
+        "sub bass",
+        "new melody",
+        "abrupt cut",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "F minor",
+        "B-flat"
+      ],
+      "context_adherence": "high"
+    }
+  ]
+}
