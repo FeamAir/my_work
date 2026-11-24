@@ -310,3 +310,142 @@
 2. **Главному сценаристу (к сведению).** Высоты, места пяти Шпилей и север/юг Галлмута и Бледного Утёса теперь в каноне. Если планы S2–S3 (Бледный Утёс, Лестница) потребуют иначе, правка идёт через хранителя до первого показа в серии. Опенинг уже будет на экране.
 3. **Художнику.** Мастер карты `E05_map_base_v1.png` расходится с компасом v0.10: башня в море, Шпили рассыпаны без мест. Для карты десятины и других карт нужен новый мастер по §2 world.md. Это не задача опенинга.
 4. **Директору студии.** Стоимость правки не меняет: W09 даёт B11 и кадр «вдоха» за $0, KW10 остаётся одним клипом. Потолок по-прежнему $7.90.
+
+---
+
+## R2. Сверка v2.1 (2026-11-24): раскадровка, апгрейд «всё в движении», логотип C13, аниматик v2
+
+Материал: `direction/opening/SAGA_OP_storyboard.md` v2.1, `reports/anime-director-2026-11-24-r11.md`, `direction/opening/LOGO.md`, `direction/refs/LOGO/*` (просмотрены глазами), `output/opening/SAGA_OP_animatic_v2.mp4` (кадры 470, 1380, 1625, 1790, 1900, 1985, 2000, 2030, 2045 и замер яркости), `output/opening/contact_saga_v2/SAGA_OP_v2_cuts.png`. Сверено с каноном v0.10. Тайны названы только кодами. Платных вызовов не было.
+
+### R2.0 Вердикт
+
+**Подписано с правками.** Правки R2.1–R2.6 обязательны и вносятся дословно. После них v2.1 подписана. Повторная сверка не нужна. Остаётся только проверка W01–W16 в полном размере до Kling.
+
+- **67 правок §3 внесены дословно.** Проверено скриптом: все новые строки §3 есть в файле. Единственное отличие — B11: колонка класса, она изменена правилом OP-20 (см. K2).
+- Блокеров три:
+  - **KW16** (R2.3): в нынешнем виде Kling дорисует карту сам;
+  - **C12** (R2.2): мол показан в сумерках, это нарушает моё условие Q9;
+  - **логотип C13** (R2.5): нижняя половина букв темнеет почти до чёрного рядом с Коронным Шпилем.
+- Остальное — уточнения формулировок.
+
+### R2.1 Добавки режиссёра (п. 1) и K1–K4
+
+| # | Решение |
+|---|---|
+| «no tower» W04/W06/W08/W12, KW02/04/06/12 | **Принято.** Это нужно для «вдоха» (OP-19). Две правки ниже: в W06 подпись противоречит самой себе; в KW02 пункт повторён дважды. |
+| Места Шпилей KW01/03/05 | **Принято без правок.** Совпадает с `world.md` §2 (Sites), включая «foot on rock» у Стража. |
+| B07 → hoods or head-cloths | **Принято с уточнением (K3).** HS-091: кожаные маски-повязки — это признак воинов. Головной платок, натянутый на лицо, читается так же. Поэтому ткань закрывает только голову. |
+| **K1** C11 → C12 → C13 | **Подтверждаю, это не нарушение OP-19.** Предмет карты и панорамы — вся страна, а не Шпиль одной земли. C12b и C13 — обе Хайуотер, одна земля. Условия:<br>• C12b остаётся врезкой на Хайуотер;<br>• между C11, C12 и C13 никакой свет не переходит: POP и INK действуют на весь кадр, а не на знак или Шпиль. |
+| **K2** | **Принято всё:**<br>• B11 — кусок KW09; условие: башни нет ни в одном кадре отрезка 3.0–4.5 с, с учётом наезда;<br>• FLASH — куски движения; мой текст остаётся, курсивная пометка тоже;<br>• Totals — моя строка заменена правилом инвестора;<br>• разбиение a/b — во всех `a` мой текст дословно, проверено.<br>Одна правка в новом `b`: B07b, «two or three kites» — это счётное число (OP-18). |
+| **K3** | Принято с правкой R2.4 (W07, B07a). |
+| **K4** | Принято с правками R2.4 (W06, W10, KW02) и R2.3 (KA02, KW09, KW16). |
+
+### R2.2 Сумерки над молом (C12) и свет Хайуотера
+
+**C12 — блокер.** C12a и C12b — это вид C01 «at last light». В этом виде есть мол Галлмута, а мол по Q9 не показывается в сумерках. Решение — низкое золотое солнце вместо сумерек.
+
+- **§2, строка S7:** `the realm at last light` → `the realm in low gold sun (the sun still above the sea)`.
+- **C12a**, содержание: `cut to the C01 view at last light (same composition as the map's full view); slow push toward Highwater` → `cut to the C01 view in low gold sun, the sun still above the sea (never dusk: the Gullmouth mole is in this view, keeper Q9); slow push toward Highwater`.
+- **C12a**, класс: `graded last light` → `graded low gold sun`.
+- **C12a**, VFX: `GRADE warm-to-dusk` → `GRADE warmer gold, never dusk`.
+- **C12b**, содержание: `Cut-in 1.3× on Highwater at last light` → `Cut-in 1.3× on Highwater in low gold sun`.
+- **§4.2, Convergence:** `golden late afternoon → last light` → `golden late afternoon → low gold sun (never dusk, Q9)`.
+
+**Свет Хайуотера (OP-9).** В F17 (A11, а через KA11 и C07) солнце низко над морем, то есть на западе. Тени от знамён ложатся от моря. Для ключа «dawn → morning» это невозможно. Правка $0 — день идёт от рассвета к вечеру:
+
+- **§4.2, Highwater**, колонка времени: `dawn → morning` → `dawn → late afternoon (one working day: dawn on the Lows A01–A05; afternoon light from the west in the hall A09 and on the Steps A11, the sun low over the sea)`.
+- **KA11, MUST NOT CHANGE**, дописать в конец: `; the light stays low and warm from the sea side`.
+
+### R2.3 Семь новых клипов и переходы (п. 3)
+
+**KA06, KA09, KW13** — **приняты.** KA11 принят с дописанной строкой из R2.2. Ограничения, которые режиссёр перенёс из моего отчёта, верны.
+
+**KW16 — блокер.** В KW16 написано «starting close on the hill city». Но Kling начинает с W16, а W16 — это весь лист. Отъезд от всего листа заставит модель дорисовать за краем то, чего в W16 нет. Если же подать крупный план, модель дорисует остальную карту. Это прямой риск для OP-10, OP-13 и OP-15: надписи, башня в море, неверный компас. Решение: снять наезд и пустить его задом наперёд. Тогда каждый кадр — увеличение W16.
+
+- **KW16**, Camera + motion: `Slow steady camera push-in straight down onto a painted map lying flat on a dark wooden table, starting on the whole sheet and ending close on the hill city in the centre. Soft raking light shifts slowly across the paper.`
+- **KW16**, MUST NOT CHANGE, дописать в начало: `the close-up only enlarges the source: no mark, line, colour or tower appears that is not in W16; `.
+- **KW16**, Cuts: `C11a–C11d` → `C11a–C11d (played reversed, \`reverse\`: the edit is a pull-back and ends on W16 itself)`.
+- **§6.3, KW16:** `0.0–1.2, 1.3–2.5, 2.6–3.8, 3.8–5.0, each @0.8× → C11a–C11d` → `reversed; 3.8–5.0 → C11a, 2.6–3.8 → C11b, 1.3–2.5 → C11c, 0.0–1.2 → C11d, each @0.8×`.
+- **C11a–C11d**, класс: `KW16 piece 0.0–1.2 s at 0.8×` → `KW16 piece 3.8–5.0 s reversed at 0.8×`; `KW16 piece 1.3–2.5 s at 0.8×` → `KW16 piece 2.6–3.8 s reversed at 0.8×`; `KW16 piece 2.6–3.8 s at 0.8×` → `KW16 piece 1.3–2.5 s reversed at 0.8×`; `KW16 piece 3.8–5.0 s at 0.8×` → `KW16 piece 0.0–1.2 s reversed at 0.8×`.
+
+**KA02.** Та же беда, только мягче. Наклон вниз уводит камеру ниже кадра пластины. Ниже дамбы модель дорисует Низы, а это риск OP-15: вода у дамбы. Решение: в клипе только наезд, а наклон делается кропом поверх движения (OP-20 это разрешает).
+
+- **KA02**, Camera + motion: `Very slow push-in on the whole view, from the crown of the tall black tower down to the misty stilt-town below the dike, all in frame from the first frame. Mist drifts slowly between the houses; thin clouds move in the dawn sky; washing on the lines stirs.`
+- **A02**, класс: `**KA02** piece 0.5–2.0 s (was LA)` → `**KA02** piece 0.5–2.0 s, the tilt made by a 1.3× crop window travelling top to bottom over the moving clip (was LA)`.
+
+**KW09** (OP-17: в каждом промпте, где назван sea-green): `the sea-green and bone pennants on the salt sheds flutter` → `the yellowish sea-green and bone pennants on the salt sheds flutter`.
+
+**Переходы §4.3.** Компас не позволяет сопоставить карту и панораму по композиции. Карта ориентирована на север: Галлмут вверху слева, Бледный Утёс внизу слева. Панорама смотрит на восток: Галлмут слева, Бледный Утёс справа. Вид повёрнут на 90°. Остальные переходы приняты.
+
+- **§4.3**, строка `C11d → C12a`: `**match on composition**: the map's full view → the land at last light (same layout)` → `cut on the beat: the camera's pull-back ends on the whole sheet → the land in low gold sun, the camera pushing in (a match on movement, not on layout: the map is north-up, the panorama looks east)`.
+- **§7, п. 4**, весь текст: `4. **Map ↔ land.** The map's full view (C11 end) and the panorama (C12) show the same realm from two sides: the map north-up, the panorama from the western sea; the same eight places, never the same layout.`
+- **C11a**, содержание: удаления не требует.
+
+**Совет, не канон.** C07 — это кусок KA11 2.5–4.0 с. К этому времени панорамирование вправо уводит знамя 3 к левому краю. Надёжнее кусок 0.0–1.5 с.
+
+### R2.4 Мелкие правки текста
+
+- **W06:** `sails out of the river mouth past the end of a long stone mole` → `sails out past the end of a long stone mole`. Без этого просьба «river mouth» противоречит «No headland … in frame».
+- **W10**, дописать в конец: ` No tall black tower in frame.` Без этого Штормовой Шпиль может оказаться рядом с огнями.
+- **KW10, MUST NOT CHANGE**, дописать в конец: `; no black tower appears`.
+- **KW02, MUST NOT CHANGE:** `no tower appears; no glow; no tower appears (B15 flash)` → `no glow; no tower appears (B15 flash)`.
+- **W07:** `with hoods or head-cloths` → `with hoods or head-cloths over the head only, nothing over the face`.
+- **B07a:** `kite-flyers as silhouettes in hoods or head-cloths on the roof edges` → `kite-flyers as silhouettes in hoods or head-cloths (head only, faces never covered) on the roof edges`.
+- **B07b:** `Cut-in 1.5× on two or three plain kites tugging on their lines, tails whipping` → `Cut-in 1.5× on plain kites tugging on their lines, tails whipping, more kites cut by the frame edges (never a countable few, OP-18)`.
+
+### R2.5 Логотип C13 (п. 4, вопросы художника)
+
+Мастер просмотрен в 1920 и на кадрах аниматика.
+
+**1. Линия прилива — это не мотив столба PL-0022. Подтверждаю.**
+
+- Мотив PL-0022 (OP-5) — вода, которая поднимается на столбе с отметкой.
+- У логотипа другое:
+  - линия неподвижна;
+  - вода только сходит;
+  - столба нет;
+  - отметка проходит через всё слово.
+
+Условия для всех носителей, включая анимированные постеры и соцсети:
+- линия и мокрая зона никогда не поднимаются;
+- знак не кропится до одной буквы или одного вертикального штриха (L, T, N) в иконку или аватар. Иконка — всё слово или `clean_alpha` целиком;
+- рядом со знаком нет верёвки, сваи, столба, фигуры.
+
+**Расхождение в документе.** По ассету линия стоит на половине высоты букв: y 336 из 676, буквы 30–620. В тексте написано «⅓». Для канона годится любая неподвижная высота. Текст правит художник: `LOGO.md` §2 п. 3, `at about ⅓ of the cap height from the baseline` → `at about half the cap height from the baseline`. Та же поправка нужна в «Кратко» (`на ⅓ высоты букв` → `на половине высоты букв`).
+
+**2. Гранит и RULE-005. Подтверждаю, гранит снимает риск.**
+
+- Резной гранит — это официальная вера: полый камень нельзя ни вырезать, ни отлить.
+- Правило `LOGO.md` §2 п. 2 «never black glassy letters, never limestone, coral, reef or fossil texture» верное, и его нужно держать жёстко (SEC-014, только код).
+- Солевая корка остаётся мелкими зёрнами на линии и никогда не становится полосой или рифовой фактурой. Мастер этому соответствует.
+
+**Блокер в движении.**
+- В аниматике (кадры 1988–2013) нижняя половина букв темнеет до средней яркости ≈48. У мастера в этой зоне ≈96. Причина — «мокрый» слой затемняет уже мокрую нижнюю зону.
+- Камень с тёмным, почти чёрным низом на фоне чёрного Коронного Шпиля — это картинка, близкая к запечатанной подсказке (SEC-014, первая подсказка S02E04). Её нельзя давать в опенинге ни одного сезона.
+- Капля на кадре 2045 ярче сухих букв: 235 против 209. Белая точка на теле Шпиля читается как свет.
+
+Правки (`LOGO.md` §4 — художнику; `C13` — режиссёру):
+- **LOGO.md §4, строка 1995–2002:** `the whole word arrives **wet** (master darkened: …)` → `the upper part (above the tide line) arrives **wet** (master darkened above the tide line only: …); below the tide line the master stays exactly as painted in every frame`.
+- **LOGO.md §4, строка 2003–2027:** удалить фразу `Below the tide line the extra wetness fades out 2027–2040, leaving the master's own tidemark`; вместо неё: `Below the tide line there is never any extra darkening: no part of a letter is ever darker than the master's wet zone (#5C6B72).`
+- **LOGO.md §4, строка 2040**, дописать: ` The drop is tinted by the sky and the stone, never brighter than the dry letters, no white core.`
+- **C13**, содержание: `lands **wet** 114 % → 100 % over 8 frames; the water drains top-down to the tide line` → `lands 114 % → 100 % over 8 frames with its upper part **wet** (below the tide line the master as painted, never darker); the water drains top-down to the tide line`.
+- **C13**, после `a drop leaves a lower letter on 2040` вставить: ` (sky-tinted, never brighter than the dry letters)`.
+
+Сама капля на мастере проверена: шесть капель, не 5 и не 9. При перерисовке держать это так же.
+
+### R2.6 Аниматик и контакт-листы (п. 5)
+
+- **Файл:** 1920×1080, 24/1, 2088 кадров, 87.000 с — как в отчёте. Склейки, удары и чёрное B16 на листе совпадают с §2.1.
+- **Оплаченные куски A01–A11 и C02–C07:** нового риска не вижу. Свет F17 разобран в R2.2.
+- **Карточки C01, C11 и C12** нарисованы одной схемой с ориентацией на север: восемь знаков, все на местах v0.10, в море ничего нет. Это заглушка, но именно она скрывала расхождение карты и панорамы (R2.3). Подписи на карточках допустимы только в аниматике.
+- **C13:** логотип садится на 1981 над Шпилем, венец и проёмы видны. Найдены тёмный низ и яркая капля (R2.5).
+
+### R2.7 Канон
+
+Правок канона нет: v0.10 без изменений, валидатор не запускался.
+
+### R2.8 Открытые вопросы
+
+1. **Режиссёру.** Внести R2.2–R2.5 (части C13 и §4/§6) дословно. Пересобрать C11, C12 и C13 в аниматике.
+2. **Художнику.** Внести в `LOGO.md` R2.5 и сдвиг на 1981. В `reveal_test.sh` затемнение только выше линии.
+3. **Директору студии.** Правки стоимость не меняют: KW16 и KA02 остаются одним клипом каждый.
