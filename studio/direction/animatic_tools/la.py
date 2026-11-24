@@ -65,11 +65,16 @@ def move(s):
     return ("static", 0.0)
 
 
-def cam_filter(kind, z, dur, tall):
+def cam_filter(kind, z, dur, tall, fit=False):
     n = max(1, int(round(dur * FPS)))
     p = f"(on/{max(1, n - 1)})"
     e = f"(0.5-0.5*cos(PI*{p}))"
     base = "scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,setsar=1"
+    if fit:  # tapestry panels / very wide strips: show the whole image on a dark ground (no crop)
+        base = ("scale=2560:1440:force_original_aspect_ratio=decrease,pad=2560:1440:(ow-iw)/2:(oh-ih)/2:color=0x141210,"
+                "setsar=1")
+        kind = "in" if kind not in ("in", "out") else kind
+        z = min(z or 0.03, 0.03)
     if tall and kind in ("tilt", "static", "in", "out"):
         # tall plate: tilt bottom -> top
         return (f"scale=2560:-2,setsar=1,zoompan=z=1:x=0:y='(ih-ih*{W}/{H}*0+0)*0+(ih-1440)*(1-{e})':d=1:s=2560x1440:fps={FPS},"
@@ -155,9 +160,11 @@ def render(s, force=False):
         from PIL import Image
         im = Image.open(fa)
         tall = im.height > im.width
+        fit = (im.width / im.height > 2.0) or (s["scene"] == "sc05" and abs(im.width / im.height - 16 / 9) > 0.05)
+        tall = tall and not fit
         kind, z = move(s)
         inputs = ["-loop", "1", "-framerate", str(FPS), "-t", str(dur), "-i", fa]
-        fc.append(f"[0]{cam_filter(kind, z, dur, tall)},trim=duration={dur}[va]")
+        fc.append(f"[0]{cam_filter(kind, z, dur, tall, fit)},trim=duration={dur}[va]")
         if s["cls"] in "CD" and os.path.exists(fb):
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", str(dur), "-i", fb]
             fc.append(f"[1]{cam_filter(kind, z, dur, False)},trim=duration={dur}[vb]")

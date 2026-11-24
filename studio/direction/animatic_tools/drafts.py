@@ -19,7 +19,10 @@ MOTION_BASE = ("subtle 2D anime animation, the character design, colors and line
 KEEP = ("Must NOT change: lighting, no new light sources, no glowing marks or glowing objects, costume, faces, "
         "number of people, which side details are on; nobody turns around unless stated.")
 # class D (all unique) + hero C shots where the motion itself is the open question
-EXTRA_C = ["sc03-sh160", "sc03-sh180", "sc09-sh180", "sc12-sh260", "sc16-sh080", "sc20-sh130"]
+EXTRA_C = []  # resume 2026-11-24: brief limits drafts to class D where LA will not do; C shots use start/end poses
+# class D where LA start->end dissolve already reads (static push / transformation dissolve): no draft
+LA_OK = {"sc01-sh050": "hands push the bar: a/b pose dissolve reads", "sc18-sh060": "same set-up as sc01-sh050",
+         "sc09-sh060": "harbour waves -> glass: a/b dissolve is the effect"}
 
 
 def targets():
@@ -28,7 +31,7 @@ def targets():
     for s in ss:
         if s["clipreuse"]:
             continue
-        if s["cls"] == "D" or s["id"] in EXTRA_C:
+        if (s["cls"] == "D" or s["id"] in EXTRA_C) and s["id"] not in LA_OK:
             src = s["reuse"] or s["id"]
             dur = 10 if s["dur"] >= 8 else 6 if s["dur"] > 5 else 5
             out.append((s["id"], f"{A}/frames/{src}_a.png", s["mot"] or s["act"], dur))
