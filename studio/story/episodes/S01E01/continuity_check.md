@@ -90,6 +90,8 @@ Added beyond the outline in v1.1 (each for coherence; none changes a fact): the 
 
 ## 3. The Chronicler — literal-truth test (sealed §6)
 
+*`[v2.1 / §10]` From script v1.1 the Chronicler is not heard in S1E01. The test below now applies to the sentences printed on the Chronicle page (§10.4) and to Nan's recitations in Sc 4 (quotations of the record, §B lines only, exact or shortened without changing a fact).*
+
 | Line | Test |
 |---|---|
 | "The First Voices raised the Spires. They are not heard now." | approved wording (§6 table) |
@@ -406,7 +408,7 @@ Shot ids are v3 ids; new ids sit between their neighbours (sc03-sh152 …). "kf=
 
 | # | Decision | Where it lands |
 |---|---|---|
-| D-1 | **Pilot OP: instrumental, the main theme, 90.0 s**, after the cold open (cut after L216 "I wasn't humming.", 3:34.50 + 0.5 s room tone). The song arrives from E3. No sung voice in the pilot | `op-sh010`, 3:37.25–5:07.25; audio `lib_mus_theme-op-pilot_v1.wav` (composer, `music/pilot_cue_sheet.md` v0.4) |
+| D-1 | **Pilot OP: instrumental, the main theme, 90.0 s**, after the cold open (cut after L216 "I wasn't humming.", 3:34.50 + 0.5 s room tone). No sung voice in the pilot. **Update (investor, 2026-11-24, `status.md`): the same instrumental OP opens every S1 episode; the song is deferred to a later season** | `op-sh010`, 3:37.25–5:07.25; audio `lib_mus_theme-op-pilot_v1.wav` or its drum-rework successor (composer, `music/pilot_cue_sheet.md` v0.5; same 3.0-s bar grid, same 90.0 s) |
 | D-2 | **Pilot ending: a soft cello variant of the theme**, entering at ED 0:00 under the Chronicle page | `ed-sh010`, ED 0:00–0:20 of 60.0 s; audio `lib_mus_theme-ending-pilot_v1.wav` |
 | D-3 | **No Chronicler voice-over.** L029–L034, L044–L047, L104, L105 retired; the record's wording is either recited by Nan (exact or shortened, §B lines only) or printed on the Chronicle page | §10.4, §10.5; `vo_plan.json` `v4_retired`; manifest `v4_status` |
 | D-4 | **Stewards' gossip: a guess or a bet only** (SEC-037). L252 is a bet; L253 knows the Let Go row exists and does not name it | L252, L253 (keeper's exact text) |
@@ -491,7 +493,7 @@ Re-order inside a scene: Sc 3, sc03-sh280 (L016) now follows sh260 and the excha
 | sc03-sh266 | 3:29.25 | 2.5 (new) | A | kf=sc03-sh260 | L214 | Pell |
 | sc03-sh268 | 3:31.75 | 2.75 (new) | A | kf=sc03-sh100 | L215 | Wick |
 | sc03-sh269 | 3:34.50 | 2.75 (new) | A | kf=sc03-sh260 | L216 | Pell; then 0.5 s room tone; HARD CUT TO THE OPENING |
-| op-sh010 | 3:37.25 | 90 (new) | OP | placeholder slate | — | OPENING, 90.0 s block. Audio: lib_mus_theme-op-pilot_v1.wav (main theme, instrumental, TV size). Picture placeholder for the animatic: dark slate, drawtext 'OPENING — main theme (instrumental) — 90.0 s'; HOLLOWSTONE title card inside it at 72.0–78.0 s (plain dark, same type as v3 sc05-sh100). AI badge / studio mark: corner bug from the first frame of the OP on. Visuals for finals: the keeper's signed list (canon excerpt §7). Sound: ≥3 s between the stone's last ring and the first OP note (here ≈26 s); first note on 0.5 s room tone (end of sc03-sh269) |
+| op-sh010 | 3:37.25 | 90 (new) | OP | placeholder slate | — | OPENING, 90.0 s block (the same instrumental OP opens every S1 episode, investor 2026-11-24). Audio: lib_mus_theme-op-pilot_v1.wav (main theme, instrumental, TV size; or its drum-rework successor, same 3.0-s bar grid). Picture: direction/opening/S1_OP_storyboard.md v1.0 (32 cuts, no characters, HOLLOWSTONE logo on the last hit 1:22.5); until it is built, a dark placeholder slate with drawtext 'OPENING — main theme (instrumental) — 90.0 s'. AI badge / studio mark: corner bug from the first frame of the OP on. Outer limit for the picture: the keeper's signed list (script v1.1 'THE OPENING'; canon excerpt §7). Sound: ≥3 s between the stone's last ring and the first OP note (here ≈26 s); first note on 0.5 s room tone (end of sc03-sh269) |
 | sc03-sh270 | 5:07.25 | 3 | A | own | — | FIRST SHOT AFTER THE OP: re-establishing macro; episode title 'The Ninth Sluice' burned in 0.0–3.0 s (drawtext, fade 0.25 s) |
 | sc04-sh181 | 6:29.50 | 4.5 (new) | A | kf=sc04-sh070 | L217 | Wick; the argument begins after the hand insert |
 | sc04-sh182 | 6:34.00 | 3.5 (new) | A | kf=sc04-sh110 | L218 | Nan, needle going |
@@ -740,10 +742,11 @@ Small `[OS]` roles re-use library voices not heard nearby ($0, no design call): 
 
 ### 10.7 The OP: signed visual list (keeper v0.9, 7 corrections applied)
 
-The full list is in `script.md` v1.1, section "THE OPENING". It is binding for the S1 OP until it is re-cut, and the keeper signs the final OP storyboard against it. The 7 corrections: (1) tapestry panels **1, 2, 5** only; (2) must not show panels **3, 4 and 6**; (3) Kes only as her back at the head of the Rusk column, with no gate, no bar and no hands on a bar in the same frame or the cut next to it (SEC-009); (4) **one** person covering their own mouth, never rows or a crowd, no kneeling, no prayer signs (SEC-003); (5) Ione at the crown never cut against, matched in pose with, or dissolved into the tapestry (SEC-025); (6) the foot of the Spire stays dark; (7) the ring/stone rule is **SEC-027** (with S-13), not SEC-014. Animatic: placeholder slate only, no frames generated for the OP.
+The full list is in `script.md` v1.1, section "THE OPENING". It is binding for the S1 OP until it is re-cut, and the keeper signs the final OP storyboard against it. The 7 corrections: (1) tapestry panels **1, 2, 5** only; (2) must not show panels **3, 4 and 6**; (3) Kes only as her back at the head of the Rusk column, with no gate, no bar and no hands on a bar in the same frame or the cut next to it (SEC-009); (4) **one** person covering their own mouth, never rows or a crowd, no kneeling, no prayer signs (SEC-003); (5) Ione at the crown never cut against, matched in pose with, or dissolved into the tapestry (SEC-025); (6) the foot of the Spire stays dark; (7) the ring/stone rule is **SEC-027** (with S-13), not SEC-014. Picture: the director's `direction/opening/S1_OP_storyboard.md` v1.0 (no characters; stricter than this list); until it is built, a placeholder slate in the animatic.
 
 ### 10.8 What each department does
 
+- **Note (`status.md`, investor 2026-11-24):** paid stages other than the S1 opening are paused, so the TTS batch and the 5 frames below wait for the investor's go-ahead. The $0 work (re-use shots, re-timing, the page card, the placeholder OP) can be built now.
 - **Studio director:** permission for 81 TTS calls (≈3 423 credits ≈ $1.03) and 5 draft frames ($0.40); then the build: frames (§10.3), TTS (§10.5), cut by §10.2 / the v4 shot list, the two frame checks above, the OP and ending audio from the composer, the page card (§10.4).
 - **Composer:** `lib_mus_theme-op-pilot_v1.wav` (90.0 s) and `lib_mus_theme-ending-pilot_v1.wav` (60.0 s, cello variant, in at 0:00); M05 part A (Sc 5) and the old 9-s title phrase leave the pilot; Sc 7 keeps M05 part B, the archival drone, lighter, cut to 22.5 s.
 - **Sound director:** confirm the small-role re-use or re-cast; walla levels for L252–L254 and L267; move the page-turn SFX to ED 0:00.5; listen to the 81 takes.

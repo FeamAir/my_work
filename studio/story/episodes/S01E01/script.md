@@ -9,7 +9,7 @@ Spoiler level: **safe for the production team.** This file says what is seen and
 **Picture (v3 decisions, 2026-11-24, kept for reference):** the animatic v2 cut runs **21:29.75**; the v3 edit decisions (`continuity_check.md` §9, by v2 shot id and line id) bring it to **19:51.5**. Per-shot timings of v2 are in `direction/shotlists/S01E01_shotlist.md` (v2). The scene timecodes in this file are the 26:39 story timings and are kept as a reference; where a rule is about *position*, it is stated by scene (see v1.0.3 in the change log).
 
 **Running time:** 26:39 of story · 21 scenes · one day in the world: CY 312, Longdark 6 (Hornday), dawn ebb → dark · pre-title: CY 295, the night of Still 3.
-**Delivered length `[v1.1]`:** cold open → **OP (the main theme, instrumental, 90.0 s, with the title HOLLOWSTONE)** → the episode → **ending (a soft cello variant of the theme, in at 0:00 under the Chronicle page)** → next-episode preview: ≈ 24:03 + preview. No sung voice in the pilot (the song is the OP from E3). ~~No opening sequence in the pilot; the only title is 9 seconds at 6:11.5.~~
+**Delivered length `[v1.1]`:** cold open → **OP (the main theme, instrumental, 90.0 s, with the title HOLLOWSTONE)** → the episode → **ending (a soft cello variant of the theme, in at 0:00 under the Chronicle page)** → next-episode preview: ≈ 24:03 + preview. No sung voice in the pilot. (Investor, 2026-11-24, `status.md`: this instrumental OP opens **every** S1 episode; the song "Louder Than the Tide" is deferred to a later season.) ~~No opening sequence in the pilot; the only title is 9 seconds at 6:11.5.~~
 
 ## How to read this script
 
@@ -258,9 +258,9 @@ SOUND: half a second of room tone. The stone's last ring ended long ago.
 
 # THE OPENING `[v1.1]` (90.0 s; v4 picture 3:37.25–5:07.25)
 
-MUSIC: **the main theme, instrumental, TV size, 90.0 s** (`lib_mus_theme-op-pilot_v1.wav`). No sung voice in the pilot; the song "Louder Than the Tide" is the opening from E3. No sub-bass, no drone: the low register stays the stone's. The first note sits on the room tone, not on the stone.
+MUSIC: **the main theme, instrumental, TV size, 90.0 s** (`lib_mus_theme-op-pilot_v1.wav`). No sung voice in the pilot. (Investor, 2026-11-24: the same instrumental OP opens every S1 episode; the song is deferred to a later season. The drum part is being re-recorded; bar grid and length unchanged.) No sub-bass, no drone: the low register stays the stone's. The first note sits on the room tone, not on the stone.
 The OP carries the series title **HOLLOWSTONE** (plain dark, the type of the v3 card). Any AI badge or studio mark appears from the OP's first frame on, as a small corner bug.
-Animatic: a placeholder slate. Finals: a separate plan (director + composer); the keeper signs the final OP storyboard against the list below.
+Picture: the director's `direction/opening/S1_OP_storyboard.md` (v1.0: 32 cuts on the 3.0-s bar grid, **no characters** by the investor's decision; logo on the last hit). Until it is built the animatic uses a placeholder slate. The keeper signs the final OP storyboard against the list below; the list is the outer limit, the storyboard may be stricter (it is: no characters, no lit grooves, no stone).
 
 **What the OP may show** (signed by the keeper, canon v0.9, with its 7 corrections; it holds for the S1 OP until re-cut):
 - the stilt-town, the dike, the terraces, the nine black Spires, spiral grooves **lit blue-white on the Crown Spire only, its foot dark**; the harbour in chop and in glass;
@@ -664,21 +664,31 @@ SOUND: pens. A page. Felt underfoot. Nothing else.
 
 HOLLIS, at a desk like the others and too tall for it: twenty-six, very thin, stooped. Straw hair with one cowlick at the crown that no comb has ever beaten. Round spectacles, the **left** lens cracked. Ink on two fingers of the right hand. A light ash-grey coat. He is casting a long column, the pen-point ticking down it.
 
-HOLLIS [VO] (light, dry, quick; a young man thinking in figures; nothing of the Chronicler's pace)
+HOLLIS [MS] (murmuring aloud as he casts, lips moving; light, dry, quick; a young man thinking in figures) `[v1.1: was VO]`
 Forty-one lines. No deed-district. No street. No name against any of it.
-(the pen reaches the foot)
+
+CLERK [OS] (pleasant; not looking up) `[v1.1]`
+You're talking to the paper again, Kett.
+
+HOLLIS [MS] (ignoring him; the pen reaches the foot)
 And it adds.
+
+CLERK [OS] `[v1.1]`
+Then blot it and go home.
 
 He looks at the total as if it had said something rude.
 
-HOLLIS [VO] (CONT'D)
-A column that adds on the first cast is either honest or very well made. Again.
+HOLLIS [MS] (to him now) `[v1.1: "Again." trimmed]`
+A column that adds on the first cast is either honest or very well made.
 
 The pen goes back to the top. Down. The same total.
 
 INSERT: the head of the page, in a copperplate hand. No title, no district. Only: **ACCOUNT NINE**. Hold it a full two seconds.
 
-HOLLIS [MS] (aloud; to nobody; under his breath)
+CLERK [OS] (amused) `[v1.1]`
+And which is this one?
+
+HOLLIS [MS] (aloud, to the head of the page)
 Not yet reconciled.
 
 His eye, out of habit, runs on down the page on the next desk.
@@ -691,7 +701,18 @@ A long hall. A dais, a map-table, one tall window on the harbour, which lies lik
 
 SOUND: room tone, cloth, low talk. Almost no music. At most a warm held colour under the entrance.
 
+*`[v1.1]` Hall walla, from the benches (never placed on the black-and-copper, slate-and-sulphur or sea-green blocks; never over the hare's-ear man; not given to Lantry's or Fennick's steward or the Quell figure). A bet, not news: nobody here knows the draft.*
+
+A STEWARD [OS] (low, amused) `[v1.1]`
+Ten marks says the Ninth goes down a tier tonight.
+
 THE HELM is already at the map-table: old, tall, stooped, frail, a square white beard, a plain sickle ring on the **right** hand. The leather map-case lies in front of him. When he shifts his weight, the whole hall shifts with him. He is the man they all turn to.
+
+A SECOND STEWARD [OS] `[v1.1]`
+Down from Last Song? There's only one place down from Last.
+
+A STEWARD [OS] `[v1.1]`
+Pumps and prayers.
 
 Then the doors, and the room turns the other way.
 
@@ -720,6 +741,12 @@ Read it differently.
 THE HELM [MS]
 It is drawn, Ruel. I only read it.
 
+RUEL [MS] (warm; meaning it) `[v1.1]`
+Then let me pay for the pumps. My hold, my coin.
+
+THE HELM [MS] (not unkind; tired) `[v1.1]`
+Keep your coin, Ruel.
+
 RUEL [MS]
 People live down there, old friend.
 
@@ -738,6 +765,8 @@ IONE arrives at the foot of the dais from the stair door, a little out of breath
 
 IONE [MS] (hoarse; formal)
 Helm. The Cantor's word: the water lies flat.
+(hoarse; polite; almost a smile) `[v1.1]`
+Let them rest, my lord. It won't hold past dark.
 
 The Helm nods. As his hand comes away from Ruel's:
 INSERT: **a bead of blood** on the old man's knuckle. He looks at it without interest and puts the knuckle to his mouth, like a man who has caught a splinter.
@@ -757,6 +786,18 @@ The lane plate of Sc 2, gold-edged. Pell sits on the plank-walk with her feet ov
 SOUND: planks; **a knock**, four doors up. The wheel's count, far off.
 
 Four doors up, the slate-and-sulphur tabard. A woman hands a cooking-pot out of a doorway without a word; the collector hangs it on his arm with the others and goes to the next door. Knock.
+
+WICK [OS] (from the door behind her) `[v1.1]`
+He's taking their pot.
+
+PELL [MS] (counting) `[v1.1]`
+Pot's worth two.
+
+WICK [OS] `[v1.1]`
+We've got a pot.
+
+PELL [MS] `[v1.1]`
+We've got *one* pot.
 
 Pell watches him come.
 
@@ -789,7 +830,12 @@ The damp. It's getting into the paper.
 CLERK [OS]
 It gets into everything.
 
-Hollis bends to his column. CLOSE: the pen-point, not quite steady. A bead of ink grows on it and does not fall.
+Hollis bends to his column. CLOSE: the pen-point, not quite steady.
+
+CLERK [OS] (still pleasant) `[v1.1]`
+Even into honest men, Kett.
+
+A bead of ink grows on the pen-point and does not fall.
 
 CUT TO (the water-glass on Hollis's desk → a silver cup carried past the camera):
 
@@ -869,6 +915,20 @@ She said dusk.
 PELL [MS]
 So did he.
 
+The empty plank-walk; no hunched figure.
+
+WICK [OS] (from the door) `[v1.1]`
+You're going to give him the stone.
+
+PELL [MS] `[v1.1]`
+Nan's not here. He will be.
+
+WICK [OS] `[v1.1]`
+It *sang*, Pell.
+
+PELL [MS] (her hand going to the collar) `[v1.1]`
+Then it's worth more than six.
+
 CLOSE on Pell, silent. Her hand goes to her collar. This time she knows it is there. Her fingers close on the cord through the oilskin, and stay closed. (The stone is not in frame.) She has decided.
 
 Up the hill, small against the last sun, the palace.
@@ -927,7 +987,12 @@ Lucan.
 (then, over his shoulder, the quarterdeck voice, filling the hall)
 A physician! His own physician, now!
 
-The hall breaks: benches, voices, colours running together. Faces turn to the big man kneeling with the Helm's head on his arm, and they love him for it.
+The hall breaks: benches, voices, colours running together.
+
+A LORD [OS] (in the uproar, over the hall breaking; walla level, but intelligible; never placed on the sea-green Quell block) `[v1.1]`
+Did he sign it? Did anyone see him sign?
+
+Faces turn to the big man kneeling with the Helm's head on his arm, and they love him for it.
 Behind him the young officer in the short blue jacket (bk) has taken one step forward, and stopped.
 By the door, the man with the hare's-ear pin (bk) is **already through it.** The door swings.
 The taster stands with the empty cup in both hands.
@@ -1067,16 +1132,39 @@ THE LANE, from the door. In every doorway one lantern and one figure, none neare
 WICK [OS] (very small)
 Pell. Who reads the map now?
 
-She has no answer. Nobody in the lane has.
+PELL [MS] (slowly; working it out) `[v1.1]`
+Nobody. Not till the Still Days.
 
-*Over the lane, never over a face:*
+WICK [OS] `[v1.1]`
+That's a month.
 
-CHRONICLER [VO] **FIXED**
-Helm Lucan Dask died on the sixth of Longdark, with the Tithe Map unsigned.
-(the smallest pause) **FIXED** `[ECHO]`
-By law a Helm is chosen on the Still Days. There were thirty days, and a debt carried forward.
+PELL [MS] `[v1.1]`
+Thirty days. And no Helm.
 
-The door swings to. Outside, the tone goes on.
+*(`[v1.1]` The Chronicler's two sentences leave the scene; they are printed on the Chronicle page in the ending.)*
+
+THE LANE TO THE SEA: lanterns at every door on the black water. Out in the dark nothing creaks; the wheels have stopped. The water under the house is suddenly loud.
+
+WICK [OS] (the water is suddenly loud under the house) `[v1.1]`
+Pell. The wheel's stopped.
+
+PELL [OS] (on her feet) `[v1.1]`
+Everybody's listening. Nobody's walking.
+
+**`[v1.1]` ACTION B, THE WATER.** INSERT: at the threshold, black water wells up between the planks and spreads in thin sheets over the boards. (Only at the threshold and in the gaps; it does not come into the house and never rises above the ankle. Nobody says the pumps are broken.)
+
+PELL [OS] `[v1.1]`
+Nets. Get the nets in.
+
+At the rail the two of them haul the wet nets in, Wick with both hands, Pell one-handed, her other hand still a fist. (The fist is closed. The stone is not in frame.)
+
+WICK [MS] (hauling) `[v1.1]`
+He said keep them.
+
+PELL [OS] (hauling, one-handed) `[v1.1]`
+So we're keeping them.
+
+From above: lanterns on black water. The door swings to. Outside, the tone goes on.
 
 ## SC 20 — INT. PL-0019 NAN'S STILT-HOUSE — DARK, CONTINUOUS [25:09–26:39]
 
@@ -1085,12 +1173,27 @@ One lamp. Pell on the chest, the fist in her lap. Wick by the table. On the tabl
 SOUND: the death-tone, thin through the wall. Three tones. The rest. Three tones. The rest.
 MUSIC: the pulse of Sc 17–19 has gone. Nothing.
 
+WICK [MS] (small; by the table) `[v1.1]`
+How long does it go on?
+
+PELL [OS] (on the chest; flat) `[v1.1]`
+Till everyone's heard.
+
 Three tones again, and **under the third, something in the room joins in.**
 SOUND: the stone's tone: lower than anything the Relay has, a note no relay uses, with the thin glassy partial riding on it. It does not stop when the death-tone rests.
 SDH: `[a low hum answers]`
 
+PELL [MS] (very low; head up) `[v1.1]`
+Wick. Do you hear that?
+
+WICK [OS] `[v1.1]`
+It's the relay.
+
 Pell looks for it. The shelf. The floor. The lamp.
 Then down. Her own fist is trembling, and it is not her hand that is doing it.
+
+PELL [OS] (barely; looking down at her own fist) `[v1.1]`
+No. *Under* it.
 
 She opens her fingers.
 
@@ -1121,7 +1224,22 @@ It holds **one second** into the dark, alone.
 
 # AFTER THE EPISODE
 
-**ENDING.** The saga theme, first full statement (the opening of later episodes plays here as the ending). No lullaby in it, no quotation of the five notes.
+**ENDING `[v1.1]`.** After the held second of black: **a soft cello variant of the main theme** (`lib_mus_theme-ending-pilot_v1.wav`, 60.0 s; cello solo, harp, quiet strings; no percussion, no hook), **in at ED 0:00 under the Chronicle page.** No lullaby in it, no quotation of the five notes. No voice.
+
+**THE CHRONICLE PAGE** (ED 0:00–0:20; text on screen, **not read aloud**). A page of a bound book, typeset and ruled, archival; no handwriting. It fades up over 1 s; one dry page-turn SFX; it holds; it fades. This is the master design of the Chronicle for the whole saga (paper, typeface, ruling, the running head *The Chronicle of the Dry Years*); the keeper signs it. The text, letter for letter (**FIXED**; the first sentence is `[ECHO]`):
+
+```text
+THE CHRONICLE OF THE DRY YEARS
+
+The Nine made their Concord on what stayed dry. This is the three hundred and twelfth year of that Concord: three hundred and twelve years, each with its tithe, and each balance carried forward.
+By law the Helm reads the map aloud, and signs it; and the balance of that year was read on the sixth of Longdark.
+Helm Lucan Dask died on the sixth of Longdark, with the Tithe Map unsigned.
+By law a Helm is chosen on the Still Days. There were thirty days, and a debt carried forward.
+
+…and the water kept its counsel.
+```
+
+Credits follow over the rest of the ending.
 
 **NEXT-EPISODE PREVIEW (≈20 s; suggestion for the editor of E2).** The same room, the stone still ringing, the door opening: Nan's face going white. NAN [OS]: *"Where did you find it?"* · A rowboat coming down a flooded lane with a big man in a deep-blue coat standing in it, a crowd roaring (wide; **his hands are not featured**, and the stone is not in any shot beside him). · A figure on a roof at night. No other line. No answer to anything.
 
@@ -1138,7 +1256,7 @@ It holds **one second** into the dark, alone.
 | 2 | The same lane: six coppers by dusk | P | 0:50 | 2:00 |
 | 3 | The back-canal: the find and the answer | P | 2:00 | 4:00 |
 | 4 | Nan's rule | P | 1:20 | 5:20 |
-| 5 | The Breaking tapestry (0:51.5) + TITLE (0:09) | — | 1:00.5 | 6:20.5 |
+| 5 | The Breaking tapestry (0:51.5) + TITLE (0:09) `[v1.1: folded into Sc 4 / the OP]` | — | 1:00.5 | 6:20.5 |
 | 6 | The wheel | P | 0:59.5 | 7:20 |
 | 7 | Bridge: the map | — | 0:37.5 | 7:57.5 |
 | 8 | Ione takes her pitch | I | 1:06.5 | 9:04 |
@@ -1160,12 +1278,15 @@ It holds **one second** into the dark, alone.
 Pell is on screen 1:10–5:20, 6:20.5–7:20, 9:58–10:36, 17:44–18:19 and 23:24–26:39. Her longest absence is 7:08 (10:36 → 17:44).
 **Picture v3 (`continuity_check.md` §9.7):** Sc 15a is split; running order 1–9, 13, 10, **15a-1**, 14, 11, 15, **15a-2**, 12, 16–20; 19:51.5. Pell is off screen at most 3:09 (14:12 → 17:21), and 2:10 / 2:19 in the reading. The story timings in the table above are the v1.0.2 reference and do not show the split.
 Lip-sync close-ups: 5 (Sc 4, 11, 12, 15, 20). If the style test allows four: Sc 12's line goes to `[MS]` over the map, the close-up to the reading hand.
-The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:25 of speech inside 1:44 of screen time, none before the end of Sc 4 (5:20 of story; 5:05.5 in the v2 picture), none over a face.
-Without spoken dialogue: Sc 1 entire; the song and the glass in Sc 9; the fall and four seconds after it; the pens in Sc 16; the last forty seconds of Sc 20 but for one line. About nine minutes in all.
+~~The Chronicler: three entries (Sc 5, Sc 7, Sc 19).~~ `[v1.1]` **No voice-over.** The Chronicle is one printed page in the ending.
+**`[v1.1]` v4 picture (`continuity_check.md` §10.1):** Sc 1 0:00 · Sc 2 1:04.00 · Sc 3 2:08.75 · **OP 3:37.25** · Sc 3 (cont.) 5:07.25 · Sc 4 5:32.75 · Sc 6 8:05.25 · Sc 7 9:34.25 · Sc 8 9:56.75 · Sc 9 10:36.25 · Sc 13 11:51.25 · Sc 10 12:35.50 · Sc 15a-1 14:10.75 · Sc 14 14:23.50 · Sc 11 15:03.50 · Sc 15 15:40.25 · Sc 15a-2 16:42.50 · Sc 12 17:15.00 · Sc 16 19:06.00 · Sc 17 19:36.00 · Sc 18 19:56.50 · Sc 19 20:26.00 · Sc 20 21:57.75 · black 23:02.25 · ending 23:03.25. Story 21:33.25; with the OP 23:03.25; with the ending 24:03.25. Speech ≈8.7 min.
+Without spoken dialogue: Sc 1 entire; the hum, the stone's answer and the rings in Sc 3; the three seconds after Nan's hand; the song and the glass in Sc 9, and Pell's unguarded look; the taster's four breaths; the fall and four seconds after it; the pens in Sc 16; the last ≈30 seconds of Sc 20 but for one line.
 
 ---
 
 # THE FIRST SIX MINUTES — CHECK AGAINST THE ANALYST'S CRITERIA
+
+*`[v1.1]` This check was made on the v1.0 structure (narrator and title at 5:20–6:20.5). In v1.1 the cold open ends at 3:37.25 on "I wasn't humming.", the OP follows, and there is no narrator; the v4 minute-by-minute is in `beat_sheet.md` §2 (v2.3). The 0:00–3:00 rows below still hold; the action beat A puts danger at 2:41.75 and the stone answers at 3:03.25.*
 
 Source of the criteria: `research/pilot_hook_review.md` §1 (thresholds: a stop-element inside 2 seconds; the hook legible with the sound off; a hook inside 15 seconds; at least 60% of viewers still there at 0:30; no logo, title or narrator before the hook; every minute ends on an open question).
 
@@ -1230,3 +1351,4 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 | 1.0.2 | 2026-11-23 | After the director's storyboard acceptance (`direction/S01E01_storyboard_acceptance.md` §5). (1) Timecodes: Sc 5 5:20–6:20.5 (tapestry 51.5 s at a readable pace for the unchanged Chronicler text; title 9 s at 6:11.5–6:20.5), Sc 6 6:20.5–7:20, Sc 7 7:20–7:57.5, Sc 8 7:57.5–9:04. Everything from 9:04 and the total of 26:39 are unchanged. (2) Sc 18: the hands wear black quilted cuffs, no tabard, no house colour (was "a soldier's cuffs in rust-red"); the file of guards behind keeps its rust-red. (3) Sc 9: the tower burns white from the crown down to its lowest turns; the foot stays dark stone (was "from crown to foot"). No line of dialogue changes. |
 | 1.0.3 | 2026-11-24 | Matches the animatic v2 picture cut (21:30; `direction/S01E01_animatic_v2_notes.md`). (1) **Sc 2 restaged (approved):** Wick is not shown hanging upside down; the rope-bridge bows under an unseen weight, grit falls past the collector, Wick's two lines are [OS] from the bridge, Nan's "Get down off that bridge!" pays the joke over a push-in to the doorway; Wick's first sight and description move to the ladder edge ("looks at the drop… and jumps"). (2) **Sc 4 restaged (approved, amended):** after the three-second silence, an insert of Nan's hand only, pressed flat on the table to stop it shaking (the crooked right little finger visible), the net-needle, Wick's dropped crust; no faces; the hand over the mouth is directed as a hush, not a blow. (3) **Three lines cut with the picture, not recorded for finals:** L021 (Nan, "And don't tell me what you found…"), L039 (Corr, "I've forty grown backs…"), L058 (Ruel, "And that girl of yours?…") and the door-warden beat with it; Ruel's voice direction moves to his first remaining line. No canon clue, FIXED or [ECHO] line is lost (`continuity_check.md` §8). (4) Position rules restated by scene: the Chronicler, title, logo and card come **not before the end of Sc 4**. The studio director's 21:30 ruling overrides "never cut anything in 0:00–5:20" (recorded in `beat_sheet.md`). Story timecodes in this file are unchanged. |
 | 1.0.4 | 2026-11-24 | Animatic v3 edit decisions after the analyst's, keeper's and QA reviews of v2 (`continuity_check.md` §9, shot ids and line ids). (1) **Sc 3, L014 reworded:** Pell "Hold the rope, **Wick**." — the boy is named once, on his close-up, at 2:30 (one new TTS take; needs the studio director's permission). (2) **Sc 10:** every line of the quarrel plays on its speaker's face; L060 (the Helm) and L064 (Ruel) become `[MS]`; the "play it on the listener" note is withdrawn. (3) **Sc 10, L058 restored** from the existing v2 audio, with the door-warden (bk): Ruel's warmth before the clasp; his voice direction returns to it. (4) **Sc 11:** the man with the hare's-ear pin is present (bk) through the taster's count; the blush and "the case is opened" go with their shots. (5) **Sc 15a split:** 15a-1 (the coins, the collector taking a pot; no cord) plays after Sc 10; 15a-2 (the tide, "She said dusk.", the cord, the palace) stays before Sc 12. (6) **Sc 16–18 trimmed −45.5 s** with no beat, plant or line lost: Fossett at the cage, the keeper's look and "considers the wall", the hand signal leave the script with their shots. (7) Ring insert, blood insert and Ione's close-up shortened (in the shot list). No FIXED, `[ECHO]` or Chronicler line changes. |
+| 1.1 | 2026-11-24 | **The v4 dialogue pass merged** (`v4_dialogue_pass.md`, approved by the studio director; keeper's canon v0.9 rulings, `reports/lore-v4-2026-11-24.md`; build list `continuity_check.md` §10). (1) **No narrator:** the Chronicler's entries in Sc 5, 7 and 19 leave the episode; Nan recites the Choir's record over the tapestry, now cutaways inside Sc 4 (ex-L029 and ex-L031 exact, ex-L030 shortened, ex-L032 exact inside her line); Corr explains the tiers in Sc 6; Pell works out the thirty days in Sc 19. (2) **The Chronicle page** in the ending carries the record's wording that no character may say (keeper: first sentence = the whole ex-L033 line). (3) **OP:** the main theme, instrumental, 90.0 s, after the cold open ends on "I wasn't humming."; the title HOLLOWSTONE moves into it; the episode title is burned in on the first shot after it. **Ending:** a soft cello variant of the theme, in at 0:00 under the page. No sung voice in the pilot. (4) **80 new lines** L201–L280 and the L041 re-take; keeper's exact replacements: L235 (First Song / Second / us), L252 (a bet: "Ten marks says…"), L253 ("There's only one place down from Last."), L256 ("Keep your coin, Ruel."); L238 delivery changed; walla placement rules for L252–L254 and L267. (5) **Two action beats:** A, the slip at the sill (Sc 3); B, the water through the planks and the nets (Sc 19); keeper's limits written in. (6) Sc 7 is a silent document sequence with three small voices; Hollis mutters aloud (Sc 13, was VO; "Again." trimmed). (7) Sc 19: "She has no answer" removed. (8) The OP visual list, signed by the keeper with its 7 corrections, is in "THE OPENING". (9) Neveh is not named aloud in E1 (keeper: allowed). |

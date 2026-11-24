@@ -891,7 +891,7 @@
    "frame": "placeholder slate",
    "vo": [],
    "status": "new",
-   "note": "OPENING, 90.0 s block. Audio: lib_mus_theme-op-pilot_v1.wav (main theme, instrumental, TV size). Picture placeholder for the animatic: dark slate, drawtext 'OPENING — main theme (instrumental) — 90.0 s'; HOLLOWSTONE title card inside it at 72.0–78.0 s (plain dark, same type as v3 sc05-sh100). AI badge / studio mark: corner bug from the first frame of the OP on. Visuals for finals: the keeper's signed list (canon excerpt §7). Sound: ≥3 s between the stone's last ring and the first OP note (here ≈26 s); first note on 0.5 s room tone (end of sc03-sh269)"
+   "note": "OPENING, 90.0 s block (the same instrumental OP opens every S1 episode, investor 2026-11-24). Audio: lib_mus_theme-op-pilot_v1.wav (main theme, instrumental, TV size; or its drum-rework successor, same 3.0-s bar grid). Picture: direction/opening/S1_OP_storyboard.md v1.0 (32 cuts, no characters, HOLLOWSTONE logo on the last hit 1:22.5); until it is built, a dark placeholder slate with drawtext 'OPENING — main theme (instrumental) — 90.0 s'. AI badge / studio mark: corner bug from the first frame of the OP on. Outer limit for the picture: the keeper's signed list (script v1.1 'THE OPENING'; canon excerpt §7). Sound: ≥3 s between the stone's last ring and the first OP note (here ≈26 s); first note on 0.5 s room tone (end of sc03-sh269)"
   },
   {
    "id": "sc03-sh270",

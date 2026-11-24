@@ -1,6 +1,6 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — v4 dialogue pass (PROPOSAL)
 
-Version 0.1 · 2026-11-24 · author: lead-screenwriter · status: **proposal for the studio director; nothing here is in force yet**
+Version 0.1 · 2026-11-24 · author: lead-screenwriter · status: ~~proposal~~ **approved and merged (2026-11-24)** into `script.md` v1.1, `beat_sheet.md` v2.3, `continuity_check.md` §10 and shot list v4.0, with the keeper's fixes (`reports/lore-v4-2026-11-24.md`) and the studio director's decisions (OP instrumental 90.0 s; ending = cello variant under the Chronicle page; no sung voice in the pilot; the stewards' gossip a bet only). **Where this file and §10 differ, §10 wins** (exact texts of L235, L252, L253, L256; the Chronicle page; the OP list; timings).
 Built on: `script.md` v1.0.4, `continuity_check.md` §9 (v3 edit decisions), shot list v3.0 (366 shots, 19:51.0), `sound/S01E01_vo_durations.csv`, `reports/analyst-animatic-v2-2026-11-24.md`, `research/pilot_hook_review.md`, `research/what_hooks.md`, `music/opening_song.md` v0.2, voice fingerprints r8, canon v0.8 (secrets, sealed §B, characters CH-0001/0007/0015/0048).
 **Not touched (animatic v3 is being built from them):** `script.md`, `beat_sheet.md`, `continuity_check.md`, the shot list. When the director accepts this pass, I fold it into script v1.1, beat sheet v2.3 and continuity_check §10 in one step.
 Spoiler level: safe for the production team. Sealed facts are referred to by SEC id only.
