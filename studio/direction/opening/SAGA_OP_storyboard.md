@@ -48,11 +48,11 @@ Adjacency rules (checked on the edit, §4.1): the dry plateau (B07–B08) never 
 
 ## 2. Music map (unchanged from v1.4 §2) and hit frames
 
-| Section | OP time | Bars | Heard | v2.0 picture job |
+| Section | OP time | Bars | Heard | v2.1 picture job |
 |---|---|---|---|---|
 | S1 Intro | 0:00.0–0:12.0 | 1–4 | solo cello | **Highwater** wakes: the wave, dawn, the Lows |
 | S2 Groove | 0:12.0–0:21.0 | 5–7 | stamps, claps, whistle 0:20.45 | **Highwater** at work: wheels, counting hall, the Steps; whip out to the sea on the whistle |
-| S3 Theme | 0:21.0–0:45.0 | 8–15 | strings melody | **the journey:** Pale Crag, the Polders, Gullmouth, the Ossari uplands (3.0 s cuts) |
+| S3 Theme | 0:21.0–0:45.0 | 8–15 | strings melody | **the journey:** Pale Crag, the Polders, Gullmouth, the Ossari uplands (1.5 s cuts, OP-21) |
 | S4 Rise | 0:45.0–0:57.0 | 16–19 | brass, snare build, fill 0:55.5, pre-hit 0:56.63 | **the journey speeds up:** the Shoals, the Stair (1.5 s cuts); inhale: every land flashes, then 9 frames of black |
 | S5 Hook | **0:57.0**–1:09.0 | 20–23 | octave leap, full drums | **convergence:** the whole Concord in one view; the banners of all eight voices, one per hit |
 | S6 Answer | 1:09.0–1:21.0 | 24–27 | taiko every 1.5 s | **one water:** the fleets of every house on one channel; the map of the delta steps back on four hits |
