@@ -1,6 +1,6 @@
 # S01E01 animatic v1 — progress checklist (resume file)
 
-Updated: 2026-11-24 (resume after container restart). Tools: `studio/direction/animatic_tools/`. Outputs: `output/S01E01/animatic/`.
+Updated: 2026-11-24 — **animatic v1 COMPLETE**. Next: director/studio viewing → v2 fixes (notes §3) → picture lock. Tools: `studio/direction/animatic_tools/`. Outputs: `output/S01E01/animatic/`.
 Budget guard: `STUDIO_ALLOW_PAID=1 BUDGET_LIMIT_USD=70`. Studio total at resume: $47.11.
 
 | # | Step | Status | How to resume |
@@ -12,6 +12,6 @@ Budget guard: `STUDIO_ALLOW_PAID=1 BUDGET_LIMIT_USD=70`. Studio total at resume:
 | 2a | MiniMax drafts class D | DONE 5 clips ($1.24): sc03-sh220 used; 4 rejected for glow (`*_mm_REJECTED.mp4`) | — |
 | 2b | LA render 720p | DONE 451/451 (log `la_run2.log`) | — |
 | 3 | SFX (ElevenLabs) + synth | DONE (SFX 2,311 credits this run; account usage 14,860) | — |
-| 4 | Spec + assemble + overlay | assemble DONE (LA pre-concatenated: 451 inputs OOM'd assemble.py; SFX trims; I −13.5, TP −0.9) → overlay with −0.5 dB | `spec.py overlay` |
-| 5 | R2 upload | frames, rejects, la, drafts, audio, spec uploaded; final mp4 TODO | `scratchpad up.py` logic: storage.upload per file |
-| 6 | Notes `S01E01_animatic_v1_notes.md`, report, HANDOFF | TODO | |
+| 4 | Spec + assemble + overlay | DONE: `S01E01_animatic_v1.mp4` 28:18.75, −14.1 LUFS, −1.3 dBTP | — |
+| 5 | R2 upload | DONE (final mp4, raw, la_concat, frames 375, rejects 37, la 451, drafts, audio, spec, mix_report) | — |
+| 6 | Notes `S01E01_animatic_v1_notes.md`, report, HANDOFF | DONE | — |

@@ -200,7 +200,7 @@ def overlay():
     vf.append(f"subtitles={SRT}:force_style='FontName=DejaVu Sans,FontSize=20,Outline=2,MarginV=28'")
     vf.append("format=yuv420p")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", RAW, "-vf", ",".join(vf), "-c:v", "libx264", "-preset", "veryfast",
-           "-crf", "23", "-af", "volume=-0.5dB", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", FINAL]
+           "-crf", "23", "-af", "volume=-0.6dB", "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-movflags", "+faststart", FINAL]
     subprocess.run(cmd, check=True)
     print(FINAL)
 

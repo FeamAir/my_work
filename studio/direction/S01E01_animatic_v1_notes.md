@@ -7,8 +7,11 @@ Procedure: `animatic.md`; resume checklist: `animatic_progress.md`; tools: `anim
 
 ## 1. Runtime and structure
 
-- **Runtime: __RUNTIME__** (451 shots, 21 scenes; timed shot list fitted to draft VO = 28:19 picture).
-- Loudness: __LOUDNESS__.
+- **Runtime: 28:18.75 (1698.75 s)** (451 shots, 21 scenes; timed shot list fitted to draft VO = 28:19 picture).
+- Loudness (measured on the final mp4): **−14.1 LUFS, −1.3 dBTP**, LRA 21.2 LU (wide — loudnorm ran in dynamic mode; transient SFX trimmed 4–6 dB in `spec.py`; finals mix should compress the quiet narration/silence passages vs. gate/oar hits).
+- Hook marks: 0:08 flood street + whistles (cradle at 0:00–0:03) ✓; **0:30 the woman's five notes start (sc01-sh100)** ✓; **the stone answers at 3:20 (sc03-sh220), 20 s later than the 3:00 target** — trim 20 s in Sc 2/Sc 3 (e.g. sc02-sh110…sh120 walk, sc03-sh010…sh060 flats) at picture lock.
+- Assembly note: `pipeline/assemble.py` opens every clip as a decoder in one filter graph; 451 inputs were killed by the 16 GB memory limit. Workaround in my spec step: LA clips joined losslessly first (`la_concat.mp4`, concat demuxer, stream copy) → one clip for assemble.py. Proposal for the IT engineer: batch/concat-demuxer path inside assemble.py for > ~150 clips.
+- Overlay audio: AAC 192 k default re-encode pushed TP to +1.4 dBFS; fixed with −0.6 dB + AAC 256 k/48 kHz (in `spec.py overlay`).
 - Class split (unique clips): A 312 (1158 s) · B 77 (272 s) · C 42 (174 s) · D 8 (46 s) · E 5 (26 s). 124 shots reuse another shot's key frame.
 - **Format conflict, decision needed:** the saga brief targets ~20–21 min episodes; the pilot script/animatic plan was 29:05, VO-fitted picture is 28:19. Either the pilot is a double-length special (state it), or ~7–8 min must come out before picture lock. Candidates to trim (no story loss, director's view): Sc 10 (2:14) and Sc 12 (2:35) council scenes — repeated wide/OTS reuse; Sc 3 (2:04) mud-flat walk-up; Sc 9 (1:50) the two 10-s harbour hero shots could be 6 s; Sc 5 tapestry (1:01) is already tight. Needs the head writer.
 
@@ -96,4 +99,6 @@ Current fal balance ≈ $57 → the final stage needs a top-up whatever option i
 
 ## 6. Cost of this stage
 
-See the report `studio/reports/anime-director-2026-11-24.md`.
+Resume session 2026-11-24: fal $4.56 (key-frame retakes and the 2 refused calls 83 × $0.04 = $3.32, MiniMax drafts $1.24). Earlier in the stage (before the restart): ≈ $13.2 frames. Animatic frames total ≈ 332 NB calls ≈ $13.3 + MiniMax $1.24.
+ElevenLabs: SFX run 2,311 credits (sfx_run1.log); account usage now 15,124 / 131,000 (VO + casting + SFX; nothing new spent on resume).
+Studio total (costs.jsonl): **$51.67** of the $70 cap. fal balance ≈ $56.9 of $100.
