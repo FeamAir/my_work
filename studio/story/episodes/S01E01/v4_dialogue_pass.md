@@ -219,7 +219,7 @@ Estimates use each voice's measured v2 rate (`S01E01_vo_durations.csv`).
 
 ### 6.3 SC 4 — Nan's rule, and the Choir's why (incl. the tapestry; +5.75 s vs v3 Sc 4 + Sc 5 without the old title)
 
-Kitchen up to sc04-sh180 as v3: L020, L022, L023, L024 KEPT; the Spire's song, Wick's one sung note, the hand, three seconds of silence, **L025 FIXED** ("Never sing, chick…"), the hand insert. *(Optional, §6.15: restore **L021** from the existing v2 take on its v2 frame sc04-sh050, +5.0 s.)*
+Kitchen up to sc04-sh180 as v3: L020, L022, L023, L024 KEPT; the Spire's song, Wick's one sung note, the hand, three seconds of silence, **L025 FIXED** ("Never sing, chick…"), the hand insert. *(Optional, §6.16: restore **L021** from the existing v2 take on its v2 frame sc04-sh050, +5.0 s.)*
 
 | id | speaker | delivery | line | shot | s |
 |---|---|---|---|---|---|
