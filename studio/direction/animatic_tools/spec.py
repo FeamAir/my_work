@@ -5,6 +5,7 @@
   python3 -I spec.py build      # -> output/S01E01/animatic/spec/S01E01_animatic_v1.json + .srt
   python3 -I spec.py assemble   # pipeline.assemble -> S01E01_animatic_v1_raw.mp4 (720p, -14 LUFS, -1 dBTP)
   python3 -I spec.py master     # v2 only: compressor + 2-pass linear loudnorm on the premix (LRA fix)
+  (ANIM_V=v3: continuity_check §9 cut, shots_v3.json, per-shot la_dir, v3_sound() cue changes, SDH de-stacking)
   python3 -I spec.py overlay    # timecode, DRAFT mark, subtitles (video re-encode, audio copied) -> S01E01_animatic_v1.mp4
 
 Sound placement is placeholder (animatic.md step 1/5): VO on dx, ambiences per scene (looped), key SFX and
@@ -120,6 +121,26 @@ def remap(ids):
     return m
 
 
+def v3_sound(by, tracks):
+    """v3 (continuity_check §9 + QA A2): cue lists adapted to the v3 cut.
+    * Sc 15a-1 (sh020-sh040, now after Sc 10) gets its own dusk-tide bed; 15a-2 keeps the scene bed.
+    * M07 fades out on sc10-sh150 (§9.2: sc10-sh140 dropped).
+    * Sc 20: the death-tone heard thinly through the wall at sh010 (-8, low-passed) and again at sh070 (three
+      tones); the stone answers under the third tone (sh080 + 3.4 s) and does not stop until sh230 (spec: hum
+      under sh080-sh230) — a sustained stone bed replaces the single 12-s tone that left 20:49-21:28 empty in v2."""
+    amb = AMB + [("sc15a-sh020", "sc15a-sh040", "amb_lows-dusk-tide", 0)]
+    mus = [(a, "sc10-sh150" if a == "sc10-sh070" else b, f, g, lab) for a, b, f, g, lab in MUS]
+    ev = [e for e in EV if not (e[0] in ("sc20-sh010", "sc20-sh080") and "tone" in e[1])]
+    wall = "lowpass=f=1400"   # heard through the wall
+    ev += [("sc20-sh010", "synth/death_tone_v1", 0.3, -8, "fx", wall), ("sc20-sh070", "synth/death_tone_v1", 0, -6, "fx", wall)]
+    t0 = by["sc20-sh080"]["tc"] + 3.4
+    t1 = by["sc20-sh230"]["tc"] + by["sc20-sh230"]["dur"]
+    tracks.append({"id": "fx_sc20_stone_bed", "stem": "fx", "path": "../audio/synth/stone_bed_v1.wav",
+                   "start": round(t0, 3), "duration": round(t1 - t0, 3), "fade_in": 1.2, "fade_out": 0.3,
+                   "gain_db": -4})
+    return amb, ev, mus
+
+
 def srt_t(t):
     h, r = divmod(t, 3600)
     m, s = divmod(r, 60)
@@ -150,7 +171,7 @@ def build():
     lst = f"{A}/spec/la_concat.txt"
     with open(lst, "w") as f:
         for s in ss:
-            d = "la_v2" if (VER != "v1" and s.get("changed")) else "la"
+            d = s.get("la_dir") or ("la_v2" if (VER != "v1" and s.get("changed")) else "la")
             f.write(f"file '{A}/{d}/{s['id']}.mp4'\n")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy",
                     f"{A}/la_concat{'' if VER == 'v1' else '_' + VER}.mp4"], check=True)
@@ -171,23 +192,28 @@ def build():
                    "trim_start": round(l79["ss"] + l79["speech"] - 1.25, 3), "duration": 1.35, "gain_db": -5,
                    "filter": "aecho=0.8:0.5:120:0.3"})
     subs.append((by["sc15a-sh010"]["tc"] + 0.3, by["sc15a-sh010"]["tc"] + 1.8, "…finds its level."))
-    for a, b, sid, g in AMB:
+    amb, ev, mus = AMB, EV, MUS
+    if VER == "v3":
+        amb, ev, mus = v3_sound(by, tracks)
+    for a, b, sid, g in amb:
         t0, t1 = span(a, b)
         tracks.append({"id": f"amb_{a}_{sid}", "stem": "amb", "path": f"../audio/sfx/{sid}.mp3", "start": round(t0, 3),
                        "duration": round(t1 - t0, 3), "loop": True, "fade_in": 0.5, "fade_out": 0.5, "gain_db": g - 2})
     # v1 mix pass 2: transient SFX normalised to -18 LUFS overshoot the master (TP +0.5, LRA 21) -> trims (dB)
     TRIM = {"sfx_rowboat-oars": -6, "sfx_fall-table": -5, "sfx_rake-snag": -6, "sfx_gate-bar-drag": -4,
             "sfx_fists-iron-gate": -4, "sfx_wheel-stop": -5, "sfx_ripple-tremble": -4}
-    for shot, f, off, g, stem in EV:
+    for e in ev:
+        shot, f, off, g, stem = e[:5]
+        flt = e[5] if len(e) > 5 else ""
         shot, moved = rm[shot]
         if moved:
             off = 0
         g = g + TRIM.get(f, 0) + (-2 if stem == "fx" else 0)
         path = f"../audio/{f}.wav" if f.startswith("synth/") else f"../audio/sfx/{f}.mp3"
         tracks.append({"id": f"ev_{shot}_{f.split('/')[-1]}", "stem": stem, "path": path,
-                       "start": round(max(0.0, by[shot]["tc"] + off), 3), "gain_db": g})
+                       "start": round(max(0.0, by[shot]["tc"] + off), 3), "gain_db": g, **({"filter": flt} if flt else {})})
     labels = []
-    for a, b, f, g, lab in MUS:
+    for a, b, f, g, lab in mus:
         t0, t1 = span(a, b)
         tracks.append({"id": f"mus_{a}", "stem": "mus", "path": f"../audio/synth/{f}.wav", "start": round(t0, 3),
                        "duration": round(t1 - t0, 3), "loop": True, "fade_in": 1.0, "fade_out": 1.5, "gain_db": g})
@@ -197,6 +223,16 @@ def build():
         for m in re.finditer(r"SDH \[([^\]]+)\]", s["line"] or ""):
             subs.append((s["tc"] + 0.2, s["tc"] + min(s["dur"], 3.5), f"[{m.group(1)}]"))
     subs.sort()
+    if VER == "v3":  # QA A7: an SDH cue never starts while a spoken line is on screen -> after it
+        vo_subs = [x for x in subs if not x[2].startswith("[")]
+        fixed = []
+        for a, b, t in subs:
+            if t.startswith("["):
+                hit = [vb for va, vb, _ in vo_subs if va - 0.05 <= a < vb]
+                if hit:
+                    a, b = max(hit) + 0.05, max(hit) + 0.05 + (b - a)
+            fixed.append((a, b, t))
+        subs = sorted(fixed)
     with open(SRT, "w") as f:
         for i, (a, b, t) in enumerate(subs, 1):
             f.write(f"{i}\n{srt_t(a)} --> {srt_t(b)}\n{t}\n\n")

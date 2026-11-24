@@ -2,6 +2,7 @@
 """S01E01 animatic, step 5: placeholder sound.
 
   STUDIO_ALLOW_PAID=1 BUDGET_LIMIT_USD=70 python3 -I sound.py sfx     # ElevenLabs SFX library subset (cap 15k credits)
+  python3 -I sound.py bed                                            # $0 (v3): Sc 20 sustained stone bed
   python3 -I sound.py synth                                          # $0: lullaby, stone tone, death tone, fork, temp music
 Files: output/S01E01/animatic/audio/{sfx,synth}/  (R2 S01E01/animatic/audio/)
 
@@ -168,5 +169,14 @@ def cmd_synth():
     print("synth ok", sorted(os.listdir(SYN)))
 
 
+def cmd_bed():
+    """v3 ($0): sustained stone tone for Sc 20 (the hum does not stop from sh080 to sh230), same partials as
+    stone_tone_*_v1, 60 s, soft ends (the mix fades it)."""
+    bb1 = hz("Bb1")
+    stone = [(bb1, 1.0), (bb1 * 2, 0.5), (bb1 * 3, 0.35), (bb1 * 4, 0.3), (hz("Bb4"), 0.08), (hz("F5"), 0.06)]
+    tone(f"{SYN}/stone_bed_v1.wav", 60, stone, attack=0.5, release=2.0, beat_hz=2.5, gain=0.35)
+    print(f"{SYN}/stone_bed_v1.wav")
+
+
 if __name__ == "__main__":
-    {"sfx": cmd_sfx, "synth": cmd_synth}[sys.argv[1]]()
+    {"sfx": cmd_sfx, "synth": cmd_synth, "bed": cmd_bed}[sys.argv[1]]()

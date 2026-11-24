@@ -65,7 +65,7 @@ def move(s):
     return ("static", 0.0)
 
 
-def cam_filter(kind, z, dur, tall, fit=False):
+def cam_filter(kind, z, dur, tall, fit=False, fitcap=0.03):
     n = max(1, int(round(dur * FPS)))
     p = f"(on/{max(1, n - 1)})"
     e = f"(0.5-0.5*cos(PI*{p}))"
@@ -74,7 +74,7 @@ def cam_filter(kind, z, dur, tall, fit=False):
         base = ("scale=2560:1440:force_original_aspect_ratio=decrease,pad=2560:1440:(ow-iw)/2:(oh-ih)/2:color=0x141210,"
                 "setsar=1")
         kind = "in" if kind not in ("in", "out") else kind
-        z = min(z or 0.03, 0.03)
+        z = min(z or 0.03, fitcap)
     if tall and kind in ("tilt", "static", "in", "out"):
         # tall plate: tilt bottom -> top
         return (f"scale=2560:-2,setsar=1,zoompan=z=1:x=0:y='(ih-ih*{W}/{H}*0+0)*0+(ih-1440)*(1-{e})':d=1:s=2560x1440:fps={FPS},"
@@ -163,8 +163,12 @@ def render(s, force=False):
         fit = (im.width / im.height > 2.0) or (s["scene"] == "sc05" and abs(im.width / im.height - 16 / 9) > 0.05)
         tall = tall and not fit
         kind, z = move(s)
+        cap = 0.03
+        if s.get("cam_override"):  # v3: e.g. sc05-sh080 slow pull-back on one tapestry panel
+            kind, z = s["cam_override"]
+            cap = z
         inputs = ["-loop", "1", "-framerate", str(FPS), "-t", str(dur), "-i", fa]
-        fc.append(f"[0]{cam_filter(kind, z, dur, tall, fit)},trim=duration={dur}[va]")
+        fc.append(f"[0]{cam_filter(kind, z, dur, tall, fit, cap)},trim=duration={dur}[va]")
         if s["cls"] in "CD" and os.path.exists(fb):
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", str(dur), "-i", fb]
             fc.append(f"[1]{cam_filter(kind, z, dur, False)},trim=duration={dur}[vb]")

@@ -126,6 +126,8 @@ def build():
                 s["reuse"] = REFRAME[sid][0]
                 s["v3_note"] = "RE-FRAME: " + REFRAME[sid][1]
                 changed = True
+            if sid == "sc05-sh080":
+                s["cam_override"] = ["out", 0.3]
             if sid == "sc20-sh010":
                 s["v3_note"] = "NEW FRAME: NB2 /edit take 1 + $0 hair grade (Wick read grey-haired in v2)"
                 changed = True
