@@ -42,8 +42,9 @@ def main():
 
     # 1. env 120 is not refused; the step cap wins
     lim, src = run.step_limit("L", with_source=True)
-    check(abs(lim - 66.03) < 1e-9 and "step L cap" in src and "120" in src, f"L effective limit {lim} [{src}]")
-    for s, want in (("R", 67.35), ("N", 69.39), ("K", 84.50)):
+    want_l = 67.35 if "after R" in src else 66.03        # 67.35 once R takes exist on disk (r16 on)
+    check(abs(lim - want_l) < 1e-9 and "step L cap" in src and "120" in src, f"L effective limit {lim} [{src}]")
+    for s, want in (("R", 67.35), ("N", 69.39), ("X", 69.63), ("K", 84.50)):
         check(abs(run.step_limit(s) - want) < 1e-9, f"{s} effective limit {run.step_limit(s)} == {want}")
     os.environ["BUDGET_LIMIT_USD"] = "60"
     check(abs(run.step_limit("L") - 60) < 1e-9, "a lower env limit (60) still wins")

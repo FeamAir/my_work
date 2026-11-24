@@ -10,6 +10,8 @@ director's permission; `show`, `check`, `accept`, `pick`, `peaks` cost $0.
   python3 -I op_saga_run.py pick with|without    # the coordinator's pick after step T (§5.2)
   python3 -I op_saga_run.py accept ID TAKE       # record an accepted take; it is skipped from then on
   python3 -I op_saga_run.py peaks CLIP           # action peaks of an accepted clip for the beat windows (§4.6)
+  python3 -I op_saga_run.py fixrefs              # v2.6: build the $0 layout refs of step X (§5.6)
+  STUDIO_ALLOW_PAID=1 python3 -I op_saga_run.py run X F10_C|W16 [--take 4|5]   # v2.6 fix recipes, 2 takes max
 
 Texts: every prompt block and content text is read from the storyboard at run time (so the call is what the board
 says); the v1.4 texts that the board cites as "verbatim" are held here (from op_paid_run.py v1.4) with the v2.4
@@ -51,7 +53,8 @@ STATE = f"{OUT}/state.json"
 NB2_USD, KLING_USD = 0.08, 0.35
 
 LOG_AT_PLAN = 65.4651
-STEP_LIMITS = {"T": 65.79, "L": 66.03, "R": 67.35, "N": 69.39, "K": 84.50}
+STEP_LIMITS = {"T": 65.79, "L": 66.03, "R": 67.35, "N": 69.39, "X": 69.63, "K": 84.50}
+LOG_BEFORE_X = 69.3051   # v2.6 (§5.6): X cap = 69.3051 + 4 x 0.08 = 69.6251 -> 69.63
 L_AFTER_R = 67.35
 HARD_CAP = 84.50
 MORE3D = False       # set by --more3d: a C-RR retake (take >= 2) of a 2.5D take raises image 1's weight (§5.1)
@@ -250,6 +253,63 @@ N_FRAMES = {
 }
 
 
+# v2.6 fix recipes (§5.6): id -> (seed base, images after the anchor, content block, avoid kind)
+FIX = {"F10_C": (70204, [f"{OUT}/fixref/F10_layout.png"], "F10_FIX", "op"),
+       "W16": (70116, [f"{OUT}/fixref/W16_layout.png", f"{H}/H16_ashare_reference_spiral.png"], "W16_FIX", "map")}
+FIX_TAKES = (4, 5)                                  # 2 takes max each; seed + 1000 * (take - 1)
+RR_F10FIX = block("RR_F10FIX")
+FIX_TEXT = {k: block(v[2]) for k, v in FIX.items()}
+
+
+def fix_call(fid, sig, take):
+    seed, refs, _, kind = FIX[fid]
+    rr = [RR_F10FIX] if fid == "F10_C" else []
+    if rr and MORE3D and take == FIX_TAKES[1]:          # §5.6: take 5 of a 2.5D take 4 raises image 1's weight
+        rr = [RR_F10FIX + " " + MORE3D_TEXT[0].upper() + MORE3D_TEXT[1:] + "."]
+    parts = [ANCHOR_INTRO] + rr + [subst(FIX_TEXT[fid]), tail(sig, kind)]
+    if fid == "W16":
+        parts.append(SAGA_SAFE)
+    return {"id": fid, "model": "nano-banana-2-edit", "seed": seed + 1000 * (take - 1),
+            "images": [ANCHOR] + refs, "prompt": " ".join(parts)}
+
+
+def make_fixrefs():
+    """$0: the layout refs of step X (§5.6), from F10_op.png and the rejected W16_t3.png."""
+    import numpy as np
+    from PIL import Image, ImageDraw, ImageFilter
+    os.makedirs(f"{OUT}/fixref", exist_ok=True)
+    f10 = Image.open(f"{OPF}/F10_op.png").convert("RGB")
+    f10.filter(ImageFilter.MedianFilter(7)).filter(ImageFilter.GaussianBlur(3)).save(f"{OUT}/fixref/F10_layout.png")
+    im = Image.open(f"{OUT}/frames/W16_t3.png").convert("RGB")
+    a = np.asarray(im).astype(float)
+    poly = [(940, 58), (990, 150), (1015, 210), (1060, 270), (1095, 330), (1110, 390), (1117, 450), (1127, 480),
+            (1123, 540), (1110, 600), (1097, 660), (1085, 708), (1292, 708), (1292, 58)]   # east of the escarpment
+    m = Image.new("L", im.size, 0)
+    ImageDraw.Draw(m).polygon(poly, fill=255)
+    mk = np.asarray(m.filter(ImageFilter.GaussianBlur(3))).astype(float)[..., None] / 255
+    yy, xx = np.mgrid[0:768, 0:1376]
+    light = 0.93 - 0.15 * ((xx - 700) / 700) ** 2 - 0.2 * ((yy - 384) / 384) ** 2
+    paper = light[..., None] * np.array([222, 206, 178.]) + np.random.default_rng(1).normal(0, 3, (768, 1376, 1))
+    out = a * (1 - mk) + paper * mk
+    sp = (slice(600, 692), slice(1180, 1276))           # keep the compass spiral's ink
+    ink = a[sp].mean(-1) < 120
+    blk = out[sp]
+    blk[ink] = a[sp][ink]
+    out[sp] = blk
+    g = a[250:304, 872:926].copy()                      # the fields mark, copied west of the falls
+    lum, rg = g.mean(-1), g[..., 0] - g[..., 1]
+    R, C = np.mgrid[0:54, 0:54]
+    tower = (lum < 60) & (rg < 20) & (R >= 20) & (C <= 26)
+    pole = (lum < 45) & (R < 26) & (C >= 8) & (C <= 26)
+    pen = (rg > 38) & (lum < 110) & (R < 18)
+    al = Image.fromarray(((tower | pole | pen) * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))
+    al = np.asarray(al.filter(ImageFilter.GaussianBlur(0.7))).astype(float)[..., None] / 255
+    g[pen] = [150, 45, 35]
+    out[258:312, 990:1044] = out[258:312, 990:1044] * (1 - al) + g * al
+    Image.fromarray(np.clip(out, 0, 255).astype("uint8")).save(f"{OUT}/fixref/W16_layout.png")
+    print("fixrefs:", f"{OUT}/fixref/F10_layout.png", f"{OUT}/fixref/W16_layout.png")
+
+
 ROLE_IDS = ["W%02d" % n for n in range(1, 14)] + ["W15", "F14_C"]     # v2.5 gate B9, И14 (§5.5)
 ROLES = {k: span(row("ROLE-" + k)[-1], 0) for k in ROLE_IDS}
 
@@ -324,7 +384,7 @@ for line in re.findall(r"^\| (K[^|]*) \| `([^`]*)`", BOARD[BOARD.index("### 6.5"
         CUES[i.strip()] = line[1]
 chk(len(CUES) == 15, f"§6.5 cues parsed ({len(CUES)} of 15)")
 ALL_CLIPS = (["KA01", "KA02", "KA11", "KA04"] + [f"KW{i:02d}" for i in range(1, 17)] +
-             ["K03C", "K04C", "K05C", "K07C", "K10C", "K11C", "K12C", "K17C"])
+             ["K03C", "K04C", "K05C", "K07C", "K10C", "K11C", "K17C"])   # v2.6: K12C dropped with F21_C (§6.6)
 
 
 def clip_call(kid, sig):
@@ -353,7 +413,7 @@ def clip_call(kid, sig):
 
 # ------------------------------------------------------------------ steps, state
 STEPS = {"T": ["T1a", "T1b", "T2a", "T2b"], "L": ["LOGO_C"], "R": list(RR_FRAMES), "N": list(N_FRAMES), "K": ALL_CLIPS}
-PLAN = {"T": 0.32, "L": 0.24, "R": 1.32, "N": 2.04, "K": 15.05}
+PLAN = {"T": 0.32, "L": 0.24, "R": 1.32, "N": 2.04, "K": 14.525}   # v2.6: K = 27 clips x 1.5 x 0.35 + 0.35
 
 
 def step_of(i):
@@ -463,6 +523,21 @@ def call_checks(sig_values=(False, True)):
                 chk("never runs along a tower groove" in c["prompt"] and "crawling light bands" in c["negative_prompt"],
                     f"{k}: signature lock + negative")
     chk("smoke" not in clip_call("K07C", False)["prompt"], "K07C: no smoke in the prompt (И3)")
+    for fid in FIX:                                      # v2.6 fix recipes (§5.6)
+        c = fix_call(fid, False, 4)
+        p = c["prompt"]
+        chk(not re.search(r"\{[A-Z_0-9]+\}", p), f"X {fid}: no unresolved block")
+        chk(STYLE_BASE_C in p and C_NOTE in p and PHONE in p and p.startswith(ANCHOR_INTRO), f"X {fid}: C blocks")
+        chk(len(c["images"]) <= 3 and "PL-0004" not in " ".join(c["images"]) and "W13" not in " ".join(c["images"])
+            and "E05" not in " ".join(c["images"]), f"X {fid}: refs as §5.6")
+    pf = fix_call("F10_C", False, 4)["prompt"]
+    chk("Exactly three black towers in the whole picture and no fourth anywhere" in pf and "no niche" in pf
+        and "do not copy its layout, its towers" in pf, "X F10_C: counts, dike, image 1 role")
+    pw = fix_call("W16", False, 4)["prompt"]
+    chk("Exactly eight small black tower marks in the whole map and no ninth anywhere" in pw
+        and "keep the paper blank to the right of the escarpment" in pw and "2D painting" not in pw
+        and "no tower standing in open sea" in pw, "X W16: counts, blank east, map negative, SAGA_SAFE")
+    chk(fix_call("F10_C", False, 4)["seed"] == 73204 and fix_call("W16", False, 5)["seed"] == 74116, "X seeds")
     chk(", fire," not in clip_call("KW10", False)["negative_prompt"], "KW10: negative without plain 'fire'")
     chk("just below its top edge" in clip_call("KA01", False)["prompt"], "KA01: spray below the crest (R4.3)")
     chk("to the left, away from the bar" in clip_call("KW10", False)["prompt"], "KW10: boats left (R4.4)")
@@ -579,6 +654,51 @@ def cmd_run(step, ids, take_arg):
         print("  ->", out, f"({meta['seconds']} s), spent ${costs.total_spent():.4f}", flush=True)
 
 
+def cmd_run_fix(ids, take_arg):
+    """v2.6 step X (§5.6): F10_C / W16 with the fix recipe, takes 4 and 5 only, cap 69.63."""
+    if not report_checks():
+        sys.exit("text checks failed: nothing is sent")
+    from pipeline import costs, fal_client
+    st = load_state()
+    limit, src = STEP_LIMITS["X"], "step X cap (v2.6, §5.6)"
+    env = os.environ.get("BUDGET_LIMIT_USD", "").strip()
+    if env and 0 < float(env) < limit:
+        limit, src = float(env), "env BUDGET_LIMIT_USD"
+    src += f" (env BUDGET_LIMIT_USD={env or 'unset'})"
+    install_step_guard(costs, limit)
+    line = f"step X: effective limit {limit:.2f} [{src}], spent so far ${costs.total_spent():.4f}"
+    print(line)
+    with open(f"{OUT}/limits.log", "a", encoding="utf-8") as f:
+        f.write(time.strftime("%Y-%m-%dT%H:%M:%S ") + line + "\n")
+    for i in ids or list(FIX):
+        if i not in FIX:
+            sys.exit(f"{i} has no fix recipe")
+        if i in st["accepted"]:
+            print("accepted, skip", i)
+            continue
+        free = [t for t in FIX_TAKES if not os.path.exists(f"{OUT}/frames/{i}_t{t}.png")]
+        take = take_arg or (free[0] if free else None)
+        if take not in FIX_TAKES:
+            sys.exit(f"{i}: step X allows takes {FIX_TAKES} only (2 takes max)")
+        out = f"{OUT}/frames/{i}_t{take}.png"
+        if os.path.exists(out):
+            print("exists, skip", out)
+            continue
+        c = fix_call(i, st.get("pick") == "with", take)
+        if costs.total_spent() + NB2_USD > limit:
+            sys.exit(f"step ceiling {limit:.2f} reached: stop")
+        for im in c["images"]:
+            if not os.path.exists(im):
+                sys.exit(f"{i}: missing image {im} (run fixrefs)")
+        t0 = time.time()
+        fal_client.generate_image(c["prompt"], out, model="nano-banana-2", reference_images=c["images"],
+                                  aspect_ratio="16:9", extra={"seed": c["seed"]})
+        meta = dict(c, take=take, usd=NB2_USD, seconds=round(time.time() - t0, 1), step="X", limit=limit,
+                    limit_source=src)
+        json.dump(meta, open(out.rsplit(".", 1)[0] + ".json", "w"), indent=1, ensure_ascii=False)
+        print("  ->", out, f"({meta['seconds']} s), spent ${costs.total_spent():.4f}", flush=True)
+
+
 def cmd_accept(i, take):
     st = load_state()
     src = take_path(i, int(take), st) if not str(take).startswith("T") else f"{OUT}/test/{take}.png"
@@ -618,7 +738,7 @@ def cmd_peaks(kid):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["show", "check", "run", "pick", "accept", "peaks"])
+    ap.add_argument("cmd", choices=["show", "check", "run", "pick", "accept", "peaks", "fixrefs"])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--take", type=int)
     ap.add_argument("--more3d", action="store_true", help="C-RR retake: add the §5.1 3D-weight sentence (take >= 2)")
@@ -641,12 +761,18 @@ def main():
     if a.cmd == "accept":
         cmd_accept(a.args[0], a.args[1])
         return
+    if a.cmd == "fixrefs":
+        make_fixrefs()
+        return
     if a.cmd == "peaks":
         cmd_peaks(a.args[0])
         return
     step, ids = a.args[0], a.args[1:]
+    if step == "X":
+        cmd_run_fix(ids, a.take)
+        return
     if step not in STEPS:
-        sys.exit("step: T | L | R | N | K")
+        sys.exit("step: T | L | R | N | X | K")
     cmd_run(step, ids, a.take)
 
 
