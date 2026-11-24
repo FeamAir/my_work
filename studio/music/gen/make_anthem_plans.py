@@ -57,3 +57,37 @@ def plan(cond=None):
 json.dump(plan(), open("op_anthem_plan_v1_free.json", "w"), indent=1)
 json.dump(plan(["low"] * 7), open("op_anthem_plan_v2_lowcond.json", "w"), indent=1)
 print("ok")
+
+# --- v3 (after takes 1-2): base = take 2 (song_id 2pOkETSO6yen6lzuOL7j, passed as --theme-id), keep what works,
+# rewrite the rise (thin -> crescendo -> drums-only fill -> breath) and the hook (brass anthem, octave leap, biggest hit).
+V3_TEXT = {
+ 3: ("Rise - the Steps", "the build starts thin and grows bar by bar into the climax", [
+   "the first bar drops back to strings tremolo, low claps and a quiet snare roll, much thinner than before",
+   "each bar adds more: horn calls, then trumpets, then trombones, a steady crescendo",
+   "harmony climbs D-flat major, E-flat major, C suspended, C major", "snare roll and toms grow louder every bar",
+   "the last half bar is a loud all-drums fill, then one short breath of silence before the hook"], []),
+ 4: ("Hook - the anthem", "the climax: the full brass section plays the main melody, louder and higher than anything before", [
+   "the loudest and widest moment of the piece: every instrument enters together on the first downbeat with a huge hit",
+   "the hook melody: a short C, a leap up a full octave to a long high C, then down by steps B-flat, A-flat, G and A-flat",
+   "six French horns, three trumpets and trombones in unison carry the melody, bright and powerful, a heroic brass anthem",
+   "violins double the melody an octave higher", "a running high-string countermelody in eighth notes",
+   *DRUMS, "big ensemble drums on every downbeat, cymbal crashes", "triumphant, heroic, unforgettable"], ["quiet", "thin"]),
+}
+V3_COND = ["medium", "medium", "medium", None, None, "low", "medium"]
+T2_RANGES = [(0, 12000), (12000, 21000), (21000, 45000), (45000, 57000), (57000, 69000), (69000, 81000), (81000, 87000)]
+
+def plan_v3():
+    p = plan()
+    for i, c in enumerate(p["chunks"]):
+        if i in V3_TEXT:
+            name, line, pos, neg = V3_TEXT[i]
+            c["text"] = f"[{name}]\n{{instrumental, {line}}}"
+            c["positive_styles"] = COMMON + pos
+            c["negative_styles"] = neg + BANS
+        if V3_COND[i]:
+            s, e = T2_RANGES[i]
+            c["conditioning_ref"] = {"song_id": "THEME", "range": {"start_ms": s, "end_ms": e}, "condition_strength": V3_COND[i]}
+    return p
+
+json.dump(plan_v3(), open("op_anthem_plan_v3_t2base.json", "w"), indent=1)
+print("v3 ok")
