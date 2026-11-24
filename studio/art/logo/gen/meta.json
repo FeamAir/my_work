@@ -30,5 +30,13 @@
   "aspect": "16:9",
   "seed": 410744,
   "status": "ok"
+ },
+ "A3": {
+  "prompt": "The single word \"HOLLOWSTONE\" in capital letters, spelled exactly H-O-L-L-O-W-S-T-O-N-E (eleven letters: H, O, L, L, O, W, S, T, O, N, E), one line, centred, filling about 80% of the width. Designed title logotype for an original 2D anime-style fantasy TV series, painterly but crisp, thin dark blue-black outline (#1C1F2A) of slightly varying weight around every letter, muted desaturated palette, cool violet-blue shadow side, one soft natural highlight on the upper bevel edges from a low cold key light at upper left. Custom display capitals in the manner of an old harbour-wall inscription cut by a mason's chisel: medium width, not condensed, letters about as wide as they are three quarters tall, flat-topped, with short sharp wedge-cut serifs, V-section chisel bevels inside each stroke, heavy even stroke weight, deep V-section chisel bevels that catch the light on one side, generous even letter spacing. The O letters are plain upright ovals with empty open counters (nothing inside them, no hole set with anything). The letters are cut from weathered pale grey granite (#B8B4AC), lightly pitted, with fine chips at the edges. One single straight horizontal tide line crosses the whole word at about one third of the letter height: below the line the stone is darker and damp blue-grey (#5C6B72) with a thin crisp crust of white salt along the line and faint dark green weed staining; above the line the stone is dry and pale. A few small clear drops cling to the lower edges of the letters. Isolated on a flat, perfectly even pure black background (#000000), no texture, no vignette, no horizon. Avoid: any other text, tagline, subtitle, numbers, extra letters, misspelling, watermark; no glow, no halo, no light inside grooves, no magic light, no sparkles, no lens flare; no rings, no circles or discs behind the word, no shields, no frames, banners, ribbons or emblems; no gems, pebbles, shards or stones set into or hanging from letters; no cords; no hands; no water surface, no sea, no waves, no reflection; no 3D render look, no photorealism, no metal or gold letters, no neon colors, no mirrored image.",
+  "model": "nano-banana-2",
+  "refs": [],
+  "aspect": "16:9",
+  "seed": 410755,
+  "status": "ok"
  }
 }

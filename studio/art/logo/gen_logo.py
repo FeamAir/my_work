@@ -38,6 +38,10 @@ JOBS = {
     "A2": (LETTERS + STYLE + FACE + TIDE + BG + AVOID, 410722),
     "B1": (LETTERS + STYLE + FACE + TIDE + SPIRE_T + BG + AVOID, 410733),
     "B2": (LETTERS + STYLE + FACE + TIDE + SPIRE_T + BG + AVOID, 410744),
+    # A3: the A face less condensed (thumbnail legibility), deeper chisel bevels, same tide line
+    "A3": (LETTERS + STYLE + FACE.replace("tall, slightly condensed", "medium width, not condensed, letters about as wide as they are three quarters tall")
+           .replace("strong even stroke weight", "heavy even stroke weight, deep V-section chisel bevels that catch the light on one side")
+           + TIDE + BG + AVOID, 410755),
 }
 
 if __name__ == "__main__":
