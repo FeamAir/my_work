@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Saga OP, style C, build v1 ($0, ffmpeg + PIL + OpenCV; no API calls). Storyboard SAGA_OP v2.7, 68 shots + 9 frames
+"""Saga OP, style C, build v1.1 ($0, ffmpeg + PIL + OpenCV; no API calls). Storyboard SAGA_OP v2.8, 68 shots + 9 frames
 of black, 87.0 s, 24 fps, 1920x1080, music output/music/lib_mus_theme-op-anthem_v1a.mp3, -14 LUFS, TP <= -1.
 
   python3 -I op_saga_build_c.py [--only A01a,C13] [--jobs 4] [--no-final]
@@ -15,8 +15,15 @@ cut per the board §4 / §6.3. Windows marked in §4.6 slide <= ±0.75 s so the 
     shadows on the $0-fixed W13 (frames/W13_t1_p.png), same windows as KW13; swapped out by re-running
     --only C01a,C01b,C12a,C12b,C13 once KW13 exists.
   - FAILED: a clip that failed twice (KA01 in r18): its cuts take $0 pieces of accepted clips of the same land (§6.1).
-No labels, no counter; the corner bug "ANIME-STYLE · AI-ANIMATED" stays (marketer И12). No tpad, no freeze; pieces
-below 0.8x only through minterpolate mci (only the map: C11a-d at 0.8x).
+No labels, no counter; the corner bug "AI-ANIMATED" (r19, gate И1: positioning "animated", not "anime-style").
+No tpad, no freeze; pieces below 0.8x only through minterpolate mci (only the map: C11a-d at 0.8x).
+
+v1.1 (r19, gate final Б1/И1-И3/И6/И9 + keeper R8): KW13 accepted (t1 on W13_t1_p2) -> no placeholder; INK on the hits
+1369/1657/1981 never inverts (ink_safe: dark stays dark, keeper R8.3 #1); the C13 wipe is a ragged white spray wall over
+gbrp, no smooth dark wave edge (R8.3 #4); crops: B07a/b kites only (no low figures, #2), C08/C10 below the Highwater
+skyline (#3), A05a/b top-right 1.2x (the Lock tower foot and its arch out, #6), B01b bottom-anchored 1.9x (#7), C03L on
+the pump wings (#9), B10b on reeds and boats (#10); KW16 -> KW16_r19 (Sheaf pennant ochre, op_saga_kw16_fix.py, #8);
+A10 window from 1.2 s + linear push (И2); B02a/B02b linear push + drifting window (И6); C13 linear push 3 % (И3).
 """
 import argparse
 import concurrent.futures as cf
@@ -38,10 +45,10 @@ ROOT, OUTD = an.ROOT, an.OUTD
 SC = f"{OUTD}/saga_c"
 KC = f"{SC}/clips"
 FRC = f"{SC}/frames"
-WK = f"{OUTD}/saga_c_build"
+WK = f"{OUTD}/saga_c_build_v11"
 an.WK, an.SEG = WK, f"{WK}/seg"
 sa.WK = WK
-OUT = f"{OUTD}/SAGA_OP_C_v1.mp4"
+OUT = f"{OUTD}/SAGA_OP_C_v1_1.mp4"
 CONTACT = f"{OUTD}/contact_saga_c"
 W, H, FPS = an.W, an.H, an.FPS
 A = an.A
@@ -50,7 +57,7 @@ L_ = an.loc
 sa.tag = lambda g, s, text: s           # final: no labels
 
 STATE = json.load(open(f"{SC}/state.json"))
-HELD = {"KW13"}                         # r18: W13 fixes wait for the keeper's look at the crops
+HELD = set()                            # r19: KW13 accepted (t1 on W13_t1_p2, keeper R8.1)
 FAILED = {"KA01", "K03C", "KA04", "KW06"}                       # r18: failed twice (t1 and t2: orange burst, curling crest, spray over the top)
 
 
@@ -59,6 +66,8 @@ def clip(k):
     if k in HELD:
         return placeholder_kw13()
     p = f"{KC}/{k}.mp4"
+    if k == "KW16":                     # r19: keeper R8.2a, the Sheaf pennant ochre (op_saga_kw16_fix.py)
+        p = f"{WK}/KW16_r19.mp4"
     if not os.path.exists(p):
         raise FileNotFoundError(f"{k} not accepted: {p}")
     return conform(p)
@@ -221,6 +230,25 @@ def whip_out(g, s, frames=6, sigma=30):
     return o
 
 
+def ink_safe(g, s, f):
+    """r19 (keeper R8.3 #1): the INK hit without inversion. Two frames of hard ink contrast where the dark only gets
+    darker (luma < 90 x 0.55, 90-170 kept, > 170 pushed up), colour pulled half way to grey: no Spire body can turn
+    light or glow on the hit."""
+    o = g.lab()
+    en = f"enable='between(n,{f},{f + 1})'"
+    g.add(f"[{s}]lutyuv=y='if(lt(val,90),val*0.55,if(lt(val,170),val,min(235,170+(val-170)*1.6)))':"
+          f"u='128+(val-128)*0.5':v='128+(val-128)*0.5':{en}[{o}]")
+    return o
+
+
+def lpush(g, s, z1, fx=0.5, fy=0.5):
+    """r19: a LINEAR push 1.0 -> z1 over the cut (frame-exact, never stalls on the first or last frames)."""
+    o = g.lab()
+    g.add(f"[{s}]scale=w='2*trunc({W}*(1+{z1 - 1:.4f}*n/{max(1, g.n - 1)})/2)':h=-2:eval=frame,"
+          f"crop={W}:{H}:x='(iw-ow)*{fx}':y='(ih-oh)*{fy}',setsar=1[{o}]")
+    return o
+
+
 # ------------------------------------------------------------------------------------------- the cut list ---
 # cut -> (clip, ss, src_len, speed, z, cx, cy, extra); src_len = frames * speed / 24
 def spec(cut):
@@ -231,17 +259,17 @@ def spec(cut):
         "A03": ("KA02", 1.8, d, 1.0, 2.4, 0.62, 0.86, 0.45),
         "A04a": ("K07C", 0.0, d, 1.0, 2.2, 0.22, 0.82),
         "A04b": ("KA02", 3.3, d, 1.0, 2.0, 0.8, 0.72),
-        "A05a": ("K07C", 0.5, d, 1.0, 1.0, 0.5, 0.5),
-        "A05b": ("K07C", 2.0, d * 1.25, 1.25, 1.0, 0.5, 0.5),
+        "A05a": ("K07C", 0.5, d, 1.0, 1.2, 1.0, 0.0),           # r19 (R8.2a): top-right 1.2x, the Lock foot out
+        "A05b": ("K07C", 2.0, d * 1.25, 1.25, 1.2, 1.0, 0.0),
         "A06": ("K05C", 2.0, d, 1.0, 2.0, 0.3, 0.45),
         "A07": ("K04C", 0.5, d, 1.0, 1.0, 0.5, 0.5),
         "A08": ("K05C", 0.0, d, 1.0, 1.0, 0.5, 0.5),
         "A09": ("K04C", 2.5, d, 1.0, 1.8, 0.6, 0.4),
         "A10": ("K10C", 0.5, d * 2.0, 2.0, 1.0, 0.5, 0.5),
         "B01a": ("KW01", 0.5, d, 1.0, 1.0, 0.5, 0.5),
-        "B01b": ("KW01", 3.0, d, 1.0, 1.8, 0.45, 0.6),
+        "B01b": ("KW01", 3.0, d, 1.0, 1.9, 0.45, 1.0, 0.5),    # r19 (R8.3 #7): bottom-anchored, no Spire
         "B02a": ("KW02", 1.0, d, 1.0, 1.0, 0.5, 0.5),
-        "B02b": ("KW02", 3.0, d, 1.0, 1.8, 0.5, 0.65),
+        "B02b": ("KW02", 3.0, d, 1.0, 1.8, 0.45, 0.65, 0.55),  # r19 (И6): the window drifts across the rows
         "B03a": ("KW03", 0.5, d, 1.0, 1.0, 0.5, 0.5),
         "B04a": ("KW04", 1.0, d, 1.0, 1.0, 0.5, 0.5),
         "B03b": ("KW03", 2.5, d, 1.0, 1.6, 0.4, 0.45),
@@ -250,14 +278,14 @@ def spec(cut):
         "B06a": ("KW05", 3.0, d, 1.0, 2.0, 0.40, 0.62, 0.30),   # r18: KW06 failed twice -> KW05 ships
         "B05b": ("KW05", 2.5, d, 1.0, 1.5, 0.62, 0.62),
         "B06b": ("KW05", 1.4, d, 1.0, 2.2, 0.30, 0.60),
-        "B07a": ("KW07", 1.0, d, 1.0, 1.0, 0.5, 0.5),
+        "B07a": ("KW07", 1.0, d, 1.0, 2.2, 0.3, 0.0, 0.55),    # r19 (R8.3 #2): kites only, no low figures
         "B08a": ("KW08", 0.5, d, 1.0, 1.0, 0.5, 0.5),
-        "B07b": ("KW07", 3.0, d, 1.0, 1.5, 0.5, 0.3),
+        "B07b": ("KW07", 3.0, d, 1.0, 2.4, 0.6, 0.0, 0.5),     # r19 (R8.3 #2): kites only, top-anchored
         "B08b": ("KW08", 2.5, d, 1.0, 1.0, 0.5, 0.5),
         "B09": ("KW09", 0.5, d, 1.0, 1.0, 0.5, 0.5),
         "B10a": ("KW10", 0.5, d, 1.0, 1.0, 0.5, 0.5),
         "B11a": ("KW09", 2.0, d, 1.0, 2.2, 0.227, 0.77),   # r18: no tower, foot or reflection in the crop
-        "B10b": ("KW10", 2.5, d, 1.0, 1.8, 0.5, 0.8),
+        "B10b": ("KW10", 2.5, d, 1.0, 2.2, 0.25, 1.0),         # r19 (R8.3 #10): reeds and boats, beacons out
         "B11b": ("KW09", 3.5, d, 1.0, 2.4, 0.21, 0.63),    # r18: the shed pennant, tower out of the crop
         "B12a": ("KW11", 0.5, d, 1.0, 1.0, 0.5, 0.5),
         "B13a": ("KW12", 0.5, d, 1.0, 1.0, 0.5, 0.5),
@@ -273,15 +301,15 @@ def spec(cut):
         "C02": ("K11C", 0.5, d * 1.8, 1.8, 1 / 0.6, 0.28, 0.42),
         "C02L": ("KW05", 0.2, d, 1.0, 2.0, 0.36, 0.62, 0.26),
         "C03": ("K11C", 2.5, d * 1.8, 1.8, 1 / 0.6, 0.72, 0.42),
-        "C03L": ("KW03", 4.0, d, 1.0, 2.0, 0.35, 0.4),
+        "C03L": ("KW03", 4.0, d, 1.0, 2.0, 0.35, 1.0),         # r19 (R8.3 #9): the pump wings, Spire out
         "C04": ("KW14", 0.5, d * 1.6, 1.6, 1.5, 0.62, 0.36),
         "C05": ("KA11", 2.5, d * 1.8, 1.8, 2.6, 0.585, 0.43),
         "C06": ("KA11", 3.6, d * 1.8, 1.8, 2.6, 0.46, 0.40, 0.385),   # keyed on the hare (measured), no tracking
         "C06L": ("K05C", 3.5, d, 1.0, 1.8, 0.7, 0.5),
         "C07": ("KA11", 0.0, d * 1.6, 1.6, 4.0, 0.52, 0.38),
-        "C08": ("KW15", 0.0, d, 1.0, 1.0, 0.5, 0.5),
+        "C08": ("KW15", 0.0, d, 1.0, 1.45, 0.5, 1.0),          # r19 (R8.3 #3): below the Highwater skyline
         "C09": ("KW15", 1.5, d, 1.0, 1.8, 0.5, 0.6),
-        "C10": ("KW15", 3.0, d, 1.0, 1.3, 0.62, 0.55, 0.38),
+        "C10": ("KW15", 3.0, d, 1.0, 1.45, 0.62, 1.0, 0.38),   # r19 (R8.3 #3)
         "C12a": ("KW13", 3.0, d, 1.0, 1.0, 0.5, 0.5),
         "C12b": ("KW13", 3.45, d, 1.0, 1.3, 0.6, 0.5, 0.45),
     }
@@ -377,13 +405,14 @@ def build(cut):
         e = energy(p, (0.75, 1.0, 0.0, 1.0))
         base = float(np.median(e[1:20]))
         lean = next((f for f in range(12, len(e)) if e[f] > max(3 * base, base + 1.0)), int(1.25 * FPS))
-        ss = min(max(0.0, lean / FPS - 0.375 * 2), (len(e) - 1) / FPS - 3.0 - 0.06)
+        # r19 (gate И2): start 0.3 s of source before the lean (was 0.75 s): the near-still stack frames 433/435 go
+        ss = min(max(0.0, lean / FPS - 0.3), (len(e) - 1) / FPS - 3.0 - 0.06)
         SLIDES["A10"] = {"clip": "K10C", "lean_s": round(lean / FPS, 3), "used": round(ss, 3), "nominal": 0.5}
         s = piece(g, p, ss, 3.0, speed=2.0)
         s = tmix(g, s, 2)
         oi, o = g.still(tally_c(3)), g.lab()
         g.add(f"[{s}][{oi}]overlay=0:0:format=auto:shortest=1[{o}]")
-        return run(g, o, out)
+        return run(g, lpush(g, o, 1.07, 0.5, 0.6), out)      # r19 (И2): linear push, page and tally together
     if cut == "A11":   # KA11 1.0-2.5 s, its own pan right carries into the WHIP; POP 491
         s = piece(g, clip("KA11"), 1.0, 1.5)
         o = g.lab()
@@ -461,6 +490,8 @@ def build(cut):
         s = an.shake(g, tmix(g, s, 3), [(0, 6, 9)])
     if cut in ("A04a", "A04b", "A05a", "A05b", "B12a", "B12b", "B12c", "B12d"):
         s = an.mist(g, s, 0.12)
+    if cut in ("B02a", "B02b"):                        # r19 (И6): the slow Choir never reads as a still
+        s = lpush(g, s, 1.08 if cut == "B02a" else 1.05, 0.5, 0.45)
     if cut in ("B07a", "B07b"):
         s = an.dust(g, s, 0.4)
     if cut in ("B11a", "B11b"):
@@ -482,9 +513,9 @@ def build(cut):
     if cut in ("C09", "C10"):
         s = an.shake(g, s, [(1, 6, 9)])
     if cut == "C01a":
-        s = an.shake(g, an.ink(g, s, 0), [(0, 12, 3)])
+        s = an.shake(g, ink_safe(g, s, 0), [(0, 12, 3)])
     if cut == "C08":
-        s = an.ink(g, s, 0)
+        s = ink_safe(g, s, 0)
     return run(g, s, out)
 
 
@@ -528,7 +559,9 @@ def build_title():
     """C13 (LOGO.md §4, v1.3 on LOGO_C): hit 1981 = local 1; INK + torn spray wipe 1981-1992 (the KA01 strike, 12
     frames around its peak, screened on the outgoing picture only, so it leaves with the wipe edge); logo lands
     114 % -> 100 % over 8 frames, wet above the tide line only; drain 1989-2004; glint 2016-2039; drop gathers 2020 and
-    leaves 2040; K17C 0.0-4.5 s at 1x full frame +3 % push under the plate band; fade in the master."""
+    leaves 2040; K17C 0.0-4.5 s at 1x full frame +4 % linear push under the plate band; fade in the master.
+    r19 (gate И3): the glint runs 2000-2040 (was 2016-2039) right after the drain, and the whole cut takes a 3 % sub-pixel
+    push, so no frame of the logo hold repeats (default mpdecimate dropped 2007-2015 in v1)."""
     cut = "C13"
     g = an.G(cut)
     out = f"{an.SEG}/{cut}.mp4"
@@ -539,7 +572,7 @@ def build_title():
     last = (nframes(kw) - 1) / FPS
     a = piece(g, kw, max(0.0, last - 0.65), 0.6, z=1.3, cx=0.45, cy=0.45)
     a = grade_gold(g, a)
-    a = an.ink(g, a, hit)
+    a = ink_safe(g, a, hit)
     # KA01 spray, 12 frames around the burst peak, luma-keyed (the bright spray only) and screened on the outgoing;
     # KA01 failed twice -> the free SPRAY particles alone (board §4 C13 fallback)
     if "KA01" in FAILED:
@@ -559,12 +592,24 @@ def build_title():
 
 def title_rest(g, a, hit, out, L):
     b = piece(g, clip("K17C"), 0.0, 4.5)
-    b = an.vpush(g, b, 1.0, 1.03, 0.5, 0.3)
+    b = lpush(g, b, 1.04, 0.5, 0.3)                    # r19 (И3): linear, the clouds and plate never stall
     bi, ob_ = g.still(plate_band_c()), g.lab()
     g.add(f"[{b}][{bi}]overlay=0:0:format=auto:shortest=1[{ob_}]")
     w = g.lab()
-    g.add(f"[{a}]settb=AVTB,fps={FPS}[{w}a];[{ob_}]settb=AVTB,fps={FPS}[{w}b];[{w}a][{w}b]xfade=transition=custom:"
-          f"duration=0.5:offset={hit / FPS:.5f}:expr='if(gt(Y/H+0.06*sin(X/W*23)+0.03*sin(X/W*71),P*1.12),B,A)'[{w}]")
+    # r19 (keeper R8.3 #4): a ragged WHITE spray wall, not a smooth dark wave edge. In gbrp (one edge for all planes):
+    # e = height + three irregular sines + a static per-pixel jitter; d = e - threshold(P). Above the wall: the outgoing
+    # picture; a torn speckled crest (d < 0.05), a dense white body (< 0.13), then spray thinning to speckles onto the
+    # plate (< 0.25). The speckle hash moves with P, so the spray boils; no dark body of water behind the edge.
+    # (no st()/ld(): xfade runs in slice threads and the expression's variable store is shared -> garbage)
+    h5 = "(sin(X*12.9898+Y*78.233)*437.585-floor(sin(X*12.9898+Y*78.233)*437.585))"
+    h6 = "(sin(X*39.346+Y*11.135+P*317.3)*246.346-floor(sin(X*39.346+Y*11.135+P*317.3)*246.346))"
+    d = (f"(Y/H+0.035*sin(X/W*37.7+1.3)+0.02*sin(X/W*91.3+4.1)+0.012*sin(X/W*211.7+0.5)+0.03*({h5}-0.5)"
+         f"-(P*1.45-0.35))")
+    wh = f"(200+50*{h6})"
+    wipe = (f"if(lt({d},0),A,if(lt({d},0.05),if(lt({h6},0.15+17*{d}),{wh},A),"
+            f"if(lt({d},0.13),{wh},if(lt({d},0.25),if(lt({h6},1-({d}-0.13)/0.12),{wh},B),B))))")
+    g.add(f"[{a}]settb=AVTB,fps={FPS},format=gbrp[{w}a];[{ob_}]settb=AVTB,fps={FPS},format=gbrp[{w}b];[{w}a][{w}b]xfade=transition=custom:"
+          f"duration=0.5:offset={hit / FPS:.5f}:expr='{wipe}'[{w}]")
     lp, TIDE, LH = logo_c()
     s0 = hit
     li = g.still(lp)
@@ -572,7 +617,7 @@ def title_rest(g, a, hit, out, L):
     g.add(f"[{li}]format=rgba,split=3[{lg}d][{lg}w0][{lg}g0];"
           f"[{lg}w0]eq=brightness=-0.16:saturation=0.75,colorbalance=bs=0.08:bm=0.05,"
           f"geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='alpha(X,Y)*lt(Y,{TIDE})*clip((Y-{TIDE}*clip((N-{s0 + 8})/16,0,1))/10+1,0,1)*(1-clip((N-{s0 + 23})/6,0,1))'[{lg}w];"
-          f"[{lg}g0]geq=r=235:g=242:b=250:a='alpha(X,Y)*lt(Y,{TIDE})*0.32*exp(-pow((X-0.35*Y-(-300+(W+600)*clip((N-{s0 + 35})/24,0,1)))/34,2))'[{lg}g];"
+          f"[{lg}g0]geq=r=235:g=242:b=250:a='alpha(X,Y)*lt(Y,{TIDE})*0.32*exp(-pow((X-0.35*Y-(-100+(W+400)*clip((N-{s0 + 19})/40,0,1)))/34,2))'[{lg}g];"
           f"[{lg}d][{lg}w]overlay=0:0:format=auto[{lg}1];[{lg}1][{lg}g]overlay=0:0:format=auto,"
           f"scale=w='2*trunc(iw*if(lt(n,{s0 + 8}),1.14-0.14*clip((n-{s0})/8,0,1),1)*(1+0.015*n/108)/2)':h=-2:eval=frame[{lg}]")
     o = g.lab()
@@ -587,7 +632,37 @@ def title_rest(g, a, hit, out, L):
           f"eval=frame:enable='gte(t,{t_g0:.3f})':shortest=1[{d_}]")
     o2 = g.lab()
     g.add(f"[{d_}]trim=end_frame={g.n},format=yuv420p,setsar=1[{o2}]")
-    return run(g, o2, out)
+    tmp = out.replace(".mp4", "_nopush.mp4")
+    run(g, o2, tmp)
+    return subpix_push(tmp, out, C13_PUSH)               # r19 (И3): 3 % linear push on logo + plate, all 108 frames
+
+
+C13_PUSH = 1.03
+
+
+def subpix_push(src, dst, z1):
+    """r19: a linear push about the frame centre with SUB-PIXEL scale (OpenCV warpAffine, bicubic), so a slow push
+    (3 % over 108 frames = 0.5 px a frame) changes every frame; ffmpeg's integer scale steps every ~4 frames and
+    freezedetect sees 4-frame holds."""
+    cap = cv2.VideoCapture(src)
+    fr = []
+    while True:
+        ok, f = cap.read()
+        if not ok:
+            break
+        fr.append(f)
+    n = len(fr)
+    p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}", "-r", str(FPS),
+                          "-i", "-", "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
+                          "-pix_fmt", "yuv420p", dst], stdin=subprocess.PIPE)
+    for i, f in enumerate(fr):
+        s = 1 + (z1 - 1) * i / max(1, n - 1)
+        M = np.float32([[s, 0, (1 - s) * W / 2], [0, s, (1 - s) * H / 2]])
+        p.stdin.write(cv2.warpAffine(f, M, (W, H), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT).tobytes())
+    p.stdin.close()
+    if p.wait():
+        raise RuntimeError("subpix_push failed")
+    return dst
 
 
 # ---------------------------------------------------------------------------------------------- master ---
@@ -597,7 +672,7 @@ def master():
         for c, _, _ in CUTS:
             f.write(f"file '{an.SEG}/{c}.mp4'\n")
     bug = f"{WK}/bug.txt"
-    open(bug, "w").write("ANIME-STYLE · AI-ANIMATED")
+    open(bug, "w").write("AI-ANIMATED")                 # r19 (gate И1)
     pre = f"atrim=0:{an.TOTAL / FPS},asetpts=PTS-STARTPTS,afade=t=out:st={an.FADE_ST}:d={an.FADE_D}"
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", an.MUSIC, "-af", f"{pre},loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json",
                         "-f", "null", "-"], capture_output=True, text=True)
@@ -613,7 +688,7 @@ def master():
            "-frames:v", str(an.TOTAL), "-r", str(FPS), "-c:v", "libx264", "-profile:v", "high", "-preset", "slow",
            "-crf", "14", "-tune", "film", "-g", "48", "-maxrate", "40M", "-bufsize", "80M",
            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-t", f"{an.TOTAL / FPS}",
-           "-metadata", "comment=AI-generated (Kling 2.5 TP, Nano Banana 2); HOLLOWSTONE saga OP style C v1",
+           "-metadata", "comment=AI-generated (Kling 2.5 TP, Nano Banana 2); HOLLOWSTONE saga OP style C v1.1",
            "-movflags", "+faststart", OUT]
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode:
@@ -645,7 +720,7 @@ def contact(path, step=0.5):
         x, y = (k % cols) * (TW + 4), (k // cols) * (TH + 18)
         im.paste(Image.fromarray(f), (x, y))
         d.text((x + 3, y + TH + 2), f"{idx[k] / FPS:.1f}s f{idx[k]} {sa.cut_of(idx[k])}", fill=(240, 230, 190), font=font)
-    p = f"{CONTACT}/SAGA_OP_C_v1_contact_0.5s.jpg"
+    p = f"{CONTACT}/SAGA_OP_C_v1_1_contact_0.5s.jpg"
     im.save(p, quality=88)
     return p
 
@@ -657,9 +732,10 @@ def probe(path):
     f = np.frombuffer(raw, np.uint8).reshape(H, W, 3).astype(np.float32).mean(-1)
     lp, tide, lh = logo_c()
     al = np.asarray(Image.open(lp))[..., 3].astype(np.float32) / 255
-    s = 1 + 0.015 * (2028 - 1980) / 108
+    P = 1 + (C13_PUSH - 1) * (2028 - 1980) / 107                   # r19: the C13 push about the frame centre
+    s = (1 + 0.015 * (2028 - 1980) / 108) * P
     al = cv2.resize(al, (int(1300 * s), int(lh * s)))
-    y0, x0 = int(660 - al.shape[0] / 2), int((W - al.shape[1]) / 2)
+    y0, x0 = int(540 + (660 - 540) * P - al.shape[0] / 2), int((W - al.shape[1]) / 2)
     m = np.zeros((H, W), np.float32)
     m[y0:y0 + al.shape[0], x0:x0 + al.shape[1]] = al
     t = y0 + int(tide * s)
