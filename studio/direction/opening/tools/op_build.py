@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""S1 OP v1 build without K13 ($0, ffmpeg + PIL). Storyboard v1.4, 87.0 s, 24 fps, 1920x1080, music v2a.
+"""S1 OP v2 build ($0, ffmpeg + PIL). Storyboard v1.4 + keeper R3, 87.0 s, 24 fps, 1920x1080, music v2a.
+
+v2 (keeper R3, 2026-11-24): 10 = K07_fix (dike span + jet painted out, tracked; op_r3_fixes.py); 14 = no ink mark;
+18/23 = F18/F23 with sunwise borders (+ Spire on F18); 25 = K01 t2 frames 0-12 only, then LA on F01_op (4-frame
+dissolve under extra spray), push-in 0-2 on the beat, one flash frame on 1371, INK/SHAKE/SPRAY/RAIN as before;
+26 = K18_fix (halo graded out); 27 = K14 frames 0-17 at 0.5x with frame blend (minterpolate blend); 31-32 = K13
+(when accepted in clips/_accept.json) instead of the ripple placeholder. Output: output/opening/S1_OP_v2.mp4
+v1 notes:
 
   python3 -I op_build.py [--only 25,33] [--jobs 4] [--no-final]
 
@@ -41,7 +48,8 @@ L_ = an.loc
 KCLIP = {k: f"{CL}/{k}.mp4" for k in ("K01", "K01a", "K03", "K04", "K05", "K07", "K08", "K09", "K10", "K11", "K12",
                                        "K14", "K15", "K16", "K17", "K18")}
 FALLBACK = set()             # clips that failed twice (filled from clips/_accept.json)
-OUT = f"{OUTD}/S1_OP_v1_noK13.mp4"
+OUT = f"{OUTD}/S1_OP_v2.mp4"
+FIXED = {"K07": "K07_fix.mp4", "K18": "K18_fix.mp4"}     # keeper R3 patches (op_r3_fixes.py)
 
 
 def load_accept():
@@ -53,6 +61,12 @@ def load_accept():
                 KCLIP[k] = f"{CL}/{v['use']}"
             if v.get("fallback"):
                 FALLBACK.add(k)
+    for k, f in FIXED.items():
+        if os.path.exists(f"{CL}/{f}"):
+            KCLIP[k] = f"{CL}/{f}"
+    acc = json.load(open(p)) if os.path.exists(p) else {}
+    if acc.get("K13", {}).get("use"):
+        KCLIP["K13"] = f"{CL}/{acc['K13']['use']}"
 
 
 def kc(g, kid, ss, t, speed=1.0, z=1.0, fx=0.5, fy=0.5, threes=False):
@@ -170,9 +184,8 @@ def build(cut):
         s = kc(g, "K10", 0.5, 3.0, z=1.05)
         o = g.lab()
         T = g.n / FPS
-        # variant A (E1): one bold ink tally stroke in the clean left margin; rotate-push 3 deg, 8 %, ends on the margin
-        g.add(f"[{s}]drawbox=x=575:y=520:w=16:h=118:color=0x1a171c@0.92:t=fill,"
-              f"scale={W * 2}:{H * 2},rotate=a='0.052*{an.ease(f't/{T:.3f}')}':c=black,"
+        # keeper R3.2-4: the ink tally stroke read as a letter "I" (OP-10) and is gone; rotate-push 3 deg, 8 %
+        g.add(f"[{s}]scale={W * 2}:{H * 2},rotate=a='0.052*{an.ease(f't/{T:.3f}')}':c=black,"
               f"zoompan=z='1.10+0.08*{an.ease(f'on/{g.n - 1}')}':x='(iw-iw/zoom)*(0.45-0.40*{an.ease(f'on/{g.n - 1}')})':"
               f"y='(ih-ih/zoom)*0.5':d=1:s={W}x{H}:fps={FPS},setsar=1[{o}]")
         return fin(g, o, out)
@@ -193,14 +206,7 @@ def build(cut):
         s = an.shake(g, s, [(1, 5, 9)]) if cut == "19" else s
         return fin(g, s, out)
     if cut == "25":
-        if not ok("K01"):
-            return an.build(cut)
-        s = kc(g, "K01", 0.0, g.n / FPS)
-        s = an.spray_burst(g, s, 0.6, 0.5, 0.35)
-        s = an.rain(g, s)
-        s = an.ink(g, s, L(1369))
-        s = an.shake(g, s, [(L(1369), 20, 4)])
-        return fin(g, s, out)
+        return build_25(g, out)
     if cut == "26":
         # 1.4x on the planks: the two big lamp heads are out of frame (OP-3), the small far lamps stay small
         s = kc(g, "K18", 0.5, 1.5, z=1.4, fx=0.5, fy=1.0) if ok("K18") else an.zp(g, g.still(A["F26"]), 1.4, 1.43, 0.5, 0.5, 1.0, 1.0)
@@ -208,7 +214,15 @@ def build(cut):
         s = an.shake(g, s, [(L(1441), 8, 9)])
         return fin(g, s, out)
     if cut == "27":
-        s = kc(g, "K14", 0.0, 1.5) if ok("K14") else an.zp(g, g.still(A["F27"]), 1.0, 1.04, 0.5, 0.5, 0.5, 0.5)
+        if ok("K14"):
+            # keeper R3.2-5: frames 0-17 only (the crest stays at the outer parapet), at 0.5x with frame blend
+            i, o = g.clip(KCLIP["K14"], 0.0, 1.0), g.lab()
+            g.add(f"[{i}]trim=end_frame=18,setpts=2*(PTS-STARTPTS),minterpolate=fps={FPS}:mi_mode=blend,"
+                  f"scale={W + 4}:{H + 4}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
+                  f"tpad=stop_mode=clone:stop_duration=2[{o}]")
+            s = o
+        else:
+            s = an.zp(g, g.still(A["F27"]), 1.0, 1.04, 0.5, 0.5, 0.5, 0.5)
         s = an.spray_burst(g, s, 0.45, 0.35, 0.35)
         s = an.rain(g, an.mist(g, s, 0.15), darken=False)
         s = an.pop(g, s, [1])
@@ -233,9 +247,103 @@ def build(cut):
         s = kc(g, "K16", 0.5, 3.0)
         s = an.rain(g, s)
         return fin(g, s, out)
+    if cut in ("31", "31b", "31c") and "K13" in KCLIP:
+        piece = {"31": 0.0, "31b": 1.5, "31c": 3.0}[cut]
+        z, fx, fy = {"31": (1.0, 0.5, 0.5), "31b": (1.5, 0.62, 0.38), "31c": (1.3, 0.49, 0.10)}[cut]
+        s = kc(g, "K13", piece, 1.5, z=z, fx=fx, fy=fy)
+        if cut == "31":
+            s = an.vpush(g, s, 1.0, 1.05)
+            s = an.ink(g, s, L(1657))
+        else:
+            s = an.shake(g, s, [(1, 6, 9)])
+        return fin(g, s, out)
+    if cut == "32" and "K13" in KCLIP:
+        return build_32(g, out)
     if cut == "33":
         return build_33(g, out)
     return an.build(cut)          # 02, 03, 05, 13, 13b, 15, 16, 17, 23, 24, 24b, 31-32b: the v1.3 recipes on the new plates
+
+
+def build_25(g, out):
+    """keeper R3.2-1: K01 t2 frames 0-12 only (the dike stays whole), then LA on F01_op (= K01 frame 0) through a
+    4-frame dissolve under a second spray burst; push-in 1.00 -> 1.10 over frames 0-2 on the beat (1369), then
+    1.10 -> 1.14 to the end; INK 1369-1370, one flash frame 1371, SHAKE 20 px / 1 s, SPRAY, RAIN."""
+    L = lambda f: L_("25", f)
+    o = g.lab()
+    if os.path.exists(KCLIP["K01"]) and "K01" not in FALLBACK:
+        i = g.clip(KCLIP["K01"], 0.0, 1.0)
+        g.add(f"[{i}]trim=end_frame=13,setpts=PTS-STARTPTS,fps={FPS},scale={W + 4}:{H + 4}:force_original_aspect_ratio=increase,"
+              f"crop={W}:{H},setsar=1,tpad=stop_mode=clone:stop_duration=1,settb=AVTB[{o}a]")
+        bi = g.still(A["F01"])
+        g.add(f"[{bi}]fps={FPS},format=yuv420p,setsar=1,settb=AVTB[{o}b];[{o}a]format=yuv420p[{o}a2];"
+              f"[{o}a2][{o}b]xfade=transition=fade:duration={4 / FPS:.5f}:offset={13 / FPS:.5f}[{o}]")
+    else:
+        g.add(f"[{g.still(A['F01'])}]fps={FPS},setsar=1[{o}]")
+    s, p = o, g.lab()
+    zexpr = f"(1+0.10*min(t*{FPS},2)/2+0.04*max(0,t*{FPS}-2)/{g.n - 3})"
+    g.add(f"[{s}]scale=w='2*trunc({W}*{zexpr}/2)':h=-2:eval=frame,crop={W}:{H}:x='(iw-ow)*0.5':y='(ih-oh)*0.55',setsar=1[{p}]")
+    s = an.spray_burst(g, p, 0.6, 0.5, 0.35)
+    s = an.spray_burst(g, s, 0.45, 0.40, 0.55)                                   # extra spray on the hit
+    s = an.spray_burst(g, s, 0.55, 0.45, 0.6, t0=11 / FPS, dur=1.2)              # covers the K01 -> LA dissolve
+    s = an.rain(g, s)
+    s = an.ink(g, s, L(1369))
+    f = g.lab()
+    g.add(f"[{s}]eq=brightness=0.55:contrast=0.55:saturation=0.15:enable='eq(n,{L(1371)})'[{f}]")
+    s = an.shake(g, f, [(L(1369), 20, 4)])
+    return fin(g, s, out)
+
+
+def k13_32():
+    """cut 32 source: K13 from 0.0 s (ship positions closest to the plates), retimed with half the v1 ripple speed
+    integral (0.5, 0.3, 0.15, 0.075 per 1.5 s; the sea slows as the glass takes it) by linear frame blending, so the
+    slow drift of two small ships stays <= ~5 plate px while A is still visible; H2 sky band on top (as H1sky)."""
+    import numpy as np
+    import cv2
+    out = f"{an.WK}/K13_32.mp4"
+    cap = cv2.VideoCapture(KCLIP["K13"])
+    fr = []
+    while True:
+        ok_, f = cap.read()
+        if not ok_:
+            break
+        fr.append(cv2.resize(f, (W, H), interpolation=cv2.INTER_LANCZOS4) if f.shape[:2] != (H, W) else f)
+    h2 = cv2.imread(A["H2"])
+    sky = np.zeros((H, W), np.float32)
+    sky[:int(H * 0.15)] = 1
+    sky = cv2.GaussianBlur(sky, (0, 0), 5)[..., None]
+
+    def spd(t):
+        return min(t, 1.5) + 0.6 * min(max(t - 1.5, 0), 1.5) + 0.3 * min(max(t - 3, 0), 1.5) + 0.15 * max(t - 4.5, 0)
+    p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}", "-r", str(FPS),
+                          "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p", out],
+                         stdin=subprocess.PIPE)
+    for n in range(144):
+        x = min(0.5 * spd(n / FPS) * FPS, len(fr) - 1.001)
+        i0 = int(x)
+        a = x - i0
+        f = fr[i0].astype(np.float32) * (1 - a) + fr[i0 + 1].astype(np.float32) * a
+        f = f * (1 - sky) + h2.astype(np.float32) * sky
+        p.stdin.write(np.clip(f, 0, 255).astype(np.uint8).tobytes())
+    p.stdin.close()
+    p.wait()
+    return out
+
+
+def build_32(g, out):
+    """GLASS R2.4 unchanged (four even full-frame steps to H2), the A side is K13 instead of the ripple."""
+    L = lambda f: L_("32", f)
+    ai, a = g.clip(k13_32(), 0.0, 6.5), g.lab()
+    g.add(f"[{ai}]setpts=PTS-STARTPTS,fps={FPS},setsar=1,format=yuv420p[{a}]")
+    bi, b = g.still(A["H2"]), g.lab()
+    g.add(f"[{bi}]format=yuv420p,settb=AVTB,fps={FPS}[{b}]")
+    o = g.lab()
+    g.add(f"[{a}]settb=AVTB,fps={FPS}[{o}a];[{o}a][{b}]xfade=transition=custom:duration=6:offset={1 / FPS:.5f}:"
+          "expr='st(0,(1-P)*4);st(1,ld(0)-floor(ld(0)));st(2,(floor(ld(0))+min(1,ld(1)*3))/4);"
+          f"A*(1-ld(2))+B*ld(2)'[{o}]")
+    steps = [L(f) for f in (1765, 1801, 1837, 1873)]
+    s = an.pop(g, o, steps)
+    s = an.shake(g, s, [(f, 6, 9) for f in steps])
+    return fin(g, s, out)
 
 
 def build_33(g, out):

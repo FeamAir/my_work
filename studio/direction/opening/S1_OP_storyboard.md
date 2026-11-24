@@ -365,3 +365,18 @@ Run cap (gate R2 §5): `STUDIO_ALLOW_PAID=1 BUDGET_LIMIT_USD=64`; the log before
    - F18 and F23 also fix pilot Sc 5 and Sc 4, and their $0.16 is booked here;
    - where the Sluice Spire stands on the other plates is for the lead screenwriter.
 8. **IT engineer:** the ffmpeg build has no `vidstab`. Use `deshake` or a manual crop shift to align K13 with H2.
+
+## v1.5 — keeper R3 changes (2026-11-24, assembly v2)
+
+Picture lock and timing unchanged (87.0 s, 2088 frames). Only the recipes below change; everything else is v1.4.
+
+| Cut | v1.5 recipe | Why (R3) |
+|---|---|---|
+| 10 | K07 with the centre dike span rebuilt as plain brick and the jet under it painted out, tracked per frame (`K07_fix.mp4`); F10_op patched the same way | R3.2-3: read as a sluice / gate (OP-5) |
+| 14 | No ink stroke in the margin (variant A dropped); rotate-PUSH as before | R3.2-4: the stroke read as "I" (OP-10) |
+| 18 | F18_op: border strips mirrored one by one (sunwise); the keep tower redrawn as a Spire (smooth black cone, ring of open arches, "/" grooves) | R3.2-2, R3.2-6 |
+| 23 | F23_op: border strips mirrored one by one (sunwise) | R3.2-2 |
+| 25 | K01 t2 frames 0–12 only, 4-frame dissolve to LA on F01_op under a second spray burst; push-in 1.00→1.10 on 1369–1371 then 1.10→1.14; INK 1369–1370; one flash frame 1371; SHAKE 20 px / 1 s; SPRAY ×3; RAIN | R3.2-1: no dike breach on screen |
+| 26 | K18 with the halo of the two near wall lamps graded down to the wall (`K18_fix.mp4`); the lamps stay lit | R3.2-7 |
+| 27 | K14 frames 0–17 at 0.5× with frame blend; the crest stays at the outer parapet | R3.2-5 |
+| 31–32 | K13 (paid, take 1) with the six H1 lamp heads pasted statically (Kling lit them); 31/31b/31c = 0–1.5 / 1.5–3.0 / 3.0–4.5 s; 32 = 0–1.4 s retimed under GLASS | R3.1 |

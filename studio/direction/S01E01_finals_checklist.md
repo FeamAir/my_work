@@ -1,6 +1,6 @@
 # S01E01 — finals checklist (key frames, video, mix)
 
-Version 1.0 · 2026-11-24 · author: director (режиссёр-постановщик) · basis: animatic v3 (19:51.00)
+Version 1.1 · 2026-11-24 (G17 added, keeper R3) · author: director (режиссёр-постановщик) · basis: animatic v3 (19:51.00)
 Sources merged: `reports/qa-animatic-v2-2026-11-24.md` (V1–V14, C1–C7, A6, A8), `reports/lore-animatic-v2-2026-11-24.md` (items 1–21), `reports/analyst-animatic-v2-2026-11-24.md` §7 (finals-only items), `continuity_check.md` §9.5–9.6, v1 notes §3 (still open).
 **Binding for every finals prompt and for key-frame acceptance.** A prompt that touches a shot below must carry the listed wording; the acceptance check looks at the "check first" item before anything else and rejects the take if it fails. Shot ids are the stable shot-list ids (v3 shot list: `shotlists/S01E01_shotlist.md`). Nothing here changes timing: picture lock stays as v3.
 
@@ -34,6 +34,7 @@ QA V1 / CH-0048 card: the model mirrors the amputation in every frontal portrait
 | G14 | **E-shots (lip-sync):** key frame accepted only after the side checks above; then base clip, then lip-sync. | QA V6 |
 | G15 | **Video model:** anything with the shard, a Spire, Ione or night water → Kling (3 Pro for D), never MiniMax (4 of 5 MiniMax drafts added glow). Motion prompt carries "nothing glows, no light change". | v1 notes |
 | G16 | **Mix (finals):** limiter before loudnorm so pass 2 stays linear; ride the level jumps in Sc 15 / 15a. | QA A8, A6 |
+| G17 | **[B] Tapestry border spirals run AGAINST the sun in the sources** `refs/TAPESTRY/E06_panel2_v1.png` and `E06_panel5_v1.png` (pilot Sc 4 / Sc 5): from the centre outward they turn counter-clockwise, the SEC-016 clue (S06E03). Before any pilot frame or clip uses them: mirror each border strip on its own inside its own bounds (top/bottom left-right along the strip, sides across their width, fringe kept), field untouched, no whole-frame flip (OP-11); recipe = `opening/tools/op_r3_fixes.py` `flip_border()`. Check: lay `H16` over a border spiral, the outward run must match (clockwise). Never write "clockwise border" in a prompt and trust it: NB2 copies the reference's hand. Not a canon change: a pass on our derived copies only. | keeper R3.2-2 (lore-op-2026-11-24) |
 
 ## 2. Per-shot checklist
 
