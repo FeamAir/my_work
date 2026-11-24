@@ -135,6 +135,16 @@ def v3_sound(by, tracks):
     ev += [("sc20-sh010", "synth/death_tone_v1", 0.3, -8, "fx", wall), ("sc20-sh070", "synth/death_tone_v1", 0, -6, "fx", wall)]
     t0 = by["sc20-sh080"]["tc"] + 3.4
     t1 = by["sc20-sh230"]["tc"] + by["sc20-sh230"]["dur"]
+    # Sc 9 (verify_vo found 2.75 s of digital silence at sh080 in v2/v3): the tone and the hum hold until sh170
+    ev = [e for e in ev if e[1] not in ("synth/ione_c5_v1", "synth/spire_hum_c2c3_v1")]
+    end9 = by["sc09-sh170"]["tc"] + 1.5
+    for tid, f, a, b, g, stem in (("mus_sc09_ione_near", "ione_c5_bed_v1", by["sc09-sh030"]["tc"] + 1.0, by["sc09-sh100"]["tc"], -2, "mus"),
+                                  ("mus_sc09_ione_far", "ione_c5_bed_v1", by["sc09-sh100"]["tc"], by["sc09-sh170"]["tc"] + 0.5, -12, "mus"),
+                                  ("fx_sc09_hum_near", "spire_hum_bed_v1", by["sc09-sh040"]["tc"], by["sc09-sh100"]["tc"], -4, "fx"),
+                                  ("fx_sc09_hum_far", "spire_hum_bed_v1", by["sc09-sh100"]["tc"], end9, -12, "fx")):
+        tracks.append({"id": tid, "stem": stem, "path": f"../audio/synth/{f}.wav", "start": round(a, 3),
+                       "duration": round(b - a, 3), "fade_in": 0.8 if "near" in tid else 0.4,
+                       "fade_out": 0.4 if "near" in tid else 1.5, "gain_db": g})
     tracks.append({"id": "fx_sc20_stone_bed", "stem": "fx", "path": "../audio/synth/stone_bed_v1.wav",
                    "start": round(t0, 3), "duration": round(t1 - t0, 3), "fade_in": 1.2, "fade_out": 0.3,
                    "gain_db": -4})

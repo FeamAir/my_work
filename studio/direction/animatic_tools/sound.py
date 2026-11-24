@@ -175,7 +175,13 @@ def cmd_bed():
     bb1 = hz("Bb1")
     stone = [(bb1, 1.0), (bb1 * 2, 0.5), (bb1 * 3, 0.35), (bb1 * 4, 0.3), (hz("Bb4"), 0.08), (hz("F5"), 0.06)]
     tone(f"{SYN}/stone_bed_v1.wav", 60, stone, attack=0.5, release=2.0, beat_hz=2.5, gain=0.35)
-    print(f"{SYN}/stone_bed_v1.wav")
+    # Sc 9: the Crown Spire's hum and Ione's tone hold from sh040 / sh030 until the tone ends at sh170 (spec)
+    tone(f"{SYN}/spire_hum_bed_v1.wav", 60, [(hz("C2"), 1), (hz("C3"), 0.6), (hz("G3"), 0.15)], attack=3, release=2,
+         beat_hz=0.5, gain=0.3)
+    c5 = hz("C5")
+    tone(f"{SYN}/ione_c5_bed_v1.wav", 60, [(c5, 1), (c5 * 2, 0.3), (c5 * 3, 0.1)], attack=0.8, release=1.5,
+         beat_hz=5.0, gain=0.22)
+    print("beds ok")
 
 
 if __name__ == "__main__":
