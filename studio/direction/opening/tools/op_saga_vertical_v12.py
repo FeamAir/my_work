@@ -36,22 +36,19 @@ LOGO_RGBA = f"{b.SEG}/C13_logo_rgba.mov"
 CARD = (1981, 2087)
 LOGO_W, LOGO_CY = 760, 1173
 
+# V3 starts on 941 (0:39.21), not 0:38.8: no Gullmouth neighbour (marketer: Ossari only with the logo) and the
+# B07a whip-in (936-940) is a blur, not a first frame.
 # teaser -> (first frame, last frame, keys {cut: [x0, x1] | "LB"}); frames of the 87.0 s OP at 24 fps
 T = {
     "V1": ("The Drop", 1272, 1475, {"B13c": [656], "B12d": [760], "B13d": [656], "B14": [600, 700], "B15": [656],
-                                    "B16": [656], "C01a": "LB", "C01b": "LB", "C02": [560, 540], "C02L": [656]}),
-    "V2": ("Raise your banner", 1440, 1655, {"C02": [560, 540], "C02L": [656], "C03": [420, 480], "C03L": [200],
-                                             "C04": "LB", "C05": [260], "C05L": [1180], "C06": [640, 680],
-                                             "C06L": [200], "C07": [640]}),
-    "V3": ("Kite sky", 936, 1079, {"B07a": [656], "B08a": [656], "B07b": [656], "B08b": [656]}),
-    "V4": ("Highwater groove", 288, 491, {"A06": [400], "A07": [656], "A08": [210], "A09": [656], "A10": [480],
+                                    "B16": [656], "C01a": "LB", "C01b": "LB", "C02": [640, 620], "C02L": [656]}),
+    "V2": ("Raise your banner", 1440, 1655, {"C02": [640, 620], "C02L": [656], "C03": [820, 880], "C03L": [200],
+                                             "C04": "LB", "C05": [620, 660], "C05L": [1180], "C06": [600, 640],
+                                             "C06L": [640], "C07": [160, 240]}),
+    "V3": ("Kite sky", 941, 1079, {"B07a": [656], "B08a": [656], "B07b": [656], "B08b": [656]}),
+    "V4": ("Highwater groove", 288, 491, {"A06": [400], "A07": [656], "A08": [210], "A09": [656], "A10": [400],
                                           "A11": [0, 400]}),
 }
-
-
-def keys_override():
-    """measured keys (set after the review sheets; see the r20 report)."""
-    return {}
 
 
 def read_frames(path, f0, f1, rgba=False):
@@ -77,8 +74,9 @@ def crop_x(f, x):
 
 
 def letterbox(f):
-    back = cv2.resize(f[:, (an.W - CW) // 2:(an.W + CW) // 2], (VW, VH), interpolation=cv2.INTER_LINEAR)
-    back = cv2.GaussianBlur(back, (0, 0), 38)
+    # a colour field, not a picture: the frame shrunk to 9 x 16 and smoothed back up (no Spire shape survives in it)
+    small = cv2.resize(f[:, (an.W - CW) // 2:(an.W + CW) // 2], (9, 16), interpolation=cv2.INTER_AREA)
+    back = cv2.GaussianBlur(cv2.resize(small, (VW, VH), interpolation=cv2.INTER_CUBIC), (0, 0), 60).astype(np.float32)
     grey = cv2.cvtColor(cv2.cvtColor(back, cv2.COLOR_BGR2GRAY), cv2.COLOR_GRAY2BGR)
     back = (0.5 * back + 0.5 * grey) * 0.5
     fg = cv2.resize(f, (VW, int(round(VW * an.H / an.W))), interpolation=cv2.INTER_LANCZOS4)
@@ -108,7 +106,6 @@ def put_badge(fr, bd, x=60, y=262):
 
 def body(name):
     title, f0, f1, keys = T[name]
-    keys = {**keys, **keys_override().get(name, {})}
     fr = read_frames(SRC, f0, f1)
     out = []
     for i, f in enumerate(fr):

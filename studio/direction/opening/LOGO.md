@@ -1,7 +1,9 @@
-# HOLLOWSTONE logotype — "Tidemark" (v1.3, 2026-11-24)
+# HOLLOWSTONE logotype — "Tidemark" (v1.4, 2026-11-24)
 
 Owner: concept artist. Used in: OP cut 33 / SAGA OP C13 (title sting 1:22.5–1:27.0), posters, thumbnails, end card.
 Assets: `studio/direction/refs/LOGO/` (copies of `studio/art/logo/final/`). Source frame: `studio/art/logo/gen/LOGO_A2_v1.png` (NB2, seed 410722).
+v1.4 (director, r20, gate v1.1 И10/И11): §4 brought in line with the built C13 (SAGA OP C v1.1/v1.2): the glint runs **2000–2040** (was 2016–2039; r19 moved it right after the drain so the hold never stalls, the keeper R9.2: timing, not canon); the logo layer has **no own push** any more (its integer `scale … (1+0.015*n/108)` stepped the width 2 px every ~11 frames = a 1-px letter jump, gate И10): the slow push is one sub-pixel whole-frame push of 3 % (OpenCV, `op_saga_build_c.subpix_push`); vertical end card (9:16) in §4.1.
+
 v1.3 (director, gate 2026-11-24 B1/B5: the keeper's R3.3 lines of `reports/lore-saga-op-2026-11-24.md` put into §6 word for word — LOGO_C keeps its own soft light, no `{SIGNATURE_C}`/`{PHONE}`; `#5C6B72` measured on the letter faces; no single-letter render; acceptance with six drops; plus the wet-half contrast probe). Owner of the assets stays the concept artist.
 v1.1 (director, with the keeper's R2.5 of `reports/lore-saga-op-2026-11-24.md` word for word and the investor's 1981 landing): tide line at half the cap height in the text (the asset was always there); darkening above the tide line only; the drop never brighter than the dry letters; the landing on the final hit, 1981; the keeper's conditions for every carrier (§2 p. 9–11); a darker plate under the word and a scripted tail (§4). The assets are unchanged.
 
@@ -59,12 +61,13 @@ Frames at 24 fps, absolute OP frame numbers (storyboard §2.1: hits sit on grid 
 | 1981–1988 | 1:22.54 | **logo lands** with the wipe edge | scale 114 % → 100 % over 8 frames; the upper part (above the tide line) arrives **wet** (master darkened above the tide line only: `eq=brightness=-0.16:saturation=0.75,colorbalance=bs=0.08:bm=0.05`); below the tide line the master stays exactly as painted in every frame |
 | 1981–1986 | | impact | SHAKE 6 frames (±6 px x, ±4 px y), then still |
 | 1989–2004 | 1:22.88–1:23.50 | **water drains** | the wet layer's mask edge slides **down** from the cap line to the tide line (soft 10-px edge): dry pale granite appears top-down; the last soft residue above the line is gone by 2010. Below the tide line there is never any extra darkening: no part of a letter is ever darker than the master's wet zone (#5C6B72). |
-| 2005–2015 | 1:23.5–1:24.0 | dry | the word stands dry above the line; the plate push and the clouds carry the motion |
-| 2016–2039 | 1:24.0–1:25.0 | **glint** | one soft cold-white band (`#EBF2FA`, 32 % max, slanted 0.35, ~70 px wide) crosses the dry upper part left → right, masked strictly inside the letters (`lt(Y,TIDE)`); nothing outside the letters brightens: it is a specular sheen on wet stone, not a glow |
+| 2000–2004 | 1:23.33–1:23.5 | glint enters | (v1.4) the glint band enters from the left while the last of the drain finishes (overlap 2–4 frames, gate v1.1: acceptable) |
+| 2005–2015 | 1:23.5–1:24.0 | dry + glint | the word stands dry above the line; the glint crosses it; the push and the clouds carry the motion |
+| 2000–2040 | 1:23.33–1:25.0 | **glint** (v1.4; was 2016–2039) | one soft cold-white band (`#EBF2FA`, 32 % max, slanted 0.35, ~70 px wide) crosses the dry upper part left → right, masked strictly inside the letters (`lt(Y,TIDE)`); nothing outside the letters brightens: it is a specular sheen on wet stone, not a glow |
 | 2020–2039 | 1:24.2–1:25.0 | drop gathers | under a lower letter, below the tide line, the drop grows |
 | 2040 | 1:25.0 | **drop + drip cue** | the drop leaves the lower edge of a letter below the tide line and falls out of frame (keeper R2.1; never lands, never glows). The drop is tinted by the sky and the stone, never brighter than the dry letters, no white core. Six drops on the master stay six. Sound: one quiet drip + a low soft tap (composer, $0) — the audio-visual mark of the brand |
 | 2041–2075 | 1:25.0–1:26.5 | **hold** | still letters, clouds stream past the crown, the plate push continues; no tagline, no text |
-| 1980–2087 | whole cut | **push** | plate +3 % (as storyboard), logo +1.5 % (slight parallax, the word feels set in front of the sky) |
+| 1980–2087 | whole cut | **push** | (v1.4) one sub-pixel push of the whole frame, linear 1.00 → 1.03 (logo and plate together) + the K17C plate +4 % linear under it; the logo has **no own scale** after the landing (gate И10: an integer logo scale makes the letters jump 1 px every ~11 frames). Was: plate +3 %, logo +1.5 % |
 | 1980–2087 | whole cut | **plate under the word** | soft band on the plate only: −40 % behind the upper half, −60 % behind the lower half, smooth edges (y ≈ 250–1080, centred on the word), a touch more behind the outer letters; the logo itself is never darkened (§2 p. 10–11) |
 | 2076–2087 | 1:26.5–1:27.0 | fade | picture and audio fade as in the storyboard |
 
@@ -74,11 +77,15 @@ Working recipe (tested on `PL-0014/D08_S1_dusk_v1.png`, crown framing): `studio/
 [logo]split=3[dry][wet0][gl0];
 [wet0]eq=brightness=-0.16:saturation=0.75,colorbalance=bs=0.08:bm=0.05,
   geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='alpha(X,Y)*lt(Y,TIDE)*clip((Y-TIDE*clip((N-9)/16,0,1))/10+1,0,1)*(1-clip((N-24)/6,0,1))'[wet];
-[gl0]geq=r=235:g=242:b=250:a='alpha(X,Y)*lt(Y,TIDE)*0.32*exp(-pow((X-0.35*Y-(-300+(W+600)*clip((N-36)/24,0,1)))/34,2))'[glint];
+[gl0]geq=r=235:g=242:b=250:a='alpha(X,Y)*lt(Y,TIDE)*0.32*exp(-pow((X-0.35*Y-(-100+(W+400)*clip((N-20)/40,0,1)))/34,2))'[glint];
 [dry][wet]overlay[l1]; [l1][glint]overlay,
-  scale=w='iw*if(lt(n,9),1.14-0.14*clip((n-1)/8,0,1),1)*(1+0.015*n/108)':h=-1:eval=frame[logo2]
+  scale=w='if(lt(n,9),2*trunc(iw*(1.14-0.14*clip((n-1)/8,0,1))/2),iw)':h=-2:eval=frame[logo2]
 ```
-(`N`/`n` counted from frame 1980; TIDE = 243 for a 1300-px logo.) `lt(Y,TIDE)` keeps the wetness above the tide line. Variant-B LUT goes on the plate, wipe and spray only; the logo keeps its own colours so the brand reads the same in every episode. The OP build of the same recipe: `direction/opening/tools/op_saga_animatic.py` (`build_title`, `plate_band`).
+(`N`/`n` counted from frame 1980; TIDE = 243 for a 1300-px logo.) `lt(Y,TIDE)` keeps the wetness above the tide line. Variant-B LUT goes on the plate, wipe and spray only; the logo keeps its own colours so the brand reads the same in every episode. The OP build of the same recipe: `direction/opening/tools/op_saga_animatic.py` (`build_title`, `plate_band`); style C v1.2: `op_saga_build_c12.py` (`build_title`, `title_logo`, modes full / textless / logo layer).
+
+### 4.1 Vertical end card 9:16 (v1.4)
+
+`direction/opening/tools/op_saga_vertical_v12.py`: frames 1981–2087 of the textless C13 (spray wipe + K17C plate, no logo) cropped at x = 656 (608-px window) and upscaled to 1080×1920; the logo layer rendered alone on transparent (same landing, drain, glint, drop) laid over it, the **whole word on one line**, 760 px wide, centre (540, 1173), inside the safe frame x 60–940, y 250–1500. Never a single letter, never the tower crop of a 16:9 frame (it cuts the word). Badge AI-ANIMATED top left.
 
 ## 5. Keeper check requested
 

@@ -72,7 +72,7 @@ HITS = [(289, "A06 stamp POP"), (325, "A07 stamp"), (361, "A08 stamp"), (491, "A
         (1441, "C02 POP"), (1477, "C03 POP"), (1513, "C04 POP"), (1549, "C05 POP"), (1585, "C06 POP"),
         (1621, "C07 POP"), (1657, "C08 INK"), (1765, "C11a pass 1"), (1801, "C11b pass 2"), (1837, "C11c pass 3"),
         (1873, "C11d pull-back to the sheet"), (1945, "C12b POP"), (1981, "C13 last hit: logo lands"),
-        (1989, "C13 drain starts"), (2016, "C13 glint"), (2040, "C13 drop leaves (drip cue)")]
+        (1989, "C13 drain starts"), (2000, "C13 glint (v2.9: 2000-2040, LOGO.md v1.4)"), (2040, "C13 drop leaves (drip cue)")]
 
 # land colour keys (§4.2) for the cards
 KEY = {"A": ((70, 92, 96), (150, 132, 104)), "B01": ((222, 220, 230), (150, 140, 170)), "B02": ((222, 220, 230), (150, 140, 170)),

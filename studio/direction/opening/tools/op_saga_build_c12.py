@@ -316,8 +316,8 @@ def finish_graph(plan):
     paper = f"[1:v]format=gray,format=yuv420p,setsar=1[p]"
     grain = (f"color=c=0x808080:s=960x540:r={FPS},format=yuv420p,noise=c0s=42:c0f=t:c0_seed=777,"
              f"scale={W}:{H}:flags=bicubic,setsar=1[gr]")
-    b1 = f"[s][p]blend=c0_mode=softlight:c0_opacity=0.16:c1_opacity=0:c2_opacity=0:shortest=1:enable='{noB16}'[sp]"
-    b2 = f"[sp][gr]blend=c0_mode=softlight:c0_opacity=0.22:c1_opacity=0:c2_opacity=0:shortest=1:enable='{noB16}',format=yuv422p10le[fin]"
+    b1 = f"[s][p]blend=c0_mode=softlight:c0_opacity=0.16:c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}'[sp]"
+    b2 = f"[sp][gr]blend=c0_mode=softlight:c0_opacity=0.22:c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}',format=yuv422p10le[fin]"
     return ";".join([base, paper, grain, b1, b2])
 
 
