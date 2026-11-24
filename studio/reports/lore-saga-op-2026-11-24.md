@@ -516,3 +516,88 @@
 1. **Режиссёру.** Внести R3.2–R3.4 дословно; `LOGO.md` §6 — художнику (R3.3).
 2. **Художнику.** Сделать `f_alley_patched.png` ($0) и показать мне до вызова alley_C.
 3. **Мне.** Полный просмотр F17_C, F19_C, F21_C (K12), alley_C, LOGO_C и листа теста §5.2 до клипов.
+
+## R4. Ответ на K5–K9 (v2.2, §10) и добавки `{FLOW}` / `{VSAFE}` — снятие блокера гейта Б6 (2026-11-24)
+
+Материал: `direction/opening/SAGA_OP_storyboard.md` (v2.3 с шапкой v2.2: §1 OP-15…OP-24, §3 PASS, §4 C02L–C06L, C11a–d, A01a/b, §5.4 FA01, W01–W16, §6 KA01, KW01–KW16, §6.3, §7, §10 K5–K9, §13.2), `reports/anime-director-2026-11-24-r12.md`, `reports/marketer-saga-op-2026-11-24.md` §1.2, §5 п. 5, §7, `qa/gate/gate-saga-op-2026-11-24.md` Б6. Сверено с каноном v0.10 (`secrets.md`, `houses/HS-001…007, 090`, `world.md`). Тайны только кодами. Платных вызовов не было.
+
+### R4.0 Вердикт
+
+**Подписано с правками R4.1–R4.6 (вносятся дословно, все $0, до генерации).** Б6 снят по моей части: K5 и K7 приняты с условиями; K6 принят с одной заменой (C05L); K8 принят с четырьмя правками (`{FLOW}`, W11, массы под `{VSAFE}`, W10/KW10) и двумя замками (KW03, KW05); K9 решён по пунктам. Правок канона нет.
+
+| # | Решение |
+|---|---|
+| **K5** | **Принято.** Окна C11a/C11b = обратный кусок KW16 0.0–1.2 с с проводками кропа вместо 3.8–5.0 / 2.6–3.8. Принцип R2.3 соблюдён (каждый кадр — увеличение W16), OP-22 выигрывает. Моя строка v2.1 для C11a/C11b отменена. Условие — R4.1. |
+| **K6** | **Принято для C02L, C03L, C06L; C05L — с заменой (R4.2).** Ряд «флот, насосы, монеты, колёса» читается как «чем держится дом», а не как сбор войска. Но опрокидывающаяся стопка меди сразу после знамени Лантри читается как «падение Лантри» (SEC-007, поздний мир по Q8). |
+| **K7** | **Принято с условием (R4.3).** Удар вала о стену OP-5/OP-15 не нарушает, если брызги не поднимаются выше гребня. |
+| **K8** | **Принято с правками R4.4.** `{VSAFE}` на массах может вывести одну фигуру в центр (против OP-1/`{AVOID_MASS}`); `{FLOW}` на W11 зовёт реку над кромкой (OP-15); «away from the camera» в W10 при взгляде вдоль косы ведёт лодки прямо к огням (OP-15). |
+| **K9** | **По пунктам (R4.5):** штрихи E9 — да, со сменой начертания для всех серий; девизы — да, только текстом; SH-05 — да, с одной заменой; W16 в вики — нет; аватар «H» — не принят (подтверждаю R2.5). |
+
+### R4.1 K5 — карта C11
+
+- Принимаю v2.2 дословно: C11a и C11b — `KW16 piece 0.0–1.2 s reversed at 0.8×` с проводкой 2.0× и 1.8×; C11c — 1.3–2.5 с, 1.6×; C11d — 0.0–1.2 с, полный кадр, кончается на W16. Направление проводок справа налево (от водопада к морю) верно по OP-9: север вверху, запад слева.
+- Счёт глифов в проводках сходится с W16: C11a — глиф у водопада (rust red/black), C11b — Сноп (Sheaf) один среди полей, C11c — три глифа города на холме, острова.
+- **Условие (OP-22: «не открывать землю на удар»).** §3 PASS, колонку «Rule» дописать: ` On the hit frame of C11a–C11c and for the 6 frames after it no tower glyph enters the crop window: the glyph a pass travels past is already in frame on the hit, or enters later than 6 frames after it.`
+- **§6.3, строка KW16**, заменить фразу `The keeper's v2.1 line \`3.8–5.0 → C11a, 2.6–3.8 → C11b, 1.3–2.5 → C11c, 0.0–1.2 → C11d\` holds for C11c and C11d; for C11a–C11b it would start the edit close on the capital, the grammar OP-22 removes` на: `Keeper R4.1: the v2.2 assignment is confirmed; the keeper's v2.1 windows for C11a–C11b are withdrawn.`
+- **§10, K5** — пометить `answered: keeper R4.1`.
+
+### R4.2 K6 — знамя → земля
+
+Проверил по H01–H08, HS-001/002/006/007, SEC-007, SEC-028, SEC-031, SEC-041, OP-15, OP-18.
+
+- **C02L Корвейн → флот: да.** Колонна уходит справа налево, в открытое море на запад (OP-9), не к Хайуотеру и не к берегу. Условие в колонку «Content» C02L, в конец: `; only deep-blue pennants in the crop, no other house's colour, no gunports open, the column never turns toward the camera or a coast`.
+- **C03L Даск → насосы: да.** Ветряные насосы Польдеров к SEC-028 (ступальные насосы Гильдии) не относятся. Шпиля нет — верно.
+- **C06L Феннік → колёса: да, с условием.** Девятый Шлюз — земля Фенніка (HS-006: PL-0008), поэтому связь законна. Но колёса Девятого — это три ступальных насоса SEC-028 (они встают в ночь наводнения). Колонку «Content» C06L заменить на: `**Fennick's land:** the treadwheels of the Lows turning steadily, water dripping from the buckets; at most two wheels in the crop, never all three; every wheel keeps the same speed through the whole window, none slows or stops; no axle-pin or hub close-up; walkers only as backs or silhouettes`.
+- **C05L Лантри → монеты: замена.** Колонку «Content» C05L заменить на: `**Lantry's land:** Highwater's counting desk — neat copper stacks standing on the green felt, light sliding across them; the stack stands: no lean, no topple, no coin falls; the ledger page out of the crop (no tally)`. Колонку «Source» заменить на: `K10C, the frames before the stack first leans (0.75 s at 1×, or the last pre-lean frame held with PX 2 % if the window is shorter), crop 1.6× on the stacks`. Падение стопки остаётся только в A10 (Хайуотер, не рядом со знаменем).
+- **§4.1, строка C02 → … → C07**, заменить `(no mobilisation reading, keeper to confirm K6)` на `(no mobilisation reading, confirmed: keeper R4.2; Lantry's land shows standing stacks, never the topple)`.
+
+### R4.3 K7 — KA01, удар вала о стену
+
+Удар о стену — продолжение уже принятого крючка (A01). OP-5/OP-15 держатся, если вода не читается как перехлёст: гребень и небо над ним чисты в каждом кадре.
+
+- **§6, KA01, Camera + motion:** заменить `a broad sheet of grey-white spray bursts up the face, hangs for a moment and falls back toward the sea;` на `a broad sheet of grey-white spray bursts up the face to just below its top edge, hangs for a moment and falls back toward the sea;`.
+- **§6, KA01, MUST NOT CHANGE**, дописать в конец: `; the spray never rises above the top edge of the dike or drifts across it; the top edge and the sky above it stay clear in every frame`.
+- **§4, A01b, Content:** заменить `a broad sheet of grey-white spray bursts up the face and falls back toward the sea;` на `a broad sheet of grey-white spray bursts up the face, never above the crest, and falls back toward the sea;`.
+- Проверка на контакт-листе KA01 (каждый 5-й кадр в 1.5–3.0 с): при брызгах над линией гребня дубль бракуется, кроп его не спасает. Брызги для вайпа C13 (12 кадров у пика) — условия K14 (R3) без изменений.
+
+### R4.4 K8 — добавки режиссёра в мои тексты
+
+Принято без правок: W16 (лист целиком, деревянное поле, скользящий свет, плоские глифы; без пятен воды — верно), W14 «central third», `{VSAFE}` в FA01 и W14, `{FLOW}` в W01, W03, W04, W05, W06, W15, правки KW01, KW04, KW06, KW11, KW12, KW15. Правки ниже.
+
+1. **`{FLOW}` без дождя.** «Drifting rain» добавляет дождь в ясные кадры (W01 рассвет, W03 полдень, W05 яркое утро, W06, W15) и ломает ключ света земель (OP-9, §4.2). **§5.4, `{FLOW}`** = `The water and the mist move from right to left across the frame.` Дождь остаётся только там, где он написан в самом промпте (W10).
+2. **W11 — без общего `{FLOW}`.** На водопаде «вода движется справа налево» зовёт реку над кромкой обрыва, то есть то, что видно за краем уступа (OP-15). **§5.4, W11:** заменить `{VSAFE} {FLOW}` на `{VSAFE} The mist and spray at the foot of the falls drift from right to left across the frame; the falls themselves pour straight down; no river or water is seen above the lip.` В строке `{FLOW}` (v2.2, OP-23) список кадров: убрать `W11`.
+3. **`{VSAFE}` на массах.** «The main subject sits in the central third» на толпе даёт одну фигуру в центре, вожака (против OP-1, `{AVOID_MASS}`; у Хора — SEC-012/SEC-023, у Раска — Кес). **§5.4**, после `{VSAFE}` добавить блок:
+   `{VSAFE_MASS}` (W02, W04, W07, W08, W12) = `Vertical-safe composition: the densest part of the crowd (figures, kites or pikes) sits in the central third of the frame and the crowd continues evenly into the outer thirds; no single figure, kite or pike is singled out at the centre; nothing important only in the outer thirds.`
+   В W02, W04, W07, W08, W12 заменить `{VSAFE}` на `{VSAFE_MASS}`; в строке `{VSAFE}` список кадров = `FA01, W11, W14`.
+4. **W10 / KW10 — лодки не к огням.** Камера смотрит вдоль косы, маяки уходят в глубину; лодки «away from the camera» идут в ту же глубину — «лодка, идущая на огни мародёров» (OP-15, SEC-031). Кадр сложить так, чтобы маяки стояли в правой половине, а протока уходила влево, на сушу (это совпадает с OP-23).
+   - **§5.4, W10:** заменить `slip landward, away from the camera,` на `slip landward, away from the camera and to the left, away from the bar; the beacon towers stand along the right half of the frame and no boat moves toward them;`.
+   - **§6, KW10, Camera + motion:** заменить `glide slowly forward along the reed channel, away from the camera;` на `glide slowly along the reed channel, away from the camera and to the left, away from the bar and the beacon towers;`.
+   - **§6, KW10, MUST NOT CHANGE**, дописать: `; no boat turns toward the beacon towers or the bar`.
+   - B10a/B10b — содержание не меняется; B10b (маяки вне кропа) — верно.
+5. **KW03, панорама влево.** Слева в кадр входит новая земля — риск второго Шпиля или воды на полях. **§6, KW03, MUST NOT CHANGE**, дописать: `; only more fields, dike and pumps enter from the left edge; no second tower, building or water on the fields enters the frame`.
+6. **KW05, ход влево.** Риск — конец мола с отличным фонарём (OP-15, `sealed`). **§6, KW05, MUST NOT CHANGE**, дописать: `; the end of the mole never comes into frame; no lantern post entering from the left edge differs from the others`.
+
+### R4.5 K9 — вопросы маркетолога
+
+1. **Штрихи E9 (5 + 4): да, но не в начертании «пятый поперёк четырёх».** Четыре вертикали и косая черта поперёк — это группа пяти; в E9 получается восемь одинаковых вертикалей и одна косая — «восемь одинаковых плюс одна другая» (OP-18, SEC-018). Только E9 даёт ровно 8 + 1, но начертание одно на все серии. Второй риск — знак Хора (девять коротких штрихов дугой над ровной линией, HS-090): у штрихов не должно быть ни дуги, ни линии под ними.
+   **§7, вариант A**, заменить `(E1 one stroke … E13 two groups of five and three, the fifth stroke across the four)` на `(E1 one stroke … E13 two groups of five and three; every stroke an upright of the same length and weight, never a stroke across a group (a crossed five would make E9 "eight alike plus one", OP-18); the groups in one straight level row with a gap of two stroke-widths between groups, never an arc; the left page unruled under the strokes, no drawn or ruled line under or over them (the Choir's sigil is nine strokes in an arc over a level line, HS-090); keeper R4.5)`.
+   Сброс счёта по сезонам допустим: штрихи — счёт серий, а не состояние мира (OP-15, Q8 не задеты). Штрихи никогда не ставятся на столб, сваю или косяк (OP-5, R3.2).
+2. **Девизы Илвейна, Раска, Квелла в публичных карточках: да, только текстом.** Слова публичны в S1 (сериальная библия; Квелл — S1E2/E4; Раск — фраза Бренны). Точный текст: Ilvane — `"Hear, and be still."`; Rusk — `"Shut, and stand."`; Quell — `"Calm is bought."`. Условия:
+   - без герба и без описания герба (OP-2, OP-17: рука с камнем, угорь с кольцом, ворота — закрыты до раскрытий); в карточке — только двухцветный вымпел, как W14;
+   - без толкования девиза: Раск — ни ворот, ни шлюза, ни ночи; Квелл — ни огней, ни спасённого серебра, ни Затонувшего; Илвейн — ни тишины-запрета, ни камня;
+   - фразы «an old friendship of sailors» нет ни в карточке Квелла, ни в карточке Корвейна (SEC-031, SEC-046);
+   - текст карточек — мне на сверку до публикации (как в §5.1 маркетолога).
+3. **Порядок SH-05: да, с одной заменой.** `B01a (Pale Spire) → B02a (Choir rows)` ставит ряды Хора встык со Шпилем — то, что опенинг обходит парой B01a → B01b (OP-19, §4.1). **Маркетолог §1.2**, заменить `B01a (Pale Spire) → B02a (no Spire)` на `B01b (Pale Crag galleries, no Spire) → B02a (no Spire)`. Остальное проверено: два Шпиля разных земель подряд не стоят (B03a, B05a, B09, B12a разделены); Оссари не рядом с Польдерами, водопадом, огнями; B10 не используется; B11 без лодки и огня перед B12a; B03a — то же окно, что в опенинге (без кропа к Снопу). Перемонтаж — новый ролик: финальный файл мне до выпуска. Счёт длины в §1.2 не сходится (11 кусков × 1.25 с = 13.75 с, не 12.5) — это маркетологу и режиссёру, канона не касается.
+4. **W16 в вики: нет.** Ни целиком, ни кропами, ни с подписями или точками на глифах. Восемь глифов на листе — приглашение считать (R1 §7 п. 2, Q6). Если вики нужна карта — отдельный кадр без глифов Шпилей и без компасной спирали, мне на сверку.
+5. **Аватар «H»: не принят** (R2.5: знак не кропится до одной буквы). Иконка — всё слово или `clean_alpha`.
+6. **Рубрика «Nine Spires, eight votes» и строка «nine singing towers» (маркетолог §7 п. 2): нет.** Первое — «восемь плюс один» словами (OP-18, SEC-018), второе — песня, которую показывают (OP-19). Замена без чисел и без пения, например `One water`.
+
+### R4.6 Канон
+
+Правок канона нет: v0.10 без изменений. В реестр тайн ничего не добавлено.
+
+### R4.7 Открытые вопросы
+
+1. **Режиссёру.** Внести R4.1–R4.4 и R4.5 п. 1 дословно; в §10 пометить K5–K9 `answered: keeper R4`. После этого Б6 закрыт.
+2. **Маркетологу.** R4.5 п. 2–4, 6; текст карточек и финальный SH-05 — мне до выпуска.
+3. **Мне.** Контакт-листы FA01/KA01 (брызги ниже гребня), W10/KW10 (лодки от огней), W11 (над кромкой пусто), массы под `{VSAFE_MASS}` (нет фигуры в центре) и W16 в полном размере — до подписи клипов.
