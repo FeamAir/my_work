@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Saga OP animatic v2 ($0, ffmpeg + PIL only, no API calls). Storyboard SAGA_OP v2.1: 57 shots + 9 frames of black,
-87.0 s, 24 fps, 1920x1080, music v2a (the anthem re-arrangement keeps the grid; swap audio later).
+87.0 s, 24 fps, 1920x1080, music output/music/lib_mus_theme-op-anthem_v1a.mp3 (investor's choice; v2a retired).
 
-  python3 -I op_saga_animatic.py [--only A01a,C14] [--jobs 4] [--no-final]
+  python3 -I op_saga_animatic.py [--only A01a,C13] [--jobs 4] [--no-final]
   python3 -I op_saga_animatic.py --check FILE        # §12 rule 5: freezedetect + mpdecimate
   python3 -I op_saga_animatic.py --contact FILE      # cut sheet + hit sheet with the music onset envelope
 
 PAID material is cut from the S1 OP v3 renders (output/opening/build_work/seg, accepted and keeper-signed) or from the
-raw paid clips; A01 is re-timed with minterpolate mci (no "on threes", §12). Every NEW item (W/KW/KA) is a card with
+raw paid clips; C13 is the logo reveal on the final hit (LOGO.md, refs/LOGO); A01 is re-timed with minterpolate mci (no "on threes", §12). Every NEW item (W/KW/KA) is a card with
 the shot text, land colour key and a moving drift so that rhythm and sync can be checked; it is labelled PENDING.
 Output: output/opening/SAGA_OP_animatic_v2.mp4 (+ work files in output/opening/saga_animatic_work/).
 """
@@ -48,12 +48,14 @@ CUTS += [("B09", 1080, 36), ("B10", 1116, 36), ("B11", 1152, 36), ("B12a", 1188,
          ("C01a", 1369, 35), ("C01b", 1404, 36)]
 CUTS += [(f"C0{k}", 1440 + 36 * (k - 2), 36) for k in range(2, 10)] + [("C10", 1728, 36)]
 CUTS += [(f"C11{x}", 1764 + 36 * i, 36) for i, x in enumerate("abcd")]
-CUTS += [("C12a", 1908, 36), ("C12b", 1944, 36), ("C13", 1980, 15), ("C14", 1995, 93)]
+CUTS += [("C12a", 1908, 36), ("C12b", 1944, 36), ("C13", 1980, 108)]
 assert sum(n for _, _, n in CUTS) == an.TOTAL
 assert all(CUTS[i][1] + CUTS[i][2] == CUTS[i + 1][1] for i in range(len(CUTS) - 1))
 an.CUTS = CUTS
-an.START = {c: s for c, s, _ in CUTS} | {"33": 1980}
-an.NFR = {c: n for c, _, n in CUTS} | {"33": 108}
+an.START = {c: s for c, s, _ in CUTS}
+an.NFR = {c: n for c, _, n in CUTS}
+an.MUSIC = f"{ROOT}/output/music/lib_mus_theme-op-anthem_v1a.mp3"   # investor 2026-11-24; v2a retired
+LOGO = f"{ROOT}/studio/direction/refs/LOGO/HOLLOWSTONE_logo_master_alpha.png"
 L_ = an.loc
 
 HITS = [(289, "A06 stamp POP"), (325, "A07 stamp"), (361, "A08 stamp"), (491, "A11 whistle POP"),
@@ -61,8 +63,8 @@ HITS = [(289, "A06 stamp POP"), (325, "A07 stamp"), (361, "A08 stamp"), (491, "A
         (1261, "B13 POP"), (1297, "B14 POP"), (1332, "B15 flash 1"), (1360, "B16 black"), (1369, "C01a INK"),
         (1441, "C02 POP"), (1477, "C03 POP"), (1513, "C04 POP"), (1549, "C05 POP"), (1585, "C06 POP"),
         (1621, "C07 POP"), (1657, "C08 INK"), (1765, "C11a step 1"), (1801, "C11b step 2"), (1837, "C11c step 3"),
-        (1873, "C11d step 4"), (1945, "C12b POP"), (1981, "C13 INK last hit"), (1995, "C14 logo lands"),
-        (2040, "C14 drop leaves")]
+        (1873, "C11d step 4"), (1945, "C12b POP"), (1981, "C13 last hit: logo lands"), (1990, "C13 wipe / drain"),
+        (2040, "C13 drop leaves")]
 
 # land colour keys (§4.2) for the cards
 KEY = {"A": ((70, 92, 96), (150, 132, 104)), "B01": ((222, 220, 230), (150, 140, 170)), "B02": ((222, 220, 230), (150, 140, 170)),
@@ -233,9 +235,18 @@ def build(cut):
     if cut == "A03":
         return from_seg(cut, "02b", label="A03 PAID K03 0.0-1.5 s")
     if cut in ("A04a", "A04b"):
+        # the video-test alley clip with the v1.4 static patches (plain brick over the double gate, plain planks over
+        # the ring knocker), a LINEAR push (an eased push stalls at its ends: §12 check), mist drifting
         b = cut == "A04b"
-        return from_seg(cut, "03", 36 if b else 0, z=1.3 if b else 1.0, fy=0.6,
-                        label=f"{cut} PAID alley clip {'2.0-3.5 s crop 1.3x' if b else '0.5-2.0 s'}")
+        c = g.clip(an.ALLEY, 2.0 if b else 0.5, 1.6)
+        o, pa, pb = g.lab(), g.lab(), g.lab()
+        z0, z1 = (1.30, 1.36) if b else (1.0, 1.06)
+        g.add(f"[{c}]setpts=PTS-STARTPTS,split=3[{o}a][{o}b][{o}c];[{o}b]trim=end_frame=1,loop=loop=-1:size=1,crop=140:130:775:495[{pa}];"
+              f"[{o}c]trim=end_frame=1,loop=loop=-1:size=1,crop=44:80:60:568[{pb}];"
+              f"[{o}a][{pa}]overlay=915:495:shortest=1[{o}d];[{o}d][{pb}]overlay=122:568:shortest=1,fps={FPS},"
+              f"scale=w='2*trunc(1950*({z0}+{z1 - z0:.3f}*t/1.5)/2)':h=-2:eval=frame,crop={W}:{H}:x='(iw-ow)/2':y='(ih-oh)*0.6',setsar=1[{o}]")
+        s = an.overlay_field(g, o, A["fog"], "screen", 0.2, f"crop={W}:{H}:x='(iw-ow)*t/6':y=0")
+        return run(g, tag(g, s, f"{cut} PAID alley clip {'2.0-3.5 s crop 1.3x' if b else '0.5-2.0 s'} (gate + knocker patched)"), out)
     if cut == "A05a":
         s = piece(g, f"{CL}/K07_fix.mp4", 0.5, 1.5)
         return run(g, tag(g, an.mist(g, s, 0.12), "A05a PAID K07_fix 0.5-2.0 s"), out)
@@ -268,7 +279,9 @@ def build(cut):
         base = None
         for k, pth in enumerate(srcs + [None]):
             if pth is None:   # K05 frames 12-15 as real motion
-                s = piece(g, f"{CL}/K05.mp4", 12 / FPS, 0.3)
+                s0 = piece(g, f"{CL}/K05.mp4", 12 / FPS, 0.3)
+                s = g.lab()
+                g.add(f"[{s0}]setpts=PTS+{4 * k}/{FPS}/TB[{s}]")      # frames 12-15 land on flash slot 7
             else:
                 s = card_motion(g, pth, 1.0 + 0.02 * k, 1.04 + 0.02 * k)
             if base is None:
@@ -295,8 +308,8 @@ def build(cut):
         g.add(f"[{s}]noise=alls=8:allf=t[{o}]")
         s = an.pop(g, o, [L(1621)])
         return run(g, tag(g, s, "C07 PAID F17 crop 2.2x, stand-in -> KA11 piece PENDING (upgrade); POP 1621"), out)
-    if cut in ("C13", "C14"):
-        return None      # built together (build_title)
+    if cut == "C13":
+        return build_title()
     # ---- NEW: cards
     p = f"{WK}/card_{cut}.png"
     crop = {"B01b": 1.5, "B02b": 1.4, "B03b": 1.6, "B04b": 1.4, "B05b": 1.5, "B07b": 1.5, "B11": 1.6, "B12b": 1.4,
@@ -325,31 +338,61 @@ def build(cut):
 
 
 def build_title():
-    """C13 + C14 from the v1.4 tail (op_build.build_33): the outgoing picture is the C12b card; split 15 / 93."""
-    A["H2"] = f"{WK}/card_C12b_dusk.png"
-    im = Image.open(card("C12b")).convert("RGB")
-    im = Image.blend(im, Image.new("RGB", im.size, (40, 36, 60)), 0.35)
-    im.save(A["H2"])
-    tmp = f"{WK}/title108.mp4"
-    ob.build_33(an.G("33"), tmp)
-    for cut, a, n in (("C13", 0, 15), ("C14", 15, 93)):
-        g = an.G(cut)
-        i = g.clip(tmp, a / FPS, n / FPS + 0.05)
-        o = g.lab()
-        g.add(f"[{i}]setpts=PTS-STARTPTS,fps={FPS}[{o}]")
-        lbl = ("C13 INK 1981, spray WIPE 1983-1994 (PAID K01 spray, K17)" if cut == "C13" else
-               "C14 LOGO own cut: placeholder type, brand logotype PENDING (LOGO.md); PAID K17")
-        run(g, tag(g, o, lbl), f"{an.SEG}/{cut}.mp4")
+    """C13, the logo reveal on the final hit (LOGO.md §4 shifted so the logo lands on 1981 instead of 1995):
+    C12b continues under INK 1981-1982 and the torn spray wipe 1981-1992; K17 0.0-4.5 s (crown framing, push 3 %,
+    variant B) comes in under it; the Tidemark logotype (1300 px, centre y 660) lands 1981-1988 wet (114 % -> 100 %),
+    SHAKE 1981-1986, water drains 1989-2013, glint 1996-2020, logo +1.5 % parallax, a drop leaves on 2040."""
+    cut = "C13"
+    g = an.G(cut)
+    out = f"{an.SEG}/{cut}.mp4"
+    L = lambda f: L_(cut, f)
+    hit = L(1981)
+    dusk = f"{WK}/card_C12b_dusk.png"
+    im = Image.open(f"{WK}/card_C12b.png").convert("RGB")
+    Image.blend(im, Image.new("RGB", im.size, (40, 36, 60)), 0.35).save(dusk)
+    a = an.zp(g, g.still(dusk), 1.3 * 1.07, 1.3 * 1.09, 0.5, 0.5, 0.0, 0.0, curve="lin")
+    a = an.ink(g, a, hit)
+    a = an.spray_burst(g, a, 0.5, 0.9, 0.6, t0=hit / FPS, dur=13 / FPS)
+    b = piece(g, f"{CL}/K17.mp4", 0.0, 4.5, z=1.5, fx=0.42, fy=0.0)
+    b = an.vpush(g, b, 1.0, 1.03, 0.5, 0.3)
+    o = g.lab()
+    g.add(f"[{b}]colorbalance=rs=-0.04:bs=0.06:rm=-0.03:bm=0.04[{o}]")
+    w = g.lab()
+    g.add(f"[{a}]settb=AVTB,fps={FPS}[{w}a];[{o}]settb=AVTB,fps={FPS}[{w}b];[{w}a][{w}b]xfade=transition=custom:"
+          f"duration=0.5:offset={hit / FPS:.5f}:expr='if(gt(Y/H+0.06*sin(X/W*23)+0.03*sin(X/W*71),P*1.12),B,A)'[{w}]")
+    LW, TIDE, s0 = 1300, 243, hit          # logo frames counted from the hit
+    li = g.still(LOGO)
+    lg = g.lab()
+    g.add(f"[{li}]scale={LW}:-1,format=rgba,split=3[{lg}d][{lg}w0][{lg}g0];"
+          f"[{lg}w0]eq=brightness=-0.16:saturation=0.75,colorbalance=bs=0.08:bm=0.05,"
+          f"geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='alpha(X,Y)*clip((Y-{TIDE}*clip((N-{s0 + 8})/24,0,1))/10+1,0,1)*(1-gte(Y,{TIDE})*clip((N-{s0 + 32})/13,0,1))'[{lg}w];"
+          f"[{lg}g0]geq=r=235:g=242:b=250:a='alpha(X,Y)*lt(Y,{TIDE})*0.32*exp(-pow((X-0.35*Y-(-300+(W+600)*clip((N-{s0 + 15})/24,0,1)))/34,2))'[{lg}g];"
+          f"[{lg}d][{lg}w]overlay=0:0:format=auto[{lg}1];[{lg}1][{lg}g]overlay=0:0:format=auto,"
+          f"scale=w='2*trunc(iw*if(lt(n,{s0 + 8}),1.14-0.14*clip((n-{s0})/8,0,1),1)*(1+0.015*n/108)/2)':h=-2:eval=frame[{lg}]")
+    o = g.lab()
+    g.add(f"[{w}][{lg}]overlay=x='(W-w)/2+if(between(n,{s0},{s0 + 5}),6*sin(n*2.6),0)':"
+          f"y='660-h/2+if(between(n,{s0},{s0 + 5}),4*cos(n*3.1),0)':eval=frame:format=auto:enable='gte(n,{s0})'[{o}]")
+    s = o
+    # the drop: gathers under a letter below the tide line from 2016, leaves on 2040, falls out of frame
+    di, d_ = g.still(A["drop"]), g.lab()
+    t_g0, t_go = L(2016) / FPS, L(2040) / FPS
+    g.add(f"[{di}]format=rgba,scale=w='2*trunc(max(4,34*min(1,max(0,(t-{t_g0:.3f})/{t_go - t_g0:.3f})))/2)':h=-2:eval=frame[{d_}m];"
+          f"[{s}][{d_}m]overlay=x={int(W / 2 + LW * 0.17)}-w/2:y='{660 + 488 // 2 - 40}+if(gt(t,{t_go:.3f}),1500*pow(t-{t_go:.3f},2),0)':"
+          f"eval=frame:enable='gte(t,{t_g0:.3f})':shortest=1[{d_}]")
+    o2 = g.lab()
+    g.add(f"[{d_}]trim=end_frame={g.n},format=yuv420p,setsar=1[{o2}]")
+    s = tag(g, o2, "C13 LOGO REVEAL on the final hit 1981: INK + spray wipe, Tidemark logotype lands wet, drains, glint; PAID K17")
+    return run(g, s, out)
 
 
-# ----------------------------------------------------------------------------------------------- master ---
+# ===MASTER===
 def master():
     lst = f"{WK}/concat.txt"
     with open(lst, "w") as f:
         for c, _, _ in CUTS:
             f.write(f"file '{an.SEG}/{c}.mp4'\n")
     bug = f"{WK}/bug.txt"
-    open(bug, "w").write("ANIME-STYLE · AI-ANIMATED  ·  SAGA OP ANIMATIC v2 (storyboard v2.1, music v2a)")
+    open(bug, "w").write("ANIME-STYLE · AI-ANIMATED  ·  SAGA OP ANIMATIC v2 (storyboard v2.1, music anthem v1a)")
     pre = f"atrim=0:{an.TOTAL / FPS},asetpts=PTS-STARTPTS,afade=t=out:st={an.FADE_ST}:d={an.FADE_D}"
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", an.MUSIC, "-af", f"{pre},loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json",
                         "-f", "null", "-"], capture_output=True, text=True)
@@ -381,9 +424,12 @@ def cut_of(f):
     return "?"
 
 
+CROP = "crop=iw:ih-130:0:60,"   # the animatic burns a frame counter and tags in; they are cropped off for the check
+
+
 def check(path):
     """§12 rule 5: freezedetect (n=0.001, d=0.15) + mpdecimate near-duplicates; the planned black is allowed."""
-    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", path, "-vf", "freezedetect=n=0.001:d=0.15", "-an", "-f", "null", "-"],
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", path, "-vf", f"{CROP}freezedetect=n=0.001:d=0.15", "-an", "-f", "null", "-"],
                        capture_output=True, text=True)
     st = [float(x) for x in re.findall(r"freeze_start: ([\d.]+)", r.stderr)]
     en = [float(x) for x in re.findall(r"freeze_end: ([\d.]+)", r.stderr)]
@@ -393,7 +439,7 @@ def check(path):
         fa, fb = round(a * FPS), round(b * FPS) - 1
         planned = fa >= 1360 - 1 and fb <= 1368 + 1
         freezes.append({"from": fa, "to": fb, "cut": cut_of(fa), "planned": planned})
-    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", path, "-vf", "mpdecimate=hi=64*4:lo=64*2:frac=0.33,showinfo",
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", path, "-vf", f"{CROP}mpdecimate=hi=64*4:lo=64*2:frac=0.33,showinfo",
                         "-an", "-f", "null", "-"], capture_output=True, text=True)
     times = [float(x) for x in re.findall(r"pts_time:([\d.]+)", r.stderr)]
     keptf = {round(t * FPS) for t in times}
@@ -408,15 +454,22 @@ def check(path):
     return rep
 
 
-def onset_env():
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", an.MUSIC, "-t", "87", "-ac", "1", "-ar", "24000", "-f", "f32le", "-"],
+def onset_env(hop=240, sr=24000, win=1024):
+    """spectral-flux onset envelope at 10 ms steps (hop 240 @ 24 kHz); returns (env, seconds per step)."""
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", an.MUSIC, "-t", "87", "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"],
                          capture_output=True).stdout
     x = np.frombuffer(raw, np.float32)
-    hop = 1000                                           # one video frame
-    nfr = len(x) // hop
-    spec = np.abs(np.fft.rfft(x[:nfr * hop].reshape(nfr, hop) * np.hanning(hop), axis=1))
-    flux = np.maximum(np.diff(np.log1p(spec), axis=0), 0).sum(1)
-    return np.concatenate([[0], flux / flux.max()])
+    n = len(x) // hop
+    pad = np.pad(x, (win // 2, win // 2))
+    S = np.abs(np.fft.rfft(np.stack([pad[i * hop:i * hop + win] * np.hanning(win) for i in range(n)]), axis=1))
+    f = np.concatenate([[0], np.maximum(np.diff(np.log1p(S), axis=0), 0).sum(1)])
+    return f / f.max(), hop / sr
+
+
+def onset_near(env, dt, t, w=0.12):
+    a, b = int((t - w) / dt), int((t + w) / dt)
+    k = a + int(np.argmax(env[a:b]))
+    return k * dt
 
 
 def contact(path):
@@ -445,35 +498,35 @@ def contact(path):
     p1 = f"{CONTACT}/SAGA_OP_v2_cuts.png"
     im.save(p1)
     # 2. hit sheet: frames h-1, h, h+1 + music onset envelope h-12..h+12 (grid = h-1, placed = h)
-    env = onset_env()
+    env, dt = onset_env()
     fr = grab([f for h, _ in HITS for f in (h - 1, h, h + 1) if 0 <= f < an.TOTAL])
     cols = 3
     cw, chh = 3 * 200 + 260, 112 + 22
     rows = (len(HITS) + cols - 1) // cols
     im = Image.new("RGB", (cols * cw, rows * chh), (18, 18, 18))
     d = ImageDraw.Draw(im)
+    res = []
     for k, (h, lab) in enumerate(HITS):
         x, y = (k % cols) * cw, (k // cols) * chh
         for j, f in enumerate((h - 1, h, h + 1)):
             if f in fr:
                 im.paste(Image.fromarray(fr[f]).resize((200, 112)), (x + j * 200, y))
         d.rectangle((x + 200, y, x + 399, y + 111), outline=(255, 210, 60), width=2)
-        gx = x + 604
-        seg = env[max(0, h - 12):h + 13]
-        for j, v in enumerate(seg):
-            fx = gx + j * 10
-            col = (255, 210, 60) if h - 12 + j == h else (120, 200, 255) if h - 12 + j == h - 1 else (170, 170, 170)
-            d.rectangle((fx, y + 108 - int(100 * v), fx + 7, y + 108), fill=col)
-        pk = int(np.argmax(seg)) + max(0, h - 12)
-        d.text((x + 4, y + 114), f"{lab}  placed {h} (grid {h - 1})  onset peak f{pk} ({pk - h:+d})", fill=(240, 230, 190), font=font)
+        # envelope from frame h-3 to h+3 at 10 ms; yellow = placed frame span, blue = grid frame span
+        gx, t0 = x + 604, (h - 3) / FPS
+        steps = int(7 / FPS / dt)
+        for j in range(steps):
+            t = t0 + j * dt
+            v = env[int(t / dt)]
+            fno = int(t * FPS + 1e-6)
+            col = (255, 210, 60) if fno == h else (120, 200, 255) if fno == h - 1 else (170, 170, 170)
+            d.rectangle((gx + j * 8, y + 108 - int(100 * v), gx + j * 8 + 5, y + 108), fill=col)
+        on = onset_near(env, dt, (h - 1) / FPS + 0.02)
+        df = on * FPS - (h - 1)
+        res.append((h, lab, round(on, 3), round(df, 2)))
+        d.text((x + 4, y + 114), f"{lab}  placed f{h}  onset {on:.3f}s = grid {df:+.2f} fr", fill=(240, 230, 190), font=font)
     p2 = f"{CONTACT}/SAGA_OP_v2_hits.png"
     im.save(p2)
-    # numbers for the report
-    res = []
-    for h, lab in HITS:
-        seg = env[max(0, h - 6):h + 7]
-        pk = int(np.argmax(seg)) + max(0, h - 6)
-        res.append((h, lab, pk, pk - h))
     json.dump(res, open(f"{CONTACT}/hit_onsets.json", "w"), indent=0)
     print(p1, p2)
     for r_ in res:
@@ -501,11 +554,9 @@ def main():
         card(c)
     todo = [c for c, _, _ in CUTS if not a.only or c in a.only.split(",")]
     errs = []
-    jobs = [c for c in todo if c not in ("C13", "C14")]
+    jobs = list(todo)
     with cf.ThreadPoolExecutor(a.jobs) as ex:
         futs = {ex.submit(build, c): c for c in jobs}
-        if "C13" in todo or "C14" in todo:
-            futs[ex.submit(build_title)] = "C13+C14"
         for fu in cf.as_completed(futs):
             try:
                 fu.result()
