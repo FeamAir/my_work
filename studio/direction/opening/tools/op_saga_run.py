@@ -21,9 +21,12 @@ D01_A_C / W11 on purpose: the picked T image IS take 1 of that frame, so steps R
 Kling 2.5 TP on fal takes no seed: a retake is a new sample (take N file name only).
 
 Budget (§8.3): each step runs under its own cumulative ceiling: T 65.79, L 66.03 (67.35 if step R has run),
-R 67.35, N 69.39, K 84.50; the lower of that and a hand-set BUDGET_LIMIT_USD is used; a BUDGET_LIMIT_USD above
-84.50 is refused. Every call goes through pipeline.fal_client -> costs.guard (permission, limit, $20 fal floor)
-and costs.log (output/costs.jsonl); the script also checks the step ceiling itself before each call.
+R 67.35, N 69.39, K 84.50. Effective limit = min(env BUDGET_LIMIT_USD, step cap) (investor 2026-11-24, status.md:
+the env keeps BUDGET_LIMIT_USD=120, the opening cap is enforced here; an env limit above 84.50 is no longer refused).
+The script never changes the environment: it wraps pipeline.costs.guard in-process with the effective limit
+(install_step_guard), so every paid call is refused once spent + estimate > effective limit, and then still goes
+through the original guard (permission, env limit, $20 fal floor) and costs.log (output/costs.jsonl). The applied
+limit and its source are printed, written to each take's .json and appended to output/opening/saga_c/limits.log.
 """
 import argparse
 import json
@@ -51,6 +54,8 @@ LOG_AT_PLAN = 65.4651
 STEP_LIMITS = {"T": 65.79, "L": 66.03, "R": 67.35, "N": 69.39, "K": 84.50}
 L_AFTER_R = 67.35
 HARD_CAP = 84.50
+MORE3D = False       # set by --more3d: a C-RR retake (take >= 2) of a 2.5D take raises image 1's weight (§5.1)
+MORE3D_TEXT = "match the 3D rendering of image 1 first, take only the layout from image 2"
 
 BOARD = open(BOARD_PATH, encoding="utf-8").read()
 V14 = open(V14_PATH, encoding="utf-8").read()
@@ -284,6 +289,8 @@ def frame_call(fid, sig, take=1):
         seed, refs = RR_FRAMES[fid]
         anchor = C_HOUSE if fid == "D01_A_C" else ANCHOR
         rr = RR_169 if fid == "D01_A_C" else RR
+        if MORE3D and take > 1:                            # §5.1 acceptance: retake of a 2.5D take
+            rr += " " + MORE3D_TEXT[0].upper() + MORE3D_TEXT[1:] + "."
         prompt = " ".join([ANCHOR_INTRO, rr, subst(rr_content(fid))] + role(fid) + [tail(sig, "op")])
         return {"id": fid, "model": "nano-banana-2-edit", "seed": seed + 1000 * (take - 1),
                 "images": [anchor] + refs, "prompt": prompt}
@@ -378,16 +385,35 @@ def default_take(i, st):
     return 2 if i in ("D01_A_C", "W11") and os.path.exists(take_path(i, 1, st)) else 1
 
 
-def step_limit(step):
-    lim = STEP_LIMITS[step]
+def step_limit(step, with_source=False):
+    """Effective limit = min(step cap, env BUDGET_LIMIT_USD). The env value is read, never changed or refused."""
+    lim, src = STEP_LIMITS[step], f"step {step} cap"
     if step == "L" and any(os.path.exists(f"{OUT}/frames/{f}_t{t}.png") for f in RR_FRAMES for t in (1, 2, 3)):
-        lim = L_AFTER_R
+        lim, src = L_AFTER_R, "step L cap after R"
+    lim = min(lim, HARD_CAP)
     env = os.environ.get("BUDGET_LIMIT_USD", "").strip()
-    if env:
-        if float(env) > HARD_CAP:
-            sys.exit(f"BUDGET_LIMIT_USD={env} is above the opening's cap {HARD_CAP} (§8.3): refused")
-        lim = min(lim, float(env))
-    return lim
+    if env and float(env) > 0 and float(env) < lim:
+        lim, src = float(env), "env BUDGET_LIMIT_USD"
+    src += f" (env BUDGET_LIMIT_USD={env or 'unset'})"
+    return (lim, src) if with_source else lim
+
+
+def install_step_guard(costs, limit):
+    """Wrap costs.guard in this process: refuse a call once spent + estimate > limit, then run the original guard."""
+    orig = getattr(costs.guard, "_op_orig", costs.guard)
+
+    def guard(service, units):
+        est = costs.estimate(service, units)
+        spent = costs.total_spent()
+        if spent + est > limit + 1e-9:
+            raise costs.BudgetExceeded(f"OP step cap: spent ~${spent:.4f} + {service} ~${est:.2f} > effective limit "
+                                       f"${limit:.2f} (min of env BUDGET_LIMIT_USD and the step cap)")
+        return orig(service, units)
+
+    guard._op_orig = orig
+    guard._op_limit = limit
+    costs.guard = guard
+    return guard
 
 
 # ------------------------------------------------------------------ checks on the assembled calls
@@ -425,6 +451,7 @@ def call_checks(sig_values=(False, True)):
     chk("exactly as in image 2" not in frame_call("D01_A_C", False)["prompt"], "D01_A_C: no 'exactly as in image 2' (B2)")
     chk("south-west" in frame_call("D01_A_C", False)["prompt"], "D01_A_C: Sluice Spire at the south-west foot (B2)")
     chk("drifting rain" not in FLOW and "{FLOW}" not in span(row("W11")[-1], 0), "FLOW without rain, not on W11 (R4.4)")
+    chk(f"`{MORE3D_TEXT}`" in BOARD, "--more3d sentence is the board's §5.1 text")
     chk("no lamp, lantern, window or fire is lit" in C_NOTE, "C_NOTE R3.4")
     chk("no light band following a groove" in SIGNATURE_C and "no added rim light" in PHONE, "SIGNATURE_C / PHONE R3.4")
     for sig in (False, True):
@@ -510,10 +537,15 @@ def cmd_run(step, ids, take_arg):
     needs_anchor = step in ("L", "N", "K") or (step == "R" and any(i != "D01_A_C" for i in (ids or STEPS["R"])))
     if needs_anchor and "D01_A_C" not in st["accepted"]:
         sys.exit(f"step {step} needs D01_A_C accepted first ({{C_ANCHOR}}); run R D01_A_C alone, or accept the picked T1")
-    limit = step_limit(step)
-    os.environ["BUDGET_LIMIT_USD"] = f"{limit:.2f}"
+    limit, src = step_limit(step, with_source=True)
+    install_step_guard(costs, limit)
     sig = st.get("pick") == "with"
-    print(f"step {step}: limit {limit:.2f}, spent so far ${costs.total_spent():.4f}, signature {'on' if sig else 'off'}")
+    line = (f"step {step}: effective limit {limit:.2f} [{src}], spent so far ${costs.total_spent():.4f}, "
+            f"signature {'on' if sig else 'off'}")
+    print(line)
+    os.makedirs(OUT, exist_ok=True)
+    with open(f"{OUT}/limits.log", "a", encoding="utf-8") as f:
+        f.write(time.strftime("%Y-%m-%dT%H:%M:%S ") + line + "\n")
     for i in ids or STEPS[step]:
         if step_of(i) != step:
             sys.exit(f"{i} is not in step {step}")
@@ -542,7 +574,7 @@ def cmd_run(step, ids, take_arg):
                     sys.exit(f"{i}: missing image {im}")
             fal_client.generate_image(c["prompt"], out, model="nano-banana-2", reference_images=c["images"],
                                       aspect_ratio="16:9", extra={"seed": c["seed"]})
-        meta = dict(c, take=take, usd=est, seconds=round(time.time() - t0, 1), step=step, limit=limit)
+        meta = dict(c, take=take, usd=est, seconds=round(time.time() - t0, 1), step=step, limit=limit, limit_source=src)
         json.dump(meta, open(out.rsplit(".", 1)[0] + ".json", "w"), indent=1, ensure_ascii=False)
         print("  ->", out, f"({meta['seconds']} s), spent ${costs.total_spent():.4f}", flush=True)
 
@@ -589,7 +621,10 @@ def main():
     ap.add_argument("cmd", choices=["show", "check", "run", "pick", "accept", "peaks"])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--take", type=int)
+    ap.add_argument("--more3d", action="store_true", help="C-RR retake: add the §5.1 3D-weight sentence (take >= 2)")
     a = ap.parse_args()
+    global MORE3D
+    MORE3D = a.more3d
     if a.cmd == "show":
         cmd_show(a.args)
         sys.exit(0 if report_checks() else 1)
