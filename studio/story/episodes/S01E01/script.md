@@ -1,10 +1,10 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Script
 
-Version 1.0.3 · 2026-11-24 · author: lead-screenwriter · status: **full script; matches the animatic v2 picture cut (21:30)**
+Version 1.0.4 · 2026-11-24 · author: lead-screenwriter · status: **full script; matches the animatic v3 edit decisions (19:51.5)** — shot-by-shot list: `continuity_check.md` §9
 Built on: `beat_sheet.md` v2 (same scene numbers) · canon v0.4 + `decisions_resolved.md` · analyst's review `research/pilot_hook_review.md` (O-1…O-11 applied; see the check at the end of this file)
 Spoiler level: **safe for the production team.** This file says what is seen and heard and which wording is binding. It never says why a detail matters. Where a note reads *fixed — ask the lead*, do not change it and do not guess.
 
-**Picture (v2, 2026-11-24):** the animatic v2 cut runs **21:29.75**; its per-shot timings are in `direction/shotlists/S01E01_shotlist.md` (v2). The scene timecodes in this file are the 26:39 story timings and are kept as a reference; where a rule is about *position*, it is stated by scene (see v1.0.3 in the change log).
+**Picture (v3 decisions, 2026-11-24):** the animatic v2 cut runs **21:29.75**; the v3 edit decisions (`continuity_check.md` §9, by v2 shot id and line id) bring it to **19:51.5**. Per-shot timings of v2 are in `direction/shotlists/S01E01_shotlist.md` (v2). The scene timecodes in this file are the 26:39 story timings and are kept as a reference; where a rule is about *position*, it is stated by scene (see v1.0.3 in the change log).
 
 **Running time:** 26:39 of story · 21 scenes · one day in the world: CY 312, Longdark 6 (Hornday), dawn ebb → dark · pre-title: CY 295, the night of Still 3.
 **Delivered length:** ≈ 29 min with the ending (the opening theme, first full statement) and the next-episode preview. No opening sequence in the pilot; the only title is 9 seconds at 6:11.5, after the cold open.
@@ -29,7 +29,7 @@ Spoiler level: **safe for the production team.** This file says what is seen and
 
 **Rules that hold in every scene** (*fixed — ask the lead*):
 - Every braid named here is on the **left**. Ruel's ring and his clasp are **left-handed**. Nan's one earring is **left**.
-- **The stone and the ring never share a frame**, a split screen, or a cut that sets one beside the other. In this running order no scene that features the ring stands next to a scene with the stone or its cord: Sc 9 → 13 → 10 and Sc 11 → 15 → 15a put a bank scene between them, and Sc 12, which follows Sc 15a, has no ring insert at all. In Sc 4 → Sc 5 the match cut is stone → woven tower, never stone → pearl; two panels pass before the pearl.
+- **The stone and the ring never share a frame**, a split screen, or a cut that sets one beside the other. In this running order no scene that features the ring stands next to a scene with the stone or its cord: Sc 9 → 13 → 10 and Sc 11 → 15 → 15a-2 put a bank scene between them, and Sc 12, which follows Sc 15a-2, has no ring insert at all. Sc 10 → 15a-1 is allowed only because 15a-1 shows coins and the collector, never the cord or the stone (v1.0.4). In Sc 4 → Sc 5 the match cut is stone → woven tower, never stone → pearl; two panels pass before the pearl.
 - The stone never glows. Its sound is *seen* as a tremor and as rings on water. Glow belongs to the Spires.
 - No one sings in the Lows. Whistles, plank-stamps, a count spoken on one pitch. Wick's one sung note in Sc 4 is the only one.
 - The low register of the score stays empty everywhere, so that the stone's note has a place nothing else has used.
@@ -161,7 +161,7 @@ WICK [MS]
 It's only water.
 
 PELL [MS] (not looking at it)
-Hold the rope.
+Hold the rope, Wick.
 
 She will not step past the sill. She kneels on it and works the pool with the rake at arm's length. The rake comes up with black weed. Again. Weed. Wick has the rope wrapped twice round his wrists and his heels dug in.
 
@@ -521,14 +521,19 @@ Then the doors, and the room turns the other way.
 
 RUEL comes in last: forty-eight, big, heavy-chested, sea-weathered. A deep-blue long coat with a silver cormorant clasp; salt-and-pepper hair in a short sailor's queue; a grey-streaked square beard. A rolled petition in his **right** hand. Behind his shoulder, a young officer (bk only: a short deep-blue jacket, dark umber curls tied high with a silver cord). She does not turn round in this episode.
 
+He stops by the old door-warden (bk) on his way in, as if nobody else were waiting.
+
+RUEL [MS] (warm, round, broad; Gullmouth vowels; a voice people lean toward)
+And that girl of yours? Still climbing my rigging when the watch isn't looking?
+
 Faces along the benches are smiling before Ruel has reached them. He is the man you would follow into a boat.
 
-At the map-table. Two men who have had this conversation before; they keep it low. Play it on hands, the map-case, the petition, and on the listener.
+At the map-table. Two men who have had this conversation before; they keep it low. **Every spoken line plays on its speaker's face** (or, for an `[OS]` line, on hands and objects — never on the other man's face): in stills and limited animation the viewer gives a line to the face on screen. (v1.0.4; shot mapping in `continuity_check.md` §9.6.)
 
-RUEL [MS] (quiet; warm, round, broad; Gullmouth vowels; a voice people lean toward)
+RUEL [MS] (quiet)
 Pumps for the low sluices. It's all written down. You need only say yes.
 
-THE HELM [OS] (old, rasping, tired)
+THE HELM [MS] (old, rasping, tired)
 You will have my answer when I have read.
 
 RUEL [MS]
@@ -539,7 +544,7 @@ Read it differently.
 THE HELM [MS]
 It is drawn, Ruel. I only read it.
 
-RUEL [OS]
+RUEL [MS]
 People live down there, old friend.
 
 THE HELM [MS] (not unkind)
@@ -565,9 +570,21 @@ CLOSE on Ione, silent: she has seen it. A ring; a scratch. She lets it go.
 RUEL [MS] (kindly; to her)
 Ione Ilvane. You've flattened my harbour. My captains will be bored.
 
-A small bow from her, a smaller smile. The hall settles into its seats.
+CUT TO (his harbour, flattened → four coppers in a girl's hand):
 
-CUT TO (the bead of blood on a knuckle → a bead of ink at the point of a pen):
+## SC 15a-1 — EXT. PL-0008 THE LANE OUTSIDE NAN'S STILT-HOUSE — LOW SUN `[v1.0.4: the first half of Sc 15a, moved up]`
+
+*No cord and no stone in any frame of this scene: it follows a scene with the ring.*
+
+The lane plate of Sc 2, gold-edged. Pell sits on the plank-walk with her feet over the edge. The rag is open on her knee. She counts the four coins from one hand into the other. It is still four.
+
+SOUND: planks; **a knock**, four doors up. The wheel's count, far off.
+
+Four doors up, the slate-and-sulphur tabard. A woman hands a cooking-pot out of a doorway without a word; the collector hangs it on his arm with the others and goes to the next door. Knock.
+
+Pell watches him come.
+
+CUT TO (her eyes on the collector → a bead of ink at the point of a pen):
 
 ## SC 14 — INT. PL-0011 THE COUNTING HALL — CONTINUOUS FROM SC 13 `LA` [14:14–15:14]
 
@@ -607,7 +624,8 @@ SOUND: the hall hushed for a rite. A steward's staff, once, on the floor.
 STEWARD [OS] (a formula he has said every year)
 The tithe cup. First the taster. Then the Helm. Then the guest of the reading.
 
-THE TASTER (light ref): nineteen, short, plump, kitchen-pale; auburn hair under a white coif; a silver spoon on a chain. She takes the cup in both hands and drinks. She lowers it. The hall waits the count with her: we hear her breathe, four times. She is entirely well. She even colours a little, with every eye on her.
+THE TASTER (light ref): nineteen, short, plump, kitchen-pale; auburn hair under a white coif; a silver spoon on a chain. She takes the cup in both hands and drinks. She lowers it. The hall waits the count with her: we hear her breathe, four times. She is entirely well.
+By the door, the man with the hare's-ear pin (bk) waits the count with everyone else. (v1.0.4: no look, no action; he is simply there.)
 
 The Helm drinks. He sets the cup down a little too hard; nobody marks it.
 
@@ -620,7 +638,7 @@ I don't drink before a storm.
 
 A beat. Then laughter, all down the hall: behind him, through the tall window, the harbour is a mirror from mole to mole. He laughs with them. The taster laughs. The Helm, at the table, has both hands flat on the leather case and is looking at them.
 
-The steward takes the cup away. On the dais, the case is opened.
+The steward takes the cup away.
 
 CUT TO (a staff on a stone floor → a stick tapping felt, once):
 
@@ -661,17 +679,13 @@ SOUND: Ursel's stick, going away on the felt.
 
 CUT TO (her last words still in the air → water, finding its level):
 
-## SC 15a — EXT. PL-0008 THE LANE OUTSIDE NAN'S STILT-HOUSE — LOW SUN [17:44–18:19]
+## SC 15a-2 — EXT. PL-0008 THE LANE OUTSIDE NAN'S STILT-HOUSE — LOW SUN [17:44–18:19] `[v1.0.4: the coins and the collector moved to Sc 15a-1]`
 
 The tide is coming back. Under the stilts a tongue of grey water slides in over the morning's mud, fills a footprint, fills the next. The lane plate of Sc 2, wetter, gold-edged.
 
-SOUND: water creeping; planks; **a knock**, four doors up. The wheel's count, far off.
+SOUND: water creeping; planks; a knock, nearer now. The wheel's count, far off.
 
-Pell sits on the plank-walk with her feet over the edge. The rag is open on her knee. She counts the four coins from one hand into the other. It is still four.
-
-Four doors up, the slate-and-sulphur tabard. A woman hands a cooking-pot out of a doorway without a word; the collector hangs it on his arm with the others and goes to the next door. Knock. Three doors up.
-
-Pell looks the other way, along the plank-walks toward the dike road. Lanterns being lit. No small hunched figure with a bale.
+Pell, on the plank-walk, looks the other way from the knocking, along the plank-walks toward the dike road. Lanterns being lit. No small hunched figure with a bale.
 
 WICK [OS] (from the door behind her; not a joke this time)
 She said dusk.
@@ -767,8 +781,6 @@ At the high desk Dame Ursel finishes her line. Blots it. Dips. Begins the next. 
 
 Hollis, pen in the air like the rest, looks from her moving hand down to the head of his own page. **ACCOUNT NINE.** His left hand goes, without his sending it, to his breast pocket.
 
-The clerk at the next desk is looking at the cage with his mouth a little open.
-
 EXT. THE STEPS OF THE COUNTING HOUSE. The city falling away below in terraces, lamps coming on. The tone goes down the hill from stone to stone, house to house, thinner at each remove. Above everything, the Crown Spire, **dark** against the last light.
 
 FOLLOW THE TONE downhill:
@@ -783,12 +795,10 @@ MUSIC: from here to the end of Sc 19 the score may enter, very low in level and 
 
 A small man stands in the middle of it as in his own parlour: slight, shaved head, pale. Slate grey with a sulphur lining; a silver hare's-ear brooch at the **right** collar. He is **fully dressed**, for the street and for the council, with the council's roll under his arm.
 
-A RELAY-KEEPER (bk) hovers at his elbow.
+A RELAY-KEEPER, off screen, at his elbow.
 
 KEEPER [OS] (uneasy)
 The tone came very quickly, my lord.
-
-The small man considers the wall of stones as one considers a class of children.
 
 THE LORD OF THE RELAY [MS] (soft, mid-low, almost a whisper; very slow; court vowels) **FIXED**
 Nothing unheard.
@@ -803,7 +813,7 @@ The gate of Sc 1, seventeen years older, from the dry side. Dry stone steps goin
 
 A file of Rusk guards in helmets and rust-red tabards, from behind. At their head one SERGEANT (bk only): medium height, broad; black hair shaved at both sides; a dented half-helm with a white stripe carried under the **left** arm. No face.
 
-SOUND: boots. The tone. No order is spoken; a hand signal is enough.
+SOUND: boots. The tone. No order is spoken.
 
 The leaves swing in.
 
@@ -972,6 +982,7 @@ It holds **one second** into the dark, alone.
 
 **Total: 21 scenes, 26:39.** Scene numbers are those of the beat sheet; the bank scenes (13–16) are woven into the hall scenes (10–12), so the numbers no longer run in order.
 Pell is on screen 1:10–5:20, 6:20.5–7:20, 9:58–10:36, 17:44–18:19 and 23:24–26:39. Her longest absence is 7:08 (10:36 → 17:44).
+**Picture v3 (`continuity_check.md` §9.7):** Sc 15a is split; running order 1–9, 13, 10, **15a-1**, 14, 11, 15, **15a-2**, 12, 16–20; 19:51.5. Pell is off screen at most 3:09 (14:12 → 17:21), and 2:10 / 2:19 in the reading. The story timings in the table above are the v1.0.2 reference and do not show the split.
 Lip-sync close-ups: 5 (Sc 4, 11, 12, 15, 20). If the style test allows four: Sc 12's line goes to `[MS]` over the map, the close-up to the reading hand.
 The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:25 of speech inside 1:44 of screen time, none before the end of Sc 4 (5:20 of story; 5:05.5 in the v2 picture), none over a face.
 Without spoken dialogue: Sc 1 entire; the song and the glass in Sc 9; the fall and four seconds after it; the pens in Sc 16; the last forty seconds of Sc 20 but for one line. About nine minutes in all.
@@ -1042,3 +1053,4 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 | 1.0.1 | 2026-11-22 | Sc 8: the old Cantor wears **a black throat-band** (was "a yellowed throat-band"). Canon HS-090: a Cantor without a voice wears black. He is a background figure with his own silhouette and is nobody the viewer meets later under a name. Nothing else in the scene changes; timings unchanged. Source: keeper's report r5; `decisions_resolved.md` Part 5. |
 | 1.0.2 | 2026-11-23 | After the director's storyboard acceptance (`direction/S01E01_storyboard_acceptance.md` §5). (1) Timecodes: Sc 5 5:20–6:20.5 (tapestry 51.5 s at a readable pace for the unchanged Chronicler text; title 9 s at 6:11.5–6:20.5), Sc 6 6:20.5–7:20, Sc 7 7:20–7:57.5, Sc 8 7:57.5–9:04. Everything from 9:04 and the total of 26:39 are unchanged. (2) Sc 18: the hands wear black quilted cuffs, no tabard, no house colour (was "a soldier's cuffs in rust-red"); the file of guards behind keeps its rust-red. (3) Sc 9: the tower burns white from the crown down to its lowest turns; the foot stays dark stone (was "from crown to foot"). No line of dialogue changes. |
 | 1.0.3 | 2026-11-24 | Matches the animatic v2 picture cut (21:30; `direction/S01E01_animatic_v2_notes.md`). (1) **Sc 2 restaged (approved):** Wick is not shown hanging upside down; the rope-bridge bows under an unseen weight, grit falls past the collector, Wick's two lines are [OS] from the bridge, Nan's "Get down off that bridge!" pays the joke over a push-in to the doorway; Wick's first sight and description move to the ladder edge ("looks at the drop… and jumps"). (2) **Sc 4 restaged (approved, amended):** after the three-second silence, an insert of Nan's hand only, pressed flat on the table to stop it shaking (the crooked right little finger visible), the net-needle, Wick's dropped crust; no faces; the hand over the mouth is directed as a hush, not a blow. (3) **Three lines cut with the picture, not recorded for finals:** L021 (Nan, "And don't tell me what you found…"), L039 (Corr, "I've forty grown backs…"), L058 (Ruel, "And that girl of yours?…") and the door-warden beat with it; Ruel's voice direction moves to his first remaining line. No canon clue, FIXED or [ECHO] line is lost (`continuity_check.md` §8). (4) Position rules restated by scene: the Chronicler, title, logo and card come **not before the end of Sc 4**. The studio director's 21:30 ruling overrides "never cut anything in 0:00–5:20" (recorded in `beat_sheet.md`). Story timecodes in this file are unchanged. |
+| 1.0.4 | 2026-11-24 | Animatic v3 edit decisions after the analyst's, keeper's and QA reviews of v2 (`continuity_check.md` §9, shot ids and line ids). (1) **Sc 3, L014 reworded:** Pell "Hold the rope, **Wick**." — the boy is named once, on his close-up, at 2:30 (one new TTS take; needs the studio director's permission). (2) **Sc 10:** every line of the quarrel plays on its speaker's face; L060 (the Helm) and L064 (Ruel) become `[MS]`; the "play it on the listener" note is withdrawn. (3) **Sc 10, L058 restored** from the existing v2 audio, with the door-warden (bk): Ruel's warmth before the clasp; his voice direction returns to it. (4) **Sc 11:** the man with the hare's-ear pin is present (bk) through the taster's count; the blush and "the case is opened" go with their shots. (5) **Sc 15a split:** 15a-1 (the coins, the collector taking a pot; no cord) plays after Sc 10; 15a-2 (the tide, "She said dusk.", the cord, the palace) stays before Sc 12. (6) **Sc 16–18 trimmed −45.5 s** with no beat, plant or line lost: Fossett at the cage, the keeper's look and "considers the wall", the hand signal leave the script with their shots. (7) Ring insert, blood insert and Ione's close-up shortened (in the shot list). No FIXED, `[ECHO]` or Chronicler line changes. |

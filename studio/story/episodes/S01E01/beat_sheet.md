@@ -1,6 +1,6 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Beat Sheet
 
-Version 2.1 · 2026-11-24 · author: lead-screenwriter · status: **beat sheet v2 — the full script (`script.md` v1.0.3) is written to it**; v2.1 records the animatic v2 rulings (position rules by scene, the cold-open cut, two restagings, three cut lines) — see `continuity_check.md` §8
+Version 2.2 · 2026-11-24 · author: lead-screenwriter · status: **beat sheet v2 — the full script (`script.md` v1.0.4) is written to it**; v2.1 records the animatic v2 rulings (`continuity_check.md` §8); **v2.2 records the v3 edit decisions** (Sc 15a split, Sc 16–18 trims, Wick named, Ruel softened, Sc 10 speaker-on-screen; 19:51.5) — see `continuity_check.md` §9
 Canon: v0.4 + `story/decisions_resolved.md` · Outline: `season01_outline.md` v1.3, E1
 Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `sealed/master_mystery.md`; nothing here explains a sealed answer. Describe only what is seen and heard.
 
@@ -220,14 +220,14 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Characters:** CH-0016 Helm Lucan Dask · CH-0005 Ruel Corvane · CH-0006 Maren (bk — short blue jacket, umber curls tied high; at Ruel's shoulder; no line) · CH-0002 Ione · CH-0063 Juno Brisk (light) · the eight seats as colour and backs: Ilvane white (CH-0020 Aurin, bk), Rusk rust-red, Quell sea-green, Lantry black-and-copper and Fennick slate-and-sulphur (stewards), the Choir — OPTIONAL: CH-0012 Vesna (veiled) with CH-0022 Elm (bk, bowed) at her shoulder · a man with a hare's-ear pin by the door (bk).
 - **What happens:**
   - The hall fills by colours. Ruel comes in last and the room turns to him; he knows the door-warden's name and the door-warden's daughter's. He is the man you would follow into a boat.
-  - He carries a rolled petition in his right hand. Old Lucan (tall, stooped, white square beard) is already at the map-table. `[v2]` The quarrel is one thought a fifteen-year-old can follow — **Ruel wants pumps for the low sluices; the Helm refuses**: *"Pumps for the low sluices. You need only say yes."* — *"You will have my answer when I have read."* — *"I know what you'll read. Read it differently."* — *"It is drawn, Ruel. I only read it."* — *"People live down there, old friend."* — *"And you will lose this one."* Ruel, FIXED LINE (fingerprint): *"We go under and come up."*
+  - He carries a rolled petition in his right hand. Old Lucan (tall, stooped, white square beard) is already at the map-table. `[v2]` The quarrel is one thought a fifteen-year-old can follow — **Ruel wants pumps for the low sluices; the Helm refuses**: *"Pumps for the low sluices. You need only say yes."* — *"You will have my answer when I have read."* — *"I know what you'll read. Read it differently."* — *"It is drawn, Ruel. I only read it."* — *"People live down there, old friend."* — *"And you will lose this one."* Ruel, FIXED LINE (fingerprint): *"We go under and come up."* `[v2.2]` Every line plays on its speaker's face, never on the listener's (stills give a line to the face on screen); mapping in `continuity_check.md` §9.6.
   - The petition is in his right hand; he clasps the Helm's hand with his **left**. A long, warm clasp. The black pearl ring against the old man's knuckle.
   - Ione arrives from the stair, hoarse, to give the Helm the Cantor's word that the water lies flat. She sees a bead of blood on the Helm's knuckle; he puts it to his mouth like a man who has caught a splinter. A ring scratch. She lets it go.
   - Ruel to Ione, kindly: she has flattened his harbour; his captains will be bored.
 - **Purpose:** the season's central act, in full view and in the best light; the man the audience must love until E11.
 - **Seeds:** SEC-001 (the left hand; the blood; Ione as witness) · M-RNG (one close insert — the pearl, minutes after the tapestry's) · M-MAP · SEC-037 / the news chain, hint only (Ruel already knows what is drawn) · DEC-24 (Maren's back) · the Fennick chair holds a steward.
 - **Transition:** `[v2]` the bead of blood on a knuckle → a bead of ink at a pen-point (Sc 14).
-- **Length:** 2:05 (was 2:15; ends 14:14). `[v2]` Follows Sc 13. Juno and the door-warden are not named aloud; v2.1: the door-warden question (L058) is cut with the picture; the charm plays on the faces that smile as he passes.
+- **Length:** 2:05 (was 2:15; ends 14:14). `[v2]` Follows Sc 13. Juno and the door-warden are not named aloud; v2.1: the door-warden question (L058) is cut with the picture; the charm plays on the faces that smile as he passes. `[v2.2]` **L058 restored** (existing audio): Ruel's warmth must be on screen before the clasp, or the clasp, the blood and the cup read as a confession by 13:00. Ring insert 1.5 s, blood insert 1.75 s. Ends on L068 → Sc 15a-1.
 
 ### Sc 14 — The figure at the next desk (episode puzzle) `LA`
 - **Place:** PL-0011. **Time:** continuous.
@@ -251,7 +251,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** the line the season will quote back; the taster established as alive and well (E6, E11).
 - **Seeds:** SEC-001 (the cup is clean; the taster lives) · M-RNG (the hand over the cup is the left).
 - **Transition:** `[v2]` a staff on stone → a stick tapping felt (Sc 15). The map-case is opened on the dais as we leave.
-- **Length:** 1:00 (ends 16:14). `[v2]` Follows Sc 14. The taster is not named aloud.
+- **Length:** 1:00 (ends 16:14). `[v2]` Follows Sc 14. The taster is not named aloud. `[v2.2]` The man with the hare's-ear pin (bk) is in the hall through the taster's count — presence only, no look, no action: the red herring stands near the cup as well as the true hand.
 
 ### Sc 15 — The clip
 - **Place:** PL-0011. **Time:** toward evening.
@@ -278,7 +278,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** the heroine in the middle of the episode; her street in the viewer's eye in the half-minute before the Helm names it; the choice that Sc 19 carries out.
 - **Seeds:** M-PAY · M-SHD (the cord) · the collector "takes it in goods" shown before it threatens the net-chest.
 - **Transition:** the palace on the hill → the map unrolling (Sc 12). **Rule:** Sc 12 carries no ring insert, because it follows this scene.
-- **Length:** 0:35 (ends 18:19).
+- **Length:** 0:35 (ends 18:19). `[v2.2]` **Split in the picture:** **15a-1** (the coins, "still four", the collector taking a cooking-pot four doors up; no cord, no stone) plays between Sc 10 and Sc 14; **15a-2** (the tide, no Nan, "She said dusk." / "So did he.", the hand on the cord, the palace) stays before Sc 12. Pell's absences in the reading fall from 5:00 / 3:58 to 2:10 / 2:19 / 3:09.
 
 ### Sc 12 — "…and the Ninth Sluice—" `$`
 - **Place:** PL-0009 the tithe hall. **Time:** the last light.
@@ -308,7 +308,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** the ruler's death as the city hears it and as the bank hears it — `[v2]` now its immediate consequence, with no drop after the summit; the hand-off from the three lines to the one city.
 - **Seeds:** RULE-004 · SEC-007 / SEC-013 (she is not surprised — reads as discipline) · the tone "too fast" (`[v2]` the audience now *feels* how fast: one cut after the fall — the red herring of E6) · M-CLP.
 - **Transition:** follow the tone downhill.
-- **Length:** 1:15 (was 1:30; ends 21:54).
+- **Length:** 1:15 (was 1:30; ends 21:54). `[v2.2]` Picture 0:30 (v2 0:50): the tone, the bell, the pens, the falling drop, Ursel writing, ACCOUNT NINE (kept), the hand to the pocket, the tone downhill. Fossett at the cage and the doors are out.
 
 ## THE CITY HEARS IT
 
@@ -322,7 +322,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** the candidate the audience will suspect, introduced by the fact that makes them suspect him.
 - **Seeds:** SEC-001 red herring · RULE-009 (he keeps the roll) · Odo's fingerprint.
 - **Transition:** the stopped stone → a bar of iron dropping.
-- **Length:** 0:45 (was 0:50; ends 22:39). `[v2]` Odo is not named aloud ("my lord").
+- **Length:** 0:45 (was 0:50; ends 22:39). `[v2]` Odo is not named aloud ("my lord"). `[v2.2]` Picture 0:20.5 (v2 0:35): the wall, Odo dressed, the brooch and roll, L090, "Nothing unheard.", the finger, the stop.
 
 ### Sc 18 — The Mids
 - **Place:** PL-0021 the Ninth Sluice evacuation gate (Mids side). **Time:** dusk.
@@ -334,7 +334,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** the fourth hero enters without a face; a question planted with a match-cut and no words.
 - **Seeds:** SEC-009 (M-HND) · Kes's fingerprint (silence about the Ninth) · the gate (pays E4, E10).
 - **Transition:** through the closing gap of the gate, down, to lanterns on black water — the tide is back in the lanes.
-- **Length:** 0:45 (was 0:50; ends 23:24).
+- **Length:** 0:45 (was 0:50; ends 23:24). `[v2.2]` Picture 0:29.5 (v2 0:40.5): the hands and the bar unchanged in frame and length; the look at the wall; "Thirty days of this, then." The lantern and the hand signal are out.
 
 ### Sc 19 — The Lows: dusk `[v2]`
 - **Place:** PL-0008 the lane → PL-0019 Nan's stilt-house (door and interior). **Time:** dusk into dark.
@@ -417,6 +417,7 @@ By block: cold open 5:20 · title sequence 0:54 · wheel and map 1:40 · the son
 **Packaging:** no opening sequence before or inside the pilot beyond the 12-second title; the opening theme plays as the ending; + next-episode preview. Delivered length ≈ 29 min.
 **If the edit must lose time**, shorten in this order and no further: Sc 8 (−0:10), Sc 13 (−0:10), Sc 17 (−0:05). Never cut: any `FIXED LINE`, any `[ECHO]`, Sc 7, Sc 15a, Sc 18, the last second of Sc 20, anything in 0:00–5:20.
 **v2.1 (2026-11-24) — superseded by the studio director's 21:30 ruling (recorded, not re-argued):** the v2 picture cut trims the cold open after 0:30 (Sc 1 −4 s, Sc 2 −4.5 s, Sc 3 −29 s, Sc 4 −17.5 s) and loses one line there (L021). The rule now in force for the cold open (Sc 1–4) and every later trim: no beat, no plant of `continuity_check.md` §4, no `FIXED`/`[ECHO]` line is cut; the protected durations of `direction/S01E01_animatic_v2_notes.md` §2.2 do not change (0:00–0:30, the baby's notes and the sleeve, the pool from the hum to the rings, the 3 s after Nan's hand, the Sc 1/18 hands); any further cut there needs the lead's sign-off.
+**v2.2 (2026-11-24) — the v3 edit decisions (`continuity_check.md` §9):** the picture goes from 21:29.75 to **19:51.5** (−98.25 s). The "never cut … Sc 15a, Sc 18" list above is **replaced** by §9.0: never cut a beat, a §4 plant, a FIXED / `[ECHO]` / Chronicler line, a lip-sync CU, a match cut, or a protected duration (exception signed: sc01-sh140/150 lose up to 2 s from their tails). Sc 7, Sc 15a and Sc 18 may lose holds and plant-free shots; the Sc 18 hands and bar keep their frames and lengths. Running order in the picture: 1–9, 13, 10, 15a-1, 14, 11, 15, 15a-2, 12, 16–20.
 **If the edit wants air**, it goes to Sc 9 (the held glass), the four seconds after the fall in Sc 12, and Sc 20 — up to +0:30 in all.
 
 ## 4. Dialogue density `[v2]`
@@ -424,7 +425,7 @@ By block: cold open 5:20 · title sequence 0:54 · wheel and map 1:40 · the son
 Wordless: Sc 1 (all), Sc 9 (the song and the glass), the fall in Sc 12 and four seconds after it, the pens in Sc 16, Sc 18 (one off-screen line), the last forty seconds of Sc 20 but for one line. About **nine minutes without spoken dialogue**.
 Chronicler: three entries (Sc 5 ≈0:42, Sc 7 ≈0:40, Sc 19 ≈0:15), **none before the end of Sc 4** (v2.1 wording; 5:20 of story, 5:05.5 in the v2 picture), none over a face. Every sentence passes the literal-truth test (`continuity_check.md` §3).
 Hollis `[VO]` in Sc 13 is his own young voice over figures — never the Chronicler's cadence, and he does not say "carried forward" in this episode.
-**Names spoken aloud (O-11):** Pell, Wick, Nan, Mags (once), Ione (Ilvane), Ruel, Hollis, Kett, Dame Lantry, Lucan (Ruel once in Sc 12; "Helm Lucan Dask" once in Sc 19), Queen Neveh (once). Not named aloud in E1: Corr, Juno, Fossett, Odo, Tuck (who is no longer mentioned at all), the collector.
+**Names spoken aloud (O-11):** Pell, Wick (`[v2.2]` Pell, Sc 3, L014 "Hold the rope, Wick." — in v2 the name was never actually spoken), Nan, Mags (once), Ione (Ilvane), Ruel, Hollis, Kett, Dame Lantry, Lucan (Ruel once in Sc 12; "Helm Lucan Dask" once in Sc 19), Queen Neveh (once). Not named aloud in E1: Corr, Juno, Fossett, Odo, Tuck (who is no longer mentioned at all), the collector.
 **Terms spoken before the title:** Ninth Sluice, coppers, dusk, nets, the old sill. After it, in this order: the Spires, the Concord, tithe (Sc 5) · the Helm, the map, Listeners (Sc 6) · Tithe Map, First / Second / Last Song (Sc 7) · Cantor (Sc 10) · the Still Days (Sc 19).
 
 ## 5. `[LIPSYNC-CU]` budget — 5 (unchanged)

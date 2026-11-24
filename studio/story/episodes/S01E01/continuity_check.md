@@ -1,6 +1,6 @@
 # S1E01 — Continuity Check (beat sheet v2 and script v1.0 against the outline and the canon)
 
-Version 2.0 · 2026-11-22 · author: lead-screenwriter
+Version 2.0 · 2026-11-22 · author: lead-screenwriter · §8 animatic v2 rulings and §9 v3 edit decisions added 2026-11-24
 Checked against: `season01_outline.md` v1.3 · `series_bible.md` v1.2 (§5, §10, §12) · `decisions_resolved.md` (source of truth) · `sealed/master_mystery.md` §5–§7 and `canon/sealed/sealed.md` (clue plans, Chronicler rules) · character and house dossiers, `voice_fingerprints.md` · canon v0.4 records (`world.md`, `timeline.md`, `glossary.md`, `excerpts/for_director_and_artist.md`).
 Spoiler level: internal — codes only. Scene numbers are those of beat sheet v2 (the same as v1.1, plus Sc 15a; the running order is 1–9, 13, 10, 14, 11, 15, 15a, 12, 16–20).
 
@@ -220,3 +220,179 @@ Source: `direction/S01E01_animatic_v2_notes.md` §2–§4. Script: `script.md` v
 | L058 Ruel | "And that girl of yours? Still climbing my rigging…" | Not a plant. Ruel's plants are the left-hand clasp and pearl insert, the petition, "knew what was drawn", Maren's back — all kept. His "calls everyone by name" habit is a speech trait, shown from E2 | none; his voice direction moves to "Pumps for the low sluices" |
 
 None of the three is recorded for finals unless the lead restores it. No wording change to any other line is needed.
+
+## 9. v3 edit decisions (2026-11-24, lead writer) — for animatic v3
+
+Sources: `reports/analyst-animatic-v2-2026-11-24.md`, `reports/lore-animatic-v2-2026-11-24.md`, `reports/qa-animatic-v2-2026-11-24.md`. Basis: v2 picture (`direction/shotlists/S01E01_shotlist.md` v2, `output/S01E01/animatic/spec/shots_v2.json`, 1289.75 s). Script: `script.md` v1.0.4. Beat sheet: v2.2.
+Shot ids are v2 ids; "trim" means shorten the hold, never re-time speech; "drop" means the shot leaves the cut (its SFX cue moves to the next kept shot, as in v2). Durations in seconds.
+
+**Result: 1289.75 → 1191.50 s (19:51.50), −98.25 s.** Sc 16–18 −45.5 s; other dead zones −58.5 s; restored shot +5.25 s; L014 shot +0.5 s. Optional air: up to +6 s on the crown (sc09-sh060 / sh080, with the temp music the analyst asks for) — the cut stays inside 19:30–20:30 either way.
+**Nothing below cuts a beat, a §4 plant, a FIXED or `[ECHO]` line, a Chronicler line, a lip-sync CU or a match cut. No VO line is cut.** One line is reworded (L014, one new TTS take — needs the studio director's permission); one cut line returns from the existing v2 audio (L058).
+
+### 9.0 Rule change (supersedes beat sheet §3 "never cut … Sc 15a, Sc 18")
+
+Never cut: a beat; a plant of §4; a FIXED / `[ECHO]` / Chronicler line; the five lip-sync CUs; a match cut; the protected durations of v2 notes §2.2 (one exception, sc01-sh140/150 below, −2 s from tails only). Sc 7, Sc 15a and Sc 18 may lose holds and shots that carry no plant. In Sc 18, sh060 (hands on the bar) and sh070 (the bar drops) keep their v2 frame and duration exactly (match to sc01-sh050/sh080).
+
+### 9.1 Sc 16–18: −45.5 s (Pell is back at Sc 19 about 50 s sooner)
+
+| Shot | v2 | v3 | Action | Why it may go / what carries it |
+|---|---|---|---|---|
+| sc16-sh010 | 4.0 | 2.5 | trim | quiet hall after the hard cut; 2.5 reads |
+| sc16-sh030 | 2.5 | — | **drop** | the caged stone is established by sh050 when it rings |
+| sc16-sh040 | 2.5 | 2.0 | trim | bell ×2 stays on the track |
+| sc16-sh050 | 3.25 | 3.25 | keep | death-tone starts; SDH `[the death-tone: three long tones]` |
+| sc16-sh060 | 7.0 | 5.5 | trim | plant: forty pens stop, Ursel writes on |
+| sc16-sh080 | 3.0 | 3.0 | keep | the falling ink drop |
+| sc16-sh090 | 2.5 | — | **drop** | the second round of tones stays on the track under sh110 |
+| sc16-sh100 | 2.5 | — | **drop** | "one pen writing" is carried by sh060 + sh110 (SFX: one pen scratching moves to sh110) |
+| sc16-sh110 | 4.0 | 3.5 | trim | plant: Ursel writes through the tone |
+| sc16-sh120 | 2.5 | 2.0 | trim | Hollis looks from her hand |
+| sc16-sh130 | 2.5 | 1.75 | trim (**kept**, analyst proposed dropping) | ACCOUNT NINE after "…and the Ninth Sluice—" is the click the weave was built for; 1.75 s still reads |
+| sc16-sh140 | 3.0 | 3.0 | keep | plant M-CLP: left hand to the clip pocket |
+| sc16-sh150 | 2.5 | — | **drop** | Fossett's open mouth: no plant |
+| sc16-sh170 | 3.25 | — | **drop** | the Counting House doors: sh180 carries the exterior |
+| sc16-sh180 | 5.0 | 3.5 | trim (kept) | the tone going downhill motivates Sc 17–19; kept as the bridge |
+| **Sc 16** | **50.0** | **30.0** | | |
+| sc17-sh010 | 4.0 | 3.0 | trim | the wall ringing; M09 pulse enters here |
+| sc17-sh020 | 2.5 | — | **drop** | cages trembling (also removes QA V11 glow) |
+| sc17-sh030 | 3.25 | 3.0 | trim | plant: Odo already dressed |
+| sc17-sh040 | 2.5 | 2.0 | trim | plant: the roll, the hare's-ear brooch (must read) |
+| sc17-sh050 | 2.5 | — | **drop** | the keeper is `[OS]` anyway (also removes QA V13) |
+| sc17-sh060 | 2.5 | 2.5 | keep | **L090** Keeper `[OS]` "The tone came very quickly, my lord." (red herring, kept) |
+| sc17-sh070 | 3.25 | — | **drop** | "considers the wall": no plant |
+| sc17-sh090 | 3.25 | 3.0 | trim | **L091** Odo FIXED "Nothing unheard." (1.76 + 0.55 fits) |
+| sc17-sh100 | 3.0 | 2.5 | trim | the finger on the stone |
+| sc17-sh110 | 2.5 | 2.5 | keep | the stone stops; one beat missing in M09 |
+| sc17-sh120 | 3.25 | — | **drop** | the wall round the gap: sh110 carries it |
+| sc17-sh130 | 2.5 | 2.0 | trim | match cut stopped stone → bar (kept) |
+| **Sc 17** | **35.0** | **20.5** | | |
+| sc18-sh010 | 4.0 | 3.0 | trim | the gate from the dry side |
+| sc18-sh020 | 2.75 | — | **drop** | lantern trembling |
+| sc18-sh030 | 3.75 | 3.0 | trim | the file; the sergeant's back (Kes) |
+| sc18-sh040 | 2.25 | — | **drop** | the hand signal (script line removed) |
+| sc18-sh050 | 3.75 | 3.0 | trim | the leaves swing in |
+| sc18-sh060 | 5.0 | 5.0 | **protected** | plant M-HND: framed as sc01-sh050 |
+| sc18-sh070 | 2.0 | 2.0 | **protected** | the bar drops, same sample as Sc 1 |
+| sc18-sh080 | 4.25 | 3.25 | trim | she looks at the wall, not the gate (Kes's fingerprint) |
+| sc18-sh090 | 2.75 | 2.0 | trim | the bare wall |
+| sc18-sh100 | 2.75 | 2.5 | trim | **L092** Guard `[OS]` "Thirty days of this, then." (plant, kept) |
+| sc18-sh110 | 2.25 | 1.75 | trim | no answer |
+| sc18-sh120 | 5.0 | 4.0 | trim | over the wall, down to the Lows: the bridge to Sc 19 |
+| **Sc 18** | **40.5** | **29.5** | | |
+
+### 9.2 Other dead zones: −58.5 s (plus +0.5 s on sc03-sh110 and +5.25 s for the restored sc10-sh100)
+
+| Zone (v2 TC) | Shot | v2 | v3 | Action |
+|---|---|---|---|---|
+| 0:46–0:58 boat | sc01-sh140 | 7.0 | 6.0 | trim the tail only, after the second baby note has ended + ≥0.75 s (**protected-duration exception, signed here**) |
+| | sc01-sh150 | 5.0 | 4.0 | trim the tail only; the sleeve lifting the baby must complete |
+| 2:32 | sc03-sh110 | 1.75 | 2.25 | **+0.5** for the reworded L014 (§9.4); final = max(1.75, speech + 0.55) |
+| 7:54–8:29 Ione | sc08-sh060 | 2.0 | 1.5 | trim |
+| | sc08-sh130 | 2.5 | — | **drop** (sh140 "on the third turn" places the climb) |
+| | sc08-sh190 | 2.5 | — | **drop** (the mute Cantor is carried by sh140 + sh160) |
+| | sc08-sh200 | 3.0 | 2.0 | trim |
+| | sc09-sh010 | 3.25 | 2.5 | trim |
+| | sc09-sh020 | 3.25 | 2.5 | trim (sc09-sh030 hero shot unchanged) |
+| 9:20–9:53 tower / bank | sc09-sh170 | 6.0 | 4.0 | trim |
+| | sc09-sh180 | 5.5 | 5.0 | trim (plant: the cost in the throat) |
+| | sc13-sh010 | 4.0 | 2.5 | trim (the tower in the window; match from Sc 9) |
+| | sc13-sh020 | 5.0 | 3.5 | trim |
+| | sc13-sh030 | 3.0 | — | **drop** |
+| | sc13-sh040 | 2.25 | — | **drop** |
+| | sc13-sh050 | 3.5 | 3.0 | trim (the dead-flat glass stays) |
+| | sc13-sh080 | 3.25 | 3.0 | trim |
+| | sc13-sh170 | 4.0 | 3.0 | trim |
+| | sc13-sh180 | 4.0 | 2.5 | trim (match to sc10-sh010) |
+| 10:14–10:51 Ruel's entry | sc10-sh010 | 3.0 | 2.5 | trim |
+| | sc10-sh020 | 3.75 | 2.5 | trim |
+| | sc10-sh040 | 2.25 | 2.0 | trim (the hare's-ear pin must read) |
+| | sc10-sh050 | 3.0 | 2.5 | trim |
+| | sc10-sh080 | 3.75 | 3.0 | trim |
+| | **sc10-sh100** | (cut in v2) | **5.25** | **RESTORE** with **L058** — see §9.5 |
+| | sc10-sh120 | 2.75 | 2.25 | trim |
+| | sc10-sh140 | 3.0 | — | **drop** (M07 fade-out moves to sh150) |
+| 11:24–11:51 clasp tail | sc10-sh290 | 2.0 | 1.5 | trim — §9.5 |
+| | sc10-sh330 | 2.5 | 1.75 | trim — §9.5 |
+| | sc10-sh350 | 3.0 | 2.5 | trim — §9.5 |
+| | sc10-sh380 | 3.5 | — | **drop** (Sc 10 now ends on L068; §9.3 follows) |
+| 11:51–12:16 | sc14-sh020 | 2.75 | 2.25 | trim |
+| | sc14-sh030 | 3.0 | 2.5 | trim (1,470 / 1,740 untouched, 3.5 s each) |
+| 12:37–13:31 cup / Ursel | sc11-sh060 | 2.25 | 1.75 | **re-frame** — §9.5 |
+| | sc11-sh070 | 2.0 | — | **drop** (the taster blushing) |
+| | sc11-sh090 | 2.25 | 1.75 | trim |
+| | sc11-sh140 | 3.0 | 2.25 | trim |
+| | sc11-sh170 | 3.0 | — | **drop** (the case opened; also removes QA C3 location jump; the map opens in sc12-sh010) |
+| | sc15-sh020 | 2.75 | 2.25 | trim |
+| | sc15-sh060 | 2.25 | 1.75 | trim |
+| | sc15-sh260 | 4.25 | 3.25 | trim |
+| 14:49–15:08 palace / map | sc15a-sh100 | 4.5 | 3.5 | trim |
+| | sc12-sh010 | 4.5 | 3.0 | trim |
+| | sc12-sh020 | 4.5 | 4.0 | trim (plant: the pale wash with IX must read) |
+| | sc12-sh040 | 3.75 | 2.0 | trim |
+| 20:16–20:44 Sc 20 head | sc20-sh010 | 5.0 | 4.0 | trim |
+| | sc20-sh020 | 3.25 | — | **drop** (lamp flame) |
+| | sc20-sh030 | 3.25 | 3.0 | trim |
+| | sc20-sh040 | 2.5 | — | **drop** (the chest: sh010 shows her on it) |
+| | sc20-sh050 | 3.25 | 2.5 | trim |
+| | sc20-sh070 | 3.25 | 3.0 | trim (the still bowl: set-up for the rings) |
+| 5:36–5:44 tapestry strip | sc05-sh080 | 10.5 | 10.5 | **re-frame only:** slow pull-back on **panel 1** (frame `sc05-sh010_a.png`) under L033. Never panels 3 and 4 in one frame (keeper's blocker 1). No time change |
+
+Sc 20 from sh140 to black is untouched (protected). The sound blockers (QA A1–A5: L106, the Sc 20 digital silence, L014/L049/L053 levels) are the sound director's and are not script decisions; they must be fixed in v3 regardless.
+
+### 9.3 Pell's absence: split Sc 15a (existing shots, no new frames)
+
+- **Sc 15a-1** (new position: between Sc 10 and Sc 14, straight after sc10-sh360 / L068): **sc15a-sh020, sh030, sh040, sh050** in that order, v2 durations (3.75 + 3.75 + 3.25 + 2.0 = 12.75 s). Pell on the plank-walk counting four coins; four doors up the collector takes a cooking-pot; she looks at him. Ruel's "My captains will be bored." → four coppers in a girl's hand.
+- **Sc 15a-2** (its v2 position, between Sc 15 and Sc 12): **sc15a-sh010** (with L080 echo "…finds its level.", match from Sc 15 kept), **sh060, sh070 (L081), sh080 (L082), sh090, sh100** (sh100 trimmed to 3.5).
+- **Condition (ring-and-stone rule):** 15a-1 sits next to Sc 10, a ring scene. The cord must not read in any 15a-1 frame. Director checks `sc15a-sh020_a.png` and `sc15a-sh050_a.png` first; if the cord shows at the collar in sh050, move sh050 back into 15a-2 (before sh060) and play 15a-1 as sh020–sh040 (10.75 s). No cord shot (sh090) ever moves.
+- Effect (v3 TCs): Pell off screen 9:11.75 → 11:21.50 (2:10), 11:34.25 → 13:53.25 (2:19), 14:12.25 → 17:21.25 (3:09). v2: 5:00 and 3:58.
+- Considered and rejected: a Pell reaction insert inside Sc 16–18 (breaks the tone travelling downhill, Steps → Mids → Lows); a Pell insert in Sc 12 (breaks the reading's acceleration and the 4 s silence); re-ordering Sc 9's roof (the tone and the lit grooves would jump).
+
+### 9.4 Naming Wick: one reworded line
+
+- **L014, Pell, sc03-sh110 (v3 2:30.50):** "Hold the rope." → **"Hold the rope, Wick."** Same voice (V01_PELL), same delivery `[MS] (not looking at it)`, same model and settings as the v2 take; only the text changes. New file: `vo/sc03-sh110_L014_V01_PELL_v3.mp3`. Line id stays L014. Not FIXED.
+- Why here: sh090 has just put the rope's end in the boy's fists and sh100 is his close-up ("It's only water."), so the name lands on a face we are looking at, at 2:30, before the hook. "Wick" is already on the list of names spoken aloud (script head, beat sheet §4); this makes the list true. Who he is to her is left to the picture (Nan's house, the bread) and to E2.
+- **Paid:** one ElevenLabs TTS call (≈ 20 characters). Needs the studio director's permission. Until then v3 plays the v2 L014 take; nothing else waits on it. This line also replaces the v2 take that QA A3 found inaudible.
+
+### 9.5 Ruel reads too early as the poisoner: trim + re-frame, no re-order
+
+**Ruling.** Keep every plant (left-hand clasp, the pearl insert, the bead of blood, Ione seeing it, the refused cup, the taster alive): they are SEC-001's fair play and E11's recall montage. Do **not** re-order: the cup must follow the clasp in the same sitting (one hall, one hour), and the bank / Pell scenes between them are already the spacing device. Instead (a) take emphasis off the clasp-to-blood chain, (b) give Ruel warmth on screen before it, (c) give the red herring a presence at the cup. The aim is a viewer who *could* name him in hindsight, not one who does at 13:00.
+
+| Shot | v2 | v3 | Decision |
+|---|---|---|---|
+| sc10-sh100 | cut | 5.25, after sc10-sh080, before sh120 | **Restore** Ruel's charm beat with the existing v2 audio **L058** Ruel `[MS]` (warm, round, Gullmouth vowels) "And that girl of yours? Still climbing my rigging when the watch isn't looking?" Frame: re-use `sc10-sh090_a.png` (Ruel, door-warden's back in the foreground). Sc 10 sh120 (faces smiling) now pays it. Record L058 for finals |
+| sc10-sh290 | 2.0 | 1.5 | ring insert, "one, two seconds, no more" → 1.5; no sting |
+| sc10-sh330 | 2.5 | 1.75 | blood bead insert, still readable |
+| sc10-sh340 | 2.25 | 2.25 | keep: "like a splinter" is the line that normalises it |
+| sc10-sh350 | 3.0 | 2.5 | Ione sees; she lets it go |
+| sc11-sh060 | 2.25 "the hall waits" | 1.75 | **re-frame:** use `sc10-sh040_a.png` — the man with the hare's-ear pin by the door (bk), waiting with the hall through the taster's count. No new action, no look, no line: he is simply there |
+| sc11-sh110 | 2.75 | 2.75 | keep: the laugh after "I don't drink before a storm." is his, and the hall's |
+
+Distance ring insert → cup: v2 96.75 s with Sc 14 between; v3 100.25 s (10:58.75 → 12:39.00) with Sc 15a-1 and Sc 14 between. Ruel's on-screen warmth before the clasp: v2 one shot of smiling faces; v3 L058 + the faces.
+
+### 9.6 Sc 10: the speaker is on screen for every spoken line of the quarrel
+
+The script's "play it on the listener" note does not survive a static animatic or limited animation; it is withdrawn for Sc 10. Frames: **R** = Ruel MCU (`sc10-sh190_a.png`); **H** = Lucan MCU (`sc10-sh230_a.png`). Durations unchanged.
+
+| Shot | v2 TC | Line | Speaker | v2 frame | **v3 frame** |
+|---|---|---|---|---|---|
+| sc10-sh170 | 10:51.25 | L059 "Pumps for the low sluices…" | Ruel | two-shot | two-shot (unchanged) |
+| sc10-sh180 | 10:57.50 | — | — | petition insert | unchanged |
+| sc10-sh190 | 10:59.75 | **L060** "You will have my answer when I have read." | **Lucan** | R | **H** (mark L060 `[MS]`, not `[OS]`) |
+| sc10-sh200 | 11:03.25 | L061 "I know what you'll read." | Ruel | R (re-use of sh190) | **R** — re-point the re-use to the original `sc10-sh190_a.png` |
+| sc10-sh210 | 11:05.25 | L062 "Read it differently." | Ruel `[OS]` | hands insert | unchanged (no face on screen) |
+| sc10-sh220 | 11:07.50 | L063 "It is drawn, Ruel. I only read it." | Lucan | OTS on Lucan | unchanged |
+| sc10-sh230 | 11:12.25 | **L064** "People live down there, old friend." | **Ruel** | H | **R** (mark L064 `[MS]`, not `[OS]`) |
+| sc10-sh240 | 11:15.00 | L065 "And you will lose this one." | Lucan | H (re-use of sh230) | **H** — re-point the re-use to the original `sc10-sh230_a.png` |
+| sc10-sh260 | 11:18.00 | L066 FIXED "We go under and come up." | Ruel | two-shot (re-use of sh170) | unchanged |
+
+Result: R/H alternate (H, R, insert, H-OTS, R, H, two-shot); no two consecutive identical frames; L060 and L064 now play on their speakers. For finals the shot descriptions of sh190 and sh230 swap accordingly (sh190 = Lucan speaking, sh230 = Ruel speaking). Not changed: QA V2 / keeper 16 (the clasp insert must be Ruel's LEFT hand in the deep-blue sleeve) and QA V3 (no ring on the Helm's hand) — both binding for finals.
+
+### 9.7 v3 running order and scene starts (TC after all of the above, without the optional crown air)
+
+Sc1 0:00 · Sc2 1:04.00 · Sc3 2:05.75 (the stone answers, sc03-sh220: 2:56.75) · Sc4 3:41.25 · Sc5 5:04.00 · Sc6 5:57.50 · Sc7 6:56.00 · Sc8 7:37.25 · Sc9 8:15.25 · Sc13 9:20.75 · Sc10 10:01.75 · **Sc15a-1 11:21.50** · Sc14 11:34.25 · Sc11 12:14.25 · Sc15 12:51.00 · **Sc15a-2 13:53.25** · Sc12 14:12.25 (…and the Ninth Sluice—: 15:10.75) · Sc16 16:01.25 · Sc17 16:31.25 · Sc18 16:51.75 · Sc19 17:21.25 · Sc20 18:46.25 (L106: 19:32.25) – end **19:51.50**.
+
+### 9.8 What the director needs from others
+
+- Studio director: permission for one TTS call (L014, §9.4).
+- Sound director: L058 back in the manifest as "restored in v3"; L014 new take; the v2 blockers A1–A5.
+- Keeper: §9.5 adds a presence of the Fennick steward at the cup (sc11-sh060 re-frame); it adds no fact. The ring-and-stone rule holds with the §9.3 condition.
