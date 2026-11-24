@@ -1,5 +1,5 @@
 """Drum reinforcement: layer synthesized acoustic-style kick/tom/taiko hits on detected onsets of the OP."""
-import sys, json, wave, numpy as np
+import sys, os, json, wave, numpy as np
 SR=48000; rng=np.random.default_rng(11)
 def lp(x,a):  # one-pole lowpass
     y=np.empty_like(x); acc=0.0
@@ -47,14 +47,16 @@ for t,pk,r in on["tom"]:
         place(buf,t-0.002,tom(0.55*vel(r),f),0.38 if f>100 else 0.62)
 KITONLY=len(sys.argv)>4
 # taiko-style ensemble hits on bar downbeats of the hook and answer, beats 1 and 3 on the last rise bar
-for bar_t in ([] if KITONLY else np.arange(57.0,84.0,3.0)): place(buf,bar_t+OFF,taiko(1.0 if bar_t==81.0 else 0.9 if bar_t in (57.0,69.0) else 0.65),0.5)
+# r4 knobs (env; defaults = v2a): HOOK_TAIKO = taiko velocity on 0:57.0, FILL57 = scale of the tom fill into 0:57.0
+HOOK_TAIKO=float(os.environ.get('HOOK_TAIKO','0.9')); FILL57=float(os.environ.get('FILL57','1.0'))
+for bar_t in ([] if KITONLY else np.arange(57.0,84.0,3.0)): place(buf,bar_t+OFF,taiko(1.0 if bar_t==81.0 else HOOK_TAIKO if bar_t==57.0 else 0.9 if bar_t==69.0 else 0.65),0.5)
 for t in (() if KITONLY else (54.0+OFF,54.0+1.5+OFF)): place(buf,t,taiko(0.6),0.5)
 if not KITONLY: place(buf,82.5+OFF,taiko(1.0),0.5)  # the last hit 1:22.5 (OP storyboard S7, logo)
 # tom fills into the rise, the hook (octave leap at 0:57) and the answer: last beat, sixteenths, high to low
 for end in (() if KITONLY else (45.0,57.0,69.0)):
     seq=[(138.6,0.45,0.35),(138.6,0.5,0.4),(92.5,0.6,0.6),(92.5,0.75,0.62)]
     for k,(f,v,p) in enumerate(seq):
-        tt=end-B+OFF+k*B/4+rng.uniform(-0.006,0.006); place(buf,tt,tom(v*rng.uniform(0.9,1.05),f),p)
+        tt=end-B+OFF+k*B/4+rng.uniform(-0.006,0.006); place(buf,tt,tom(v*rng.uniform(0.9,1.05)*(FILL57 if end==57.0 else 1.0),f),p)
 buf=buf[:int(dur*SR)]
 buf/=np.max(np.abs(buf))*1.12
 w=wave.open(out,'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
