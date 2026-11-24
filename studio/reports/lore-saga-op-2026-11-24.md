@@ -601,3 +601,53 @@
 1. **Режиссёру.** Внести R4.1–R4.4 и R4.5 п. 1 дословно; в §10 пометить K5–K9 `answered: keeper R4`. После этого Б6 закрыт.
 2. **Маркетологу.** R4.5 п. 2–4, 6; текст карточек и финальный SH-05 — мне до выпуска.
 3. **Мне.** Контакт-листы FA01/KA01 (брызги ниже гребня), W10/KW10 (лодки от огней), W11 (над кромкой пусто), массы под `{VSAFE_MASS}` (нет фигуры в центре) и W16 в полном размере — до подписи клипов.
+
+## R5. K17–K19 и проверка переулка (v2.4, 2026-11-24)
+
+Материал: `direction/opening/SAGA_OP_storyboard.md` v2.4 (§5.1, §5.4, §6.4, §6.5, §10), `reports/anime-director-2026-11-24-r13.md`; глазами в полном размере: `output/opening/frames/F04_op.png`, `output/opening/plates/D01_A_op_169.png` (+ `_check.png`), `output/style_test/f_alley_patched.png` и `f_alley_patched_check.png` (файл лежит в `output/style_test/`, не в `output/opening/`). Канон v0.10 без изменений. Платных вызовов не было.
+
+### R5.0 Вердикт
+
+- **K17 (фонари): принято с правкой.** Текст без «девяти» верный, но картинка 2 у F04_C (`F04_op.png`) показывает ровно девять фонарей ровным рядом на одной верёвке; NB2 берёт композицию с картинки 2, и «too many to count» ряд не разобьёт. Нужен текст, который ломает ряд и прямо отменяет число картинки 2, и проверка при приёмке.
+- **K18 (башни D01_A_C): раскладка принята.** Две башни на холме, центральная (Crown) — самая высокая, третья, ниже, — у подножия, ближе к зрителю справа. По компасу канона (`world.md` §2: море на западе, холм на востоке, Ninth Sluice на юго-западе) камера из Низов смотрит на восток: правая и ближняя сторона подножия — юго-запад. Совпадает с W13 и с моим R1. Две правки текста против дефектов склейки, ниже. Окончательная подпись — на T1, как записано в §5.1.
+- **K19 (подсказки §6.5): принято 12 из 14 строк дословно**, две правки (KA01, KA11). Лорных слов нет, направления ветра канону не противоречат.
+- **Переулок (`f_alley_patched.png`): пока не принято, два исправления за $0.** Ворота заменены кладкой — да; кольцо-колотушка снято — да; столбик зарубок снят — не весь, осталась нижняя чёрточка; стекло фонаря не тёмное, а тёплое розоватое, читается как слабое свечение.
+
+### R5.1 K17 — фонари F04_C / K03C
+
+- **§5.1, F04_C, колонка Prompt:** `with many small unlit tin lanterns hanging from it, too many to count` → `with many small unlit tin lanterns of different sizes hanging from it at uneven heights, bunched and overlapping, the rope and its lanterns running on past the right edge of the frame; no even row and no lantern set apart from the others; do not keep the number or the spacing of the lanterns in image 2`.
+- **§6.4, K03C, MUST NOT CHANGE:** `lanterns stay unlit, too many to count, their number does not change` → `lanterns stay unlit and only sway; no lantern appears, vanishes or lights up`.
+- **§5.4, абзац приёмки**, после `W11 — nothing above the lip.` вставить: ` F04_C / K03C (keeper R5.1): count the lanterns that can be told apart — nine, or eight alike plus one set apart, fails the take (OP-18), and a crop does not save it; on K03C every 10th frame of 0.0–1.8 s.`
+- **§10, K17:** дописать `answered: keeper R5.1`.
+
+### R5.2 K18 — раскладка D01_A_C
+
+Дефекты склейки, которые NB2 может достроить как предметы: (1) вокруг перенесённой башни светлая прямоугольная «рамка» — край вырезки светлее дамбы, читается как бледная стена или футляр; (2) на месте снятой правой башни крыша купольного зала размазана горизонтальной полосой.
+
+- **§5.1, D01_A_C, колонка Prompt**, перед `Exactly three black towers:` вставить: `The shorter tower stands straight against the dark face of the dike, with no pale wall, plinth or sleeve around it. The domed hall to the right of the tallest tower has one smooth roof; nothing rises behind or above it. `
+- **§5.1, примечание к D01_A_C (строка «the keeper confirms the tower layout at T1 acceptance»)** дописать: ` Checked at T1 (keeper R5.2): the tallest tower central; the hilltop pair and the short tower each with the ring of open arches at the crown and "/" grooves on the near face, dark; the short tower's crown below the tops of the hilltop pair; nothing behind the dome; no fourth tower in the side bands.`
+- **§10, K18:** дописать `answered: keeper R5.2 (layout accepted; final sign-off on T1)`. C05L: запись моего «Source» в колонке куска принимаю.
+
+### R5.3 K19 — подсказки §6.5
+
+- **KA01:** `The strike comes once, at about the middle of the clip.` → `The swell strikes the wall only once, at about the middle of the clip; no second swell follows.` (голое «the strike» в штормовом кадре модель может прочесть как молнию; вспышка и оранжевый свет в KA01 запрещены).
+- **KA11:** `Now and then a gust makes the banners snap.` → `Now and then a gust makes the banners snap; the emblems stay whole.` (как у K11C/K12C; условия знамён R3.1).
+- Остальные 12 строк (KA02, KW02, KW03, KW04, KW06, KW07, KW08, KW09, KW10, KW14, K10C, K11C/K12C) — принято дословно. Сдвиг окон ±0.75 с по пику (§6.4) принимаю; для KA01 он не снимает проверку R4.3 (брызги ниже гребня на каждом 5-м кадре 1.5–3.0 с) — проверять сдвинутое окно.
+- **§10, K19:** дописать `answered: keeper R5.3`. KW16 0.8× через `mci` — принято.
+
+### R5.4 Переулок — `f_alley_patched.png`
+
+Исправить за $0 до вызова alley_C:
+1. **Нижняя чёрточка зарубок** на косяке левой двери, около x 168–192, y 506–522 (кадр 1376×768), осталась от столбика — закрасить фактурой доски косяка, как выше по столбику.
+2. **Стекло фонаря** (правый столб, около x 1020–1060, y 110–215): сейчас тёплое розоватое — переписать в тёмный серо-бирюзовый, темнее стены дома за фонарём, без красного, оранжевого и розового, без блика внутри стекла (OP-3, R3.4).
+
+После этого присылаете мне два кропа в полном размере (косяк и фонарь) — подписываю без нового круга. Текст alley_C и KA04 (R3.2) не меняется.
+
+### R5.5 Канон
+
+Правок канона нет: v0.10 без изменений. В реестр тайн ничего не добавлено.
+
+### R5.6 Открытые вопросы
+
+1. **Режиссёру.** Внести R5.1–R5.3 дословно; R5.4 — два исправления плейта и кропы мне.
+2. **Мне.** Подпись раскладки на T1 (R5.2); кропы переулка (R5.4); контакт-листы из R4.7 п. 3 — в силе.
