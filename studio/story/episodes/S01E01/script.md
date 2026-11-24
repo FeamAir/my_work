@@ -1,20 +1,22 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Script
 
-Version 1.0.4 · 2026-11-24 · author: lead-screenwriter · status: **full script; matches the animatic v3 edit decisions (19:51.5)** — shot-by-shot list: `continuity_check.md` §9
+Version 1.1 · 2026-11-24 · author: lead-screenwriter · status: **full script; the v4 dialogue pass merged** (no narrator; OP after the cold open; Chronicle page in the ending; two action beats; keeper's canon v0.9 fixes) — build list: `continuity_check.md` §10; shot list v4.0: `direction/shotlists/S01E01_shotlist.md`
 Built on: `beat_sheet.md` v2 (same scene numbers) · canon v0.4 + `decisions_resolved.md` · analyst's review `research/pilot_hook_review.md` (O-1…O-11 applied; see the check at the end of this file)
 Spoiler level: **safe for the production team.** This file says what is seen and heard and which wording is binding. It never says why a detail matters. Where a note reads *fixed — ask the lead*, do not change it and do not guess.
 
-**Picture (v3 decisions, 2026-11-24):** the animatic v2 cut runs **21:29.75**; the v3 edit decisions (`continuity_check.md` §9, by v2 shot id and line id) bring it to **19:51.5**. Per-shot timings of v2 are in `direction/shotlists/S01E01_shotlist.md` (v2). The scene timecodes in this file are the 26:39 story timings and are kept as a reference; where a rule is about *position*, it is stated by scene (see v1.0.3 in the change log).
+**Picture (v1.1, 2026-11-24):** the v4 build list (`continuity_check.md` §10) runs the story to **21:33.25**, with the OP **23:03.25**, with the 60-s ending **24:03.25**. New lines carry ids L201–L280 (`sound/S01E01_vo_plan.json` → `v4_batch`). Below, `[v1.1]` marks what changed against v1.0.4.
+
+**Picture (v3 decisions, 2026-11-24, kept for reference):** the animatic v2 cut runs **21:29.75**; the v3 edit decisions (`continuity_check.md` §9, by v2 shot id and line id) bring it to **19:51.5**. Per-shot timings of v2 are in `direction/shotlists/S01E01_shotlist.md` (v2). The scene timecodes in this file are the 26:39 story timings and are kept as a reference; where a rule is about *position*, it is stated by scene (see v1.0.3 in the change log).
 
 **Running time:** 26:39 of story · 21 scenes · one day in the world: CY 312, Longdark 6 (Hornday), dawn ebb → dark · pre-title: CY 295, the night of Still 3.
-**Delivered length:** ≈ 29 min with the ending (the opening theme, first full statement) and the next-episode preview. No opening sequence in the pilot; the only title is 9 seconds at 6:11.5, after the cold open.
+**Delivered length `[v1.1]`:** cold open → **OP (the main theme, instrumental, 90.0 s, with the title HOLLOWSTONE)** → the episode → **ending (a soft cello variant of the theme, in at 0:00 under the Chronicle page)** → next-episode preview: ≈ 24:03 + preview. No sung voice in the pilot (the song is the OP from E3). ~~No opening sequence in the pilot; the only title is 9 seconds at 6:11.5.~~
 
 ## How to read this script
 
 | Mark | Meaning |
 |---|---|
 | `SC n — INT./EXT. PL-xxxx PLACE — TIME [start–end]` | scene heading: canon place ID, time of day, timecode inside the episode |
-| `[VO]` | voice over picture; the speaker is not in the scene |
+| `[VO]` | voice over picture; the speaker is not in the scene. **`[v1.1]` Not used in S1E01: there is no voice-over anywhere in the episode** |
 | `[OS]` | off screen: the speaker is in the scene, not in the frame (or seen from behind) |
 | `[MS]` | mid-shot or wider; mouth small in frame or three-quarters turned. Prefer cutting to the listener |
 | `[LIPSYNC-CU]` | close-up with synchronous speech. **Five in the episode, no more:** Sc 4 Nan · Sc 11 Ruel · Sc 12 the Helm · Sc 15 Ursel · Sc 20 Wick |
@@ -29,18 +31,20 @@ Spoiler level: **safe for the production team.** This file says what is seen and
 
 **Rules that hold in every scene** (*fixed — ask the lead*):
 - Every braid named here is on the **left**. Ruel's ring and his clasp are **left-handed**. Nan's one earring is **left**.
-- **The stone and the ring never share a frame**, a split screen, or a cut that sets one beside the other. In this running order no scene that features the ring stands next to a scene with the stone or its cord: Sc 9 → 13 → 10 and Sc 11 → 15 → 15a-2 put a bank scene between them, and Sc 12, which follows Sc 15a-2, has no ring insert at all. Sc 10 → 15a-1 is allowed only because 15a-1 shows coins and the collector, never the cord or the stone (v1.0.4). In Sc 4 → Sc 5 the match cut is stone → woven tower, never stone → pearl; two panels pass before the pearl.
+- **The stone and the ring never share a frame**, a split screen, or a cut that sets one beside the other. In this running order no scene that features the ring stands next to a scene with the stone or its cord: Sc 9 → 13 → 10 and Sc 11 → 15 → 15a-2 put a bank scene between them, and Sc 12, which follows Sc 15a-2, has no ring insert at all. Sc 10 → 15a-1 is allowed only because 15a-1 shows coins and the collector, never the cord or the stone (v1.0.4). `[v1.1]` In Sc 4 the tapestry panels are cutaways in the order 1-2-3-4-5-6, one panel per frame; panels 3 and 4 never share a frame, and no shot of Pell's fist stands next to panel 3 or 4. Sc 4 ends on the match cut stone → the turning hub of the wheel (rule S-13; SEC-027).
 - The stone never glows. Its sound is *seen* as a tremor and as rings on water. Glow belongs to the Spires.
 - No one sings in the Lows. Whistles, plank-stamps, a count spoken on one pitch. Wick's one sung note in Sc 4 is the only one.
 - The low register of the score stays empty everywhere, so that the stone's note has a place nothing else has used.
 - No shot holds more than four readable faces.
-- Names spoken aloud in this episode: Pell, Wick, Nan, Mags (once), Ione (Ilvane), Ruel, Hollis, Kett, Dame Lantry, Lucan (twice: Ruel in Sc 12, and the Chronicler's "Helm Lucan Dask" in Sc 19), Queen Neveh (once, the Chronicler). **Nobody else is named aloud.** The reedmaster, the taster, the clerk at the next desk, the lord in the relay room and the tithe-collector keep their faces, costumes and lines; their names come in E2–E3.
+- Names spoken aloud in this episode `[v1.1]`: Pell, Wick, Nan, Mags (once), Ione (Ilvane), Ruel, Hollis, Kett, Dame Lantry, Lucan (once: Ruel in Sc 12). "Helm Lucan Dask" is printed on the Chronicle page, not spoken. **Queen Neveh is not named aloud** (Nan says "the Queen"). **Nobody else is named aloud.**
+- `[v1.1]` **Position rule.** Before the OP: no logo, studio card, title, series name or voice-over; the only text on screen is the SUPER *The Night of Still Water*, the stamp *Seventeen years later.* and the SDH lines. The OP carries HOLLOWSTONE; any AI badge or studio mark is a corner bug from the OP on, and on the end card. Every spoken line is spoken by a character in the scene.
+- `[v1.1]` The fourth tier of the map is **never named** in E1. "Carried forward" and "the balance of that year" are on the Chronicle page only; no character says them. The reedmaster, the taster, the clerk at the next desk, the lord in the relay room and the tithe-collector keep their faces, costumes and lines; their names come in E2–E3.
 
 **The stone's sound (for the sound director; applies to Sc 3 and Sc 20 and to every cut made from them):** one low sustained tone, below every other pitch in the episode, felt as much as heard, **plus a fine glassy upper partial, a thin "itch" riding on it, that a phone speaker reproduces.** On large speakers the low tone leads; on a phone the upper partial carries the answer. The rings on the water start on the same frame as the sound.
 
 ---
 
-# COLD OPEN (Sc 1–4; 0:00–5:20 of story, 0:00–5:05.5 in the v2 picture) — no logo, no card, no title, no narrator
+# COLD OPEN (Sc 1, Sc 2, Sc 3 to "I wasn't humming."; 0:00–3:37.25 in the v4 picture) — no logo, no card, no title, no voice-over
 
 ## SC 1 — EXT. PL-0008 NINTH SLUICE LANE → PL-0021 EVACUATION GATE → OPEN FLOOD WATER — NIGHT, CY 295 [0:00–1:10]
 
@@ -122,8 +126,14 @@ He goes on to the next door. Knock.
 
 PELL comes out past the nets: fifteen, short, wiry, leaning forward as if into wind. Tar-brown oilskin; cropped rust-brown hair; one long thin braid on the **left** with a blue tin tag stamped **IX**. A long-handled rake over one shoulder, a coil of rope over the other. She watches the collector's back for exactly as long as it takes to count something.
 
+PELL [MS] (coming out past the nets; up at the bridge, dry) `[v1.1]`
+Down, eel. You're dripping on him.
+
 WICK [OS] (thump: down off the bridge onto the planks behind her)
 Six! We never found six in a *week*.
+
+PELL [MS] (already moving; then she looks up and the rise begins) `[v1.1]`
+Then we find it in a day.
 
 Pell looks up.
 
@@ -134,7 +144,12 @@ Below the plank-walk the canal has no water in it. Silt, open to the sky, as far
 PELL [MS] (dry, clipped, already moving) **FIXED**
 You want it found, you pay the mud. Mud doesn't do favours.
 
-She is over the edge and down the ladder. WICK is at the edge behind her, the right way up, the first time we see him: eleven, skinny, gap-toothed, a mouse-brown mop with a tuft at the right temple, an oatmeal jumper too big for him. He looks at the drop, looks at the ladder, and jumps.
+She is over the edge and down the ladder. WICK is at the edge behind her, the right way up, the first time we see him: eleven, skinny, gap-toothed, a mouse-brown mop with a tuft at the right temple, an oatmeal jumper too big for him. He looks at the drop, looks at the ladder,
+
+WICK [MS] (at the edge, looking at the drop; fear comes out as cold) `[v1.1]`
+It's cold down there!
+
+and jumps.
 
 ## SC 3 — EXT. PL-0020 NINTH SLUICE BACK-CANAL, BY THE OLD SLUICE — DAWN EBB [2:00–4:00]
 
@@ -157,6 +172,12 @@ The old sill. Pell. You can see the *stone*.
 
 Pell stops one pace short of the sill. Her face is not the face from the lane. She unslings the rope, ties it round her own waist, hard, and puts the other end into Wick's two fists.
 
+WICK [OS] (as she ties the rope round her waist) `[v1.1]`
+You never go past the sill.
+
+PELL [MS] (knotting it hard) `[v1.1]`
+I'm not going past it. The rake is.
+
 WICK [MS]
 It's only water.
 
@@ -165,8 +186,33 @@ Hold the rope, Wick.
 
 She will not step past the sill. She kneels on it and works the pool with the rake at arm's length. The rake comes up with black weed. Again. Weed. Wick has the rope wrapped twice round his wrists and his heels dug in.
 
-[2:42] The rake snags on something that does not give. To free it she has to lean out, over the water, the rope taut behind her.
-CLOSE on Pell, silent (no lip-sync): jaw set, eyes wide, breath short. Her reflection comes up to meet her out of the black.
+WICK [MS] (heels in) `[v1.1]`
+Anything?
+
+PELL [OS] `[v1.1]`
+Weed.
+
+[2:42] The rake snags on something that does not give. **`[v1.1]` ACTION A, THE SILL (v4 picture 2:39–2:52).** She will not let go of the rake: it is their living. To free it she leans out, and her knee skids off the wet sill. She pitches out over the black water. The rope snaps taut.
+
+WICK [OS] (yell)
+Pell!
+
+Wick is jerked off his feet and dragged on his backside across the mud toward the sump, heels gouging two furrows.
+
+WICK [MS] (dragged across the mud)
+I'm sliding! I'm your brother, not a post!
+
+His heels slam against the sill-stone. The rope bites his wrists.
+
+PELL [OS] (through her teeth)
+Then be a post! Dig in!
+
+She hangs over the water, held by the rope, the rake still in both hands. **She does not go in.** (She never says she cannot swim. Mags, two lanes away, sees only a commotion at the sill: no stone, no rings, no sound reach her.)
+
+PELL [OS] (strained; she will not let go)
+I'm not losing the rake.
+
+CLOSE on Pell, silent (no lip-sync): jaw set, eyes wide, breath short. Her face a hand's breadth from the water; her reflection comes up to meet her out of the black.
 
 [2:48] Without knowing she does it, mouth shut, she **hums. Three notes ♪**: breathy, frightened, not pretty.
 SDH: `[she hums, three notes]`
@@ -190,6 +236,63 @@ She sits on the sill with her feet on the dry side and turns the thing over on h
 
 WICK [MS] (small)
 It sang.
+
+PELL [MS] (getting her breath; not looking up) `[v1.1]`
+What did?
+
+WICK [MS] `[v1.1]`
+That. When it came up. It sang right back at you.
+
+PELL [MS] `[v1.1]`
+I didn't hear anything.
+
+WICK [MS] `[v1.1]`
+You were *humming* at it.
+
+PELL [MS] (flat; a beat too quick) `[v1.1]`
+I wasn't humming.
+
+SOUND: half a second of room tone. The stone's last ring ended long ago.
+
+**HARD CUT TO THE OPENING.**
+
+# THE OPENING `[v1.1]` (90.0 s; v4 picture 3:37.25–5:07.25)
+
+MUSIC: **the main theme, instrumental, TV size, 90.0 s** (`lib_mus_theme-op-pilot_v1.wav`). No sung voice in the pilot; the song "Louder Than the Tide" is the opening from E3. No sub-bass, no drone: the low register stays the stone's. The first note sits on the room tone, not on the stone.
+The OP carries the series title **HOLLOWSTONE** (plain dark, the type of the v3 card). Any AI badge or studio mark appears from the OP's first frame on, as a small corner bug.
+Animatic: a placeholder slate. Finals: a separate plan (director + composer); the keeper signs the final OP storyboard against the list below.
+
+**What the OP may show** (signed by the keeper, canon v0.9, with its 7 corrections; it holds for the S1 OP until re-cut):
+- the stilt-town, the dike, the terraces, the nine black Spires, spiral grooves **lit blue-white on the Crown Spire only, its foot dark**; the harbour in chop and in glass;
+- Pell: the mud, the rake, the rope at her waist, the left braid with the IX tag, running the plank-walks. The cord only as a line at the collar; the stone may appear once, dark, in her closed fist, never glowing, never in an open palm (the open palm is the ending's image);
+- Wick: the bridge, the jump into the mud, the oatmeal jumper (no cadet cap: it is stolen in E2);
+- Nan's hands mending net (back, hands; the earring not featured);
+- Ione from behind at the crown, robes in the wind (never her face while singing; never her voice; no signing);
+- Hollis at his desk, the column, the cracked left lens (no clip, no fire, no pamphlets);
+- Ursel's stick on the felt; Odo as a silhouette among ringing cages; **Kes only as her back at the head of the Rusk column — no gate, no bar and no hands on a bar in the same frame or in the cut next to it** (SEC-009); Ruel in public: the coat, the smile, a crowd turning to him (right hand only, or no hands);
+- the Tithe Map with its three tints, the legend with the fourth label covered, the relay cages, the treadmill wheels, the whistle passed roof to roof;
+- **one person covering their own mouth with a hand** (the trend gesture). Never rows or a crowd with hands at their lips, no one kneeling, no prayer signs of the Lows (SEC-003);
+- the tapestry, **panels 1, 2 and 5 only**.
+
+**What the OP must not show:**
+- the ring, the pearl, Ruel's left hand, and anything that sets the stone and the ring in one frame or one cut (**SEC-027**; production rule S-13);
+- tapestry panels **3, 4 and 6**;
+- **Ione at the crown cut against, matched in pose with, dissolved into or set in rhythm with the tapestry** (panel 6's composition, SEC-025);
+- Pell and Ione mirrored, paired, matched in pose or split-screened, or the two of them in one composition (SEC-004);
+- the cradle, the grey sleeve, the baby, the gate's young hands from Sc 1 (paid in E10);
+- the Helm, the cup, the taster, the blood on the knuckle, the fall, the unsigned line; the hare's-ear pin in motion;
+- the pale wash with IX, and any reading of the Ninth's tier;
+- any flood breaking over the Lows, the Ninth's ruin, bodies, battle (E10 and later);
+- singing mouths in the Lows; humming; the five notes in any form; a stone that glows;
+- Maren's face, Elm, Vesna, Cressa, the Choir's First Cantor, the Quiet, the Sunken Spire, or any S2+ character;
+- old Hollis, any book titled *The Chronicle of the Dry Years*, or a reader of it (SEC-011b);
+- counter-sunwise spirals (the tapestry's spirals turn sunwise).
+
+**CUT TO** (the last note of the OP → the stone on her palm):
+
+## SC 3 (continued, after the OP) `[v1.1]`
+
+MACRO: the stone on her palm, the crack. (Episode title burned in, 3 s, lower third: *The Ninth Sluice*.)
 
 PELL [MS] (flat; weighing it in her hand)
 Stones don't sing.
@@ -255,7 +358,71 @@ Never sing, chick. Hum if you must, and only for the house.
 
 She takes her hand away and lays it flat on the table, fingers pressed hard into the wood to stop them shaking; the crooked little finger too. Beside it, the net-needle. Across the board, Wick's crust lies where he dropped it. (INSERT: her hand only. Neither face is in it.)
 
-Wick does not make a joke.
+Wick does not make a joke. `[v1.1]` But he asks.
+
+WICK [MS] (small; not a joke)
+Why, though? They sing up the hill all day.
+
+NAN [MS] (the needle going again, too fast)
+They're Choir. They're paid to.
+
+PELL [MS] (not letting it go)
+That's not a why. That's a who.
+
+NAN [MS] (a look at her; back to the net)
+You want a why? Here's the Choir's.
+
+*`[v1.1]` The tapestry (ex-Sc 5) as cutaways under Nan's telling. Woven textile, flat, a style of its own: this is the look of every later Chronicle sequence. Camera moves only; nothing moves inside the weave. The tapestry hangs in PL-0013; we see details, never the room. **Panel order 1-2-3-4-5-6, one panel per frame; never panels 3 and 4 in one frame; no kitchen shot of Pell's fist next to panel 3 or 4.** The stone is not seen between Nan's first scold and her leaving.*
+MUSIC: a drone and one dry bowed line, "archival", very low in level. No low register. No lullaby.
+
+PANEL 1. The black tower in thread, rising from a woven sea. The camera comes down it to its foot: a QUEEN singing, a spiral-shell circlet, pearl and teal; and **behind her, crowds**, row on row, every small mouth open. In the border, spirals, every one turning **sunwise**.
+
+NAN [OS] (reciting: a lesson learned by heart; the scold goes out of her voice, the record's formality comes in) **FIXED**
+The First Voices raised the Spires. They are not heard now.
+
+PANEL 2. Nine banners on a shore; nine families under them, facing the tower.
+
+NAN [OS] (reciting; the record's sentence, shortened)
+The nine warden families found the Queen past reason, and her court with her.
+
+PANEL 3. Close in the weave: the Queen's singing hand. On it **a black pearl.**
+
+WICK [OS]
+Past reason? You mean mad?
+
+NAN [OS] (her own voice; flat)
+That's what they found.
+
+PANEL 4. The next panel: a servant girl half hidden by a pillar. A braid on the **left**. A spiral shell held against her chest in one hand. Her other hand is a **closed fist.** (Wordless.)
+
+PANEL 5. A sail with a cormorant on it, drawn across the harbour mouth. Ships at sea.
+
+PELL [OS] (dry)
+And what did she do?
+
+PANEL 6. The Queen **alone at the crown** of the tower, small against it, singing. Below her, the crowd of panel 1 has fallen: small shapes lying in the weave. Behind her the sea is standing up.
+
+NAN [OS] (reciting) **FIXED** `[ECHO]`
+She sang her city into the sea.
+
+Back in the kitchen.
+
+WICK [MS]
+The whole city?
+
+NAN [MS] (her own voice again) **FIXED** `[ECHO]`
+Every roof. The Nine made their Concord on what stayed dry.
+
+PELL [MS] (counting, the way she counts everything)
+Three hundred and twelve years of tithe, then.
+
+NAN [MS] (sharp)
+And three hundred and twelve years of mouths kept shut. That's your why.
+
+PELL [MS] (quiet; she has heard the gap)
+That's the Choir's why.
+
+Nan does not answer. *(Nan quotes the Choir's record and adds nothing of her own: she never gives her own reason, never says "the Quiet", does not hum. Nobody comments on the crowds, the pearl, the girl's braid or fist, or the sail; those stay pictures.)*
 
 Nan shoulders a bale of mended net bigger than she is.
 
@@ -274,56 +441,16 @@ Pell knots the rotted cord round her own neck and drops the stone inside her oil
 PELL [MS]
 It's dusk's money. That's all it is.
 
+PELL [MS] (the cord knotted; the stone goes inside her oilskin) `[v1.1]`
+And not a word to Nan. She'll only have a why for it.
+
 CLOSE: the stone against her skin, black, cracked, catching the window.
 
-MATCH CUT (black stone → a black tower woven in thread).
-SOUND: a dry page turns.
+MATCH CUT `[v1.1]` (black stone → the turning hub of a great wooden wheel). (The page-turn SFX moves to the ending.)
 
-# TITLE
+# ~~TITLE~~ `[v1.1]`
 
-## SC 5 — THE BREAKING TAPESTRY · TITLE — NO TIME (THE CHRONICLE) `LA` [5:20–6:20.5]
-
-*Document sequence. Woven textile, flat, a style of its own: this is the look of every later "Chronicle" sequence. Camera moves only; nothing moves inside the weave. Six panels, about seven seconds each. The tapestry hangs in PL-0013; we see details, never the room.*
-
-MUSIC: a drone and one dry bowed line, "archival". No low register. No lullaby.
-
-THE CHRONICLER is heard for the first time: old, dry, precise, faintly hoarse; a record-keeper reading entries. About 110 words a minute. No feeling at the third sentence. *Every line of his in this script is **FIXED**: delivered exactly as written.*
-
-PANEL 1. The black tower in thread, rising from a woven sea. The camera comes down it to its foot: a QUEEN singing, a spiral-shell circlet, pearl and teal; and **behind her, crowds**, row on row, every small mouth open. In the border, spirals, every one turning **sunwise**.
-
-CHRONICLER [VO] **FIXED**
-The First Voices raised the Spires. They are not heard now.
-
-PANEL 2. Nine banners on a shore; nine families under them, facing the tower.
-
-CHRONICLER [VO] **FIXED**
-In the last year of the old kingdom, the nine warden families found Queen Neveh past reason, and her court with her.
-
-PANEL 3. Close in the weave: the Queen's singing hand. On it **a black pearl.**
-
-PANEL 4. The next panel: a servant girl half hidden by a pillar. A braid on the **left**. A spiral shell held against her chest in one hand. Her other hand is a **closed fist.**
-
-PANEL 5. A sail with a cormorant on it, drawn across the harbour mouth. Ships at sea.
-
-PANEL 6. The Queen **alone at the crown** of the tower, small against it, singing. Below her, the crowd of panel 1 has fallen: small shapes lying in the weave. Behind her the sea is standing up.
-
-CHRONICLER [VO] **FIXED** `[ECHO]`
-She sang her city into the sea.
-
-The camera draws back until the six panels are one dim cloth.
-
-CHRONICLER [VO] **FIXED** `[ECHO]`
-The Nine made their Concord on what stayed dry. This is the three hundred and twelfth year of that Concord: three hundred and twelve years, each with its tithe, and each balance carried forward.
-(the smallest pause)
-…and the water kept its counsel.
-
-The last panel's black tower fills the frame.
-
-**TITLE: HOLLOWSTONE** [6:11.5–6:20.5]
-MUSIC: the saga theme, first statement: nine seconds, one phrase, built to open into the full theme at the end credits.
-(Any AI badge or studio mark appears from here on as a small corner bug, and on the end card. Never before this point.)
-
-MATCH CUT (the title's last frame → the hub of a great wooden wheel, turning).
+*Sc 5 is no longer a scene. Its six tapestry panels play inside Sc 4 under Nan's recitation; the Chronicler's entries leave the episode (their record wording is on the Chronicle page in the ending, `AFTER THE EPISODE`); the title HOLLOWSTONE is in the OP. The v1.0.4 text of Sc 5 is in git history.*
 
 # THE DAY
 
