@@ -1,0 +1,200 @@
+{
+  "chunks": [
+    {
+      "text": "[Intro]\nSing — louder than the tide...\n{a cappella, solo voice in silence, short breath at the end}",
+      "duration_ms": 6000,
+      "positive_styles": [
+        "cinematic anime opening rock anthem",
+        "F-sharp minor",
+        "80 BPM melody over 160 BPM double-time drums",
+        "solo female lead vocal, alto to mezzo, strong chest voice, slightly raspy grainy edge, direct and unpolished, minimal vibrato, clear English diction",
+        "a cappella for this section, close and dry",
+        "the first note is short and low, the second leaps a full octave up and is held",
+        "defiant, hopeful, urgent"
+      ],
+      "negative_styles": [
+        "drums",
+        "instruments",
+        "choir",
+        "backing vocals",
+        "humming",
+        "operatic",
+        "auto-tune",
+        "reverb wash"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Groove]\n{full band hit on the downbeat, then body percussion groove}\n(Hey!)",
+      "duration_ms": 6000,
+      "positive_styles": [
+        "instrumental",
+        "huge full-band hit on beat one",
+        "live drum kit at 160 BPM, tight and punchy",
+        "foot stamps on wooden planks and hand claps on the backbeat",
+        "harp and string pizzicato ostinato in eighth notes grouped 3+3+2",
+        "punchy bass guitar in short notes",
+        "one sharp two-finger whistle at the end",
+        "group shout 'Hey!' in unison"
+      ],
+      "negative_styles": [
+        "lead vocals",
+        "choir",
+        "sub bass",
+        "808",
+        "synth pad",
+        "EDM drop",
+        "5/4"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 12000,
+          "end_ms": 24000
+        },
+        "condition_strength": "medium"
+      }
+    },
+    {
+      "text": "[Verse]\nDown where the lanterns float in the street,\nwe keep the time with our hands and our feet.\nUp on the towers the song is for sale —\ncalm can be bought by the ones who don't bail.\nWhistle the warning, the water is high:\nso who's gonna pay for the dry?",
+      "duration_ms": 18000,
+      "positive_styles": [
+        "female lead vocal in the middle register, rhythmic and tight",
+        "each line starts with a short note and leaps up to the stressed word",
+        "drums at half intensity: rimshots, claps, kick",
+        "string ostinato continues",
+        "bass guitar short notes",
+        "building tension",
+        "street energy, stubborn"
+      ],
+      "negative_styles": [
+        "choir",
+        "harmonies",
+        "rap",
+        "humming",
+        "sub bass",
+        "distorted guitar"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Pre-Chorus]\nKeep your head down, keep it in your chest,\nlet the ones up high do the rest —\nbut the water's at the window,\nand the hollow stone won't save us now...\n{full stop, half a beat of silence before the chorus}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "melody climbs to a high F-sharp and settles on a long held C-sharp",
+        "French horns answer the voice with proud descending calls",
+        "harmony climbs D major, E major, C-sharp suspended, C-sharp major",
+        "snare drum roll building",
+        "rising tension",
+        "ends with a sudden silent gap"
+      ],
+      "negative_styles": [
+        "choir",
+        "riser synth",
+        "EDM build",
+        "key change",
+        "sub bass"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Chorus]\nSing — louder than the tide,\nwe were never made to hide.\nSing — louder than the tide:\nthis voice is all we own.",
+      "duration_ms": 24000,
+      "positive_styles": [
+        "anthemic chorus, full power",
+        "the melody leaps a full octave on 'louder' right after the downbeat",
+        "female lead vocal belting in chest voice",
+        "live drums at 160 BPM full energy, big crash on the downbeat",
+        "overdriven rhythm guitar wall",
+        "strings and French horns in unison with the vocal melody",
+        "foot stamps and hand claps on the backbeat",
+        "catchy, easy to sing along"
+      ],
+      "negative_styles": [
+        "choir",
+        "harmonized backing vocals",
+        "guitar solo",
+        "key change",
+        "sub bass",
+        "808",
+        "major ending"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 60000,
+          "end_ms": 72000
+        },
+        "condition_strength": "medium"
+      }
+    },
+    {
+      "text": "[Bridge]\nThey can buy the calm and the quiet,\nand the water keeps its counsel —\n{band drops out, only stamps and claps}\n(Who's gonna pay?)",
+      "duration_ms": 9000,
+      "positive_styles": [
+        "sudden drop to near silence",
+        "intimate low female voice, almost spoken, with one solo cello",
+        "then only foot stamps and hand claps",
+        "group shout in unison, not sung",
+        "snare fill into the final chorus"
+      ],
+      "negative_styles": [
+        "choir",
+        "pad",
+        "drone",
+        "sub bass",
+        "humming",
+        "guitar"
+      ],
+      "context_adherence": "high"
+    },
+    {
+      "text": "[Final Chorus]\nSing — louder than the tide:\nthis voice is all we own!",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "biggest moment of the song",
+        "octave leap on 'louder' right after the downbeat",
+        "the last word held long on the high fifth, open and unresolved",
+        "full band, strings and horns in unison with the voice",
+        "stamps and claps at full",
+        "triumphant and desperate at once"
+      ],
+      "negative_styles": [
+        "key change",
+        "choir",
+        "fade out",
+        "sub bass",
+        "major chord"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 60000,
+          "end_ms": 72000
+        },
+        "condition_strength": "medium"
+      }
+    },
+    {
+      "text": "[Outro]\n{one final full-band hit, ringing open fifth, clean decay}",
+      "duration_ms": 3000,
+      "positive_styles": [
+        "instrumental",
+        "single final hit on an open fifth F-sharp and C-sharp, no third",
+        "harp and cymbal tail",
+        "clean natural decay to silence"
+      ],
+      "negative_styles": [
+        "vocals",
+        "new melody",
+        "major chord",
+        "abrupt cut",
+        "sub bass"
+      ],
+      "context_adherence": "high"
+    }
+  ]
+}
