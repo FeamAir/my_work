@@ -449,3 +449,70 @@
 1. **Режиссёру.** Внести R2.2–R2.5 (части C13 и §4/§6) дословно. Пересобрать C11, C12 и C13 в аниматике.
 2. **Художнику.** Внести в `LOGO.md` R2.5 и сдвиг на 1981. В `reveal_test.sh` затемнение только выше линии.
 3. **Директору студии.** Правки стоимость не меняют: KW16 и KA02 остаются одним клипом каждый.
+
+## R3. Сверка v2.3 (стиль C, 2026-11-24): K10–K16, ступенчатый свет, `{PHONE}`
+
+Материал: `direction/opening/SAGA_OP_storyboard.md` v2.3, `direction/opening/LOGO.md` v1.2 §6, `reports/anime-director-2026-11-24-r10.md`, `art/style_c/STYLE_BASE_C.md` §1–§2, `output/style_test/f_alley.png` (просмотрен глазами). Канон v0.10 без изменений. Тайны только кодами. Платных вызовов не было.
+
+### R3.0 Вердикт
+
+**Подписано с правками R3.1–R3.4 (вносятся дословно).** K10, K11, K14, K16 приняты. K12 принят как текст; подпись знамён — только после просмотра F17_C, F19_C, F21_C и клипов K11C, K12C, KA11 в полном размере. K13 и K15 приняты с правками. Блокеров до батча T (§5.2) нет; R3.2 (переулок) и R3.3 (LOGO_C) нужны до вызовов alley_C и LOGO_C.
+
+| # | Решение |
+|---|---|
+| **K10** | **Принято.** `photorealism`, `neon colours`, `chibi proportions` уже есть в `{NEGATIVE_C}`; ни один пункт лора из `{AVOID_OP}`/`{AVOID_MASS}` не тронут (проверено по тексту §5, §5.4). `{NEGATIVE_C_MASS}` без `extra people` — допустимо: OP-1 держит `{AVOID_MASS}`. Снятие `hard two-tone shadows` при выбранном слое — допустимо. |
+| **K11** | **Принято.** W13: изменены только стилевые слова; восемь башен, ни одной в море, компас, «plain deep grey-blue open water» — дословно. FA01: `dense heavy water with a wet sheen` — без лорного смысла. W16: карта остаётся внутримировой акварелью, знаки башен плоские — верно. W14 → `F19_C`: только после подписи F19_C (K12); запрет копировать эмблемы остаётся. |
+| **K12** | **Принято как текст, подпись — после просмотра.** Условия ниже (R3.1). |
+| **K13** | **Принято с правкой R3.2.** Текст alley_C и KA04 верен, но картинка 2 (`f_alley.png`) содержит ровно то, что текст запрещает. |
+| **K14** | **Принято.** 2D K01 take 2 снят; запас — пересъём KA01, затем частицы SPRAY. Условия cut 33 те же: брызги без водной поверхности, без свечения, капли только на буквах. |
+| **K15** | **Принято с правкой R3.3.** Снятие обводки само по себе канон не нарушает. Но слой `{SIGNATURE_C}` на буквах и «a few water drops» ломают мои условия R2.5. |
+| **K16** | **Принято.** Ключи §4.2 (время суток, цвет дома) не меняются. Уточнения: R3.4 (башни, светильники). Для C12/W13 следить, чтобы тёплый дрейф C не превратил «low gold sun» в сумерки (Q9: мол в кадре): солнце над морем, небо золотое, не красно-оранжевое. План под словом в C13 (−40 %/−60 %) — это разделение «светлое на тёмном» по OP-26, правилу телефона он не противоречит и не осветляется ради него. |
+
+### R3.1 K12 — условия повторной подписи знамён (F17_C, F19_C, F21_C; K11C, K12C, KA11)
+
+Сверяю в полном размере с H01, H02, H06, H07, H08:
+- каждый девиз — плоская окраска ткани: без рельефа, вышивки, металлической нити, блеска на девизе; складки могут его гнуть, но в каждом окне куска §6.3 девиз читается целиком;
+- цвета домов — по H0x; тёплый дрейф C (оранжевение) правится до подписи;
+- на знамёнах и древках нет контурного или краевого свечения;
+- F17_C: свет низкий и тёплый со стороны моря (R2.2), тени от знамён ложатся от моря;
+- ни кольца, ни камня, ни руки, ни ворот на ткани (OP-17).
+
+### R3.2 K13 — переулок alley_C
+
+`f_alley.png` (картинка 2) показывает двустворчатые ворота с решёткой в конце переулка, кольцо-колотушку на левой двери, фонарь со светлым стеклом и столбик зарубок на косяке левой двери. NB2 берёт композицию с картинки 2, поэтому текст «no gate» не удержит ворота. Столбик зарубок на косяке читается как отметки уровня на столбе (OP-5, PL-0022).
+
+Правки (режиссёру и художнику, $0):
+- **§5.1, alley_C, колонка Image 2:** `output/style_test/f_alley.png` (the video-test clip's frame)` → `output/style_test/f_alley_patched.png` ($0, made from `f_alley.png` before the call: the double gate and its bars at the end of the lane replaced by plain brick wall, the ring knocker on the left door removed, the lantern glass darkened to unlit, the column of notches on the left door frame removed; keeper checks it at full size before the call)`.
+- **§5.1, alley_C, содержание**, перед `No people.` вставить: `No notches, tally marks or level marks on any door frame, post or piling. `
+- **§6.4, KA04, MUST NOT CHANGE**, дописать в конец: `; no marks appear on door frames or posts`.
+- **§6.4, KA04**, после MUST NOT CHANGE дописать: `Negative add: gate, bars, door knocker, ring, lit lantern, flame, glowing lamp, ripples, rings on water, marks on posts.`
+
+### R3.3 K15 — LOGO_C
+
+1. **Ступенчатый свет на буквах — нет.** `{SIGNATURE_C}` требует «shadows stay deep teal-black». На V-срезах ниже линии прилива это даёт тёмный, почти чёрный низ букв рядом с Коронным Шпилем — та же картинка, что в блокере R2.5 (SEC-014).
+   - **SAGA_OP §5.3, промпт:** удалить ` + \`{SIGNATURE_C}\` (if picked)`; после промпта дописать: `LOGO_C never takes {SIGNATURE_C} or {PHONE} (keeper R3.3: no deep teal-black steps on the letters, no rim light).`
+   - **LOGO.md §6, Motion:** удалить `With \`{SIGNATURE_C}\` picked, the bevels take the same stepped light as the plate.`; вместо: `LOGO_C keeps its own soft light whether or not {SIGNATURE_C} is picked for the plates (keeper R3.3).`
+2. **§2 п. 10 в объёме.** У 3D-букв в срезах всегда есть тень, поэтому `#5C6B72` надо мерить так, чтобы условие осталось проверяемым.
+   - **LOGO.md §6, What stays**, после `nothing below the line darker than \`#5C6B72\` (§2 p. 10)` дописать: ` — in LOGO_C measured on the letter faces; inside the cuts below the line the shadow is never darker than the shadow of the same cut above the line, the mean luma of the letters below the line is at least that of the 2D master's wet zone (≈96 of 255), and no facet of any letter is near-black (luma below 50)`.
+3. **Капли.** R2.5: шесть капель, не 5 и не 9. «A few» даёт случайное число.
+   - **SAGA_OP §5.3, промпт:** `A few water drops on the lower edges of letters below the tide line only.` → `Exactly six small water drops on the lower edges of letters below the tide line only, where they are in image 2.`
+   - **LOGO.md §6, acceptance** (дописать в Generation): `Acceptance: letter-perfect; the tide line straight and at the master's height (tide_y_C within ±2 % of the cap height of the master's line, the same y across the whole word ±3 px), else the take fails; six drops, below the line only; letters alone, no slab, block, wall or stone face behind them; no outline, glow or rim light.`
+4. **Линия не поднимается, нет кропа до буквы, затемнение только выше линии** — в §6 и §4 сохранены, `lt(Y,TIDE)` с `TIDE` из `tide_y_C.txt` верно. Дописать в **LOGO.md §6, What stays**, после `no cropping to one letter (R2.5)`: ` (also no single-letter 3D render, turntable or icon)`.
+5. **Запасной путь** (2D мастер поверх плана C) — принят.
+
+### R3.4 Ступенчатый свет и `{PHONE}`: риск свечения
+
+- **Ступени на Шпилях.** Светлая ступень вдоль «/»-борозды на чёрном стеклянном конусе читается как полоса света в борозде (OP-3, OP-4: «light inside tower grooves»). В движении это ползущая светлая спираль. **§5.0, `{SIGNATURE_C}`**, перед `no outlines,` вставить: `on the tall black towers the steps stay dark on dark - the lit step a dull dark grey, every "/" groove in the shadow step along its whole length, no light band following a groove; `. **§6**, условие для слоя: `the stepped light stays fixed to the forms` → `the stepped light stays fixed to the forms and never runs along a tower groove`.
+- **`{PHONE}` и обводка Шпиля.** «A clear key or rim light on it» на чёрной башне против неба (D08_S1_dusk_C под логотипом, W05, W09, W11) даёт светлый контур вокруг Шпиля — ореол. **§5.0, `{PHONE}`**, дописать в конец: ` A tall black tower is lit only by the sun of the scene: no added rim light, edge light or bright outline on it; against the sky it reads as the darker shape, its grooves and foot dark.`
+- **Светильники.** `{STYLE_BASE_C}` §1 задаёт «a large soft key from the window or lantern»; `{C_NOTE}` снимает только персонажей. Это прямой риск для «lantern unlit» (alley_C), «every lamp in the Lows unlit» (D01_A_C), «all unlit» (W05), «no lanterns» (W15). **§5.0, `{C_NOTE}`**, дописать в конец: ` The only light is the sun and sky of the scene and any flame written above; no lamp, lantern, window or fire is lit, whatever the style text below says about lanterns or windows.`
+- **Итог:** с этими тремя строками ни слой, ни `{PHONE}` свечения не дают. Проверка в тесте §5.2 (T1 — Хайуотер со Шпилями): борозды на 168×94 и в полном размере тёмные по всей длине.
+
+### R3.5 Канон
+
+Правок канона нет: v0.10 без изменений.
+
+### R3.6 Открытые вопросы
+
+1. **Режиссёру.** Внести R3.2–R3.4 дословно; `LOGO.md` §6 — художнику (R3.3).
+2. **Художнику.** Сделать `f_alley_patched.png` ($0) и показать мне до вызова alley_C.
+3. **Мне.** Полный просмотр F17_C, F19_C, F21_C (K12), alley_C, LOGO_C и листа теста §5.2 до клипов.
