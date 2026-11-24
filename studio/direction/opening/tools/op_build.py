@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""S1 OP v2 build ($0, ffmpeg + PIL). Storyboard v1.4 + keeper R3, 87.0 s, 24 fps, 1920x1080, music v2a.
+"""S1 OP v3 build ($0, ffmpeg + PIL).
+
+v3 (keeper R4.2, 2026-11-24): 31 / 31b / 31c take clips/K13_v3.mp4 and 32 takes clips/K13_v3_H2.mp4 (op_k13_ships.py:
+every ship is a static patch from the plate, H1 for 31-31c and H2 for 32, K13 water around it, drifted ships replaced);
+31c now takes K13 0-1.5 s (as 31) instead of 3.0-4.5 s, inside its 1.3x top crop. Output: output/opening/S1_OP_v3.mp4.
+Everything else is v2 unchanged.
+
+v2 header: Storyboard v1.4 + keeper R3, 87.0 s, 24 fps, 1920x1080, music v2a.
 
 v2 (keeper R3, 2026-11-24): 10 = K07_fix (dike span + jet painted out, tracked; op_r3_fixes.py); 14 = no ink mark;
 18/23 = F18/F23 with sunwise borders (+ Spire on F18); 25 = K01 t2 frames 0-12 only, then LA on F01_op (4-frame
@@ -48,7 +55,8 @@ L_ = an.loc
 KCLIP = {k: f"{CL}/{k}.mp4" for k in ("K01", "K01a", "K03", "K04", "K05", "K07", "K08", "K09", "K10", "K11", "K12",
                                        "K14", "K15", "K16", "K17", "K18")}
 FALLBACK = set()             # clips that failed twice (filled from clips/_accept.json)
-OUT = f"{OUTD}/S1_OP_v2.mp4"
+OUT = f"{OUTD}/S1_OP_v3.mp4"
+K13_V3, K13_V3_H2 = f"{CL}/K13_v3.mp4", f"{CL}/K13_v3_H2.mp4"     # keeper R4.2 (op_k13_ships.py)
 FIXED = {"K07": "K07_fix.mp4", "K18": "K18_fix.mp4"}     # keeper R3 patches (op_r3_fixes.py)
 
 
@@ -67,6 +75,8 @@ def load_accept():
     acc = json.load(open(p)) if os.path.exists(p) else {}
     if acc.get("K13", {}).get("use"):
         KCLIP["K13"] = f"{CL}/{acc['K13']['use']}"
+    if os.path.exists(K13_V3) and os.path.exists(K13_V3_H2):
+        KCLIP["K13"] = K13_V3
 
 
 def kc(g, kid, ss, t, speed=1.0, z=1.0, fx=0.5, fy=0.5, threes=False):
@@ -248,7 +258,7 @@ def build(cut):
         s = an.rain(g, s)
         return fin(g, s, out)
     if cut in ("31", "31b", "31c") and "K13" in KCLIP:
-        piece = {"31": 0.0, "31b": 1.5, "31c": 3.0}[cut]
+        piece = {"31": 0.0, "31b": 1.5, "31c": 0.0}[cut]      # v3: 31c reuses 0-1.5 s (half the drift to absorb)
         z, fx, fy = {"31": (1.0, 0.5, 0.5), "31b": (1.5, 0.62, 0.38), "31c": (1.3, 0.49, 0.10)}[cut]
         s = kc(g, "K13", piece, 1.5, z=z, fx=fx, fy=fy)
         if cut == "31":
@@ -300,7 +310,7 @@ def k13_32():
     import numpy as np
     import cv2
     out = f"{an.WK}/K13_32.mp4"
-    cap = cv2.VideoCapture(KCLIP["K13"])
+    cap = cv2.VideoCapture(K13_V3_H2 if os.path.exists(K13_V3_H2) else KCLIP["K13"])
     fr = []
     while True:
         ok_, f = cap.read()

@@ -380,3 +380,12 @@ Picture lock and timing unchanged (87.0 s, 2088 frames). Only the recipes below 
 | 26 | K18 with the halo of the two near wall lamps graded down to the wall (`K18_fix.mp4`); the lamps stay lit | R3.2-7 |
 | 27 | K14 frames 0–17 at 0.5× with frame blend; the crest stays at the outer parapet | R3.2-5 |
 | 31–32 | K13 (paid, take 1) with the six H1 lamp heads pasted statically (Kling lit them); 31/31b/31c = 0–1.5 / 1.5–3.0 / 3.0–4.5 s; 32 = 0–1.4 s retimed under GLASS | R3.1 |
+
+## v1.6 — keeper R4.2 (2026-11-24, assembly v3)
+
+Picture lock and timing unchanged (87.0 s, 2088 frames). Only 31–32 change (`op_k13_ships.py`, $0, no retake).
+
+| Cut | v1.6 recipe | Why (R4.2) |
+|---|---|---|
+| 31, 31b, 31c | `K13_v3.mp4`: every ship (hull, masts, rigging; 22 hulls incl. the faint far ones) and both piers with lamps and bollards are static patches from H1; the K13 water stays, re-sampled along each ship's measured drift inside a feathered zone (ship + its sun shadow); wherever K13 shows a drifted ship, H1 water with the L-10 ripple is used. 31 = K13 0–1.5 s, 31b = 1.5–3.0 s, **31c = 0–1.5 s** (was 3.0–4.5) in its 1.3× top crop | R4.2: the fleet drifted 20–60 px; tolerance ≤ 4 px |
+| 32 | `K13_v3_H2.mp4` as the A side of GLASS: same build, ship pixels from H2 where H2 = H1 (|Δ| < 15), H1 rim; GLASS steps to H2 unchanged | R4.2: no jump at 31c → 32, no double hulls in the steps |
