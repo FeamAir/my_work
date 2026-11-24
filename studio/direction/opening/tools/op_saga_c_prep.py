@@ -9,7 +9,7 @@ alley (R3.2, keeper text): the double gate and its bars at the end of the lane r
       from the plain wall on both sides of it, same rows, so the mist gradient matches), the ring knocker on the left
       door removed (cloned from the planks above it), the lantern glass darkened to unlit (bright pane pixels pulled
       down to a dull dark grey), the column of notches on the left door frame removed (dark marks on the frame board
-      inpainted). Output: output/style_test/f_alley_patched.png + output/style_test/f_alley_patched_check.png
+      inpainted; v2.5 R5.4: down to y 532), lantern glass v2.5 R5.4: flat dark grey-teal below the wall's tone. Output: output/style_test/f_alley_patched.png + output/style_test/f_alley_patched_check.png
       (before/after, details at 2x). The keeper checks it at full size before the alley_C call.
 
 d01a (gate B2): the NB2 call runs at 16:9, the v1.4 plate is vertical. Two steps:
@@ -74,17 +74,24 @@ def alley():
     g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).astype(np.int16)
     loc = cv2.medianBlur(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY), 21).astype(np.int16)
     mask = np.zeros(g.shape, np.uint8)
-    roi = (slice(212, 512), slice(162, 196))
+    roi = (slice(212, 532), slice(162, 196))      # v2.5 keeper R5.4 p. 1: down to y 532 (the last mark at y 506-522)
     mask[roi] = ((loc[roi] - g[roi]) > 10).astype(np.uint8) * 255
     mask = cv2.dilate(mask, np.ones((5, 5), np.uint8))
     img = cv2.inpaint(img, mask, 6, cv2.INPAINT_TELEA)
     # 4. lantern glass (x 1020-1078, y 130-202): bright pane pixels -> dull dark grey (unlit)
     box = img[130:202, 1020:1078].astype(np.float32)
     lum = box.mean(axis=2, keepdims=True)
-    k = np.clip((lum - 60) / 30, 0, 1)
-    dark = np.array([64, 66, 60], np.float32)  # BGR: dull dark grey (unlit glass)
-    grey = np.repeat(lum, 3, axis=2) * 0.12 + dark * 0.88
+    # v2.5 keeper R5.4 p. 2: the v2.4 grey (64, 66, 60) read warm pink against the teal wall. Now a flat dark
+    # grey-teal, darker than the house wall behind it (BGR ~45, 45, 25, luma ~37), no red, no highlight inside.
+    k = np.clip((lum - 45) / 15, 0, 1)
+    dark = np.array([33, 32, 20], np.float32)  # BGR: dark grey-teal (unlit glass), luma ~28
+    grey = np.repeat(lum, 3, axis=2) * 0.03 + dark * 0.97
     img[130:202, 1020:1078] = (box * (1 - k) + grey * k).astype(np.uint8)
+    # v2.5 R5.4: the top strip of the right pane (x 1041-1068, y 137-146, luma 40-45) was left lighter than the wall
+    st = img[137:147, 1041:1068].astype(np.float32)
+    sl = st.mean(axis=2, keepdims=True)
+    ks = np.clip((sl - 33) / 6, 0, 1)
+    img[137:147, 1041:1068] = (st * (1 - ks) + dark * ks).astype(np.uint8)
     cv2.imwrite(ALLEY_OUT, img)
     # check sheet: before/after full, then the four details at 2x
     det = [(600, 330, 820, 470), (60, 200, 220, 520), (990, 100, 1110, 220)]
