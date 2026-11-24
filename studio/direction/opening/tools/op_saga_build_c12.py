@@ -325,8 +325,9 @@ def finish_graph(plan):
     # and the mean brightness stay; near-black (the Spires) moves by < 1 level. (ffmpeg's softlight is NOT neutral at
     # B = 128: it darkened the hook by ~9 levels in the first try.)
     mt = "4*(A/255)*(1-A/255)"
-    b1 = f"[s][p]blend=c0_expr='A+(B-128)*0.16*{mt}':c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}'[sp]"
-    b2 = f"[sp][gr]blend=c0_expr='A+(B-128)*0.22*{mt}':c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}',format=yuv422p10le[fin]"
+    MID = 125.4     # the textures measured in limited-range yuv420p: paper Y 125.3, grain Y 125.4 (not 128)
+    b1 = f"[s][p]blend=c0_expr='A+(B-{MID})*0.16*{mt}':c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}'[sp]"
+    b2 = f"[sp][gr]blend=c0_expr='A+(B-{MID})*0.22*{mt}':c1_mode=normal:c2_mode=normal:shortest=1:enable='{noB16}',format=yuv422p10le[fin]"
     return ";".join([base, paper, grain, b1, b2])
 
 

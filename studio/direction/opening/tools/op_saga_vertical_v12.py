@@ -44,7 +44,7 @@ T = {
                                     "B16": [656], "C01a": "LB", "C01b": "LB", "C02": [640, 620], "C02L": [656]}),
     "V2": ("Raise your banner", 1440, 1655, {"C02": [640, 620], "C02L": [656], "C03": [820, 880], "C03L": [200],
                                              "C04": "LB", "C05": [620, 660], "C05L": [1180], "C06": [600, 640],
-                                             "C06L": [640], "C07": [160, 240]}),
+                                             "C06L": [640], "C07": [300, 360]}),
     "V3": ("Kite sky", 941, 1079, {"B07a": [656], "B08a": [656], "B07b": [656], "B08b": [656]}),
     "V4": ("Highwater groove", 288, 491, {"A06": [400], "A07": [656], "A08": [210], "A09": [656], "A10": [400],
                                           "A11": [0, 400]}),
@@ -124,7 +124,8 @@ def body(name):
 
 def end_card():
     bg = read_frames(SRC_TL, *CARD)
-    lg = read_frames(LOGO_RGBA, *CARD, rgba=True)
+    lg = read_frames(LOGO_RGBA, CARD[0] - an.START["C13"], CARD[1] - an.START["C13"], rgba=True)   # the layer counts from C13's 1st frame
+    assert len(bg) == len(lg) == CARD[1] - CARD[0] + 1, (len(bg), len(lg))
     s = LOGO_W / 1300.0
     out = []
     for f, l in zip(bg, lg):
@@ -145,11 +146,11 @@ def write(name, frames, audio):
     dst = f"{OUTV}/SAGA_OP_v1_2_{name}_9x16.mp4"
     a0, a1 = f0 / FPS, (f1 + 1) / FPS
     c0, c1 = CARD[0] / FPS, (CARD[1] + 1) / FPS
-    af = (f"[1:a]atrim={a0:.4f}:{a1 + 0.02:.4f},asetpts=PTS-STARTPTS[a];[1:a]atrim={c0 - 0.02:.4f}:{c1:.4f},asetpts=PTS-STARTPTS[b];"
+    af = (f"[1:a]asplit=2[x][y];[x]atrim={a0:.4f}:{a1 + 0.02:.4f},asetpts=PTS-STARTPTS[a];[y]atrim={c0 - 0.02:.4f}:{c1:.4f},asetpts=PTS-STARTPTS[b];"
           f"[a][b]acrossfade=d=0.02:c1=tri:c2=tri[ab]")
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{VW}x{VH}", "-r", str(FPS),
                           "-i", "-", "-i", audio, "-filter_complex", af, "-map", "0:v", "-map", "[ab]", "-c:v", "libx264",
-                          "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest",
+                          "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-frames:v", str(len(frames)),
                           "-movflags", "+faststart", "-metadata", f"title=HOLLOWSTONE {name} {T[name][0]} (AI-animated, not published)",
                           "-metadata", "comment=AI-generated (Kling 2.5 TP, Nano Banana 2; music ElevenLabs); vertical teaser v1.2",
                           dst], stdin=subprocess.PIPE)
