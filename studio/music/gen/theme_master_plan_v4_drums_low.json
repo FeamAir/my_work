@@ -1,0 +1,332 @@
+{
+  "chunks": [
+    {
+      "text": "[Intro - the call]\n{instrumental, solo cello alone}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "cinematic anime main title",
+        "F minor",
+        "80 BPM",
+        "4/4",
+        "solo cello in its high register, expressive and vocal-like",
+        "a short note then a long upward leap, settling down by steps",
+        "soft open-fifth string bed in the middle register",
+        "dark water, restrained hope",
+        "no percussion yet"
+      ],
+      "negative_styles": [
+        "drums",
+        "humming",
+        "synth pad",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 0,
+          "end_ms": 12000
+        },
+        "condition_strength": "high"
+      }
+    },
+    {
+      "text": "[Groove - the Lows]\n{instrumental, live drummer and body percussion enter}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "big expensive cinematic drum sound: real acoustic kit and ensemble drums dominate the rhythm section",
+        "F minor",
+        "80 BPM",
+        "4/4",
+        "live acoustic drum kit played by a real session drummer, recorded in a large wooden hall with natural room ambience",
+        "deep punchy kick drum with weight, short and tight, no boom tail",
+        "fat floor toms and rack toms",
+        "human dynamics: accents, ghost notes on the snare, slight push and pull",
+        "the same groove pattern as the reference: stamps on 1 and 3, syncopated claps",
+        "kick doubled by foot stamps on wooden planks, hand claps layered on the snare backbeat",
+        "harp and string pizzicato ostinato in eighth notes grouped 3+3+2",
+        "one sharp two-finger whistle accent at the end of the phrase",
+        "stubborn, alive, street energy, not sad"
+      ],
+      "negative_styles": [
+        "melody",
+        "5/4",
+        "quintuplets",
+        "thin drums",
+        "toy percussion",
+        "boomy resonant drum tone",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 12000,
+          "end_ms": 24000
+        },
+        "condition_strength": "low"
+      }
+    },
+    {
+      "text": "[Theme]\n{instrumental, the full melody}",
+      "duration_ms": 24000,
+      "positive_styles": [
+        "instrumental",
+        "big expensive cinematic drum sound: real acoustic kit and ensemble drums dominate the rhythm section",
+        "F minor",
+        "80 BPM",
+        "violins and violas in unison carry a broad singing melody in the middle register",
+        "each phrase starts with a short note and leaps upward to a long note, the leap wider each time",
+        "cellos in tenor register play a countermelody",
+        "trombones hold soft supporting chords",
+        "live acoustic drum kit played by a real session drummer, recorded in a large wooden hall with natural room ambience",
+        "deep punchy kick drum with weight, short and tight, no boom tail",
+        "fat floor toms and rack toms",
+        "drummer plays the groove with ghost notes and a tom fill at the end of each 4-bar phrase",
+        "harp ostinato continues",
+        "memorable, hummable, building"
+      ],
+      "negative_styles": [
+        "humming",
+        "electric guitar",
+        "thin drums",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 24000,
+          "end_ms": 48000
+        },
+        "condition_strength": "low"
+      }
+    },
+    {
+      "text": "[Rise - the Steps]\n{instrumental, brass answers, build}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "big expensive cinematic drum sound: real acoustic kit and ensemble drums dominate the rhythm section",
+        "80 BPM",
+        "French horns and trumpets answer with proud descending calls",
+        "harmony climbs D-flat major, E-flat major, C suspended, C major",
+        "live drummer builds: snare rolls growing, big tom fills around the kit",
+        "low taiko-style drums hit the accents, short and dry",
+        "live acoustic drum kit played by a real session drummer, recorded in a large wooden hall with natural room ambience",
+        "rising tension",
+        "grand but grounded"
+      ],
+      "negative_styles": [
+        "riser synth",
+        "EDM build",
+        "thin drums",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 48000,
+          "end_ms": 60000
+        },
+        "condition_strength": "low"
+      }
+    },
+    {
+      "text": "[Hook]\n{instrumental, climax, the octave leap on the first beat}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "big expensive cinematic drum sound: real acoustic kit and ensemble drums dominate the rhythm section",
+        "F minor",
+        "80 BPM",
+        "climax: the main melody returns with a leap of a full octave on the downbeat",
+        "strings and French horns in unison, middle register",
+        "full live drum kit at full power, crash cymbal on the downbeat",
+        "huge ensemble drum hits: taiko-style low drums and floor toms together on the accents",
+        "punchy kick with weight",
+        "hand claps and foot stamps layered",
+        "epic, triumphant and desperate at once",
+        "catchy"
+      ],
+      "negative_styles": [
+        "electric guitar",
+        "thin drums",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 60000,
+          "end_ms": 72000
+        },
+        "condition_strength": "low"
+      }
+    },
+    {
+      "text": "[Answer - cadence]\n{instrumental, resolution}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "big expensive cinematic drum sound: real acoustic kit and ensemble drums dominate the rhythm section",
+        "F minor",
+        "80 BPM",
+        "the answering phrase rises to F and falls home",
+        "strong final cadence in F minor",
+        "one big ensemble hit: full drum kit, taiko and toms together with the orchestra",
+        "short ringing room tail"
+      ],
+      "negative_styles": [
+        "fade out too early",
+        "thin drums",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 72000,
+          "end_ms": 84000
+        },
+        "condition_strength": "low"
+      }
+    },
+    {
+      "text": "[Outro - the water]\n{instrumental, sudden quiet, solo cello}",
+      "duration_ms": 12000,
+      "positive_styles": [
+        "instrumental",
+        "F minor",
+        "sudden drop to near silence",
+        "solo cello repeats the opening leap alone",
+        "ends on an open fifth F and C",
+        "clean natural decay to silence",
+        "lonely, unresolved"
+      ],
+      "negative_styles": [
+        "drums",
+        "new melody",
+        "abrupt cut",
+        "key change",
+        "modulation",
+        "F-sharp major chord",
+        "F major chord",
+        "Picardy third",
+        "low drone",
+        "pedal tone",
+        "sub bass",
+        "808",
+        "drum machine",
+        "programmed drums",
+        "electronic drums",
+        "trap hi-hats",
+        "EDM",
+        "vocals",
+        "choir"
+      ],
+      "context_adherence": "high",
+      "conditioning_ref": {
+        "song_id": "THEME",
+        "range": {
+          "start_ms": 84000,
+          "end_ms": 96000
+        },
+        "condition_strength": "high"
+      }
+    }
+  ]
+}
