@@ -1,10 +1,14 @@
-# HOLLOWSTONE logotype — "Tidemark" (v1.1, 2026-11-24)
+# HOLLOWSTONE logotype — "Tidemark" (v1.2, 2026-11-24)
 
 Owner: concept artist. Used in: OP cut 33 / SAGA OP C13 (title sting 1:22.5–1:27.0), posters, thumbnails, end card.
 Assets: `studio/direction/refs/LOGO/` (copies of `studio/art/logo/final/`). Source frame: `studio/art/logo/gen/LOGO_A2_v1.png` (NB2, seed 410722).
 v1.1 (director, with the keeper's R2.5 of `reports/lore-saga-op-2026-11-24.md` word for word and the investor's 1981 landing): tide line at half the cap height in the text (the asset was always there); darkening above the tide line only; the drop never brighter than the dry letters; the landing on the final hit, 1981; the keeper's conditions for every carrier (§2 p. 9–11); a darker plate under the word and a scripted tail (§4). The assets are unchanged.
 
+v1.2 (director, coordinator's request after the style-C reviews): a **3D version LOGO_C** for style C (§6): the same word, granite and tide line as volumetric chisel-cut letters with no 2D outline; every rule of §2 holds; the reveal of §4 runs on it unchanged except for the new `TIDE`. The 2D assets of §3 stay (thumbnails below 240 px, keying, print) until a C clean version exists. Keeper check: §5, K15 of the saga storyboard.
+
 ## Кратко (RU)
+
+- **v1.2:** объёмная версия **LOGO_C** для стиля C (§6): та же надпись, тот же гранит и та же линия прилива, но объём и без 2D-обводки; все правила §2 в силе; раскрытие C13 строится на ней.
 
 - Логотип — **«Приливная отметка»**: слово HOLLOWSTONE как надпись, вырубленная резцом в выветренном граните портовой стены. Одна прямая линия прилива пересекает всё слово на половине высоты букв: ниже — мокрый сине-серый камень с солевой коркой и следами водорослей, выше — сухой светлый гранит. Название стиля сериала («Tidemark») становится знаком.
 - Буквы проверены побуквенно: H-O-L-L-O-W-S-T-O-N-E.
@@ -81,3 +85,16 @@ Working recipe (tested on `PL-0014/D08_S1_dusk_v1.png`, crown framing): `studio/
 
 - Tide line on the letters: static mark, water only drains, no marked post, no rising water (OP-5, PL-0022) — please confirm.
 - Granite letters instead of black glassy stone (RULE-005 / restricted truth) — please confirm.
+- *v1.2, open:* LOGO_C (§6) — the same mark in volume, the outline dropped; please confirm at full size (saga storyboard K15).
+
+## 6. LOGO_C — the 3D version for style C (v1.2)
+
+**Why:** the opening is now style C (`art/style_c/STYLE_BASE_C.md`); the outlined 2D master reads as a sticker over a 3D plate (marketer style-C review, p. 4). LOGO_C makes the mark an object of the same world.
+
+**What stays (all of §2):** HOLLOWSTONE letter-perfect, one line; the chisel-cut face of A2 (same shapes, proportions, spacing); pale weathered grey granite, never black glass (RULE-005); the tide line straight and horizontal at half the cap height, wet blue-grey below with the salt crust and weed staining, dry above; water only drains, the line never rises; no glow, no rim light; the O counters empty; nothing next to or behind the mark; no cropping to one letter (R2.5); contrast from the plate, never from the mark (§2 p. 11); nothing below the line darker than `#5C6B72` (§2 p. 10).
+**What changes:** volume (V-section bevels lit by a soft key from the upper left, soft contact shading in the cuts), **no outline** (`#1C1F2A` is not used in LOGO_C; the plate band of §2 p. 11 gives the separation).
+
+**Generation:** NB2 edit, 1 image, up to 3 takes ($0.24 in the saga budget), prompt and acceptance in `SAGA_OP_storyboard.md` §5.3; image 1 = the accepted C anchor D01_A_C, image 2 = `HOLLOWSTONE_logo_master_dark_1920.png` (layout), image 3 = `HOLLOWSTONE_logo_clean_alpha.png` (shapes); letters on flat `#0B0D12`, the same framing as image 2.
+**Matte ($0):** NB2 returns an opaque 1376×768 frame. Scale to 1920×1080 (lanczos) and align to `master_dark_1920` (phase correlation on the luma, translation + scale only). Alpha = the luma key of the letters against `#0B0D12` (the wet zone `#5C6B72` is far above the ground), OR-ed with `HOLLOWSTONE_logo_matte.png` dilated by 3 px so dark bevel cuts stay solid; edges feathered 1 px. Save `art/logo/final/HOLLOWSTONE_logo_C_alpha.png` (1800×676 crop as the master) + `tide_y_C.txt` (the measured tide line). The concept artist owns these files.
+**Motion:** §4 unchanged — the wet layer, drain, glint (`lt(Y,TIDE)`), drop, plate band and push run on `HOLLOWSTONE_logo_C_alpha.png` with `TIDE` from `tide_y_C.txt` (scaled to the 1300-px logo). The wet darkening stays above the line only. With `{SIGNATURE_C}` picked, the bevels take the same stepped light as the plate.
+**Fallback:** if three takes fail (spelling, line, glass look), C13 keeps the approved 2D master over the C plate with the §2 p. 11 plate band, and the keeper is told; no further paid takes.
