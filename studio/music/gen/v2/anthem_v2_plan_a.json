@@ -1,0 +1,368 @@
+{
+ "chunks": [
+  {
+   "text": "[Intro - the call]\n{instrumental, one huge orchestral hit at 0:00, then the horns call the main motif, loud and clear}",
+   "duration_ms": 12000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "at 0:00 one huge tutti hit: timpani, bass drum, low brass chord, loud from the very first moment",
+    "right on the hit four French horns in unison call the motif, bold and proud, middle register",
+    "the call: a short low C, a leap up a full octave to a long high C, then B-flat A-flat G, home on A-flat; again the octave leap C to C, a turn D-flat C, then B-flat A-flat down to a long F",
+    "a trumpet joins the second octave leap",
+    "strings hold soft F minor chords underneath, no groove yet"
+   ],
+   "negative_styles": [
+    "drums groove",
+    "pad",
+    "soft intro",
+    "quiet intro",
+    "fade in",
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "THEME",
+    "range": {
+     "start_ms": 0,
+     "end_ms": 12000
+    },
+    "condition_strength": "high"
+   }
+  },
+  {
+   "text": "[Groove - the Lows]\n{instrumental, the drum groove enters, staccato strings drive}",
+   "duration_ms": 9000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "live ensemble drums in a big wooden hall: deep short kick, fat toms, foot stamps on planks, hand claps",
+    "stamps on beats 1 and 3, syncopated claps, the same groove all the way",
+    "staccato low strings and harp ostinato in eighth notes grouped 3+3+2",
+    "short horn stabs on the offbeats echo the call",
+    "stubborn, alive"
+   ],
+   "negative_styles": [
+    "melody",
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "2pOkETSO6yen6lzuOL7j",
+    "range": {
+     "start_ms": 12000,
+     "end_ms": 21000
+    },
+    "condition_strength": "low"
+   }
+  },
+  {
+   "text": "[Theme]\n{instrumental, the main melody in strings and horns over the groove}",
+   "duration_ms": 24000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "live ensemble drums in a big wooden hall: deep short kick, fat toms, foot stamps on planks, hand claps",
+    "stamps on beats 1 and 3, syncopated claps, the same groove all the way",
+    "violins, violas and French horns in unison carry the main melody, singing, middle register",
+    "each phrase starts with a short note and leaps up to a long note, then falls by steps",
+    "a countermelody in the cellos",
+    "proud, hopeful"
+   ],
+   "negative_styles": [
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "2pOkETSO6yen6lzuOL7j",
+    "range": {
+     "start_ms": 21000,
+     "end_ms": 45000
+    },
+    "condition_strength": "low"
+   }
+  },
+  {
+   "text": "[Rise - the Steps]\n{instrumental, building to the climax, then one breath}",
+   "duration_ms": 12000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "live ensemble drums in a big wooden hall: deep short kick, fat toms, foot stamps on planks, hand claps",
+    "stamps on beats 1 and 3, syncopated claps, the same groove all the way",
+    "trumpets and horns answer with rising fanfare calls",
+    "snare roll and tom fill grow louder every bar",
+    "the last half bar drops to drums only, then one breath of silence before the climax"
+   ],
+   "negative_styles": [
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "2pOkETSO6yen6lzuOL7j",
+    "range": {
+     "start_ms": 45000,
+     "end_ms": 57000
+    },
+    "condition_strength": "low"
+   }
+  },
+  {
+   "text": "[Hook - the call, full orchestra]\n{instrumental, the climax: the whole brass section plays the call with the octave leap, over the groove}",
+   "duration_ms": 12000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "the biggest moment: everything enters together on the first downbeat with a huge hit",
+    "all horns, trumpets and trombones in unison play the call, violins double it an octave higher",
+    "the call: a short low C, a leap up a full octave to a long high C, then B-flat A-flat G, home on A-flat; again the octave leap C to C, a turn D-flat C, then B-flat A-flat down to a long F",
+    "the melody is loud, clear and in front of everything, easy to hum",
+    "timpani on every downbeat",
+    "live ensemble drums in a big wooden hall: deep short kick, fat toms, foot stamps on planks, hand claps",
+    "stamps on beats 1 and 3, syncopated claps, the same groove all the way",
+    "triumphant, heroic, unforgettable"
+   ],
+   "negative_styles": [
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "THEME",
+    "range": {
+     "start_ms": 12000,
+     "end_ms": 24000
+    },
+    "condition_strength": "high"
+   }
+  },
+  {
+   "text": "[Answer - the call returns]\n{instrumental, the call returns, the second half climbs higher and ends open}",
+   "duration_ms": 12000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "a hit on the first downbeat, the full brass section plays the call again with violins an octave higher",
+    "first half the same as before: short low C, octave leap to a long high C, then B-flat A-flat G A-flat",
+    "second half climbs: a short E-flat, octave leap to a long high E-flat, then D-flat C B-flat, ending open on C",
+    "live ensemble drums in a big wooden hall: deep short kick, fat toms, foot stamps on planks, hand claps",
+    "stamps on beats 1 and 3, syncopated claps, the same groove all the way",
+    "big ensemble drum hits every half bar",
+    "proud, rising"
+   ],
+   "negative_styles": [
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "THEME",
+    "range": {
+     "start_ms": 24000,
+     "end_ms": 36000
+    },
+    "condition_strength": "high"
+   }
+  },
+  {
+   "text": "[Logo sting]\n{instrumental, two tutti hits, the last one resolves to F minor and rings}",
+   "duration_ms": 6000,
+   "positive_styles": [
+    "instrumental",
+    "heroic cinematic main title anthem",
+    "live symphony orchestra recording, real brass section",
+    "F minor",
+    "80 BPM",
+    "4/4",
+    "beat 1: tutti hit on a C major chord, the brass plays a quick octave leap C to C",
+    "beat 3: the biggest hit of the piece on F minor, trumpets leap F to a long high F, horns hold F",
+    "the F minor chord rings out on brass and strings for three seconds, strong and resolved",
+    "no new melody, no groove after the last hit"
+   ],
+   "negative_styles": [
+    "drum groove",
+    "new melody",
+    "fade in",
+    "key change",
+    "modulation",
+    "F-sharp major chord",
+    "F major chord",
+    "Picardy third",
+    "low drone",
+    "pedal tone",
+    "sustained sub bass",
+    "808",
+    "vocals",
+    "choir",
+    "humming",
+    "singing",
+    "vocal chops",
+    "synth pad",
+    "synth brass",
+    "General MIDI",
+    "EDM",
+    "trap hi-hats",
+    "drum machine",
+    "electric guitar",
+    "riser synth",
+    "fade out to silence"
+   ],
+   "conditioning_ref": {
+    "song_id": "THEME",
+    "range": {
+     "start_ms": 36000,
+     "end_ms": 42000
+    },
+    "condition_strength": "high"
+   }
+  }
+ ]
+}
