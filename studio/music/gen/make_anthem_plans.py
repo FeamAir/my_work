@@ -91,3 +91,17 @@ def plan_v3():
 
 json.dump(plan_v3(), open("op_anthem_plan_v3_t2base.json", "w"), indent=1)
 print("v3 ok")
+
+# --- v4 (after take 3 lost the grid without conditioning): low conditioning on the master in every chunk
+# (grid + motif anchor, as take 2) + the v3 rise/hook texts.
+def plan_v4():
+    p = plan(["low"] * 7)
+    for i, (name, line, pos, neg) in V3_TEXT.items():
+        c = p["chunks"][i]
+        c["text"] = f"[{name}]\n{{instrumental, {line}}}"
+        c["positive_styles"] = COMMON + pos
+        c["negative_styles"] = neg + BANS
+    return p
+
+json.dump(plan_v4(), open("op_anthem_plan_v4_lowcond_brass.json", "w"), indent=1)
+print("v4 ok")
