@@ -194,6 +194,31 @@ def expand(text):
     return re.sub(r"\{([A-Z_]+)\}", rep, text or "")
 
 
+_PELL_SIDE = ("Her single braid hangs on the RIGHT side of the picture; the left side of the picture has only short hair "
+              "(no braid on the left side of the picture). The blue tin tag is tied to the braid tip, not on her clothes. ")
+_ONE = "One single full-frame image: no inset, no picture-in-picture, no letterbox bars, no frames or boxes drawn on top. "
+# Review 2026-11-24 (contact sheets): corrective additions for frames that failed review. Quality only.
+EXTRA = {
+    "sc01-sh070": "The eyes are drawn as part of the gate scene, seen through the gap in the wood, not a pasted square: a close-up of dark wet wooden gate leaves filling the frame, the narrow vertical gap in the middle, the eyes visible deep inside the gap, partly shadowed by the wood edges. " + _ONE,
+    "sc01-sh100": "Nothing glows except the faint distant lantern; no glowing cracks or lines, no tentacle shapes; only dark drifting cloth. " + _ONE,
+    "sc02-sh020": _ONE + "Only the fist, sleeve and doorpost fill the frame; no face. ",
+    "sc02-sh130": _PELL_SIDE, "sc02-sh140": _PELL_SIDE, "sc03-sh110": _PELL_SIDE, "sc03-sh180": _PELL_SIDE,
+    "sc03-sh130": "Close insert: only the rake head, weed and water; no people anywhere. ",
+    "sc03-sh150": "Close insert under the water surface: only the rake head, the cord and the handle; no people anywhere. ",
+    "sc04-sh220": _PELL_SIDE, "sc04-sh240": _PELL_SIDE, "sc06-sh210": _PELL_SIDE, "sc15a-sh050": _PELL_SIDE,
+    "sc20-sh170": _PELL_SIDE + "Her face is clean: no lines, marks or light patterns on her skin. ",
+    "sc06-sh050": _ONE + "Close insert: the hand and the open rag fill the frame; no full figure. ",
+    "sc06-sh040": "Corr is seen from the front: on the RIGHT side of the picture his forearm ends in a leather-wrapped stump with no hand. ",
+    "sc06-sh130": "The reed whistle is held in his only hand (his right hand, LEFT side of the picture); his other forearm ends in a leather-wrapped stump with no hand. ",
+    "sc09-sh110": "Close on hands and lap only; no tag on her jacket. ",
+    "sc10-sh130": _ONE, "sc10-sh180": _ONE, "sc12-sh270": _ONE, "sc13-sh090": _ONE, "sc17-sh020": _ONE,
+    "sc14-sh180": "Close insert: the glass of water fills the frame; nothing glows, no glowing rings. ",
+    "sc15-sh160": "Close top-down insert on the ledger page on a desk; the brass clip lies on the page. ",
+    "sc20-sh140": "Medium close-up framed on her lap and closed fist only; face cropped out of frame. ",
+    "sc20-sh150": "Extreme macro: the open palm and the tiny stone fill the whole frame; no face, no braid, no jacket visible. ",
+}
+
+
 def prompt_a(shot):
     chars, cimgs, loc, props = resolve(shot)
     imgs, legend = [], []
@@ -213,7 +238,7 @@ def prompt_a(shot):
     body = expand(shot["kf"])
     chronicle = "{CHRONICLE}" in (shot["kf"] or "")
     p = ("Create ONE new single frame of a 2D anime TV episode (a finished background with characters, not a model sheet, "
-         "no grid, no panels, no captions). " + " ".join(legend[:len(imgs)]) + " Shot: " + body.rstrip(". ") + ". ")
+         "no grid, no panels, no captions). " + " ".join(legend[:len(imgs)]) + " Shot: " + body.rstrip(". ") + ". " + EXTRA.get(shot["id"], ""))
     if shot["nochar"]:
         p += "The frame is EMPTY of people: no figures, no characters, no faces anywhere (ignore any people in the reference images). "
     if chars:
@@ -227,8 +252,16 @@ def prompt_a(shot):
     return p, imgs
 
 
+EXTRA_B = {  # review corrections for end poses
+    "sc01-sh010": "There is exactly ONE cradle in the frame, the same single cradle, moved a little further along the water. ",
+    "sc19-sh110": "The girl appears only ONCE in the frame; no duplicate of any person. ",
+    "sc20-sh150": "The stone stays pure matte black; nothing glows, no orange or golden light inside the stone or the crack. ",
+    "sc20-sh170": "Her face and skin stay clean: no glowing lines, cracks or light patterns on her face; nothing glows. ",
+}
+
+
 def prompt_b(shot):
-    mot = shot["mot"] or shot["act"]
+    mot = (shot["mot"] or shot["act"]) + " " + EXTRA_B.get(shot["id"], "")
     return ("Image 1 is a frame from a 2D anime episode. Draw the SAME shot a few seconds later: same camera, framing, location, "
             "light, characters, faces, outfits and art style; change only the pose to the END of this action: " + expand(mot) +
             " Keep every asymmetric detail on the same side. No text. " + AVOID)
