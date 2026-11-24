@@ -1,6 +1,15 @@
 # HOLLOWSTONE — песня-опенинг «Louder Than the Tide»
 
-Версия 0.3 · 2026-11-24 · композитор · статус: **план генерации готов, платные вызовы не делались — ждёт «ворота открыты» (правило инвестора 2026-11-24, `status.md`)**. v0.3: решение инвестора — песня звучит **уже в пилоте** (после холодного пролога ≈3:25, `story/episodes/S01E01/v4_dialogue_pass.md` §3); эндинг пилота — инструментальный мастер темы. Шаг «эскиз» (§5.1, шаг 1) отменён директором: до 4 полных дублей, `conditioning_ref` только на мастер темы (`THEME`); `condition_strength` перенесён внутрь `conditioning_ref` (так требует схема API). Готовые к запуску файлы: `music/gen/op_song_plan_v1.json`, `music/gen/theme_master_plan_v1.json`, `music/gen/run_music.py`, `music/gen/check_take.py`. E2+ — песня, см. §8.3 (v0.3).
+Версия 0.4 · 2026-11-24 · композитор · статус: **песня не генерируется; текст — на проверку хранителю канона, затем утверждение директора (гейт B1–B3).**
+
+> **Решения директора студии 2026-11-24 (в силе, заменяют v0.3 в части размещения):**
+> - **Пилот — инструментальный опенинг:** главная тема, TV-size 90,0 с (`main_theme.md` §5), после холодного пролога ≈3:25. По канону первый голос Низов — Лио в S1E2; `status.md`: песня — с E3.
+> - **«Louder Than the Tide» остаётся опенингом с E3.** Генерации сейчас нет. До любой генерации текст идёт хранителю канона. Строка «and the water keeps its counsel» (эхо подписи Летописца, SEC-011b) **заменена** композитором в v0.4: «they can buy the dry and the high ground» (§3, план `gen/op_song_plan_v1.json` chunk 5).
+> - **Эндинг пилота** — тихий вариант темы (соло виолончели, вход в 0:00 под страницей Хроники); он отличается от опенинга.
+> - В плане песни во всех чанках запрещены: key change / modulation, F-sharp major chord / Picardy third, low drone / pedal tone (гейт C5; предприпев — ещё «major key»). Раннер `gen/run_music.py` не пропустит план без этих запретов.
+> - **Тональность для conditioning:** мастер темы сгенерирован в F minor и сдвинут на +1 полутон в F♯ minor бесплатно (ffmpeg rubberband). У `song_id` мастера (`XgAMT6K7xg8zrzcIRszZ`) тональность — **F minor**. Для песни в F♯ minor ссылка `THEME` должна указывать на загруженный сдвинутый мастер (`/v1/music/upload`, ≈1 300 кр.) или промпт песни писать в F minor и сдвигать результат. Решить перед генерацией песни.
+
+v0.3 (история) · статус: **план генерации готов, платные вызовы не делались — ждёт «ворота открыты» (правило инвестора 2026-11-24, `status.md`)**. v0.3: решение инвестора — песня звучит **уже в пилоте** (после холодного пролога ≈3:25, `story/episodes/S01E01/v4_dialogue_pass.md` §3); эндинг пилота — инструментальный мастер темы. Шаг «эскиз» (§5.1, шаг 1) отменён директором: до 4 полных дублей, `conditioning_ref` только на мастер темы (`THEME`); `condition_strength` перенесён внутрь `conditioning_ref` (так требует схема API). Готовые к запуску файлы: `music/gen/op_song_plan_v1.json`, `music/gen/theme_master_plan_v1.json`, `music/gen/run_music.py`, `music/gen/check_take.py`. E2+ — песня, см. §8.3 (v0.3).
 Предыдущий статус (v0.2): **черновик к утверждению** (v0.2: решения директора — S1E2 инструментальный опенинг, песня с S1E3; `store_for_inpainting` для мастера темы; «Доски» без пятёрок) (текст и концепция утверждает директор; платные генерации только с его разрешения)
 Источники: решение инвестора и директора 2026-11-22 (опенинг серий 2–12 — песня с вокалом на английском на мелодии главной темы; инструментальная версия остаётся; уточнение директора: в S1 песня звучит с E3, в E2 — инструментальный опенинг), `BRIEF.md`, `music/main_theme.md`, `music/leitmotifs.md` §0, `canon/excerpts/for_composer.md` (закрыто, все запреты §3 соблюдены), `story/series_bible.md` §2, §5, §9, §12.3, `story/saga_arc.md` (только тон), `story/season01_outline.md` (E2, E3), `marketing/title.md` §5.
 Документация ElevenLabs, сверено 2026-11-22: [composition plans](https://elevenlabs.io/docs/eleven-api/guides/how-to/music/composition-plans.md), [inpainting / conditioning](https://elevenlabs.io/docs/ja/eleven-api/guides/how-to/music/inpainting).
@@ -93,7 +102,7 @@ this voice is all we own.
 
 [Bridge]
 They can buy the calm and the quiet,
-and the water keeps its counsel —
+they can buy the dry and the high ground —
 (Who's gonna pay?)
 
 [Final chorus]
@@ -105,10 +114,10 @@ this voice is all we own!
 
 | Строка | Что знает внимательный зритель |
 |---|---|
-| `calm can be bought` | девиз Низов «Calm is bought» (S1E2) |
+| `calm can be bought` | **слова дома Квелл** «Calm is bought» (CH-0019, HS-020; впервые звучат в S1E2, Так; в E4 — Джаро). Поправка гейта: не девиз Низов. Хранителю — проверить вместе с текстом (эхо в S1E12 относится к SEC-046) |
 | `who's gonna pay for the dry` | девиз саги «Who pays for the dry?» (S1E4), звучит в каждом сезоне |
 | `the hollow stone won't save us now` | название сериала; Шпили слабеют — это открытая завязка |
-| `the water keeps its counsel` | эхо подписи Летописца «…and the water kept its counsel» |
+| `they can buy the dry and the high ground` | «сухое» покупается, как и покой — та же мысль, что в девизе саги; строка без воды и без подписи Летописца (заменяет «the water keeps its counsel», SEC-011b, v0.4) |
 | `whistle the warning` | свистовые сигналы Низов вместо голоса |
 | `ones who don't bail` | знать не вычерпывает воду из домов — Ступени не тонут |
 | `this voice is all we own` | цена песни — голос; беднякам принадлежит только он |
@@ -200,7 +209,7 @@ this voice is all we own!
       "condition_strength": "high"
     },
     {
-      "text": "[Bridge]\nThey can buy the calm and the quiet,\nand the water keeps its counsel —\n{band drops out, only stamps and claps}\n(Who's gonna pay?)",
+      "text": "[Bridge]\nThey can buy the calm and the quiet,\nthey can buy the dry and the high ground —\n{band drops out, only stamps and claps}\n(Who's gonna pay?)",
       "duration_ms": 9000,
       "positive_styles": ["sudden drop to near silence", "intimate low female voice, almost spoken, with one solo cello", "then only foot stamps and hand claps", "group shout in unison, not sung", "snare fill into the final chorus"],
       "negative_styles": ["choir", "pad", "drone", "sub bass", "humming", "guitar"],
@@ -276,7 +285,7 @@ this voice is all we own!
 | 0:54,75 | второй скачок | Кантор в горле короны, спиной к камере |
 | 1:00,0 | «this voice is all we own» | герои вместе (без раскрытий связей) |
 | **1:06,0** | **спад: голос + виолончель** | тишина воды, рука с солью |
-| 1:09,0 | «the water keeps its counsel» | раскрытая хроника / гобелен (без текста крупно) |
+| 1:09,0 | «they can buy the dry and the high ground» | (v0.4: книга Хроники в ОП запрещена — гейт F5; визуал решает режиссёр по v4 §3.3) |
 | 1:12,0–1:15,0 | только топот и хлопки; выкрик **1:13,5** | толпа Низов, руки вверх; дробь — быстрый монтаж |
 | **1:15,0 / 1:15,75** | финальный припев, скачок | самый большой кадр опенинга (все Шпили, вал воды, флот) |
 | 1:22,5–1:27,0 | «own» на C♯5, открыто | медленный наезд на одну фигуру |
