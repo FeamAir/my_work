@@ -1,6 +1,6 @@
 # Glossary and pronunciation
 
-Canon: v0.8 (r8: TERM-0497 renamed Wren Roan, DEC-79) · Status: **approved** as text - TERM-0001…0211 approved by the lead screenwriter in r5 (`studio/reports/lead-screenwriter-2026-11-22-r5.md` §5), TERM-0212 onward in r3. All respellings are still to be tested with the TTS voice (sound director's first probe); a respelling changed after the probe is a CHANGELOG line, not a new approval. (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
+Canon: v0.9 (TERM-0167, 0168 meanings: the Chronicle as pages) · v0.8 (r8: TERM-0497 renamed Wren Roan, DEC-79) · Status: **approved** as text - TERM-0001…0211 approved by the lead screenwriter in r5 (`studio/reports/lead-screenwriter-2026-11-22-r5.md` §5), TERM-0212 onward in r3. All respellings are still to be tested with the TTS voice (sound director's first probe); a respelling changed after the probe is a CHANGELOG line, not a new approval. (Foundation r2, approved by the director 2026-11-22; transfer by lore-keeper.)
 
 Every name spoken on screen has one entry. Voice synthesis reads `say` (stressed syllable in CAPS); subtitles and on-screen text use `term`. Entries for restricted names are in `sealed/`.
 
@@ -1713,7 +1713,7 @@ canon: approved
 term: the Chronicler
 say: thuh KRON-ik-ler
 kind: title
-meaning: the narrator
+meaning: the keeper of the official record; v0.9 - no voice-over in any episode, the Chronicle is shown as written pages
 ```
 
 ```canon
@@ -1723,7 +1723,7 @@ canon: approved
 term: The Chronicle of the Dry Years
 say: thuh KRON-ik-ul uv thuh DRY YEERZ
 kind: object
-meaning: the official record the narrator reads
+meaning: the official record; shown on screen as typeset pages (running head)
 ```
 
 ```canon

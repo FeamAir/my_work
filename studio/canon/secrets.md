@@ -1,6 +1,6 @@
 # Secrets registry
 
-Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; v0.7: SEC-046…051 and the additions to SEC-001, 006, 012, 013, 016, 023, 031 from the love lines, r7, DEC-73; v0.8: SEC-047 episodes, SEC-051 knower, Elm's partial knowledge in SEC-004/049, rename Wren Roan - r8, DEC-77…80; transfer by lore-keeper)
+Canon: v0.9 · Status: **approved** (foundation r2, approved by the director 2026-11-22; SEC-017a/b and SEC-030…045 approved by the lead screenwriter in r3; v0.7: SEC-046…051 and the additions to SEC-001, 006, 012, 013, 016, 023, 031 from the love lines, r7, DEC-73; v0.8: SEC-047 episodes, SEC-051 knower, Elm's partial knowledge in SEC-004/049, rename Wren Roan - r8, DEC-77…80; transfer by lore-keeper)
 
 **Full spoilers - never use in public material before the reveal episode.**
 
@@ -107,7 +107,7 @@ Answers are in `sealed/sealed.md` (readers: lead-screenwriter, lore-keeper, stud
 |---|---|
 | SEC-010 | keep Maren sympathetic through S7 and arguable through S9 |
 | SEC-011 | Hollis after S06E09 and Zev after S06E09 are not for helpers or marketing |
-| SEC-011b | Chronicler voice design: excerpt for the sound director - `excerpts/for_sound_director.md` (v0.4, director's decision) |
+| SEC-011b | (v0.9) **no narrator voice in any episode before S12E13**: the Chronicle is written pages only (S01E01: one page in the ending); no in-world reader voices a Chronicle entry; characters may quote only the record's set lines about the Breaking and the Spires, never the sign-off, "carried forward" or "the balance of that year"; the page design is a locked master. Sound excerpt suspended until the S12 plan (`excerpts/for_sound_director.md`) |
 | SEC-014 | no clue before S2, none explicit before S5; public material uses the official belief only |
 | SEC-018 | — |
 | SEC-020 | — |
@@ -692,6 +692,8 @@ related: [HS-015, HS-093, HS-014, HS-007, PL-0078]
 ```
 
 Source: writer-houses candidate SEC-C04. Surfaces with Lucan's chest (S02E06): Inchley draft marks beside Ursel's notes.
+
+*(v0.9, keeper's ruling on S01E01 v4 L252-L254.)* The S01E01 hint is the second sheet under the blotter (Sc 7), uncommented. Talk in the tithe hall before the reading may be **a guess or a wager only** ("Ten marks says the Ninth goes down a tier"): anyone can guess that the district whose Spire answers worst will drop. Nobody on screen before S02E06 *knows* the map's content from a draft, quotes a source, or says "they say"; the paid leak to Ruel and Ursel (EV-0262) stays the only knowledge of it in S1. No such line is placed on a Lantry (black and copper) or Fennick (slate and sulphur) steward, on the hare's-ear man, or on the sea-green Quell figure (SEC-046).
 
 ### SEC-038 - The pilots' night
 

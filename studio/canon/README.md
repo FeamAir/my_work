@@ -1,6 +1,6 @@
 # Canon — how it works
 
-Canon version: **v0.7** (saga **HOLLOWSTONE**; v0.7 = the love lines of r7, DEC-71…76; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
+Canon version: **v0.9** (saga **HOLLOWSTONE**; v0.9 = keeper rulings on the S01E01 v4 dialogue pass: the Chronicle as written pages, SEC-011b clues re-planned, SEC-037 hall-talk guard, S1 opening visual list; v0.8 = r8, DEC-77…87; v0.7 = the love lines of r7, DEC-71…76; *The Low Note* = Act II and Season 12. Foundation r2 approved by the director; writer dossiers on houses and characters approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`) · Keeper: `lore-keeper` · Language of canon content: English.
 
 The canon is the single source of truth for the saga: world laws, chronology, houses, characters, bloodlines, secrets and names. Scripts, art, sound and marketing must follow it. If a script and the canon disagree, the canon wins until the keeper records a change.
 

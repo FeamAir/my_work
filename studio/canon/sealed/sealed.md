@@ -56,7 +56,7 @@ type: secret
 canon: approved
 title: The Chronicler
 tier: saga
-truth: The narrator of the series is old Hollis Kett reading the official Chronicle of the Concord aloud to Lows children and voiceless Pell in the epilogue, before telling what really happened; part of the official record was forged by Hollis himself (S5 for Odo, S9-S11 as Quire); he never states a false fact.
+truth: The Chronicle of the series (written pages since v0.9, no voice-over) is the book old Hollis Kett reads aloud to Lows children and voiceless Pell in the epilogue, the first time the record is ever heard, before telling what really happened; part of the official record was forged by Hollis himself (S5 for Odo, S9-S11 as Quire); he never states a false fact.
 cover_story: An anonymous court chronicler.
 status: sealed
 known_by: [CH-0003@S12E13]
@@ -68,7 +68,9 @@ depends_on: [SEC-011]
 related: [CH-0003, CH-0001]
 ```
 
-Clues: S01E01 "carried forward", "the balance of that year" · S01E04 Hollis alone: "carried forward" · S02E01 the exact price of bread in Ninth Sluice · S05E02 he knows Odo's sealed treasury letter · S06E09 the melted clip · S07E01 the voice is hoarser (smoke) · S09E12 double-entry pamphlets · S10E05 the clip seal · *(v0.7)* S10E06 a decree of the Sovereign uses *"carried forward"* - the first time the phrase is in a mouth that is not his (reads as officialese; her only answer to Quire). Sign-off changes only in S12E13: "...and the water kept its counsel. We did not." Wording rules: sealed §B.
+Clues: S01E01 "carried forward", "the balance of that year" (printed on the Chronicle page in the ending; no character says them) · S01E04 Hollis alone: "carried forward" · S02E01 the exact price of bread in Ninth Sluice (on a page) · S05E02 he knows Odo's sealed treasury letter (on a page) · S06E09 the melted clip · S07E01 *(v0.9, replaces "the voice is hoarser")* the Chronicle page is smoke-browned at its edges, and stays so to the end; never explained · S09E12 double-entry pamphlets · S10E05 the clip seal · *(v0.7)* S10E06 a decree of the Sovereign uses *"carried forward"* - the first time the phrase is in a mouth that is not his (reads as officialese; her only answer to Quire). Sign-off changes only in S12E13: "...and the water kept its counsel. We did not." Wording rules: sealed §B.
+
+**Medium (v0.9, keeper's ruling on `story/episodes/S01E01/v4_dialogue_pass.md` §4.2, option A; lead's proposal, director's approval in principle 2026-11-24).** There is no narrator voice anywhere in the saga before S12E13. The Chronicle is shown as **written pages** (typeset, ruled, archival, no handwriting): in S01E01 one page over the ending; season openers, time-skip and POV bridges are pages over the Tithe Map. The text rules of §B are unchanged; only the medium changes. **S12E13 is the first time the record is heard**: old Hollis reads it aloud in the room, and the viewer sees the book whose pages they have read for twelve seasons. Hence: (1) the page design (paper, typeface, ruling, running head *The Chronicle of the Dry Years*) is locked as a master from S01E01 and is the book of S12E13; (2) the hoarseness that was the S07E01 clue becomes the smoke-browned page (the voice of S12E13 is hoarse, as the fire left it, CH-0003 overlay); (3) option B (in-world readers voicing Chronicle entries) is **rejected**: nobody reads a Chronicle entry aloud as a reading before S12E13; criers may read decrees (`world.md` §8, S07E01), which are not the Chronicle; (4) a character may **quote** the record's set lines as common knowledge (the Choir teaches them; S01E01 Nan), but only lines of the §B table, word for word or shortened without changing the fact, never the sign-off, never "carried forward" or "the balance of that year" (Hollis's own habit in S01E04 and the S10E06 decree stay the only mouths before S12E13).
 
 ### SEC-014 - The Builders
 
@@ -258,7 +260,7 @@ He reads the official record and **never states a false fact**; he misleads only
 | the upland drought is weather | "The uplands had no rain to speak of." |
 | the Dry Queen broke the weir | "The weir at the falls was breached, and the Dry Queen did not deny it." |
 
-After each reveal his next line on the topic is unchanged (it is the official record); the scene that follows contradicts it. Sign-off changes only in S12E13: "...and the water kept its counsel. We did not."
+After each reveal his next line on the topic is unchanged (it is the official record); the scene that follows contradicts it. *(v0.9: "he says" = "the page says"; the record is written, not voiced, until S12E13 - see the Medium note under SEC-011b.)* Sign-off changes only in S12E13: "...and the water kept its counsel. We did not."
 
 **Rule 5 (v0.7, master file §12.1): the official record has no entry for love.** He states the fact and never the cause (S01E09: *"The Captain-Lord of the Shoals paid his respects last."*). About Maren he never uses an endearment, never an adjective of his own, never a pause the script marks. On a rewatch every flat line about "the Lord Admiral's daughter", "the Helm", "the Sovereign" is spoken by the man who loved her - that is the whole effect. No new tell is allowed before S12E13.
 

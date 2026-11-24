@@ -2,6 +2,16 @@
 
 One line per change. Newest on top. Format: `vX.Y · date · proposed by · record(s) · change`.
 
+## v0.9 · 2026-11-24 · lead-screenwriter (`story/episodes/S01E01/v4_dialogue_pass.md` v0.1 §4.2, §9-§10; studio director: approved in principle) · lore-keeper (rulings: `reports/lore-v4-2026-11-24.md`)
+
+- **SEC-011b (sealed):** the narrator becomes the **written Chronicle** (option A). No `[VO]` narrator in any episode before S12E13; the record is first *heard* in S12E13 (how: sealed). Truth reworded in `sealed/` (same fact, new medium); clues: S01E01 "carried forward" / "the balance of that year" on the ending page; S02E01, S05E02 on pages; **S07E01 "the voice is hoarser" → the page is smoke-browned from S7E1 on, never explained**. Medium note added (locked page master; option B rejected, criers may read decrees but nobody reads a Chronicle entry aloud; characters may quote only §B set lines, never the sign-off, "carried forward" or "the balance of that year"). §B: "he says" = "the page says". Text rules of §B unchanged.
+- **secrets.md:** SEC-011b production constraint replaced (no narrator voice; pages; quoting rule; sound excerpt suspended). **SEC-037:** E1 guard - hall talk before the reading may guess or wager only, never claim knowledge or a source; never on a Lantry or Fennick steward, the hare's-ear man or the Quell figure. No `known_by`, `hints` or `reveal` change.
+- **Neveh:** not named aloud in S01E01 (Nan says "the Queen"). No S1 clue needs the spoken name (SEC-003, 025, 027 E1 clues are the tapestry and "She sang her city into the sea."). No record change; the first on-screen naming must tie the name to the tapestry Queen and come before any clue that uses the name, at the latest before S05E03.
+- **glossary.md:** TERM-0167, TERM-0168 meanings (the Chronicle as pages). Respellings unchanged.
+- **excerpts/:** `for_sound_director.md` - §2, §4 and the VO part of §1 suspended until the S12 plan (young Hollis base, S1E4 habit and the S12E13 sync voice kept); `for_director_and_artist.md` - new §7: the S1 opening list of the v4 pass §3.3 **signed with 7 edits** (tapestry panels 1, 2, 5 only, panel 6 forbidden; Kes never with gate or bar; one person's hand over own mouth, never rows; dark Spire foot; Ione at the crown never matched to the tapestry; SEC-027 not SEC-014 for the ring rule) and the locked Chronicle page master; §2 note for the v4 tapestry cutaways.
+- **checklist.md:** three lines (the Chronicle; hall talk vs SEC-037; the S1 opening). README version line.
+- Validator: see report.
+
 ## v0.8 · 2026-11-22 · lead-screenwriter (r8: DEC-77…87 in `studio/story/decisions_resolved.md` Part 7; `reports/lead-screenwriter-2026-11-22-r8.md`) · lore-keeper
 
 - **Stubs closed (4):** SEC-047 `reveal: S03E06`, `known_by` `CH-0044@S03E06`, `CH-0019@S04E12` (DEC-77); EV-0340 `date: CY 312-11-02` and SEC-051 `CH-0079@S02E04` (DEC-78). TODO stubs back to the three kept by design (DEC-32, 33, 54).

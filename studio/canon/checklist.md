@@ -93,6 +93,9 @@ Write at the top of the review: material, version, canon version checked against
 - [ ] Peoples (v0.6, `world.md` §3.5): nobody says "seven peoples"; look never proves descent or marks virtue; paleness = way of life.
 - [ ] Lows prayer signs (v0.6, DEC-68): only WATER and STILL match Choir sign (small, at the waist, from S1E8); SILENCE = palm on lips; no on-screen remark on the match in S1-S4.
 - [ ] Ashare (v0.6, DEC-70): no Ashare theme of any kind before S5E10; four recognisers; Sunken tone never stated in open files.
+- [ ] **The Chronicle (v0.9, SEC-011b constraint):** no `[VO]` narrator in any episode before S12E13; the Chronicle is typeset pages only (locked master design; from S7E1 smoke-browned edges); no in-world reading of a Chronicle entry aloud; a character may quote only the record's set lines on the Breaking and the Spires (word for word, or shortened without changing the fact) and never the sign-off, "carried forward" or "the balance of that year" (Hollis S1E4 and the S10E6 decree excepted).
+- [ ] **Hall talk vs SEC-037 (v0.9):** before S2E6 nobody knows a Tithe Map's content before its reading; on-screen talk may guess or wager, never cite a source.
+- [ ] **The S1 opening (v0.9, director and artist excerpt §7):** tapestry panels 1, 2, 5 only; no panel 3, 4, 6; no ring, pearl, Ruel's left hand; no Pell and Ione in one composition; Kes never with the gate or its bar; one person's hand over their own mouth, never rows or kneeling.
 - [ ] Terms on screen and in subtitles as in `glossary.md` (e.g. *echo-shard*, never *echo-chip*; *death-tone*, TERM-0495).
 
 ## 10. Output of the review
