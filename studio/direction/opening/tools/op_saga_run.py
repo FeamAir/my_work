@@ -153,8 +153,10 @@ for nm, t in (("F04", F04_V14), ("F10", F10_V14), ("F14", F14_V14), ("F17", F17_
     chk(v14_has(t), f"v1.4 {nm} text = op_paid_run.py verbatim")
 
 NINE_OLD = "with exactly nine small unlit tin lanterns hanging from it"
-NINE_NEW = "with many small unlit tin lanterns hanging from it, too many to count"
-chk(f"`{NINE_OLD}` → `{NINE_NEW}`" in BOARD, "F04_C nine-lantern edit written in the board (И2)")
+NINE_NEW = ("with many small unlit tin lanterns of different sizes hanging from it at uneven heights, bunched and overlapping, "
+            "the rope and its lanterns running on past the right edge of the frame; no even row and no lantern set apart from "
+            "the others; do not keep the number or the spacing of the lanterns in image 2")   # v2.5 keeper R5.1
+chk(f"`{NINE_NEW}` (v2.5: keeper R5.1" in BOARD and NINE_OLD in F04_V14, "F04_C nine-lantern edit written in the board (И2)")
 F04_C = F04_V14.replace(NINE_OLD, NINE_NEW)
 chk("`Use image 1 exactly —` → `Use image 2 exactly —`" in BOARD, "F17_C image index edit written in the board (B4)")
 F17_C = F17_V14.replace("Use image 1 exactly —", "Use image 2 exactly —")
@@ -174,7 +176,7 @@ for nm, t in (("K03", K03_V14), ("K04", K04_V14), ("K05", K05_V14), ("K07", K07_
     chk(v14_has(t), f"v1.4 {nm} text = op_paid_run.py verbatim")
 K07C = rx(r"— sent: `([^`]*)`", "K07C text as sent (no smoke)")
 chk(K07C == K07_V14.replace(" thin smoke drifts from a few chimneys;", ""), "K07C = v1.4 K07 minus the smoke clause (И3)")
-K03C_MNC = "lanterns stay unlit, too many to count, their number does not change"
+K03C_MNC = "lanterns stay unlit and only sway; no lantern appears, vanishes or lights up"   # v2.5 keeper R5.1
 chk(f"`{K03C_MNC}`" in BOARD, "K03C lantern MUST NOT CHANGE in the board")
 
 # ------------------------------------------------------------------ frames
@@ -243,6 +245,14 @@ N_FRAMES = {
 }
 
 
+ROLE_IDS = ["W%02d" % n for n in range(1, 14)] + ["W15", "F14_C"]     # v2.5 gate B9, И14 (§5.5)
+ROLES = {k: span(row("ROLE-" + k)[-1], 0) for k in ROLE_IDS}
+
+
+def role(fid):
+    return [ROLES[fid]] if fid in ROLES else []
+
+
 def subst(t):
     return (t.replace("{SPIRE}", SPIRE).replace("{VSAFE_MASS}", VSAFE_MASS).replace("{VSAFE}", VSAFE)
             .replace("{FLOW}", FLOW))
@@ -274,12 +284,12 @@ def frame_call(fid, sig, take=1):
         seed, refs = RR_FRAMES[fid]
         anchor = C_HOUSE if fid == "D01_A_C" else ANCHOR
         rr = RR_169 if fid == "D01_A_C" else RR
-        prompt = " ".join([ANCHOR_INTRO, rr, subst(rr_content(fid)), tail(sig, "op")])
+        prompt = " ".join([ANCHOR_INTRO, rr, subst(rr_content(fid))] + role(fid) + [tail(sig, "op")])
         return {"id": fid, "model": "nano-banana-2-edit", "seed": seed + 1000 * (take - 1),
                 "images": [anchor] + refs, "prompt": prompt}
     seed, refs, kind = N_FRAMES[fid]
     content = subst(span(row(fid)[-1], 0))
-    prompt = " ".join([ANCHOR_INTRO, content, tail(sig, kind), SAGA_SAFE])
+    prompt = " ".join([ANCHOR_INTRO, content] + role(fid) + [tail(sig, kind), SAGA_SAFE])
     return {"id": fid, "model": "nano-banana-2-edit", "seed": seed + 1000 * (take - 1),
             "images": [ANCHOR] + refs, "prompt": prompt}
 
@@ -399,6 +409,13 @@ def call_checks(sig_values=(False, True)):
                         "LOGO_C: no STYLE_BASE_C/SIGNATURE_C/PHONE, has NEGATIVE_C_LOGO (B5, R3.3)")
                     chk("Exactly six small water drops" in p and "A few water drops" not in p, "LOGO_C: six drops (R3.3)")
                 chk(len(c["images"]) <= 8, f"{i}: {len(c['images'])} images")
+    for i in ROLE_IDS + ["T2a", "T2b"]:                 # gate B9, И14: every image 2+ has its role in the prompt
+        c = frame_call(i, False)
+        for n in range(3 if i in RR_FRAMES else 2, len(c["images"]) + 1):   # C-RR: image 2 = {RR}
+            chk(f"image {n} only for" in c["prompt"], f"{i}: role of image {n} in the prompt (B9)")
+    chk("no pale wall, plinth or sleeve" in frame_call("T1a", False)["prompt"]
+        and "nothing rises behind or above it" in frame_call("T1b", False)["prompt"], "T1a/T1b: keeper R5.2 defect lines")
+    chk("do not keep the number or the spacing" in frame_call("F04_C", False)["prompt"], "F04_C: keeper R5.1 lanterns")
     fa = frame_call("FA01", False)["prompt"]
     chk("no water over any dike" in fa and "Use image 3 only for the dike" in fa, "FA01: SAGA_SAFE + image 3 protection (B4, B5)")
     chk("Use image 2 only for the paper" in frame_call("W16", False)["prompt"], "W16: image 2 = E05 protection (B4)")
