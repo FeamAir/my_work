@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """S01E01 animatic, step 6: assembly spec for pipeline/assemble.py + subtitles + final overlay pass.
 
+  (ANIM_V=v2 selects the 21:30 cut: shots_v2.json, la_v2/ for changed clips, *_v2 outputs)
   python3 -I spec.py build      # -> output/S01E01/animatic/spec/S01E01_animatic_v1.json + .srt
   python3 -I spec.py assemble   # pipeline.assemble -> S01E01_animatic_v1_raw.mp4 (720p, -14 LUFS, -1 dBTP)
+  python3 -I spec.py master     # v2 only: compressor + 2-pass linear loudnorm on the premix (LRA fix)
   python3 -I spec.py overlay    # timecode, DRAFT mark, subtitles (video re-encode, audio copied) -> S01E01_animatic_v1.mp4
 
 Sound placement is placeholder (animatic.md step 1/5): VO on dx, ambiences per scene (looped), key SFX and
@@ -18,10 +20,13 @@ import sys
 ROOT = "/home/user/my_work"
 sys.path.insert(0, ROOT)
 A = f"{ROOT}/output/S01E01/animatic"
-SPEC = f"{A}/spec/S01E01_animatic_v1.json"
-SRT = f"{A}/spec/S01E01_animatic_v1.srt"
-RAW = f"{A}/S01E01_animatic_v1_raw.mp4"
-FINAL = f"{A}/S01E01_animatic_v1.mp4"
+VER = os.environ.get("ANIM_V", "v1")  # v2: the 21:30 cut (cut_v2.py -> spec/shots_v2.json, changed clips in la_v2/)
+SPEC = f"{A}/spec/S01E01_animatic_{VER}.json"
+SRT = f"{A}/spec/S01E01_animatic_{VER}.srt"
+RAW = f"{A}/S01E01_animatic_{VER}_raw.mp4"
+FINAL = f"{A}/S01E01_animatic_{VER}.mp4"
+LABELS = f"{A}/spec/music_labels{'' if VER == 'v1' else '_' + VER}.json"
+MASTERED = f"{A}/S01E01_animatic_{VER}_master.wav"
 SFX, SYN, VO = f"{A}/audio/sfx", f"{A}/audio/synth", f"{A}/vo"
 
 # ambience per scene: (first shot, last shot or None=scene end, sfx id, gain_db)
@@ -96,7 +101,23 @@ MUS = [
 
 
 def shots():
-    return json.load(open(f"{A}/spec/shots.json"))["shots"]
+    return json.load(open(f"{A}/spec/shots.json" if VER == "v1" else f"{A}/spec/shots_{VER}.json"))["shots"]
+
+
+def remap(ids):
+    """v2: a sound cue on a cut shot moves to the next kept shot of the same scene (else the previous one)."""
+    v1 = [s["id"] for s in json.load(open(f"{A}/spec/shots.json"))["shots"]]
+    keep = set(ids)
+    m = {}
+    for i, sid in enumerate(v1):
+        if sid in keep:
+            m[sid] = (sid, False)
+            continue
+        sc = sid.split("-")[0]
+        nxt = next((x for x in v1[i + 1:] if x in keep and x.split("-")[0] == sc), None)
+        prv = next((x for x in reversed(v1[:i]) if x in keep and x.split("-")[0] == sc), None)
+        m[sid] = (nxt or prv, True)
+    return m
 
 
 def srt_t(t):
@@ -110,13 +131,18 @@ def build():
     by = {s["id"]: s for s in ss}
     order = [s["id"] for s in ss]
     total = sum(s["dur"] for s in ss)
+    rm = remap(order)
 
     def span(a, b):
-        sa = by[a]
+        sa = by[rm[a][0]]
         if b is None:
             last = [s for s in ss if s["scene"] == sa["scene"]][-1]
         else:
-            last = by[b]
+            bb = b
+            if b not in by:  # cut end shot -> previous kept shot of the span
+                v1 = [s["id"] for s in json.load(open(f"{A}/spec/shots.json"))["shots"]]
+                bb = next((x for x in reversed(v1[:v1.index(b) + 1]) if x in by), rm[b][0])
+            last = by[bb]
         return sa["tc"], last["tc"] + last["dur"]
 
     # assemble.py opens every clip as a separate decoder in one filter graph: 451 inputs ran out of memory (16 GB).
@@ -124,10 +150,11 @@ def build():
     lst = f"{A}/spec/la_concat.txt"
     with open(lst, "w") as f:
         for s in ss:
-            f.write(f"file '{A}/la/{s['id']}.mp4'\n")
+            d = "la_v2" if (VER != "v1" and s.get("changed")) else "la"
+            f.write(f"file '{A}/{d}/{s['id']}.mp4'\n")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy",
-                    f"{A}/la_concat.mp4"], check=True)
-    clips = [{"path": "../la_concat.mp4", "duration": round(total, 3)}]
+                    f"{A}/la_concat{'' if VER == 'v1' else '_' + VER}.mp4"], check=True)
+    clips = [{"path": f"../la_concat{'' if VER == 'v1' else '_' + VER}.mp4", "duration": round(total, 3)}]
     tracks, subs = [], []
     n = 0
     for s in ss:
@@ -152,6 +179,9 @@ def build():
     TRIM = {"sfx_rowboat-oars": -6, "sfx_fall-table": -5, "sfx_rake-snag": -6, "sfx_gate-bar-drag": -4,
             "sfx_fists-iron-gate": -4, "sfx_wheel-stop": -5, "sfx_ripple-tremble": -4}
     for shot, f, off, g, stem in EV:
+        shot, moved = rm[shot]
+        if moved:
+            off = 0
         g = g + TRIM.get(f, 0) + (-2 if stem == "fx" else 0)
         path = f"../audio/{f}.wav" if f.startswith("synth/") else f"../audio/sfx/{f}.mp3"
         tracks.append({"id": f"ev_{shot}_{f.split('/')[-1]}", "stem": stem, "path": path,
@@ -170,11 +200,11 @@ def build():
     with open(SRT, "w") as f:
         for i, (a, b, t) in enumerate(subs, 1):
             f.write(f"{i}\n{srt_t(a)} --> {srt_t(b)}\n{t}\n\n")
-    json.dump(labels, open(f"{A}/spec/music_labels.json", "w"))
-    spec = {"output": "../S01E01_animatic_v1_raw.mp4", "width": 1280, "height": 720, "fps": 24, "clips": clips,
+    json.dump(labels, open(LABELS, "w"))
+    spec = {"output": f"../S01E01_animatic_{VER}_raw.mp4", "width": 1280, "height": 720, "fps": 24, "clips": clips,
             "tracks": tracks, "keep_clip_audio": False, "ducking": True,
             "master": {"I": -14, "TP": -1, "LRA_min": 11, "LRA_max": 20},
-            "meta": {"episode": "S01E01", "version": "animatic v1", "total_s": total, "shots": len(ss)}}
+            "meta": {"episode": "S01E01", "version": f"animatic {VER}", "total_s": total, "shots": len(ss)}}
     json.dump(spec, open(SPEC, "w"), indent=1, ensure_ascii=False)
     missing = [t["path"] for t in tracks if not os.path.exists(os.path.join(f"{A}/spec", t["path"]))]
     missing += [c["path"] for c in clips if not os.path.exists(os.path.join(f"{A}/spec", c["path"]))]
@@ -189,21 +219,46 @@ def assemble():
     print(out, json.dumps(rep, ensure_ascii=False)[:800])
 
 
+COMP = "acompressor=threshold=-30dB:ratio=3:attack=20:release=300:knee=6:makeup=4dB"
+
+
+def master():
+    """v2: premix LRA 21.5 LU (loudnorm fell back to dynamic). One gentle broadband compressor (3:1 under -30 dBFS)
+    on the assemble.py premix, then two-pass linear loudnorm -14 LUFS / -1.5 dBTP -> MASTERED wav (overlay muxes it)."""
+    work = RAW.replace(".mp4", "_work")
+    src = f"{work}/premix.wav"
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", src, "-af",
+                        f"{COMP},loudnorm=I=-14:TP=-1.5:LRA=15:print_format=json", "-f", "null", "-"],
+                       capture_output=True, text=True, check=True)
+    js = json.loads(r.stderr[r.stderr.rindex("{"):r.stderr.rindex("}") + 1])
+    ln = (f"loudnorm=I=-14:TP=-1.5:LRA=15:measured_I={js['input_i']}:measured_TP={js['input_tp']}:"
+          f"measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-af", f"{COMP},{ln},aresample=48000",
+                    "-c:a", "pcm_s24le", MASTERED], check=True)
+    print("pass1", {k: js[k] for k in ("input_i", "input_lra", "input_tp", "normalization_type")}, "->", MASTERED)
+
+
 def overlay():
-    labels = json.load(open(f"{A}/spec/music_labels.json"))
+    labels = json.load(open(LABELS))
     font = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
     vf = [f"drawtext=fontfile={font}:text='%{{pts\\:hms}}':x=w-tw-14:y=10:fontsize=20:fontcolor=white:box=1:boxcolor=black@0.5:boxborderw=5",
-          f"drawtext=fontfile={font}:text='ANIMATIC v1 - DRAFT':x=w-tw-14:y=h-th-12:fontsize=16:fontcolor=white@0.6"]
+          f"drawtext=fontfile={font}:text='ANIMATIC {VER} - DRAFT':x=w-tw-14:y=h-th-12:fontsize=16:fontcolor=white@0.6"]
     for a, b, t in labels:
         vf.append(f"drawtext=fontfile={font}:text='[{t}]':x=14:y=40:fontsize=16:fontcolor=0xFFE08A:"
                   f"box=1:boxcolor=black@0.4:boxborderw=4:enable='between(t\\,{a:.2f}\\,{b:.2f})'")
     vf.append(f"subtitles={SRT}:force_style='FontName=DejaVu Sans,FontSize=20,Outline=2,MarginV=28'")
     vf.append("format=yuv420p")
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", RAW, "-vf", ",".join(vf), "-c:v", "libx264", "-preset", "veryfast",
-           "-crf", "23", "-af", "volume=-0.6dB", "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-movflags", "+faststart", FINAL]
+    if VER != "v1" and os.path.exists(MASTERED):  # v2: compressed master replaces the raw mp4's audio
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", RAW, "-i", MASTERED, "-map", "0:v", "-map", "1:a", "-vf",
+               ",".join(vf), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-af", "volume=-0.6dB", "-c:a", "aac",
+               "-b:a", "256k", "-ar", "48000", "-shortest", "-movflags", "+faststart", FINAL]
+    else:
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", RAW, "-vf", ",".join(vf), "-c:v", "libx264", "-preset",
+               "veryfast", "-crf", "23", "-af", "volume=-0.6dB", "-c:a", "aac", "-b:a", "256k", "-ar", "48000",
+               "-movflags", "+faststart", FINAL]
     subprocess.run(cmd, check=True)
     print(FINAL)
 
 
 if __name__ == "__main__":
-    {"build": build, "assemble": assemble, "overlay": overlay}[sys.argv[1]]()
+    {"build": build, "assemble": assemble, "master": master, "overlay": overlay}[sys.argv[1]]()
