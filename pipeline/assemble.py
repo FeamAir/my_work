@@ -483,17 +483,17 @@ def _item_chain(item: Item, pan_scale: float) -> str:
     if item.gain_db:
         c.append(f"volume={item.gain_db:.2f}dB")
     if item.start > 0:
-        # Постановка на таймкод: сдвиг pts + заполнение тишиной от 0 (aresample async, точно по сэмплу).
-        # Не adelay: в ffmpeg 6.1 adelay после atrim=start>0 (первый кадр неполный) не вставляет тишину,
-        # а только сдвигает pts; amix pts-дыры не заполняет — стем терял ведущую тишину первого клипа
-        # и весь уезжал раньше (S01E01 v2: DX на 72.7 с раньше картинки, стем 1217.05 с вместо 1289.75).
+        # Постановка на таймкод (см. _place): в ffmpeg 6.1 adelay после atrim=start>0 выдаёт тишину с pts=NOPTS,
+        # amix такие кадры теряет — стем лишался ведущей тишины и уезжал раньше (S01E01 v2: DX на 72.7 с
+        # раньше картинки, стем 1217.05 с вместо 1289.75; QA A1–A5).
         c.append(_place(item.start))
     return ",".join(c)
 
 
 def _place(start: float) -> str:
-    """Поставить поток (pts от 0) на таймкод start: сдвиг pts и тишина с 0 до start, точно по сэмплу."""
-    return f"asetpts=PTS+{_f(start)}/TB,aresample={AUDIO_RATE}:async=1:min_hard_comp=0:first_pts=0"
+    """Поставить поток на таймкод start: adelay вставляет тишину, asetpts=N/SR/TB заново нумерует pts по счёту
+    сэмплов (лечит NOPTS у тишины adelay), точно по сэмплу и без больших буферов."""
+    return f"adelay={int(round(start * 1000))}:all=1,asetpts=N/SR/TB"
 
 
 def _stem_tail(D: float) -> str:

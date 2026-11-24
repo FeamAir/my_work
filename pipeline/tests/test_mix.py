@@ -134,7 +134,7 @@ class TestAssemblePlan(unittest.TestCase):
                      "alimiter=limit=0.708", "afade=t=in:d=0.005", "pcm_s24le", "-ac 1"):
             self.assertIn(frag, norm)
         stem_dx = " ".join(assemble.cmd_stem(plan, "dx"))
-        self.assertIn("asetpts=PTS+0.5/TB,aresample=48000:async=1:min_hard_comp=0:first_pts=0", stem_dx)
+        self.assertIn("adelay=500:all=1,asetpts=N/SR/TB", stem_dx)
         self.assertIn("pan=stereo|c0=c0|c1=c0", stem_dx)
         self.assertIn("apad=whole_dur=5,atrim=0:5", stem_dx)
         stem_fx = " ".join(assemble.cmd_stem(plan, "fx"))
