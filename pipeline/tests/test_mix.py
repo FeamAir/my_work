@@ -134,7 +134,7 @@ class TestAssemblePlan(unittest.TestCase):
                      "alimiter=limit=0.708", "afade=t=in:d=0.005", "pcm_s24le", "-ac 1"):
             self.assertIn(frag, norm)
         stem_dx = " ".join(assemble.cmd_stem(plan, "dx"))
-        self.assertIn("adelay=500:all=1", stem_dx)
+        self.assertIn("asetpts=PTS+0.5/TB,aresample=48000:async=1:min_hard_comp=0:first_pts=0", stem_dx)
         self.assertIn("pan=stereo|c0=c0|c1=c0", stem_dx)
         self.assertIn("apad=whole_dur=5,atrim=0:5", stem_dx)
         stem_fx = " ".join(assemble.cmd_stem(plan, "fx"))
@@ -184,6 +184,41 @@ class TestAssemblePlan(unittest.TestCase):
             assemble.build_plan(s, self.d)
         with self.assertRaises(assemble.AssembleError):
             assemble.build_plan(self.spec(tracks=[{"stem": "xyz", "path": "fx.wav"}]), self.d)
+
+
+@unittest.skipUnless(HAVE_FFMPEG, "нужен ffmpeg")
+class TestStemTimeline(unittest.TestCase):
+    """Регрессия S01E01 v2 (QA A1–A5): DX-клипы с trim_start > 0 стоят точно на своих таймкодах,
+    стем ровно D секунд (раньше adelay терял ведущую тишину и стем уезжал/укорачивался)."""
+
+    def test_trimmed_dx_items_land_on_timecode(self):
+        import numpy as np
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i",
+                            "sine=f=440:d=2:r=48000", "-c:a", "pcm_s24le", str(d / "v.wav")], check=True)
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i",
+                            "color=c=black:s=64x64:r=24:d=8", "-pix_fmt", "yuv420p", str(d / "v.mp4")], check=True)
+            spec = {"output": "out.mp4", "width": 64, "height": 64, "fps": 24,
+                    "clips": [{"path": "v.mp4", "duration": 8}],
+                    "tracks": [{"id": "a", "stem": "dx", "path": "v.wav", "start": 2.5, "trim_start": 0.05,
+                                "duration": 1.0},
+                               {"id": "b", "stem": "dx", "path": "v.wav", "start": 6.0, "trim_start": 0.0137,
+                                "duration": 1.0}]}
+            plan = assemble.build_plan(spec, d)
+            (plan.work / "clips").mkdir(parents=True)
+            for it in plan.items:
+                subprocess.run(assemble.cmd_normalize(it, 0.0), check=True, capture_output=True)
+            subprocess.run(assemble.cmd_stem(plan, "dx"), check=True, capture_output=True)
+            raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(plan.work / "stem_dx.wav"),
+                                  "-f", "f32le", "-ac", "1", "-"], capture_output=True, check=True).stdout
+            x = np.frombuffer(raw, np.float32)
+            self.assertAlmostEqual(len(x) / 48000, 8.0, places=2)
+            nz = np.nonzero(np.abs(x) > 1e-3)[0]
+            onsets = [nz[0]] + [nz[i + 1] for i in np.nonzero(np.diff(nz) > 4800)[0]]
+            self.assertEqual(len(onsets), 2)
+            self.assertAlmostEqual(onsets[0] / 48000, 2.5, delta=0.005)
+            self.assertAlmostEqual(onsets[1] / 48000, 6.0, delta=0.005)
 
 
 @unittest.skipUnless(HAVE_FFMPEG, "нужен ffmpeg")

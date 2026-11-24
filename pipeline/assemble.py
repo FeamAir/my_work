@@ -482,10 +482,18 @@ def _item_chain(item: Item, pan_scale: float) -> str:
         c.append(item.filter)
     if item.gain_db:
         c.append(f"volume={item.gain_db:.2f}dB")
-    ms = int(round(item.start * 1000))
-    if ms:
-        c.append(f"adelay={ms}:all=1")
+    if item.start > 0:
+        # Постановка на таймкод: сдвиг pts + заполнение тишиной от 0 (aresample async, точно по сэмплу).
+        # Не adelay: в ffmpeg 6.1 adelay после atrim=start>0 (первый кадр неполный) не вставляет тишину,
+        # а только сдвигает pts; amix pts-дыры не заполняет — стем терял ведущую тишину первого клипа
+        # и весь уезжал раньше (S01E01 v2: DX на 72.7 с раньше картинки, стем 1217.05 с вместо 1289.75).
+        c.append(_place(item.start))
     return ",".join(c)
+
+
+def _place(start: float) -> str:
+    """Поставить поток (pts от 0) на таймкод start: сдвиг pts и тишина с 0 до start, точно по сэмплу."""
+    return f"asetpts=PTS+{_f(start)}/TB,aresample={AUDIO_RATE}:async=1:min_hard_comp=0:first_pts=0"
 
 
 def _stem_tail(D: float) -> str:
@@ -507,7 +515,7 @@ def cmd_stem(plan: Plan, stem: str) -> list[str] | None:
             ms = int(round(c["offset"] * 1000))
             filters.append(f"[{n}:a]atrim=start={_f(c['trim_start'])}:duration={_f(c['duration'])},"
                            f"asetpts=PTS-STARTPTS,aresample={AUDIO_RATE},aformat=channel_layouts=stereo,"
-                           f"volume={float(c['volume_db']):.2f}dB" + (f",adelay={ms}:all=1" if ms else "")
+                           f"volume={float(c['volume_db']):.2f}dB" + (f",{_place(c['offset'])}" if ms else "")
                            + f"[a{n}]")
             labels.append(f"[a{n}]")
     else:
@@ -647,6 +655,10 @@ def run_plan(plan: Plan, dry_run: bool = False) -> dict:
             _show(f"2. stem {s}", argv)
         else:
             _run(argv, f"stem {s}")
+            got = probe(plan.work / f"stem_{s}.wav")["duration"]
+            if abs(got - plan.duration) > 0.05:
+                raise AssembleError(f"stem {s}: длина {got:.3f} с вместо {plan.duration:.3f} с "
+                                    f"(таймлайн стема сдвинут — проверить постановку на таймкод)")
     report["stems"] = stems
 
     # 3. премикс (или тишина)
