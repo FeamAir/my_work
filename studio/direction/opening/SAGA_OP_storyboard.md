@@ -1,17 +1,18 @@
-# HOLLOWSTONE — saga opening, one for all twelve seasons (instrumental, 87.0 s) — storyboard v2.0
+# HOLLOWSTONE — saga opening, one for all twelve seasons (instrumental, 87.0 s) — storyboard v2.1
 
-Version 2.0 · 2026-11-24 · author: director (anime-director) · status: **storyboard only, no paid call made.** Next: the canon keeper rules on §10 Q1–Q9; the gatekeeper checks the diff; then the $0 animatic (§9 step 1). Nothing is generated before the gate opens.
+Version 2.1 · 2026-11-24 · author: director (anime-director) · status: **storyboard only, no paid call made.** v2.1 = the keeper's §3 edits word for word (`reports/lore-saga-op-2026-11-24.md`, signed with edits) + canon v0.10 Spire sites in every prompt + four investor rules of 2026-11-24: all-motion (OP-20), short cuts (OP-21), the logo as its own cut (C14), the smoothness spec (§12). Change log §11. Next: the gatekeeper checks the diff; the keeper looks at the v2.1 changes that touch his text (§11.3) and at W01–W16 at full size; the investor rules on the all-motion upgrade (§8.2, +$4.52). Nothing is generated before the gate opens.
 Supersedes for broadcast: `S1_OP_storyboard.md` v1.4–v1.6 (`output/opening/S1_OP_v3.mp4`). That file stays as the record of the paid S1 material this board reuses.
 Binding inputs: investor direction 2026-11-24 (one opening for the whole saga; show the whole world and every great house through places, crafts, fleets, banners and masses; no individual faces; a place-specific device for every land, as the Highwater wheels are for Highwater); `reports/lore-op-2026-11-24.md` §1–§6 and R2–R4 (all rulings that still apply are carried over, §1); `canon/secrets.md` (overview and shared constraints); `canon/excerpts/for_director_and_artist.md` §1, §3, §7; `story/series_bible.md` §5–§7; `story/houses_overview.md`; `canon/world.md` §5, §5a; `canon/houses/HS-001…007, 090–095`; `direction/refs/HERALDRY`, `direction/refs/GROUPS`.
-Music, length and grid are unchanged: **`output/music/lib_mus_theme-op-drums_v2a.mp3`, 87.0 s, bars of 3.0 s, hits on 0:57.0 and 1:22.5**, every hit frame on grid + 1 frame (v1.4 §2, §2.1).
+Music, length and grid are unchanged and **locked**: 87.0 s, bars of 3.0 s, beats of 0.75 s, hits on 0:57.0 and 1:22.5, every hit frame on grid + 1 frame (v1.4 §2, §2.1). The composer is re-arranging the OP into a stronger anthem **on the same grid**; the edit does not move for it. Animatic and builds run on `output/music/lib_mus_theme-op-drums_v2a.mp3` for now; the master is assembled later with whichever track wins (a straight audio swap, picture unchanged; the winner must keep 0:57.0, 1:22.5 and the 1.5 s stamps within ±1 frame).
 
 ## 0. Кратко (RU)
 
-- **Структура (87.0 с):** Хайуотер 0:00–0:21 (21 с, только оплаченный материал: волна, переулки, колёса, счётный зал, Ступени) → путешествие 0:21–0:55.5 по шести землям: Бледный Утёс (Илвейн, Хор), Польдеры (Даск), Галлмут (Корвейн), нагорье Оссари, Отмели (Квелл), Лестница (Раск) → «вдох» и 9 кадров чёрного → **0:57.0 схождение:** панорама всей Конкордии с восемью Шпилями → знамёна всех восьми голосов на ударах → флоты всех домов на одной воде → карта дельты отъезжает ступенями на ударах → снова панорама в последнем свете → **1:22.5 титр HOLLOWSTONE** (хвост v1.4 без изменений).
-- **Каждая земля = место + её Шпиль (тёмный) + цвет дома как ключ света + свой механизм + безликая масса.** Механизмы: Бледный Утёс — ряды Канторов на террасе над морем; Польдеры — линия ветряных насосов на дамбе; Галлмут — Длинный мол с фонарными столбами через каждые сто шагов; Оссари — змеи на шестах плоских крыш; Отмели — соляные чеки и огни мародёров на дюнах; Лестница — водопад Ауна и стена с лесом пик.
-- **Новое: 16 кадров NB2 ($1.28) + 13 клипов Kling 2.5 TP ($4.55) = $5.83; резерв на передубли $2.07; итого не больше $7.90.** Повторно используется оплаченный материал S1 OP на $4.22 (10 клипов, 9 кадров). Сверка с журналом и потолками — §8.
-- **Спойлеры всей саги:** доска CY 312, какой её знает зритель S1. Нет Затопа, Лирены, Затонувшего Шпиля, наводнений, прорывов, плотины на водопаде, Оссари у Лестницы, ворот, детей в робах, огней войны, общей песни Шпилей. Гербы с ладонью, угрём и воротами не показываются: Илвейн, Квелл и Раск — простыми двухцветными вымпелами. Девяти живых домов, девяти знамён в ряд и рисунка «8 + 1» нет нигде (§1, §4.1).
-- **Вопросы хранителю — §10, Q1–Q9;** без его подписи ничего не генерируется.
+- **v2.1:** правки хранителя внесены дословно; места Шпилей по канону v0.10 во всех промптах; четыре новых правила инвестора — всё в движении (OP-20), короткие склейки (OP-21), логотип отдельной склейкой (C14), спецификация плавности (§12).
+- **Структура (87.0 с, сетка не меняется):** Хайуотер 0:00–0:21 → путешествие 0:21–0:55.5 по шести землям: Бледный Утёс (Илвейн, Хор), Польдеры (Даск), Галлмут (Корвейн), нагорье Оссари, Отмели (Квелл), Лестница (Раск) → «вдох» (народы, без Шпилей) и 9 кадров чёрного → **0:57.0 схождение:** панорама с восемью Шпилями на своих местах → знамёна восьми голосов на ударах → обычное движение по реке в обе стороны → карта дельты четырьмя склейками на ударах → панорама в последнем свете → **1:22.5 вайп брызгами → 1:23.125 логотип** (отдельная склейка).
+- **57 планов + 9 кадров чёрного, ASL ≈ 1.53 с.** Все планы 0.625–1.5 с, кроме логотипа (3.875 с, в движении). Каждый план — кусок клипа Kling; ffmpeg только поверх движения.
+- **Деньги.** Одобрено $7.90 (16 NB2 + 13 Kling + резерв). **Апгрейд «всё в движении»:** +7 клипов Kling (KA02, KA06, KA09, KA11 на оплаченных плашках; KW09, KW13, KW16 на уже запланированных кадрах). При 1.5 дубля на всё: $12.42, **сверх одобренного +$4.52.** Короткие склейки — $0 (2–4 куска из каждого клипа).
+- **Спойлеры всей саги:** доска CY 312; правила OP-15 с дополнениями хранителя. Гербы с ладонью, угрём и воротами не показываются.
+- **Без подписи хранителя на кадры W01–W16 в полном размере и без «да» инвестора на +$4.52 ничего не генерируется.**
 
 ---
 
@@ -40,6 +41,8 @@ v1.4 rules OP-2 … OP-14 stay in force word for word, with the scope notes belo
 | **OP-17** | **Heraldry in this opening.** Devices shown close: only the signed Corvane, Dask, Lantry, Fennick and Choir banners (F17, F19, F21, K11, K12, already accepted by the keeper). Ilvane = pennant pale violet over white; Rusk = pennant rust red over black; Quell = pennant yellowish sea-green over bone (never teal or turquoise, in every prompt that names sea-green). Plain cloth, no device, no ring, no stone, no hand, no gate. Ossari = plain sand-orange and dusty-white diamond kites (their sigil is a kite; no knots readable). The Pumpwrights' sigil is a proposal and is not shown | OP-2; HS-001…007, HS-090/091/092 |
 | **OP-18** | **No "8 + 1", no nine in a row.** Never nine banners, lights, kites, ships or pumps in a countable row, never eight alike plus one different. Lights, kites, pumps, ships and pikes are many and uncountable. The convergence shows the eight Conclave voices across six banner cuts and eight Spires; it never shows a ninth seat, a vacant place or an empty banner pole | lore-op §1 (cut 08, SEC-018) |
 | **OP-19** | **The song is heard, not shown.** What ties the lands together on screen is the water (every land shot has water from the same river or sea, except the Ossari, who have none) and the Spires standing dark at their places. No shot shows Spires sung together, no light passing from land to land, no cut that links kites, relay towers or singers to the Spires. No two cuts in a row whose subject is a Spire of a different land; no Spire in any flash of the inhale (B15) | keeper Q7 (sealed reason) |
+| **OP-20** | **All motion.** No still frame and no ffmpeg-only pan/zoom on a still in any cut. Every cut is a piece of a Kling 2.5 TP clip (or of a paid clip / the video-test clip) with real motion: water, wind, banners, ships, wheels, kites, workers, rain, camera moves. ffmpeg passes run only on top of that motion (particles, shake on hits, eased speed ramps, grading, flashes, crops). Transitions are motion transitions: match cuts on motion, whips that continue the camera's own move, spray or water wipes, cuts on the beat inside the action (§4.3). No crossfade, no dip to black except the planned 9-frame pre-hit (B16). A §6.1 "LA fallback" is void: a clip that fails takes a retake, then a $0 piece of another accepted clip | investor 2026-11-24 |
+| **OP-21** | **Short cuts.** Default cut 0.75–1.5 s on the 0.75 s beat grid; nothing holds longer than 2.25 s unless the camera or subject moves visibly and strongly the whole time (only C14, the logo over K17). Every 5 s clip gives 2–4 pieces at different moments, crops and speeds (§6.3) | investor 2026-11-24 |
 
 Adjacency rules (checked on the edit, §4.1): the dry plateau (B07–B08) never touches the falls (B12) or a Spire close-up; the Choir rows (B02) never face or walk toward a Spire; no Lows image of Highwater (wheels, lanes) sits next to a Spire shot of another land; the Ossari never sit next to the Polders. No boat, fire or beacon touches the Stair or the falls; the deep-blue fleet never touches the beacons; the Ossari never touch fire.
 
@@ -83,8 +86,8 @@ All codes, recipes and pass order as v1.4 §3 (PX, PUSH/PULL/TILT/PAN, RAMP, RAI
 
 | Code | Pass | How | Rule |
 |---|---|---|---|
-| **FLASH** | the inhale | 7 stills of the lands' masses and devices (one per land + Highwater), no Spire in any, 4 frames each, each with a 2% PUSH and `eq=brightness=+0.04` on its first frame; SHAKE every 0.375 s from 0:55.5 | stills only, no clip; order fixed (§4) |
-| **STEP** | stepped pull-back on the map | `zoompan` scale 2.4 → 1.8 → 1.35 → 1.0 around Highwater, each step jumps in the first third of its 1.5 s (same expression shape as GLASS, applied to scale) and then drifts 1% | the map never moves, only the camera (OP-13) |
+| **FLASH** | the inhale | 7 stills of the lands' masses and devices (one per land + Highwater), no Spire in any — *v2.1 (OP-20): each "still" is a 4-frame motion piece of KW02, KW04, KW06, KW08, KW09, KW12 and K05 (frames 12–15)* —, 4 frames each, each with a 2% PUSH and `eq=brightness=+0.04` on its first frame; SHAKE every 0.375 s from 0:55.5 | stills only, no clip; order fixed (§4) |
+| **STEP** | the map | *v2.1 (OP-20/21):* no zoom on a still. The pull-back is the camera move inside KW16; each of the four hits is a **cut** to a later, wider moment of that move (C11a–C11d), with POP + SHAKE 6 px on the hit frame | the map never moves, only the camera (OP-13) |
 
 ## 4. Shot table
 
@@ -171,7 +174,8 @@ Highwater on screen: 21.0 s (A01a–A11, 14 cuts) + the wipe and the logo over t
 
 | Pair | Check |
 |---|---|
-| A11 → B01 | the whip leaves the city toward the sea; Pale Crag is entered from the sea side |
+| A11 → B01a | the whip continues KA11's own pan right and leaves the city toward the sea; Pale Crag is entered from the sea side; no Spire in A11 (palace wall and banners only) |
+| OP-19 Spire order | Spire cuts of the journey: B01a (Pale), B03a (Sheaf), B05a (Sentinel), B09 (Storm), B12a/B12b (Falls) — every one is separated by at least one cut with no Spire (B01b, B02a–b, B03b, B04a–b, B05b, B06a–b, B10–B11); B12a → B12b is one land. C11a–d → C12a–b → C13–C14: map, panorama and the Crown Spire of the same realm, the panorama containing Highwater — **keeper to confirm** that the map/panorama → Crown Spire run does not count as "Spires of different lands in a row" (§10, K1) |
 | B02 → B03 | Choir rows face the sea, not a Spire; B03 opens on the pumps, the Sheaf Spire small and far (no "Cantors → Sheaf Spire" reading) |
 | B06 → B07 | match on cloth filling with wind (sail → kite); the Ossari are reached from the fleet, **never from the falls or the Polders** |
 | B08 → B09 | kites → salt pans: no water leaves the plateau on screen; the Storm Spire is small and far in B09; the dry plateau is never next to the falls (B12), a fire or a Spire close-up |
@@ -182,6 +186,23 @@ Highwater on screen: 21.0 s (A01a–A11, 14 cuts) + the wipe and the logo over t
 | C08 → C10 | traffic both ways, no warships, no lights; no Corvane and Quell hulls alone together (SEC-031, SEC-046) |
 | C11 → C12 | map → land: the camera only; nothing on the map moves (OP-13) |
 | C12 → C13 | spray wipe only, no dissolve (v1.4 §4.2 p. 4) |
+
+### 4.3 Transitions (OP-20: every join is a motion join)
+
+| Join | Kind |
+|---|---|
+| A01a → A01b, and every `a → b` pair | cut-in on the beat inside the same action (same clip, later moment, tighter crop) |
+| A05b → A06 | cut on the first stamp (0:12.0) into the hub lurching |
+| A11 → B01a | **whip right** continuing KA11's pan, blur peak on the whistle (491) |
+| B06b → B07a | **match on motion**: a mainsail filling with wind → a kite filling with wind (WHIP-lite, 6 frames) |
+| B08b → B09 | cut on the brass downbeat (0:45.0), SHAKE on 1081 |
+| B14 → B15 → B16 → C01a | flashes on the fill, the only dip to black (9 frames, planned), INK on the octave leap |
+| C07 → C08 | INK on the S6 downbeat; banner cloth in wind → water in wind |
+| C10 → C11a | cut on the hit from moving sails to the camera already pulling back over the map |
+| C11d → C12a | **match on composition**: the map's full view → the land at last light (same layout) |
+| C12b → C13 → C14 | **spray wipe** (the A01 wave) on the last hit, then the logo lands on K17 |
+
+No crossfade anywhere; no freeze; no hold on a last frame (§12).
 
 ### 4.2 Light key per land (the "volume" of each house reads by colour before any banner)
 
@@ -229,7 +250,7 @@ Endpoint and parameters exactly as v1.4 §5: `fal-ai/nano-banana-2/edit`, `aspec
 
 Acceptance order for every frame and clip: faces/children/leaders (OP-1) → stone/ring/gate/device (OP-2, OP-17) → glow (OP-3) → every Spire "/" and dark foot (OP-4) → saga line (OP-15) → count rule "8 + 1" (OP-18) → text (OP-10) → colours per §4.2. W13 and W16: count the towers (eight, no tower in the sea). **The keeper checks W01–W16 at full size before any clip is made from them.** Spire count, place and groove direction are also checked on every 10th frame of KW01, KW03, KW05, KW11, KW15. Places of the eight Spires per `canon/world.md` §2 (Sites; Gullmouth north, Pale Crag south); Highwater: two towers on the hill, the Sluice Spire at its south-west foot.
 
-## 6. Kling 2.5 TP motion prompts (13 new clips, 5 s, 1 take)
+## 6. Kling 2.5 TP motion prompts (13 + 7 new clips, 5 s; plan 1.5 takes each)
 
 Prefixes, negative and red-list words as v1.4 §6. Action prefix: KW02, KW04, KW06, KW08, KW12, KW14. Quiet prefix: KW01, KW03, KW05, KW07, KW10, KW11, KW15. Negative for all: v1.4 list + `children, people turning around, faces toward camera, figures merging, extra limbs, fire, smoke, flood, lit lanterns, glowing lamps, kites near cliffs`. Add for KW06, KW15: `cannon fire, explosions, sinking`. Add for KW11: `dam, wall across the river, water level change`.
 
@@ -251,6 +272,8 @@ Prefixes, negative and red-list words as v1.4 §6. Action prefix: KW02, KW04, KW
 
 ### 6.1 Fallbacks — a failed first take never blocks the edit ($0)
 
+*v2.1 (OP-20): every "LA" fallback below is **void** — it would be a still with ffmpeg motion. A clip that fails takes a retake (plan: 1.5 takes per clip, §8.2); if it fails twice, the cut takes a $0 piece of another accepted clip of the same land (e.g. B02b from KW02's other half, B11 from KW10's reeds and salt sheds, C12 from KW13's first half re-graded). The table is kept for its risk and acceptance columns.*
+
 | Clip | Risk | Acceptance | Fallback |
 |---|---|---|---|
 | KW02, KW04, KW12 (masses) | high: faces turning, figures merging | per OP-1 on every 5th frame of the piece used | LA: the still with PX (rows / background / sky), cloth displace 2 px on the nearest rank, MIST or DUST; the mass stands still, the world moves |
@@ -261,7 +284,61 @@ Prefixes, negative and red-list words as v1.4 §6. Action prefix: KW02, KW04, KW
 | KW10 (lights, boats) | medium: flames bloom | no halo | LA: still + flame flicker on masks (`eq` on 3 frames), boats slid on `overlay` paths (B10 only) |
 | KW01, KW05, KW14 | low | §5 order | LA version of the same still |
 
-Retake reserve goes first to KW02, KW12, KW15, KW11, KW06.
+Retake reserve goes first to KW02, KW12, KW15, KW11, KW06, then KW13, KW16, KA11.
+
+### 6.2 All-motion upgrade — 7 new clips (OP-20; not approved yet, §8.2)
+
+Every cut that v2.1 still had as a still, LA or ffmpeg-only:
+
+| v2.0/v2.1 cut | Was | Now |
+|---|---|---|
+| A01 | K01a **on threes** (duplicated frames) | K01a interpolated (`mci`), §12 rule 2 — $0; if it warps, a KA01 re-generation from F01a comes out of the 1.5-take reserve |
+| A02 | LA tilt on the D01_A plate | **KA02** |
+| A06 | LA ROT on the wheel plate | **KA06** |
+| A09 | LA dolly on the hall plate | **KA09** |
+| A11 | LA pan + whip on F17 | **KA11** |
+| C07 | LA crop of F17 | **KA11** piece (crop 2.2× on banner 3), $0 extra |
+| B09, B11 | LA on W09 (W09 crop) | **KW09** (two pieces) |
+| B15 | 7 stills | 4-frame motion pieces of KW02, KW04, KW06, KW08, KW09, KW12, K05 — $0 extra |
+| C01, C12 | LA on W13 | **KW13** (four pieces) |
+| C11 (the map) | LA STEP zoom on W16 | **KW16** (four pieces, one cut per hit) |
+| C13 (title) | already K17 + spray from K01 | unchanged; the logo becomes its own cut C14 |
+| C02, C03, C05, C06 (banners) | already K11, K12 | unchanged |
+| A10 | K10 at RAMP 2× | unchanged (fast, eased ramp) |
+
+Prefix and negative as §6 (quiet prefix for all seven; negative for all + the per-clip list). Sources for KA02–KA11 are paid plates cropped to 16:9 at $0 (no new NB2 frame).
+
+| Clip | Source | Camera + motion | MUST NOT CHANGE | Lore constraints (keeper report 2026-11-24) | Cuts |
+|---|---|---|---|---|---|
+| KA02 | `plates/D01_A_op.png`, 16:9 crop from the Crown Spire's arches down to the Lows (cracks painted out) | `Slow tilt down from the crown of the tall black tower to the misty stilt-town below the dike. Mist drifts slowly between the houses; thin clouds move in the dawn sky; washing on the lines stirs.` | tower shape, ring of arches, "/" grooves dark, foot dark; no crack lines appear on tower or dike; dike crest dry; house count; no people | OP-4 dark Spire, no light on any Spire; OP-15 no water over the dike, no flood; Lows lamps unlit | A02 |
+| KA06 | `plates/sc06_wheel_op.png` | `Locked-off camera. The giant wooden treadwheel lurches into motion and turns steadily in one direction; dust shakes off the spokes.` | wheel turns one way, spoke count and shape; no crack lines on the wall behind; no people appear; no light | OP-1 (no figures — a close hub); OP-15 no water through the wall | A06 |
+| KA09 | hall plate of v1.4 cut 13 (relay-stone cage painted out) | `Slow dolly forward down the aisle of the empty counting hall. Dust turns in the beams of light from the tall windows; a page of an open ledger lifts slightly in a draught and settles.` | hall whole, rows of desks, windows; no figure at the far end; the painted-out cage stays gone; no writing becomes readable; no lamp lights | OP-10 no text; keeper §4: the counting hall intact (board CY 312, never the burnt hall) | A09 |
+| KA11 | `frames/F17_op.png` | `Slow pan to the right along the palace wall toward the sea. The five banners ripple and stream in a steady wind; distant ships on the sea rock gently; clouds drift.` | five banners only, each device exactly as in the source (Corvane, Dask, Choir, Lantry, Fennick); no new banner or pole; no emblem changes; city and sea unchanged | OP-2/OP-17 no hand, stone, eel, gate; OP-18 never nine banners or "8 + 1"; OP-15 no lights on ships, no Corvane and Quell hulls alone together, sea plain deep water (no turquoise); no Spire comes into frame (A11 → B01 adjacency) | A11, C07 |
+| KW09 | W09 | `Very slow push-in. Light rain begins to fall over the salt pans; the sea-green and bone pennants on the salt sheds flutter; reeds on the dunes sway; storm clouds move.` | pan grid and walls; salt heaps; the tower small and far, its foot in the shallows, "/" dark; no boat, fire or beacon appears in the foreground; no water over the pan walls | keeper B11: no tower, boat or fire in the B11 crop; OP-17 yellowish sea-green, never teal or turquoise; no green light; no open sea horizon, no ships; OP-19: the B11 and B15 crops hold no Spire | B09, B11, B15 |
+| KW13 | W13 | `Very slow push-in toward the hill city. Cloud shadows slide across the delta; sails move slowly up and down the channels; haze drifts over the far escarpment.` | **exactly eight towers**, each at its canon v0.10 place (two on the hill + the Sluice Spire at its south-west foot; Sentinel on the north headland; Pale on the south cliff summit; Sheaf alone in the fields; Falls on its spur, crown above the edge; Storm rising from Brackwater); nothing in the sea; the sea plain deep water; nothing beyond the escarpment; the falls' thread unchanged | OP-19: no light passes between Spires, nothing lights up; OP-15: no flood, no turquoise or shallows, no ships converging on Highwater, no warships | C01a, C01b, C12a, C12b |
+| KW16 | W16 | `Slow steady camera pull-back straight up from a painted map lying flat on a dark wooden table, starting close on the hill city and ending on the whole sheet. Soft raking light shifts slowly across the paper.` | **the map itself never moves, grows, redraws or lights up** (OP-13); every mark and pennant colour as in the source; eight tower marks; no lettering appears; nothing in the sea; the paper beyond the escarpment stays blank; no hands or objects enter | OP-10, OP-13; keeper W16: no cartouche, legend, boxes, tithe districts; north at the top | C11a–C11d |
+
+Negative additions: KA02, KW13: `tower lights up, glowing grooves, flood, water over the dike`; KA11: `new banner, changing emblem, ship lights`; KW16: `map moving, drawing appearing, text, letters, hands, objects on the table`; KW13: `extra towers, tower in the sea, turquoise water`.
+
+### 6.3 Pieces per clip (OP-21: 2–4 pieces from each 5 s clip, $0)
+
+| Clip | Pieces → cuts |
+|---|---|
+| K01a | 0.0–0.6 @0.4× mci → A01a; 0.5–1.0 @0.33× mci crop 1.4 → A01b |
+| alley (video test) | 0.5–2.0 → A04a; 2.0–3.5 crop 1.3 → A04b |
+| K07_fix | 0.5–2.0 → A05a; 2.0–3.875 @1.25× → A05b |
+| K05 | 0.0–1.5 → A08; frames 12–15 → B15 |
+| KA11 | 1.0–2.5 → A11; 2.5–4.0 crop 2.2 → C07 |
+| KW01–KW08 | first piece → B0xa; second piece (later moment, cut-in) → B0xb; KW02/KW04/KW06/KW08 also give a 4-frame flash to B15 |
+| KW09 | 0.5–2.0 → B09; 3.0–4.5 crop 1.6 → B11; 4 frames → B15 |
+| KW11 | 0.5–2.0 → B12a; 2.5–4.0 crop 1.4 → B12b |
+| KW12 | 0.5–2.0 → B13; 2.5–4.0 crop 1.5 → B14; 4 frames → B15 |
+| KW13 | 0.0–1.5 → C01a; 1.5–3.0 crop 1.4 → C01b; 3.0–4.5 graded → C12a; 3.5–5.0 crop 1.3 graded → C12b |
+| KW15 | 0.0–1.5 → C08; 1.5–3.0 crop 1.5 → C09; 3.0–4.5 crop 1.3 → C10 |
+| KW16 | 0.0–1.2, 1.3–2.5, 2.6–3.8, 3.8–5.0, each @0.8× → C11a–C11d |
+| K17 | 0.0–0.625 → under the C13 wipe; 0.625–4.5 → C14 |
+
+No piece runs past the clip's last frame (§12 rule 3).
 
 ## 7. Rewatch value and variants
 
@@ -288,18 +365,17 @@ Prices as v1.4 §8: NB2 /edit $0.08 per image (1K); Kling 2.5 TP $0.35 per 5 s c
 | F04 + K03 | A03 | $0.43 |
 | F10 + K07 (K07_fix) | A05 | $0.43 |
 | K04 | A07 | $0.35 |
-| K05 | A08 | $0.35 |
+| K05 | A08, B15 (frames 12–15) | $0.35 |
 | F14 + K10 | A10 | $0.43 |
-| F17 | A11, C07 | $0.08 |
+| F17 | source of KA11 (A11, C07) | $0.08 |
 | F19 + K11 | C02, C03 | $0.43 |
 | F21 + K12 | C05, C06 | $0.43 |
 | F01 + K01 (take 2, frames 0–12) | C13 wipe spray | $0.43 |
 | K17 | C13 | $0.35 |
-| F15 (flash only) | B15 | $0.08 |
 | Ref plates and the video-test clip (D01_A, PL-0011, sc06 wheel, alley; paid before the OP) | A02, A04, A06, A09 | — |
-| **Reused** (10 clips, 9 frames) | | **$4.22** |
+| **Reused** (10 clips, 8 frames) | | **$4.14** |
 
-Paid for S1 and **not used** in the saga opening (kept for S1 episodes, recaps or an ending sequence): K08, K09, K13 (+ v3 rebuild), K14, K15, K16, K18; F11, F18, F23, F26, F27, F28, F30; harbour plates H1/H2; the map tints.
+Paid for S1 and **not used** in the saga opening (kept for S1 episodes, recaps or an ending sequence): K08, K09, K13 (+ v3 rebuild), K14, K15, K16, K18; F11, F15 (v2.1: the inhale uses K05), F18, F23, F26, F27, F28, F30; harbour plates H1/H2; the map tints.
 
 ### 8.2 New spend
 
@@ -312,36 +388,83 @@ Paid for S1 and **not used** in the saga opening (kept for S1 episodes, recaps o
 | Retake reserve: 5 Kling retakes + 4 NB2 retakes (a clip that fails twice uses its §6.1 fallback) | | | | **2.07** |
 | **Total planned new spend (ceiling)** | | | | **$7.90** |
 
+v2.1 keeper edits change no count: B11 moves from KW10 to a KW09 piece and the inhale uses pieces of planned clips, $0.
+
+**All-motion upgrade (OP-20/OP-21) — needs the investor's "yes":**
+
+| Item | Count | Takes | Unit $ | $ |
+|---|---|---|---|---|
+| NB2 frames W01–W16 | 16 | 1.5 | 0.08 | 1.92 |
+| Kling: the 13 planned clips | 13 | 1.5 | 0.35 | 6.825 |
+| Kling: 7 upgrade clips KA02, KA06, KA09, KA11, KW09, KW13, KW16 | 7 | 1.5 | 0.35 | 3.675 |
+| Short cuts (OP-21): 2–4 pieces per clip, no new clip | — | — | 0 | 0.00 |
+| Smoothness (§12): interpolation, conform, checks | — | — | 0 | 0.00 |
+| **All-motion plan at 1.5 takes** | | | | **12.42** |
+| Approved | | | | 7.90 |
+| **All-motion upgrade — extra above the approved $7.90** | | | | **+$4.52** |
+
+First takes alone would be $8.28 (16 × 0.08 + 20 × 0.35). If A06 takes a $0 crop of K05 instead of KA06, the extra falls to $3.99. Totals on openings: $7.74 (S1) + $12.42 = $20.16.
+
 ### 8.3 Against the log and the floors
 
 - Log today (`budget/costs.jsonl`, 1550 rows): **$61.89** (fal $51.10). The S1 OP run spent $7.74 (incl. K13).
-- Run guard for this plan: `STUDIO_ALLOW_PAID=1 BUDGET_LIMIT_USD=69.79` (= $61.89 + $7.90); the guard stops every call above it.
-- fal balance (log estimate): $100.00 − $51.10 = **$48.90** → after the plan at worst **$41.00**, above the $20 floor.
+- Run guard set by the studio director: `STUDIO_ALLOW_PAID=1 BUDGET_LIMIT_USD=70` (= $61.89 + $8.11). It allows $0.21 more than the $7.90 ceiling, so the **ceiling is held by the run itself**: the run stops when its own new spend reaches $7.90, not when the guard trips. Any other paid call logged before the run (e.g. a paid anthem take) shares the same guard and lowers the headroom; then retakes are cut first. If the investor approves the upgrade: `BUDGET_LIMIT_USD=74.31` (= $61.89 + $12.42).
+- fal balance (log estimate): $100.00 − $51.10 = **$48.90** → after the plan at worst **$41.00** ($36.48 with the upgrade), above the $20 floor.
 - Investor's $10 cap was for the S1 opening. The saga opening is a new item: total spent on openings would be $7.74 + up to $7.90 = **$15.64**. Needs the studio director's and the investor's "yes" (§10, D1).
 
 ## 9. Order of work (after the keeper and the gate)
 
-1. **$0 first: the saga OP animatic** on v2a at 87.0 s: all PAID cuts in place with their v1.4 passes; grey cards with the shot text for the 16 new frames; flashes, map steps (on a grey card grid), the title tail. The analyst measures energy vs picture; the keeper checks the edit order (§4.1).
-2. **Batch 1 (lands, $0.96):** W01–W12 → acceptance (§5 order) → **keeper at full size.**
-3. **Batch 2 ($0.32):** W13 (refs: the accepted lands), W14, W15, W16 → acceptance → keeper (tower count, map with no lettering, nothing beyond the islands).
-4. **Clips ($4.55):** masses first (KW02, KW12, KW04), then KW11, KW06, KW15, then the rest. Every clip checked per §6 before the next batch.
-5. Assembly: passes per §4, hit frames per §2.1, logo sting and corner bug as v1.4; master on v2a, 87.0 s, picture and audio fade 2076–2087; variants A (13) and B (4).
+1. **Done ($0): the saga OP animatic v2** — `output/opening/SAGA_OP_animatic_v2.mp4` on v2a at 87.0 s, cut list v2.1 (57 shots + black): paid cuts from the S1 OP v3 renders (A01 re-timed with `mci`), cards with the shot text for every NEW W/KW/KA item, flashes, the four map cuts, wipe and logo; contact sheets in `output/opening/contact_saga_v2/`. Tool: `direction/opening/tools/op_saga_animatic.py`. Results: §11.4.
+2. **Batch 1 (lands, $0.96 first takes):** W01–W12 → acceptance (§5 order) → **keeper at full size.**
+3. **Batch 2 ($0.32):** W13 (refs: the accepted lands), W14, W15, W16 → acceptance → keeper (tower count and places, map with no lettering, nothing beyond the islands).
+4. **Clips ($4.55 + upgrade $2.45 first takes):** masses first (KW02, KW12, KW04), then KW11, KW06, KW15, KW13, KW16, then the rest; KA02–KA11 on the paid plates. Every clip: native fps check and conform (§12), §6 acceptance, then pieces per §6.3.
+5. Assembly: passes per §4, hit frames per §2.1, logo per `LOGO.md` (C14), corner bug as v1.4; master on the winning track, 87.0 s, fade 2076–2087; variants A (13) and B (4); **§12 checks must pass** before the gate.
 
 ## 10. Open questions
 
-**Canon keeper (rulings needed before any generation):**
-- **Q1 — OP-1 (v2.0).** The investor replaces "no people" with faceless masses (from behind, silhouettes, no leader, no children). Do the conditions of OP-1 satisfy the excerpt §7 (Kes only from behind at the head of a column — here nobody heads any rank)?
-- **Q2 — Spire places in the other lands.** The canon names the Pale, Sheaf, Sentinel, Storm and Falls Spires but not where each stands. Proposed: Pale — on the cliff top above the cloister; Sheaf — among the fields, inland of the dike; Sentinel — on a rock at the river mouth; Storm — on a dune island; Falls — on a ledge beside the falls. Record them or correct them; the panorama and the map follow your ruling.
-- **Q3 — Ilvane, Rusk and Quell as plain two-colour pennants** (no device, OP-2/OP-17). Acceptable as "the house shown", or should these three not appear by colour at all?
-- **Q4 — the Ossari.** Kites (plain, no knots) over their terraced town and distant gliders flying inland over stepped fields; never near the escarpment, the falls or the Polders; no cisterns or dry beds. Is their presence from S1E1 acceptable (they enter the story at the end of S1)?
-- **Q5 — wreckers' lights:** a row of small flames on poles on a dune with smugglers' boats below, no ship at sea. Acceptable?
-- **Q6 — eight Spires.** The panorama and the map show exactly eight (no Sunken Spire, nothing beyond the barrier islands). "Nine Spires" is public; is showing eight and no ninth safe, or does the absence itself point anywhere?
-- **Q7 — OP-19:** the song is not shown; no image links the Spires to each other, to kites or to singers. Confirm this is the safe reading of "tied together by the Spires' song" for every season.
-- **Q8 — fixed board for all seasons:** the opening always shows CY 312 (the Stair under Rusk, the Falls Spire held, Lantry standing). Confirm that a fixed board reads as "how it began", not as a statement about later seasons.
-- **Q9 — the Gullmouth mole:** all lantern posts unlit in daylight, none singled out. Enough for the keeper's note on the Gullmouth lamp?
+The keeper's Q1–Q9 are answered (`reports/lore-saga-op-2026-11-24.md` §1, §2) and carried into v2.1.
 
-**Studio director / investor:**
-- **D1 — budget:** up to $7.90 new (first takes $5.83). Total on openings $15.64 against the earlier $10 S1 cap.
-- **D2 — `S1_OP_v3.mp4`:** retired from broadcast. Its unused paid shots (glass harbour, storm, footprints) could serve an ending sequence or recaps — the director's proposal, not part of this board.
+**Canon keeper:**
+- **K1 — OP-19 at the end.** C11 (map, eight marks) → C12 (panorama) → C13–C14 (the Crown Spire under the logo): one realm, Highwater in all three. Confirm this run is not "two cuts in a row with Spires of different lands" (§4.1).
+- **K2 — cells of your text changed by the investor's rules (§11.3):** B11 class (LA crop of W09 → KW09 piece), FLASH (stills → 4-frame motion pieces), the Totals line, the B01/B03/B04/B05/B09/B12/C01/C12 shots split into an `a` piece (your text verbatim) and a `b` cut-in. Please confirm.
+- **K3 — B07:** the v2.0 row still said "kite-flyers … with face-wraps"; aligned to "hoods or head-cloths" after your OP-1 and W07 edits.
+- **K4 — new prompts:** W04, W06, W08, W12 gain "no tower in frame" (they now feed the inhale); KW01/KW03/KW05 MUST NOT CHANGE carry the v0.10 sites; the seven §6.2 clips carry your constraints. Your full-size look at W01–W16 stands.
 
-**Composer:** none; the music is unchanged.
+**Investor / studio director:**
+- **D1 — all-motion upgrade: +$4.52** above the approved $7.90 (all at 1.5 takes; §8.2). Guard 74.31 if approved; 70 holds only the $7.90 plan.
+- **D2 — `S1_OP_v3.mp4`:** retired from broadcast; unused paid shots could serve an ending sequence or recaps.
+
+**Composer:** the anthem re-arrangement keeps 87.0 s, 3.0 s bars, hits 0:57.0 and 1:22.5 and the 1.5 s stamps from 0:12.0 (±1 frame); the picture is locked to that grid and takes the winning track as a straight swap.
+
+**Concept artist:** C14 needs `direction/opening/LOGO.md`: the logotype as a transparent PNG/SVG ≥ 1600 px wide, light on dark, readable at 1080p over the K17 dusk plate; the land (1995–2002, 114 % → 100 %) and the drop (2040) are done in ffmpeg.
+
+## 11. Change log v2.0 → v2.1
+
+### 11.1 Keeper's §3 edits, word for word
+All 67 replacements of `reports/lore-saga-op-2026-11-24.md` §3 are in: OP-1, OP-15, OP-17, OP-19 (two), the adjacency paragraph; B01, B03, B04 (two), B05, B09, B10, B11, B12, B15 (two), C01, C08, C09, Totals; §4.1 (three rows replaced, C08 → C10 added); §4.2 (Pale Crag, Gullmouth); §3 FLASH; {AVOID_MASS}, {SAGA_SAFE}; W01–W16 (every edit), the acceptance paragraph; the Kling negative, MUST NOT CHANGE of KW01, KW03, KW05, KW06, KW07, KW08, KW11, KW12, rows KW10 and KW15, §6.1 KW10; §7 p. 2. The only formatting difference: the W15 refs keep the path in backticks as in every other row.
+
+### 11.2 Director's alignment with canon v0.10 (not keeper text)
+- **Used-in columns** of §5 follow the new B11/B15 sources; W10 renamed "the beacons" (B10 only).
+- **No tower in frame** added to W04, W06, W08, W12 (they now feed the inhale, OP-19) and to MUST NOT CHANGE of KW02, KW04, KW06, KW12.
+- **Spire sites** (world.md §2, Sites) added to MUST NOT CHANGE: KW01 (cliff summit, cloister round and below its foot), KW03 (alone among the fields on its low rise), KW05 (crown of the headland, foot on rock, never in the sea); KW11 and KW13 carry them via the keeper's text and §6.2.
+- **Compass** checked in every prompt: from the sea looking east, Gullmouth left/north, Pale Crag right/south (W13); north at the top, Gullmouth upper-left, Pale Crag lower-left (W16); dawn behind the cliff for W01, behind the camera for W02; sun high behind the town for W05; low sun beyond the plain (west) for W12; last sun on the west-facing escarpment for W11.
+- §4.2 Shoals key: yellowish sea-green; OP-3 "the Shoals beacons"; C04 Quell "yellowish sea-green"; B07 face-wraps → hoods or head-cloths.
+- §8.1: F15 no longer used (inhale takes K05 frames 12–15): reused $4.14 (10 clips, 8 frames).
+
+### 11.3 Investor rules 2026-11-24 (change cells the keeper wrote — K2)
+- **OP-20 all-motion:** §6.2 (7 new clips), §6.1 fallbacks void, §4.3 transitions, B11 class, FLASH, STEP, Totals line.
+- **OP-21 short cuts:** §4 rebuilt — 57 shots, every cut 0.625–1.5 s except C14; split shots keep the keeper's text verbatim in their `a` piece; §6.3 pieces per clip.
+- **Logo:** C13 (wipe, 15 frames) and C14 (logo, 93 frames) are two cuts; logotype from `LOGO.md`.
+- **Smoothness:** §12; A01 leaves "on threes" for `mci` interpolation.
+
+### 11.4 Animatic v2 (built 2026-11-24, $0)
+ANIMATIC_RESULTS
+
+## 12. Smoothness spec — the build must pass every line
+
+1. **One frame rate: 24 fps** from source to master. Every Kling clip's native rate is read with `ffprobe` (all paid clips and the video-test clip read 24/1, 121 frames, 1924–1928 × 1072–1076) and conformed with `fps=24` only if it differs; a 25 or 30 fps source is converted with `minterpolate=fps=24:mi_mode=mci`, never by dropping/duplicating frames. Every segment is written at exactly its frame count at 24 fps; the master is concatenated with `setpts=N/24/TB`.
+2. **No slow motion by duplication.** No piece plays below 0.8× unless it is interpolated with `minterpolate=mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1` (or a better optical-flow interpolator if available) and checked frame by frame for warping on the contact sheet (edges of foam, sails, letters). In v2.1 only A01a (0.4×) and A01b (0.33×) are below 0.8×; KW16 pieces play at exactly 0.8×. K14 at 0.5× (v1.4) is not used. "On threes" holds are banned.
+3. **No frozen tails, no freeze frames.** No piece is padded with its last frame (`tpad=stop_mode=clone` is not used in the saga build); every piece window ends inside its clip (§6.3, the 5 s clips have 121 frames). The only held picture is the planned 9-frame black B16.
+4. **Smooth ramps.** Speed changes (A05b 1.25×, A10 2×) are eased (`setpts` with a cosine ease over ≥ 6 frames) or constant over the whole piece; never stepped.
+5. **Automatic check after assembly:** `ffmpeg -i master -vf "freezedetect=n=0.001:d=0.15" -f null -` and `mpdecimate=hi=64*4:lo=64*2:frac=0.33` (reports dropped = near-duplicate frames) over the whole master. Every hit outside frames 1360–1368 is listed in the report with its cut and fixed (retime, other piece, retake) before the gate. The check script is `op_saga_animatic.py --check FILE`.
+6. **Encode:** H.264 High, `-preset slow -crf 14 -tune film`, 4:2:0, GOP 48, `-maxrate 40M -bufsize 80M`; masters for the platform also as ProRes 422 HQ. Rain, spray and foam cuts (A01, B09–B11, B12, C08–C10, C13) are checked at 100% for macroblocking; if any shows blocks, CRF 12.
