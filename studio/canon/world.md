@@ -1,6 +1,6 @@
 # World
 
-Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; v0.7: love lines r7, DEC-71…76, Part 6 - §1 love rule, §6 objects, §7.4 and §8.2 the walker's bond; v0.8: r8, DEC-78/79/81, Part 7 - §7.4, §8.2 Wren Roan and when a bond is bought out, §7.9 row 12 proven S3E6; transfer by lore-keeper)
+Canon: v0.8 · Status: **approved** (foundation r2, approved by the director 2026-11-22; §5a, §7, §8 approved by the lead screenwriter in r3, `studio/story/decisions_resolved.md`; v0.6: DEC-65…70 ruled in r6, Part 5 of the same file; v0.7: love lines r7, DEC-71…76, Part 6 - §1 love rule, §6 objects, §7.4 and §8.2 the walker's bond; v0.8: r8, DEC-78/79/81, Part 7 - §7.4, §8.2 Wren Roan and when a bond is bought out, §7.9 row 12 proven S3E6; v0.10: §2 heights, sites and look of the five Spires outside Highwater, compass of the wider delta - keeper's ruling for the saga opening; transfer by lore-keeper)
 
 Source: `studio/story/` r2 (series_bible, houses_overview, cast_overview, saga_arc, season01_outline, franchise) and `studio/story/sealed/master_mystery.md` (sealed parts only in `sealed/`).
 
@@ -38,7 +38,16 @@ On screen: black glassy spiral-grooved towers (60-200 m) crowned by a ring of op
 - **The echo-shard never glows.** Its sound is seen as a tremor and as rings on water.
 - **S01E01 Sc 9 (fixed by the lead):** the light comes **down** from the crown, turn by turn, and goes out **from the top down** - the last lit turns are at the foot.
 
-**Heights of the named Spires (v0.6, DEC-65; foot to crown):** Crown Spire **about 160 m**, Choir Spire **about 120 m**, Sluice Spire **about 90 m**. The others are set at their first appearance, inside the 60-200 m range. The Sunken Spire's height is never stated beyond HS-008: "taller than any now standing".
+**Heights of the named Spires (v0.6, DEC-65; foot to crown):** Crown Spire **about 160 m**, Choir Spire **about 120 m**, Sluice Spire **about 90 m**. *(v0.10, keeper's ruling for the saga opening, their first appearance:)* Sentinel Spire **about 140 m**, Sheaf Spire **about 130 m**, Falls Spire **about 120 m**, Pale Spire **about 110 m**, Storm Spire **about 100 m**. The Crown Spire stays the tallest standing Spire of the realm. The Sunken Spire's height is never stated beyond HS-008: "taller than any now standing".
+
+**Sites and look of the five Spires outside Highwater (v0.10, keeper's ruling; studio director's request for the saga opening).** All eight standing Spires share one form: a smooth glassy black cone, deep spiral grooves turning sunwise ( / on the near face), a crown ring of open throats, the foot dark unlit stone (in water where the site has water, on rock or ground where it has none). Any damage to a Spire is set by the episode that needs it, never by an establishing shot. They differ only by height (above) and by site:
+- **Sentinel Spire** (PL-0031) - on the crown of the **Gullmouth headland** at the main river mouth; the town's stone quays and slate roofs climb the headland around its foot; the Long Mole runs out to sea from below the headland; the Ostry harbour-forts guard the entrance. Its foot stands on rock, not in the sea.
+- **Sheaf Spire** (PL-0037) - **alone among the square fields** of the Polders, inland of the great river dike, on a low grassy rise; a field road runs to its foot (where the first sheaf is laid). No building stands against it; the Dask Barrows are elsewhere.
+- **Pale Spire** (PL-0041) - on the **summit of the white cliff of Pale Crag**; the cloister's terraces, covered stairs and arcaded galleries are built round and below its foot and face the sea (the novices' dormitory under it).
+- **Falls Spire** (PL-0047) - on a **rock spur of the Red Escarpment right beside the falls**, its foot high above the spray, its crown standing above the line of the escarpment's top; the Stair is stepped into the cliff below and beside the spur, its upper town reaching the spur. The spur is not the lip of the falls: nothing of the Spire or the Stair stands on the lip.
+- **Storm Spire** (PL-0057) - at **Brackwater**, rising from the middle of the stilted grey-wood town on the inner sandbars of the Shoals, its foot in the shallows by the beach of the Hull Moot; rope bridges and salt pans round it; the beacon towers stand apart on the outer bar.
+
+**Compass of the wider delta (v0.10, keeper; follows `story/series_bible.md` §6 and DEC-65).** Upstream is east: the Ossari plateau, then the Red Escarpment with the falls and the Stair, then the Polders, then the Many Mouths with Highwater in mid-delta. **Gullmouth** lies on the **north** coast at the main mouth of the Aun; **Pale Crag** on the **south** coast, its cliff facing west over the sea; **the Shoals** lie offshore **west** of Highwater, between the Many Mouths and the Sunk; beyond the Sunk, the Open Grey. Seen from the sea looking east, Gullmouth is on the left and Pale Crag on the right. Distances are not fixed beyond RULE-001 (a Spire's reach, ~30 km clear) and the episode texts.
 
 ```canon
 id: RULE-002
@@ -582,6 +591,8 @@ parent: PL-0030
 held_by: HS-001
 ```
 
+*v0.10:* about **140 m**; on the crown of the Gullmouth headland, the town climbing round its foot (§2, Sites).
+
 ```canon
 id: PL-0032
 type: place
@@ -627,6 +638,8 @@ parent: PL-0035
 held_by: HS-002
 ```
 
+*v0.10:* about **130 m**; alone among the square fields, inland of the river dike, on a low rise (§2, Sites).
+
 ```canon
 id: PL-0038
 type: place
@@ -660,6 +673,8 @@ kind: spire
 parent: PL-0040
 held_by: HS-003
 ```
+
+*v0.10:* about **110 m**; on the summit of the white cliff, the cloister built round and below its foot (§2, Sites).
 
 ```canon
 id: PL-0045
@@ -695,6 +710,8 @@ held_by: HS-004
 ```
 
 Held by Rusk at CY 312; captured by the Ossari in S3 and silenced (S4); Weir Terms CY 314.
+
+*v0.10:* about **120 m**; on a rock spur beside the falls, foot above the spray, crown above the escarpment's top line; never on the lip (§2, Sites).
 
 ```canon
 id: PL-0048
@@ -771,6 +788,8 @@ kind: spire
 parent: PL-0055
 held_by: HS-005
 ```
+
+*v0.10:* about **100 m**; in the middle of Brackwater on the inner sandbars, foot in the shallows by the Hull Moot beach (§2, Sites).
 
 ```canon
 id: PL-0060
