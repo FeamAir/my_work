@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Saga OP run, storyboard v2.3/v2.4, style C (SAGA_OP_storyboard.md §5, §6, §8.3, §9). PAID only with the studio
+"""Saga OP run, storyboard v2.3-v2.7, style C (v2.7: keeper R7.5 MUST NOT CHANGE lines from §6.7) (SAGA_OP_storyboard.md §5, §6, §8.3, §9). PAID only with the studio
 director's permission; `show`, `check`, `accept`, `pick`, `peaks` cost $0.
 
   python3 -I op_saga_run.py show                 # every prompt, negative and image order of every step ($0)
@@ -383,6 +383,12 @@ for line in re.findall(r"^\| (K[^|]*) \| `([^`]*)`", BOARD[BOARD.index("### 6.5"
     for i in line[0].split(", "):
         CUES[i.strip()] = line[1]
 chk(len(CUES) == 15, f"§6.5 cues parsed ({len(CUES)} of 15)")
+R75 = {}                                             # v2.7: keeper R7.5 MUST NOT CHANGE additions (§6.7, verbatim)
+_sec67 = BOARD[BOARD.index("### 6.7 MUST NOT CHANGE additions"):BOARD.index("### 6.5 Beat and chain cues")]
+for k_, t_ in re.findall(r"^\| (K[A-Z0-9]+) \| `([^`]*)` \|$", _sec67, re.M):
+    R75[k_] = t_
+chk(sorted(R75) == sorted(["KA11", "K11C", "K03C", "K10C", "KA04", "KW05", "KW07", "KW09", "KW13", "KW14", "KW15"]),
+    f"§6.7 R7.5 lines parsed ({len(R75)} of 11)")
 ALL_CLIPS = (["KA01", "KA02", "KA11", "KA04"] + [f"KW{i:02d}" for i in range(1, 17)] +
              ["K03C", "K04C", "K05C", "K07C", "K10C", "K11C", "K17C"])   # v2.6: K12C dropped with F21_C (§6.6)
 
@@ -393,7 +399,9 @@ def clip_call(kid, sig):
     if kid in V14_CLIPS:
         text = V14_CLIPS[kid] + (" " + cue if cue else "")
         if kid == "K03C":
-            text += f" Must not change: {K03C_MNC}" + (MNC_SIG if sig else "") + "."
+            text += f" Must not change: {K03C_MNC}; {R75[kid]}" + (MNC_SIG if sig else "") + "."
+        elif kid in R75:                                   # K11C, K10C (v2.7, §6.7)
+            text += f" Must not change: {R75[kid]}" + (MNC_SIG if sig else "") + "."
         elif sig:
             text += " Must not change: " + MNC_SIG[2:] + "."
     else:
@@ -404,7 +412,8 @@ def clip_call(kid, sig):
         else:
             cells = row(kid)
             motion, mnc = span(cells[1], 0), cells[2].replace("**", "")   # no markdown in the call
-        text = motion + (" " + cue if cue else "") + " Must not change: " + mnc.rstrip(".") + (MNC_SIG if sig else "") + "."
+        mnc = mnc.rstrip(".") + (f"; {R75[kid]}" if kid in R75 else "")   # v2.7, §6.7
+        text = motion + (" " + cue if cue else "") + " Must not change: " + mnc + (MNC_SIG if sig else "") + "."
     neg_all = NEG_K_ALL.replace("fire, ", "large fire, spreading flames, ") if kid == "KW10" else NEG_K_ALL
     neg = ", ".join([NEG_K] + ([NEG_K_SIG] if sig else []) + [neg_all] + NEG_ADD.get(kid, []))
     return {"id": kid, "model": "kling-2.5-turbo-pro", "duration": 5, "source": acc(SOURCE[kid]),
@@ -523,6 +532,8 @@ def call_checks(sig_values=(False, True)):
                 chk("never runs along a tower groove" in c["prompt"] and "crawling light bands" in c["negative_prompt"],
                     f"{k}: signature lock + negative")
     chk("smoke" not in clip_call("K07C", False)["prompt"], "K07C: no smoke in the prompt (И3)")
+    for k_, t_ in R75.items():                           # v2.7: every R7.5 line sent word for word (§6.7)
+        chk(t_ in clip_call(k_, False)["prompt"], f"{k_}: R7.5 MUST NOT CHANGE line in the prompt")
     for fid in FIX:                                      # v2.6 fix recipes (§5.6)
         c = fix_call(fid, False, 4)
         p = c["prompt"]
