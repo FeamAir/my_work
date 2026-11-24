@@ -480,16 +480,44 @@ So sing it dry. Like they do up the hill.
 A dozen walkers turn their heads at the word. The count stumbles.
 The reed whistle, once, **sharp**. The count resumes. Wick finds his feet very interesting.
 
-REEDMASTER [MS] (lower, to Pell; not unkind)
-Reading's today. The Helm reads the map, up at the palace.
+REEDMASTER [MS] (lower, to Pell; not unkind) `[v1.1: re-take, "and signs it"]`
+Reading's today. The Helm reads the map up at the palace, and signs it.
 (step)
 Whoever reads that map decides who gets wet.
+
+PELL [MS] `[v1.1]`
+We're Last Song. Have been since before I was born.
+
+WICK [MS] `[v1.1]`
+Last for what?
+
+REEDMASTER [MS] (a step, a sentence) `[v1.1]`
+Storm comes, First Song gets sung first.
 (step)
+Then Second.
+(step)
+Then us, if there's voice left.
+
+PELL [MS] `[v1.1]`
+And if there isn't?
+
+REEDMASTER [MS] (does not answer that) `[v1.1]`
+Eight Spires still answer, girl.
+(step)
+Ours answers worst.
+
+REEDMASTER [OS]
 Come dusk we'll all know what Ninth Sluice is worth.
 
 He does not say it like a man who expects good news.
 
-SOUND: from far over the roofs, a whistle: **falling, two tones.** Passed on, nearer. Passed on again, nearer still, then going away down the canal.
+PELL [MS] (low; she knows there is a word; she wants him to say it) `[v1.1]`
+What's under Last Song?
+
+REEDMASTER [OS] (not looking at her) `[v1.1]`
+Nobody on this wheel says that word.
+
+SOUND: on his last word, from far over the roofs, a whistle: **falling, two tones.** Passed on, nearer. Passed on again, nearer still, then going away down the canal.
 
 The count does not break. But every head on the wheel goes down, and a walker's hand closes over something at his belt.
 
@@ -502,29 +530,30 @@ The whistle fades. The third wheel stands still.
 
 MATCH CUT (the turning hub → a compass rose in ink).
 
-## SC 7 — INT. PL-0078 THE MAP OFFICE, TABLE-TOP ONLY — MIDDAY `LA` [7:20–7:57.5]
+## SC 7 — INT. PL-0078 THE MAP OFFICE, TABLE-TOP ONLY — MIDDAY `LA` [7:20–7:57.5; v4 picture 22.5 s] `[v1.1: no narrator]`
 
-*Document sequence on the Tithe Map itself: the season's map. Legible, designed, kept as a master file.*
+*Document sequence on the Tithe Map itself: the season's map. Legible, designed, kept as a master file. **No voice-over.***
 
-A great sheet under a cartographer's hands (bk; Inchley livery cuffs). The delta and its many mouths. HIGHWATER: the Steps, the Mids, the Lows below the dike. Nine black towers, each ringed in its holder's colour. As the Chronicler speaks, tints wash in over the districts: a strong tint, a middling tint, a thin tint.
+A great sheet under a cartographer's hands (bk; Inchley livery cuffs). The delta and its many mouths. HIGHWATER: the Steps, the Mids, the Lows below the dike. Nine black towers, each ringed in its holder's colour. Tints wash in over the districts: a strong tint, a middling tint, a thin tint.
 
-MUSIC: the drone of Sc 5, lighter. No theme.
+MUSIC: the archival drone, lighter. No theme.
 
-CHRONICLER [VO] **FIXED**
-The Tithe Map sets down who is sung first when the storm comes, and who after. First Song. Second Song. Last Song.
+SENIOR CLERK [OS] (brisk, from up the stair)
+Is it dry?
 
-In the legend, three labelled tints. Below them a fourth: **a pale wash**, its label under the cartographer's thumb.
+In the legend, three labelled tints, legible: **FIRST SONG · SECOND SONG · LAST SONG**. Below them a fourth: **a pale wash**, its label under the cartographer's thumb.
 
-CHRONICLER [VO] **FIXED**
-Of the nine Spires, eight still answered. One of the eight answered badly.
+CARTOGRAPHER [OS] (hands only; not stopping)
+Dry, and inked.
 
 On the map one tower's ring is drawn thinner than the rest: the one that stands over the stilt-town.
 
-CHRONICLER [VO] **FIXED** `[ECHO]`
-By law the Helm reads the map aloud, and signs it; and the balance of that year was read on the sixth of Longdark.
-
 The hands roll the great map and slide it into a leather case.
-The same hands slide **a smaller sheet, the same coastline,** under the blotter. (No comment. Two seconds. *Fixed.*)
+
+SENIOR CLERK [OS]
+Then case it. He reads at the last light.
+
+The same hands slide **a smaller sheet, the same coastline,** under the blotter. (No comment. Two seconds. *Fixed.* Nothing is said over it.)
 
 The case is lifted and carried out of frame, up a stair.
 
@@ -547,7 +576,13 @@ Is that what the song is for?
 ATTENDANT [OS]
 It is what today is for.
 
-Ione does not answer. She lifts the fork from its cord, strikes it once on her knuckle (generated insert: hands) and holds its foot to the bone behind her ear. Her eyes close.
+IONE [MS] (quiet; the fork in her hand) `[v1.1]`
+Then they'll hear it true.
+
+ATTENDANT [OS] (a shrug in the voice) `[v1.1]`
+As you like, Lady Ione. It's your throat.
+
+She lifts the fork from its cord, strikes it once on her knuckle (generated insert: hands) and holds its foot to the bone behind her ear. Her eyes close.
 SOUND: the fork's pure tone, heard as she hears it, from inside the head. Everything else drops away.
 
 She opens her eyes. The grooves of the stair wind upward past her.
@@ -584,18 +619,32 @@ Hold it. Four seconds of a city that has stopped moving.
 WICK [MS] (to the coins)
 Four. The rag-man robbed us.
 
+PELL [OS] `[v1.1]`
+Rag-man's drunk by noon. Four's what drunk pays.
+
 Pell is not looking at the coins. Far up the hill the black tower is burning white from the crown down to its lowest turns; the foot stays dark stone.
 CLOSE on Pell, silent: for one unguarded second she is simply looking at the most beautiful thing she has ever seen. Then it goes out of her face.
 
 Below their roof the water in the lane has only **slowed**. It still moves. A bucket turns in it.
 
-WICK [OS]
+WICK [OS] (over the bucket)
 It cares up there.
 
 PELL [MS] (dry; to the tower, not to him) **FIXED**
 Water doesn't care who you are.
 
 Her hand, without her noticing, has found the cord at her neck. (The stone stays under the oilskin. It is not in frame.)
+
+PELL [MS] (softer; still to the tower) `[v1.1]`
+That's why we're getting out. You, me, Nan. Up the Steps. A room with a window that shuts.
+
+WIDE, from behind: two small figures on the ridge, the burning tower far up the hill.
+
+WICK [MS] `[v1.1]`
+On four coppers?
+
+PELL [MS] `[v1.1]`
+On whatever it costs.
 
 [10:36] THE CROWN. The tone ends. The hum goes on a breath longer and stops. The grooves fade from the top down.
 Ione's hand goes to her throat. She swallows. Swallows again. Turns, at last a quarter-profile, no more, and starts down.
