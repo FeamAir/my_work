@@ -1,8 +1,10 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Script
 
-Version 1.0.2 · 2026-11-22 · author: lead-screenwriter · status: **full script for approval**
+Version 1.0.3 · 2026-11-24 · author: lead-screenwriter · status: **full script; matches the animatic v2 picture cut (21:30)**
 Built on: `beat_sheet.md` v2 (same scene numbers) · canon v0.4 + `decisions_resolved.md` · analyst's review `research/pilot_hook_review.md` (O-1…O-11 applied; see the check at the end of this file)
 Spoiler level: **safe for the production team.** This file says what is seen and heard and which wording is binding. It never says why a detail matters. Where a note reads *fixed — ask the lead*, do not change it and do not guess.
+
+**Picture (v2, 2026-11-24):** the animatic v2 cut runs **21:29.75**; its per-shot timings are in `direction/shotlists/S01E01_shotlist.md` (v2). The scene timecodes in this file are the 26:39 story timings and are kept as a reference; where a rule is about *position*, it is stated by scene (see v1.0.3 in the change log).
 
 **Running time:** 26:39 of story · 21 scenes · one day in the world: CY 312, Longdark 6 (Hornday), dawn ebb → dark · pre-title: CY 295, the night of Still 3.
 **Delivered length:** ≈ 29 min with the ending (the opening theme, first full statement) and the next-episode preview. No opening sequence in the pilot; the only title is 9 seconds at 6:11.5, after the cold open.
@@ -38,7 +40,7 @@ Spoiler level: **safe for the production team.** This file says what is seen and
 
 ---
 
-# COLD OPEN (0:00–5:20) — no logo, no card, no title, no narrator
+# COLD OPEN (Sc 1–4; 0:00–5:20 of story, 0:00–5:05.5 in the v2 picture) — no logo, no card, no title, no narrator
 
 ## SC 1 — EXT. PL-0008 NINTH SLUICE LANE → PL-0021 EVACUATION GATE → OPEN FLOOD WATER — NIGHT, CY 295 [0:00–1:10]
 
@@ -95,19 +97,21 @@ Ninth Sluice, fourth lane. Nan's house. Two months owing.
 (he rattles the box, once)
 Six coppers by dusk. Or I take the nets.
 
-A boy drops into frame **upside down**: WICK, eleven, hanging by his knees from the rope-bridge above the door. Skinny, gap-toothed, a mouse-brown mop with a tuft at the right temple, an oatmeal jumper sliding toward his chin.
+The rope-bridge over Nan's door creaks and bows under a weight we don't see. Grit and drops of water fall past the collector, who doesn't look up.
 
-WICK [MS] (cheerful, quick, thick Lows)
+WICK [OS] (from above; cheerful, quick, thick Lows)
 Nan's drowned.
 
-COLLECTOR [OS] (not looking up)
+COLLECTOR [MS] (not looking up)
 She drowned last month.
 
-WICK
+WICK [OS] (from the bridge; the rope sways)
 Drowned again. Took the money with her. Both times.
 
-NAN [OS] (inside the house; thin, cracked, very loud)
+NAN [OS] (inside the house; thin, cracked, very loud; over a slow push-in to the dark doorway)
 I'll drown *you*, you little eel! Get down off that bridge!
+
+*(v1.0.3: Wick is never seen on the bridge. The bridge, the falling grit and Nan's line carry the joke; nothing in canon depends on seeing him hang.)*
 
 The collector writes one stroke on his slate.
 
@@ -118,7 +122,7 @@ He goes on to the next door. Knock.
 
 PELL comes out past the nets: fifteen, short, wiry, leaning forward as if into wind. Tar-brown oilskin; cropped rust-brown hair; one long thin braid on the **left** with a blue tin tag stamped **IX**. A long-handled rake over one shoulder, a coil of rope over the other. She watches the collector's back for exactly as long as it takes to count something.
 
-WICK [OS] (righting himself, dropping to the planks)
+WICK [OS] (thump: down off the bridge onto the planks behind her)
 Six! We never found six in a *week*.
 
 Pell looks up.
@@ -130,7 +134,7 @@ Below the plank-walk the canal has no water in it. Silt, open to the sky, as far
 PELL [MS] (dry, clipped, already moving) **FIXED**
 You want it found, you pay the mud. Mud doesn't do favours.
 
-She is over the edge and down the ladder. Wick looks at the drop, looks at the ladder, and jumps.
+She is over the edge and down the ladder. WICK is at the edge behind her, the right way up, the first time we see him: eleven, skinny, gap-toothed, a mouse-brown mop with a tuft at the right temple, an oatmeal jumper too big for him. He looks at the drop, looks at the ladder, and jumps.
 
 ## SC 3 — EXT. PL-0020 NINTH SLUICE BACK-CANAL, BY THE OLD SLUICE — DAWN EBB [2:00–4:00]
 
@@ -217,7 +221,7 @@ NAN mends net at the table and does not look up: tiny, hunched, an indigo headsc
 Silt-bread on a board, cut in three. Pell eats with one hand. The other is a fist in her lap.
 
 NAN [MS] (quick, scolding, without a breath)
-Fifteen years old and you still track silt across my floor. Sit. Eat. And don't tell me what you found, I can see from here it was nothing.
+Fifteen years old and you still track silt across my floor. Sit. Eat.
 
 Pell slides her own half-eaten piece across the board to Wick, without looking at him. He takes it without thanks. It is an old arrangement.
 
@@ -242,14 +246,16 @@ SOUND: through the wall, the Sluice Spire's morning song begins: one trained voi
 
 Wick, chewing, cheerful, joins it. **One loud sung note.**
 
-NAN'S HAND IS OVER HIS MOUTH before the note is finished. (The one generated clip of the scene.)
+NAN'S HAND IS OVER HIS MOUTH before the note is finished. (The one generated clip of the scene.) *A hush, not a blow: quick, the palm only. The fear is hers; on him it reads as surprise.*
 
 SILENCE in the room, three seconds. Nobody moves. Pell's fist on the table. Wick's eyes above the old hand. Outside, the Spire sings on, thin and flat.
 
 NAN [LIPSYNC-CU] (very quiet; the scold gone out of the voice; what is left is fear) **FIXED**
 Never sing, chick. Hum if you must, and only for the house.
 
-She takes her hand away. Wick does not make a joke.
+She takes her hand away and lays it flat on the table, fingers pressed hard into the wood to stop them shaking; the crooked little finger too. Beside it, the net-needle. Across the board, Wick's crust lies where he dropped it. (INSERT: her hand only. Neither face is in it.)
+
+Wick does not make a joke.
 
 Nan shoulders a bale of mended net bigger than she is.
 
@@ -340,8 +346,6 @@ No half-walks today.
 Short a pin. Two wheels. Half the walks.
 (step) **FIXED**
 A wheel doesn't care who walks it.
-(step)
-I've forty grown backs it doesn't care about, ahead of you.
 
 WICK [MS] (helpful)
 So sing it dry. Like they do up the hill.
@@ -517,16 +521,11 @@ Then the doors, and the room turns the other way.
 
 RUEL comes in last: forty-eight, big, heavy-chested, sea-weathered. A deep-blue long coat with a silver cormorant clasp; salt-and-pepper hair in a short sailor's queue; a grey-streaked square beard. A rolled petition in his **right** hand. Behind his shoulder, a young officer (bk only: a short deep-blue jacket, dark umber curls tied high with a silver cord). She does not turn round in this episode.
 
-He stops for the door-warden.
-
-RUEL [MS] (warm, round, broad; Gullmouth vowels; a voice people lean toward)
-And that girl of yours? Still climbing my rigging when the watch isn't looking?
-
-The door-warden's back straightens with pleasure. Faces along the benches are smiling before Ruel has reached them. He is the man you would follow into a boat.
+Faces along the benches are smiling before Ruel has reached them. He is the man you would follow into a boat.
 
 At the map-table. Two men who have had this conversation before; they keep it low. Play it on hands, the map-case, the petition, and on the listener.
 
-RUEL [MS] (quiet)
+RUEL [MS] (quiet; warm, round, broad; Gullmouth vowels; a voice people lean toward)
 Pumps for the low sluices. It's all written down. You need only say yes.
 
 THE HELM [OS] (old, rasping, tired)
@@ -974,7 +973,7 @@ It holds **one second** into the dark, alone.
 **Total: 21 scenes, 26:39.** Scene numbers are those of the beat sheet; the bank scenes (13–16) are woven into the hall scenes (10–12), so the numbers no longer run in order.
 Pell is on screen 1:10–5:20, 6:20.5–7:20, 9:58–10:36, 17:44–18:19 and 23:24–26:39. Her longest absence is 7:08 (10:36 → 17:44).
 Lip-sync close-ups: 5 (Sc 4, 11, 12, 15, 20). If the style test allows four: Sc 12's line goes to `[MS]` over the map, the close-up to the reading hand.
-The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:25 of speech inside 1:44 of screen time, none before 5:20, none over a face.
+The Chronicler: three entries (Sc 5, Sc 7, Sc 19), about 1:25 of speech inside 1:44 of screen time, none before the end of Sc 4 (5:20 of story; 5:05.5 in the v2 picture), none over a face.
 Without spoken dialogue: Sc 1 entire; the song and the glass in Sc 9; the fall and four seconds after it; the pens in Sc 16; the last forty seconds of Sc 20 but for one line. About nine minutes in all.
 
 ---
@@ -1030,7 +1029,7 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 - Hook legible with the sound off: **yes** by 0:10; the lullaby and the stone's answer rely on the SDH lines listed above.
 - A wrong the viewer wants answered by 0:30: **yes** (the bar drops at 0:25).
 - Heroine, stake and deadline by 2:00: **yes**. First mystery at 3:00: **yes**, to the second.
-- No logo, card, title or narrator before the hook: **yes**; first narrator at 5:20, title at 6:11.5.
+- No logo, card, title or narrator before the hook: **yes**; first narrator at 5:20 of story (5:05.5 in the v2 picture, straight after Sc 4), title at 6:11.5 of story.
 - Each minute ends on an open question: **yes** (1:10 who took the child; 2:00 can she find six; 3:00 what answered; 4:00 will she sell it; 5:20 why may they not sing; 6:20.5 what did the Queen do).
 - Remaining soft spot inside six minutes: **5:20–6:11.5**. Fifty-one and a half seconds of narrator directly after the kitchen is still the lowest-energy stretch of the opening. It is as short as its five binding sentences allow, and it now opens on the stone. If the retention curve after release shows a step here, the remedy is in the edit (panel pace), not in the text.
 - Remaining soft spot outside six minutes: **7:20–9:04** (the map, then Ione's stair) is quiet by design, and ends in the crown at 9:04.
@@ -1042,3 +1041,4 @@ A viewer with the sound off, in the first ten seconds, sees: an empty cradle in 
 | 1.0 | 2026-11-22 | Full script on beat sheet v2; the analyst's O-1…O-11 applied. |
 | 1.0.1 | 2026-11-22 | Sc 8: the old Cantor wears **a black throat-band** (was "a yellowed throat-band"). Canon HS-090: a Cantor without a voice wears black. He is a background figure with his own silhouette and is nobody the viewer meets later under a name. Nothing else in the scene changes; timings unchanged. Source: keeper's report r5; `decisions_resolved.md` Part 5. |
 | 1.0.2 | 2026-11-23 | After the director's storyboard acceptance (`direction/S01E01_storyboard_acceptance.md` §5). (1) Timecodes: Sc 5 5:20–6:20.5 (tapestry 51.5 s at a readable pace for the unchanged Chronicler text; title 9 s at 6:11.5–6:20.5), Sc 6 6:20.5–7:20, Sc 7 7:20–7:57.5, Sc 8 7:57.5–9:04. Everything from 9:04 and the total of 26:39 are unchanged. (2) Sc 18: the hands wear black quilted cuffs, no tabard, no house colour (was "a soldier's cuffs in rust-red"); the file of guards behind keeps its rust-red. (3) Sc 9: the tower burns white from the crown down to its lowest turns; the foot stays dark stone (was "from crown to foot"). No line of dialogue changes. |
+| 1.0.3 | 2026-11-24 | Matches the animatic v2 picture cut (21:30; `direction/S01E01_animatic_v2_notes.md`). (1) **Sc 2 restaged (approved):** Wick is not shown hanging upside down; the rope-bridge bows under an unseen weight, grit falls past the collector, Wick's two lines are [OS] from the bridge, Nan's "Get down off that bridge!" pays the joke over a push-in to the doorway; Wick's first sight and description move to the ladder edge ("looks at the drop… and jumps"). (2) **Sc 4 restaged (approved, amended):** after the three-second silence, an insert of Nan's hand only, pressed flat on the table to stop it shaking (the crooked right little finger visible), the net-needle, Wick's dropped crust; no faces; the hand over the mouth is directed as a hush, not a blow. (3) **Three lines cut with the picture, not recorded for finals:** L021 (Nan, "And don't tell me what you found…"), L039 (Corr, "I've forty grown backs…"), L058 (Ruel, "And that girl of yours?…") and the door-warden beat with it; Ruel's voice direction moves to his first remaining line. No canon clue, FIXED or [ECHO] line is lost (`continuity_check.md` §8). (4) Position rules restated by scene: the Chronicler, title, logo and card come **not before the end of Sc 4**. The studio director's 21:30 ruling overrides "never cut anything in 0:00–5:20" (recorded in `beat_sheet.md`). Story timecodes in this file are unchanged. |

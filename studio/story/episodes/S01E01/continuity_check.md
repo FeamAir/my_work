@@ -104,7 +104,7 @@ Added beyond the outline in v1.1 (each for coherence; none changes a fact): the 
 | "Helm Lucan Dask died on the sixth of Longdark, with the Tithe Map unsigned." | true — cause not given |
 | "By law a Helm is chosen on the Still Days. There were thirty days, and a debt carried forward." | fixed; Longdark 6 + 30 → Still 1 |
 
-Script rule: the Chronicler never says "mad", "natural", "accident", "the sea held" or anything about *why*. He counts. He is not heard before 5:20, and never over a face.
+Script rule: the Chronicler never says "mad", "natural", "accident", "the sea held" or anything about *why*. He counts. He is not heard before the end of Sc 4 (5:20 of story; 5:05.5 in the v2 picture), and never over a face.
 
 ## 4. What the pilot plants for E2–E12 (and beyond)
 
@@ -154,7 +154,7 @@ Outline items that belong to later episodes and are **deliberately not in E1**: 
 
 | Rule | Result |
 |---|---|
-| Hook rule (investor) | wordless hook 0:00–0:06; "why?" by 0:25; stake by 2:00; first mystery at 3:00; no logo, title or narrator before 5:20 (beat sheet §2; second-by-second check at the end of `script.md`) |
+| Hook rule (investor) | wordless hook 0:00–0:06; "why?" by 0:25; stake by 2:00; first mystery at 3:00; no logo, title or narrator before the end of Sc 4 (beat sheet §2; second-by-second check at the end of `script.md`) |
 | Bible §12.1 hand-off | last frame of E1 = first frame of E2 (same room, same sound) |
 | §12.1.3 cold open caused | the pre-title's doorpost, gate and hands all return inside the episode (Sc 2, 18); the tapestry's lone singer and pearl return in Sc 9, 10 |
 | §12.2.2 season map sequence | Sc 7 |
@@ -195,6 +195,28 @@ Reasoning beyond this is in the sealed file and in my report only by reference. 
 | §2 | new Sc 15a: LA (the Sc 2 lane plate, wet, gold light) + one silent close-up. Sc 5: six panels |
 | §3, §5 | unchanged (five lip-syncs; no new reference: Sc 15a reuses the lane and the collector) |
 | §6 | "0:00–0:35 no score" → no score until 0:32, but diegetic alarm from 0:00. Add the falling two-tone whistle (Sc 6, Sc 20). The bell opens Sc 16. The fall: four seconds of total silence, then the hall's uproar, then a hard cut |
-| §7 | Chronicler: three entries, none before 5:20; texts as in `script.md` |
+| §7 | Chronicler: three entries, none before the end of Sc 4; texts as in `script.md` |
 | §8 | time of day: the woven block is all low sun → last light; Sc 13 no longer steps back in time |
 | §9 | V1: recut per the analyst (cradle → gate by 0:05). V2: SDH burned in. V4: Nan's line `[OS]`, no lip-sync close-up in a social cut. First teaser: V3, ending on Pell's line |
+
+## 8. Animatic v2 rulings (2026-11-24, lead writer)
+
+Source: `direction/S01E01_animatic_v2_notes.md` §2–§4. Script: `script.md` v1.0.3. Beat sheet: v2.1.
+
+**8.1 Restaged child shots — approved.** Rule applied: the child is never shown in a distressing state; every clue stays.
+- **sc02-sh050 / sh070 / sh080 — approved as proposed.** Wick is never seen hanging; the bridge bows under an unseen weight, grit falls past the collector, Wick's L003/L005 are `[OS]` from above, Nan's "Get down off that bridge!" pays the joke over the push-in to the doorway. Amendment (script only): Wick's first sight and description move to the ladder edge (sc02-sh200), right way up. Clues checked: the doorpost and its tide-marks, the collector, "six coppers", "Nan's house", the nets, "Ninth Sluice" all stay; no canon fact needs the upside-down pose (canon has rope-bridges between stilt-houses, `world.md`).
+- **sc04-sh180 — approved, amended.** Insert of Nan's hand only, pressed flat to stop it shaking, the net-needle, Wick's dropped crust; no faces. Amendments: (1) for finals the hand must carry Nan's canon mark — the **crooked RIGHT little finger** — since nothing else in the insert says whose hand it is; (2) the hand over Wick's mouth (sc04-sh150/160) is directed as a hush, not a blow, so the plant "Nan's hand over Wick's mouth" (pays E2/E3/E8) is kept without distress on the child. The 3-s silence before it is unchanged. Note for finals, not canon: the v2 frame shows open sea at eye level through the doorway; the Lows lie below the sea line behind the dike, so the set should show the oiled-cloth window or a dike wall, not a sea horizon.
+
+**8.2 Cold-open cut — recorded.** The studio director's 21:30 ruling overrides "never cut anything in 0:00–5:20" (beat sheet §3). Every Sc 1–4 plant in §4 is still on screen (checked against v2 notes §2.1). The new standing rule is in beat sheet §3 (v2.1).
+
+**8.3 Chronicler position — reworded.** "None before 5:20" / "never before 5:55" → **"not before the end of Sc 4"** (with the logo, card and title). The intent was always "after the whole cold open"; a minute mark breaks whenever the cold open is re-timed. v2 picture: 5:05.5.
+
+**8.4 Three cut VO lines — confirmed, nothing lost.**
+
+| Line | Text | Clue check | Fix |
+|---|---|---|---|
+| L021 Nan | "And don't tell me what you found, I can see from here it was nothing." | Not a plant. Pell's age stays in L020; "the old sill. Bare." and "not since—" stay; Nan's fear of the stone is E2's (she sees it first there) | none |
+| L039 Corr | "I've forty grown backs it doesn't care about, ahead of you." | Not a plant. The treadmill plants stay: the still wheel, "Short a pin" (SEC-028 seed), FIXED L038 "A wheel doesn't care who walks it" (Corr's dossier line, E5); "no half-walks" keeps the two coppers unpaid | none |
+| L058 Ruel | "And that girl of yours? Still climbing my rigging…" | Not a plant. Ruel's plants are the left-hand clasp and pearl insert, the petition, "knew what was drawn", Maren's back — all kept. His "calls everyone by name" habit is a speech trait, shown from E2 | none; his voice direction moves to "Pumps for the low sluices" |
+
+None of the three is recorded for finals unless the lead restores it. No wording change to any other line is needed.

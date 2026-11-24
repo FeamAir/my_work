@@ -1,6 +1,6 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Beat Sheet
 
-Version 2.0 · 2026-11-22 · author: lead-screenwriter · status: **beat sheet v2 — the full script (`script.md` v1.0) is written to it**
+Version 2.1 · 2026-11-24 · author: lead-screenwriter · status: **beat sheet v2 — the full script (`script.md` v1.0.3) is written to it**; v2.1 records the animatic v2 rulings (position rules by scene, the cold-open cut, two restagings, three cut lines) — see `continuity_check.md` §8
 Canon: v0.4 + `story/decisions_resolved.md` · Outline: `season01_outline.md` v1.3, E1
 Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `sealed/master_mystery.md`; nothing here explains a sealed answer. Describe only what is seen and heard.
 
@@ -84,7 +84,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Characters:** CH-0001 Pell · CH-0007 Wick · CH-0015 Nan `[OS]` · the tithe-collector (light, unnamed) · walkers above (sound only).
 - **What happens:**
   - A fist knocks on the old tide-mark. `[v2]` The collector, one sentence of stake and no jargon: *"Ninth Sluice, fourth lane. Nan's house. Two months owing. Six coppers by dusk. Or I take the nets."* He looks at the nets, not the house.
-  - Wick, upside down from the rope-bridge: Nan has drowned. Twice. Took the money with her, both times. Nan `[OS]` spoils it.
+  - Wick, `[OS]` from the rope-bridge (v2.1: never shown hanging; the bridge bows, grit falls): Nan has drowned. Twice. Took the money with her, both times. Nan `[OS]` spoils it.
   - Pell (fifteen; oilskin, cropped rust hair, left braid with the tin tag "IX") comes out with a rake and a rope.
   - The six-second rise: stilt-town below the sea-line, the dike, the granite terraces, the black towers — one humming audibly **flat**. Back down: the canal bed lies open.
   - Pell, FIXED LINE `[MS]`: *"You want it found, you pay the mud. Mud doesn't do favours."*
@@ -154,7 +154,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Characters:** CH-0001 Pell · CH-0007 Wick · CH-0048 Corr (light; not named aloud) · walkers (bk).
 - **What happens:**
   - Three great wheels over the sump; the count on one pitch. Two wheels walk; **the third stands still** (a silent image now — nobody discusses it beyond "short a pin").
-  - Pell's rag: buttons, a spoon, a buckle — four coppers of it. She wants a half-walk for the other two. Corr, a step per sentence: no half-walks; short a pin; FIXED LINE: *"A wheel doesn't care who walks it."* — forty grown backs ahead of her.
+  - Pell's rag: buttons, a spoon, a buckle — four coppers of it. She wants a half-walk for the other two. Corr, a step per sentence: no half-walks; short a pin; FIXED LINE: *"A wheel doesn't care who walks it."* — (v2.1: "forty grown backs" cut with the picture; "no half-walks" carries it).
   - Wick: so sing it dry, like up the hill. Heads turn; the whistle, sharp; the count resumes.
   - `[v2]` Corr, low: *"Reading's today. The Helm reads the map, up at the palace. Whoever reads that map decides who gets wet. Come dusk we'll all know what Ninth Sluice is worth."* (O-9: the election tied to her street; "the Helm" explained by what he does.)
   - `[v2]` **A falling two-tone whistle crosses the roofs** and passes. Every head on the wheel goes down. Corr: *"Listeners."* Pell's hand is on the cord at her collar before she has decided to move it. Wick sees.
@@ -227,7 +227,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** the season's central act, in full view and in the best light; the man the audience must love until E11.
 - **Seeds:** SEC-001 (the left hand; the blood; Ione as witness) · M-RNG (one close insert — the pearl, minutes after the tapestry's) · M-MAP · SEC-037 / the news chain, hint only (Ruel already knows what is drawn) · DEC-24 (Maren's back) · the Fennick chair holds a steward.
 - **Transition:** `[v2]` the bead of blood on a knuckle → a bead of ink at a pen-point (Sc 14).
-- **Length:** 2:05 (was 2:15; ends 14:14). `[v2]` Follows Sc 13. Juno and the door-warden are not named aloud; Ruel's knowledge of the door-warden's family is played as one question about his daughter.
+- **Length:** 2:05 (was 2:15; ends 14:14). `[v2]` Follows Sc 13. Juno and the door-warden are not named aloud; v2.1: the door-warden question (L058) is cut with the picture; the charm plays on the faces that smile as he passes.
 
 ### Sc 14 — The figure at the next desk (episode puzzle) `LA`
 - **Place:** PL-0011. **Time:** continuous.
@@ -377,13 +377,13 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 | **0:06–0:10** | lanterns dying; water over the highest tide-mark and over a numeral IX | four seconds; the street has a number |
 | **0:10–0:30** | a crowd in water on one side of a gate, dry steps on the other; young hands **shut** it; eyes in the gap; fists on iron | by 0:25: *who shut the gate — and why?* A wrong the viewer wants answered |
 | **0:30–1:10** | a woman hums five notes over the water; a baby hums two back; a sleeve lifts the baby away; the night is named | the first music; a living child; *who took her?* — unanswered on purpose |
-| **1:10–2:00** | the same doorpost, dry, seventeen years on; "Ninth Sluice… six coppers by dusk, or I take the nets"; a boy upside down; a girl with a rake; six seconds of the city | a face, a joke, a deadline and a threat anyone understands; the district named |
+| **1:10–2:00** | the same doorpost, dry, seventeen years on; "Ninth Sluice… six coppers by dusk, or I take the nets"; a boy's voice from a sagging rope-bridge; a girl with a rake; six seconds of the city | a face, a joke, a deadline and a threat anyone understands; the district named |
 | **2:00–3:00** | the bare sill at 2:14; black water she will not step into; the rope; she hums in fear; "Pell. Mouth." | her fear; a law against her own voice; something is in that pool |
 | **3:00–4:00** | the stone **hums back**; the pool rings; only the boy sees; "Stones don't sing. That's six coppers, that is."; "Buttons!" | the first mystery on the three-minute mark; the viewer knows more than the heroine — and that she will sell it |
 | **4:00–5:20** | the grandmother's table; bread passed to the boy; "Not in Ninth Sluice since —"; one sung note; the hand; *"Never sing"*; the stone goes round her neck | a secret at a table and a second behind it; the rule of the world as fear in a face |
 | **5:20–6:14** | six woven panels, five sentences; the title at 6:02 | the first narrator answers with a black tower, a queen and a closed fist — and is brief |
 
-Rules kept: no logo, studio card, title or narrator before 5:20; no scene in the cold open is exposition without a want in it; every minute ends on an open question; no term is spoken before the title that the picture has not already explained. **For platform uploads:** the AI badge and any studio mark are a corner bug from the title onward and on the end card — never on frame one (W-11). The second-by-second check against the analyst's criteria is at the end of `script.md`.
+Rules kept: no logo, studio card, title or narrator before the end of Sc 4 (5:20 of story; 5:05.5 in the v2 picture); no scene in the cold open is exposition without a want in it; every minute ends on an open question; no term is spoken before the title that the picture has not already explained. **For platform uploads:** the AI badge and any studio mark are a corner bug from the title onward and on the end card — never on frame one (W-11). The second-by-second check against the analyst's criteria is at the end of `script.md`.
 
 ## 3. Running time `[v2]`
 
@@ -416,12 +416,13 @@ By block: cold open 5:20 · title sequence 0:54 · wheel and map 1:40 · the son
 **Pell on screen:** 1:10–5:20, 6:14–7:14, 9:58–10:36, 17:44–18:19, 23:24–26:39. **Longest absence: 7:08** (10:36 → 17:44). Correction: v1.1 said "never away for more than nine minutes"; by its own timings she was away about fourteen and a half (≈11:30 → 26:10).
 **Packaging:** no opening sequence before or inside the pilot beyond the 12-second title; the opening theme plays as the ending; + next-episode preview. Delivered length ≈ 29 min.
 **If the edit must lose time**, shorten in this order and no further: Sc 8 (−0:10), Sc 13 (−0:10), Sc 17 (−0:05). Never cut: any `FIXED LINE`, any `[ECHO]`, Sc 7, Sc 15a, Sc 18, the last second of Sc 20, anything in 0:00–5:20.
+**v2.1 (2026-11-24) — superseded by the studio director's 21:30 ruling (recorded, not re-argued):** the v2 picture cut trims the cold open after 0:30 (Sc 1 −4 s, Sc 2 −4.5 s, Sc 3 −29 s, Sc 4 −17.5 s) and loses one line there (L021). The rule now in force for the cold open (Sc 1–4) and every later trim: no beat, no plant of `continuity_check.md` §4, no `FIXED`/`[ECHO]` line is cut; the protected durations of `direction/S01E01_animatic_v2_notes.md` §2.2 do not change (0:00–0:30, the baby's notes and the sleeve, the pool from the hum to the rings, the 3 s after Nan's hand, the Sc 1/18 hands); any further cut there needs the lead's sign-off.
 **If the edit wants air**, it goes to Sc 9 (the held glass), the four seconds after the fall in Sc 12, and Sc 20 — up to +0:30 in all.
 
 ## 4. Dialogue density `[v2]`
 
 Wordless: Sc 1 (all), Sc 9 (the song and the glass), the fall in Sc 12 and four seconds after it, the pens in Sc 16, Sc 18 (one off-screen line), the last forty seconds of Sc 20 but for one line. About **nine minutes without spoken dialogue**.
-Chronicler: three entries (Sc 5 ≈0:42, Sc 7 ≈0:40, Sc 19 ≈0:15), none before 5:20, none over a face. Every sentence passes the literal-truth test (`continuity_check.md` §3).
+Chronicler: three entries (Sc 5 ≈0:42, Sc 7 ≈0:40, Sc 19 ≈0:15), **none before the end of Sc 4** (v2.1 wording; 5:20 of story, 5:05.5 in the v2 picture), none over a face. Every sentence passes the literal-truth test (`continuity_check.md` §3).
 Hollis `[VO]` in Sc 13 is his own young voice over figures — never the Chronicler's cadence, and he does not say "carried forward" in this episode.
 **Names spoken aloud (O-11):** Pell, Wick, Nan, Mags (once), Ione (Ilvane), Ruel, Hollis, Kett, Dame Lantry, Lucan (Ruel once in Sc 12; "Helm Lucan Dask" once in Sc 19), Queen Neveh (once). Not named aloud in E1: Corr, Juno, Fossett, Odo, Tuck (who is no longer mentioned at all), the collector.
 **Terms spoken before the title:** Ninth Sluice, coppers, dusk, nets, the old sill. After it, in this order: the Spires, the Concord, tithe (Sc 5) · the Helm, the map, Listeners (Sc 6) · Tithe Map, First / Second / Last Song (Sc 7) · Cantor (Sc 10) · the Still Days (Sc 19).

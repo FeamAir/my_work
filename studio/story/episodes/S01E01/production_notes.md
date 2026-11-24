@@ -32,7 +32,7 @@ Also one **establishing asset** worth a top-model still: the six-second rise ove
 | Sc | Mode | Notes |
 |---|---|---|
 | 1 | GEN (4) + LA (3) | see M1 |
-| 2 | MIX | the knock and Pell's exit are generated; Wick upside down is a held pose with swinging rope; the city rise is a tall still with a vertical pan (also crops well for 9:16) |
+| 2 | MIX | the knock and Pell's exit are generated; Wick is not shown on the bridge (v2 restage, approved 2026-11-24): the rope-bridge bows and drips over the collector, Wick `[OS]`; the city rise is a tall still with a vertical pan (also crops well for 9:16) |
 | 3 | MIX | see M2; Mags is a distant figure, never closer than a full-body long shot |
 | 4 | LA + 1 GEN | a table scene: hands, bread, net-needle, the chest in the corner. The one generated clip is Nan's hand going over Wick's mouth. Nan's CU is lip-sync #1 |
 | 5 | **LA only** | tapestry: five panels drawn as *woven textile*, a distinct flat style (this style is also the look of all later "Chronicle" sequences). Camera moves only. No animation inside the weave |
@@ -159,7 +159,7 @@ mudlarks · treadmill walkers · Lows lane folk (CY 295 night and CY 312) · Lan
 
 ## 7. The Chronicler
 
-- **Heard three times only:** Sc 5 (≈55 s), Sc 7 (≈30 s), Sc 19 (≈20 s). **Never before 5:55.** Never over a character's face — only over the tapestry, the map, and the lane at dusk.
+- **Heard three times only:** Sc 5 (≈55 s), Sc 7 (≈30 s), Sc 19 (≈20 s). **Never before the end of Sc 4** (2026-11-24 ruling; was "5:55" of the 29-min version; 5:05.5 in the v2 picture). Never over a character's face — only over the tapestry, the map, and the lane at dusk.
 - **Voice:** old, dry, precise, faintly hoarse; a record-keeper reading entries, not a bard and not a priest. Clear consonants, every word finished. Unhurried — about 110 words a minute. No tremor of feeling at "She sang her city into the sea"; no relish at the death. He gives dates, numbers and counts with the smallest audible satisfaction.
 - **Casting constraints (fixed — ask the lead):** not a bass, no "epic trailer" colour; the timbre must be one that can become **slightly hoarser** in a later season without being recast; it must be clearly distinguishable from every S1 speaking character on first hearing. Lock the voice ID at the first TTS probe and never regenerate it with different settings.
 - **Text rule:** his lines are delivered exactly as scripted — no paraphrase, no trims in the edit. Lines marked `[ECHO]` are never cut.
