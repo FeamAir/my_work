@@ -713,7 +713,8 @@
   "speech_dur": 4.5,
   "f0_med": 88.6,
   "stt": "The first voices raised the spires. They are not heard now.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh010_L029_NARR01_t2.mp3": {
   "line_id": "L029",
@@ -739,7 +740,8 @@
   "speech_dur": 4.94,
   "f0_med": 102.6,
   "stt": "The first voices raised the spires. They are not heard now.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh010_L029_NARR01_v4turbo.mp3": {
   "line_id": "L029",
@@ -762,7 +764,8 @@
   "speech_dur": 4.28,
   "f0_med": 117.2,
   "stt": "The first voices raised the spires. They are not heard now.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc05-sh020_L030_NARR01.mp3": {
   "line_id": "L030",
@@ -788,7 +791,8 @@
   "speech_dur": 8.62,
   "f0_med": 106.0,
   "stt": "In the last year of the Old Kingdom, the nine Warden families found Queen Neve past reason and her court with her.",
-  "qa": "check: missing=['neveh'] extra=['neve']"
+  "qa": "check: missing=['neveh'] extra=['neve']",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh020_L030_NARR01_t2.mp3": {
   "line_id": "L030",
@@ -814,7 +818,8 @@
   "speech_dur": 7.9,
   "f0_med": 102.6,
   "stt": "In the last year of the Old Kingdom, the nine Warden families found Queen Neve past reason and her court with her.",
-  "qa": "check: missing=['neveh'] extra=['neve']"
+  "qa": "check: missing=['neveh'] extra=['neve']",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh020_L030_NARR01_v4turbo.mp3": {
   "line_id": "L030",
@@ -837,7 +842,8 @@
   "speech_dur": 7.92,
   "f0_med": 121.2,
   "stt": "In the last year of the Old Kingdom, the nine Warden families found Queen Neve past reason and her court with her",
-  "qa": "check: missing=['neveh'] extra=['neve']"
+  "qa": "check: missing=['neveh'] extra=['neve']",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc05-sh060_L031_NARR01.mp3": {
   "line_id": "L031",
@@ -863,7 +869,8 @@
   "speech_dur": 3.24,
   "f0_med": 89.1,
   "stt": "She sang her city into the sea",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh060_L031_NARR01_t2.mp3": {
   "line_id": "L031",
@@ -889,7 +896,8 @@
   "speech_dur": 3.02,
   "f0_med": 103.2,
   "stt": "She sang her city into the sea",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh060_L031_NARR01_v4turbo.mp3": {
   "line_id": "L031",
@@ -912,7 +920,8 @@
   "speech_dur": 2.56,
   "f0_med": 125.0,
   "stt": "She sang her city into the sea",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc05-sh070_L032_NARR01.mp3": {
   "line_id": "L032",
@@ -938,7 +947,8 @@
   "speech_dur": 4.18,
   "f0_med": 83.3,
   "stt": "The nine made their concord on what stayed dry.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh070_L032_NARR01_t2.mp3": {
   "line_id": "L032",
@@ -964,7 +974,8 @@
   "speech_dur": 4.06,
   "f0_med": 105.3,
   "stt": "The nine made their concord on what stayed dry.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh070_L032_NARR01_v4turbo.mp3": {
   "line_id": "L032",
@@ -987,7 +998,8 @@
   "speech_dur": 3.32,
   "f0_med": 119.4,
   "stt": "The nine made their concord on what stayed dry",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc05-sh080_L033_NARR01.mp3": {
   "line_id": "L033",
@@ -1013,7 +1025,8 @@
   "speech_dur": 9.94,
   "f0_med": 79.2,
   "stt": "This is the three hundred and twelfth year of that concord three hundred and twelve years, each with its tithe and each balance carried forward.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh080_L033_NARR01_t2.mp3": {
   "line_id": "L033",
@@ -1039,7 +1052,8 @@
   "speech_dur": 12.5,
   "f0_med": 101.9,
   "stt": "This is the three hundred and twelfth year of that concord three hundred and twelve years, each with its tithe and each balance carried forward.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh080_L033_NARR01_v4turbo.mp3": {
   "line_id": "L033",
@@ -1062,7 +1076,8 @@
   "speech_dur": 9.7,
   "f0_med": 132.2,
   "stt": "This is the three hundred and twelfth year of that concord. Three hundred and twelve years, each with its tithe and each balance carried forward.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc05-sh090_L034_NARR01.mp3": {
   "line_id": "L034",
@@ -1088,7 +1103,8 @@
   "speech_dur": 2.6,
   "f0_med": 108.5,
   "stt": "And the water kept its counsel.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh090_L034_NARR01_t2.mp3": {
   "line_id": "L034",
@@ -1114,7 +1130,8 @@
   "speech_dur": 2.88,
   "f0_med": 97.0,
   "stt": "And the water kept its counsel.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc05-sh090_L034_NARR01_v4turbo.mp3": {
   "line_id": "L034",
@@ -1137,7 +1154,8 @@
   "speech_dur": 2.06,
   "f0_med": 114.7,
   "stt": "And the water kept its counsel",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc06-sh060_L035_V01_PELL_v4turbo.mp3": {
   "line_id": "L035",
@@ -1321,7 +1339,8 @@
   "speech_dur": 7.46,
   "f0_med": 133.3,
   "stt": "Readings today. The helm reads the map up at the palace. Whoever reads that map decides who gets wet",
-  "qa": "check: missing=[\"reading's\"] extra=['readings']"
+  "qa": "check: missing=[\"reading's\"] extra=['readings']",
+  "v4_status": "superseded in v4 by the L041 re-take ('…and signs it'), vo_plan.json v4_batch"
  },
  "alt/sc06-sh160_L042_V10_CORR_v4turbo.mp3": {
   "line_id": "L042",
@@ -1393,7 +1412,8 @@
   "speech_dur": 6.88,
   "f0_med": 100.6,
   "stt": "The tithe map sets down who is sung first when the storm comes, and who after.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh020_L044_NARR01_t2.mp3": {
   "line_id": "L044",
@@ -1419,7 +1439,8 @@
   "speech_dur": 6.78,
   "f0_med": 95.8,
   "stt": "The tithe map sets down who is sung first when the storm comes and who after.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh020_L044_NARR01_v4turbo.mp3": {
   "line_id": "L044",
@@ -1442,7 +1463,8 @@
   "speech_dur": 5.48,
   "f0_med": 123.1,
   "stt": "The tithe map sets down who is sung first when the storm comes and who after",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc07-sh030_L045_NARR01.mp3": {
   "line_id": "L045",
@@ -1468,7 +1490,8 @@
   "speech_dur": 3.2,
   "f0_med": 67.5,
   "stt": "First song, second song, last song",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh030_L045_NARR01_t2.mp3": {
   "line_id": "L045",
@@ -1494,7 +1517,8 @@
   "speech_dur": 3.58,
   "f0_med": 96.4,
   "stt": "First song, second song, last song",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh030_L045_NARR01_v4turbo.mp3": {
   "line_id": "L045",
@@ -1517,7 +1541,8 @@
   "speech_dur": 4.1,
   "f0_med": 136.2,
   "stt": "First song, second song, last song",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc07-sh050_L046_NARR01.mp3": {
   "line_id": "L046",
@@ -1543,7 +1568,8 @@
   "speech_dur": 6.38,
   "f0_med": 94.1,
   "stt": "Of the nine spires, eight still answered. One of the eight answered badly.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh050_L046_NARR01_t2.mp3": {
   "line_id": "L046",
@@ -1569,7 +1595,8 @@
   "speech_dur": 7.76,
   "f0_med": 100.0,
   "stt": "Of the nine spires, eight still answered. One of the eight answered badly.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh050_L046_NARR01_v4turbo.mp3": {
   "line_id": "L046",
@@ -1592,7 +1619,8 @@
   "speech_dur": 5.66,
   "f0_med": 117.6,
   "stt": "Of the nine spires, eight still answered. One of the eight answered badly.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc07-sh060_L047_NARR01.mp3": {
   "line_id": "L047",
@@ -1618,7 +1646,8 @@
   "speech_dur": 9.04,
   "f0_med": 85.1,
   "stt": "By law, the helm reads the map aloud and signs it, and the balance of that year was read on the sixth of Long Dark.",
-  "qa": "check: missing=['longdark'] extra=['long', 'dark']"
+  "qa": "check: missing=['longdark'] extra=['long', 'dark']",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh060_L047_NARR01_t2.mp3": {
   "line_id": "L047",
@@ -1644,7 +1673,8 @@
   "speech_dur": 10.34,
   "f0_med": 106.0,
   "stt": "By law, the helm reads the map aloud and signs it, and the balance of that year was read on the sixth of Long Dark.",
-  "qa": "check: missing=['longdark'] extra=['long', 'dark']"
+  "qa": "check: missing=['longdark'] extra=['long', 'dark']",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc07-sh060_L047_NARR01_v4turbo.mp3": {
   "line_id": "L047",
@@ -1667,7 +1697,8 @@
   "speech_dur": 8.04,
   "f0_med": 111.9,
   "stt": "By law, the helm reads the map aloud and signs it, and the balance of that year was read on the sixth of Longdark",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc08-sh030_L048_V13_ATTENDANT_v4turbo.mp3": {
   "line_id": "L048",
@@ -1851,7 +1882,8 @@
   "speech_dur": 5.9,
   "f0_med": 141.6,
   "stt": "Forty-one lines no deed district, no street no name against any of it",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "kept in v4; delivery [VO] -> [MS] (Hollis mutters aloud)"
  },
  "alt/sc13-sh100_L055_V05_HOLLIS_v4turbo.mp3": {
   "line_id": "L055",
@@ -1874,7 +1906,8 @@
   "speech_dur": 1.04,
   "f0_med": 140.4,
   "stt": "And it adds",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "kept in v4; delivery [VO] -> [MS] (Hollis mutters aloud)"
  },
  "alt/sc13-sh120_L056_V05_HOLLIS_v4turbo.mp3": {
   "line_id": "L056",
@@ -1897,7 +1930,8 @@
   "speech_dur": 5.14,
   "f0_med": 137.9,
   "stt": "A column that adds on the first cast is either honest or very well made. Again",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "kept in v4; delivery [VO] -> [MS] (Hollis mutters aloud); 'Again.' trimmed in the edit"
  },
  "alt/sc13-sh160_L057_V05_HOLLIS_v4turbo.mp3": {
   "line_id": "L057",
@@ -3119,7 +3153,8 @@
   "speech_dur": 7.92,
   "f0_med": 92.0,
   "stt": "Helm Lucan Dask died on the sixth of Longdark with the tithe map unsigned.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc19-sh320_L104_NARR01_t2.mp3": {
   "line_id": "L104",
@@ -3145,7 +3180,8 @@
   "speech_dur": 7.3,
   "f0_med": 99.4,
   "stt": "Helm Luke and Dask died on the sixth of Longdark with the tithe map unsigned.",
-  "qa": "check: missing=['lucan'] extra=['luke', 'and']"
+  "qa": "check: missing=['lucan'] extra=['luke', 'and']",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc19-sh320_L104_NARR01_v4turbo.mp3": {
   "line_id": "L104",
@@ -3168,7 +3204,8 @@
   "speech_dur": 5.58,
   "f0_med": 117.6,
   "stt": "Helm Lucan Dask died on the sixth of Longdark with the tithe map unsigned.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "sc19-sh330_L105_NARR01.mp3": {
   "line_id": "L105",
@@ -3194,7 +3231,8 @@
   "speech_dur": 8.52,
   "f0_med": 78.4,
   "stt": "By law a helm is chosen on the still days. There were thirty days and a debt carried forward.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc19-sh330_L105_NARR01_t2.mp3": {
   "line_id": "L105",
@@ -3220,7 +3258,8 @@
   "speech_dur": 8.8,
   "f0_med": 81.2,
   "stt": "By law a helm is chosen on the still days there were thirty days and a debt carried forward",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc19-sh330_L105_NARR01_v4turbo.mp3": {
   "line_id": "L105",
@@ -3243,7 +3282,8 @@
   "speech_dur": 7.08,
   "f0_med": 124.5,
   "stt": "By law, a helm is chosen on the still days. There were thirty days and a debt carried forward.",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "retired v4: no Chronicler voice-over in S01E01; do not place in any v4 mix (continuity_check §10)"
  },
  "alt/sc20-sh190_L106_V02_WICK_v4turbo.mp3": {
   "line_id": "L106",
@@ -4094,7 +4134,8 @@
   "speech_dur": 7.84,
   "f0_med": 126.0,
   "stt": "Readings today. The helm reads the map up at the palace. Whoever reads that map decides who gets wet",
-  "qa": "check: missing=[\"reading's\"] extra=['readings']"
+  "qa": "check: missing=[\"reading's\"] extra=['readings']",
+  "v4_status": "superseded in v4 by the L041 re-take ('…and signs it'), vo_plan.json v4_batch"
  },
  "sc06-sh160_L042_V10_CORR.mp3": {
   "line_id": "L042",
@@ -4324,7 +4365,8 @@
   "speech_dur": 5.52,
   "f0_med": 134.5,
   "stt": "41 lines no deed district no street no name against any of it",
-  "qa": "check: missing=['forty', 'one'] extra=['41']"
+  "qa": "check: missing=['forty', 'one'] extra=['41']",
+  "v4_status": "kept in v4; delivery [VO] -> [MS] (Hollis mutters aloud)"
  },
  "sc13-sh100_L055_V05_HOLLIS.mp3": {
   "line_id": "L055",
@@ -4347,7 +4389,8 @@
   "speech_dur": 0.88,
   "f0_med": 119.9,
   "stt": "And it adds",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "kept in v4; delivery [VO] -> [MS] (Hollis mutters aloud)"
  },
  "sc13-sh120_L056_V05_HOLLIS.mp3": {
   "line_id": "L056",
@@ -4370,7 +4413,8 @@
   "speech_dur": 5.52,
   "f0_med": 126.0,
   "stt": "A column that adds on the first cast is either honest or very well made. Again",
-  "qa": "ok"
+  "qa": "ok",
+  "v4_status": "kept in v4; delivery [VO] -> [MS] (Hollis mutters aloud); 'Again.' trimmed in the edit"
  },
  "sc13-sh160_L057_V05_HOLLIS.mp3": {
   "line_id": "L057",

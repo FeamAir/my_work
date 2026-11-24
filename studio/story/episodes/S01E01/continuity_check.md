@@ -1,6 +1,6 @@
 # S1E01 — Continuity Check (beat sheet v2 and script v1.0 against the outline and the canon)
 
-Version 2.0 · 2026-11-22 · author: lead-screenwriter · §8 animatic v2 rulings and §9 v3 edit decisions added 2026-11-24
+Version 2.1 · 2026-11-22 · author: lead-screenwriter · §8 animatic v2 rulings and §9 v3 edit decisions added 2026-11-24 · **§10 v4 build list added 2026-11-24** (script v1.1, beat sheet v2.3, shot list v4.0)
 Checked against: `season01_outline.md` v1.3 · `series_bible.md` v1.2 (§5, §10, §12) · `decisions_resolved.md` (source of truth) · `sealed/master_mystery.md` §5–§7 and `canon/sealed/sealed.md` (clue plans, Chronicler rules) · character and house dossiers, `voice_fingerprints.md` · canon v0.4 records (`world.md`, `timeline.md`, `glossary.md`, `excerpts/for_director_and_artist.md`).
 Spoiler level: internal — codes only. Scene numbers are those of beat sheet v2 (the same as v1.1, plus Sc 15a; the running order is 1–9, 13, 10, 14, 11, 15, 15a, 12, 16–20).
 
@@ -396,3 +396,360 @@ Sc1 0:00 · Sc2 1:04.00 · Sc3 2:05.75 (the stone answers, sc03-sh220: 2:56.75) 
 - Studio director: permission for one TTS call (L014, §9.4).
 - Sound director: L058 back in the manifest as "restored in v3"; L014 new take; the v2 blockers A1–A5.
 - Keeper: §9.5 adds a presence of the Fennick steward at the cup (sc11-sh060 re-frame); it adds no fact. The ring-and-stone rule holds with the §9.3 condition.
+
+## 10. v4 build list (2026-11-24, lead writer) — for animatic v4
+
+**Status: binding execution list.** It folds the approved `v4_dialogue_pass.md` into the episode, with every edit of the keeper's report `reports/lore-v4-2026-11-24.md` (canon v0.9) and the studio director's decisions of 2026-11-24. Script: `script.md` v1.1. Beat sheet: v2.3. Shot list: `direction/shotlists/S01E01_shotlist.md` v4.0 (machine copy `S01E01_shots_v4.json`). TTS: `sound/S01E01_vo_plan.json` → `v4_batch`. Basis: the v3 picture (366 shots, 19:51.00, `direction/S01E01_animatic_v3_notes.md`).
+Shot ids are v3 ids; new ids sit between their neighbours (sc03-sh152 …). "kf=" = re-use of an existing frame ($0). Durations in seconds.
+
+### 10.0 Decisions applied
+
+| # | Decision | Where it lands |
+|---|---|---|
+| D-1 | **Pilot OP: instrumental, the main theme, 90.0 s**, after the cold open (cut after L216 "I wasn't humming.", 3:34.50 + 0.5 s room tone). The song arrives from E3. No sung voice in the pilot | `op-sh010`, 3:37.25–5:07.25; audio `lib_mus_theme-op-pilot_v1.wav` (composer, `music/pilot_cue_sheet.md` v0.4) |
+| D-2 | **Pilot ending: a soft cello variant of the theme**, entering at ED 0:00 under the Chronicle page | `ed-sh010`, ED 0:00–0:20 of 60.0 s; audio `lib_mus_theme-ending-pilot_v1.wav` |
+| D-3 | **No Chronicler voice-over.** L029–L034, L044–L047, L104, L105 retired; the record's wording is either recited by Nan (exact or shortened, §B lines only) or printed on the Chronicle page | §10.4, §10.5; `vo_plan.json` `v4_retired`; manifest `v4_status` |
+| D-4 | **Stewards' gossip: a guess or a bet only** (SEC-037). L252 is a bet; L253 knows the Let Go row exists and does not name it | L252, L253 (keeper's exact text) |
+| K-1 | Keeper blockers: exact replacements for L235, L252, L253, L256 | §10.5, script Sc 6 and Sc 10 |
+| K-2 | Chronicle page: first sentence = the whole ex-L033 FIXED line, so "that Concord" refers to something | §10.4 |
+| K-3 | Staging notes: L238 delivery; L252–L254 and L267 placement; Mags sees only a commotion (Sc 3 action A); the water in action B stays at the threshold, ankle-deep at most, nobody says the pumps are broken | §10.6 |
+| K-4 | OP visual list with the 7 corrections | `script.md` v1.1, "THE OPENING"; §10.7 |
+| K-5 | Sc 19: the direction "She has no answer" is removed (Pell answers, L268) | script Sc 19 |
+| Opt. | Sc 7 voices L240–L242 **taken** (no added time; the keeper accepted them). The §6.16 optional pack (L021, Mags banter, L039, action C) is **not** taken | §10.2 |
+
+### 10.1 Result
+
+| | v3 | **v4** |
+|---|---|---|
+| Story (without OP) | 19:51.00 | **21:33.25** (+1:42.25) |
+| With the OP (90.0 s) | — | **23:03.25** |
+| With the ending (60.0 s; the Chronicle page is its first 20 s) | — | **24:03.25** (+ next-episode preview ≈20 s, not in this list) |
+| Shots | 366 | **398** + OP block + ending card (400 rows): 6 dropped, 5 new frames, 33 new re-use shots (kf, $0), 56 rows changed |
+| Speech | ≈6.3 min, of it 75 s Chronicler | ≈8.7 min estimated (−75 s Chronicler, +≈218 s new lines), no voice-over |
+| New TTS | — | **81 calls** (80 new lines L201–L280 + the L041 re-take), **2 597 characters** of text (3 423 with audio tags) |
+| New frames (paid) | — | **5** (sc03-sh152, sh154, sh156; sc19-sh322, sh324) ≈ $0.40 drafts; the Chronicle page is typeset ($0; optional paper plate $0.08) |
+
+Why the story grew more than the proposal's "≈20:23": the proposal laid most new lines over existing holds. Built shot by shot under the director's rule (speech + 0.55 s, speaker on screen, no line over a protected silence) the 81 lines need their own time. Nothing protected was shortened to pay for it. The brief allows a longer pilot (status: pilot ≈30 min); if the director wants the story back under 21:00, §10.9 lists safe trims.
+
+Key timecodes (v4): Action A, the slip **2:41.75** · the stone answers (sc03-sh220) **3:03.25** · cut to OP **3:37.25** · episode title on sc03-sh270 **5:07.25** · Nan's "Never sing, chick." 6:21.50 · the Listeners' whistle 9:21.00 · Ione's tone (crown) ≈10:41 · ring insert sc10-sh290 **13:44.00** → the Helm drinks sc11-sh080 **15:23.50** (99.5 s; v3 93.5) · Pell decides (sc15a-sh090) 17:07.25 · "…and the Ninth Sluice—" (sc12-sh230) **18:13.50** · death-tone 19:10.50 · Action B, the water (sc19-sh322) **21:45.25** · L106 "Pell… it's singing back." (sc20-sh190) **22:44.75** · black 23:02.25 · ending **23:03.25**.
+
+Block starts:
+
+| block | start v4 | length | shots |
+|---|---|---|---|
+| Sc 1 | 0:00.00 | 64 s | 17 |
+| Sc 2 | 1:04.00 | 64.75 s | 20 |
+| Sc 3 (cold open, to L216) | 2:08.75 | 88.5 s | 32 |
+| OPENING (instrumental main theme, 90.0 s) | 3:37.25 | 90 s | 1 |
+| Sc 3 (after the OP) | 5:07.25 | 25.5 s | 9 |
+| Sc 4 (with the tapestry; Sc 5 is gone) | 5:32.75 | 152.5 s | 40 |
+| Sc 6 | 8:05.25 | 89 s | 28 |
+| Sc 7 | 9:34.25 | 22.5 s | 8 |
+| Sc 8 | 9:56.75 | 39.5 s | 12 |
+| Sc 9 | 10:36.25 | 75 s | 18 |
+| Sc 13 | 11:51.25 | 44.25 s | 12 |
+| Sc 10 | 12:35.50 | 95.25 s | 28 |
+| Sc 15a-1 | 14:10.75 | 12.75 s | 4 |
+| Sc 14 | 14:23.50 | 40 s | 15 |
+| Sc 11 | 15:03.50 | 36.75 s | 12 |
+| Sc 15 | 15:40.25 | 62.25 s | 20 |
+| Sc 15a-2 | 16:42.50 | 32.5 s | 11 |
+| Sc 12 | 17:15.00 | 111 s | 31 |
+| Sc 16 | 19:06.00 | 30 s | 10 |
+| Sc 17 | 19:36.00 | 20.5 s | 8 |
+| Sc 18 | 19:56.50 | 29.5 s | 10 |
+| Sc 19 | 20:26.00 | 91.75 s | 34 |
+| Sc 20 | 21:57.75 | 65.5 s | 19 |
+| ENDING (after the 1-s black) | 23:03.25 | 20 s | 1 |
+
+### 10.2 Shots to add or change (every row that is not "keep as v3")
+
+Rows not listed keep their v3 frame, duration and audio. Dropped: **sc03-sh130** (the rake brings up weed: L207 "Weed." carries it), **sc05-sh070, sh080, sh090, sh100** (banners, panel-1 pull-back, the title card: the title is in the OP), **sc07-sh040**. Sc 5 is no longer a scene: its panel shots sc05-sh010…sh060 keep their ids and frames and play inside Sc 4, between sc04-sh184 and sc04-sh185.
+Re-order inside a scene: Sc 3, sc03-sh280 (L016) now follows sh260 and the exchange L212–L216 follows it, all **before** the OP; sh270 is the first shot after the OP. Sc 9, L052 moves from sh150 to sh140. Sc 15a-1 plays sh020, sh040, sh030, sh022.
+
+| id | ТК v4 | dur v4 (v3) | cl. | frame | lines | action |
+|---|---|---|---|---|---|---|
+| sc02-sh120 | 1:40.50 | 3.25 (3) | C | own | L201 | L201 Pell coming out past the nets |
+| sc02-sh140 | 1:45.25 | 5.75 (3.25) | A | own | L202 | L008 then L202; L202's tail runs 0.5 s into the rise (sh150): 'then she looks up and the rise begins' |
+| sc02-sh200 | 2:06.00 | 1.75 (1.5) | A | own | L203 | L203 at 0.1 s, runs 0.7 s across the cut into sh210 (Wick jumps on 'down there!') |
+| sc03-sh010 | 2:08.75 | 2 (2.5) | A | own | — | trim −0.5 (hook back toward 3:00) |
+| sc03-sh060 | 2:18.00 | 2.5 (3) | A | own | — | trim −0.5 |
+| sc03-sh080 | 2:24.75 | 1.5 (2) | A | own | — | trim −0.5 |
+| sc03-sh090 | 2:26.25 | 6 (4) | C | own | L204, L205 | L204 Wick [OS] over the knot, L205 Pell |
+| sc03-sh120 | 2:35.75 | 2.5 (3) | C | own | — | trim −0.5 |
+| sc03-sh140 | 2:38.25 | 2 | B | own | L206, L207 | L206 Wick, L207 Pell [OS] |
+| sc03-sh152 | 2:41.75 | 1.75 (new) | B | NEW FRAME | L208 | ACTION A: her knee skids off the wet sill, she pitches out over the black water, the rope snaps taut; camera jolt, mud spray (ffmpeg) |
+| sc03-sh154 | 2:43.50 | 3.5 (new) | B | NEW FRAME | L209 | ACTION A: Wick dragged on his backside across the mud toward the sump, heels gouging two furrows; L209 runs 0.4 s across the cut |
+| sc03-sh156 | 2:47.00 | 2.25 (new) | A | NEW FRAME | L210 | ACTION A: his heels slam against the sill-stone, the rope bites his wrists; LA jolt; L210 Pell [OS] runs 0.45 s into sh160 |
+| sc03-sh160 | 2:49.25 | 3 | C | own | L211 | L211 Pell [OS] at 0.6 s; she leans out, rope taut (v3 frame unchanged) |
+| sc03-sh170 | 2:52.25 | 1.5 (2) | A | own | — | trim −0.5; reflection: wordless, protected from here to the rings |
+| sc03-sh190 | 2:58.75 | 1.5 (2) | A | own | — | trim −0.5 |
+| sc03-sh200 | 3:00.25 | 1.5 (2) | A | own | — | trim −0.5 |
+| sc03-sh280 | 3:20.25 | 2 | A | kf=sc03-sh100 | — | MOVED before the OP: L016 'It sang.' (Wick) now follows sh260 |
+| sc03-sh262 | 3:22.25 | 1.75 (new) | A | kf=sc03-sh260 | L212 | Pell on the sill |
+| sc03-sh264 | 3:24.00 | 5.25 (new) | A | kf=sc03-sh100 | L213 | Wick |
+| sc03-sh266 | 3:29.25 | 2.5 (new) | A | kf=sc03-sh260 | L214 | Pell |
+| sc03-sh268 | 3:31.75 | 2.75 (new) | A | kf=sc03-sh100 | L215 | Wick |
+| sc03-sh269 | 3:34.50 | 2.75 (new) | A | kf=sc03-sh260 | L216 | Pell; then 0.5 s room tone; HARD CUT TO THE OPENING |
+| op-sh010 | 3:37.25 | 90 (new) | OP | placeholder slate | — | OPENING, 90.0 s block. Audio: lib_mus_theme-op-pilot_v1.wav (main theme, instrumental, TV size). Picture placeholder for the animatic: dark slate, drawtext 'OPENING — main theme (instrumental) — 90.0 s'; HOLLOWSTONE title card inside it at 72.0–78.0 s (plain dark, same type as v3 sc05-sh100). AI badge / studio mark: corner bug from the first frame of the OP on. Visuals for finals: the keeper's signed list (canon excerpt §7). Sound: ≥3 s between the stone's last ring and the first OP note (here ≈26 s); first note on 0.5 s room tone (end of sc03-sh269) |
+| sc03-sh270 | 5:07.25 | 3 | A | own | — | FIRST SHOT AFTER THE OP: re-establishing macro; episode title 'The Ninth Sluice' burned in 0.0–3.0 s (drawtext, fade 0.25 s) |
+| sc04-sh181 | 6:29.50 | 4.5 (new) | A | kf=sc04-sh070 | L217 | Wick; the argument begins after the hand insert |
+| sc04-sh182 | 6:34.00 | 3.5 (new) | A | kf=sc04-sh110 | L218 | Nan, needle going |
+| sc04-sh183 | 6:37.50 | 3 (new) | A | kf=sc04-sh050 | L219 | Pell |
+| sc04-sh184 | 6:40.50 | 3.75 (new) | A | kf=sc04-sh020 | L220 | Nan |
+| sc05-sh010 | 6:44.25 | 6 (5.25) | A | own | L221 | MOVED INTO Sc 4: tapestry panel 1 (cutaway); frame unchanged |
+| sc05-sh020 | 6:50.25 | 7.5 (9.25) | A | own | L222 | MOVED INTO Sc 4: panel 2 |
+| sc05-sh030 | 6:57.75 | 5.5 (2.5) | A | own | L223, L224 | MOVED INTO Sc 4: panel 3 (pearl); never next to Pell's fist or panel 4 in one frame |
+| sc05-sh040 | 7:03.25 | 3 | A | own | — | MOVED INTO Sc 4: panel 4, wordless |
+| sc05-sh050 | 7:06.25 | 2.5 | A | own | L225 | MOVED INTO Sc 4: panel 5 (sail) |
+| sc05-sh060 | 7:08.75 | 3.5 (4.5) | A | own | L226 | MOVED INTO Sc 4: panel 6 |
+| sc04-sh185 | 7:12.25 | 2 (new) | A | kf=sc04-sh070 | L227 | Wick |
+| sc04-sh186 | 7:14.25 | 6 (new) | A | kf=sc04-sh110 | L228 | Nan |
+| sc04-sh187 | 7:20.25 | 4.25 (new) | A | kf=sc04-sh050 | L229 | Pell |
+| sc04-sh188 | 7:24.50 | 7 (new) | A | kf=sc04-sh110 | L230 | Nan |
+| sc04-sh189 | 7:31.50 | 3 (new) | A | kf=sc04-sh050 | L231 | Pell; then ≈0.75 s: Nan does not answer |
+| sc04-sh255 | 7:57.50 | 4.75 (new) | A | kf=sc04-sh050 | L232 | Pell; the stone goes inside the oilskin (frame = the sh250 re-use) |
+| sc04-sh260 | 8:02.25 | 3 | A | own | — | MATCH CUT stone on skin → the turning hub, sc06-sh010 (was → tapestry); page-turn SFX moves to the ending |
+| sc06-sh150 | 8:37.50 | 9.75 (8.5) | A | own | L041 | L041 RE-TAKE ('…and signs it.') |
+| sc06-sh152 | 8:47.25 | 4.75 (new) | A | kf=sc06-sh060 | L233 | Pell |
+| sc06-sh153 | 8:52.00 | 2 (new) | A | kf=sc06-sh110 | L234 | Wick |
+| sc06-sh154 | 8:54.00 | 8.75 (new) | B | kf=sc06-sh030 | L235 | Corr on the wheel among the walkers' backs; the steps on the beat |
+| sc06-sh155 | 9:02.75 | 2.25 (new) | A | kf=sc06-sh060 | L236 | Pell |
+| sc06-sh156 | 9:05.00 | 5.5 (new) | B | kf=sc06-sh090 | L237 | Corr |
+| sc06-sh162 | 9:15.00 | 2.5 (new) | A | kf=sc06-sh060 | L238 | Pell, low |
+| sc06-sh164 | 9:17.50 | 3.5 (new) | A | kf=sc06-sh080 | L239 | the stopped third wheel; the Listeners' whistle (sh170) cuts in on 'word' |
+| sc07-sh010 | 9:34.25 | 2 | A | own | — | silent document sequence (no Chronicler) |
+| sc07-sh020 | 9:36.25 | 4.5 (7.5) | A | own | L240 | tints wash in; legend FIRST SONG / SECOND SONG / LAST SONG legible; L044 retired |
+| sc07-sh030 | 9:40.75 | 3 (4.5) | A | kf=sc07-sh020 | L241 | the fourth label under the thumb; L045 retired |
+| sc07-sh050 | 9:43.75 | 3 (7) | A | kf=sc07-sh010 | — | the thin ring over the Sluice Spire; L046 retired |
+| sc07-sh060 | 9:46.75 | 4 (9.75) | C | own | L242 | rolled and cased; L047 retired |
+| sc07-sh080 | 9:52.75 | 2 (2.25) | B | own | — | trim −0.25 |
+| sc07-sh090 | 9:54.75 | 2 (2.25) | A | own | — | trim −0.25 |
+| sc08-sh060 | 10:15.25 | 2.75 (1.5) | A | own | L243 | L243 Ione, the fork in her hand |
+| sc08-sh070 | 10:18.00 | 3.5 (3.25) | C | own | L244 | L244 attendant [OS] before the strike; the strike lands after the line |
+| sc09-sh100 | 11:10.25 | 5 | B | own | L245 | L051 then L245 [OS], which runs across the cut into sh110 |
+| sc09-sh110 | 11:15.25 | 2.5 (2) | A | own | — | +0.5: tail of L245 |
+| sc09-sh140 | 11:24.25 | 4 | A | own | — | L052 'It cares up there.' MOVED here from sh150 (Wick [OS] over the bucket) |
+| sc09-sh150 | 11:28.25 | 6.75 (5) | B | own | L246 | L053 FIXED at 0.25 s; L246 starts at 2.25 s and runs across the cut into sh160 |
+| sc09-sh160 | 11:35.00 | 5 (new) | A | kf=sc09-sh100 | L247 | RESTORED (storyboard shot, kf sc09-sh100): two figures on the ridge; L246 ends ≈2.5 s in, then L247 at 2.8 s |
+| sc09-sh165 | 11:40.00 | 2.25 (new) | A | kf=sc09-sh150 | L248 | Pell, to the tower |
+| sc13-sh090 | 12:03.25 | 6.25 | B | own | — | L054 [VO]→[MS] muttering aloud, lips moving (take kept) |
+| sc13-sh100 | 12:09.50 | 5.25 (2.25) | B | own | L249 | the pen ticks down: L249 Clerk [OS] at 0.1 s, then L055 [MS] ('And it adds.', take kept) as the pen reaches the foot, ≈0.3 s after L249 |
+| sc13-sh110 | 12:14.75 | 3 (2.25) | A | own | L250 | L250 Clerk [OS] |
+| sc13-sh120 | 12:17.75 | 5.75 (6.25) | A | own | — | L056 [MS]; 'Again.' trimmed from the take (edit, no TTS) |
+| sc13-sh150 | 12:23.50 | 4 | A | own | L251 | ACCOUNT NINE clear for 2.0 s, then L251 Clerk [OS] at 2.0 s |
+| sc10-sh010 | 12:35.50 | 2.5 | A | own | L252 | L252 walla [OS] at 0.5 s, runs across the cut into sh020; over before sh040 (hare's-ear man) |
+| sc10-sh070 | 12:45.00 | 6.75 (2.25) | B | own | L253, L254 | L253 + L254 walla [OS] before the doors swing open (doors at the end of the hold). CHECK: no black-and-copper, slate-and-sulphur or sea-green block in the foreground; if there is, play the two lines over a new sc10-sh065 = kf sc10-sh020 (same length) and keep sh070 at 2.25 |
+| sc10-sh225 | 13:25.50 | 4.25 (new) | A | kf=sc10-sh190 | L255 | R (Ruel MCU) |
+| sc10-sh227 | 13:29.75 | 2.75 (new) | A | kf=sc10-sh230 | L256 | H (Lucan MCU). Order now H, R, insert, H-OTS, R, H, R, H, two-shot |
+| sc10-sh310 | 13:48.50 | 8.5 (4.5) | A | kf=sc10-sh300 | L257 | L067 then L257 (Ione) |
+| sc15a-sh040 | 14:14.50 | 3.25 | B | own | L258 | the collector takes a pot; L258 Wick [OS] |
+| sc15a-sh030 | 14:17.75 | 3.75 | A | own | L259, L260 | MOVED after sh040: the coins; L259 Pell over her hands, then L260 Wick [OS] |
+| sc15a-sh022 | 14:21.50 | 2 (new) | A | kf=sc15a-sh020 | L261 | Pell; no cord and no stone in any 15a-1 frame (rule unchanged) |
+| sc14-sh170 | 14:59.75 | 3.75 | B | own | L262 | L262 Clerk [OS] at 0.25 s; then the bead hangs ≥1.5 s |
+| sc15a-sh082 | 16:55.75 | 3.75 (new) | A | kf=sc15a-sh060 | L263 | empty plank-walk, no Nan; Wick [OS] |
+| sc15a-sh084 | 16:59.50 | 2.75 (new) | A | kf=sc15a-sh050 | L264 | Pell |
+| sc15a-sh086 | 17:02.25 | 2 (new) | A | kf=sc15a-sh010 | L265 | the tide creeping in; Wick [OS] |
+| sc15a-sh088 | 17:04.25 | 3 (new) | A | kf=sc15a-sh050 | L266 | Pell; her hand starts toward the collar → sh090 |
+| sc12-sh330 | 18:47.25 | 4.25 (2.25) | A | own | L267 | L267 A LORD [OS] in the uproar. CHECK: no sea-green steward in this frame (SEC-046); if one reads, play L267 over sc12-sh360's head instead |
+| sc19-sh300 | 21:28.25 | 6 (3) | A | kf=sc19-sh140 | L268 | L103 Wick [OS] then L268 Pell |
+| sc19-sh304 | 21:34.25 | 2 (new) | A | kf=sc19-sh290 | L269 | the lane from the door; Wick [OS] |
+| sc19-sh306 | 21:36.25 | 2.5 (new) | A | kf=sc19-sh140 | L270 | Pell |
+| sc19-sh320 | 21:38.75 | 6.5 (8.5) | A | own | L271, L272 | L104 RETIRED; lane to the sea; L271 Wick [OS], L272 Pell [OS] |
+| sc19-sh322 | 21:45.25 | 2.25 (new) | A | NEW FRAME | L273 | ACTION B: water wells up between the planks at the threshold (insert) |
+| sc19-sh324 | 21:47.50 | 4.25 (new) | B | NEW FRAME | L274, L275 | ACTION B: the two of them haul the wet nets in over the rail; her fist closed, no stone |
+| sc19-sh330 | 21:51.75 | 4 (9.25) | A | own | — | L105 RETIRED; lanterns on black water from above, wordless; trim −5.25 |
+| sc20-sh050 | 22:04.75 | 2.75 (2.5) | A | own | L276 | L276 Wick |
+| sc20-sh070 | 22:07.50 | 3 | A | own | L277 | L277 Pell [OS] |
+| sc20-sh090 | 22:16.50 | 2.5 | A | own | L278 | L278 Pell |
+| sc20-sh120 | 22:19.00 | 2.5 | A | kf=sc20-sh030 | L279 | L279 Wick [OS] |
+| sc20-sh130 | 22:21.50 | 3.25 | C | own | L280 | L280 Pell [OS] |
+| ed-sh010 | 23:03.25 | 20 (new) | CARD | Chronicle page (typeset card) | — | ENDING 0:00–0:20 of the 60.0-s ED (lib_mus_theme-ending-pilot_v1.wav, cello variant, enters at ED 0:00 on this card). The Chronicle page fades up 0.0–1.0 s, holds, fades out 19.0–20.0 s; one dry page-turn SFX at 0.5 s. No voice. Text: continuity_check §10.4 |
+
+**Checks the director makes while cutting (two placements depend on a frame):**
+- **sc10-sh070** carries L253–L254. If its foreground benches read as black-and-copper, slate-and-sulphur or sea-green, add **sc10-sh065 = kf sc10-sh020** (6.75 s, the lines on it) and keep sh070 at its v3 2.25 s. Net time is +2.25 s.
+- **sc12-sh330** carries L267. If a sea-green steward reads in it, move L267 to the head of sc12-sh360 (the taster; the line is `[OS]`), same length change.
+
+### 10.3 New frames: prompts (5 paid draft frames, NB2 /edit with refs, take rule as in v3)
+
+Tokens as in `direction/animatic_tools/frames.py` (`{PELL}`, `{WICK}` = ID blocks; `{LOWS_DAWN}`, `{LOWS_DUSK}` = light blocks; STYLE and AVOID appended as for every frame). Action beats: **A** = sc03-sh152 → sh154 → sh156 (then v3 sh160); **B** = sc19-sh322 → sh324.
+
+**sc03-sh152** · B · 1.75 s · refs `CH-0001; CH-0007; D-04 K2` · lines L208
+```text
+Dawn, medium side shot at the edge of a bare old stone sill: {PELL} slipping, her right knee skidding off the wet green-black stone, her body pitching forward and down over a still pool of black water on the right, both hands still gripping the long rake held out over the water, the rope tied around her waist snapping taut behind her toward the left, drops of mud in the air, mouth open in a gasp; behind her on the left {WICK} jerked forward off his feet by the rope. She is above the water, not in it. {LOWS_DAWN}
+```
+Motion / LA: camera jolt; she pitches forward and is stopped short by the rope; mud drops fly (ffmpeg shake 6 px, 0.3 s + particle layer).
+
+**sc03-sh154** · B · 3.5 s · refs `CH-0007; D-04 K2` · lines L209
+```text
+Dawn, medium low shot of {WICK} dragged on his backside across wet silt toward a stone sill at the right edge of frame, the rope wrapped twice around his wrists and pulled taut to the right out of frame, his heels gouging two deep furrows in the mud behind him, mouth open shouting, eyes wide. {LOWS_DAWN}
+```
+Motion / LA: he slides to the right along the mud, heels ploughing furrows; slow follow pan right (LA: L-04 layer slide 120 px + L-02).
+
+**sc03-sh156** · A · 2.25 s · refs `CH-0007; D-04 K2` · lines L210
+```text
+Dawn, close shot low at mud level: a boy's bare muddy heels slammed against the edge of a green-black stone sill, the oversized oatmeal jumper sleeves pushed up, a rope wrapped twice around his wrists biting into them, knuckles pale, mud spattered on the stone. {LOWS_DAWN}
+```
+Motion / LA: LA: L-04 jolt (8 px, 2 frames) on the heels hitting the stone; rope tremble layer.
+
+**sc19-sh322** · A · 2.25 s · refs `D-06; D-02` · lines L273
+```text
+Dusk turning to dark, insert at floor level of a stilt-house threshold: black water welling up through the gaps between old wooden planks at an open doorway and spreading in thin sheets over the boards, no deeper than an ankle, warm lantern light reflected in it, the inside of the house dry. No people. {LOWS_DUSK}
+```
+Motion / LA: LA: L-10 (ripple) + L-16 (water edge creeps 40 px over the boards).
+
+**sc19-sh324** · B · 4.25 s · refs `CH-0001; CH-0007; D-02` · lines L274, L275
+```text
+Dusk turning to dark, medium shot at the wooden rail of a stilt-house plank-walk: {PELL} and {WICK} haul a heavy wet fishing net in over the rail, {WICK} pulling with both hands, {PELL} pulling one-handed with her right hand while her left hand is a closed fist held against her chest, nothing visible in it, a lantern by the door, black water below the planks. {LOWS_DUSK}
+```
+Motion / LA: they heave the net up over the rail in two pulls; water streams off it (MiniMax H3 6 s draft, or LA: L-04 two-position net layer).
+
+**Canon for both action beats.** A: Pell never goes into the water; she falls toward it on the rope and is held. She never says she cannot swim. Mags is two lanes away and sees only a commotion at the sill: no stone, no rings, no sound reach her (SEC-045). B: the water wells up only at the threshold and through the gaps in the planks. It does not come into the house and never rises above the ankle; nobody says the pumps are broken (the flood is E10; SEC-028 and SEC-041 begin in S01E05). The fist in sh324 is closed; the stone is not in frame.
+
+**No new frame** for: the OP (placeholder slate in the animatic; finals per §10.7), the Chronicle page (typeset, §10.4), the 33 re-use shots.
+
+### 10.4 The Chronicle page (ending card `ed-sh010`): exact text and master
+
+Text, letter for letter (keeper K-2: the first sentence is the whole ex-L033 FIXED line):
+
+```text
+THE CHRONICLE OF THE DRY YEARS
+
+The Nine made their Concord on what stayed dry. This is the three hundred and twelfth year of that Concord: three hundred and twelve years, each with its tithe, and each balance carried forward.
+By law the Helm reads the map aloud, and signs it; and the balance of that year was read on the sixth of Longdark.
+Helm Lucan Dask died on the sixth of Longdark, with the Tithe Map unsigned.
+By law a Helm is chosen on the Still Days. There were thirty days, and a debt carried forward.
+
+…and the water kept its counsel.
+```
+
+- **Master (fixed now, used to the end of the saga):** one page of a bound archival book; cream rag paper, faint foxing; fine pale-brown ruling with a thin double margin rule; a narrow gutter shadow on the left; running head *The Chronicle of the Dry Years* in small italic capitals; body in a plain old-style book serif; **typeset, no handwriting, no marginal notes**. From S07E01 only, the page edges are darkened by smoke (no explanation). Keeper signs the master before the first screening.
+- Animatic: typeset with drawtext over a flat paper plate (FreeSerif / FreeSerif Italic). Optional plate generation ($0.08), prompt: `Top-down flat scan of a single page of an old bound archival book, cream rag paper with faint foxing, fine pale-brown horizontal ruling and a thin double margin rule, a narrow gutter shadow at the left edge, completely blank: no text, no letters, no handwriting, even soft light.`
+- Timing: ED 0:00 the cello enters on the page; page fades up 0.0–1.0 s; one dry page-turn SFX at 0.5 s (the SFX that sat on the old Sc 4 → Sc 5 cut); hold; fade out 19.0–20.0 s; credits 20–60 s (placeholder). **Not read aloud.** No title "The Chronicler" anywhere (keeper, for promo and trailers too).
+- Rules: "carried forward" and "the balance of that year" appear **only** here in E1; no character says them (SEC-011b). The sign-off is never quoted by a character.
+
+### 10.5 TTS batch (81 calls) — in `sound/S01E01_vo_plan.json` → `v4_batch`
+
+Settings for every call (as all animatic character takes): `eleven_v3`, stability 0.5, similarity 0.8, seed 101 (t2 = 202 only for a failed take), dictionary `hollowstone_en_draft_v1`, voice ids from `sound/casting/casting_log.json`. `tts_text` in the JSON already carries the tags; asterisks in the script text are stress marks, not spoken; Corr's *(step)* is an ellipsis pause. File name: `<shot>_<line>_<VOICE>_v4.mp3`. **Order (keeper):** the four corrected lines first, then the rest in id order. ≈ 3 423 credits ≈ $1.03 at the measured $0.0003 per credit.
+Small `[OS]` roles re-use library voices not heard nearby ($0, no design call): SENIOR CLERK, A LORD → V17 Steward; CARTOGRAPHER, A SECOND STEWARD → V15 Guard; A STEWARD → V14 Relay-keeper. The sound director confirms or re-casts for finals. The clerk at the next desk (L249–L251, L262) is V16; the attendant (L244) is V13.
+
+| # | id | shot | voice | text (script wording) | delivery · tags · mode | ≈s |
+|---|---|---|---|---|---|---|
+| 1 | L235 | sc06-sh154 | CORR · V10_CORR | Storm comes, First Song gets sung first. *(step)* Then Second. *(step)* Then us, if there's voice left. | [MS] (a step, a sentence; KEEPER FIX (world.md 7.3: Sluices 1-4 First Song, 5-7 Second Song)) · `—` · B | 8.1 |
+| 2 | L252 | sc10-sh010 | A STEWARD · V14_RELAYKEEPER | Ten marks says the Ninth goes down a tier tonight. | [OS] (hall walla, from the benches; never placed on the black-and-copper, slate-and-sulphur or sea-green blocks, never over the hare's-ear man; low, amused; a bet, not news. KEEPER FIX (SEC-037)) · `[amused] [quietly]` · B | 3.8 |
+| 3 | L253 | sc10-sh070 | A SECOND STEWARD · V15_GUARD | Down from Last Song? There's only one place down from Last. | [OS] (hall walla, from the benches; never placed on the black-and-copper, slate-and-sulphur or sea-green blocks, never over the hare's-ear man. KEEPER FIX (world.md 7.3)) · `[quietly]` · B | 4.5 |
+| 4 | L256 | sc10-sh227 | THE HELM · V07_LUCAN | Keep your coin, Ruel. | [MS] (not unkind; tired. KEEPER FIX (CH-0016, SEC-007)) · `[wearily]` · B | 2.2 |
+| 5 | L041 (re-take) | sc06-sh150 | CORR · V10_CORR | Reading's today. The Helm reads the map up at the palace, and signs it. Whoever reads that map decides who gets wet. | [MS] (lower, to Pell; not unkind; RE-TAKE, text adds 'and signs it') · `—` · B | 9.0 |
+| 6 | L201 | sc02-sh120 | PELL · V01_PELL | Down, eel. You're dripping on him. | [MS] (coming out past the nets; up at the bridge, dry) · `[dryly]` · B | 2.6 |
+| 7 | L202 | sc02-sh140 | PELL · V01_PELL | Then we find it in a day. | [MS] (already moving; then she looks up and the rise begins) · `[determined]` · B | 1.9 |
+| 8 | L203 | sc02-sh200 | WICK · V02_WICK | It's cold down there! | [MS] (at the edge, looking at the drop; fear comes out as cold) · `[nervously]` · E | 1.9 |
+| 9 | L204 | sc03-sh090 | WICK · V02_WICK | You never go past the sill. | [OS] (as she ties the rope round her waist) · `[worried]` · T | 2.5 |
+| 10 | L205 | sc03-sh090 | PELL · V01_PELL | I'm not going past it. The rake is. | [MS] (knotting it hard) · `[dryly]` · B | 2.7 |
+| 11 | L206 | sc03-sh140 | WICK · V02_WICK | Anything? | [MS] (heels in) · `[strained]` · B | 0.8 |
+| 12 | L207 | sc03-sh140 | PELL · V01_PELL | Weed. | [OS]  · `[flatly]` · B | 0.6 |
+| 13 | L208 | sc03-sh152 | WICK · V02_WICK | Pell! | [OS] (yell) · `[shouting]` · E | 0.6 |
+| 14 | L209 | sc03-sh154 | WICK · V02_WICK | I'm sliding! I'm your brother, not a post! | [MS] (dragged across the mud) · `[panicked] [shouting]` · E | 3.8 |
+| 15 | L210 | sc03-sh156 | PELL · V01_PELL | Then be a post! Dig in! | [OS] (through her teeth) · `[strained]` · E | 1.8 |
+| 16 | L211 | sc03-sh160 | PELL · V01_PELL | I'm not losing the rake. | [OS] (strained; she will not let go) · `[strained]` · E | 1.9 |
+| 17 | L212 | sc03-sh262 | PELL · V01_PELL | What did? | [MS] (getting her breath; not looking up) · `[breathless]` · T | 0.7 |
+| 18 | L213 | sc03-sh264 | WICK · V02_WICK | That. When it came up. It sang right back at you. | [MS]  · `[in awe]` · T | 4.5 |
+| 19 | L214 | sc03-sh266 | PELL · V01_PELL | I didn't hear anything. | [MS]  · `[flatly]` · B | 1.8 |
+| 20 | L215 | sc03-sh268 | WICK · V02_WICK | You were *humming* at it. | [MS]  · `[insistent]` · B | 2.1 |
+| 21 | L216 | sc03-sh269 | PELL · V01_PELL | I wasn't humming. | [MS] (flat; a beat too quick) · `[flatly]` · B | 1.3 |
+| 22 | L217 | sc04-sh181 | WICK · V02_WICK | Why, though? They sing up the hill all day. | [MS] (small; not a joke) · `[quietly]` · T | 3.9 |
+| 23 | L218 | sc04-sh182 | NAN · V03_NAN | They're Choir. They're paid to. | [MS] (the needle going again, too fast) · `[curtly]` · B | 2.8 |
+| 24 | L219 | sc04-sh183 | PELL · V01_PELL | That's not a why. That's a who. | [MS] (not letting it go) · `[dryly]` · B | 2.4 |
+| 25 | L220 | sc04-sh184 | NAN · V03_NAN | You want a why? Here's the Choir's. | [MS] (a look at her; back to the net) · `[sharply]` · B | 3.1 |
+| 26 | L221 | sc05-sh010 | NAN · V03_NAN | The First Voices raised the Spires. They are not heard now. | [OS] (reciting: a lesson learned by heart; the scold goes out of her voice, the record's formality comes in; = ex-L029, exact) · `[reciting]` · T | 5.3 |
+| 27 | L222 | sc05-sh020 | NAN · V03_NAN | The nine warden families found the Queen past reason, and her court with her. | [OS] (reciting; ex-L030, shortened) · `[reciting]` · T | 6.9 |
+| 28 | L223 | sc05-sh030 | WICK · V02_WICK | Past reason? You mean mad? | [OS]  · `[curious]` · B | 2.4 |
+| 29 | L224 | sc05-sh030 | NAN · V03_NAN | That's what they found. | [OS] (her own voice; flat) · `[flatly]` · T | 2.1 |
+| 30 | L225 | sc05-sh050 | PELL · V01_PELL | And what did she do? | [OS] (dry) · `[dryly]` · B | 1.6 |
+| 31 | L226 | sc05-sh060 | NAN · V03_NAN | She sang her city into the sea. | [OS] (reciting; = ex-L031, exact; [ECHO]) · `[reciting]` · T | 2.8 |
+| 32 | L227 | sc04-sh185 | WICK · V02_WICK | The whole city? | [MS]  · `[in awe]` · B | 1.4 |
+| 33 | L228 | sc04-sh186 | NAN · V03_NAN | Every roof. The Nine made their Concord on what stayed dry. | [MS] (her own voice again; contains ex-L032, exact; [ECHO]) · `[quietly]` · T | 5.3 |
+| 34 | L229 | sc04-sh187 | PELL · V01_PELL | Three hundred and twelve years of tithe, then. | [MS] (counting, the way she counts everything) · `[thoughtfully]` · B | 3.6 |
+| 35 | L230 | sc04-sh188 | NAN · V03_NAN | And three hundred and twelve years of mouths kept shut. That's your why. | [MS] (sharp) · `[sharply]` · E | 6.4 |
+| 36 | L231 | sc04-sh189 | PELL · V01_PELL | That's the Choir's why. | [MS] (quiet; she has heard the gap) · `[quietly]` · T | 1.8 |
+| 37 | L232 | sc04-sh255 | PELL · V01_PELL | And not a word to Nan. She'll only have a why for it. | [MS] (the cord knotted; the stone goes inside her oilskin) · `[quietly]` · T | 4.1 |
+| 38 | L233 | sc06-sh152 | PELL · V01_PELL | We're Last Song. Have been since before I was born. | [MS]  · `[flatly]` · B | 4.0 |
+| 39 | L234 | sc06-sh153 | WICK · V02_WICK | Last for what? | [MS]  · `[curious]` · B | 1.3 |
+| 40 | L236 | sc06-sh155 | PELL · V01_PELL | And if there isn't? | [MS]  · `[flatly]` · B | 1.5 |
+| 41 | L237 | sc06-sh156 | CORR · V10_CORR | Eight Spires still answer, girl. *(step)* Ours answers worst. | [MS] (does not answer that) · `—` · B | 4.8 |
+| 42 | L238 | sc06-sh162 | PELL · V01_PELL | What's under Last Song? | [MS] (low; she knows there is a word; she wants him to say it) · `[quietly]` · T | 1.8 |
+| 43 | L239 | sc06-sh164 | CORR · V10_CORR | Nobody on this wheel says that word. | [OS] (not looking at her) · `[quietly]` · T | 2.8 |
+| 44 | L240 | sc07-sh020 | SENIOR CLERK · V17_STEWARD | Is it dry? | [OS] (brisk, from up the stair) · `[briskly]` · B | 0.9 |
+| 45 | L241 | sc07-sh030 | CARTOGRAPHER · V15_GUARD | Dry, and inked. | [OS] (hands only; not stopping) · `[flatly]` · B | 1.2 |
+| 46 | L242 | sc07-sh060 | SENIOR CLERK · V17_STEWARD | Then case it. He reads at the last light. | [OS]  · `[briskly]` · B | 3.7 |
+| 47 | L243 | sc08-sh060 | IONE · V04_IONE | Then they'll hear it true. | [MS] (quiet; the fork in her hand) · `[quietly]` · T | 2.0 |
+| 48 | L244 | sc08-sh070 | ATTENDANT · V13_ATTENDANT | As you like, Lady Ione. It's your throat. | [OS] (a shrug in the voice) · `[dismissively]` · B | 2.9 |
+| 49 | L245 | sc09-sh100 | PELL · V01_PELL | Rag-man's drunk by noon. Four's what drunk pays. | [OS]  · `[dryly]` · B | 3.7 |
+| 50 | L246 | sc09-sh150 | PELL · V01_PELL | That's why we're getting out. You, me, Nan. Up the Steps. A room with a window that shuts. | [MS] (softer; still to the tower) · `[softly]` · T | 7.0 |
+| 51 | L247 | sc09-sh160 | WICK · V02_WICK | On four coppers? | [MS]  · `[skeptical]` · B | 1.5 |
+| 52 | L248 | sc09-sh165 | PELL · V01_PELL | On whatever it costs. | [MS]  · `[determined]` · B | 1.6 |
+| 53 | L249 | sc13-sh100 | CLERK · V16_CLERK | You're talking to the paper again, Kett. | [OS] (pleasant; not looking up) · `[pleasantly]` · B | 3.6 |
+| 54 | L250 | sc13-sh110 | CLERK · V16_CLERK | Then blot it and go home. | [OS]  · `[pleasantly]` · B | 2.3 |
+| 55 | L251 | sc13-sh150 | CLERK · V16_CLERK | And which is this one? | [OS] (amused) · `[amused]` · B | 2.0 |
+| 56 | L254 | sc10-sh070 | A STEWARD · V14_RELAYKEEPER | Pumps and prayers. | [OS] (hall walla, from the benches; never placed on the black-and-copper, slate-and-sulphur or sea-green blocks, never over the hare's-ear man) · `[dryly]` · B | 1.4 |
+| 57 | L255 | sc10-sh225 | RUEL · V06_RUEL | Then let me pay for the pumps. My hold, my coin. | [MS] (warm; meaning it) · `[warmly]` · B | 3.6 |
+| 58 | L257 | sc10-sh310 | IONE · V04_IONE | Let them rest, my lord. It won't hold past dark. | [MS] (hoarse; polite; almost a smile) · `[hoarse]` · B | 3.7 |
+| 59 | L258 | sc15a-sh040 | WICK · V02_WICK | He's taking their pot. | [OS] (from the door behind her) · `[quietly]` · B | 2.0 |
+| 60 | L259 | sc15a-sh030 | PELL · V01_PELL | Pot's worth two. | [MS] (counting) · `[flatly]` · B | 1.2 |
+| 61 | L260 | sc15a-sh030 | WICK · V02_WICK | We've got a pot. | [OS]  · `[quietly]` · B | 1.5 |
+| 62 | L261 | sc15a-sh022 | PELL · V01_PELL | We've got *one* pot. | [MS]  · `[dryly]` · B | 1.4 |
+| 63 | L262 | sc14-sh170 | CLERK · V16_CLERK | Even into honest men, Kett. | [OS] (still pleasant) · `[pleasantly]` · B | 2.5 |
+| 64 | L263 | sc15a-sh082 | WICK · V02_WICK | You're going to give him the stone. | [OS] (from the door) · `[worried]` · T | 3.2 |
+| 65 | L264 | sc15a-sh084 | PELL · V01_PELL | Nan's not here. He will be. | [MS]  · `[flatly]` · B | 2.1 |
+| 66 | L265 | sc15a-sh086 | WICK · V02_WICK | It *sang*, Pell. | [OS]  · `[insistent]` · E | 1.3 |
+| 67 | L266 | sc15a-sh088 | PELL · V01_PELL | Then it's worth more than six. | [MS] (her hand going to the collar) · `[determined]` · B | 2.3 |
+| 68 | L267 | sc12-sh330 | A LORD · V17_STEWARD | Did he sign it? Did anyone see him sign? | [OS] (in the uproar, over the hall breaking; walla level, but intelligible; never placed on the sea-green Quell block) · `[shouting]` · E | 3.6 |
+| 69 | L268 | sc19-sh300 | PELL · V01_PELL | Nobody. Not till the Still Days. | [MS] (slowly; working it out) · `[slowly]` · T | 2.5 |
+| 70 | L269 | sc19-sh304 | WICK · V02_WICK | That's a month. | [OS]  · `[quietly]` · B | 1.4 |
+| 71 | L270 | sc19-sh306 | PELL · V01_PELL | Thirty days. And no Helm. | [MS]  · `[quietly]` · T | 1.9 |
+| 72 | L271 | sc19-sh320 | WICK · V02_WICK | Pell. The wheel's stopped. | [OS] (the water is suddenly loud under the house) · `[nervously]` · E | 2.4 |
+| 73 | L272 | sc19-sh320 | PELL · V01_PELL | Everybody's listening. Nobody's walking. | [OS] (on her feet) · `[urgently]` · E | 3.1 |
+| 74 | L273 | sc19-sh322 | PELL · V01_PELL | Nets. Get the nets in. | [OS]  · `[urgently]` · E | 1.7 |
+| 75 | L274 | sc19-sh324 | WICK · V02_WICK | He said keep them. | [MS] (hauling) · `[strained]` · E | 1.6 |
+| 76 | L275 | sc19-sh324 | PELL · V01_PELL | So we're keeping them. | [OS] (hauling, one-handed) · `[strained]` · E | 1.7 |
+| 77 | L276 | sc20-sh050 | WICK · V02_WICK | How long does it go on? | [MS] (small; by the table) · `[whispers]` · T | 2.1 |
+| 78 | L277 | sc20-sh070 | PELL · V01_PELL | Till everyone's heard. | [OS] (on the chest; flat) · `[flatly]` · T | 1.7 |
+| 79 | L278 | sc20-sh090 | PELL · V01_PELL | Wick. Do you hear that? | [MS] (very low; head up) · `[whispers]` · T | 1.8 |
+| 80 | L279 | sc20-sh120 | WICK · V02_WICK | It's the relay. | [OS]  · `[whispers]` · T | 1.4 |
+| 81 | L280 | sc20-sh130 | PELL · V01_PELL | No. *Under* it. | [OS] (barely; looking down at her own fist) · `[whispers]` · T | 1.0 |
+
+**Retired (NARR01, not placed in any v4 mix; files stay in the archive):** L029, L030, L031, L032, L033, L034 (Sc 5), L044, L045, L046, L047 (Sc 7), L104, L105 (Sc 19). Marked `skip` in `vo_plan.json` `lines` and listed in `v4_retired`; every take has `v4_status` in `S01E01_vo_manifest.json`.
+**Superseded:** the v2 take of L041 (re-take above). **Kept takes with new marks ($0):** L054, L055, L056 become `[MS]` (Hollis mutters aloud, lips moving; was `[VO]`); "Again." is trimmed off the L056 take in the edit. L016 and L017 keep their takes (L016 moves before the OP).
+
+### 10.6 Staging and sound notes (binding; keeper K-3 and the director's decisions)
+
+| Where | Note |
+|---|---|
+| L238 (Sc 6) | `[MS] (low; she knows there is a word; she wants him to say it)`: a challenge, not a question. She lived through the Third, Eleventh and Twelfth being let go |
+| L252–L254 (Sc 10) | `[OS]`, hall walla from the benches, intelligible; never placed on the black-and-copper, slate-and-sulphur or sea-green blocks, never over the hare's-ear man (sh040). Not given to Lantry's or Fennick's steward or to the Quell figure (SEC-037, SEC-046). Walla bed −6 dB under them |
+| L267 (Sc 12) | `[OS]` in the uproar, over the hall breaking; walla level but intelligible; never on the sea-green Quell block |
+| Sc 3, action A (L208–L211) | Mags sees only a commotion at the sill; she does not see the stone or the rings and does not hear the sound. No new Mags line |
+| Sc 19, action B (L271–L275) | water only at the threshold and in the plank gaps, never in the house, never above the ankle; no one says the pumps are broken |
+| Cold open → OP | L216 ends, 0.5 s room tone, hard cut to the OP. The stone's last ring ends ≈26 s before the OP (rule: ≥3 s). The OP has no sub-bass and no drone; the low register stays the stone's. No sung voice anywhere in the pilot |
+| OP picture | HOLLOWSTONE title inside the OP; the AI badge / studio mark is a corner bug from the OP's first frame on, and on the end card. Before the OP: no logo, card, title, series name or voice-over |
+| After the OP | sc03-sh270 carries the burned-in episode title *The Ninth Sluice* 0.0–3.0 s; L017 "Stones don't sing…" is the first line after the OP |
+| Sc 4 panels | order 1-2-3-4-5-6, one panel per frame; never panels 3 and 4 in one frame; no kitchen shot of Pell's fist next to panel 3 or 4; the stone is not seen between sc04-sh050 and sc04-sh220. Nan never gives her own reason, never says "the Quiet", does not hum |
+| Sc 13 | Hollis mutters aloud (`[MS]`, no lip-sync CU); he never says "carried forward" |
+| Sc 15a-1 | still no cord and no stone in any frame (it follows a ring scene) |
+| Sc 20 | from sh140 to black unchanged and wordless except L106 |
+| Lip-sync CUs | still 5 (Sc 4, 11, 12, 15, 20); every new line is `[MS]` or `[OS]` |
+
+### 10.7 The OP: signed visual list (keeper v0.9, 7 corrections applied)
+
+The full list is in `script.md` v1.1, section "THE OPENING". It is binding for the S1 OP until it is re-cut, and the keeper signs the final OP storyboard against it. The 7 corrections: (1) tapestry panels **1, 2, 5** only; (2) must not show panels **3, 4 and 6**; (3) Kes only as her back at the head of the Rusk column, with no gate, no bar and no hands on a bar in the same frame or the cut next to it (SEC-009); (4) **one** person covering their own mouth, never rows or a crowd, no kneeling, no prayer signs (SEC-003); (5) Ione at the crown never cut against, matched in pose with, or dissolved into the tapestry (SEC-025); (6) the foot of the Spire stays dark; (7) the ring/stone rule is **SEC-027** (with S-13), not SEC-014. Animatic: placeholder slate only, no frames generated for the OP.
+
+### 10.8 What each department does
+
+- **Studio director:** permission for 81 TTS calls (≈3 423 credits ≈ $1.03) and 5 draft frames ($0.40); then the build: frames (§10.3), TTS (§10.5), cut by §10.2 / the v4 shot list, the two frame checks above, the OP and ending audio from the composer, the page card (§10.4).
+- **Composer:** `lib_mus_theme-op-pilot_v1.wav` (90.0 s) and `lib_mus_theme-ending-pilot_v1.wav` (60.0 s, cello variant, in at 0:00); M05 part A (Sc 5) and the old 9-s title phrase leave the pilot; Sc 7 keeps M05 part B, the archival drone, lighter, cut to 22.5 s.
+- **Sound director:** confirm the small-role re-use or re-cast; walla levels for L252–L254 and L267; move the page-turn SFX to ED 0:00.5; listen to the 81 takes.
+- **Keeper:** sign the Chronicle page master and, later, the OP storyboard.
+- **Analyst:** retention read of the v4 animatic at 2:30–3:40 (action A → argument → OP) and 6:20–8:05 (the kitchen argument in place of the narrator).
+
+### 10.9 If the story must come down toward 21:00 (not applied; director's choice)
+
+Safe trims with no line, plant or protected silence lost: Sc 4 sh120–sh160 holds −2.0; Sc 6 sh010–sh050 −2.5; Sc 9 sh010/020 −1.0, sh170 −0.5; Sc 10 sh010–sh080 −1.5 (keep L252–L254 clear); Sc 12 sh320–sh380 −2.5; Sc 15 −2.0; Sc 19 sh090–sh110, sh270–sh290 −3.0. About −15 s. Anything beyond that means cutting approved dialogue (candidates, in order: L236–L237, L223–L224, L245, L276–L277).

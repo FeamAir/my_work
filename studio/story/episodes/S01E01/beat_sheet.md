@@ -1,8 +1,16 @@
 # HOLLOWSTONE — S1E01 "The Ninth Sluice" — Beat Sheet
 
-Version 2.2 · 2026-11-24 · author: lead-screenwriter · status: **beat sheet v2 — the full script (`script.md` v1.0.4) is written to it**; v2.1 records the animatic v2 rulings (`continuity_check.md` §8); **v2.2 records the v3 edit decisions** (Sc 15a split, Sc 16–18 trims, Wick named, Ruel softened, Sc 10 speaker-on-screen; 19:51.5) — see `continuity_check.md` §9
+Version 2.3 · 2026-11-24 · author: lead-screenwriter · status: **beat sheet v2 — the full script (`script.md` v1.1) is written to it**; v2.1 records the animatic v2 rulings (`continuity_check.md` §8); v2.2 records the v3 edit decisions (§9); **v2.3 records the v4 dialogue pass** (no narrator, the OP after the cold open, the Chronicle page in the ending, two action beats, 81 new lines; story 21:33.25, with OP 23:03.25) — see `continuity_check.md` §10
 Canon: v0.4 + `story/decisions_resolved.md` · Outline: `season01_outline.md` v1.3, E1
 Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `sealed/master_mystery.md`; nothing here explains a sealed answer. Describe only what is seen and heard.
+
+> **v2.3 (2026-11-24) — the v4 dialogue pass (`v4_dialogue_pass.md`, approved; keeper v0.9 `reports/lore-v4-2026-11-24.md`; studio director's decisions). Marked `[v2.3]`.** In short:
+> 1. **No narrator in S1E01.** The Chronicler `[VO]` lines of Sc 5, 7 and 19 are retired. Nan recites the Choir's record over the tapestry (Sc 4, now with the panels as cutaways), Corr explains the tiers (Sc 6), Pell works out the thirty days (Sc 19). The record's own wording that no character may say goes on **one printed Chronicle page** at the head of the ending (no voice).
+> 2. **Packaging:** cold open (Sc 1, Sc 2, Sc 3 to "I wasn't humming.") → **OP: the main theme, instrumental, 90.0 s, carrying the title HOLLOWSTONE** (3:37.25) → the episode, the episode title burned in on the first shot after the OP → **ending: a soft cello variant of the theme, in at 0:00 under the Chronicle page** → preview. No sung voice in the pilot; the song is the OP from E3.
+> 3. **Two action beats** inside existing scenes: A — the slip at the sill, Wick dragged across the mud (Sc 3, 2:41.75); B — the water through the planks, the nets hauled in (Sc 19).
+> 4. **81 new TTS lines** (L201–L280 + the L041 re-take) with the keeper's exact replacements for L235, L252, L253, L256; the stewards' gossip is a bet, never news (SEC-037).
+> 5. Sc 5 is no longer a scene (its six panels play inside Sc 4); the title card leaves the episode. Sc 7 is a 22.5-s silent document sequence with three optional voices (taken).
+> 6. Running time: story **21:33.25** (v3 19:51.00), with the OP **23:03.25**, with the 60-s ending **24:03.25**.
 
 > **v2 (2026-11-22) — the analyst's review (`research/pilot_hook_review.md`), by the director's ruling: all eleven required changes O-1…O-11 are in.** Everything changed against v1.1 is marked `[v2]`. In short:
 > 1. **Sc 1** — alarm sound from frame one; the cradle moves fast and is shown empty; lanterns cut to four seconds; a geography shot at the gate at 0:10; the under-water silence two seconds (O-1, O-2, W-1, W-3).
@@ -38,22 +46,23 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 | Code | Motif | In this episode |
 |---|---|---|
 | M-LUL | the lullaby, five notes | Sc 1 (five + two answered), Sc 3 (three notes, mouth shut — and the answer), Sc 20 (one low note — the stone's, no melody) |
-| M-SPI | the spiral | Sc 5 tapestry (sunwise spirals, shell circlet), Sc 8–9 Spire grooves |
+| M-SPI | the spiral | tapestry panels inside Sc 4 `[v2.3]` (sunwise spirals, shell circlet), Sc 8–9 Spire grooves |
 | M-SHD | Pell's shard (thumbnail-sized, cracked, rotted cord) | Sc 3, 4, 6 (the cord), 9 (the cord), 15a (the cord), 19 (in her fist), 20 `[v2]` |
-| M-RNG | Ruel's black pearl ring (LEFT hand) | Sc 5 (a black pearl on the Queen's hand), Sc 10 (one insert), Sc 11 (the hand over the cup). **Not featured in Sc 12** `[v2]` |
+| M-RNG | Ruel's black pearl ring (LEFT hand) | tapestry panel 3 inside Sc 4 `[v2.3]` (a black pearl on the Queen's hand), Sc 10 (one insert), Sc 11 (the hand over the cup). **Not featured in Sc 12** `[v2]` |
 | M-CLP | the brass ledger-clip | Sc 15, 16 |
 | M-WHS | the Listeners' warning whistle (falling, two tones) `[v2]` | Sc 6, Sc 20 |
 | M-IX | the numeral IX `[v2]` | Sc 1 (the doorpost), Sc 2 (the doorpost, the tag), Sc 12 (the map) |
 | M-FRK | Ione's tuning fork | Sc 8, 9 |
 | M-MAP | the Tithe Map | Sc 7, 10, 12 |
-| M-BRD | the left braid | Sc 1 (the humming woman, silhouette), Sc 2 onward (Pell), Sc 5 (servant girl) |
+| M-BRD | the left braid | Sc 1 (the humming woman, silhouette), Sc 2 onward (Pell), panel 4 inside Sc 4 (servant girl) `[v2.3]` |
 | M-HND | hands on a gate bar | Sc 1, Sc 18 (same framing) |
 | M-CST | the cost — hand to the throat | Sc 8 (the old Cantor), Sc 9 (Ione) |
 | M-MTH | a hand over a mouth | Sc 4 (Nan and Wick) |
 | M-CLK | the clock | Sc 6 ("Whoever reads that map decides who gets wet"), Sc 18 (a guard), Sc 19 ("Who reads the map now?"; "thirty days") `[v2]` |
 | M-PAY | "who pays for the dry" (the theme, not yet the line) | Sc 2, 6, 9, 12, 19 |
-| M-SGN | the Chronicler's sign-off | Sc 5 |
-| M-CF | "carried forward" / "the balance of that year" (Chronicler only in E1) | Sc 5, 7, 19 |
+| M-SGN | the Chronicler's sign-off | `[v2.3]` printed on the Chronicle page in the ending only; never spoken, never quoted by a character |
+| M-CF | "carried forward" / "the balance of that year" (the record only in E1) | `[v2.3]` the Chronicle page in the ending only; no character says them in E1 (SEC-011b) |
+| M-PG | `[v2.3]` the Chronicle page (the written record; master design fixed now, the same book as the saga's end) | the ending of S1E01 |
 
 ---
 
@@ -61,7 +70,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 
 *Scenes are listed in **running order**. Full action and dialogue: `script.md`.*
 
-## COLD OPEN (0:00–5:20) — no logo, no title, no narrator
+## COLD OPEN (0:00–3:37.25 in the v4 picture: Sc 1, Sc 2, Sc 3 to L216) — no logo, no title, no voice-over `[v2.3]`
 
 ### Sc 1 — PRE-TITLE: the Night of Still Water `$` `[v2]`
 - **Place:** PL-0008 Ninth Sluice lanes → PL-0021 evacuation gate → open flood water. **Time:** night, CY 295, Still 3. **No dialogue. No Chronicler. No score until the hum. The first frame of the series is image 1.**
@@ -90,8 +99,9 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - Pell, FIXED LINE `[MS]`: *"You want it found, you pay the mud. Mud doesn't do favours."*
 - **Purpose:** the heroine and her stake inside the first two minutes; the district named aloud; the world in six seconds, as a glance.
 - **Seeds:** M-PAY (the debt is the dry-tithe: two months at the Ninth's present tier — the *word* comes in Sc 7 and Sc 12, the tithe-box puzzle in E2) · RULE-003 shown (the flat hum: why the ebb is so low) · the tide-mark of CY 295 · M-BRD · M-IX.
+- `[v2.3]` New lines: Pell *"Down, eel. You're dripping on him."* (L201) · *"Then we find it in a day."* (L202, into the rise) · Wick at the drop: *"It's cold down there!"* (L203 — his fear comes out as cold).
 - **Transition:** Wick jumps off the plank-walk after her.
-- **Length:** 0:50 (ends 2:00).
+- **Length:** 0:50 (ends 2:00). `[v2.3]` v4 picture 1:04.00–2:08.75.
 
 ### Sc 3 — The back-canal: the find and the answer ♪ `$` `[v2]`
 - **Place:** PL-0020 the Ninth Sluice back-canal, by the old sluice. **Time:** dawn ebb.
@@ -105,8 +115,10 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - `[v2]` No lore. Wick: *"It sang."* Pell: *"Stones don't sing. That's six coppers, that is."* She palms it before Mags can see what, or where. *"Buttons!"*
 - **Purpose:** the inciting object and the first mystery, together, at three minutes; Pell's competence and her one fear, shown and not named (pays E10); the Hush Law as a boy's whisper; she means to sell it.
 - **Seeds:** SEC-002 ♪ · M-SHD · SEC-027 ("no bigger than a thumbnail") · SEC-012 (the *place*, plainly — E2's question) · RULE-006 · DEC-45 guard: Mags sees neither the find nor the spot and is too far to hear · the stone is worth exactly the debt. `[v2]` The fence's name, the licence and "no tone for it to ring to" move to E2, which introduces the fence itself.
+- `[v2.3]` **Action beat A (the sill):** Wick *"You never go past the sill."* / Pell *"I'm not going past it. The rake is."* The rake snags; her knee skids off the wet sill and she pitches out over the black water; the rope snaps taut and Wick is dragged on his backside across the mud until his heels hit the sill-stone (*"Pell!"* / *"I'm sliding! I'm your brother, not a post!"* / *"Then be a post! Dig in!"* / *"I'm not losing the rake."*). She never goes in. Then the reflection, the hum, "Pell. Mouth.", the answer — all wordless as before (the stone answers at 3:03.25 in the v4 picture). Mags sees only a commotion.
+- `[v2.3]` **The argument that ends the cold open:** *"It sang."* / *"What did?"* / *"That. When it came up. It sang right back at you."* / *"I didn't hear anything."* / *"You were humming at it."* / *"I wasn't humming."* → 0.5 s of room tone → **CUT TO THE OPENING (90.0 s)**. After the OP: the macro of the stone (episode title burned in), *"Stones don't sing. That's six coppers, that is."*, Mags, *"Buttons!"*, the whistle, the climb.
 - **Transition:** a two-finger whistle, rising three: all clear, tide turning. They climb.
-- **Length:** 2:00 (was 2:10; ends 4:00).
+- **Length:** 2:00 (was 2:10; ends 4:00). `[v2.3]` v4 picture: 2:08.75–3:37.25 (to the OP) and 5:07.25–5:32.75.
 
 ### Sc 4 — Nan's rule `[v2]`
 - **Place:** PL-0019 Nan's stilt-house (interior). **Time:** morning.
@@ -121,12 +133,14 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - Pell opens her fist; the stone has left its shape in her palm. She knots the cord round her neck. Wick: *"It answered you."* Pell: *"It's dusk's money. That's all it is."*
 - **Purpose:** the Hush Law as a grandmother's terror; the family; the stone kept from Nan (E2 needs her to see it for the first time); the stake and the mystery tied into one object.
 - **Seeds:** RULE-006 · M-MTH (SEC-003, pays E8) · SEC-012 (her fear reads as the law) · the net-chest (pays E3, E7, E11) · the earring (worn, never looked at; its line is E2 — SEC-026) · M-SHD at her throat · `[v2]` Pell's age stated on screen (the stamp said seventeen years).
-- **Transition:** the stone against her skin → a black tower woven in thread. A dry page turns.
-- **Length:** 1:20 (was 1:40; ends 5:20).
+- `[v2.3]` **The Choir's why (replaces Sc 5's narrator).** After the hand and the three seconds: Wick *"Why, though? They sing up the hill all day."* / Nan *"They're Choir. They're paid to."* / Pell *"That's not a why. That's a who."* / Nan *"You want a why? Here's the Choir's."* — and Nan recites, in the record's formal voice, over the six tapestry panels as cutaways (order 1–6, one panel per frame): *"The First Voices raised the Spires. They are not heard now."* (exact) · *"The nine warden families found the Queen past reason, and her court with her."* (shortened) · Wick *"Past reason? You mean mad?"* / Nan, her own voice: *"That's what they found."* · panel 4 wordless · Pell *"And what did she do?"* / Nan *"She sang her city into the sea."* `[ECHO: SEC-025]` · Wick *"The whole city?"* / Nan *"Every roof. The Nine made their Concord on what stayed dry."* `[ECHO]` · Pell *"Three hundred and twelve years of tithe, then."* / Nan *"And three hundred and twelve years of mouths kept shut. That's your why."* / Pell *"That's the Choir's why."* Nan does not answer; she shoulders the bale. After "It's dusk's money": Pell *"And not a word to Nan. She'll only have a why for it."*
+- `[v2.3]` Nan never gives her own reason, never says "the Quiet", does not hum. "Neveh" is not spoken in E1 (keeper: allowed; the name must later be tied to the tapestry queen, no later than S05E03).
+- **Transition:** `[v2.3]` the stone against her skin → MATCH CUT → the turning hub of the wheel (Sc 6). The page-turn moves to the ending.
+- **Length:** 1:20 (was 1:40; ends 5:20). `[v2.3]` v4 picture 5:32.75–8:05.25 (2:32.5 with the panels).
 
-## TITLE
+## TITLE `[v2.3]: moved into the OP`
 
-### Sc 5 — The Breaking tapestry · TITLE `LA` `[v2]`
+### Sc 5 — The Breaking tapestry · TITLE `LA` `[v2]` — **`[v2.3]` no longer a scene:** the six panels play inside Sc 4 under Nan's recitation; the Chronicler and the title card leave the episode; the title is in the OP. The entry below is kept as the v2 record
 - **Place:** the Breaking tapestry (document sequence; it hangs in PL-0013 — details only, no room). **Time:** none (the Chronicle).
 - **Characters:** the Chronicler `[VO]` · tapestry figures CH-0030 Neveh, CH-0031 Oshra.
 - **What happens:** `[v2]` six woven panels, about seven seconds each, in the keeper's order:
@@ -160,8 +174,9 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - `[v2]` **A falling two-tone whistle crosses the roofs** and passes. Every head on the wheel goes down. Corr: *"Listeners."* Pell's hand is on the cord at her collar before she has decided to move it. Wick sees.
 - **Purpose:** the bottom floor at work; `[v2]` not a repeat of the stake but two new things — what the reading means for this street, and that the thing at her neck is a danger.
 - **Seeds:** RULE-007 · M-PAY · SEC-028 pre-echo (the still wheel, "short a pin" — uncommented; the plant proper is E5) · M-MAP · M-CLK · M-WHS (returns in Sc 20; E2's Listeners) · Corr (E5, E10).
+- `[v2.3]` **The tiers, because Pell asks** (replaces the Sc 7 narrator). Corr's re-take: *"Reading's today. The Helm reads the map up at the palace, and signs it. Whoever reads that map decides who gets wet."* (plants the unsigned map). Pell: *"We're Last Song. Have been since before I was born."* / Wick: *"Last for what?"* / Corr, a step a sentence (keeper's exact text): *"Storm comes, First Song gets sung first. Then Second. Then us, if there's voice left."* / Pell: *"And if there isn't?"* / Corr: *"Eight Spires still answer, girl. Ours answers worst."* / *"Come dusk we'll all know what Ninth Sluice is worth."* / Pell, low — a challenge, she knows there is a word: *"What's under Last Song?"* / Corr: *"Nobody on this wheel says that word."* — and the Listeners' whistle cuts in on his last word. The fourth tier is real and **nobody names it in E1**.
 - **Transition:** the wheel's hub → a compass rose in ink.
-- **Length:** 1:00 (was 1:30; ends 7:14).
+- **Length:** 1:00 (was 1:30; ends 7:14). `[v2.3]` v4 picture 8:05.25–9:34.25 (1:29).
 
 ### Sc 7 — BRIDGE: the map `LA`
 - **Place:** PL-0078 the Map Office (table-top only). **Time:** midday.
@@ -173,7 +188,8 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
 - **Purpose:** geography, houses and the stakes of the reading in forty seconds; the board the fans will redraw every season.
 - **Seeds:** M-MAP · M-CF · SEC-037 (the second sheet — uncommented).
 - **Transition:** the case is carried up a stair; the stair becomes a spiral of black stone.
-- **Length:** 0:40 (ends 7:54). `[v2]` Chronicler wording as in the script: *"The Tithe Map sets down who is sung first when the storm comes, and who after. First Song. Second Song. Last Song."* · the two FIXED LINES · *"By law the Helm reads the map aloud, and signs it; and the balance of that year was read on the sixth of Longdark."* The fourth tint's label stays under the cartographer's thumb.
+- `[v2.3]` **No Chronicler.** A silent document sequence of 22.5 s: the tints wash in (the legend FIRST SONG / SECOND SONG / LAST SONG legible), the fourth label under the thumb, the thin ring over the Sluice Spire, the map cased, the smaller sheet under the blotter (FIXED, no comment). Three small voices `[OS]`: senior clerk *"Is it dry?"* / cartographer *"Dry, and inked."* / senior clerk *"Then case it. He reads at the last light."* The SEC-011b wording moves to the Chronicle page.
+- **Length:** 0:40 (ends 7:54). `[v2.3]` v4: 22.5 s. ~~`[v2]` Chronicler wording as in the script: *"The Tithe Map sets down who is sung first when the storm comes, and who after. First Song. Second Song. Last Song."* · the two FIXED LINES · *"By law the Helm reads the map aloud, and signs it; and the balance of that year was read on the sixth of Longdark."* The fourth tint's label stays under the cartographer's thumb.~~ (retired in v2.3)
 
 ### Sc 8 — Ione takes her pitch
 - **Place:** PL-0014 the Crown Spire — base and inner stair (inside PL-0009 the Dry Palace). **Time:** afternoon.
@@ -183,6 +199,7 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - She strikes the silver tuning fork on her knuckle and holds it to the bone behind her ear. Eyes closed. The grooves of the stair wind upward past her.
   - On the stair an old Cantor makes way: one hand at the throat, the other signing a short, tired blessing. No sound comes out of that mouth. Ione bows to it as to her own future, and climbs.
 - **Purpose:** our second heroine in three gestures; the price of the song met before the song.
+- `[v2.3]` After *"It is what today is for."*: Ione, quiet, the fork in her hand: *"Then they'll hear it true."* / attendant `[OS]`: *"As you like, Lady Ione. It's your throat."* — then the strike.
 - **Seeds:** M-FRK · M-CST · M-SPI · RULE-001 (cost) · Choir sign exists (pays E11).
 - **Transition:** her steps on the spiral → wind → light.
 - **Length:** 1:10 (was 1:15; ends 9:04).
@@ -345,8 +362,9 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - — and the death-tone comes down from the relay-house, the whistle-chain over it, faster. The wheel's count stops in the middle of a number. In the new quiet the water is loud.
   - The collector lets go of the chest. He never looked at the fist (DEC-45 holds). *"Three long. That's the Helm. The Helm's dead."* … *"Keep your nets. Tonight."* He goes.
   - Her fist comes back into her lap, still closed. Doorways, lanterns, nobody speaking; far off a tiny hunched figure stops, then walks faster.
-  - `[v2]` Wick: *"Pell. Who reads the map now?"* No answer (pays Sc 6).
-  - Chronicler, over the lane: FIXED: *"Helm Lucan Dask died on the sixth of Longdark, with the Tithe Map unsigned."* FIXED: *"By law a Helm is chosen on the Still Days. There were thirty days, and a debt carried forward."* `[ECHO: SEC-011b]`
+  - `[v2]` Wick: *"Pell. Who reads the map now?"* ~~No answer~~ `[v2.3]` Pell answers (below) (pays Sc 6).
+  - ~~Chronicler, over the lane~~ `[v2.3]` retired; both sentences are printed on the Chronicle page in the ending.
+  - `[v2.3]` **Pell answers** (the direction "No answer" is withdrawn): *"Nobody. Not till the Still Days."* / Wick: *"That's a month."* / Pell: *"Thirty days. And no Helm."* The water is suddenly loud under the house — Wick: *"Pell. The wheel's stopped."* / Pell: *"Everybody's listening. Nobody's walking."* **Action beat B:** water wells up between the planks at the threshold (never into the house, never above the ankle; nobody says the pumps are broken) — *"Nets. Get the nets in."* They haul the wet nets in over the rail, Pell one-handed, her other hand still a fist: Wick *"He said keep them."* / Pell *"So we're keeping them."* Lanterns on black water; the door swings to.
 - **Purpose:** `[v2]` the heroine closes her own stake by a choice — to sell the thing the series is about — and a ruler's death cuts the choice off; the day's small debt and the realm's large one in one breath; the clock, stated where it will be paid.
 - **Seeds:** M-CLK · M-CF · M-MAP (unsigned) · M-PAY · the net-chest · Nan on her way (E2's entrance) · the debt is still owing (E2).
 - **Transition:** the door swings to. The tone goes on outside.
@@ -359,12 +377,13 @@ Spoiler level: **internal — tags only.** Secret codes (`SEC-…`) point to `se
   - Pell on the chest, the fist in her lap. The death-tone thin through the wall: three tones, the rest; again.
   - Under the third tone something in the room joins in — **lower**, a note the Relay does not have (and, as in Sc 3, with the upper partial a phone can carry). Pell looks for it on the shelf, the floor.
   - `[v2]` It is **in her fist**. Her hand is trembling and it is not her hand doing it. She opens her fingers: the stone humming on her palm, the cracked face in the lamplight — a tremor, never a glow. The water-bowl shivers into rings: the rings of the pool. This time she sees them.
-  - Pell has no line. Wick `[LIPSYNC-CU]`, FIXED LINE: *"Pell… it's singing back."*
+  - `[v2.3]` Before the third tone: Wick *"How long does it go on?"* / Pell `[OS]` *"Till everyone's heard."* (rhymes with Odo's "Nothing unheard."). Under the third tone: Pell *"Wick. Do you hear that?"* / Wick *"It's the relay."* / Pell, looking down at her own fist: *"No. Under it."* — then the hand opens, wordless.
+  - Wick `[LIPSYNC-CU]`, FIXED LINE: *"Pell… it's singing back."*
   - Outside, a head with a red rag turns toward the wall. `[v2]` **From far over the roofs, once: the falling two-tone whistle of Sc 6.** Below, the ladder creaks: small quick feet.
   - **Cut to black on the low note.** It holds one second into the dark.
 - **Purpose:** the hook of the series; what Wick saw at 3:00 Pell now sees, in her own hand; `[v2]` a threat added to the mystery — somebody may have heard; hands E2 its first second.
 - **Seeds:** SEC-002 ♪ (the note no relay uses) · M-SHD · M-WHS · DEC-45 / SEC-045 (Mags learns *that* it sings, and the lane — nothing else) · the wrong ringing a keeper can log (E2).
-- **Transition:** → ending (the opening theme, first full statement, after the held second) → preview. E2 opens on this frame.
+- **Transition:** → ending `[v2.3]`: after the held second, the soft cello variant of the theme enters at ED 0:00 under **the Chronicle page** (printed, not read; ≈20 s) → credits → preview. E2 opens on this frame.
 - **Length:** 1:30 (was 1:25; ends 26:39).
 
 ---
