@@ -119,7 +119,15 @@ def build():
             last = by[b]
         return sa["tc"], last["tc"] + last["dur"]
 
-    clips = [{"path": f"../la/{s['id']}.mp4", "duration": s["dur"]} for s in ss]
+    # assemble.py opens every clip as a separate decoder in one filter graph: 451 inputs ran out of memory (16 GB).
+    # The LA clips share codec/size/fps, so they are joined losslessly first (concat demuxer, stream copy).
+    lst = f"{A}/spec/la_concat.txt"
+    with open(lst, "w") as f:
+        for s in ss:
+            f.write(f"file '{A}/la/{s['id']}.mp4'\n")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy",
+                    f"{A}/la_concat.mp4"], check=True)
+    clips = [{"path": "../la_concat.mp4", "duration": round(total, 3)}]
     tracks, subs = [], []
     n = 0
     for s in ss:
@@ -139,8 +147,12 @@ def build():
     for a, b, sid, g in AMB:
         t0, t1 = span(a, b)
         tracks.append({"id": f"amb_{a}_{sid}", "stem": "amb", "path": f"../audio/sfx/{sid}.mp3", "start": round(t0, 3),
-                       "duration": round(t1 - t0, 3), "loop": True, "fade_in": 0.5, "fade_out": 0.5, "gain_db": g})
+                       "duration": round(t1 - t0, 3), "loop": True, "fade_in": 0.5, "fade_out": 0.5, "gain_db": g - 2})
+    # v1 mix pass 2: transient SFX normalised to -18 LUFS overshoot the master (TP +0.5, LRA 21) -> trims (dB)
+    TRIM = {"sfx_rowboat-oars": -6, "sfx_fall-table": -5, "sfx_rake-snag": -6, "sfx_gate-bar-drag": -4,
+            "sfx_fists-iron-gate": -4, "sfx_wheel-stop": -5, "sfx_ripple-tremble": -4}
     for shot, f, off, g, stem in EV:
+        g = g + TRIM.get(f, 0) + (-2 if stem == "fx" else 0)
         path = f"../audio/{f}.wav" if f.startswith("synth/") else f"../audio/sfx/{f}.mp3"
         tracks.append({"id": f"ev_{shot}_{f.split('/')[-1]}", "stem": stem, "path": path,
                        "start": round(max(0.0, by[shot]["tc"] + off), 3), "gain_db": g})
@@ -188,7 +200,7 @@ def overlay():
     vf.append(f"subtitles={SRT}:force_style='FontName=DejaVu Sans,FontSize=20,Outline=2,MarginV=28'")
     vf.append("format=yuv420p")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", RAW, "-vf", ",".join(vf), "-c:v", "libx264", "-preset", "veryfast",
-           "-crf", "23", "-c:a", "copy", "-movflags", "+faststart", FINAL]
+           "-crf", "23", "-af", "volume=-0.5dB", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", FINAL]
     subprocess.run(cmd, check=True)
     print(FINAL)
 
