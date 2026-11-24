@@ -214,6 +214,8 @@ def prompt_a(shot):
     chronicle = "{CHRONICLE}" in (shot["kf"] or "")
     p = ("Create ONE new single frame of a 2D anime TV episode (a finished background with characters, not a model sheet, "
          "no grid, no panels, no captions). " + " ".join(legend[:len(imgs)]) + " Shot: " + body.rstrip(". ") + ". ")
+    if shot["nochar"]:
+        p += "The frame is EMPTY of people: no figures, no characters, no faces anywhere (ignore any people in the reference images). "
     if chars:
         p += ("Characters are lit by the same light as the scene, colours no brighter than the surroundings, clean consistent anatomy. ")
     if "PELL" in chars:
