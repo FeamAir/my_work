@@ -14,7 +14,7 @@ Tools: `animatic_tools/cut_v3.py` (cut, re-frames, LA of changed shots), `vo_v3.
 | "The stone answers" (sc03-sh220) | 2:58.25 | **2:56.25** |
 | L106 "Pell… it's singing back." | missing (−91 dB) | **19:32.70, audible** |
 | VO lines in the mix | 102 placed (dx stem 72.7 s early, see §2) | **103 + L080 echo, all on their shots** |
-| Loudness (final mp4) | −14.7 LUFS, −1.6 dBTP, LRA 10.9 | see §2.4 |
+| Loudness (final mp4) | −14.7 LUFS, −1.6 dBTP, LRA 10.9 | **−14.6 LUFS, −1.2 dBTP, LRA 10.7** |
 | Paid | $0.16 | **$0.0893** (1 TTS take + 1 NB2 /edit take) |
 
 Scene starts (v3): Sc1 0:00 · Sc2 1:04.00 · Sc3 2:05.75 · Sc4 3:40.75 · Sc5 5:03.50 · Sc6 5:57.00 · Sc7 6:55.50 · Sc8 7:36.75 · Sc9 8:14.75 · Sc13 9:20.25 · Sc10 10:01.25 · **Sc15a-1 11:21.00** · Sc14 11:31.75 · Sc11 12:11.75 · Sc15 12:48.50 · **Sc15a-2 13:50.75** · Sc12 14:11.75 · Sc16 16:00.75 · Sc17 16:30.75 · Sc18 16:51.25 · Sc19 17:20.75 · Sc20 18:45.75 · end 19:51.00.
@@ -41,7 +41,8 @@ Consequences in v2 (and v1): every line sat 72.7 s ahead of its picture; L014/L0
 
 ### 2.4 Verification (ffmpeg, `animatic_tools/verify_vo.py`, result in `spec/S01E01_animatic_v3_vo_check.json`)
 Per VO line, window = spec start … start + duration: RMS and peak in the **final mp4**; presence in `stem_dx.wav` at that timecode (≥ 20 dB over the 0.5 s before it); all stems = 1191.00 s; no 0.5-s window below −80 dBFS outside the planned 1-s black.
-RESULT_PLACEHOLDER
+**Result: PASS.** 104 windows (103 lines + the L080 echo), all present in the DX stem at their timecode; final-file median line RMS −13.2 dBFS, **lowest −3.8 dB vs the median** (L069; L080 echo −3.5), no line more than 6 dB below; lowest line peak −3.5 dBFS (QA threshold −30). The v2 problem lines now: L014 −0.2 dB, L049 −0.5, L053 +0.1, L106 +2.1 vs the median (ffmpeg `volumedetect` on the mp4: peaks −2.1 / −2.1 / −2.3 / −2.6 dBFS). All stems and ducked beds 1191.00 s; no digital silence outside the planned black; `silencedetect` −50 dB / 2 s finds nothing. Loudness of the final mp4: **−14.6 LUFS, −1.2 dBTP, LRA 10.7 LU** (`ebur128`).
+The same check on v2 fails on 57 of 103 lines.
 
 ## 3. §9 edits as applied
 
@@ -75,7 +76,7 @@ sc11-sh060 (1.75 s) re-uses `sc10-sh040_a.png`: the man by the door, back to cam
 Corr's stump, Spire light and thread, glowing caustics, Hollis's lens, the clasp hand and sleeve, the Helm's ring, Nan's doorway, map details, banners, Mags's red rag and every other finals item from QA and the keeper are merged per shot in `S01E01_finals_checklist.md`, with the Corr method decision (stage from his left side; 3-image test before finals).
 
 ## 5. Cost of this step
-ElevenLabs TTS 31 credits ≈ $0.0093 (L014, 1 take of 3 allowed) + fal NB2 /edit $0.08 (sc20-sh010, 1 take of 2 allowed) = **$0.0893**. Studio total by `output/costs.jsonl`: **$51.92** (limit for this run $55). Backed up to `studio/budget/costs.jsonl`.
+ElevenLabs TTS 31 credits ≈ $0.0093 (L014, 1 take of 3 allowed) + fal NB2 /edit $0.08 (sc20-sh010, 1 take of 2 allowed) = **$0.0893**. Studio total by `output/costs.jsonl` after my calls: **$51.92** (limit for this run $55); the log at commit time reads $52.96 with the composer's parallel music runs. Backed up to `studio/budget/costs.jsonl`.
 
 ## 6. Open
 - QA: sound re-check of v3 (picture unchanged except the listed re-frames).
