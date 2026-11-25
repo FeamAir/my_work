@@ -4,7 +4,9 @@ Board SAGA_OP v2.9. Same cut grid (68 shots + 9 black, 87.0 s, 24 fps), same hit
 
   python3 -I op_saga_build_c12.py build [--only A01a,C13]   # segments that change in v1.2 (rest copied from v1.1)
   python3 -I op_saga_build_c12.py finish                    # unified finish -> fin_logo.mov, fin_textless.mov (ProRes)
-  python3 -I op_saga_build_c12.py master                    # master mp4 + ProRes master + textless + preview
+  python3 -I op_saga_build_c12.py master [--audio WAV --tag T] # master mp4 + ProRes master + textless + preview
+  python3 -I op_saga_build_c12.py preview                   # only the phone preview (2-pass ~6 Mb/s, ~70 MB, faststart)
+  python3 -I op_saga_build_c12.py swap --src ANTHEM [--tag candA]  # ONE command: new anthem -> audio, masters, V1-V4
   python3 -I op_saga_build_c12.py check FILE                # freezedetect + mpdecimate (op_saga_animatic.check) + LUFS/TP
   python3 -I op_saga_build_c12.py jitter FILE               # И10: per-frame letter-band shift on C13 (phase correlation)
 
@@ -29,7 +31,7 @@ What changes against v1.1 (op_saga_build_c.py, kept as is for v1.1):
   5. The AI label: "AI-ANIMATED", bold, 30 px, white 92 % on a 40 % black box, bottom right above the player bar.
   6. Audio: op_saga_audio_v12.py (hit at 0:00 from the v1a stems, intro +5 dB, -14 LUFS, TP <= -1).
   7. Deliverables (gate И8): master H.264 with the label; ProRes 422 HQ master (same picture, the label in); textless
-     ProRes 422 HQ (no label, no logo: C13 = plate + spray wipe only); phone preview (crf 20, faststart).
+     ProRes 422 HQ (no label, no logo: C13 = plate + spray wipe only); phone preview (2-pass ~6 Mb/s, faststart).
 """
 import argparse
 import json
@@ -364,35 +366,74 @@ def label_filter(size=30, x="w-tw-40", y="h-th-52"):
             f"box=1:boxcolor=black@0.40:boxborderw=10")
 
 
-def master(audio=None):
+def names(tag=""):
+    sfx = f"_{tag}" if tag else ""
+    return (f"{OUTD}/SAGA_OP_C_v1_2{sfx}.mp4", f"{OUTD}/SAGA_OP_C_v1_2{sfx}_master_prores.mov",
+            f"{OUTD}/SAGA_OP_C_v1_2{sfx}_textless_prores.mov", f"{OUTD}/SAGA_OP_C_v1_2{sfx}_preview.mp4")
+
+
+PREVIEW_KBPS = 6000   # phone preview: 2-pass ABR ~6 Mb/s video + 192 k audio = ~68 MB for 87 s. The finish grain makes a
+                      # constant-quality crf 20 encode ~290 MB (v1.2 first try), far too big for a phone link.
+
+
+def preview(src, dst, meta=()):
+    log = f"{WK}/x264_preview"
+    base = ["ffmpeg", "-v", "error", "-y", "-i", src, "-c:v", "libx264", "-preset", "slow", "-b:v", f"{PREVIEW_KBPS}k",
+            "-maxrate", f"{int(PREVIEW_KBPS * 1.6)}k", "-bufsize", f"{PREVIEW_KBPS * 2}k", "-pix_fmt", "yuv420p",
+            "-passlogfile", log]
+    subprocess.run([*base, "-pass", "1", "-an", "-f", "null", "/dev/null"], check=True)
+    subprocess.run([*base, "-pass", "2", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", *meta, dst], check=True)
+    for f in os.listdir(WK):
+        if f.startswith("x264_preview"):
+            os.remove(f"{WK}/{f}")
+    print("wrote", dst, round(os.path.getsize(dst) / 1e6, 1), "MB", flush=True)
+
+
+def master(audio=None, tag="", only_preview=False):
     """audio: ONE input path (coordinator: the anthem is swappable without touching the picture). Default = the v1.2
-    v1a mix (op_saga_audio_v12.py). Any 87.0 s file at -14 LUFS / TP <= -1 on the same hit grid drops in."""
+    v1a mix (op_saga_audio_v12.py). Any 87.0 s file at -14 LUFS / TP <= -1 on the same hit grid drops in.
+    tag: suffix of the output names (the audio swap writes SAGA_OP_C_v1_2_candA*.mp4 and leaves the v1a set alone)."""
     global AUDIO
     AUDIO = audio or AUDIO
+    out, out_prores, out_textless, out_preview = names(tag)
     if not os.path.exists(AUDIO):
         subprocess.run([sys.executable, "-I", f"{os.path.dirname(os.path.abspath(__file__))}/op_saga_audio_v12.py", AUDIO], check=True)
     fade = f"fade=t=out:st={an.FADE_ST}:d={an.FADE_D}"
-    meta = ["-metadata", "comment=AI-generated (Kling 2.5 TP, Nano Banana 2; music ElevenLabs); HOLLOWSTONE saga OP style C v1.2",
+    music = os.path.basename(AUDIO)
+    meta = ["-metadata", f"comment=AI-generated (Kling 2.5 TP, Nano Banana 2; music ElevenLabs, {music}); HOLLOWSTONE saga OP style C v1.2",
             "-metadata", "title=HOLLOWSTONE - opening (AI-animated)"]
     jobs = [
         (f"{WK}/fin_logo.mov", f"{label_filter()},{fade}", ["-c:v", "libx264", "-profile:v", "high", "-preset", "slow", "-crf", "14",
          "-tune", "grain", "-g", "48", "-maxrate", "50M", "-bufsize", "100M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "256k",
-         "-movflags", "+faststart"], OUT),
+         "-movflags", "+faststart"], out),
         (f"{WK}/fin_logo.mov", f"{label_filter()},{fade}", ["-c:v", "prores_ks", "-profile:v", "3", "-vendor", "apl0",
-         "-pix_fmt", "yuv422p10le", "-c:a", "pcm_s24le"], OUT_PRORES),
+         "-pix_fmt", "yuv422p10le", "-c:a", "pcm_s24le"], out_prores),
         (f"{WK}/fin_textless.mov", fade, ["-c:v", "prores_ks", "-profile:v", "3", "-vendor", "apl0", "-pix_fmt", "yuv422p10le",
-         "-c:a", "pcm_s24le"], OUT_TEXTLESS),
+         "-c:a", "pcm_s24le"], out_textless),
     ]
-    for src, vf, enc, dst in jobs:
+    for src, vf, enc, dst in ([] if only_preview else jobs):
         cmd = ["ffmpeg", "-v", "error", "-y", "-i", src, "-i", AUDIO, "-filter_complex", f"[0:v]{vf}[v]", "-map", "[v]",
                "-map", "1:a", "-frames:v", str(an.TOTAL), "-r", str(FPS), *enc, "-ar", "48000", "-t", f"{an.TOTAL / FPS}", *meta, dst]
         r = subprocess.run(cmd, capture_output=True, text=True)
         if r.returncode:
             raise RuntimeError(r.stderr[-3000:])
         print("wrote", dst, flush=True)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", OUT, "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-pix_fmt",
-                    "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", *meta, OUT_PREVIEW], check=True)
-    print("wrote", OUT_PREVIEW)
+    preview(out, out_preview, meta)
+
+
+def swap(src, tag, hit=False, intro_db=3.0, vertical=True):
+    """ONE command for the anthem swap (investor picks v2 cand A or B): audio -> master set -> vertical teasers.
+    The v2 candidates already carry their own 0:00 hit and a +4 dB intro (composer r5): no extra hit by default, +3 dB
+    on 0-9 s (hook level = the 12-57 s level, as the v1a mix), then -14 LUFS / TP <= -1. The picture
+    (fin_logo.mov / fin_textless.mov, KEEP them) is not touched.
+      python3 -I op_saga_build_c12.py swap --src output/music/lib_mus_theme-op-anthem_v2_candA.mp3 --tag candA"""
+    tools = os.path.dirname(os.path.abspath(__file__))
+    wav = f"{WK}/audio_v12_{tag}.wav"
+    cmd = [sys.executable, "-I", f"{tools}/op_saga_audio_v12.py", wav, "--src", src, "--intro-db", str(intro_db)]
+    subprocess.run(cmd + ([] if hit else ["--no-hit"]), check=True)
+    master(wav, tag)
+    if vertical:
+        subprocess.run([sys.executable, "-I", f"{tools}/op_saga_vertical_v12.py", "all", "--audio", wav, "--tag", tag], check=True)
 
 
 # ------------------------------------------------------------------------------------------------ checks ---
@@ -443,10 +484,17 @@ def probe(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["build", "finish", "master", "check", "jitter", "probe"])
+    ap.add_argument("cmd", choices=["build", "finish", "master", "preview", "swap", "check", "jitter", "probe"])
     ap.add_argument("file", nargs="?")
     ap.add_argument("--only", default="")
     ap.add_argument("--audio", default=None, help="one audio input path (default: the v1a v1.2 mix)")
+    ap.add_argument("--src", default=None, help="swap: the new anthem (mp3/wav, 87.0 s, same hit grid)")
+    ap.add_argument("--tag", default="", help="master/swap: suffix of the output names")
+    ap.add_argument("--hit", action="store_true", help="swap: also lay the v1a-style 0:00 hit (the v2 candidates have one)")
+    ap.add_argument("--intro-db", type=float, default=3.0,
+                    help="swap: extra intro lift 0-9 s. The v2 candidates carry +4 dB already, but their hook still sits "
+                         "~4 dB under 12-57 s (M median -19.5 vs -15.3); +3 dB brings it to -16.7 vs -15.5, as the v1a mix")
+    ap.add_argument("--no-vertical", action="store_true")
     a = ap.parse_args()
     setup()
     an.A.update(an.make_assets())
@@ -463,7 +511,11 @@ def main():
     elif a.cmd == "finish":
         print(json.dumps(finish()))
     elif a.cmd == "master":
-        master(a.audio)
+        master(a.audio, a.tag)
+    elif a.cmd == "preview":
+        master(a.audio, a.tag, only_preview=True)
+    elif a.cmd == "swap":
+        swap(a.src, a.tag or os.path.splitext(os.path.basename(a.src))[0].split("_")[-1], a.hit, a.intro_db, not a.no_vertical)
     elif a.cmd == "check":
         sa.check(a.file)
         print(json.dumps(dict(zip(("integrated_LUFS", "true_peak_dBFS"), bc.loudness(a.file)))))

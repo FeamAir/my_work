@@ -36,16 +36,18 @@ LOGO_RGBA = f"{b.SEG}/C13_logo_rgba.mov"
 CARD = (1981, 2087)
 LOGO_W, LOGO_CY = 760, 1173
 
-# V3 starts on 941 (0:39.21), not 0:38.8: no Gullmouth neighbour (marketer: Ossari only with the logo) and the
-# B07a whip-in (936-940) is a blur, not a first frame.
-# teaser -> (first frame, last frame, keys {cut: [x0, x1] | "LB"}); frames of the 87.0 s OP at 24 fps
+# V3 starts on 936 (0:39.0 = the B07a cut), not 0:38.8: the 5 frames before it are the B06b whip-out on the mole, and
+# Ossari takes only the logo as a neighbour (marketer, brief). The teaser opens on the WHIP-in (936-940): a swish into
+# the kites, not a cold first frame.
+# teaser -> (first frame, last frame, keys {cut: [x0, x1, ...] | "LB"}); keys are evenly spaced over the cut and
+# interpolated linearly (C07: the emblem drifts right, then settles); frames of the 87.0 s OP at 24 fps
 T = {
     "V1": ("The Drop", 1272, 1475, {"B13c": [656], "B12d": [760], "B13d": [656], "B14": [600, 700], "B15": [656],
                                     "B16": [656], "C01a": "LB", "C01b": "LB", "C02": [640, 620], "C02L": [656]}),
     "V2": ("Raise your banner", 1440, 1655, {"C02": [640, 620], "C02L": [656], "C03": [820, 880], "C03L": [200],
                                              "C04": "LB", "C05": [620, 660], "C05L": [1180], "C06": [600, 640],
-                                             "C06L": [640], "C07": [300, 360]}),
-    "V3": ("Kite sky", 941, 1079, {"B07a": [656], "B08a": [656], "B07b": [656], "B08b": [656]}),
+                                             "C06L": [640], "C07": [236, 372, 356]}),
+    "V3": ("Kite sky", 936, 1079, {"B07a": [656], "B08a": [656], "B07b": [656], "B08b": [656]}),
     "V4": ("Highwater groove", 288, 491, {"A06": [400], "A07": [656], "A08": [210], "A09": [656], "A10": [400],
                                           "A11": [0, 400]}),
 }
@@ -117,7 +119,7 @@ def body(name):
             continue
         s0, ln = an.START[c], an.NFR[c]
         u = (n - s0) / max(1, ln - 1)
-        x = k[0] if len(k) == 1 else k[0] + (k[1] - k[0]) * u
+        x = float(np.interp(u, np.linspace(0, 1, len(k)), k)) if len(k) > 1 else k[0]
         out.append(upscale(crop_x(f, x)))
     return out
 
@@ -139,11 +141,11 @@ def end_card():
     return out
 
 
-def write(name, frames, audio):
+def write(name, frames, audio, tag=""):
     _, f0, f1, _ = T[name]
     os.makedirs(OUTV, exist_ok=True)
     bd = badge()
-    dst = f"{OUTV}/SAGA_OP_v1_2_{name}_9x16.mp4"
+    dst = f"{OUTV}/SAGA_OP_v1_2{'_' + tag if tag else ''}_{name}_9x16.mp4"
     a0, a1 = f0 / FPS, (f1 + 1) / FPS
     c0, c1 = CARD[0] / FPS, (CARD[1] + 1) / FPS
     af = (f"[1:a]asplit=2[x][y];[x]atrim={a0:.4f}:{a1 + 0.02:.4f},asetpts=PTS-STARTPTS[a];[y]atrim={c0 - 0.02:.4f}:{c1:.4f},asetpts=PTS-STARTPTS[b];"
@@ -192,6 +194,7 @@ def main():
     ap.add_argument("cmd", choices=["all", "sheet"])
     ap.add_argument("name", nargs="?")
     ap.add_argument("--audio", default=b.AUDIO, help="one audio input path (the OP mix)")
+    ap.add_argument("--tag", default="", help="suffix of the output names (audio swap: candA / candB)")
     a = ap.parse_args()
     os.makedirs(OUTV, exist_ok=True)
     if a.cmd == "sheet":
@@ -200,8 +203,9 @@ def main():
     card = end_card()
     for name in ([a.name] if a.name else T):
         fr = body(name)
-        sheet(name, fr)
-        print(write(name, fr + card, a.audio), flush=True)
+        if not a.tag:
+            sheet(name, fr)
+        print(write(name, fr + card, a.audio, a.tag), flush=True)
 
 
 if __name__ == "__main__":
