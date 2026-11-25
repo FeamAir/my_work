@@ -9,8 +9,9 @@ fin_textless.mov (C13 without the logo) + the logo layer rendered alone on trans
 Crop: a 608 x 1080 window (x = its left edge), keyed per cut (linear between the keys inside a cut, a hard jump on the
 cut), upscaled to 1080 x 1920 (Lanczos + light unsharp). "LB" = the 16:9 picture inside 9:16 on a blurred, darkened,
 half-desaturated backing (panorama, the three pennants: board §7.3, keeper Q3). Safe frame x 60-940, y 250-1500.
-End card (every teaser): C13 1981-2087 (the last hit, spray wipe, the logo lands, drains, glint, drop), the K17C plate
-cropped at x = 656, the WHOLE word on one line, 760 px wide (board said ~560; wider reads better on a phone and stays
+End card V1, V4: C13 1981-2087 (the last hit, spray wipe, the logo lands, drains, glint, drop), the K17C plate
+cropped at x = 656; V2, V3: the logo layer alone on flat
+#0B0D12 (keeper R10.3, see DARK_CARD). Every card: the WHOLE word on one line, 760 px wide (board said ~560; wider reads better on a phone and stays
 inside the safe frame), centre y 1173. Badge "AI-ANIMATED" top left (x 60, y 262), bold, white on a black box.
 Audio: the same seconds of the OP mix + the logo hit 82.54-87.0, joined with a 20 ms crossfade on the cut, then each
 teaser to -14 LUFS / TP <= -1 (norm; video stream copied).
@@ -125,14 +126,24 @@ def body(name):
     return out
 
 
-def end_card():
-    bg = read_frames(SRC_TL, *CARD)
+# keeper R10.3 (V3, High) + coordinator (V2, keeper Low): the end card is the logo layer ALONE on a flat #0B0D12 plate —
+# no spray wipe, no OP frames 1981-2087 (no W13 panorama, no K17C tower); a straight cut on the hit from the body's last
+# frame. Same layer: landing, drain to the tide line, glint, drop; the whole word on one line, 760 px; badge top left.
+DARK_CARD = {"V2", "V3"}
+DARK_BGR = (0x12, 0x0D, 0x0B)          # #0B0D12
+
+
+def end_card(dark=False):
     lg = read_frames(LOGO_RGBA, CARD[0] - an.START["C13"], CARD[1] - an.START["C13"], rgba=True)   # the layer counts from C13's 1st frame
+    if dark:
+        bg = [None] * len(lg)
+    else:
+        bg = read_frames(SRC_TL, *CARD)
     assert len(bg) == len(lg) == CARD[1] - CARD[0] + 1, (len(bg), len(lg))
     s = LOGO_W / 1300.0
     out = []
     for f, l in zip(bg, lg):
-        v = upscale(crop_x(f, 656))
+        v = np.full((VH, VW, 3), DARK_BGR, np.uint8) if dark else upscale(crop_x(f, 656))
         # the logo layer (16:9, the word centred at x 960, y 660) -> scale s, word centre to (540, LOGO_CY)
         M = np.float32([[s, 0, 540 - 960 * s], [0, s, LOGO_CY - 660 * s]])
         L = cv2.warpAffine(l, M, (VW, VH), flags=cv2.INTER_AREA, borderMode=cv2.BORDER_CONSTANT, borderValue=0)
@@ -232,8 +243,12 @@ def main():
         for name in ([a.name] if a.name else T):
             norm(f"{OUTV}/SAGA_OP_v1_2{'_' + a.tag if a.tag else ''}_{name}_9x16.mp4")
         return
-    card = end_card()
+    cards = {}
     for name in ([a.name] if a.name else T):
+        dark = name in DARK_CARD
+        if dark not in cards:
+            cards[dark] = end_card(dark)
+        card = cards[dark]
         fr = body(name)
         if not a.tag:
             sheet(name, fr)
