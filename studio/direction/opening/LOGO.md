@@ -87,6 +87,10 @@ Working recipe (tested on `PL-0014/D08_S1_dusk_v1.png`, crown framing): `studio/
 
 `direction/opening/tools/op_saga_vertical_v12.py`: frames 1981–2087 of the textless C13 (spray wipe + K17C plate, no logo) cropped at x = 656 (608-px window) and upscaled to 1080×1920; the logo layer rendered alone on transparent (same landing, drain, glint, drop) laid over it, the **whole word on one line**, 760 px wide, centre (540, 1173), inside the safe frame x 60–940, y 250–1500. Never a single letter, never the tower crop of a 16:9 frame (it cuts the word). Badge AI-ANIMATED top left.
 
+V3 (Ossari): the end card is the logo layer alone on flat #0B0D12 — no spray wipe, no frames 1981–2087 of C13, no tower, no panorama (keeper R10.3; adjacency §4.1, SEC-008).
+
+V2 takes the same dark card (keeper R10.4 Low, coordinator approved 2026-11-25): the Choir banner C07 is not followed by Spires. V1 and V4 keep the C13 card above. Every card: a straight cut on the hit from the body's last frame.
+
 ## 5. Keeper check requested
 
 *Answered 2026-11-24 (`reports/lore-saga-op-2026-11-24.md` R2.5): both confirmed, with the conditions now in §2 p. 9–11 and §4.*
