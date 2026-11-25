@@ -199,7 +199,7 @@ depends_on: [SEC-003]
 related: [CH-0030, CH-0031, HS-094, EV-0100, EV-0330, RULE-013]
 ```
 
-Clues: S01E01 "She sang her city into the sea."; last tapestry panel: Neveh alone at the crown, the crowd already fallen · S01E08 "nine verses and one you don't need" · S02E03 "Not there. Never there." · S2, episode score (scene named by the lead screenwriter; v0.11, was the S2 opening): the lullaby reversed (the Answer) · S03E04 "three keep it, none sings it" · S03E10 the elders cover Pell's mouth · S05E10 "...and the Keeper closed what the Many had opened" · S08E10 ten staves, the tenth right to left · S09E05 two lines sung forward strike the Storm Spire dumb. Public in S12. Never in marketing, openings or previews before S10E10.
+Clues: S01E01 "She sang her city into the sea."; last tapestry panel: Neveh alone at the crown, the crowd already fallen · S01E08 "nine verses and one you don't need" · S02E03 "Not there. Never there." · S02E03, the slap scene, under the strings (v0.12, was the S2 opening): the lullaby reversed (the Answer) · S03E04 "three keep it, none sings it" · S03E10 the elders cover Pell's mouth · S05E10 "...and the Keeper closed what the Many had opened" · S08E10 ten staves, the tenth right to left · S09E05 two lines sung forward strike the Storm Spire dumb. Public in S12. Never in marketing, openings or previews before S10E10.
 
 ### SEC-026 - Ves
 

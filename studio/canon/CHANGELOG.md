@@ -2,7 +2,14 @@
 
 One line per change. Newest on top. Format: `vX.Y · date · proposed by · record(s) · change`.
 
-## v0.11 · 2026-11-25 · studio director (decision on keeper's `reports/lore-saga-op-2026-11-25-r10.md` R10.5, option A; investor rule: the opening stands apart from the series) · lore-keeper · **pending the lead screenwriter's confirmation**
+## v0.12 · 2026-11-25 · lead-screenwriter (`reports/lead-screenwriter-2026-11-25.md`; `story/sealed/master_mystery.md` r9 §7) · lore-keeper
+
+- **v0.11 confirmed** by the lead screenwriter; the "pending" mark removed.
+- **secrets.md SEC-025** (restricted-sharing row) and **SEC-002** clues, **sealed/sealed.md** clue line: the audio clue is set in **S02E03, the slap scene, under the strings** (verse 10 R; the same scene as Nan's "Not there. Never there.").
+- **excerpts/for_composer.md** v0.12, §2 p. 2: episode and scene fixed; terms 1-5 of master_mystery §7 (retrograde only, instrumental under sustained strings, once from the slap to the cut, no lullaby material in Nan's "Ves" cue of the same episode, the scene does not move).
+- **checklist.md** line and README version line updated. No reveal, knower or event changed.
+
+## v0.11 · 2026-11-25 · studio director (decision on keeper's `reports/lore-saga-op-2026-11-25-r10.md` R10.5, option A; investor rule: the opening stands apart from the series) · lore-keeper · confirmed in v0.12
 
 - **secrets.md SEC-025** (restricted-sharing row): the reversed lullaby is planted under the strings of one **S2 episode's score**, no longer the S2 opening (the saga opening is one for every season, excerpt §8, and carries no lullaby). Episode and scene to be named by the lead screenwriter.
 - **secrets.md SEC-002** clues and **sealed/sealed.md** (same secret's clue line): "S2 opening" → "S2, episode score (scene named by the lead screenwriter)". Reveal, knowers, other clues unchanged.
