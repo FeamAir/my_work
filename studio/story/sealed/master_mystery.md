@@ -9,6 +9,8 @@ Version 1.2 · 2026-11-22 · author: lead-screenwriter
 > **Revision r3 (2026-11-22, final ruling):** the saga is titled **HOLLOWSTONE** (*The Low Note* = Act II and Season 12). New **§10** holds the restricted side of the rulings on `canon/decisions_for_lead.md` (open side: `story/decisions_resolved.md`). Clue wording corrected in §5 for DEC-21, DEC-49, DEC-54, DEC-63 and for Cressa's S1E3 scene (DEC-24); numbering note: the canon's SEC-011 is this file's SEC-011a. No answer and no reveal episode changes.
 
 > **Revision r7 (2026-11-22, love lines):** new **§12** — the restricted side of `story/romance_lines.md`: what the Maren / Hollis line is after S6E9, the hidden terms of the Helm's marriage, two restricted notes on the Pell / Esk and Ruel / Jaro lines, one added Chronicler rule. **No answer and no reveal episode of SEC-001…029 changes.**
+>
+> **Revision r9 (2026-11-25, canon v0.11 — the opening):** the saga has one opening for all seasons, with no lullaby and no opening footage in episodes (investor rule). The hidden SEC-025 audio clue (verse 10 in retrograde) moves from the former "S2 opening" to the score of **S2E3, the slap scene**, under the strings. Changed: §1a fair-play line, §5 (SEC-002 and SEC-025 tables), §7. Rows marked `r9`.
 
 ---
 
@@ -30,7 +32,7 @@ Consequences that tie the saga together:
 - **Maren is Neveh's mirror.** In S12 the Sovereign — wearing the Keeper's ring (SEC-027), holding Vesna's notation of the Tenth Verse and the Choir school's gleaned children who carry the Low Note — threatens to do exactly what the Sunken Queen did: seal the Highwater Spires rather than yield them. Her choice at S12E11 is Neveh's choice, made the other way.
 - **The finale is a decision, not only a performance.** After the Great Chorus the crowds at each Spire are asked whether to sing the Tenth Verse *together* — to seal their Spire against solo voices for ever, so that no house can own the song again, at the price that the delta must go on singing together for ever. Most do. Pale Crag refuses and stays a solo Spire (an honest loose end and the franchise's sequel space). Pell carries the high part alone through the sealing so that no Cantor is forced to; that is where her voice goes (S12E12).
 
-**Fair-play statement:** every element of the second layer is on screen before S10 — the Chronicler's literal wording (S1E1), Nan's "Not there. Never there." (S2E3), the reversed lullaby in the S2 opening, the terror of the Quiet elders when the Sunken Spire stirs (S3E10), the Storm Spire struck dumb (S9E5). Clue plans: §5.
+**Fair-play statement:** every element of the second layer is on screen before S10 — the Chronicler's literal wording (S1E1), Nan's "Not there. Never there." (S2E3), the reversed lullaby under the strings of the S2E3 score (the slap scene), the terror of the Quiet elders when the Sunken Spire stirs (S3E10), the Storm Spire struck dumb (S9E5). Clue plans: §5.
 
 ## 2. The secret behind the narration
 
@@ -152,7 +154,7 @@ Format: episode — what is shown/said — how it reads first time / after revea
 | S1E12 ♪ | Pell hums on the ruins of her house; the shard answers; **cut** to the Sunk at low tide — the crown of the Sunken Spire rings faintly (the audience hears it; the characters cannot). Nan weeps. |
 | S2E3 | Nan slaps Pell for humming near a Spire: *"Not there. Never there."* |
 | S2E8 | Nan's last words: *"It's not in the blood. It's in the mouth."* |
-| S2 OP | The season-2 opening hides the lullaby played backwards under the strings (fans find it). |
+| S2E3 score `r9` | The slap scene ("Not there. Never there."): from the slap to the cut out of the scene, verse 10 played in retrograde sits under the strings (fans find it). Was "S2 OP" — moved by canon v0.11 (one saga opening for all seasons, no lullaby in it). |
 | S3E4 ♪ | The Quiet in the Sunk whistle the same five notes as a password. |
 
 ### SEC-003 (saga) — the Breaking → S5E10 (incl. Pell–Oshra, Maren–Corvane links)
@@ -257,7 +259,7 @@ S1E7 Marl dead, a Corvane coin in her fist (reads: Fennick framing Corvane); S1E
 | S1E1 | Chronicler, exact words: *"She sang her city into the sea."* Tapestry: in the last panel Neveh sings **alone at the crown**; the crowd below has already fallen. |
 | S1E8 | Nan: the lullaby has "nine verses and one you don't need". |
 | S2E3 | Nan slaps Pell for humming near a Spire: *"Not there. Never there."* (reads: Hush Law). |
-| S2 OP | the lullaby reversed under the strings (the Answer — fans find it years early without knowing what it is). |
+| S2E3 score `r9` | the slap scene: verse 10 in retrograde under the strings, from the slap to the end of the scene (the Answer — fans find it years early without knowing what it is). Was "S2 OP"; moved by canon v0.11. |
 | S3E4 | Quiet rule in the Sunk: "three keep it, none sings it." |
 | S3E10 | When the Sunken Spire stirs under Pell's voice, the Quiet elders do not cheer — they cover her mouth. |
 | S5E10 | Spiral Book fragment: "…and the Keeper closed what the Many had opened." Flashback ends *before* the sea comes; Neveh is seen prising the stone from her ring (uncommented; SEC-027). |
@@ -319,7 +321,8 @@ S1E5 the missing child found with a Gleaner novice "for testing" — the novice 
 - **Encourage:** "Pell is an Ashare heir" (false — she is Oshra's line, a servant's; the truth is better). "Ione and Pell are related" (true; the S1E5 two-note echo should make sharp fans suspect by S2). "Fennick killed the Helm" (false). "Who is the Chronicler?" (live debate for 11 seasons).
 - **Protect:** the Builders' truth (SEC-014) — no clue before S2, none explicit before S5; Maren's betrayal (SEC-010) — keep her sympathetic through S7, and *arguable* through S9.
 - **r2 — let them be half right:** "the Queen wasn't mad" will be guessed by S2 — good; it hides the second flip (she did it anyway, SEC-025). "Quire is Hollis" will be guessed — good; it hides Zev. "Maren will turn" will be guessed — good; it hides that her reason is sound.
-- **r2 — protect absolutely:** SEC-025 and SEC-026 (never in marketing, openings or previews before S10E10; the S2 OP reversal is the only pre-planted audio clue). SEC-027: the ring and the stone must never share a frame before S12E11.
+- **r2 — protect absolutely:** SEC-025 and SEC-026 (never in marketing, openings or previews before S10E10; the S2E3 score reversal — the slap scene — is the only pre-planted audio clue; r9: it was the S2 opening until canon v0.11). SEC-027: the ring and the stone must never share a frame before S12E11.
+- **r9 — the opening (canon v0.11, director's decision 2026-11-25, confirmed by the lead screenwriter):** the saga has **one opening for all seasons**, and it carries no lullaby and no verse of it, forward or reversed. Investor rule: the opening stands apart from the series — **no opening footage is cut into any episode**, and no clue of any SEC may depend on the opening. The one hidden audio clue for SEC-025 lives in the **S2E3 score, the slap scene**, on these terms: (1) verse 10 in retrograde only (`verse 10 R`), never forward before S9E5; (2) instrumental, under sustained strings, low in the mix but clean enough to isolate and reverse; no voice, no closed-mouth hum (DEC-70), no Ashare material; (3) it starts on the slap and ends on the cut out of the scene; once, and nowhere else in S2; (4) the score of Nan's "Ves" scene in the same episode carries no lullaby material, so the two clues (SEC-025, SEC-026) never share a cue; (5) the scene number is fixed when the S2 outline is written; the scene itself (the slap, "Not there. Never there.") does not move.
 
 ## 8. Rules for the future (franchise compatibility)
 

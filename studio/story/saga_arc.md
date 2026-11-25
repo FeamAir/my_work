@@ -180,7 +180,7 @@ S1 Esk's kite at the Stair → S2 Tsura reads it · S2 the ultimatum in Brenna's
 
 | Motif | S1 | S2–S4 | S5–S8 | S9–S12 |
 |---|---|---|---|---|
-| **Nan's lullaby** ♪ (clue scenes only) | E1, E5, E10, E12 | S2E3 (the slap), S2 OP reversed, S3E4 password, S3E10 the Sunken Spire stirs, S4E11 duet | S5E11 the Thousand Voices, S8E10 ten staves | S9E5 the First Raising, S10E10 completed, S11E12 the Answer, S12E12 the Great Chorus |
+| **Nan's lullaby** ♪ (clue scenes only) | E1, E5, E10, E12 | S2E3 (the slap; verse 10 reversed under the strings of the same scene, canon v0.11), S3E4 password, S3E10 the Sunken Spire stirs, S4E11 duet | S5E11 the Thousand Voices, S8E10 ten staves | S9E5 the First Raising, S10E10 completed, S11E12 the Answer, S12E12 the Great Chorus |
 | **The spiral** | E1 tapestry + shell in the servant's fist; E2 Nan's earring | S3E4 mud-sign of the Quiet; S4E8 Elm signs it | S5E10 Spiral Book; S6E3 Lio draws it the wrong way; S8 the archive stair | S8→S9 the shell on the chart; S10E9 the second earring; S12E13 children draw it |
 | **Pell's echo-shard** | E1 found; E2 Nan sees it; E12 answers | S4 Pell → Ione (E8) → Pell (E11) | S8E8 whose it was | S9E5 it cracks further; S12E11 the last step (sealed) |
 | **Ruel's black pearl ring** | E1 handshake, E4 hinge, E9 wake, E11 Maren takes it | hidden; S2E10 Ysa knows she has it | S5E10 flashback (uncommented); S6E12 Maren puts it on | S9E12 coronation; S11→S12 hand-off; S12E11 |
@@ -222,7 +222,7 @@ Internal, **answer-free**: this table names threads, not solutions (those are in
 | The navy knot on the cradle (SEC-017) | S1E10 | S7E2; S8E4 | S9E7 |
 | "Protect the name" (SEC-010) | S1E11 | S2E11; S6E12; S8E11; S9E4, E5, E6, E8 | S9E11 |
 | The Sunken Spire answers (SEC-018) | S1E12 | S3E10; S8E10; S9E5 | S11E12 |
-| What the Quiet fear; the tenth stave (SEC-025) | S1E1, E8 | S2E3, S2 OP; S3E4, E10; S5E10; S8E10; S9E5 | S10E10 |
+| What the Quiet fear; the tenth stave (SEC-025) | S1E1, E8 | S2E3 (scene and score); S3E4, E10; S5E10; S8E10; S9E5 | S10E10 |
 | The single earring; five taps (SEC-026) | S1E2, E12 | S2E3, E9; S3E12; S4E7; S5E6; S8E8 | S10E9 |
 | Vesna's signs about "the noise of the many" (SEC-020) | S2E9 | S4E7; S8E2 | S10E9 |
 | The duet; the full chord (SEC-021) | S4E11 | S5E11; S8E10; S9E5 | S10E10 |
