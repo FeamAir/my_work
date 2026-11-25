@@ -2,6 +2,14 @@
 
 One line per change. Newest on top. Format: `vX.Y · date · proposed by · record(s) · change`.
 
+## v0.11 · 2026-11-25 · studio director (decision on keeper's `reports/lore-saga-op-2026-11-25-r10.md` R10.5, option A; investor rule: the opening stands apart from the series) · lore-keeper · **pending the lead screenwriter's confirmation**
+
+- **secrets.md SEC-025** (restricted-sharing row): the reversed lullaby is planted under the strings of one **S2 episode's score**, no longer the S2 opening (the saga opening is one for every season, excerpt §8, and carries no lullaby). Episode and scene to be named by the lead screenwriter.
+- **secrets.md SEC-002** clues and **sealed/sealed.md** (same secret's clue line): "S2 opening" → "S2, episode score (scene named by the lead screenwriter)". Reveal, knowers, other clues unchanged.
+- **excerpts/for_composer.md** v0.11: §2 p. 2 rewritten (no exception for any opening; the verse 10 R clue goes into an S2 episode score once the lead screenwriter names the scene).
+- **checklist.md:** one line (no lullaby in the saga opening; the S2 audio clue lives in the episode score). README version line.
+- Outside the canon (lead screenwriter's files, not edited by the keeper): `story/sealed/master_mystery.md` line 33 and §5 row "S2 OP" still say "S2 opening" - to be updated by the lead screenwriter with the episode and scene.
+
 ## v0.10 · 2026-11-24 · anime-director (`direction/opening/SAGA_OP_storyboard.md` v2.0 §10 Q2; studio director's task) · lore-keeper (ruling: `reports/lore-saga-op-2026-11-24.md`)
 
 - **world.md §2:** heights at first appearance - Sentinel ~140 m, Sheaf ~130 m, Falls ~120 m, Pale ~110 m, Storm ~100 m (the Crown stays the tallest). New paragraph **Sites and look of the five Spires outside Highwater**: one common form for all eight standing Spires; Sentinel on the crown of the Gullmouth headland (HS-001), Sheaf alone among the square fields on a low rise (HS-002), Pale on the cliff summit with the cloister round and below its foot (HS-003), Falls on a rock spur beside the falls, foot above the spray, crown above the rim, never on the lip (HS-004, HS-012, PL-0049), Storm in the middle of Brackwater, foot in the shallows by the Hull Moot beach, beacons apart on the outer bar (HS-005, HS-020). Damage to a Spire is set by the episode that needs it, never by an establishing shot. New paragraph **Compass of the wider delta** (from `series_bible.md` §6 and DEC-65): Gullmouth north coast, Pale Crag south coast, the Shoals offshore west of Highwater, then the Sunk and the Open Grey. Place prose of PL-0031, 0037, 0041, 0047, 0057. Director's proposals corrected: Sentinel "on a rock at the river mouth" → headland; Storm "on a dune island" → Brackwater; Falls "on a ledge" → spur, crown above the rim; Pale "above the cloister" → cloister round its foot.

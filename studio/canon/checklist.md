@@ -97,6 +97,7 @@ Write at the top of the review: material, version, canon version checked against
 - [ ] **Hall talk vs SEC-037 (v0.9):** before S2E6 nobody knows a Tithe Map's content before its reading; on-screen talk may guess or wager, never cite a source.
 - [ ] **The S1 opening (v0.9, director and artist excerpt §7):** tapestry panels 1, 2, 5 only; no panel 3, 4, 6; no ring, pearl, Ruel's left hand; no Pell and Ione in one composition; Kes never with the gate or its bar; one person's hand over their own mouth, never rows or kneeling.
 - [ ] **The saga opening and the five Spires (v0.10, `world.md` §2 Sites; excerpt §8):** Sentinel on the Gullmouth headland, Sheaf alone in the fields, Pale on the cliff summit inside the cloister, Falls on a spur beside the falls (crown above the rim, nothing on the lip), Storm in Brackwater; Gullmouth north, Pale Crag south, the Shoals west; no two Spire cuts of different lands in a row; the opening board is CY 312 in every season.
+- [ ] **No lullaby in the saga opening (v0.11):** the opening is one for every season and carries no lullaby in any form; the only planted audio clue (verse 10 reversed, SEC-002/SEC-025) sits under the strings of one S2 episode's score, in the scene the lead screenwriter names - never in the opening, the end titles, previews or marketing.
 - [ ] Terms on screen and in subtitles as in `glossary.md` (e.g. *echo-shard*, never *echo-chip*; *death-tone*, TERM-0495).
 
 ## 10. Output of the review

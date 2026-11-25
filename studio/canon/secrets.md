@@ -113,7 +113,7 @@ Answers are in `sealed/sealed.md` (readers: lead-screenwriter, lore-keeper, stud
 | SEC-020 | — |
 | SEC-021 | — |
 | SEC-024 | public line until S10: "the Dry Queen did not deny it"; dossiers name no culprit |
-| SEC-025 | never in marketing, openings or previews before S10E10; the reversed lullaby in the S2 opening is the only planted audio clue (composer excerpt: `excerpts/for_composer.md`, v0.4) |
+| SEC-025 | never in marketing, openings or previews before S10E10; the reversed lullaby under the strings of one S2 episode's score is the only planted audio clue (v0.11, director's decision 2026-11-25, pending the lead screenwriter's confirmation: it was the S2 opening; the saga opening is one for every season and carries no lullaby; the episode and scene are named by the lead screenwriter; composer excerpt: `excerpts/for_composer.md`) |
 | SEC-026 | never in marketing, openings or previews before S10E10; nothing about Vesna's life before the Choir |
 | SEC-027 | Ruel's ring and Pell's shard never share a frame before S12E11 (director and artist excerpt: `excerpts/for_director_and_artist.md`, v0.4) |
 
@@ -162,7 +162,7 @@ min_seasons_hidden: 1
 related: [CH-0001, CH-0015, HS-094, EV-0310, RULE-004]
 ```
 
-Clues: S01E01 the shard hums back (only Wick sees) and rings a note no relay uses · S01E05 the Sluice Spire steadies for three seconds · S01E10 the low hum joins Ione's Great Song · S01E12 the Sunken Spire's crown rings faintly · S02E03 Nan: "Not there. Never there." · S02E08 "It's not in the blood. It's in the mouth." · S2 opening: the lullaby reversed under the strings · S03E04 the Quiet whistle the five notes as a password. Why no relay stone ever answered: RULE-004 prose.
+Clues: S01E01 the shard hums back (only Wick sees) and rings a note no relay uses · S01E05 the Sluice Spire steadies for three seconds · S01E10 the low hum joins Ione's Great Song · S01E12 the Sunken Spire's crown rings faintly · S02E03 Nan: "Not there. Never there." · S02E08 "It's not in the blood. It's in the mouth." · S2, episode score (scene named by the lead screenwriter; v0.11, was the S2 opening): the lullaby reversed under the strings · S03E04 the Quiet whistle the five notes as a password. Why no relay stone ever answered: RULE-004 prose.
 
 ### SEC-003 - The Breaking
 
