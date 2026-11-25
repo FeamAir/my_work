@@ -12,7 +12,8 @@ half-desaturated backing (panorama, the three pennants: board §7.3, keeper Q3).
 End card (every teaser): C13 1981-2087 (the last hit, spray wipe, the logo lands, drains, glint, drop), the K17C plate
 cropped at x = 656, the WHOLE word on one line, 760 px wide (board said ~560; wider reads better on a phone and stays
 inside the safe frame), centre y 1173. Badge "AI-ANIMATED" top left (x 60, y 262), bold, white on a black box.
-Audio: the same seconds of the OP mix + the logo hit 82.54-87.0, joined with a 20 ms crossfade on the cut.
+Audio: the same seconds of the OP mix + the logo hit 82.54-87.0, joined with a 20 ms crossfade on the cut, then each
+teaser to -14 LUFS / TP <= -1 (norm; video stream copied).
 """
 import argparse
 import os
@@ -161,7 +162,34 @@ def write(name, frames, audio, tag=""):
     p.stdin.close()
     if p.wait():
         raise RuntimeError(name)
+    norm(dst)
     return dst
+
+
+def norm(dst):
+    """each teaser to -14 LUFS integrated, TP <= -1 dBTP (the platforms' level; the OP sections alone sit at -11 to -17):
+    one constant gain + op_saga_audio_v12's 4x look-ahead limiter only if needed; the video stream is copied."""
+    import op_saga_audio_v12 as au
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", dst, "-ac", "2", "-ar", str(au.SR), "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    x = np.frombuffer(raw, np.float32).reshape(-1, 2).astype(np.float64)
+    i, _ = au.lufs(x)
+    y = x * 10 ** ((-14.0 - i) / 20)
+    for _ in range(2):                                          # AAC adds ~0.5 dB overshoot: ceiling -2.0 dBTP
+        if au.lufs(y)[1] > -2.0:
+            y, _g = au.limit(y, ceil_db=-2.0)
+            y *= 10 ** ((-14.0 - au.lufs(y)[0]) / 20)
+    y, _g = au.limit(y, ceil_db=-2.0) if au.lufs(y)[1] > -2.0 else (y, 1)
+    i2, tp2 = au.lufs(y)
+    tmp = dst.replace(".mp4", "_n.mp4")
+    nv = int(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-count_packets", "-show_entries",
+                             "stream=nb_read_packets", "-of", "csv=p=0", dst], capture_output=True, text=True).stdout.strip())
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", dst, "-f", "f32le", "-ar", str(au.SR), "-ac", "2", "-i", "-",
+                    "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-af", "apad", "-t", f"{nv / FPS:.5f}", "-c:a", "aac",
+                    "-b:a", "192k", "-map_metadata", "0",
+                    "-movflags", "+faststart", tmp], input=y.astype(np.float32).tobytes(), check=True)
+    os.replace(tmp, dst)
+    print(os.path.basename(dst), f"{i:.1f} -> {i2:.1f} LUFS, TP {tp2:.1f}", flush=True)
 
 
 def sheet(name, frames=None):
@@ -191,7 +219,7 @@ def sheet(name, frames=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["all", "sheet"])
+    ap.add_argument("cmd", choices=["all", "sheet", "norm"])
     ap.add_argument("name", nargs="?")
     ap.add_argument("--audio", default=b.AUDIO, help="one audio input path (the OP mix)")
     ap.add_argument("--tag", default="", help="suffix of the output names (audio swap: candA / candB)")
@@ -199,6 +227,10 @@ def main():
     os.makedirs(OUTV, exist_ok=True)
     if a.cmd == "sheet":
         print(sheet(a.name))
+        return
+    if a.cmd == "norm":
+        for name in ([a.name] if a.name else T):
+            norm(f"{OUTV}/SAGA_OP_v1_2{'_' + a.tag if a.tag else ''}_{name}_9x16.mp4")
         return
     card = end_card()
     for name in ([a.name] if a.name else T):
